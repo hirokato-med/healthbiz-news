@@ -125,7 +125,7 @@ export default function ArticleScreen() {
           style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
           accessibilityRole="link">
           <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
-            {article.kind === 'substack' ? 'Substack で続きを読む ↗' : 'プレスリリース原文を読む ↗'}
+            {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : 'プレスリリース原文を読む ↗'}
           </ThemedText>
         </Pressable>
         {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
@@ -139,7 +139,7 @@ export default function ArticleScreen() {
         ) : null}
         <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
           {article.kind === 'substack'
-            ? '加藤浩晃が Substack で連載している記事です。全文は Substack で読めます。購読するとメールで届きます。'
+            ? '加藤浩晃が連載しているメルマガの記事です。全文はメルマガで読めます。購読するとメールで届きます。'
             : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
         </ThemedText>
       </ScrollView>

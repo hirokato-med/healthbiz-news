@@ -45,7 +45,7 @@ export async function fetchSubstack(): Promise<Article[]> {
       published_date: p.published_date,
       category: 'substack' as const,
       title: p.title,
-      source_name: 'Substack',
+      source_name: '加藤浩晃のメルマガ',
       source_url: p.url,
       summary: [],
       comment: p.excerpt,

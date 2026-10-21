@@ -70,7 +70,7 @@ export function ArticleList({
       out.push({
         kind: 'section',
         key: 'h-channel',
-        title: channel.id === 'substack' ? '加藤浩晃の Substack' : channel.name,
+        title: channel.id === 'substack' ? '加藤浩晃のメルマガ' : channel.name,
         aside: channel.id === 'saved' ? `${list.length}本` : `${formatDateLong(latest)} 更新`,
       });
     }

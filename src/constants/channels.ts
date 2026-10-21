@@ -23,7 +23,7 @@ export const Channels: readonly Channel[] = [
   { id: 'digital', name: 'デジタルヘルス', color: '#F28C28' },
   { id: 'service', name: 'ヘルスケアサービス', color: '#17A2A2' },
   { id: 'policy', name: '政策・規制', color: '#5B6B8A' },
-  { id: 'substack', name: 'Substack', color: '#B8860B' },
+  { id: 'substack', name: 'メルマガ', color: '#B8860B' },
 ] as const;
 
 export const SavedChannel: Channel = { id: 'saved', name: '保存済み', color: '#1E4FD8' };

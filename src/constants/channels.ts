@@ -5,7 +5,7 @@
  * `saved` は下部タブの「保存」画面用で、上部のチャンネル一覧には出さない。
  */
 
-export type ChannelId = 'today' | 'device' | 'wearable' | 'longevity' | 'drug' | 'digital' | 'service' | 'policy' | 'substack' | 'saved';
+export type ChannelId = 'today' | 'device' | 'wearable' | 'longevity' | 'drug' | 'digital' | 'dx' | 'service' | 'policy' | 'substack' | 'saved';
 
 export type Channel = {
   id: ChannelId;
@@ -21,6 +21,7 @@ export const Channels: readonly Channel[] = [
   { id: 'longevity', name: 'ロンジェビティ', color: '#D4357A' },
   { id: 'drug', name: '製薬・創薬', color: '#8E44D6' },
   { id: 'digital', name: 'デジタルヘルス', color: '#F28C28' },
+  { id: 'dx', name: '医療DX', color: '#C8373E' },
   { id: 'service', name: 'ヘルスケアサービス', color: '#17A2A2' },
   { id: 'policy', name: '政策・規制', color: '#5B6B8A' },
   { id: 'substack', name: 'メルマガ', color: '#B8860B' },

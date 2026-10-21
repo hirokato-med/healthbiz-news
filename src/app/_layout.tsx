@@ -12,6 +12,7 @@ export default function RootLayout() {
         <Stack screenOptions={{ headerShown: false }}>
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="article/[id]" />
+          <Stack.Screen name="privacy" />
         </Stack>
         <StatusBar style="auto" />
       </StoreProvider>

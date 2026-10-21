@@ -1,3 +1,4 @@
+import { useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -12,6 +13,7 @@ import { useTheme } from '@/hooks/use-theme';
 export default function AboutScreen() {
   const insets = useSafeAreaInsets();
   const theme = useTheme();
+  const router = useRouter();
   return (
     <ThemedView style={styles.root}>
       <View style={[styles.header, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
@@ -39,12 +41,10 @@ export default function AboutScreen() {
             ヘルスケアイノベーション通信。登録するとメールで届きます。
           </ThemedText>
         </Pressable>
-        <Pressable
-          onPress={() => WebBrowser.openBrowserAsync('https://example.com/privacy')}
-          style={[styles.link, { borderBottomColor: theme.line }]}
-          accessibilityRole="link">
-          <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>プライバシーポリシー ↗</ThemedText>
+        <Pressable onPress={() => router.push('/privacy')} style={[styles.link, { borderBottomColor: theme.line }]} accessibilityRole="link">
+          <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>プライバシーポリシー ›</ThemedText>
         </Pressable>
+        <Row label="お問い合わせ" value={Links.contactEmail} theme={theme} />
       </ScrollView>
     </ThemedView>
   );

@@ -29,4 +29,6 @@ export type Article = {
   comment: string;
   image_url?: string | null;
   company?: Company | null;
+  /** その日の注目記事（トップで大きく出す）。無ければその日の先頭 */
+  featured?: boolean | null;
 };

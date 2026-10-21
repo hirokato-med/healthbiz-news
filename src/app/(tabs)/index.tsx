@@ -45,9 +45,11 @@ export default function HomeScreen() {
     };
   }, [articles]);
 
-  const onMomentumEnd = useCallback(
+  // Web（Safari）では onMomentumScrollEnd が発火しないので、onScroll でもページ位置を追従する
+  const onScroll = useCallback(
     (e: NativeSyntheticEvent<NativeScrollEvent>) => {
-      setIndex(Math.round(e.nativeEvent.contentOffset.x / width));
+      const i = Math.round(e.nativeEvent.contentOffset.x / width);
+      if (i >= 0 && i < Channels.length) setIndex((prev) => (prev === i ? prev : i));
     },
     [width],
   );
@@ -97,7 +99,9 @@ export default function HomeScreen() {
             pagingEnabled
             bounces={false}
             showsHorizontalScrollIndicator={false}
-            onMomentumScrollEnd={onMomentumEnd}
+            onScroll={onScroll}
+            onMomentumScrollEnd={onScroll}
+            scrollEventThrottle={32}
             getItemLayout={(_, i) => ({ length: width, offset: width * i, index: i })}
             renderItem={({ item }) => <ArticleList channel={item} width={width} height={pagerHeight} />}
             // 隣のチャンネルは先に描いておき、スワイプ時に白く見えないようにする

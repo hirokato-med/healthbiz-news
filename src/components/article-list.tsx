@@ -44,8 +44,11 @@ export function ArticleList({
       const todays = articles.filter((a) => a.published_date === today);
       const past = articles.filter((a) => a.published_date !== today);
       if (todays.length) {
+        // featured が付いた記事を先頭に（無ければ先頭の記事）
+        const lead = todays.find((a) => a.featured) ?? todays[0];
+        const ordered = [lead, ...todays.filter((a) => a !== lead)];
         out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: `${todays.length}本` });
-        todays.forEach((a, i) => out.push({ kind: i === 0 ? 'featured' : 'article', key: a.id, article: a }));
+        ordered.forEach((a, i) => out.push({ kind: i === 0 ? 'featured' : 'article', key: a.id, article: a }));
       } else {
         out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: '22時ごろ更新' });
       }

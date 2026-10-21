@@ -85,6 +85,7 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 - **company**: 上記3の条件に合う会社だけ。`name` / `profile`（設立年月、所在地、資本金、上場/未上場、事業内容、許認可を1段落。代表者名は入れない）/ `url` / `ceo: { name, bio }`。
 - **published_date**: 今日の日付。
 - **category**: 6つのどれか。
+- **featured**: 厚く書いた1本だけ `true`（トップで大きく出す。画像があるものが望ましい）。
 
 ### 5. 投稿
 1. `pipeline/today.json` に書く（形は `pipeline/example.json`）。

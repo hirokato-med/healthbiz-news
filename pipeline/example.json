@@ -3,6 +3,7 @@
     {
       "published_date": "2026-10-21",
       "category": "service",
+      "featured": true,
       "title": "社名、サービス名が〜した（どこが何をしたかが見出しだけでわかる形。50字前後）",
       "source_name": "発信元の企業名・省庁名（法人格は省く）",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000012345.html",

@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-10-21T21:54:38.980Z",
+  "updated_at": "2026-10-21T22:41:40.875Z",
   "articles": [
+    {
+      "id": "3326b18d-9489-414f-ba63-52b3e56c9650",
+      "created_at": "2026-10-21T22:41:40.875Z",
+      "published_date": "2026-10-21",
+      "category": "digital",
+      "featured": false,
+      "title": "TXP Medical、群馬大学病院に生成AIの医療文書作成支援「NEXT Stage Document Assistant」を導入。退院サマリの下書きを自動生成",
+      "source_name": "TXP Medical",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000191.000031630.html",
+      "source_url_2": "https://www.gunma-u.ac.jp/information/286035",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/31630/191/31630-191-41bdc85abe063f179df36047b73dfd98-1841x570.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "群馬県唯一の特定機能病院・群馬大学医学部附属病院（722床）が、電子カルテの検査結果や経過記録から退院サマリや診療情報提供書の下書きを生成するNSDAを導入した。",
+        "機微情報を扱う大規模病院向けに院内サーバー（オンプレミス）で運用。文書作成の裏で研究に使える構造化データを自動生成し、治験やレジストリ登録への活用を見込む。",
+        "TXP Medicalの救急向け基幹システム「NEXT Stage ER」は全国100か所以上の大病院で稼働し、救急隊向け「NSER mobile」は51地域で運用。東京都立墨東病院にもNSDAを導入済み。"
+      ],
+      "comment": "退院サマリと紹介状は、医師の残業の中でも最も削りやすい仕事です。自分が注目したのは、「書いた文書の裏で研究用の構造化データが自動でできる」という設計です。大学病院は臨床と研究の二重入力に疲れているので、この一点で選ばれます。救急の基幹システムで大病院の半分を取った会社が、同じ病院に次の製品を入れる王道の横展開だと思います。",
+      "company": {
+        "name": "TXP Medical株式会社",
+        "profile": "2017年8月設立、東京都千代田区。資本金1億円、未上場。救急・集中治療向けの医療データプラットフォーム「NEXT Stageシリーズ」の開発・提供、急性期医療AIの開発、臨床研究支援とリアルワールドデータ事業。",
+        "url": "https://txpmedical.jp/",
+        "ceo": {
+          "name": "園生智弘",
+          "bio": "医師。救急集中治療医で、2017年8月にTXP Medicalを設立。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T22:41:40.875Z"
+    },
     {
       "id": "95efb05a-6486-408e-b146-400d8b810136",
       "created_at": "2026-10-21T15:17:18.592Z",

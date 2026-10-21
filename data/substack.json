@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-21T21:54:39.698Z",
+  "updated_at": "2026-10-21T22:41:41.730Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1022lancet-digital-health1ai521",
+      "title": "Lancet Digital Health、顔写真1枚でAIが「見た目の年齢」とがんの生存を読む、実年齢より5歳以上老けて見える患者は死亡リスクが21%高かった",
+      "url": "https://hiroakikato.substack.com/p/1022lancet-digital-health1ai521",
+      "published_date": "2026-10-22",
+      "excerpt": "木曜日です。今日は「編集後記」で大きなお知らせがあります！！\nなのでぜひ最後まで読んでもらいたいです。\n今日は論文のを取り上げていきます。\n10月18日のメルマガで、一晩の睡眠の記録から10年先の病気をAIが予測する話を書きました。\n今日はその続きで、測るものが顔写真1枚になります！！\nハーバード系のマス・ジェネラル・ブリガムの研究チームが10月19日にLancet Digital Healthに出した論文です。\nそれでは、今日のニュースです！！\n◆Foundation artificial intelligence models for health recognition by use o…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!sFXw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c59e15f-4134-4044-b726-2a4a2dd74a33_807x488.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1021rock-health153",
       "title": "Rock Healthレビュー、15年の節目に出た「やることリスト」は3つ、臨床の証拠・続く事業モデル・学び合い",
@@ -152,14 +160,6 @@
       "published_date": "2026-10-03",
       "excerpt": "土曜日です。今日もよろしくお願いします！！\n先週の9月25日のメルマガで「Oura、上場で時価総額2兆円へ」と書きました。\nそのOuraの上場が、値決めの直前で延期になりました。\n公式の理由は「需要は強いが、IPO市場が不透明」。\n関係者の話では、売り出し価格が仮条件の下限で決まりそうだったので見送ったということのようです。\n今日は、この延期を「市場はOuraを何の会社だと見たのか」という答え合わせとして書いていきます。\nそれでは、今日のニュースです。\n◆Oura postpon…\n Read more",
       "image_url": "https://substackcdn.com/image/fetch/$s_!iwQd!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2df5e14b-47da-4137-a6cc-06cd50ebb53f_1280x1280.png"
-    },
-    {
-      "id": "substack:https://hiroakikato.substack.com/p/102jamaai4ai",
-      "title": "JAMA、自律型の臨床AIに「医師免許」を与える提案に4通の反論、争点は「AIは医師になれるか」ではなく「責任を誰に残すか」",
-      "url": "https://hiroakikato.substack.com/p/102jamaai4ai",
-      "published_date": "2026-10-02",
-      "excerpt": "金曜日です。今日もよろしくお願いします！！\n昨日は「臨床医AI科学者」という医師の新しいキャリアの話でした。\n今日はその裏返しで、「AIに医師免許を」という話です。\nJAMAに4月、医師の判断を介さずに診療するAIに、医師と同じような免許制度を作ろうという提案が載りました。\n書いたのは、ペンシルベニア大学のアロン・バーグマン氏と、UCSFのロバート・ワクター教授、オバマ政権の医療改革を設計したエゼキエル・エマニュエル教授です。\n9月30日、この提案に4通の反論と、著者の返答が…\n Read more",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!V2PM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94352fbd-d3e7-4a8b-990b-7edbf70aeb88_792x458.png"
     }
   ]
 }

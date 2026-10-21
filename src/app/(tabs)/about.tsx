@@ -34,7 +34,7 @@ export default function AboutScreen() {
           onPress={() => WebBrowser.openBrowserAsync(Links.substackSubscribe)}
           style={[styles.link, { borderBottomColor: theme.line }]}
           accessibilityRole="link">
-          <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>加藤浩晃の Substack を購読する ↗</ThemedText>
+          <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>加藤浩晃のメルマガを購読する ↗</ThemedText>
           <ThemedText type="caption" themeColor="textSecondary">
             ヘルスケアイノベーション通信。登録するとメールで届きます。
           </ThemedText>

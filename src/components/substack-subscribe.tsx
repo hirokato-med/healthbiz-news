@@ -18,7 +18,7 @@ export function SubstackSubscribe({ compact = false }: { compact?: boolean }) {
         onPress={open}
         style={({ pressed }) => [styles.button, styles.buttonOutline, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
         accessibilityRole="link">
-        <ThemedText style={[styles.buttonText, { color: theme.accent }]}>Substack を購読する ↗</ThemedText>
+        <ThemedText style={[styles.buttonText, { color: theme.accent }]}>メルマガを購読する ↗</ThemedText>
       </Pressable>
     );
   }
@@ -30,7 +30,7 @@ export function SubstackSubscribe({ compact = false }: { compact?: boolean }) {
         <View style={{ flex: 1 }}>
           <ThemedText style={styles.title}>加藤浩晃のヘルスケアイノベーション通信</ThemedText>
           <ThemedText type="caption" themeColor="textSecondary">
-            Substack で配信中。登録するとメールで届きます。
+            メルマガで配信中。登録するとメールで届きます。
           </ThemedText>
         </View>
       </View>
@@ -38,7 +38,7 @@ export function SubstackSubscribe({ compact = false }: { compact?: boolean }) {
         onPress={open}
         style={({ pressed }) => [styles.button, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
         accessibilityRole="link">
-        <ThemedText style={[styles.buttonText, { color: theme.onAccent }]}>Substack を購読する ↗</ThemedText>
+        <ThemedText style={[styles.buttonText, { color: theme.onAccent }]}>メルマガを購読する ↗</ThemedText>
       </Pressable>
     </View>
   );

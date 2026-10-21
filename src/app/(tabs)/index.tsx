@@ -1,11 +1,12 @@
 import { useCallback, useMemo, useRef, useState } from 'react';
 import {
-  FlatList,
+  ScrollView,
   StyleSheet,
   useWindowDimensions,
   View,
   type NativeScrollEvent,
   type NativeSyntheticEvent,
+  type ScrollViewInstance,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -13,7 +14,7 @@ import { ArticleList } from '@/components/article-list';
 import { ChannelTabs } from '@/components/channel-tabs';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { Channels, type Channel } from '@/constants/channels';
+import { Channels } from '@/constants/channels';
 import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
@@ -28,7 +29,7 @@ export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const theme = useTheme();
   const { articles } = useStore();
-  const pagerRef = useRef<FlatList<Channel>>(null);
+  const pagerRef = useRef<ScrollViewInstance>(null);
   const [index, setIndex] = useState(0);
   // 横ページャーの高さ。各チャンネルの一覧に明示的に渡す（Web では stretch だけだと高さが 0 になる）
   const [pagerHeight, setPagerHeight] = useState(0);
@@ -55,10 +56,13 @@ export default function HomeScreen() {
     [width],
   );
 
-  const selectTab = useCallback((i: number) => {
-    setIndex(i);
-    pagerRef.current?.scrollToIndex({ index: i, animated: true });
-  }, []);
+  const selectTab = useCallback(
+    (i: number) => {
+      setIndex(i);
+      pagerRef.current?.scrollTo({ x: width * i, animated: true });
+    },
+    [width],
+  );
 
   return (
     <ThemedView style={styles.root}>
@@ -91,25 +95,20 @@ export default function HomeScreen() {
       </View>
 
       <View style={styles.pager} onLayout={(e) => setPagerHeight(e.nativeEvent.layout.height)}>
-        {(
-          <FlatList
-            ref={pagerRef}
-            data={Channels}
-            keyExtractor={(c) => c.id}
-            horizontal
-            pagingEnabled
-            bounces={false}
-            showsHorizontalScrollIndicator={false}
-            onScroll={onScroll}
-            onMomentumScrollEnd={onScroll}
-            scrollEventThrottle={32}
-            getItemLayout={(_, i) => ({ length: width, offset: width * i, index: i })}
-            renderItem={({ item }) => <ArticleList channel={item} width={width} height={pagerHeight || undefined} />}
-            // 隣のチャンネルは先に描いておき、スワイプ時に白く見えないようにする
-            initialNumToRender={2}
-            windowSize={3}
-          />
-        )}
+        {/* 全チャンネルを並べた横ページャー。FlatList の仮想化だと Web で遠いページが描画されないので ScrollView にしている */}
+        <ScrollView
+          ref={pagerRef}
+          horizontal
+          pagingEnabled
+          bounces={false}
+          showsHorizontalScrollIndicator={false}
+          onScroll={onScroll}
+          onMomentumScrollEnd={onScroll}
+          scrollEventThrottle={32}>
+          {Channels.map((c) => (
+            <ArticleList key={c.id} channel={c} width={width} height={pagerHeight || undefined} />
+          ))}
+        </ScrollView>
       </View>
     </ThemedView>
   );

@@ -30,8 +30,8 @@ node pipeline/prtimes.mjs 医療 ヘルスケア > /tmp/list.json
 - 医療: https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=%E5%8C%BB%E7%99%82
 - ヘルスケア: https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=%E3%83%98%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%A2
 
-拾う範囲は **前回の配信日の22時から今まで** に出たもの。前回の配信が無ければ当日0時以降。
-22時以降に出たリリースは翌日分に回してよい。
+拾う範囲は **前回の配信（`data/articles.json` の `updated_at`）から今まで** に出たもの。前回の配信が無ければ当日0時以降。
+実行時刻の直前（30分以内）に出たリリースは翌日分に回してよい。
 一覧の日時は相対表記（「3時間前」）で潰れていることがあるので、候補に残したものは記事ページで正確な日時を確認する。
 
 ### 2. 絞り込み（実感として40件のうち残るのは2〜5件）

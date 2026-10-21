@@ -35,8 +35,9 @@ export default function HomeScreen() {
 
   const ticker = useMemo(() => {
     const today = todayJST();
-    const count = articles.filter((a) => a.published_date === today).length;
-    const latest = articles[0]?.published_date;
+    const news = articles.filter((a) => a.kind !== 'substack');
+    const count = news.filter((a) => a.published_date === today).length;
+    const latest = news[0]?.published_date;
     return {
       label: '本日の配信',
       count,

@@ -19,6 +19,7 @@ for (const [, item] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
   if (!title || !url || !pub) continue;
   const description = tag(item, 'description');
   const content = tag(item, 'content:encoded');
+  // description はあいさつ文だけなので、本文（content:encoded）から冒頭を取る
   const image = item.match(/<enclosure[^>]+url="([^"]+)"/)?.[1] ?? content?.match(/<img[^>]+src="([^"]+)"/)?.[1] ?? null;
   posts.push({
     id: `substack:${tag(item, 'guid') ?? url}`,
@@ -26,7 +27,7 @@ for (const [, item] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
     url,
     // 公開日（JST）
     published_date: new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date(pub)),
-    excerpt: excerpt(description || content || ''),
+    excerpt: excerpt(content || description || ''),
     image_url: image ? unescapeHtml(image) : null,
   });
 }
@@ -44,10 +45,17 @@ function cleanTitle(t) {
   return unescapeHtml(t).replace(/^\d{1,2}月\d{1,2}日（[月火水木金土日]）[：:]\s*/, '');
 }
 
-/** 本文の冒頭。あいさつ文を外して 300 字まで */
+/** 本文の冒頭。あいさつ・号数の罫線・購読のお願いを外して 300 字まで */
 function excerpt(htmlText) {
-  let t = unescapeHtml(unescapeHtml(htmlText).replace(/<br\s*\/?>|<\/p>/gi, '\n').replace(/<[^>]+>/g, ''));
-  t = t.replace(/おはようございます[！!]?\s*加藤浩晃です[。.]?\s*/g, '').replace(/\n\s*\n+/g, '\n').trim();
+  let t = unescapeHtml(unescapeHtml(htmlText).replace(/<br\s*\/?>|<\/p>|<\/div>/gi, '\n').replace(/<[^>]+>/g, ''));
+  t = t
+    .replace(/おはようございます[！!]?\s*加藤浩晃です[。.]?/g, '')
+    .replace(/[━─]{5,}/g, '')
+    .replace(/加藤浩晃のヘルスケアイノベーション通信\s*vol\.?\s*\d+[^\n]*/g, '')
+    .replace(/加藤浩晃のヘルスケアイノベーション通信\s*は読者の支援[^\n]*/g, '')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n\s*\n+/g, '\n')
+    .trim();
   return t.length > 300 ? t.slice(0, 300).trimEnd() + '…' : t;
 }
 

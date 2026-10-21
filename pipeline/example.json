@@ -2,16 +2,27 @@
   "articles": [
     {
       "published_date": "2026-10-21",
-      "category": "device",
-      "title": "記事タイトル（プレスリリースの要点を1文で）",
-      "source_name": "発信元の企業名・省庁名",
-      "source_url": "https://example.com/press/2026-10-21",
+      "category": "service",
+      "title": "社名、サービス名が〜した（どこが何をしたかが見出しだけでわかる形。50字前後）",
+      "source_name": "発信元の企業名・省庁名（法人格は省く）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000012345.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/12345/1/12345-1-xxxx.jpg",
       "summary": [
-        "要点1（1文）",
+        "要点1（1文。金額・相手・日付などの事実）",
         "要点2（1文）",
         "要点3（1文）"
       ],
-      "comment": "加藤浩晃のコメント（150〜250字。業界の文脈、見るべき数字、今後の注目点）"
+      "comment": "加藤浩晃のコメント。厚く書く1本は250〜350字、それ以外は60〜150字。文体は COMMENT_STYLE.md",
+      "company": {
+        "name": "株式会社〇〇",
+        "profile": "2018年5月設立、東京都港区。資本金1億円、未上場。〇〇の開発・販売。（未上場で知名度が高くない会社にだけ付ける。代表者名は入れない）",
+        "url": "https://example.com/",
+        "ceo": {
+          "name": "氏名",
+          "bio": "医師。〇〇大学在学中に起業し、…（資格は確認できたときだけ書く）"
+        }
+      }
     }
   ]
 }

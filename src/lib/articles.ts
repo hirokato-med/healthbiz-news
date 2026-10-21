@@ -2,21 +2,28 @@ import { MockArticles } from './mock-articles';
 import { supabase } from './supabase';
 import type { Article } from './types';
 
+/** 本番の記事データ。配信パイプラインが毎晩ここに push する */
+const DefaultArticlesUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json';
+
 /**
- * 記事の取得元。優先順:
- *   1. EXPO_PUBLIC_ARTICLES_URL — 記事 JSON の URL（GitHub 上の data/articles.json など）
- *   2. Supabase（EXPO_PUBLIC_SUPABASE_URL / ANON_KEY）
- *   3. どちらも無ければサンプル記事
+ * 記事の取得元。EXPO_PUBLIC_ARTICLES_URL で切り替える:
+ *   未設定      → 本番の JSON（DefaultArticlesUrl）
+ *   "mock"      → サンプル記事（画面を作るとき用）
+ *   "supabase"  → Supabase（EXPO_PUBLIC_SUPABASE_URL / ANON_KEY が必要）
+ *   それ以外の URL → その JSON
  */
-const articlesUrl = process.env.EXPO_PUBLIC_ARTICLES_URL;
+const articlesUrl = process.env.EXPO_PUBLIC_ARTICLES_URL ?? DefaultArticlesUrl;
 
 type ArticleRow = Article & { status?: string };
 
 /** 直近の配信を新しい順に取得する。 */
 export async function fetchArticles(): Promise<Article[]> {
-  if (articlesUrl) return fetchFromJson(articlesUrl);
-  if (supabase) return fetchFromSupabase();
-  return MockArticles;
+  if (articlesUrl === 'mock') return MockArticles;
+  if (articlesUrl === 'supabase') {
+    if (!supabase) throw new Error('Supabase の設定がありません');
+    return fetchFromSupabase();
+  }
+  return fetchFromJson(articlesUrl);
 }
 
 async function fetchFromJson(url: string): Promise<Article[]> {

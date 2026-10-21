@@ -94,12 +94,44 @@ export default function ArticleScreen() {
           <ThemedText type="comment">{article.comment}</ThemedText>
         </View>
 
+        {article.company ? (
+          <>
+            <ThemedText type="section" style={styles.sectionLabel}>
+              {article.company.name}
+            </ThemedText>
+            <ThemedText style={styles.companyText}>{article.company.profile}</ThemedText>
+            {article.company.ceo ? (
+              <View style={styles.ceo}>
+                <ThemedText type="caption" style={{ fontWeight: '700' }}>
+                  ▸ 代表：{article.company.ceo.name}
+                </ThemedText>
+                <ThemedText style={styles.companyText}>{article.company.ceo.bio}</ThemedText>
+              </View>
+            ) : null}
+            {article.company.url ? (
+              <Pressable onPress={() => WebBrowser.openBrowserAsync(article.company!.url!)} accessibilityRole="link">
+                <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                  会社サイト ↗
+                </ThemedText>
+              </Pressable>
+            ) : null}
+          </>
+        ) : null}
+
         <Pressable
           onPress={() => WebBrowser.openBrowserAsync(article.source_url)}
           style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
           accessibilityRole="link">
           <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>プレスリリース原文を読む ↗</ThemedText>
         </Pressable>
+        {article.source_url_2 ? (
+          <Pressable
+            onPress={() => WebBrowser.openBrowserAsync(article.source_url_2!)}
+            style={({ pressed }) => [styles.sourceButton, styles.sourceButtonSecondary, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
+            accessibilityRole="link">
+            <ThemedText style={[styles.sourceButtonText, { color: theme.accent }]}>相手方のリリースも読む ↗</ThemedText>
+          </Pressable>
+        ) : null}
         <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
           要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。
         </ThemedText>
@@ -157,6 +189,9 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.four - 2,
     alignItems: 'center',
   },
+  sourceButtonSecondary: { backgroundColor: 'transparent', borderWidth: 1.5, marginTop: Spacing.two },
   sourceButtonText: { fontSize: 15, lineHeight: 20, fontWeight: '700' },
+  companyText: { fontSize: 14, lineHeight: 23 },
+  ceo: { marginTop: Spacing.two, gap: Spacing.one },
   disclaimer: { marginTop: Spacing.three, lineHeight: 18 },
 });

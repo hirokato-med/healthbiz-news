@@ -18,7 +18,7 @@ export const Channels: readonly Channel[] = [
   { id: 'today', name: 'トップ', color: '#E8363D' },
   { id: 'device', name: '医療機器', color: '#2F7BE6' },
   { id: 'wearable', name: 'ウェアラブル', color: '#2BB673' },
-  { id: 'drug', name: '創薬', color: '#8E44D6' },
+  { id: 'drug', name: '製薬・創薬', color: '#8E44D6' },
   { id: 'digital', name: 'デジタルヘルス', color: '#F28C28' },
   { id: 'service', name: 'ヘルスケアサービス', color: '#17A2A2' },
   { id: 'policy', name: '政策・規制', color: '#5B6B8A' },

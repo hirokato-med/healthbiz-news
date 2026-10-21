@@ -51,7 +51,7 @@ node pipeline/prtimes.mjs 医療 ヘルスケア > /tmp/list.json
 - 医療と無関係なもの
 - すでに `data/articles.json` にある source_url
 
-カテゴリは次の6つから1つ: `device`（医療機器）/ `wearable`（ウェアラブル）/ `drug`（創薬）/ `digital`（デジタルヘルス・SaMD・オンライン診療・医療AI）/ `service`（ヘルスケアサービス・保険・健康経営・美容）/ `policy`（政策・規制）。
+カテゴリは次の6つから1つ: `device`（医療機器）/ `wearable`（ウェアラブル）/ `drug`（製薬・創薬・OTC）/ `digital`（デジタルヘルス・SaMD・オンライン診療・医療AI）/ `service`（ヘルスケアサービス・保険・健康経営・美容）/ `policy`（政策・規制）。
 
 ### 3. 調べる
 - **いちばん重要な1本を先に決める。** この1本だけ厚く書く。

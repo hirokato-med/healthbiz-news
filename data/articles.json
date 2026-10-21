@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T15:17:18.592Z",
+  "updated_at": "2026-10-21T15:26:14.680Z",
   "articles": [
     {
       "id": "95efb05a-6486-408e-b146-400d8b810136",
@@ -184,6 +184,35 @@
       "status": "published",
       "updated_at": "2026-10-21T03:21:54.341Z",
       "featured": false
+    },
+    {
+      "id": "00e168e9-2ee9-4e32-8c8f-2c8f4627bafd",
+      "created_at": "2026-10-21T15:26:14.680Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000193.000046445.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/46445/193/46445-193-4c5d71d04288355ad33227a7370495b1-908x162.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "device",
+      "featured": false,
+      "published_date": "2026-10-20",
+      "source_name": "ジャパン・メディカル・カンパニー",
+      "title": "ジャパン・メディカル・カンパニー、サウジアラビアの大学病院で乳児の頭蓋健診とヘルメット治療を開始。海外2カ国目",
+      "summary": [
+        "サウジ東部州のKing Fahd Hospital of the Universityで、同社製ヘルメット「Qurum Fit」を使う頭のかたち外来が始まった。シンガポールに続く海外2カ国目。",
+        "診療は現地の小児脳神経外科医が担い、日本の小児脳神経外科医が症例検討と教育を継続する。同社は3Dデータ処理、製造、品質管理を担う。",
+        "同病院は日本ヘルメット治療評価認定機構の海外認定医療機関。提携先の「0歳からの頭のかたちクリニック」は診療2万件、ヘルメット治療9,000組の経験を持つ。"
+      ],
+      "comment": "乳児の頭のかたちは、日本では2012年ごろから治療が広がった比較的新しい市場です。自分が注目したのは、「製品を売るのではなく、鑑別診断から適応判断までの診療の型を認定制度ごと輸出した」ところです。ヘルメットだけ売れば過剰治療の批判を招きます。医師の教育を一緒に持ち込むのが、この分野で信頼を得る方法だと思います。",
+      "company": {
+        "name": "株式会社ジャパン・メディカル・カンパニー",
+        "profile": "2018年5月設立、東京都中央区。資本金2,323万円、未上場。3Dプリント技術を使った医療機器の開発・製造で、乳児の頭蓋変形を矯正するヘルメットや脳神経外科の手術トレーニングモデル「KEZLEX」を提供。",
+        "url": "https://japanmedicalcompany.co.jp/",
+        "ceo": {
+          "name": "大野秀晃",
+          "bio": "経歴確認できない"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T15:26:14.680Z"
     },
     {
       "id": "8bfcd711-0163-471b-b976-3128fe0fe1cd",
@@ -395,6 +424,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/89680/13/89680-13-d8c70223ef14876d1f0135247aa7db90-894x171.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "5ba14585-5c96-42c0-9186-6b611e6f5da6",
+      "created_at": "2026-10-21T15:26:14.680Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000075.000041759.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/41759/75/41759-75-6ffbb655ea23a2721a6bad0945d15e54-866x639.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "device",
+      "featured": false,
+      "published_date": "2026-10-16",
+      "source_name": "日本ストライカー",
+      "title": "日本ストライカー、横浜に国内6拠点目の物流センターを開設。手術ロボットや内視鏡など大型機器の出荷とアフターサービスを担う",
+      "summary": [
+        "10月19日に横浜市神奈川区に1,200坪超の横浜物流センターを開設。西日本物流センターに次ぐ規模で、ロボティクス製品、内視鏡カメラシステム、AED、電動ストレッチャーなどを扱う。",
+        "2023〜2024年に福岡、宮城、北海道に物流センターを開いたのに続く拠点で、大型機器のアフターサービスにも順次対応する。",
+        "緊急対応用倉庫は現在9都道府県。2026年末までに新潟・埼玉・香川・鹿児島に新設し、災害や悪天候時の供給体制を強化する。"
+      ],
+      "comment": "医療機器メーカーの競争力は製品だけでなく、手術当日に器械が確実に届くかで決まります。自分が注目したのは、「緊急対応用倉庫を13都道府県に広げる」という地味な投資です。整形外科の手術は器械セットの貸し出しが前提で、物流が止まれば手術が止まる。外資が日本で物流に投資するのは、それだけ国内の売上が大きいからだと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T15:26:14.680Z"
     },
     {
       "id": "eeecaf9c-daf6-4ef3-9623-8f05c466f6a3",
@@ -1318,6 +1367,26 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "7e5d9078-4462-4b8f-8af9-41e072911caa",
+      "created_at": "2026-10-21T15:26:14.680Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000184349.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/184349/28/184349-28-11101b1869c9a71e618d6a98ecd06de0-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "device",
+      "featured": false,
+      "published_date": "2026-10-01",
+      "source_name": "国立がん研究センター",
+      "title": "国立がん研究センター、粉末型の癒着防止材SI-449が直腸がん術後の癒着を93%から45%に減らすことを53施設の比較試験で確認",
+      "summary": [
+        "直腸がんの開腹手術で閉腹前にSI-449を散布した群と無処置群を、全国53施設の多施設共同ランダム化比較試験で比較した。",
+        "癒着発生率は無処置群93%に対しSI-449群45%。癒着の重症度と範囲も有意に抑制され、因果関係のある有害事象は認められなかった。",
+        "従来のシート型・スプレー型は凹凸のある組織に行き渡りにくかった。結果はJAMA Surgeryに8月26日付で掲載され、腹腔鏡・ロボット手術への応用を見込む。"
+      ],
+      "comment": "癒着防止材は地味ですが、腸閉塞や再手術の難しさに直結する機器です。自分が注目したのは、「無処置群を置いたRCTを53施設で組んだ」ことで、既存のシート型との比較ではなく効果の絶対値を示した点です。粉末なら腹腔鏡やロボット手術のポートからも撒けるので、適応が広がれば単価は低くても数が出る製品になると思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T15:26:14.680Z"
+    },
+    {
       "id": "79905552-4f25-4681-8bd7-2de1dce69bd4",
       "created_at": "2026-10-21T07:12:31.327Z",
       "published_date": "2026-10-01",
@@ -1941,6 +2010,26 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "526e06c3-6818-425b-936c-49c6de327db1",
+      "created_at": "2026-10-21T15:26:14.680Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000017062.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/17062/229/17062-229-57b8b2ac9744473d1e89819770cffbc3-1555x1036.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "device",
+      "featured": false,
+      "published_date": "2026-09-15",
+      "source_name": "テュフズードジャパン",
+      "title": "メディカロイドの手術支援ロボット「hinotori」が欧州MDR認証を取得。日本語での実地審査を経てCEマークで欧州販売が可能に",
+      "summary": [
+        "川崎重工業とシスメックスの合弁であるメディカロイド（神戸市）の「hinotori サージカルロボットシステム」が、欧州医療機器規則（MDR）に基づくEU認証書を取得した。",
+        "認証はドイツのTÜV SÜD Product Service GmbHが発行。テュフズードジャパンの国内チームが実地審査や技術文書評価の一部と、国内試験所での安全試験を担った。",
+        "国内で日本語によるMDR審査や技術評価ができる機関は限られており、日本企業の欧州展開の壁になっているとテュフズードは説明する。"
+      ],
+      "comment": "国産手術ロボットの最大の壁は、国内で売れても海外に出られないことでした。自分が注目したのは、「MDRの実地審査と技術文書の評価を、日本語で国内チームがやった」点です。欧州の規制対応は言語と時間のコストが大きく、スタートアップには重い。認証機関が日本に体制を持つこと自体が、医療機器輸出のインフラだと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T15:26:14.680Z"
+    },
+    {
       "id": "ee96c5cf-81f6-4451-980c-d23b9cec06ea",
       "created_at": "2026-10-21T07:12:31.327Z",
       "published_date": "2026-09-15",
@@ -2017,6 +2106,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/33983/139/33983-139-1339eff1eda19c8eb67d3821157a936e-1705x922.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "65fb976d-8fc3-455a-abec-b7aa6b52a6fd",
+      "created_at": "2026-10-21T15:26:14.680Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000003.000152083.html",
+      "source_url_2": null,
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "category": "device",
+      "featured": false,
+      "published_date": "2026-09-14",
+      "source_name": "デクスコムジャパン",
+      "title": "デクスコム、15日間装着できるリアルタイムCGM「Dexcom G7 15Day」が薬事承認。月2回の交換で血糖を連続把握",
+      "summary": [
+        "持続グルコースモニタ「Dexcom G7 15Day CGMシステム」が製造販売承認を取得。装着期間は15日と12時間の猶予で、月2回の交換で1か月を途切れずカバーする。",
+        "新しいアルゴリズムで精度指標MARDは8.0%、装着開始期から終了期まで7.3〜8.9%で安定（Dexcom社の資金による臨床試験）。",
+        "インスリン自己注射を行う18歳以上の糖尿病患者が公的保険診療で使える。デクスコムは1999年設立で米サンディエゴに本社を置く。"
+      ],
+      "comment": "CGMの競争は精度から装着日数に移っています。自分が注目したのは、「15日で月2回交換」という設計が、患者の手間だけでなく医療機関の在庫や算定の手間も減らす点です。日数で一歩先に出たことで、病院が機種を選ぶ理由ができます。保険診療の対象が広がれば、インスリンを使わない2型糖尿病にも市場が伸びると思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T15:26:14.680Z"
     },
     {
       "id": "cc0b8068-2b98-4838-926d-9b28a36c044b",

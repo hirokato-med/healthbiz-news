@@ -96,6 +96,7 @@ export default function HomeScreen() {
 
       <View style={styles.pager} onLayout={(e) => setPagerHeight(e.nativeEvent.layout.height)}>
         {/* 全チャンネルを並べた横ページャー。FlatList の仮想化だと Web で遠いページが描画されないので ScrollView にしている */}
+        {pagerHeight > 0 && (
         <ScrollView
           ref={pagerRef}
           horizontal
@@ -106,9 +107,10 @@ export default function HomeScreen() {
           onMomentumScrollEnd={onScroll}
           scrollEventThrottle={32}>
           {Channels.map((c) => (
-            <ArticleList key={c.id} channel={c} width={width} height={pagerHeight || undefined} />
+            <ArticleList key={c.id} channel={c} width={width} height={pagerHeight} />
           ))}
         </ScrollView>
+        )}
       </View>
     </ThemedView>
   );

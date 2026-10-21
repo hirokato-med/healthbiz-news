@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T10:29:30.422Z",
+  "updated_at": "2026-10-21T14:45:13.634Z",
   "articles": [
     {
       "id": "186d2a77-7319-4ce5-97d0-0ac00d126bf1",
@@ -164,6 +164,35 @@
       "status": "published",
       "updated_at": "2026-10-21T03:21:54.341Z",
       "featured": false
+    },
+    {
+      "id": "df4e1833-5927-4fe4-9899-ee658d0955c6",
+      "created_at": "2026-10-21T14:45:13.634Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000083.000071267.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/71267/83/71267-83-5799ddc3ee273fac4a989fa984cfe017-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "wearable",
+      "featured": false,
+      "published_date": "2026-10-20",
+      "source_name": "テックドクター",
+      "title": "テックドクター、市販のFitbitで取った1年間のデータでADHD薬物治療の変化を捉えた研究を日本薬剤疫学会で発表",
+      "summary": [
+        "ADHD患者1名が約1年間装着した市販ウェアラブル「Fitbit Inspire 3」の心拍・睡眠・活動量データを、投薬前と薬剤変更後の4期間で比較した。",
+        "安静時心拍数は投薬前の73.2bpmからアトモキセチン増量後に80.8bpmへ上昇。入眠潜時は11.2分から2.4分、中途覚醒時間は31.4分から9.8分に減った。",
+        "単一症例の観察報告で、今後は複数症例で検証する。同社は2019年設立で、デジタルバイオマーカー開発基盤「SelfBase」を提供している。"
+      ],
+      "comment": "症例は1例なので結論は出せませんが、自分が注目したのは、「診察と診察の間を、市販のウォッチで埋める」という発想です。精神科の薬物治療は患者の訴えで評価してきたので、安静時心拍や睡眠の連続データは医師にとって新しい材料になります。製薬企業が治験のエンドポイントに使いたくなる方向だと思います。",
+      "company": {
+        "name": "株式会社テックドクター",
+        "profile": "2019年6月設立、東京都中央区。未上場。ウェアラブルなどの日常データから疾患や治療効果を評価するデジタルバイオマーカーの開発と、その基盤「SelfBase」の運用。2025年5月にシリーズBで約12億円を調達。",
+        "url": "https://www.technology-doctor.com/",
+        "ceo": {
+          "name": "湊和修",
+          "bio": "サイバーエージェント、ディスカバリー・ジャパンを経て、慶應義塾大学医学部で研究員・研究プロジェクトリーダーを務め、2019年にテックドクターを創業（会社の役員略歴より）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T14:45:13.634Z"
     },
     {
       "id": "bfe51cc4-481b-4b6d-97a1-20ebf3b364d8",
@@ -489,6 +518,35 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/31847/44/31847-44-9222eb390f44c456396d84b92bbba935-1534x1025.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "cb0c62ec-0fb5-4753-a809-088689e24de1",
+      "created_at": "2026-10-21T14:45:13.634Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000005.000139031.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/139031/5/139031-5-cc26c10b4c1993b2ed64cd961489397f-1670x940.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "wearable",
+      "featured": false,
+      "published_date": "2026-10-14",
+      "source_name": "SympaFit",
+      "title": "SympaFit、血糖値センサーの2週間の記録を読み解き12の「身体タイプ」で返すレポート「GlucoLens」を公開",
+      "summary": [
+        "血糖値センサーで2週間測った記録から、1日の波の形、時間帯ごとの上がりやすさ、夜間の血糖と睡眠の関係を1冊のレポートにする。",
+        "「ごほうび暴走」「朝からエンジン」など12の身体タイプに分け、次に試す工夫を添える。無料、解析のみ550円、アドバイス付き2,200円の3プラン。センサーは利用者が用意する。",
+        "解析は代表の加治佐平氏が筆頭著者として発表した睡眠中の心拍変動と血糖の研究（Sleep Medicine, 2024）などに基づく。法人や健保向けの相談も受ける。"
+      ],
+      "comment": "血糖センサーを健康な人が着ける流れは広がりましたが、グラフを見ても「で、どうすれば」で止まるのが実態です。自分が注目したのは、「センサーは売らず、解釈だけを550円から売る」モデルです。ハードは他社に任せ、研究者の読み方を商品にしています。健保向けに広がれば、特定保健指導の前段の入口になると思います。",
+      "company": {
+        "name": "株式会社SympaFit",
+        "profile": "2023年9月設立、東京都。未上場。血糖や心拍などのバイタルデータ解析を使ったアスリートのコンディショニング支援と、血糖レポート「GlucoLens」の提供。",
+        "url": "https://glucolens.sympafit.co.jp",
+        "ceo": {
+          "name": "加治佐平",
+          "bio": "睡眠中の血糖、運動中の血糖、女性の周期と血糖の関係を研究し、睡眠中の心拍変動と血糖の関係（Sleep Medicine, 2024）などの論文を筆頭著者として発表（リリースより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T14:45:13.634Z"
     },
     {
       "id": "1749fe15-21ab-4206-94e5-770865f4204f",
@@ -865,6 +923,26 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "86d2caea-e4ec-40e0-8064-ccee2e90870d",
+      "created_at": "2026-10-21T14:45:13.634Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000268.000018483.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/18483/268/18483-268-efa9b9629e74d5191e9c18b405da5479-1028x644.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "wearable",
+      "featured": false,
+      "published_date": "2026-10-07",
+      "source_name": "ビーマップ",
+      "title": "ビーマップ、介護施設向けにスマートウォッチとWi-Fiでバイタル・所在・SOSを一元管理する「ばいたるモニタ」を発表",
+      "summary": [
+        "専用スマートウォッチで脈拍、SpO2、体表面温度、睡眠、歩数を収集し、施設のWi-Fiアクセスポイント経由で国内クラウド「Bcloud」に記録する。",
+        "バンド内のエアカフで血圧を定期測定できる。接続先アクセスポイントから入居者のおおよその所在を表示し、SOSボタンや条件該当時に管理者へ通知する。",
+        "実証協力施設の募集を開始し、CareTEX大阪・東京でデモを行う。疾病の診断・治療を目的としない健康管理支援サービスとして提供する。"
+      ],
+      "comment": "自分が注目したのは、「見守り専用の機器を置かず、施設のWi-Fiアクセスポイントをそのまま中継器にする」設計です。介護施設はセンサーごとにゲートウェイが増えるのを嫌うので、通信インフラの会社が入る余地がここにあります。ビーマップは2026年3月期が売上17.2億円で営業赤字0.97億円。今期は黒字予想で、介護が柱になるかはこれからだと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T14:45:13.634Z"
+    },
+    {
       "id": "fe8fe0f7-6f4b-448f-bf38-dbb0949f43d5",
       "created_at": "2026-10-21T07:12:31.327Z",
       "published_date": "2026-10-07",
@@ -950,6 +1028,35 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/41752/29/41752-29-69ef7783c76ed9df3e0e6958f98a9a32-1999x1428.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c04cedbc-6340-4da0-bccf-9fa626176572",
+      "created_at": "2026-10-21T14:45:13.634Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000170503.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/170503/4/170503-4-dd6f6c7ec53f9edf122098e3be3c5d4a-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "wearable",
+      "featured": false,
+      "published_date": "2026-10-06",
+      "source_name": "WhiteLab",
+      "title": "WhiteLab、充電不要でUWB通信に対応したスマートリングを開発。健康管理とタッチレス決済を指輪ひとつで",
+      "summary": [
+        "バッテリーを搭載せず光で発電するスマートリング「ソーラーリングUWB」を開発。デジタルキーなどに使われるUWB通信を充電不要のまま実現したのは世界初（同社調べ）。",
+        "1円玉より小さいIoTゲートウェイ「センサーコネクトII」も開発。従来品より面積を約7割小さくし、ウェアラブル機器や見守り機器への組み込みを狙う。",
+        "10月13〜16日のCEATEC 2026で伯東との協賛出展として実機を展示。2024年に発表した初代ソーラーリングに、企業からの決済利用の要望を受けて開発した。"
+      ],
+      "comment": "スマートリングの弱点は充電で、高齢者の見守りでは外した瞬間にデータが途切れます。自分が注目したのは、「充電をなくした上で、消費電力の大きいUWBを載せた」点です。決済が入ればリングを着け続ける理由ができ、健康データは副産物として集まります。ヘルスケア単体では売れない機器を、決済で日常に定着させる筋道だと思います。",
+      "company": {
+        "name": "WhiteLab株式会社",
+        "profile": "2023年6月設立、東京都中央区。未上場。医療・ヘルスケア分野のデバイスとクラウドの企画・研究・開発、医療機器関連のシステム開発。",
+        "url": "https://whitelab.co.jp/",
+        "ceo": {
+          "name": "岡田英之",
+          "bio": "経歴確認できない"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T14:45:13.634Z"
     },
     {
       "id": "f8dcc0fc-f82c-4aa9-b6bd-37480821e6c9",
@@ -1202,6 +1309,35 @@
       "image_url": "https://prtimes.jp/common/pc_v4/og.png",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "4868502b-b353-4162-a4b5-5f6e5378c918",
+      "created_at": "2026-10-21T14:45:13.634Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000172.000040467.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/40467/172/40467-172-ec1c7fc4f19db69d3e38fa138ef5e445-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "wearable",
+      "featured": false,
+      "published_date": "2026-09-30",
+      "source_name": "JDSC",
+      "title": "JDSC、HAL Lab.、SOXAI、スマートリングで高齢者の「うごく・休む・出かける」を捉えるウェルネスコンソーシアムを結成。経産省事業に採択",
+      "summary": [
+        "3者の提案が経済産業省「令和8年度ヘルスケア産業基盤高度化推進事業」に採択され、新潟県内の自治体で地域在住高齢者を対象とした実装検証を9月に始めた。",
+        "SOXAIのリング型デバイスとスマートフォンから活動量、睡眠、心拍変動、外出行動を取り、質問紙の主観情報と組み合わせて独自の「ウェルネス指数」を算出する。",
+        "高齢者はスマートフォンを操作せずリングを充電するだけでデータが集まる仕様。2027年度に自治体への本格導入、将来はウェルネスツーリズムへの応用を狙う。"
+      ],
+      "comment": "フレイルの把握は年1回の基本チェックリストという「点」でした。自分が注目したのは、「外出や交流の減少という社会的フレイルを、リングの活動データで日々追う」ところです。身体より先に社会的フレイルが来る人を自治体が早く見つけられるなら、介護予防事業の組み立てが変わります。JDSCは2025年6月期に売上230億円、営業利益5.8億円の規模で、公共分野の型になり得る案件だと思います。",
+      "company": {
+        "name": "株式会社SOXAI",
+        "profile": "2021年2月設立、神奈川県横浜市。未上場。スマートリング「SOXAI RING」などヘルスケアIoTデバイスの開発・製造・販売。",
+        "url": "https://soxai.co.jp/",
+        "ceo": {
+          "name": "渡邉達彦",
+          "bio": "経歴確認できない"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T14:45:13.634Z"
     },
     {
       "id": "8fe7e162-cb18-4f34-a25d-3d47ffbb4c16",

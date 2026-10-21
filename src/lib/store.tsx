@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
-import { fetchArticles } from './articles';
+import { fetchArticles, fetchSubstack } from './articles';
 import type { Article } from './types';
 
 const SavedKey = 'healthbiz.saved.v1';
@@ -27,7 +27,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const reload = useCallback(async () => {
     setLoading(true);
     try {
-      setArticles(await fetchArticles());
+      const [news, substack] = await Promise.all([fetchArticles(), fetchSubstack()]);
+      setArticles([...news, ...substack]);
       setError(null);
     } catch (e) {
       setError(e instanceof Error ? e.message : '記事を読み込めませんでした');

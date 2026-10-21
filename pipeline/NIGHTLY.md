@@ -10,7 +10,7 @@
 アプリは push された JSON を読むので、push が完了した時点で配信完了。
 
 **無理に本数を揃えない。** 午前の回や土日はリリースが少ないので1本、0本の回があってもよい（1日合計で5本前後が目安）。
-0本の回は何も push せず、その旨を報告して終了する。
+0本の回は記事を push せず、その旨を報告して終了する（Substack の更新だけは行う）。
 
 ## 手順
 
@@ -91,8 +91,9 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 1. `pipeline/today.json` に書く（形は `pipeline/example.json`）。
 2. `node pipeline/publish.mjs pipeline/today.json`（`data/articles.json` にマージされる）。
 3. `pipeline/today.json` を削除する。
-4. `git add data/articles.json && git commit -m "配信 YYYY-MM-DD: N本" && git push origin main`
-5. `https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json` を取得し、今日の記事が含まれていることを確認する（反映に数分かかることがある）。
+4. `node pipeline/substack.mjs` で Substack の投稿一覧も更新する（0本の回でもこれだけは行い、変更があれば push する）。
+5. `git add data/ && git commit -m "配信 YYYY-MM-DD: N本" && git push origin main`
+6. `https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json` を取得し、今日の記事が含まれていることを確認する（反映に数分かかることがある）。
 
 ### 6. 報告
 最後に、配信した記事のタイトルと **コメント全文** を並べ、

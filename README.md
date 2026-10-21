@@ -23,6 +23,7 @@
 | `pipeline/tdnet.mjs` | TDnet（適時開示）からヘルスケア関連の開示を取る |
 | `pipeline/release.mjs` | リリースページから本文・日時・画像・会社概要を取る |
 | `pipeline/publish.mjs` | 記事 JSON を `data/articles.json` にマージする |
+| `pipeline/substack.mjs` | Substack の RSS を `data/substack.json` に書く |
 | `DESIGN.md` | 画面デザインのルール |
 
 ## 開発

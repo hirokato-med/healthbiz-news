@@ -4,6 +4,8 @@ import type { Article } from './types';
 
 /** 本番の記事データ。配信パイプラインが毎晩ここに push する */
 const DefaultArticlesUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json';
+/** Substack の投稿（pipeline/substack.mjs が書く） */
+const DefaultSubstackUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/substack.json';
 
 /**
  * 記事の取得元。EXPO_PUBLIC_ARTICLES_URL で切り替える:
@@ -24,6 +26,34 @@ export async function fetchArticles(): Promise<Article[]> {
     return fetchFromSupabase();
   }
   return fetchFromJson(articlesUrl);
+}
+
+type SubstackPost = { id: string; title: string; url: string; published_date: string; excerpt: string; image_url?: string | null };
+
+/** Substack の投稿を記事と同じ形にして返す。取れなくても配信記事の表示は止めない。 */
+export async function fetchSubstack(): Promise<Article[]> {
+  if (articlesUrl === 'mock') return [];
+  try {
+    const url = articlesUrl.includes('/data/articles.json') ? articlesUrl.replace('/data/articles.json', '/data/substack.json') : DefaultSubstackUrl;
+    const bust = Math.floor(Date.now() / 60_000);
+    const res = await fetch(`${url}?t=${bust}`);
+    if (!res.ok) return [];
+    const body = (await res.json()) as { posts?: SubstackPost[] };
+    return (body.posts ?? []).map((p) => ({
+      id: p.id,
+      kind: 'substack' as const,
+      published_date: p.published_date,
+      category: 'substack' as const,
+      title: p.title,
+      source_name: 'Substack',
+      source_url: p.url,
+      summary: [],
+      comment: p.excerpt,
+      image_url: p.image_url ?? null,
+    }));
+  } catch {
+    return [];
+  }
 }
 
 async function fetchFromJson(url: string): Promise<Article[]> {

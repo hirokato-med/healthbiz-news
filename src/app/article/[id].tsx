@@ -78,7 +78,7 @@ export default function ArticleScreen() {
         ))}
 
         <ThemedText type="section" style={styles.sectionLabel}>
-          加藤浩晃のコメント
+          {article.kind === 'substack' ? '記事の冒頭' : '加藤浩晃のコメント'}
         </ThemedText>
         <View style={[styles.commentBox, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
           <View style={styles.byline}>
@@ -123,7 +123,9 @@ export default function ArticleScreen() {
           onPress={() => WebBrowser.openBrowserAsync(article.source_url)}
           style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
           accessibilityRole="link">
-          <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>プレスリリース原文を読む ↗</ThemedText>
+          <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
+            {article.kind === 'substack' ? 'Substack で続きを読む ↗' : 'プレスリリース原文を読む ↗'}
+          </ThemedText>
         </Pressable>
         {article.source_url_2 ? (
           <Pressable
@@ -134,7 +136,9 @@ export default function ArticleScreen() {
           </Pressable>
         ) : null}
         <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
-          要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。
+          {article.kind === 'substack'
+            ? '加藤浩晃が Substack で連載している記事です。全文は Substack で読めます。'
+            : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
         </ThemedText>
       </ScrollView>
     </ThemedView>

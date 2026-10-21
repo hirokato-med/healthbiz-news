@@ -41,8 +41,9 @@ export function ArticleList({
     const out: Row[] = [];
 
     if (channel.id === 'today') {
-      const todays = articles.filter((a) => a.published_date === today);
-      const past = articles.filter((a) => a.published_date !== today);
+      const news = articles.filter((a) => a.kind !== 'substack');
+      const todays = news.filter((a) => a.published_date === today);
+      const past = news.filter((a) => a.published_date !== today);
       if (todays.length) {
         // featured が付いた記事を先頭に（無ければ先頭の記事）
         const lead = todays.find((a) => a.featured) ?? todays[0];
@@ -67,7 +68,7 @@ export function ArticleList({
       out.push({
         kind: 'section',
         key: 'h-channel',
-        title: channel.name,
+        title: channel.id === 'substack' ? '加藤浩晃の Substack' : channel.name,
         aside: channel.id === 'saved' ? `${list.length}本` : `${formatDateLong(latest)} 更新`,
       });
     }

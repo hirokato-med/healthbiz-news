@@ -61,7 +61,7 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 - 医療と無関係なもの
 - すでに `data/articles.json` にある source_url
 
-カテゴリは次の6つから1つ: `device`（医療機器）/ `wearable`（ウェアラブル）/ `drug`（製薬・創薬・OTC）/ `digital`（デジタルヘルス・SaMD・オンライン診療・医療AI）/ `service`（ヘルスケアサービス・保険・健康経営・美容）/ `policy`（政策・規制）。
+カテゴリは次の7つから1つ: `device`（医療機器）/ `wearable`（ウェアラブル）/ `drug`（製薬・創薬・OTC）/ `digital`（デジタルヘルス・SaMD・オンライン診療・医療AI）/ `service`（ヘルスケアサービス・保険・健康経営・美容）/ `longevity`（ロンジェビティ: 健康寿命・老化研究・予防・フレイル・高齢者の健康行動、美容医療のうちエイジング文脈のもの）/ `policy`（政策・規制）。
 
 ### 3. 調べる
 - **いちばん重要な1本を先に決める。** この1本だけ厚く書く（`featured: true`）。その回の記事がその1本だけでもよい。
@@ -84,7 +84,7 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 - **image_url**: `release.mjs` が返す og:image。取れなければ省略。
 - **company**: 上記3の条件に合う会社だけ。`name` / `profile`（設立年月、所在地、資本金、上場/未上場、事業内容、許認可を1段落。代表者名は入れない）/ `url` / `ceo: { name, bio }`。
 - **published_date**: 今日の日付。
-- **category**: 6つのどれか。
+- **category**: 7つのどれか。
 - **featured**: 厚く書いた1本だけ `true`（トップで大きく出す。画像があるものが望ましい）。
 
 ### 5. 投稿

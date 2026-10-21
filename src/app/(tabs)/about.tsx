@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import { Links } from '@/constants/links';
 import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 
@@ -29,6 +30,15 @@ export default function AboutScreen() {
         <Row label="コメント" value="加藤浩晃（医師・ヘルスケアビジネス）" theme={theme} />
         <Row label="要約について" value="各社のプレスリリースをもとに作成。正確な内容は原文をご確認ください。" theme={theme} />
 
+        <Pressable
+          onPress={() => WebBrowser.openBrowserAsync(Links.substackSubscribe)}
+          style={[styles.link, { borderBottomColor: theme.line }]}
+          accessibilityRole="link">
+          <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>加藤浩晃の Substack を購読する ↗</ThemedText>
+          <ThemedText type="caption" themeColor="textSecondary">
+            ヘルスケアイノベーション通信。登録するとメールで届きます。
+          </ThemedText>
+        </Pressable>
         <Pressable
           onPress={() => WebBrowser.openBrowserAsync('https://example.com/privacy')}
           style={[styles.link, { borderBottomColor: theme.line }]}
@@ -66,5 +76,5 @@ const styles = StyleSheet.create({
   row: { paddingVertical: Spacing.three, borderBottomWidth: Hairline, gap: Spacing.one },
   rowLabel: { fontWeight: '700' },
   rowValue: { lineHeight: 23 },
-  link: { paddingVertical: Spacing.four, borderBottomWidth: Hairline },
+  link: { paddingVertical: Spacing.four, borderBottomWidth: Hairline, gap: Spacing.one },
 });

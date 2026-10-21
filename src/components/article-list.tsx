@@ -4,6 +4,7 @@ import { FlatList, RefreshControl, StyleSheet } from 'react-native';
 import { ArticleRow } from '@/components/article-row';
 import { FeaturedArticle } from '@/components/featured-article';
 import { SectionHeader } from '@/components/section-header';
+import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import type { Channel } from '@/constants/channels';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
@@ -14,6 +15,7 @@ import type { Article } from '@/lib/types';
 
 type Row =
   | { kind: 'section'; key: string; title: string; aside?: string }
+  | { kind: 'subscribe'; key: string }
   | { kind: 'featured'; key: string; article: Article }
   | { kind: 'article'; key: string; article: Article };
 
@@ -72,6 +74,8 @@ export function ArticleList({
         aside: channel.id === 'saved' ? `${list.length}本` : `${formatDateLong(latest)} 更新`,
       });
     }
+    // Substack タブの先頭に購読の案内
+    if (channel.id === 'substack') out.push({ kind: 'subscribe', key: 'subscribe' });
     list.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
     return out;
   }, [articles, channel, savedIds]);
@@ -91,6 +95,7 @@ export function ArticleList({
       keyExtractor={(row) => row.key}
       renderItem={({ item }) => {
         if (item.kind === 'section') return <SectionHeader title={item.title} aside={item.aside} color={channel.color} />;
+        if (item.kind === 'subscribe') return <SubstackSubscribe />;
         if (item.kind === 'featured') return <FeaturedArticle article={item.article} />;
         return <ArticleRow article={item.article} />;
       }}

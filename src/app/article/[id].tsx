@@ -4,6 +4,7 @@ import { Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { KatoAvatar } from '@/components/kato-avatar';
+import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Thumb } from '@/components/thumb';
@@ -127,6 +128,7 @@ export default function ArticleScreen() {
             {article.kind === 'substack' ? 'Substack で続きを読む ↗' : 'プレスリリース原文を読む ↗'}
           </ThemedText>
         </Pressable>
+        {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
         {article.source_url_2 ? (
           <Pressable
             onPress={() => WebBrowser.openBrowserAsync(article.source_url_2!)}
@@ -137,7 +139,7 @@ export default function ArticleScreen() {
         ) : null}
         <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
           {article.kind === 'substack'
-            ? '加藤浩晃が Substack で連載している記事です。全文は Substack で読めます。'
+            ? '加藤浩晃が Substack で連載している記事です。全文は Substack で読めます。購読するとメールで届きます。'
             : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
         </ThemedText>
       </ScrollView>

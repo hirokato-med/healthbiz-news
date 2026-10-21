@@ -19,7 +19,7 @@
     "android": {
       "package": "jp.hirokato.healthbiznews",
       "adaptiveIcon": {
-        "backgroundColor": "#D7263D",
+        "backgroundColor": "#1E4FD8",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       }
@@ -29,7 +29,7 @@
       "favicon": "./assets/images/favicon.png",
       "name": "Healthcare Business News",
       "shortName": "HB News",
-      "themeColor": "#1B3A6B",
+      "themeColor": "#1E4FD8",
       "backgroundColor": "#FFFFFF"
     },
     "plugins": [
@@ -37,7 +37,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#D7263D",
+          "backgroundColor": "#1E4FD8",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 120
         }

@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, type ScrollViewInstance } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View, type ScrollViewInstance } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { Channels } from '@/constants/channels';
-import { Radius, Spacing } from '@/constants/theme';
+import { Hairline, Spacing } from '@/constants/theme';
+import { useTheme } from '@/hooks/use-theme';
 
 type Props = {
   index: number;
@@ -11,10 +12,12 @@ type Props = {
 };
 
 /**
- * SmartNews 型のカラーチップ。チャンネルごとに塗りの色が違い、
- * 選択中は濃く、それ以外は少し薄くする。選択中のチップは画面内に追従する。
+ * 白地の文字タブ。選択中のチャンネルだけ、そのチャンネル色の下線と文字色がつく。
+ * 塗りのチップにはしない（色は「選ばれているチャンネル」を示すためだけに使う）。
+ * 選択中のタブは画面内に追従する。
  */
-export function ChannelChips({ index, onSelect }: Props) {
+export function ChannelTabs({ index, onSelect }: Props) {
+  const theme = useTheme();
   const scrollRef = useRef<ScrollViewInstance>(null);
   const [layouts, setLayouts] = useState<Record<number, { x: number; width: number }>>({});
   const [viewportWidth, setViewportWidth] = useState(0);
@@ -30,6 +33,7 @@ export function ChannelChips({ index, onSelect }: Props) {
       ref={scrollRef}
       horizontal
       showsHorizontalScrollIndicator={false}
+      style={[styles.bar, { borderBottomColor: theme.line }]}
       contentContainerStyle={styles.row}
       onLayout={(e) => setViewportWidth(e.nativeEvent.layout.width)}>
       {Channels.map((c, i) => {
@@ -42,10 +46,13 @@ export function ChannelChips({ index, onSelect }: Props) {
               const { x, width } = e.nativeEvent.layout;
               setLayouts((prev) => (prev[i]?.x === x && prev[i]?.width === width ? prev : { ...prev, [i]: { x, width } }));
             }}
-            style={[styles.chip, { backgroundColor: c.color, opacity: selected ? 1 : 0.8 }]}
+            style={styles.tab}
             accessibilityRole="tab"
             accessibilityState={{ selected }}>
-            <ThemedText style={styles.chipText}>{c.name}</ThemedText>
+            <ThemedText style={[styles.label, { color: selected ? c.color : theme.textSecondary, fontWeight: selected ? '700' : '500' }]}>
+              {c.name}
+            </ThemedText>
+            <View style={[styles.underline, { backgroundColor: selected ? c.color : 'transparent' }]} />
           </Pressable>
         );
       })}
@@ -54,21 +61,25 @@ export function ChannelChips({ index, onSelect }: Props) {
 }
 
 const styles = StyleSheet.create({
+  bar: {
+    borderBottomWidth: Hairline,
+    flexGrow: 0,
+  },
   row: {
     paddingHorizontal: Spacing.two,
-    paddingVertical: Spacing.two,
-    gap: Spacing.two - 2,
   },
-  chip: {
-    borderRadius: Radius.chip,
-    paddingHorizontal: Spacing.four,
-    height: 38,
-    justifyContent: 'center',
+  tab: {
+    paddingHorizontal: Spacing.three,
+    paddingTop: Spacing.three,
+    gap: Spacing.two,
   },
-  chipText: {
-    color: '#fff',
+  label: {
     fontSize: 15,
     lineHeight: 20,
-    fontWeight: '700',
+  },
+  underline: {
+    height: 3,
+    borderTopLeftRadius: 2,
+    borderTopRightRadius: 2,
   },
 });

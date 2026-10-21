@@ -10,7 +10,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleList } from '@/components/article-list';
-import { ChannelChips } from '@/components/channel-chips';
+import { ChannelTabs } from '@/components/channel-tabs';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Channels, type Channel } from '@/constants/channels';
@@ -20,7 +20,7 @@ import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 
 /**
- * トップ画面。白いヘッダー（題字・日付）→ カラーチップ → ティッカー →
+ * トップ画面。白いヘッダー（題字・日付）→ 文字タブ（選択中だけチャンネル色の下線）→ ティッカー →
  * チャンネルごとの一覧を横にページング。
  */
 export default function HomeScreen() {
@@ -59,7 +59,7 @@ export default function HomeScreen() {
 
   return (
     <ThemedView style={styles.root}>
-      <View style={[styles.header, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
+      <View style={[styles.header, { paddingTop: insets.top + Spacing.two }]}>
         <View style={styles.masthead}>
           <View>
             <ThemedText type="section" style={styles.appName}>
@@ -73,7 +73,7 @@ export default function HomeScreen() {
             {formatDateLong(todayJST())}
           </ThemedText>
         </View>
-        <ChannelChips index={index} onSelect={selectTab} />
+        <ChannelTabs index={index} onSelect={selectTab} />
         <View style={[styles.ticker, { backgroundColor: theme.surface }]}>
           <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1}>
             {ticker.label}
@@ -114,9 +114,7 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
   },
-  header: {
-    borderBottomWidth: Hairline,
-  },
+  header: {},
   pager: {
     flex: 1,
   },

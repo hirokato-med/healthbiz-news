@@ -15,6 +15,6 @@ cp "$ROOT/assets/images/icon.png" apple-touch-icon.png
 for f in *.html */*.html; do
   [ -f "$f" ] || continue
   sed -i 's#<meta name="viewport" content="[^"]*"#<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"#' "$f"
-  sed -i 's#</head>#<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1B3A6B"></head>#' "$f"
+  sed -i 's#</head>#<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
 done
 echo "built: $OUT"

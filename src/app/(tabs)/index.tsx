@@ -35,12 +35,13 @@ export default function HomeScreen() {
   const [pagerHeight, setPagerHeight] = useState(0);
 
   const ticker = useMemo(() => {
+    // 日付が変わって当日分がまだ無い間も、直近の配信日の本数を出す
     const today = todayJST();
     const news = articles.filter((a) => a.kind !== 'substack');
-    const count = news.filter((a) => a.published_date === today).length;
     const latest = news[0]?.published_date;
+    const count = latest ? news.filter((a) => a.published_date === latest).length : 0;
     return {
-      label: '本日の配信',
+      label: latest === today ? '本日の配信' : '最新の配信',
       count,
       value: count ? `${count}本` : '12時に更新',
       right: latest ? `${formatDateShort(latest)} 更新` : '',

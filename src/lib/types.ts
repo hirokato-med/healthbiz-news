@@ -29,7 +29,7 @@ export type Article = {
   comment: string;
   image_url?: string | null;
   company?: Company | null;
-  /** その日の注目記事（トップで大きく出す）。無ければその日の先頭 */
+  /** 直近24時間でいちばん大事な記事（トップで大きく出す）。常に1本だけ。無ければ直近の配信の先頭 */
   featured?: boolean | null;
   /** news: 配信記事（既定）/ substack: Substack の投稿（comment に冒頭、summary は空） */
   kind?: 'news' | 'substack';

@@ -44,17 +44,21 @@ export function ArticleList({
 
     if (channel.id === 'today') {
       const news = articles.filter((a) => a.kind !== 'substack');
-      const todays = news.filter((a) => a.published_date === today);
-      const past = news.filter((a) => a.published_date !== today);
-      if (todays.length) {
-        // featured が付いた記事を先頭に（無ければ先頭の記事）
-        const lead = todays.find((a) => a.featured) ?? todays[0];
-        const ordered = [lead, ...todays.filter((a) => a !== lead)];
-        out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: `${todays.length}本` });
-        ordered.forEach((a, i) => out.push({ kind: i === 0 ? 'featured' : 'article', key: a.id, article: a }));
-      } else {
+      // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
+      const latest = news[0]?.published_date;
+      if (!latest) {
         out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: '12時・18時・22時に更新' });
+        return out;
       }
+      // いちばん大きな枠は「直近24時間でいちばん大事な1本」（featured）。新しい順ではない。
+      // 直近の配信日とその前日から探し、無ければ直近の記事
+      const lead = news.find((a) => a.featured && a.published_date >= dayBefore(latest)) ?? news[0];
+      const todays = news.filter((a) => a.published_date === latest && a !== lead);
+      const past = news.filter((a) => a.published_date !== latest && a !== lead);
+      const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
+      out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0)}本` });
+      out.push({ kind: 'featured', key: lead.id, article: lead });
+      todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       return out;
@@ -124,3 +128,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.six,
   },
 });
+
+/** "2026-10-21" → "2026-10-20" */
+function dayBefore(date: string): string {
+  const [y, m, d] = date.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d - 1)).toISOString().slice(0, 10);
+}

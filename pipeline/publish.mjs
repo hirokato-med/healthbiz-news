@@ -71,6 +71,14 @@ async function publishToFile(rows) {
     bySource.set(a.source_url, next);
     return next;
   });
+  // トップ記事（featured）は直近24時間で1本だけ。今回 featured を付けた記事があれば、ほかの最近の記事から外す
+  const newLead = saved.find((a) => a.featured);
+  if (newLead) {
+    const cutoff = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
+    for (const a of bySource.values()) {
+      if (a !== newLead && a.featured && (a.created_at ?? '') >= cutoff) a.featured = false;
+    }
+  }
   const articles = [...bySource.values()].sort(
     (a, b) => b.published_date.localeCompare(a.published_date) || b.created_at.localeCompare(a.created_at),
   );

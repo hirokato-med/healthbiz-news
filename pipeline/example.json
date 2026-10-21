@@ -1,0 +1,17 @@
+{
+  "articles": [
+    {
+      "published_date": "2026-10-21",
+      "category": "device",
+      "title": "記事タイトル（プレスリリースの要点を1文で）",
+      "source_name": "発信元の企業名・省庁名",
+      "source_url": "https://example.com/press/2026-10-21",
+      "summary": [
+        "要点1（1文）",
+        "要点2（1文）",
+        "要点3（1文）"
+      ],
+      "comment": "加藤浩晃のコメント（150〜250字。業界の文脈、見るべき数字、今後の注目点）"
+    }
+  ]
+}

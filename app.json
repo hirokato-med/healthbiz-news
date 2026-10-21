@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Healthcare Business News",
+    "slug": "healthbiz-news",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "healthbiznews",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "jp.hirokato.healthbiznews",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleDisplayName": "Healthcare Business News",
+        "CFBundleDevelopmentRegion": "ja",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "jp.hirokato.healthbiznews",
+      "adaptiveIcon": {
+        "backgroundColor": "#D7263D",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#D7263D",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 120
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

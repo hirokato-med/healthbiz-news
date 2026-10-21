@@ -21,7 +21,7 @@ export default function AboutScreen() {
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
         <ThemedText type="featured">Healthcare Business News</ThemedText>
         <ThemedText themeColor="textSecondary" style={styles.lead}>
-          医療機器・ウェアラブル・創薬・デジタルヘルスなど、ヘルスケアビジネスのプレスリリースを毎晩1〜4本厳選し、
+          医療機器・ウェアラブル・創薬・デジタルヘルスなど、ヘルスケアビジネスのプレスリリースを毎晩1〜5本厳選し、
           医師・加藤浩晃のコメントを添えてお届けします。
         </ThemedText>
 

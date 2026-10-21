@@ -64,9 +64,11 @@ export default function ArticleScreen() {
 
         {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
-        <ThemedText type="section" style={styles.sectionLabel}>
-          ポイント
-        </ThemedText>
+        {article.summary.length > 0 && (
+          <ThemedText type="section" style={styles.sectionLabel}>
+            ポイント
+          </ThemedText>
+        )}
         {article.summary.map((line, i) => (
           <View key={i} style={styles.bullet}>
             <View style={[styles.dot, { backgroundColor: theme.accent }]} />

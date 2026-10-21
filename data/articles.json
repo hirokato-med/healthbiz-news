@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T03:21:54.341Z",
+  "updated_at": "2026-10-21T07:12:31.327Z",
   "articles": [
     {
       "id": "3e1cb8ce-b23a-4f31-9c22-70c325e4d202",
@@ -100,6 +100,2838 @@
       "comment": "初回無料の診断は、2,000施設を超える予約サイトの提携先に営業をかける入口だと思います。\n2025年12月期は売上10.8億円で営業赤字（▲3,700万円）。予約手数料の次の柱を探している会社なので、サイバー攻撃で診療が止まった病院の例が続く今、院長に刺さりやすいテーマを選んでいる。",
       "status": "published",
       "updated_at": "2026-10-21T03:21:54.341Z"
+    },
+    {
+      "id": "ce88b49f-6012-488d-bfd8-9720625ef52a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-20",
+      "category": "policy",
+      "title": "ヘンリー、厚労省の電子カルテ認証制度に受付初日に申請へ",
+      "source_name": "ヘンリー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000030.000102549.html",
+      "summary": [
+        "ヘンリーは、中小病院向けのクラウド型電子カルテ「Henry」をつくる2018年創業のスタートアップです。",
+        "電子カルテとレセコンが一体になっています。",
+        "厚労省は10月16日、電子カルテを国の標準仕様に照らして製品ごとに認証する制度を公表しました。"
+      ],
+      "comment": "自分が注目したのは、「国が病院ごとの作り込みをしない側に線を引いたところ」です。\nこれまで電子カルテは病院ごとに改修するので、高くて乗り換えにくかった。改正医療法で2030年末に普及率約100%を目指すなかで、認証がクラウド勢の入口になると思います。",
+      "company": {
+        "name": "株式会社ヘンリー",
+        "profile": "2018年5月設立、東京都新宿区四谷坂町。資本金1億円、未上場。病院向けのクラウド型電子カルテ・レセコン一体型「Henry」の開発・提供に加え、医事BPO、AIワークフロー、経営コンサルティング。2025年度はデジタル庁・厚労省の「病院情報システム等の刷新に向けた協議会」に構成員として参画。",
+        "url": "https://henry.jp/",
+        "ceo": {
+          "name": "逆瀬川光人",
+          "bio": "一橋大学を卒業して楽天に入社し、スマートフォン向けのWebサービスやアプリの立ち上げにUXデザイナー、PdMとして携わる。ウォンテッドリーの新規事業室長を経て、2018年に林太郎氏とヘンリー（創業時の社名は株式会社B&W）を共同創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/102549/30/102549-30-273fbe306422305a7bb38860d69f2ac0-3900x2048.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "78a61e4f-ff45-4457-948b-b82fc53ffa65",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-20",
+      "category": "digital",
+      "title": "ATIV Medical、アジアの在留邦人向けクリニック事業がリログループに",
+      "source_name": "ATIV Medical",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000042447.html",
+      "summary": [],
+      "comment": "ATIV Medicalは、シンガポールを拠点に、アジアに住む日本人とその家族向けのクリニックを運営する会社です。5か国に20拠点あり、総合診療、オンライン診療、現地病院での日本語の受診サポートを行っています。\n設立時から出資してきたSEKAISHAなどが、リログループ（東証プライム）の子会社リロケーション・インターナショナルに株式を譲渡しました。金額は非公表です。\n海外赴任を支援する会社が、赴任者の医療まで持つ形です。企業の福利厚生として一緒に売れるので、買い手として筋がいいと思います。",
+      "company": {
+        "name": "ATIV Medical Pte. Ltd.",
+        "profile": "2022年4月設立、シンガポール。資本金は非公開、未上場。シンガポールの「ことびあクリニック」など、アジアで日本語対応のクリニックを運営。LITALICO創業者の佐藤崇弘氏が率いる佐藤グループの海外医療部門として設立された。",
+        "url": null,
+        "ceo": {
+          "name": "藤井達樹",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/42447/27/42447-27-bc4d673dbf4fc8ba0751b1d99f1e394a-1024x728.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ae5d34b2-8119-4b79-9f6d-8ce9ac259469",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-20",
+      "category": "drug",
+      "title": "日本イーライリリー、エムスリー総研、ミナケア、職域で肥満症の受診を勧める「健康経営実装コアリション」を発足",
+      "source_name": "日本イーライリリー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000200.000005823.html",
+      "summary": [],
+      "comment": "日本イーライリリーは、肥満症治療薬「ゼップバウンド」を持つ米製薬大手の日本法人です。\nエムスリー総合研究所、エムスリー傘下で健保のデータ分析をするミナケアと3者で、企業と健保から予防医療を広げる枠組みを10月15日に立ち上げました。最初のテーマは肥満症で、健保8組合が参加し、肥満症の可能性がある従業員に受診を勧めます。日本ペイント健保はBMI30以上から始めます。\n薬を持つ会社が、患者が見つかる入口を職場につくりにいっていると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/5823/200/5823-200-fe9cf94713ec070ec6bad9b6093eb987-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "4bab8a0d-6e2c-4fe6-8bd8-1263a4481044",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-19",
+      "category": "device",
+      "title": "Peds3、IMPACT STARTUP SUMMIT 2026でオーディエンス賞など2賞",
+      "source_name": "Peds3",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000148797.html",
+      "summary": [],
+      "comment": "Peds3は、子どもの発達や心の困りごとを治療用アプリ（DTx）で支えるスタートアップです。ディスレクシア（読み書きの障害）向けのアプリなどを開発しています。\n10月7日のピッチで、登壇10社の中からオーディエンス賞と三菱UFJモルガン・スタンレー証券賞をダブル受賞しました。\n代表の千先先生は小児科医で、「小児科オンライン」のKids Publicの創業にも関わっています。",
+      "company": {
+        "name": "株式会社Peds3",
+        "profile": "2023年3月設立、東京都港区南麻布。資本金は非公開、未上場。成育医療・母子保健領域の治療用アプリの研究開発と、医療機関向けのデジタル支援。2024年10月に約1.1億円を調達。",
+        "url": "https://www.peds3.com/",
+        "ceo": {
+          "name": "千先園子",
+          "bio": "小児科医。日本大学医学部を卒業し、聖路加国際病院で初期研修、国立成育医療研究センターで小児科研修。東京大学大学院で公衆衛生学修士。都内クリニック勤務を経てKids Publicを設立し、2023年にPeds3を設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/148797/14/148797-14-6e26e24fda95ca539f0a98a39d060628-3000x2000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "8a08d32f-553c-4340-908a-47e00231ad8c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-19",
+      "category": "digital",
+      "title": "トリビュー、美容医療の術後の疑問を別の医師に無料で相談できるサービスを開始",
+      "source_name": "トリビュー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000066.000047703.html",
+      "summary": [],
+      "comment": "トリビューは、美容医療の口コミと予約のアプリ「トリビュー」を運営する会社で、アプリは累計230万ダウンロードです。\n鼻・脂肪吸引・豊胸を受けた人が、施術したクリニックとは別の医師に術後の疑問を無料で相談できます。提携医師は4名、首都圏から始めます。\n予約で稼ぐプラットフォームが、施術のあとまで面倒を見にいく形です。美容医療のトラブルが問題になるなかで、選ばれる理由をつくりにいっていると思います。",
+      "company": {
+        "name": "株式会社トリビュー",
+        "profile": "2017年7月設立、東京都渋谷区。資本金22億808万円、未上場。美容医療の口コミ・予約アプリ「トリビュー」の開発・運営。",
+        "url": "https://corp.tribeau.jp/",
+        "ceo": {
+          "name": "毛迪",
+          "bio": "2017年7月にトリビューを創業し、3か月後にサービスを開始。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/47703/66/47703-66-af87621b863247c027e48bfe7474513d-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e1e8c7b5-74a3-4629-bef9-40e685bc7795",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-19",
+      "category": "service",
+      "title": "あわーず、世田谷区の「つぐみナースケアステーション」を運営する鳥人会を子会社化",
+      "source_name": "あわーず",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000013.000089680.html",
+      "summary": [],
+      "comment": "あわーずは、東京都内で訪問看護ステーションを3拠点運営する会社です。\n世田谷区等々力で訪問看護と居宅介護支援を営む鳥人会の全株式を、10月14日付で取得しました。金額は非公表です。\n3拠点の会社が1拠点を買い足す形で、小さな訪問看護同士がまとまる動きはこれからも増えると思います。",
+      "company": {
+        "name": "株式会社あわーず",
+        "profile": "2013年9月設立、東京都新宿区百人町。資本金は非公開、未上場。都内で訪問看護ステーション3拠点を運営し、訪問看護・リハビリテーション、居宅介護支援を提供。",
+        "url": null,
+        "ceo": {
+          "name": "本多克行",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/89680/13/89680-13-d8c70223ef14876d1f0135247aa7db90-894x171.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ccc1fffd-9251-4598-943c-a522c8e51cd1",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-16",
+      "category": "digital",
+      "title": "富士通、診療所・中小病院向けのクラウド型電子カルテを2027年4月から提供",
+      "source_name": "富士通",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000623.000093942.html",
+      "summary": [
+        "富士通は、病院向け電子カルテの最大手です。",
+        "400床以上の病院では47％のシェアを持っています（同社算出）。",
+        "その富士通が、診療所と中小病院向けのクラウド型電子カルテを2027年4月から出します。"
+      ],
+      "comment": "自分が注目したのは、「大病院の会社が、国の決めた仕様に乗って小さい医療機関に降りてくるところ」です。\n標準仕様に乗ると、製品ごとの機能の差は小さくなる。（←これがよくある）\nそうなると勝負は値段と運用の手間で、規模のある会社に有利な土俵になると思います。\n価格はまだ出ていません。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/93942/623/93942-623-ce56d803259df0f40626832302434fbf-1000x609.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "94a88867-c373-4f0c-8046-87ed86f3e23a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-16",
+      "category": "drug",
+      "title": "アムジェン、日本肥満学会と肥満症対策の産学連携で覚書",
+      "source_name": "アムジェン",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000153048.html",
+      "summary": [],
+      "comment": "アムジェンは、米国の大手バイオ医薬品会社の日本法人です。\n日本肥満学会（1980年発足、会員2,600名超）と、肥満症の研究と対策で産学連携の覚書を10月15日に結びました。予防、医療提供体制、肥満症への誤解の解消が柱で、具体策はこれから決めます。\n成果を自社製品の販売や推奨に使わないと先に明記していて、製薬会社が学会と組むときの線の引き方としてうまいと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/153048/4/153048-4-b27461972074570cc403d86c7870561a-3470x2312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "206b54ad-a64d-4aae-ad83-84c291466321",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-15",
+      "category": "digital",
+      "title": "医師起業のGENSHI AI、日本語の医療QAデータセット100万件を研究向けに公開",
+      "source_name": "GENSHI AI",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000013.000184049.html",
+      "summary": [
+        "GENSHI AIは、病院の中だけで動く医療用の生成AIをつくる、医師起業のスタートアップです。",
+        "日本語の医療の質問と回答100万5,231件の「GENSHI-MedQA-1M」をHugging Faceで公開しました。",
+        "2010年以降の日本語の医療文書14万8,620ページから生成AIで合成したもので、次に大きい約52万件（英語の機械翻訳）の約1.9倍です。"
+      ],
+      "comment": "自分が注目したのは、「日本の保険適用や薬の承認状況まで入れたところ」です。\n英語の医療QAを訳しても、日本の診療の決まりごとは入ってこない。（←これがよくある）\n研究には開いて商用は相談にする形なので、公開そのものが共同研究や顧客の入口になっていると思います。\nただ、全件を人手では確かめていないと明記していて、どこまで直せるかが次の課題です。",
+      "company": {
+        "name": "株式会社GENSHI AI",
+        "profile": "2025年11月設立、東京都千代田区神田和泉町。資本金100万円、未上場。医療機関向けの閉域LLM基盤「MedLocal」、医師向けエビデンス検索「CHUBEN」、医療用語に強い音声認識「GENSHI Voice」を開発。",
+        "url": "https://genshi.ai/",
+        "ceo": {
+          "name": "長嶋大地",
+          "bio": "医師。大分大学医学部卒。病院勤務中に趣味でつくった画像生成AIが話題になり、AIベンチャーに移って1年でCTOに。東大病院循環器内科のAIチームにも所属。2025年11月にGENSHI AIを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/184049/13/184049-13-41e0632c5cfcded47218e8301cd07bb4-1920x1005.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ee6bc9a6-16ed-43e8-a315-b72e54853558",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-15",
+      "category": "device",
+      "title": "スマートエコー、妊婦向けエコーのAI画像診断で鳥取大学医学部と共同研究",
+      "source_name": "スマートエコー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000158155.html",
+      "summary": [],
+      "comment": "スマートエコーは、妊婦が家でスマホにつないで使うエコーのサービス「ポケマム」を手がける、鳥取県米子市のスタートアップです。\n鳥取大学医学部と、妊娠中の超音波画像から母児のリスクを見つけるAIモデルの共同研究契約を10月1日に結びました。\n附属病院の既存の画像を使い、2027年度内に基盤技術を固めて、アフリカや東南アジアでの医療支援につなげる計画です。3月にはケニアで現地調査もしています。\nポケマムは医療機器ではないので、家庭向けとは別に、医療の側に足場をつくりにいく動きだと思います。",
+      "company": {
+        "name": "株式会社スマートエコー",
+        "profile": "2024年12月設立、鳥取県米子市（東京本社は港区白金）。資本金3,600万円（自社サイトでは資本準備金を含め9,200万円）、未上場。妊婦向けスマホ専用エコー「ポケマム」、骨盤底トレーニングアプリ「ペブトレ」、超音波とAI画像分析の「Echo AI Analytics」など。",
+        "url": "https://smart-echo.co.jp/",
+        "ceo": {
+          "name": "髙多伊吹",
+          "bio": "1999年生まれ。東京大学教養学部卒業、同大学院総合文化研究科修士課程修了、現在は同博士後期課程に在学中。妊婦向けエコーのサブスクリプションを立案した発起人。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/158155/15/158155-15-c8ee3adc19345cc48bef7b5d5a54ad45-2575x831.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "42fc5db2-1c30-427c-a04a-ac78da35eb37",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-15",
+      "category": "digital",
+      "title": "neumo、「聞こえのチェック」が渋谷区のフレイル健康チェックの測定項目に採用",
+      "source_name": "neumo",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000044.000031847.html",
+      "summary": [],
+      "comment": "neumoは、脳科学をもとにした聴覚トレーニングアプリ「キクモア」を提供するスタートアップです。\n渋谷区が65歳以上の区民に行う「フレイル健康チェック」の11項目のひとつに、雑音の中で読み上げられる3つの数字を聞き取る「聞こえのチェック」が入りました。10月15日から11月にかけて計10回行います。\n難聴は認知症の危険因子とされていて、聞こえの低下に早く気づく入口を区の健康チェックに置いた形だと思います。",
+      "company": {
+        "name": "株式会社neumo",
+        "profile": "2017年8月設立、東京都渋谷区恵比寿南。未上場。脳神経科学に基づく聴覚トレーニングサービス「キクモア」の開発・提供。資本金は非公開。",
+        "url": "https://neumo.jp/",
+        "ceo": {
+          "name": "若林龍成",
+          "bio": "東京大学大学院修了。アンダーセンコンサルティング（現アクセンチュア）を経て、デジタルマーケティングのコンサルティング会社ビービットを創業し、台湾・中国にも展開。京都大学・東京大学の元非常勤講師、ATR特別顧問。2017年にneumoを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/31847/44/31847-44-9222eb390f44c456396d84b92bbba935-1534x1025.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "1749fe15-21ab-4206-94e5-770865f4204f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-14",
+      "category": "service",
+      "title": "Macbee Planet、美容・医療の分割払いを扱う信販会社ジェーシーアンドジーを完全子会社化",
+      "source_name": "Macbee Planet",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000202.000023647.html",
+      "summary": [
+        "Macbee Planetは、成果報酬型のWebマーケティング支援を手がける東証プライム上場の会社です。",
+        "ジェーシーアンドジーは2004年設立の信販会社で、美容・医療分野の加盟店を中心に、消費者向けの分割払いを提供しています。",
+        "全株式を11月2日に取得する予定で、金額は出ていません。"
+      ],
+      "comment": "自分が注目したのは、「集客の会社が、支払いの手段まで持ちにいったところ」です。\n美容クリニックの集客を請け負う会社が分割払いも用意できれば、高額な施術の申込みまで一続きになる。\nLTV予測の技術を与信審査に使うとも書いていて、割賦手数料という安定収益も入ります。\nただ、集客と与信が同じグループにあると、審査の独立性をどう保つかは問われると思います。",
+      "company": {
+        "name": "株式会社ジェーシーアンドジー",
+        "profile": "2004年3月設立、東京都墨田区江東橋。資本金9,995万7千円、未上場。割賦販売法に基づく信用購入あっせん業（信販事業）。美容・医療分野の加盟店を中心に分割払いサービスを提供。",
+        "url": "https://jcandg.co.jp/",
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/23647/202/23647-202-2576628b3d0ec03d8678964fde5d7b79-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "eb98fdf9-e306-46a9-9fd3-1073003e8a5c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-14",
+      "category": "service",
+      "title": "森ビル、麻布台ヒルズで働く人の健康づくり「Hills for Wellness」を開始",
+      "source_name": "森ビル",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000435.000048109.html",
+      "summary": [],
+      "comment": "森ビルは、六本木ヒルズや麻布台ヒルズを開発・運営する都市開発の会社です。\n麻布台ヒルズの入居企業で働く人に向けて、運動・食事・休養のプログラム「MOVE MORE WEEK」、人事・健康経営担当者の集まり、慶應義塾大学との共同研究の3つを束ねました。\n研究では健康診断の結果やウェアラブルの歩数・睡眠・心拍まで集めていて、すでに1,600人以上のワーカーが参加しています。\nビルの貸し手が健康経営の「場」を持つ形で、テナント企業をつなぎとめる手段にもなると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48109/435/48109-435-1302a3987fa2a908a6d4e2c2e403584a-2048x1365.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "9ca1edce-5d24-47be-8fbf-c822932c8f9a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-14",
+      "category": "service",
+      "title": "ルネサンス、心臓リハビリの医療法人TASUKIとポストリハビリで連携協定",
+      "source_name": "ルネサンス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000466.000027019.html",
+      "summary": [],
+      "comment": "ルネサンスは、全国でスポーツクラブを運営する東証プライム上場の会社です。\n医療法人TASUKIは、名古屋と東京・亀戸で循環器内科と心臓リハビリのクリニックを運営しています。\n江東区と名古屋周辺のスポーツクラブ8施設で、退院後も運動を続けられる「ポストリハビリ」の仕組みをつくります。\n心臓リハビリは保険で算定できる日数に上限があって、そこで運動が途切れる。（←これがよくある）\nその受け皿をジムが担う形だと思います。",
+      "company": {
+        "name": "医療法人TASUKI",
+        "profile": "2021年設立。「循環器内科と心臓リハビリの高針クリニック」（名古屋市名東区）と「亀戸ハート内科・心臓リハビリクリニック」（東京都江東区）を運営。循環器診療と心臓リハビリが軸。",
+        "url": null,
+        "ceo": {
+          "name": "竹中真規",
+          "bio": "医師。医学博士、循環器専門医、公認スポーツドクター。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/27019/466/27019-466-aa7982e2ae87c588c033bc646afa703f-700x466.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f919ac82-8991-4ff9-82d3-47441568a2ae",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-14",
+      "category": "digital",
+      "title": "eWeLL、訪問看護専用の求人サイト「カエドキ」を開始",
+      "source_name": "eWeLL",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000150.000026391.html",
+      "summary": [],
+      "comment": "eWeLLは、訪問看護ステーション向けの電子カルテ「iBow」などを提供する東証グロース上場の会社です。\n10月に出す「カエドキ」は訪問看護に絞った求人サイトで、掲載から採用まで事業所も求職者も0円です。\niBowを使う看護師などは6万8千人以上いて、そこを求人の入口にもできると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/26391/150/26391-150-445417b244162ed5e83a14e3e66d54e2-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "89a1438e-a1e3-4699-b108-f4f8d216e605",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-13",
+      "category": "digital",
+      "title": "119番通報AIのQuick、医療経営コンサルティングの日本経営と資本業務提携",
+      "source_name": "Quick",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000009.000156902.html",
+      "summary": [
+        "Quickは、119番通報の音声をAIで文字起こし・要約し、消防の指令員の判断を支える筑波大学発のスタートアップです。",
+        "9/11にICCサミットの準優勝で取り上げました。",
+        "日本経営は、病院や診療所、介護施設の経営コンサルティングを手がける大阪の会社で、グループの従業員は767名です。"
+      ],
+      "comment": "自分が注目したのは、「消防向けの製品に、病院側のコンサルが出資したところ」です。\n指令室を速くしても、受け入れ先が決まらなければ搬送は詰まる。（←これがよくある）\n病院の顧客網を持つ会社と組めば、出口側も一緒に設計できると思います。",
+      "company": {
+        "name": "株式会社Quick",
+        "profile": "2024年10月設立、東京都中央区銀座。筑波大学発スタートアップ。資本金は非公開、未上場。救急・医療インフラ領域のAI・ロボティクス製品（119番通報受付支援AI「Quick AI」、医療機関向けヒューマノイドロボットなど）を開発。",
+        "url": "https://quick119.co.jp/",
+        "ceo": {
+          "name": "武田淳宏",
+          "bio": "2000年11月生まれ、茨城県土浦市出身。筑波大学医学部6年に在学中、休学して2024年にQuickを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/156902/9/156902-9-8caff1e05d0f12dbc3fad42d50d365da-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6be96764-1ef4-4f0e-bc7c-82d1ad2c605f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-13",
+      "category": "device",
+      "title": "Direava、手術映像を読む生成AIで「CEATEC AWARD 2026」イノベーション賞",
+      "source_name": "Direava",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000011.000161347.html",
+      "summary": [],
+      "comment": "Direavaは、内視鏡手術の映像をAIで解析するプログラム医療機器を開発している、外科医が創業したスタートアップです。\n映像に何が映り、どんな操作をしているかを言葉にする外科特化の生成AIで受賞しました。大学病院での実証では、外科専門医の評価で解剖学的な正確性が84.7％です。\nまずは若手外科医や医学生向けの手術教育から出すそうで、医療機器の承認を待たずに教育で使い始めるのは順番としてうまいと思います。\n代表の竹内先生は慶應義塾大学の消化器外科の助教です。",
+      "company": {
+        "name": "Direava株式会社",
+        "profile": "2023年1月設立、東京都千代田区麹町。資本金は非公開、未上場。外科手術領域のプログラム医療機器を開発。術中支援の「CYNOSURA」（準備中）と手術教育の「Surgo」を持つ。経済産業省・NEDOの生成AI開発支援「GENIAC」の採択事業者。2026年6月にスパークス・アセット・マネジメント、ニッセイ・キャピタル、SBIインベストメントから資金調達（金額非公開）。",
+        "url": "https://direava.com/",
+        "ceo": {
+          "name": "竹内優志",
+          "bio": "医師。2012年慶應義塾大学医学部卒業、2019年同大学院医学研究科修了。専門は消化器外科。東京都済生会中央病院の消化器外科、フランス・ストラスブールのIRCADでのリサーチフェローを経て、2022年から慶應義塾大学医学部外科学（一般・消化器）助教。2023年にDireavaを創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/161347/11/161347-11-0189347ea9a544dfaf178fdeaa8250cc-1400x1050.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "39807288-8a4c-4344-a85f-911139f9cd13",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-13",
+      "category": "service",
+      "title": "ユカリア、千葉県立病院の経営改善業務を受託",
+      "source_name": "ユカリア",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000210.000022624.html",
+      "summary": [],
+      "comment": "ユカリアは、病院の経営支援や運営支援を20年以上手がける東証グロース上場の会社です。\n千葉県病院局の公募型プロポーザルで選ばれ、千葉県総合救急災害医療センターの薬剤部とリハビリテーション科で、部門ごとの業務を検証して改善を指導します。金額や期間は出ていません。\n公立病院が民間の経営支援会社に部門単位で入ってもらう形は、これから増えると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/22624/210/22624-210-bb2ce5aa225259e27c8d1f28626024e3-1201x631.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "a67c0cf0-f2bd-40ed-9c7b-41acf5cbc29a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-13",
+      "category": "service",
+      "title": "学研ホールディングス、神戸の有料老人ホーム「エレガリオ神戸」の運営会社を取得",
+      "source_name": "学研ホールディングス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000009512.000002535.html",
+      "summary": [],
+      "comment": "学研ホールディングスは、教育事業に加えて介護・高齢者住宅の事業を持つ会社で、グループのメディカル・ケア・サービスは国内388事業所、売上高425億円です。\n一般居室121室・介護居室32室の「エレガリオ神戸」を運営するユーキャン・ライフパートナーの全株式を、9月30日付で取得しました。金額は出ていません。\n自立した高齢者向けの高付加価値型にも広げる動きだと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/2535/9512/2535-9512-b57091d0c0baa264fef634a0848c3aec-1196x717.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f435caf9-9d92-462d-aca4-2f1f9e359522",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-12",
+      "category": "device",
+      "title": "フラクタルワークアウト、渋谷・原宿の医療機関と運動療法の連携を拡充",
+      "source_name": "フラクタルワークアウト",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000307.000118106.html",
+      "summary": [
+        "フラクタルワークアウトは、原宿で経営者向けのパーソナルジム「FRACTAL WORKOUT」を運営し、企業の健康経営も支援している会社です。",
+        "このジムは5月に厚生労働省の「指定運動療法施設」になりました。",
+        "医師の処方にもとづき、病気の治療としての運動療法を行う施設です。"
+      ],
+      "comment": "自分が注目したのは、「ジムの会費が医療費控除に入るところ」です。\n医師の証明書と施設の領収証がそろえば、利用料が控除の対象になる。料金は週1回で月4万円。高価格帯のジムが「治療」の看板を取った形です。\n医師側も、運動を勧めたあとの経過が返ってくるのは助かると思います。",
+      "company": {
+        "name": "フラクタルワークアウト株式会社",
+        "profile": "2020年4月設立、東京都渋谷区神宮前。資本金5,000万円、未上場。原宿駅前のパーソナルジム「FRACTAL WORKOUT」（パーソナルトレーニング・ピラティス・メディカルフィットネス）と、法人向けの健康経営支援ツール「BODY PALETTE」を運営。厚生労働大臣認定の運動型健康増進施設で、2026年5月に指定運動療法施設の指定を受けた。",
+        "url": "https://fractal-workout.com/",
+        "ceo": {
+          "name": "高瀬雅弘",
+          "bio": "共同創業者。2025年に健康経営ツール「BODY PALETTE」を出した。それ以前の経歴は確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118106/307/118106-307-664238b64ba0e4610f164da420e890fe-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "1828945e-fc0e-4185-b773-c266f7e2daed",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-09",
+      "category": "wearable",
+      "title": "ザ・ファージ、血糖値の予測AIでシリーズA 5.7億円を調達",
+      "source_name": "ザ・ファージ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000110505.html",
+      "summary": [
+        "ザ・ファージは、腕に付ける血糖センサー（CGM）のデータをAIで解析し、食後の血糖の上がり方を予測する会社です。",
+        "今回は増資と融資で5.7億円。",
+        "リードは伊藤忠テクノロジーベンチャーズで、東京海上ホールディングスとは資本業務提携を結びました。"
+      ],
+      "comment": "自分が注目したのは、「お金を払う人を、個人から健保や保険会社に移そうとしているところ」です。\n特定保健指導の機関コードも取っていて、健診のHbA1cでは見えない人を拾う仕組みを健保・自治体に売りにいっている。\n損保が株主に入ったので、保険と組む出口も見えてきたと思います。",
+      "company": {
+        "name": "株式会社ザ・ファージ",
+        "profile": "2021年7月設立、東京都渋谷区。未上場。CGMなどの生体・行動データを解析し、生活習慣病のリスクを早くつかんで個別に予防する事業。血糖管理サービス「グルコースフライト」。高度管理医療機器等販売業の許可と特定健診・特定保健指導機関コードを取得。最高科学責任者は千葉大学の川上英良教授。資本金は非公開。",
+        "url": "https://thephage.life/",
+        "ceo": {
+          "name": "德永翔平",
+          "bio": "1989年東京都生まれ。青山学院大学卒業。センチュリーメディカルで製品マネージャー、フィリップス・ジャパンで生体情報モニタリングなどのマーケティングを担当し、診療ガイドラインの改訂や新しい医療機器の開発に関わった。2021年にザ・ファージを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/110505/25/110505-25-e60c4048e4fe3c2b568fb056b5bf0008-3840x2250.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "96a0c66c-32f2-45d6-93a5-2da4394a2fd9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-09",
+      "category": "digital",
+      "title": "ウォルターズ・クルワー、医療向け生成AI「UpToDate Expert AI」を日本で提供開始",
+      "source_name": "ウォルターズ・クルワー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000191779.html",
+      "summary": [],
+      "comment": "ウォルターズ・クルワーは、医師が診療中に調べる臨床情報サービス「UpToDate」を出しているオランダの会社です。\nその生成AI版を日本で出し始めました。日本語で聞くと、専門家が書いて査読した記事だけを元に答え、根拠も示します。\n国内でUpToDateを入れている800以上の医療機関から順に提供し、国立健康危機管理研究機構（JIHS）も評価を始めています。\n答えの出どころを自社の記事に絞ったのが売りだと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/191779/1/191779-1-4de177ea86c3bed477349bc9bda2e3cf-248x50.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6f25f63f-c4a3-4358-8eb9-d4d5af9f8071",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-09",
+      "category": "digital",
+      "title": "Ubie、金沢医科大学病院の電子カルテで「ユビー生成AI」が全面稼働",
+      "source_name": "Ubie",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000048083.html",
+      "summary": [],
+      "comment": "Ubieは、AI問診や症状検索アプリ「ユビー」を手がける、医師とエンジニアが創業したヘルステック企業です。\n金沢医科大学病院（807床）が、7月から患者情報を入れないネット環境で試し、10月から電子カルテの中で全面的に使い始めました。\nユビー生成AIは大学病院を含む160病院超に入っています。\n③と同じ日ですが、病院の生成AIは「電子カルテの中で使えるか」が分かれ目になってきたと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/229/48083-229-51bd76e00726110c73377c670f4dc7e0-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fb51ff53-23e1-4667-9dae-25391812ca92",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-08",
+      "category": "digital",
+      "title": "Craif、唾液を使う新生児SMAスクリーニングの前向き試験で全例一致",
+      "source_name": "Craif",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000467.000041883.html",
+      "summary": [
+        "Craifは、尿のマイクロRNAとAIでがんのリスクを調べる検査「マイシグナル」をつくる会社です。",
+        "SMA（脊髄性筋萎縮症）は運動神経が失われていく遺伝性の病気で、治療薬はありますが、発症前に始められるかで経過が変わります。",
+        "今回は、唾液を使って生後1.5時間以内にベッドサイドで調べるツールを新生児1,312例で試し、感度・特異度とも100%、偽陽性は0でした。"
+      ],
+      "comment": "自分が注目したのは、「精度ではなく、結果が出るまでの時間で勝負しているところ」です。\n今のろ紙血の検査は結果まで数週間かかり、重症型の約3分の1が治療前に発症してしまうそうです。\nSMAの検査はこども家庭庁の実証事業で公費化が進んでいるので、ベッドサイドで調べる分を誰が払うかが次の論点になると思います。",
+      "company": {
+        "name": "Craif株式会社",
+        "profile": "2018年5月設立、東京都新宿区新小川町。資本金1億円（2024年3月時点）、未上場。尿中マイクロRNAとAIを使ったがんの早期発見検査の研究開発、自宅でできるがんリスク検査「マイシグナル」の提供。",
+        "url": null,
+        "ceo": {
+          "name": "小野瀨隆一",
+          "bio": "早稲田大学国際教養学部卒業。三菱商事でシェールガスを日本に運ぶLNG船の事業に携わり、2018年に退職してIcaria（現Craif）を創業。2021年にForbes Asiaの「30 Under 30」に選ばれた。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/41883/467/41883-467-3b9bea074670a2ca59ccdf9722c39e43-3024x1744.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fa63bf0e-3e4b-41b7-a2f0-3eb3180c9966",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-08",
+      "category": "service",
+      "title": "MIRAERA、オンライン産業医「産業医NEO」で約3,600名の産業保健を支援",
+      "source_name": "MIRAERA",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000132575.html",
+      "summary": [],
+      "comment": "MIRAERAは、メンタルヘルスに強いオンライン産業医サービス「産業医NEO」を運営する会社です。\nサービス開始から約1年半で導入50社以上、支援する従業員は約3,600名、売上は前期比約3.5倍になりました。\nストレスチェックの義務が50人未満の事業所に広がるのを前に、小さな会社の産業医をどう確保するかを狙っています。\n代表の前田先生は、医学部在学中に1社目を起業して売却した産業医です。",
+      "company": {
+        "name": "MIRAERA株式会社",
+        "profile": "2023年10月設立、東京都渋谷区東。未上場。ベンチャー・中小企業向けの産業医選任サービス「産業医NEO」、50名未満の企業向け「産業医NEO under 50」、健康経営支援の「Health Manager」。所属産業医8名。資本金は非公開。",
+        "url": null,
+        "ceo": {
+          "name": "前田美里",
+          "bio": "医師。認定産業医。鹿児島大学医学部在学中に1社目を立ち上げ、1年半で売却。2023年にMIRAERAを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/132575/14/132575-14-bae20f3a98bc53f25176e5e7829d7293-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "1571afc6-1399-4ea2-918e-55734e8f6c89",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-08",
+      "category": "service",
+      "title": "ドクターメイト、特養の夜間オンコール代行で看護師の採用・定着が改善した事例を公表",
+      "source_name": "ドクターメイト",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000126.000047082.html",
+      "summary": [],
+      "comment": "ドクターメイトは、介護施設の看護師に代わって夜間の医療相談を受ける「夜間オンコール代行」を提供する会社です。\n全国の特養の約9割は、夜に看護師が電話で呼ばれる体制です。導入は2026年6月に全国約1万施設の1割を超えました。\n今回は静岡県磐田市の特養「梅香の里」で、子育て中の看護師が働きやすくなり、採用と定着がよくなったという事例です。\n代表の青柳先生は、いまも外来と往診を続けている皮膚科医です。",
+      "company": {
+        "name": "ドクターメイト株式会社",
+        "profile": "2017年12月設立、未上場。介護事業所向けの医療サービス。夜間オンコール代行（2020年開始、累計相談20万件超）、介護職向け医療教育「Dスタ」、オンラインの精神科療養指導・皮膚科・精神科の診療サポート。",
+        "url": null,
+        "ceo": {
+          "name": "青柳直樹",
+          "bio": "医師。千葉大学医学部卒業後、千葉市内の病院で皮膚科医として悪性腫瘍の手術を中心に診療。介護施設から来る患者を診るなかで施設ごとのケアのムラに気づき、2017年に創業。CHIBAビジコン2019でちば起業家大賞。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/47082/126/47082-126-c214d93693f53f0868a4233f5e76fca2-1440x394.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "44c1b73f-1cef-4820-b60d-2e020d996991",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-08",
+      "category": "digital",
+      "title": "Arteryex、経済産業省の高齢者ウェルビーイングのビジネスモデル検証事業に採択",
+      "source_name": "Arteryex",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000075.000044584.html",
+      "summary": [],
+      "comment": "Arteryexは、エーザイグループの医療ITの会社で、医療情報を管理するアプリ「パシャっとカルテ」（累計90万ダウンロード）などを運営しています。\n在宅医療・介護の現場で、看護師を起点に医師・薬剤師・介護士がPHRを共有する仕組みを検証します。\n検証項目に「多職種連携の費用を誰が負担するか」まで入っているのがいいと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/44584/75/44584-75-4ba814467f6022fe1f6d724c13e32443-3083x1625.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "9877f334-f100-49db-a628-d31c8a89c32a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-08",
+      "category": "device",
+      "title": "Peds3、「IMPACT STARTUP SUMMIT 2026」でオーディエンス賞と三菱UFJモルガン・スタンレー証券賞",
+      "source_name": "Peds3",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000060.000109519.html",
+      "summary": [],
+      "comment": "Peds3は、子どもの体・心・生活をまとめて診ることを掲げ、病院で処方する小児向けの治療アプリなどに取り組むスタートアップです。\nインパクトスタートアップ協会のピッチで2つの賞を受けました。大賞は植物の内生菌を使う農業系のエンドファイトでした。\n代表の千先先生は小児科医です。",
+      "company": {
+        "name": "株式会社Peds3",
+        "profile": "2023年設立、東京都港区南麻布。未上場。病院で処方する小児向け治療アプリ（DTx）の開発、小児デジタルクリニックの構想。",
+        "url": null,
+        "ceo": {
+          "name": "千先園子",
+          "bio": "医師。千葉大学医学部卒業。国立成育医療研究センターで小児科研修、東京都立小児総合医療センターで児童思春期精神科に従事。香港大学で公衆衛生学修士、シンガポール国立大学病院で臨床に携わり、厚生労働省で成育基本法に関わる母子保健の政策に関わった。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/109519/60/109519-60-2c7e914d5c6e9797f3ae85a49fc770fa-2999x1444.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fe8fe0f7-6f4b-448f-bf38-dbb0949f43d5",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-07",
+      "category": "digital",
+      "title": "ヘンリー、地方銀行5行と地銀系VC2社から融資中心に12億円を調達",
+      "source_name": "ヘンリー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000102549.html",
+      "summary": [
+        "ヘンリーは、中小病院向けのクラウド電子カルテ「Henry」をつくる会社です。",
+        "電子カルテ、オーダー、レセコンを一体にしていて、2023年の提供開始から導入病院の約8割が地方にあります。",
+        "12億円のうち11億円は静岡銀行がまとめた地銀5行のベンチャーデットで、出資は地銀系VC2社からの1億円です。"
+      ],
+      "comment": "自分が注目したのは、「お金を出したのが、顧客の病院と同じ地方の銀行だったところ」です。\n地方の病院は地銀にとって大事な取引先で、電子カルテの入れ替えは病院にとって重い投資。\nクラウドで安く入れ替えられれば病院の経営が持つので、地銀からすると取引先を守る話にもなっていると思います。\n51床のそのべ病院では、残業が半減し、診療報酬収入が1.3倍になったそうです。",
+      "company": {
+        "name": "株式会社ヘンリー",
+        "profile": "2018年5月設立、東京都新宿区四谷坂町。資本金1億円、未上場。中小病院向けクラウド型基幹システム「Henry」（電子カルテ・オーダー・レセコン一体型）の開発・提供、医事BPO、経営コンサルティング。",
+        "url": "https://henry-app.jp/",
+        "ceo": {
+          "name": "逆瀬川光人",
+          "bio": "1987年東京都生まれ。一橋大学卒業後、楽天でスマートフォン戦略のUXデザイナー・プロダクトマネージャー、ウォンテッドリーで新規事業の責任者を務めた。2018年に林太郎氏とヘンリーを共同創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/102549/29/102549-29-dbde59913c7897cbe293fe6b7cedcf40-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "0d21a6f8-11cf-405c-844c-af07ae59091c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-07",
+      "category": "service",
+      "title": "沖縄県名護市、消防の管理のもとで民間救急が転院搬送を担う体制を開始",
+      "source_name": "沖縄県名護市",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000010.000137667.html",
+      "summary": [],
+      "comment": "名護市は沖縄本島北部の市で、救急出動のうち転院搬送が約11%を占めます。全国平均7.3%の約1.5倍です。\n転院搬送は、病院から別の病院へ患者を移す搬送のことです。10月1日から、市の委託を受けた民間救急のフィルタスがこれを担い、消防本部が運用を管理します。患者と医療機関の負担はありません。\n救急車を本当に急ぐ人に残すための仕組みで、全国に広げるときは誰が費用を持つかが論点になると思います。\n制度設計は一般社団法人OPHISです。",
+      "company": {
+        "name": "一般社団法人OPHIS",
+        "profile": "2024年1月設立、東京都世田谷区松原。超高齢社会での救急搬送体制の持続可能化を目指す非営利団体。救急搬送制度改革、調査研究、救急システム支援の3事業。",
+        "url": null,
+        "ceo": {
+          "name": "匂坂量",
+          "bio": "救急救命士。救急救命学博士。国士舘大学防災・救急救助総合研究所講師。2026年4月から内閣府の「地域活性化起業人」（副業型）として名護市の官民連携救急搬送の実証に関わっている。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/137667/10/137667-10-c08fe4b5b63a32d8c4dbef561668e959-3061x1787.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "44540a81-46be-4559-887d-4fb4bc6c7d37",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-07",
+      "category": "drug",
+      "title": "MOLCURE、伊藤忠商事と資本提携",
+      "source_name": "MOLCURE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000022.000083912.html",
+      "summary": [],
+      "comment": "MOLCUREは、AIで抗体やペプチドの医薬品候補をつくる創薬スタートアップです。独自の大規模言語モデルと物理シミュレーション、自社ラボの実験データを組み合わせています。\n伊藤忠商事と組み、候補づくりから非臨床・臨床開発までを一貫して支える体制にします。出資額は非公表です。",
+      "company": {
+        "name": "株式会社MOLCURE",
+        "profile": "2013年5月設立、神奈川県川崎市幸区新川崎。未上場。AIを用いた抗体・ペプチド医薬品の創薬研究。",
+        "url": "https://molcure.com/",
+        "ceo": {
+          "name": "玉木聡志",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/83912/22/83912-22-80cf7f2f5daa5ba425311ff5659c9243-1920x530.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "137f2900-264a-49d1-bf7b-6f7d2f4f63db",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-07",
+      "category": "digital",
+      "title": "メディヴァ、シーズ・ワン、C&CH協会と組み中小病院のDXを推進",
+      "source_name": "メディヴァ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000041752.html",
+      "summary": [],
+      "comment": "メディヴァは、病院再生や医療DXを支援する医療コンサルティングの会社です。中小病院向けクラウド電子カルテのシーズ・ワン、中小病院を「コミュニティホスピタル」に変える支援をするC&CH協会と提携しました。\n総合診療医と一緒にFAXの自動仕分けや音声からのカルテ自動生成をつくり、カルテ作成時間が約55%（1日50分）減ったそうです。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/41752/29/41752-29-69ef7783c76ed9df3e0e6958f98a9a32-1999x1428.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f8dcc0fc-f82c-4aa9-b6bd-37480821e6c9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-06",
+      "category": "drug",
+      "title": "豊田通商、ボツワナとマダガスカルの医薬品卸最大手を子会社化",
+      "source_name": "豊田通商",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000086.000000769.html",
+      "summary": [
+        "豊田通商は、トヨタグループの総合商社です。",
+        "アフリカでは西アフリカを中心に24カ国、1万1,000以上の薬局へ医薬品を卸しています。",
+        "今回はボツワナの医薬品卸メドスワナの株式75%と、マダガスカルの医薬品卸オファムを取得します。"
+      ],
+      "comment": "自分が注目したのは、「薬をつくるのではなく、届ける道を押さえにいっているところ」です。\n2024年に南アフリカでサノフィのヘルスケア事業、2025年に東アフリカで約150店舗の薬局チェーンGoodlifeを買っていて、今回で南部アフリカまで線がつながる。\n偽造薬の多い地域では、品質管理とトレーサビリティのある流通網そのものが価値になると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/769/86/769-86-b3aff59a56d12c79bfe19137d6fc7f78-2065x399.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "a273993b-a5e2-4dbd-a58b-6662f4f4c8e9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-06",
+      "category": "digital",
+      "title": "メダップ、済生会熊本病院と開発した「AI DPCコーディング」の提供を開始",
+      "source_name": "メダップ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000045703.html",
+      "summary": [],
+      "comment": "メダップは、病院の入院収益を上げる支援をしている医療ITの会社です。\nDPCは入院医療費を病名と処置の組み合わせで決める仕組みで、どのコードを付けるかで病院の収入が変わります。\n新製品は電子カルテなどをAIが読み、14桁のDPCコードの候補を根拠と自信度付きで出します。テスト運用で年換算数千万円以上の収益改善が出ていて、月額25万円からです。",
+      "company": {
+        "name": "メダップ株式会社",
+        "profile": "2017年8月設立、東京都港区赤坂。資本金1億円、未上場。病院の入院収益の最大化に向けた経営支援サービスを提供。",
+        "url": "https://www.medup.jp/",
+        "ceo": {
+          "name": "柳内健",
+          "bio": "東京大学大学院（農学）修了後、ITコンサルのエイムネクストで製造業向けのシステム開発と業務コンサルティングに2年半。モバイル・インターネットキャピタルでベンチャー投資を6年半担当し、70億円のファンドを運用。医療の非効率をSaaSで変えられると考え、2017年に創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/45703/15/45703-15-b78c235a7badb5cd2e379f2b3d95acfc-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6391c4eb-6106-41b2-b34b-11deb601b78b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-06",
+      "category": "drug",
+      "title": "腫瘍内科医が創業したCLINIAL、東京都・JETROの英国向けプログラムに採択",
+      "source_name": "腫瘍内科医が創業したCLINIAL",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000167569.html",
+      "summary": [],
+      "comment": "CLINIALは、医療機関と製薬企業をつなぎ、治験に合う患者さがしを支援する医療データの会社です。\nドラッグロスは、欧米で承認された薬が日本では開発すら始まっていない問題です。\n2027年初頭にケンブリッジとロンドンへ行き、現地のバイオテックやCROに日本での治験を提案します。国立がん研究センター中央病院との共同事業で、第Ⅰ相治験の患者を約20%増やした実績があります。\n代表の水野先生は腫瘍内科医です。",
+      "company": {
+        "name": "株式会社CLINIAL",
+        "profile": "2023年3月設立、東京都渋谷区代々木。資本金2,502万円、未上場。医療連携プラットフォーム「CliniCONNECT」、医療情報システムの開発、病院DX支援。",
+        "url": "https://clinial.co.jp/",
+        "ceo": {
+          "name": "水野孝昭",
+          "bio": "医師。2012年名古屋市立大学医学部卒、2021年に東京慈恵会医科大学で博士（医学）。がん薬物療法専門医、呼吸器内科専門医。慶應義塾大学医学部がんゲノム医療センター特任助教、国立がん研究センター中央病院先端医療科の外来研究員も務める。「目の前の患者に必要な薬を届けられない」ドラッグロスへの危機感から2023年に創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/167569/2/167569-2-2529f305e4baa597e3f8026ac2317d0e-2000x1125.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "2f4d2818-11d8-4a58-a3e7-b29a0943c5e3",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-06",
+      "category": "digital",
+      "title": "READYFOR、医療機関のクラウドファンディングが累計300件・45億円を突破",
+      "source_name": "READYFOR",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000031325.html",
+      "summary": [],
+      "comment": "READYFORは、クラウドファンディングサービスの大手です。\n医療機関のプロジェクトは2025年に約11.4億円を集め、3年連続で過去最高でした。いちばん多い使い道は救急車で、2024年の10件から19件に倍増。診療報酬で「救急患者連携搬送料」ができたことが背景です。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/31325/423/31325-423-065266186a5a94655c54a7ed207074f4-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f8c7afbb-12e3-4c1e-a610-2dc470f2070e",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-05",
+      "category": "digital",
+      "title": "プラザクリエイト、個室ブース「OneBo」からファストドクターのオンライン診療を受けられるように",
+      "source_name": "プラザクリエイト",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000338.000000720.html",
+      "summary": [],
+      "comment": "プラザクリエイトは、証明写真ボックスで知られる会社です（親会社のプラザホールディングスは東証スタンダード）。ファストドクターは、医師約6,000人が参加する往診・オンライン診療のプラットフォームです。\nオフィスに置くWeb会議用の個室ブース「OneBo」から、ファストドクター提携医療機関の医師の診療を受けられるようにします。消防法に対応した新商品「OneBo Natura」は税込49.5万円で、2027年度に2,000台の販売を目指します。\n職場の中に診察室の代わりを置く形なので、健康経営の予算で入りそうです。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/720/338/720-338-7e6f2f7ccde3a1aac5f9e0a58f41102b-1061x533.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "af1c0a8f-b98a-4a20-a0e5-6fe58b1025fd",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-05",
+      "category": "digital",
+      "title": "医師起業のGENSHI AI、東大IPCなどの創業支援プログラム「1stRound」に採択",
+      "source_name": "GENSHI AI",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000184049.html",
+      "summary": [],
+      "comment": "GENSHI AIは、患者情報を院外に出さずに使える医療用の生成AIをつくるスタートアップです。\n主力の「MedLocal」は病院の中だけで動く閉域のLLMで、Mac Studio 1台・オフラインで医師国家試験の正答率89.7%を出したとしています。\n代表の長嶋先生は、研修医からAIエンジニアに転じた医師です。",
+      "company": {
+        "name": "株式会社GENSHI AI",
+        "profile": "2025年11月設立、東京都千代田区神田和泉町。資本金100万円、未上場。医療AI開発、AIモデルの受託開発、企業向けAIソリューション。製品は閉域LLM基盤「MedLocal」、医師向けエビデンス検索「CHUBEN」、医療特化音声認識「GENSHI Voice」。",
+        "url": "https://genshi.ai/",
+        "ceo": {
+          "name": "長嶋大地",
+          "bio": "医師。大分大学医学部卒。病院勤務中に趣味でつくった画像生成AIが話題になり、AIベンチャーに移って1年でCTOに。東大病院循環器内科のAIチームにも所属。2025年11月にGENSHI AIを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/184049/6/184049-6-2d2f4927dec51fc720dd29000298dc9f-1920x1005.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "953fe9de-0246-4458-b697-cbce3a55af9d",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-02",
+      "category": "wearable",
+      "title": "恵寿総合病院、スマートウォッチで入院患者のバイタルを電子カルテへ自動記録",
+      "source_name": "恵寿総合病院",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000009.000156925.html",
+      "summary": [
+        "恵寿総合病院は石川県七尾市の病院で、グループで医療・介護の施設を約30持っています。",
+        "入院患者がスマートウォッチを着けて血圧などを測り、電子カルテへの記録まで人の手を介さない仕組みを、10月19日から本格運用します。",
+        "2025年6月からの実証を経て300台を配置し、2027年1月中旬に全病棟へ広げます。"
+      ],
+      "comment": "自分が注目したのは、「測るだけでなく、カルテに入るところまでつないだ」ところです。\n看護師は1日2〜4回、病室を回って測り、手で入力しています。測れても、記録に落ちなければ現場は楽にならない。\n急変予測スコア（NEWS）も自動で出るので、夜間の見守りの形が変わると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/156925/9/156925-9-a06085878168aabd0631a948c6fa5aba-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f621ab12-290e-4b00-83d8-78827f1825c7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-02",
+      "category": "digital",
+      "title": "株式会社エクスメディオ、アジアの医師プラットフォームDocquityと提携を深化",
+      "source_name": "エクスメディオ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000015530.html",
+      "summary": [],
+      "comment": "エクスメディオは、医師8万人超が参加する臨床相談コミュニティ「ヒポクラ」を運営する会社です。\n10年以上前に自分がChief Medical Officerをやっていました。\nマイナビに事業譲渡して、創業メンバーは誰もいなくなったけど、こうやって会社や事業は続くんだなと学ばされています。\nDocquityはシンガポールに本社を置く医師向けプラットフォームで、アジアで50万人の医師が参加しています。\n2025年からDocquityの臨床AI「Dx」をヒポクラの会員に提供してきて、今回は基本合意書を結び、オンコロジー領域の知見共有や、日本と東南アジアの医師コミュニティの交流まで踏み込みます。金額は非開示です。\n日本の血液内科医の6割以上が入る「血液内科 Pro」も持っているので、専門医の集まりそのものが提携の材料になっていると思います。",
+      "company": {
+        "name": "株式会社エクスメディオ",
+        "profile": "2014年12月設立、東京都渋谷区恵比寿。資本金1億9,932万円、未上場。医師の臨床相談コミュニティ「ヒポクラ」、血液内科専門医コミュニティ「血液内科 Pro」、医療機関向けサブスク「医業支援のミギウデくん」を運営。",
+        "url": "https://exmed.io/",
+        "ceo": {
+          "name": "澤田敬嗣",
+          "bio": "1981年岐阜県生まれ。名古屋市立大学経済学部を卒業し、医療機器商社の八神製作所に入社。ミュージシャン活動を経て、法研中部、ヘルスケア・コミッティーでヘルスケアのマーケティングに携わった。2020年にエクスメディオに入社し、2022年1月に代表取締役社長に就任。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/15530/69/15530-69-4a77c8ae93476cfc19c6f07f7d2c880d-597x315.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "91598414-2db6-403f-9968-795fafa67335",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-02",
+      "category": "service",
+      "title": "NEXTBLUE、フェムテック企業の米国進出支援で東京都の事業に採択",
+      "source_name": "NEXTBLUE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000130024.html",
+      "summary": [],
+      "comment": "NEXTBLUEは、女性のウェルビーイング領域と女性起業家を中心に投資するベンチャーキャピタルです。\n東京都のスタートアップ支援事業「TOKYO SUTEAM」に採択され、シカゴのヘルスケア特化アクセラレーターMATTER（支援実績1,100社以上）と組んで、フェムテック・ヘルスケアのスタートアップの米国進出を支援します。\n2027年2月から約2年、都内の20社の準備から始めて、最大5社を米国での市場検証まで連れていきます。募集は10月中旬に始まります。",
+      "company": {
+        "name": "NEXTBLUE",
+        "profile": "2020年設立のベンチャーキャピタル。女性のウェルビーイング領域と女性起業家を中心に、日本・米国・欧州のスタートアップへ投資する。今回の採択主体はNEXTBLUE2号有限責任事業組合（2023年5月設立、東京都中央区日本橋）。",
+        "url": "https://nextblue.com/",
+        "ceo": {
+          "name": "井上加奈子",
+          "bio": "慶應義塾大学法学部卒。アンダーソン・毛利・友常法律事務所、GCAサヴィアンでM&Aアドバイザリーに携わり、Kellogg School of ManagementでMBA。BCG、D4Vを経て2020年にNEXTBLUEを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/130024/8/130024-8-0ef8034bbab2dff4b1dcd448c6c40096-1448x1086.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "79905552-4f25-4681-8bd7-2de1dce69bd4",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-01",
+      "category": "digital",
+      "title": "医療AI推進機構（MAPI）、次世代医療基盤法の「認定匿名加工医療情報作成事業者」「認定仮名加工医療情報作成事業者」に認定",
+      "source_name": "医療AI推進機構",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000135533.html",
+      "summary": [
+        "医療機関の診療情報を加工して、AI開発企業や研究機関に出せる立場を取りました。",
+        "全国で4例目、単独の事業者としては初めてです。",
+        "これまでの3例（ライフデータイニシアティブ、日本医師会医療情報管理機構、匿名加工医療情報公正利用促進機構）は、NTTデータや日立などの受託事業者と組んだ形での認定でした。"
+      ],
+      "comment": "自分が注目したのは、「画像AIを作ってきた人たちが、データを集める側に回った」ところです。\n機構長の島原さんはエルピクセルの創業者で、代表の川邊さんもエルピクセルなどで薬事を担ってきた薬剤師です。\nNDBはレセプトが中心で、画像や動画の利活用は限られていました。医療AIの開発で詰まるのは学習データなので、そこを法律の枠組みで押さえにいったと思います。\nあとは、データを出してくれる医療機関がどれだけ集まるかです。\n\n▸代表取締役：川邊翔\n薬剤師。ミシガン大学経営大学院でMBA。国内の医療機器メーカーの薬事部門で、薬事申請、保険申請、国内外の査察対応に従事。その後エルピクセルをはじめ複数の医療AIスタートアップで、プロジェクト管理、海外事業開発、薬事・品質管理を担当した。",
+      "company": {
+        "name": "医療AI推進機構株式会社",
+        "profile": "2023年11月設立、東京都中央区日本橋大伝馬町。資本金1億円、未上場。医療データの加工・提供を行う「次世代医療データベース」の開発・運営、医療AIの法規制対応支援。2025年6月に地域ヘルスケア連携基盤（CHCP）と資本提携。",
+        "url": "https://mapi-jp.org/",
+        "ceo": {
+          "name": "島原佑基",
+          "bio": "東京大学大学院新領域創成科学研究科の博士課程を修了（生命科学）。2014年にエルピクセルを創業し、代表取締役として医療・創薬分野の画像解析AI事業を手がけた。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/135533/25/135533-25-770ad5c03fb291908caf267a9a641b95-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "5d9d9407-f170-41e5-a975-7d0ec228640f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-01",
+      "category": "digital",
+      "title": "株式会社AIBORN、医療記録AI「カタナシ」でメディカル・データ・ビジョンから出資を受け資本業務提携",
+      "source_name": "AIBORN",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000191863.html",
+      "summary": [],
+      "comment": "カタナシは、診察やカンファレンスの会話を文字にして、SOAP形式などに要約し、記録づくりを支えるAIです。医師だけでなく看護師など多職種の記録を対象にしています。\nMDVは2025年8月から販売代理店をしていて、今回は出資まで踏み込みました。金額は非開示です。\nAIスクライブが乱立するなか、売る側が作る側を囲いにいく動きだと思います。",
+      "company": {
+        "name": "株式会社AIBORN",
+        "profile": "2025年2月設立、東京都中央区八丁堀。未上場。医療記録AI「カタナシ」の開発・提供。資本金は非公開。",
+        "url": "https://aiborn.co.jp/",
+        "ceo": {
+          "name": "外山将平",
+          "bio": "ネットワーク情報を専攻。VERTEX Technologiesに設立メンバーとして入り、会員150万人に育ったサービスの事業責任者を務めた。2021年にYOUTRUSTでプロダクトマネージャー、2024年にBonBonの執行役員。2025年にAIBORNの代表取締役に就任。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/191863/1/191863-1-aabe9540970788466734ec367e8fe14b-3145x681.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "69772bee-983a-4592-beb0-c69a6e40fc7f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-10-01",
+      "category": "service",
+      "title": "HITOWA、埼玉・神奈川で介護付有料老人ホーム6施設を運営するビーヘルスを子会社化",
+      "source_name": "HITOWA",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000149.000019127.html",
+      "summary": [],
+      "comment": "10月1日付で全株式を取得。ビーヘルスの売上高は2026年6月期で17.4億円、従業員は191名です。金額は非開示。\nHITOWAは全国で約150の介護施設を運営し、うち埼玉38、神奈川22と、もともと厚い地域に足す買収です。\n介護は人の採用も運営も地域単位なので、同じ地域で数を増やすほど回しやすくなると思います。",
+      "company": {
+        "name": "株式会社ビーヘルス",
+        "profile": "2023年4月設立、神奈川県平塚市。資本金100万円、未上場。介護施設と保育園の運営。",
+        "url": null,
+        "ceo": {
+          "name": "陸田涼（10月1日就任）",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "8fe7e162-cb18-4f34-a25d-3d47ffbb4c16",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-30",
+      "category": "digital",
+      "title": "株式会社mutex、AIレセプト業務支援「Reze」でシリーズA 2億8,160万円を調達",
+      "source_name": "mutex",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000133022.html",
+      "summary": [
+        "mutexは、病院のレセプト（診療報酬の請求）業務をAIで支える「Reze」の会社です。",
+        "返戻・査定の管理、症状詳記の自動作成、レセプト点検などを行います。",
+        "シリーズAで2億8,160万円、累計3億4,160万円。"
+      ],
+      "comment": "自分が注目したのは、「引受先の3社とも、医療機関との取引の入り口を持っている」ところです。\n医薬品卸のメディパル、病院コンサルの日本経営、ルナルナのエムティーアイ。\nレセプトは2年ごとの改定と医事課の人手不足で詰まりやすい。お金と一緒に売り先も取りにいく調達になっていると思います。",
+      "company": {
+        "name": "株式会社mutex",
+        "profile": "2022年2月設立、東京都新宿区西新宿（東京オペラシティタワー）。資本金1億7,081万円、未上場。医療機関向けAIレセプト業務支援SaaS「Reze」の開発・提供。従業員は約20人。",
+        "url": "https://www.mutex-inc.dev/",
+        "ceo": {
+          "name": "熊澤洸平",
+          "bio": "東京大学電子情報工学科卒業。大学1年からソフトウェア開発のインターンを重ね、4年時に同期とフードデリバリーのメタサーチ「DeliSearch」を起業してCTOを務めた。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/133022/21/133022-21-5fc398e55a76d9d22da2c6eedf94a2fc-3900x2047.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "77d7814f-60c6-4c4e-9dc9-9e8191c7ab8a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-30",
+      "category": "digital",
+      "title": "株式会社ヘンリー、クラウド電子カルテ「Henry」を300床以上の病院へ提供開始",
+      "source_name": "ヘンリー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000102549.html",
+      "summary": [],
+      "comment": "ヘンリーは、中小病院向けのクラウド型電子カルテ・レセコン「Henry」の会社です。\n今回のリニューアルで、300床以上の病院に要るオーダーや病棟業務の機能、部門システム連携、記録や文書を作る「Henry AI」がそろいました。第一号は松山リハビリテーション病院（326床）で、年内に入ります。\n大きな病院の電子カルテは大手ベンダーが押さえている市場なので、そこに入っていけるかだと思います。",
+      "company": {
+        "name": "株式会社ヘンリー",
+        "profile": "2018年5月設立、東京都新宿区四谷坂町。資本金1億円、未上場。クラウド型電子カルテ・レセコン「Henry」の開発・提供。",
+        "url": "https://henry.jp/",
+        "ceo": {
+          "name": "逆瀬川光人",
+          "bio": "2011年に楽天へ新卒入社し、楽天PointClubなど10以上のサービスやアプリの立ち上げに関わる。2016年にウォンテッドリーへ移り、Wantedly Peopleの立ち上げを率いた。2018年に大学時代の友人と創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/102549/28/102549-28-cde45a9eac0397fbd993941a4d440b6f-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "44a5790f-fdd7-4725-b702-bd4431f5f46a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-30",
+      "category": "device",
+      "title": "Boston Medical Sciences、下剤のいらない大腸CT検査のAIで東京都の海外向け医療機器開発支援「SMEDO」に採択",
+      "source_name": "Boston Medical Sciences",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000011.000129637.html",
+      "summary": [],
+      "comment": "Boston Medical Sciencesは、下剤を飲まずに受けられる大腸CT検査（バーチャル内視鏡）をAIで支える仕組みを開発しているスタートアップです。\n東京都の事業に採択され、11月にフィリピンの医療機関を訪ねて、現地の医療体制や実装の条件を確かめます。\n代表の岡本先生はハーバード大学医学部で放射線医学の講師を務める医師です。",
+      "company": {
+        "name": "Boston Medical Sciences株式会社",
+        "profile": "2023年4月設立、東京都中央区日本橋本町。資本金11億3,084万円（資本準備金含む）、未上場。非侵襲的な大腸がんスクリーニングAIシステムの開発と臨床展開。従業員37名。",
+        "url": "https://b-ms.tech/",
+        "ceo": {
+          "name": "岡本将輝",
+          "bio": "医師。信州大学医学部卒業。東京大学大学院でMPHと博士号、University College Londonで修士号を取得。日本学術振興会特別研究員、東京大学特任研究員を経て、ハーバード大学医学部放射線医学講師、マサチューセッツ総合病院の研究員。2023年に創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/129637/11/129637-11-2d75e79fbd780dbd9686f50a2d74a4b8-3567x2063.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "060c1651-67f5-4c29-81ad-9c492f969652",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-29",
+      "category": "digital",
+      "title": "株式会社OPERe、患者説明DX「ポケさぽ」で広島市立広島市民病院と包括的パートナーシップ",
+      "source_name": "OPERe",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000118047.html",
+      "summary": [
+        "OPEReは、入院や治療の説明を動画や資料にしてLINEで患者に届ける「ポケさぽ」の会社です。",
+        "全国140以上の医療機関に入っています。",
+        "広島市民病院は2023年10月に導入し、登録者は累計14,176名。"
+      ],
+      "comment": "自分が注目したのは、「問い合わせ電話を減らした実績を、次は退院後の説明に回している」ところです。\n説明の多くは看護師や医師の時間でまかなわれている。働き方改革で人の手が限られる中、説明を仕組みにするのは病院経営の話だと思います。",
+      "company": {
+        "name": "株式会社OPERe",
+        "profile": "2020年6月設立、東京都港区三田。資本金9,900万円、未上場。患者と医療者のデジタルコミュニケーション手段の開発・提供。LINEを使った患者説明システム「ポケさぽ」。",
+        "url": "https://www.opere.jp/",
+        "ceo": {
+          "name": "澤田優香",
+          "bio": "看護師。聖路加国際病院などの急性期病院で看護師として働いた後、病院経営コンサルティング会社で医療機関のコンサルティングや分析システムの開発に携わり、2020年6月に創業。自身が入院したときの体験が開発のきっかけ。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118047/20/118047-20-9d4ffb032366f4a245934d50c1b3338b-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ec063ea5-fcbf-4754-84b7-8a2c6dc8c335",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-29",
+      "category": "digital",
+      "title": "エムティーアイの「ルナルナ みらいサポート」、宇都宮市で導入後に妊娠届出数の減少が緩やかに",
+      "source_name": "「ルナルナ みらいサポート」",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001228.000002943.html",
+      "summary": [],
+      "comment": "「ルナルナ」は月経日や排卵日を予測する女性向けアプリです。「みらいサポート」は、その有料機能を自治体が住民に無償で配る仕組み。\n宇都宮市は2024年11月に導入。妊娠届出数は導入前の5年間は年3.8〜6.6％減っていたのが、導入後17か月は2.6％減に緩やかになりました。\n前後比較なので、リリース自身も「アプリだけの効果とは断定しない」と書いています。学会発表の段階で、査読論文はまだです。\n自治体がお金を出す以上、こういう検証をどこまで積めるかが次の勝負だと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/2943/1228/2943-1228-f285f1231c3d1b26e25346374f1c6415-2400x1600.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c4a5ecbc-96b1-4b5d-bc23-32d61088d337",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-29",
+      "category": "drug",
+      "title": "アガサ株式会社、治験文書クラウド「Agatha」のインド実証で経済産業省の補助事業に採択",
+      "source_name": "アガサ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000067.000052277.html",
+      "summary": [],
+      "comment": "アガサは、治験や臨床研究の文書をクラウドで管理する「Agatha」の会社です。\n経産省の「グローバルサウス未来志向型共創等事業費補助金」に採択され、NTTデータグループと組んで、インドの規制と業務にAgathaを合わせて使えるかを確かめます。",
+      "company": {
+        "name": "アガサ株式会社",
+        "profile": "2015年10月設立、東京都中央区日本橋兜町。資本金10億9,400万円、未上場。治験・臨床研究の文書管理クラウドサービス「Agatha」。",
+        "url": "https://www.agathalife.com/",
+        "ceo": {
+          "name": "鎌倉千恵美",
+          "bio": "1974年愛知県生まれ。名古屋工業大学大学院を修了して総務省に入省。日立製作所で製薬・医療機関向けの新規事業を担当し、米ライス大学でMBAを取得。製薬企業向け文書管理の米NextDocs日本支社代表を経て、2015年に創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/52277/67/52277-67-0131d70633b7031fb1af39baa106c980-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "725b1b4d-752a-4415-809d-cd0f70e216c6",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-24",
+      "category": "service",
+      "title": "ヘルスケア特化PEの日本PMIパートナーズ、2023年に非公開化したロングライフホールディングの全株式を創業家に譲渡。2021年組成のファンドで初のEXIT",
+      "source_name": "日本PMIパートナーズ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000089680.html",
+      "summary": [
+        "ロングライフHDは大阪の在宅介護と富裕層向け有料老人ホームの会社で、介護専業で初めて上場した会社です。",
+        "2023年に1株186円、最大約15億円のTOBで非公開化し、そのスポンサーが日本PMIパートナーズでした。",
+        "約3年、常駐メンバーを出向させて、中核事業への集中、介護報酬加算の取得、採用、内製のシステム開発まで進めた。"
+      ],
+      "comment": "自分が注目したのは、「PEの出口が創業家だったところ」です。\n介護や病院は同業に売ろうにも買い手が限られ、再上場も簡単ではない。\n上場をやめて立て直し、また創業家に戻す。ファンドが「つなぎ」を担う形で、医療・介護の事業承継の一つの型になると思います。",
+      "company": {
+        "name": "日本PMIパートナーズ株式会社",
+        "profile": "2020年11月設立、東京都新宿区四谷。資本金450万円、未上場。ヘルスケア特化型のプライベート・エクイティ・ファンドを運用し、投資先のM&A後の統合（PMI）とDXを支援する。ファンドには公的機関、上場ヘルスケア企業、複数の金融機関が出資している。適格機関投資家等特例事業者。",
+        "url": "https://www.nihonpmipartners.co.jp/",
+        "ceo": {
+          "name": "濵田仁",
+          "bio": "慶應義塾大学卒、南カリフォルニア大学でMBA。保健同人社、三井物産、総合メディカルを経て、ヘルスケア特化のPEファンドを率いている。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/89680/12/89680-12-b8b21188375640094a785d95a15e3527-136x137.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "511955a0-23f5-4ff3-b786-b6787f8d0f54",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-24",
+      "category": "service",
+      "title": "米Teal Health、自宅でできるHPV検査の子宮頸がん検診でシリーズA 2,200万ドル（約35億円）を調達。日本のMPower Partnersも出資",
+      "source_name": "米Teal Health",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000047.000079736.html",
+      "summary": [],
+      "comment": "自己採取の器具「Teal Wand」は2025年5月にFDAの認可を取り、全米50州で使えます。\n2027年1月から、連邦ガイドラインで多くの医療保険が自己採取の検診をカバーすることになる。その前に広げておくための資金です。\n日本の子宮頸がん検診の受診率は44%（2022年）。保険が払う仕組みが先にできて、在宅の検査が一気に広がる、という順番だと思います。",
+      "company": {
+        "name": "Teal Health Inc.",
+        "profile": "2020年設立、米サンフランシスコ。未上場。自宅用のHPV自己採取器具と、検診から結果確認、フォローアップまでの遠隔医療を提供する。累計調達額は4,500万ドル。",
+        "url": null,
+        "ceo": {
+          "name": "Kara Egan",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/79736/47/79736-47-f3e58f2d06fda8008da05b70c7106c25-1920x400.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "3dbe750f-1de0-43ea-bf19-e8f40aaf1762",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-24",
+      "category": "device",
+      "title": "メディアスホールディングスとPlug and Play Japan、医療機器スタートアップの上市後の「市場定着」を支えるコミュニティ「MediGO」を始動",
+      "source_name": "メディアスホールディングスとPlug and Play Ja",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000048269.html",
+      "summary": [],
+      "comment": "薬事承認と保険収載を取っても、スタートアップ単独で全国の販売網はつくれない。そこを東証プライムの医療機器ディーラーであるメディアスが、販売網、物流、現場のデータで支える形です。10月1日にTokyo Innovation Baseでキックオフ。\n承認までを支える仕組みは増えましたが、その先の「売る」に手を出すところは少ないと思います。",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000295.000028153.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48269/35/48269-35-78ca5178029c1759b420d07b888e68d2-1128x443.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "819165b4-344a-418d-8c13-ae0032ce31fc",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-24",
+      "category": "drug",
+      "title": "医用工学研究所（MEI）、電子カルテ由来の二次利用できるデータが700万人を突破",
+      "source_name": "医用工学研究所",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000038979.html",
+      "summary": [],
+      "comment": "6月に600万人を発表してから、3か月で100万人増えました。2023年にKDDIと資本業務提携し、全国80超の医療機関とデータ基盤を共同でつくっています。検査、処方、処置を時系列で追え、約1か月前のデータまで使える。顧客は製薬企業と国のプロジェクトで、2026年度末に約1,000万人を目指しています。",
+      "company": {
+        "name": "株式会社医用工学研究所（MEI）",
+        "profile": "2004年12月設立、東京都千代田区内幸町（帝国ホテルタワー）。資本金1億円、未上場。医療データプラットフォーム、医療ビッグデータ、病院経営分析サービス。2023年にKDDIと資本業務提携。",
+        "url": "https://www.meiz.co.jp/",
+        "ceo": {
+          "name": "笠﨑州雄",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/38979/15/38979-15-0612b9f87a4491bbc0cbe98f58e5aafe-720x629.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "8b47ef97-98b2-459d-98b1-0a1fd1b475d9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-24",
+      "category": "digital",
+      "title": "筑波大学発のWorld Life Mapping、組織分析AI「シビリンク」を入れた筑波記念病院で、看護職員の離職率が16.2%から6.7%に",
+      "source_name": "World Life Mapping",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000022.000058654.html",
+      "summary": [],
+      "comment": "2021年度の16.2%は全国平均の11.6%を上回っていて、2025年度に6.7%まで下がりました。AIが回答に応じて質問を変えるアンケートで、部署ごとの職場環境を数値にします。忙しいときに若手が先輩に相談しづらい病棟が見つかった、というのが具体例です。導入は全国110施設。",
+      "company": {
+        "name": "株式会社World Life Mapping",
+        "profile": "2019年7月設立、茨城県つくば市天王台（筑波大学共同研究センター内）。資本金1,500万円、未上場。2019年8月に筑波大学発ベンチャーの認定。組織分析AI「シビリンク」を医療機関などに提供する。",
+        "url": "https://www.worldlifemapping.com",
+        "ceo": {
+          "name": "下田彬",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/58654/22/58654-22-d36f20710aa53b86d722a408804d4df5-2400x1260.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "10b9798e-2f4d-442a-b262-be961382790a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-19",
+      "category": "digital",
+      "title": "医療法人AGRIE、土浦協同病院なめがた地域医療センターの事業承継へ。茨城県厚生連と本格協議に入る",
+      "source_name": "AGRIE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000160677.html",
+      "summary": [
+        "AGRIEは、心臓外科医だった伊藤先生が2015年に立ち上げた医療法人です。",
+        "訪問診療を柱に全国38か所の診療所と介護施設を運営し、在宅の管理患者数は2025年12月に1万人を超えました。",
+        "なめがた地域医療センターは、茨城県厚生連が2000年に開いた鹿行地域の中核病院です。"
+      ],
+      "comment": "自分が注目したのは、「病院を建て直すのではなく、在宅の会社が病床を取りに来たところ」です。\nAGRIEが想定するのは、訪問診療、外来、日中の救急、地域包括ケア中心の入院。運ばれて、短く入院して、家に帰る。その一周を地域の中で閉じられるところが、病院ごと引き受ける側に回っていると思います。",
+      "company": {
+        "name": "医療法人AGRIE（アグリグループ）",
+        "profile": "2015年5月設立、茨城県つくばみらい市伊奈東。未上場。訪問診療を中心に、全国38か所の診療所、介護老人保健施設、介護医療院、病院（別法人）を運営する。在宅医療は「アグリホームクリニック」（2025年6月にメドアグリクリニックから改称）の名で展開し、管理患者数は2025年12月に1万人を超えた。2025年4月には、新潟県糸魚川市の「よしだ病院」の事業承継について優先交渉権の合意を発表している。",
+        "url": "https://agrie.jp/",
+        "ceo": {
+          "name": "伊藤俊一郎",
+          "bio": "1979年新潟県糸魚川市生まれ。医師。2004年に筑波大学医学専門学群を卒業し、心臓外科医として茨城県内の病院に約10年勤務した。2014年に有料老人ホームと看護・介護の株式会社AGRI CAREを、2015年に訪問診療のメドアグリクリニック（現・医療法人AGRIE）を創業。2017年には医療相談アプリ「LEBER（リーバー）」の株式会社リーバーを立ち上げている。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "710c2e8c-6ea0-4fe3-99e9-462595f70d4e",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-18",
+      "category": "device",
+      "title": "CYBERDYNE、ホルター心電計を「売らずに貸す」サービスへ。初期費用0円・月額19,800円＋検査1回7,260円",
+      "source_name": "CYBERDYNE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000078.000053044.html",
+      "summary": [
+        "CYBERDYNEは、装着型サイボーグ「HAL」のつくば発医療機器メーカーです。",
+        "小型ホルター心電計「Cyvis M100」を医療機関に売らずに貸し、検査のたびに課金するサービスを始めました。",
+        "ホルター心電図は心電計を付けたまま生活して不整脈を捉える検査です。"
+      ],
+      "comment": "自分が注目したのは、「加算の値段に合わせて課金しているところ」です。\n2026年度改定で7日以上の検査に長時間心電図加算320点が付き、1回2,050点になりました。そこへ初期費用0円・月額19,800円・1回7,260円で入る。買わずに回した分だけ払う。\n1年くらい前の勉強会でも整理していましたが、各社の小型ホルターを下の表に整理してみました！\n買い切りから、使い切り＋解析込み、月額＋従量へ変わってきています。\nぜひ見てもらいたいです！！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/53044/78/53044-78-071d63a48a5f0023cccc23d3df4a5186-3900x1755.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "caebcf92-410f-4628-a8ad-e14fec898c0a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-18",
+      "category": "wearable",
+      "title": "Samsung、Galaxy Budsが米国でOTC補聴器に。イヤホンの中で聴力検査から補聴まで",
+      "source_name": "Samsung",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000986.000030942.html",
+      "summary": [],
+      "comment": "Samsungのワイヤレスイヤホン「Galaxy Buds」に、補聴器の機能が乗ります。米国FDAが、処方箋なしで買えるOTC補聴器として認可しました。対象はGalaxy Buds3 ProとBuds4 Pro、18歳以上の軽度〜中等度の難聴で、提供は2026年第4四半期からです。\nこの「OTC医療機器」みたいなのは日本でもこれから増えていっておかしくないと思っています！（アイリスのnodocaもそうなる方がいい）\n使い方は、設定画面から約5分のセルフ聴力検査を受け、その結果に合わせて聞き取りにくい音を増幅する。検査のソフトウェアはSaMD（医療機器プログラム）として登録され、処方式には補聴器のフィッティングで標準のNAL-NL2を使っています。\nWHOの推計では難聴は世界で15億人、2050年に25億人。費用と偏見で、必要な人の多くが補聴器を使っていません。\n補聴器を安くしたのではなく、買いに行く手前の「聴力検査」ごとイヤホンに入れたところが効いていると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/30942/986/30942-986-149af843787a1091ef79365842100b66-728x410.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ce39b5db-6151-4dc3-ad48-92173330d1bf",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-18",
+      "category": "policy",
+      "title": "川崎市キングスカイフロント、厚労省の「創薬クラスターキャンパス整備事業」に採択。シェアラボの次に移る専有ラボを整備",
+      "source_name": "川崎市キングスカイフロント",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000400.000124454.html",
+      "summary": [],
+      "comment": "キングスカイフロントは、羽田空港の対岸、川崎市殿町にあるライフサイエンスの集積地で、企業や研究所など約80機関が入っています。ここが、厚生労働省の「創薬クラスターキャンパス整備事業」に9月11日付で採択されました。創薬スタートアップを育てる拠点に国が補助率2分の1で出す事業で、期間は令和10年3月末までです。\n中身は3本。シェアラボから移れる成長企業向けの専有型ラボ、グローバル起業家の育成プログラム、細胞培養設備の運用支援教育。申請は川崎市、川崎市産業振興財団、セラボヘルスケアサービスの3者です。\nシェアラボで始めた会社が、研究を止めずに次へ移る場所を用意する、という組み立てになっています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/124454/400/124454-400-00df8663e9cd3d3b6a392e44c0a68bd3-3652x2483.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e46b08f8-a947-4a79-ad49-269c0385a06a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-18",
+      "category": "service",
+      "title": "睡眠計測のS'UIMIN、会長の柳沢正史氏がオレキシンの発見で2026年ラスカー賞を受賞",
+      "source_name": "S'UIMIN",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000026.000038776.html",
+      "summary": [],
+      "comment": "S'UIMINは、自宅で脳波を測って睡眠を評価する筑波大学発のスタートアップです。その創業者で取締役CSO会長の柳沢正史先生が、2026年アルバート・ラスカー基礎医学研究賞を受賞しました。受賞者の多くが後にノーベル賞を受けることで知られる米国の医学賞です。\n受賞理由は、覚醒を保つ神経ペプチド「オレキシン」の発見と、その欠乏がナルコレプシーを起こすことの解明。スタンフォード大学のEmmanuel Mignot教授との共同受賞で、授賞式は9月17日（米国時間）にニューヨークでした。\n発見は1998年。2026年8月には、オレキシン2受容体作動薬「オベポレクストン」がナルコレプシータイプ1の治療薬として日本でも製造販売承認されています。基礎研究が薬になり、同じ人が2017年に計測の会社を立ち上げている。研究の出口が創薬とデバイスの両方に伸びた形です。",
+      "company": {
+        "name": "株式会社S'UIMIN",
+        "profile": "2017年10月設立、東京都渋谷区初台。未上場、筑波大学発スタートアップ。AI自動解析による睡眠脳波測定技術を強みに、保険診療向け医療機器の開発・提供、医療機関・健診施設・法人組織向けの睡眠計測サービス、研究開発・製品評価・マーケティング支援、人材育成・資格認定を手がける。在宅で脳波を測る「InSomnograf」「Nightgraf」などを提供している。",
+        "url": "https://www.suimin.co.jp/",
+        "ceo": {
+          "name": "柳沢正史",
+          "bio": "1960年東京生まれ。医師。1985年に筑波大学医学専門学群を卒業し、1988年に同大学院を修了（医学博士）。大学院在学中の1988年に血管制御因子エンドセリン、1998年にオレキシンを発見した。31歳で渡米し、テキサス大学とハワードヒューズ医学研究所で24年間にわたり研究室を主宰。2012年に筑波大学 国際統合睡眠医科学研究機構（WPI-IIIS）を設立して機構長・教授。2017年にS'UIMINを起業し、代表取締役を経て2024年から現職。紫綬褒章、朝日賞、慶應医学賞、文化功労者、ブレークスルー賞、クラリベイト引用栄誉賞などを受賞している。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/38776/26/38776-26-689b04ceaef0dcbbbaee1869633491ba-2383x2247.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "26f2ee18-07e6-4769-ad2e-42421b1101b2",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-17",
+      "category": "digital",
+      "title": "訪問看護・介護のAI記録「スタンドLM」のENBASE、エス・エム・エスと戦略的パートナーシップを締結。介護ソフト「カイポケ」へワンタップで記録を送れるように",
+      "source_name": "ENBASE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000154525.html",
+      "summary": [],
+      "comment": "ケア中の会話を録音するとAIが訪問看護記録書Ⅱ（観察記録）をつくり、確認画面を挟んでカイポケへ登録できます。まず訪問看護から始めて、訪問介護、居宅介護支援、福祉用具貸与へ順次広げます。\nカイポケの会員は全国62,300事業所（2026年7月時点）。先行導入した訪問看護ステーションでは、記録と報告書・計画書の作成時間が50%減ったそうです。\nAIを単体で売るのではなく、請求ソフトの側に寄せていったところがうまいと思います。記録は最後に請求へつながるので、そこに着地しないAIは現場で止まります。",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000476.000013298.html",
+      "company": {
+        "name": "株式会社ENBASE",
+        "profile": "2022年7月設立、東京都中央区日本橋茅場町。資本金2億5,440万円（資本準備金を含む）、未上場。ケア中の会話をAIが解析し、事業所ごとの様式に合わせて業務記録を自動作成するAIアシスタント「スタンドLM」の開発・提供。2025年6月に提供を開始し、訪問看護のほか訪問介護、ケアマネジャー、福祉用具専門相談員の書式に対応している。2026年8月に累計記録作成数10万件を突破。",
+        "url": "https://enbase.jp/",
+        "ceo": {
+          "name": "無尽洋平",
+          "bio": "一橋大学卒業。2022年7月にENBASEを設立し、出張サービスのマッチング「TIMEPASS」を手がけたのち、2025年6月にケア現場向けの「スタンドLM」を開始した。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/154525/27/154525-27-23acdcb3dabab82916fa8a89edb0cfef-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "d86afb85-b6fa-46a3-9b7d-96245bcf5802",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-17",
+      "category": "digital",
+      "title": "Dr.JOY、紹介電話・救急隊からの連絡の受入判断をAIが自動で記録し、断り理由を可視化する「受入コールAI」を9月18日から提供開始",
+      "source_name": "Dr.JOY",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000118372.html",
+      "summary": [
+        "窓口ごとに050番号を発番し、通話をリアルタイムで文字起こしして、AIが受入可否と理由をタグ付けします。",
+        "地域連携室、救急隊からの連絡、夜間救急の問い合わせの3つが対象です。",
+        "救急搬送の応需率は公的統計で見えますが、紹介電話の断りは口頭や紙のメモで消えます。"
+      ],
+      "comment": "自分が注目したのは、「断りを減らすためではなく、断った理由を残すために売っているところ」です。\n代表の石松先生も、AIの役割は記録と可視化まで、解釈と合意形成は人の役割だとコメントで線を引いています。医師の判断を評価するものではなく、やむを得ず断った判断を正当な記録として残して現場を守る、と。医療機関に入れるAIの説明としては、ここを外すと導入が止まります。",
+      "company": {
+        "name": "Dr.JOY株式会社",
+        "profile": "2013年11月設立、東京都港区虎ノ門（虎ノ門ヒルズ ステーションタワー17F）、未上場。医療分野のソフトウェア開発・運用と、医療機関への医療・医薬品情報の提供。MRの面会管理から始まり、現在はAI電話事業で2026年9月1日時点213施設（導入準備中を含む）の実績。3省2ガイドライン準拠、ISMS（ISO/IEC 27001）およびISMSクラウドセキュリティ（ISO/IEC 27017）認証を取得。",
+        "url": "https://drjoy.co.jp/",
+        "ceo": {
+          "name": "石松宏章",
+          "bio": "医師。2010年に東京医科大学を卒業し、東京女子医科大学病院で研修。2012年に沖縄の病院へ内科医として赴任した際、MRとの窓口役を任された経験から、病院と製薬企業のあいだのアナログなやりとりを変えようと2013年11月にDr.JOYを創業した。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118372/38/118372-38-8131aa39f77dd10cdbf8a6c52ea1f6f1-2880x1620.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "64114e53-0911-4093-8a98-d08fcebc3b75",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-17",
+      "category": "service",
+      "title": "Rehab for JAPAN、言語聴覚士がオンラインで利用者の口腔機能を評価する「Rehab Cloud オンラインST」をデイサービス向けに提供開始",
+      "source_name": "Rehab for JAPAN",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000153.000027102.html",
+      "summary": [],
+      "comment": "STが画面越しに口腔衛生と嚥下機能を評価し、現状・改善策・自主トレーニングをレポートにして返します。狙いは口腔機能向上加算です。\n常勤のSTを置いている通所介護は1.7%、加算を算定できている事業所は13.9%。加算（Ⅱ）を月2回、30名で年間約115万円の増収という試算を出しています。\n面白いのは、リリースに「本サービスは人員配置基準を満たすものではない」と明記してあるところです。埋めにいっているのは職種要件ではなく、「なぜこの方に口腔ケアが必要か」を家族やケアマネジャーに説明する部分。算定が広がらない理由を人手不足ではなく説明の難しさに置いた設計だと思います。\n代表の大久保さんは作業療法士です。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/27102/153/27102-153-827c77cc1012e61dde634d84a32abc16-1920x1005.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "214f6db3-dcff-47fd-ab83-48af34ee3b2b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-17",
+      "category": "service",
+      "title": "60代70代向けの少人数ツアー「シュミタイム」のジェイエルネス、プレシリーズAで総額3.7億円を調達。2026年12月に関西へ進出",
+      "source_name": "ジェイエルネス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000048897.html",
+      "summary": [],
+      "comment": "2025年9月のサービス開始から1年で、のべ参加者6,381人。申込の95.7%が一人での参加で、参加者の86.0%が60〜79歳、その約85%が女性です。初回参加から90日以内に次を申し込む人が37.1%。\nリードはFFGベンチャービジネスパートナーズとPARTNERS FUND。ほかに横浜キャピタル、SMBCベンチャーキャピタル、南都キャピタルパートナーズ、NANKAI NEXT Ventures、りそなキャピタルと、地銀・私鉄系が並びました。関西展開を見据えた株主構成です。\n医療でも介護でもない、その手前の時間を取りにいく事業です。",
+      "company": {
+        "name": "株式会社ジェイエルネス",
+        "profile": "2016年5月設立、東京都品川区大崎。資本金3,120万円、未上場。60代70代向けの少人数・同世代コミュニティーレジャー「シュミタイム」の企画・運営。街歩き、歴史めぐり、グルメ、登山・ハイキング、観劇などのツアーを半日から宿泊まで自社で企画している。",
+        "url": "https://jellness.co.jp/",
+        "ceo": {
+          "name": "樗澤一樹",
+          "bio": "2016年の創業時はフィットネストレーナー・インストラクター向けのスクールを運営し、HR領域で実績を上げた。2019年ごろからシニアの社会的孤立に取り組むことを決め、60代70代向けの体験サービスへ事業を移した。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48897/24/48897-24-f94ec304de369cb67a3663475430ac41-1376x768.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b293a2d3-5ce3-42b7-bcbe-6eb90f679bac",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-16",
+      "category": "drug",
+      "title": "ヴィアトリス製薬、国内初のヒスタミンH3受容体拮抗薬・逆作動薬「ウエキクス錠」の製造販売承認を取得。サスメドのブロックチェーン臨床試験システムを使った治験にもとづく承認は世界初",
+      "source_name": "ヴィアトリス製薬",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000069571.html",
+      "summary": [
+        "ヴィアトリス製薬が「ウエキクス錠」（ピトリサント塩酸塩）の製造販売承認を取得しました。",
+        "ナルコレプシーと、CPAP療法中の閉塞性睡眠時無呼吸症候群に伴う日中の過度の眠気が対象です。",
+        "国内初のヒスタミンH3受容体拮抗薬・逆作動薬になります。"
+      ],
+      "comment": "自分が注目したのは、「規制緩和が承認という出口に届くまで6年かかったところ」です。\n規制のサンドボックスでの実証を経て、2020年12月に厚労省がGCP省令上もデータ照合の代替になると通知を出しています。\nAMEDの検証ではモニタリング工数45.9％減、医療機関の工数32.0％減。それでも製薬企業が使うには、承認まで通った実例が要ったのだと思います。",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000019.000016151.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/69571/16/69571-16-a6df4416244593213506383904adc756-718x484.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b63fb3f1-9749-4126-8e28-16bd3221fb8b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-16",
+      "category": "digital",
+      "title": "NTT西日本、フィリップス・ジャパンと業務提携し「SASオンラインクリニック」にCPAPの治療データ連携を追加",
+      "source_name": "NTT西日本",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000632.000032702.html",
+      "summary": [],
+      "comment": "NTT西日本のオンライン診療サービスに、フィリップスのCPAP機器と治療データの活用技術を合わせます。対象は運輸・交通のドライバーで、検査から治療継続までを法人単位で回す形です。\nCPAPの使用状況を、医療機関だけでなく企業側も見られるようにするところが肝だと思います。治療継続率は本人の申告では上がらないので、機器のデータを安全管理に直結させた。\n①のウエキクス錠もCPAPで眠気が残る患者が対象なので、同じ日に薬と運用の両方が動いた形になっています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/32702/632/32702-632-0e39594b84bc4bb541849d5fb41777b1-934x466.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "08fd3231-56e2-4c85-b2fe-0e71cc25982c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-16",
+      "category": "digital",
+      "title": "Voxela, Inc.、介護現場の映像AI「Vケア」でシリーズAを完了。累計調達額は約21億円",
+      "source_name": "Voxela",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000107921.html",
+      "summary": [],
+      "comment": "シリコンバレー発のエイジテックです。ネットワークカメラの映像をAIで解析し、事故報告書の下書きまで自動でつくります。転倒を「検知」する手前ではなく、検知したあとの記録・報告・管理のほうを取りにいっています。\n事故報告書の作成が1件あたり約1時間から数分へ。リードはデライト・ベンチャーズで、SOMPO Growth Partners、Happiness Capital（香港）、Blue Heron Ventures（米国）が新規参画しました。今回の調達額と企業評価額は非公開で、累計が約21億円です。\n見守りセンサーはもう各社が入れたので、次に残っているのは書類だという読みだと思います。資金は日本での導入拡大と北米市場の立ち上げに充てます。",
+      "company": {
+        "name": "Voxela, Inc.",
+        "profile": "2022年2月設立、米国カリフォルニア州フリーモント。日本法人は株式会社ヴォクセラ・ジャパン（東京都渋谷区）。未上場、従業員17名。ネットワークカメラの映像をAIで解析し、介護の記録・報告・管理を自動化するプラットフォーム「Vケア」を開発・提供。特別養護老人ホーム、有料老人ホーム、リハビリテーション病院で稼働しており、米国カリフォルニア州の高齢者介護ホームでも導入が始まっている。かながわ福祉サービス振興会の「介護・生活支援ロボット認証」を2026年4月に取得、米国HIPAAのコンプライアンス評価を2026年3月に完了。",
+        "url": "https://www.voxela.ai/ja",
+        "ceo": {
+          "name": "遠藤雄太",
+          "bio": "シリアルアントレプレナー。シリコンバレーで最初に手がけたのはエッジコンピューティングの事業で、直前の会社ではCTOを務め、M&Aでイグジットしている。そこで得た技術と人脈をもとに、2022年2月にGoutham Kamath氏、吉田雄輔氏とVoxelaを設立した。日本法人の代表は吉田氏。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/107921/12/107921-12-3ad36788d2d443b4012836416d491e98-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f797c774-75d9-49fe-8bfd-1a8f76e94a34",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-16",
+      "category": "digital",
+      "title": "北里大学病院、2027年1月の電子カルテ更新にあわせてUbieの「ユビー生成AI」を導入することを決定",
+      "source_name": "北里大学病院",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000226.000048083.html",
+      "summary": [],
+      "comment": "1,125床の特定機能病院です。電子カルテのハードウェア更新に合わせて入れます。用途は退院サマリ、紹介状の文字起こしと要約、診療情報提供書、IC記録、診断書といった文書作成の支援です。\n連携を電子カルテベンダーではなくDWH経由にして、病院側の導入負担と費用を抑える方式を採っています。ユビー生成AIは2026年8月時点で大学病院を含む160病院超。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/226/48083-226-7a7188f7a073a6757cf73dfd37368309-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ee96c5cf-81f6-4451-980c-d23b9cec06ea",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-15",
+      "category": "digital",
+      "title": "株式会社Josan-she's、助産師プラットフォーム「ジョサンシーズ」がシリーズAで4億円を調達",
+      "source_name": "Josan-she's",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000077.000110270.html",
+      "summary": [
+        "助産師が登録するプラットフォームです。",
+        "家庭に伺う低月齢ベビーシッター「ジョサンシーズ」、産後ケア施設「YUARITO」、産院向け人材サービス「she's path」の3本立てで、登録助産師は約3,000名。",
+        "リードはWPower Fund、累計調達額は約6.8億円になりました。"
+      ],
+      "comment": "自分が注目したのは、「投資家に大和ハウスと積水ハウスが並んでいるところ」です。\n住宅の会社が2社とも入っている。\n住まいの側から見ると、産後ケアは子育て世帯が住む場所を決める理由になると思います。\n起点は助産師のキャリアのほうでした。資格を取っても臨床を離れる潜在助産師が約6割。その人たちの働き先をつくったら、家庭が頼れる先も増えた、という順番です。\n同じ日にマリオットと組んだ宿泊型産後ケアの福岡開業も出しています。",
+      "company": {
+        "name": "株式会社Josan-she's",
+        "profile": "2021年10月設立、東京都中央区日本橋。資本金760万円、未上場。低月齢ベビーシッター「ジョサンシーズ」、産後ケア施設「YUARITO」、産院向け人材サービス「she's path」を運営。2025年7月に中央区の産後ケア事業、2026年1月に台東区の産前産後支援ヘルパー事業を受託。2025年9月には産前産後ケアイノベーション協会を主幹事企業として立ち上げている。累計調達額は約6.8億円。",
+        "url": "https://josanshes.co.jp/",
+        "ceo": {
+          "name": "渡邊愛子",
+          "bio": "助産師。出産後4か月で現場に復帰し、2人の子どもを育てながら勤務を続けたが、下の子を預ける先がなく助産師として戻れなくなった経験から起業を決めた。2021年10月にJosan-she'sを設立。2023年にForbes JAPAN「Next 100」に選出されている。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/110270/77/110270-77-8a9b2734dc920c610daafd7c607e4499-1600x900.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "4d7106af-7627-4e69-8656-48df9901fa99",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-15",
+      "category": "wearable",
+      "title": "ダスキン・エナジーゲートウェイ・東京電力パワーグリッド、電気の使用データで一人暮らしの高齢者を見守る「電気で見守りサービス」を開始",
+      "source_name": "ダスキン・エナジーゲートウェイ・東京電力パワーグリッド",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001153.000005720.html",
+      "summary": [],
+      "comment": "分電盤に電力センサーを付けて、冷蔵庫やエアコン、炊飯器といった主要家電の使用状況をAIで推定し、家族のアプリに届けます。カメラも人感センサーも部屋には置きません。\n9月15日開始、見守られる方が東京都内在住であることが条件で、3年契約なら月額3,960円、4年目からは1,705円。ダスキンの定期訪問とセットです。\n電力データの見守り自体は各社が試してきましたが、月額と訪問を組み合わせて売り物の形にしたのが今回だと思います。",
+      "company": {
+        "name": "株式会社エナジーゲートウェイ",
+        "profile": "2018年2月設立、東京都港区新橋。資本金3,000万円、未上場。東京電力パワーグリッドが設立したIoT・AIのエネルギーサービス会社。電力データから主要家電の使用状況を推定する「家電機器分離推定技術」を持ち、これは株主であるインフォメティス株式会社の技術。見守りサービスやアプリ「ienowa」を提供している。",
+        "url": "https://www.energy-gateway.co.jp/",
+        "ceo": {
+          "name": "鈴木康郎",
+          "bio": "経歴確認できない。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/5720/1153/5720-1153-2d4e52964dd55550b4f04f418f40740c-1000x1000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fd35b82a-fbef-447d-96f3-778c160bfd84",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-15",
+      "category": "digital",
+      "title": "ゲイツ財団、公平なAIの開発・提供に向けて今後2年間で少なくとも10億米ドルを拠出。4割がヘルスケア分野",
+      "source_name": "ゲイツ財団",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000129554.html",
+      "summary": [],
+      "comment": "「Goalkeepers Report 2026」の公開に合わせた発表です。内訳は教育40％、ヘルスケア40％、農業10％、デジタル基盤10％。\nヘルスケアでは、医療従事者向けの診断・臨床の意思決定支援、妊産婦・新生児ケアのツール、新薬やワクチンの探索が挙がっています。\nAIそのものの開発ではなく、「届かないところに届ける」ほうに資金を置いているのが財団らしいと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/129554/15/129554-15-b3b0252a4f64f3ea63f58dd69067086c-1211x856.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "64a7466b-8b81-4ccd-990d-1d31bbc77a9f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-15",
+      "category": "digital",
+      "title": "株式会社カケハシ、AIアシスタントの音声薬歴生成機能が提供開始から約3か月で5,500店舗を突破",
+      "source_name": "カケハシ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000139.000033983.html",
+      "summary": [],
+      "comment": "2026年5月の本格提供から、8月31日時点で累計5,500店舗です。薬歴の記載時間は19.7％短縮（2025年11月1日〜2026年8月31日の集計）。\nカケハシのグループが国内で17,000店舗超をカバーしているので、そのうち3割ほどが音声入力に移った計算になります。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/33983/139/33983-139-1339eff1eda19c8eb67d3821157a936e-1705x922.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "cc0b8068-2b98-4838-926d-9b28a36c044b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-14",
+      "category": "drug",
+      "title": "株式会社Kiviaq、ダークストア型薬局「キビヤックファーマシー」がプレシリーズAで1.5億円を調達",
+      "source_name": "Kiviaq",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000026.000165674.html",
+      "summary": [
+        "ダークストアは、店頭で客に売らずオンラインの注文だけを受ける在庫拠点のことです。",
+        "ネットスーパーで使われてきた言葉で、それを薬局でやっています。",
+        "最短30分で届く。"
+      ],
+      "comment": "自分が注目したのは、「今回の出資者に物流のファンドが入っているところ」です。\nマーキュリアは「サプライチェーン投資事業有限責任組合」から出しています。医療の枠ではありません。\n代表の岡田さんはAmazon Logisticsを立ち上げた方です。使途も2号店とセントラル調剤拠点で、店舗ではなく拠点網の話になっています。",
+      "company": {
+        "name": "株式会社Kiviaq",
+        "profile": "2025年5月設立、東京都港区芝大門。資本金4,000万円、未上場。医薬品SCM事業と調剤薬局事業。ダークストア型薬局「キビヤックファーマシー」を運営し、1号店は2025年10月に港区芝大門で開局。累計調達額は2.8億円。今回の出資者はマーキュリアインベストメント、Coral Capital、Spiral Innovation Partners。",
+        "url": "https://www.kiviaq.com/",
+        "ceo": {
+          "name": "岡田俊",
+          "bio": "米国公認会計士。KPMGロサンゼルスで監査を担当したのち、アマゾンジャパンで戦略・財務を率いてAmazon Logisticsの立ち上げと全国展開を主導。2023年11月にミナカラの代表取締役社長に就任し、薬局と医薬品ECの立て直しを経て、2025年5月にKiviaqを創業。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/165674/26/165674-26-81c7030e4e34419e8a78569c11a68b44-3900x1645.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e6972a23-deea-42ff-b35a-be2f80df97ef",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-14",
+      "category": "digital",
+      "title": "医療AIのアイリス、医師向け「Evidence Finder」にSakana AIの日本語特化LLM「Sakana Namazu」を採用",
+      "source_name": "アイリス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000035813.html",
+      "summary": [],
+      "comment": "Evidence Finderは、医師が臨床の疑問を調べるためのツールです。PubMedなどの文献検索とAIの回答生成を組み合わせて、引用文献を示しながら答えます。引用した文献が実在するかを自動で確かめるVerify機能が標準で入っています。\n今回はSakana AIの日本語特化LLM「Sakana Namazu」と、アイリス側のアルゴリズムを組み合わせます。Sakana Namazuを使ったモデルは、2026年2月の第120回医師国家試験で482点／500点、正答率96.4％でした。\n手前味噌になりますが、医師が使うものは「正しく答える」だけでは足りないと思っています。間違っていないことを自分で確かめられるかどうか。Verifyを標準で入れているのはそこです。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/35813/107/35813-107-88a00a91f7517fadc4407ce725e284b2-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "11c33570-55f8-4960-9de1-4b5a0bb7c855",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-14",
+      "category": "drug",
+      "title": "AOI Biosciences株式会社、不育症・不妊症の「β2GPIネオセルフ抗体検査」で総額約5億円を調達",
+      "source_name": "AOI Biosciences",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000075666.html",
+      "summary": [],
+      "comment": "自己免疫疾患がなぜ起きるかを説明する「ネオセルフ理論」をもとに、検査と創薬をやっている大阪の会社です。主力のβ2GPIネオセルフ抗体検査は、原因のわからない不育症・不妊症の背景に自己免疫があるかを調べるもので、すでに全国200以上の医療機関に入っています。\n今回は第三者割当増資とセカンダリー取引を合わせて約5億円、累計で約10億円になりました。既存の日本ベンチャーキャピタル、SBI新生企業投資、i-nest capitalに加え、GoAhead Venturesや中信ベンチャーキャピタルなどが入っています。\n使途は検査の国内普及とグローバル展開、それに量子関連技術を使ったアロステリック創薬です。\n検査を先に立ち上げて創薬につなげる形は、時間のかかる創薬を自前のキャッシュで支える設計として理にかなっていると思います。",
+      "company": {
+        "name": "AOI Biosciences株式会社",
+        "profile": "2019年11月設立、大阪府茨木市彩都あさぎ。未上場。2025年1月にRevorfから社名変更。ネオセルフ理論に基づく検査事業と、量子関連技術を使ったアロステリック創薬の二本立て。累計調達額は約10億円。",
+        "url": "https://www.aoibio.com/",
+        "ceo": {
+          "name": "末田伸一",
+          "bio": "医師。大学卒業後は腎臓内科医として6年間臨床に立ち、自己免疫疾患と感染症で救えない患者を前にした経験から創業へ。2019年11月にRevorfを設立し、RNA解析とAIによる疾患関連遺伝子の探索から、ネオセルフ理論に基づく検査創薬へ事業を移した。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/75666/38/75666-38-7f70a7a67811053bb579f5ae53b7f5f0-1051x151.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "775cfcb1-065c-488f-b21b-63724ad9aecf",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-14",
+      "category": "device",
+      "title": "株式会社ジールス、準国産コンパクトヒューマノイド「D1」を桜十字グループの介護施設へ初投入",
+      "source_name": "ジールス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000093.000132347.html",
+      "summary": [],
+      "comment": "ジールスはチャットで接客する「チャットコマース」を作ってきた会社ですが、いまはヒューマノイドをやっています。「D1」は全高約129.3cmの人型ロボットで、両腕で物を扱い、自分で経路を決めて動きます。部品は海外のものを使いつつAIとソフトと制御を国内で開発しているので「準国産」と呼んでいます。販売の受付は8月5日からです。\nその最初の投入先が介護施設でした。桜十字グループのホスピタルメント文京千駄木（48室・定員50名）で、9月10〜11日に計15時間。館内案内とエレベーターでの階移動、備品の運搬、ポットからコップにお茶を注ぐ配茶の3つを試しています。\n注目したのは、最初の現場に介護を選んだところです。人手が足りていて機械を試す余裕のある現場からは、実装は始まらないと思います。",
+      "company": {
+        "name": "株式会社ZEALS",
+        "profile": "2014年4月設立、東京都目黒区下目黒。資本金1億円、未上場。2016年に業界初のチャットコマースをリリースし、現在はOmakase AI、D1、Omakase Zen、Omakase OS、ZEALS AI Agentなどを開発・提供。2022年のシリーズEで総額50億円を調達し、米国法人を設立している。",
+        "url": "https://zeals.ai/jp/",
+        "ceo": {
+          "name": "清水正大",
+          "bio": "1992年岡山県生まれ。岡山県立水島工業高校を出て重工メーカーに勤めたのち、東日本大震災を機に明治大学へ進学。在学中の2014年にZEALSを創業した。Forbesの「30 Under 30 Asia」に選出されている。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/132347/93/132347-93-6f1603370aeba2d46987dbd9e60856a6-942x496.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "d8d59d39-d45a-4f4f-b79c-84b36c707616",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-12",
+      "category": "drug",
+      "title": "株式会社9lione、医薬品流通DXプラットフォーム「9lione（クリオネ）」がシリーズAで1.2億円を調達",
+      "source_name": "9lione",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000042558.html",
+      "summary": [
+        "医療機関や薬局で余った医薬品を、必要としている医療機関へ回すプラットフォームです。",
+        "リード投資家は横浜キャピタル、累計調達額は4.4億円になりました。",
+        "年間の流通総額はすでに20億円を超えているそうです。"
+      ],
+      "comment": "自分が注目したのは、「医薬品卸売販売業の許可を取って、品質管理と配送まで自社でやっているところ」です。\nマッチングするだけのプラットフォームにしていない。（←これがよくある）\n医薬品は規制産業なので、ここを踏まないとそもそも事業になりません。そして踏んだことが、そのまま参入障壁になります。\n\nソフトウェアで効率化するだけでは医療に入れない、という話の実例だと思います。使途も拠点網の拡大が先に来ていて、物流を自分で持つ前提で組んでいることがわかります。",
+      "company": {
+        "name": "株式会社9lione",
+        "profile": "2018年8月設立、東京都練馬区。資本金3億7,516万円（資本準備金含む）。医薬品卸売販売業（第5320220006号）のほか、高度管理医療機器等販売業・貸与業、化粧品製造業、化粧品製造販売業の許可を持つ。",
+        "url": "https://9lione.company/",
+        "ceo": {
+          "name": "廣田雄将",
+          "bio": "学生起業で広告・PR事業を立ち上げて売却、卒業後は医療M&Aアドバイザー、その後グループ病院のPMIで事務長。その事務長時代に、管理の非効率による医療廃棄を減らせなかった経験から、院内残薬ゼロを掲げて2018年8月に創業"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/42558/8/42558-8-a519ca687c9f274a0941011a14546592-2250x1172.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "9933fa0d-64f0-4e0b-8354-1cbae2e9ce13",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-12",
+      "category": "service",
+      "title": "ロンジェビティテックベンチャー「リジェネソーム」代表の佐久間善太郎氏がリバネス・Musashiのプログラムに登壇",
+      "source_name": "プログラムに登壇",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000144.000140650.html",
+      "summary": [],
+      "comment": "ロンジェビティ領域のベンチャーが表に出る回数が、この半年で明らかに増えています。この領域は「誰が払うのか」がまだ決まっていないので、そこをどう設計するかをいろいろと見ています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/140650/144/140650-144-98a66484ecdde2d59ee11419ed879193-3900x2194.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ad625bb8-e2dd-480e-8e6d-62a023ddc96d",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-12",
+      "category": "device",
+      "title": "株式会社ASTER、遠隔支援システム「CARE CAME」が次世代AI機能の開発へ",
+      "source_name": "ASTER",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000189799.html",
+      "summary": [],
+      "comment": "CAMPFIREで資金を募る形です。医療機器ではなく支援システムとして進めるという整理の仕方に、規制との距離の取り方が出ています。",
+      "company": {
+        "name": "株式会社ASTER",
+        "profile": "2024年9月設立、東京都千代田区丸の内。資本金500万円。情報通信業。「CARE CAME」は特許を取得した骨伝導ヘッドセットとカメラで、作業者の目線映像と音声をリアルタイムに共有するハンズフリーの遠隔支援システム。介護・医療現場の見守りと遠隔指示、設備点検、新人教育などを想定。クラウドファンディングは2026年9月11日〜10月15日、異常検知・自動報告書作成・作業手順のAIナビゲーション機能の開発が目的。",
+        "url": "https://a-ster.com/",
+        "ceo": {
+          "name": "山田博之",
+          "bio": "経歴確認できない"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/189799/2/189799-2-becf6971a64b3a856cfd5ce87cc8904d-653x238.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "84594f45-1449-495d-a4cb-f3f46c4527a5",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-11",
+      "category": "service",
+      "title": "株式会社GENOVA、健康メディア「からだにいいこと」事業をセントラルメディエンスから5,100万円で譲受",
+      "source_name": "GENOVA",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000136.000016520.html",
+      "summary": [
+        "東証プライムのGENOVAが、健康メディア「からだにいいこと」の事業を譲り受ける。",
+        "事業開始は9月14日。",
+        "「からだにいいこと」の売上高は2026年4月期で1億8,800万円、譲受価額は5,100万円。"
+      ],
+      "comment": "自分が注目したのは、「同じ媒体でも、持ち主によって値段が変わるところ」です。\nセントラルメディエンスの顧客は医療機関側なので、生活者向けメディアを持っていても自社の売上につながる導線がない。GENOVAは医療機関のホームページや予約に加えてMedical DOCを持っていて、読む、探す、予約するまでが自社の中にある。\n編集チームごと5,100万円なら、採用コストとして見ても合うと思います。",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000130.000032609.html",
+      "company": {
+        "name": "株式会社セントラルメディエンス",
+        "profile": "2018年5月設立、東京都港区港南。資本金1億7,318万円、未上場。医療機関コンサルティング、医薬品・医療部材の卸、医療人材紹介、M&A、ファイナンスなど。2023年4月に株式会社からだにいいことを子会社化していた。",
+        "url": "https://centralmedience.com/",
+        "ceo": {
+          "name": "中川隆太郎",
+          "bio": "1984年広島県生まれ。医師。東京医科大学在学中に人材紹介会社を起業し、海外留学を経て2018年に創業。病院のM&Aやヘルスケアメディアの取得を重ねてきた。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/16520/136/16520-136-7c73b268aa60800ede8836848c92efb6-965x171.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c05475f2-a58b-435c-89fb-a0c57c426066",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-11",
+      "category": "digital",
+      "title": "株式会社Quick、119番通報を支援するAIで「ICCサミット KYOTO 2026」スタートアップ・カタパルト準優勝",
+      "source_name": "Quick",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000156902.html",
+      "summary": [],
+      "comment": "9月1日のピッチコンテストで、登壇11社中の準優勝です。\nQuick、昔聞いたことあった事業から変わったような・・（変わっていない？？）\n「Quick AI」は119番通報の内容をリアルタイムで文字起こしし、要約、緊急度判定の支援、記録作成までを行います。使うのは消防本部の指令員です。\n救急出動件数は過去最多を更新し続けていて、現場が詰まる前に指令室が詰まるので、そこを狙ったのがうまいと思います。\n代表の武田先生は筑波大学医学部を休学して起業した医学生です。",
+      "company": {
+        "name": "株式会社Quick",
+        "profile": "2024年10月設立、東京都中央区銀座。筑波大学発スタートアップ。救急・医療インフラ領域のAI・ロボティクス製品を開発。大規模消防本部を含む全国の消防本部・自治体と実証や協議を進めている。資本金は非公開。",
+        "url": "https://quick119.co.jp/",
+        "ceo": {
+          "name": "武田淳宏",
+          "bio": "2000年11月生まれ、茨城県土浦市出身。筑波大学医学部6年に在学中、休学して2024年にQuickを設立。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/156902/8/156902-8-2354675c5adc55f09f30028418890b28-1536x1024.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fa95555f-d27f-4f3c-9b89-2a7a42674630",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-11",
+      "category": "service",
+      "title": "SBCメディカルグループ、「湘南美容皮フ科」全14院を「SBCスキンクリニック」へブランド変更",
+      "source_name": "SBCメディカルグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000097803.html",
+      "summary": [],
+      "comment": "9月12日からロゴとホームページを刷新し、メンバーシップ制度を入れます。提供するのはすべて自由診療です。\nロンジェビティ社会に向けてのリブランディングで、梨泰院クラスで有名なパクソジュンを広告に使いだしています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/97803/380/97803-380-d8f58003bd5ebeb93778b89d9e72db38-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ed99d077-6893-4319-ad16-972b8a792420",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-11",
+      "category": "device",
+      "title": "emol株式会社、東京大学との共同研究で「働く人のための認知行動療法セルフケアプログラム」の無作為化比較試験の結果を公表",
+      "source_name": "emol",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000043787.html",
+      "summary": [],
+      "comment": "東大のデジタルメンタルヘルス講座と組んだRCTです。常勤労働者1,090名を545名ずつに割り付け、6か月後の抑うつ症状（PHQ-9）で効果量d＝−0.15、K6で−0.17。K6が5点以上の層だと−0.24〜−0.27まで上がります。全6回の完遂率は53.0％。\n効果量は小さい部類です。ただ産業保健の一次予防は母数が大きいので、集団で見ると話が変わると思っています。",
+      "company": {
+        "name": "emol株式会社",
+        "profile": "2019年3月設立、東京都豊島区東池袋。メンタルヘルス領域のアプリ開発。AIキャラクターとの対話で気持ちを記録する「emol」と、法人向けの「emol for employee」。",
+        "url": "https://emol.jp/",
+        "ceo": {
+          "name": "千頭沙織",
+          "bio": "1990年大阪府生まれ。大学では服飾デザインを専攻。2014年に株式会社エアゼを設立し、自身のメンタル不調の経験から2018年に「emol」をリリース。2019年に法人化。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/43787/36/43787-36-9b40d5ac22ee962d4a05f777edc6aa24-1500x933.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "590f75ec-0e6f-486b-9a18-e012100248e3",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-09-11",
+      "category": "digital",
+      "title": "日本認知症予防学会、博報堂、アイ・ブレインサイエンス、OptimAIze Consultingの4者が認知症予防で包括連携協定",
+      "source_name": "日本認知症予防学会",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001224.000008062.html",
+      "summary": [],
+      "comment": "学会がエビデンスを監修し、博報堂が社会実装、アイ・ブレインサイエンスが視線計測による認知機能評価、OptimAIzeがAIとデータ基盤を担当します。具体的な取り組みは今後決めるとあり、中身はこれからです。\n診断の手前にいる認知症が「気になる人」を、広告会社と組んで拾いにいく話だと思います。予防は保険がつかないので、誰が払うかを詰めていく必要があります。",
+      "company": {
+        "name": "株式会社アイ・ブレインサイエンス",
+        "profile": "2019年11月設立、大阪府吹田市山田丘。大阪大学大学院医学系研究科の武田朱公氏の研究をもとにした大阪大学発ベンチャー。視線計測を使う神経心理検査用プログラム「ミレボ®」を2025年1月から医療機器として提供。",
+        "url": "https://www.ai-brainscience.co.jp/",
+        "ceo": {
+          "name": "髙村健太郎",
+          "bio": "複数のスタートアップの設立に関わったのち、2019年に大阪大学の紹介で武田朱公氏と出会い事業化に取り組む。"
+        }
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/8062/1224/8062-1224-86e1fd896fedc18e694a802879d45a58-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "951aa6b3-4845-4fbd-8e78-cc4f04dda53e",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-07-06",
+      "category": "drug",
+      "title": "近畿大学病院×中外製薬×NTT×NTTデータ：RWDとLLMで治験候補患者抽出へ",
+      "source_name": "近畿大学病院",
+      "source_url": "https://group.ntt/jp/newsrelease/2026/06/30/260630a.html",
+      "summary": [
+        "近畿大学病院、中外製薬、NTT、NTTデータの4者が、リアルワールドデータとLLMを使って治験候補患者抽出の精度向上と効率化を検証する共同研究を開始しました。",
+        "電子カルテデータを対象に、ルールベース抽出、LLM抽出、両者の組み合わせを比較し、医師やCRCの判定結果と照合します。"
+      ],
+      "comment": "今週いちばん重要だと考えたニュースです。\n治験の最大のボトルネックの一つが、候補患者の抽出です。実施計画書の選択基準・除外基準を片手に、電子カルテの診療情報、検査値、病歴を一人ずつ確認していく。医師とCRCの時間がここに大量に吸われています。\n評価したいのは、AIで患者を探して終わりにせず、医師・CRCの判定結果と突き合わせて、抽出精度、作業負荷、リードタイム短縮まで検証する設計です。\n医療AIは「当たっているか」だけでなく「現場の業務がどれだけ軽くなったか」で評価される段階に入りました。\n\n◆事業機会メモ\nこの流れで動くお金は、製薬企業の臨床開発費です。候補患者抽出が速くなると、施設選定（フィージビリティ調査）の精度が上がり、症例が集まらない施設への無駄な投資が減ります。恩恵を受けるのはまずSMO・CRO、そして治験事務局を持つ医療機関です。\n参入余地として自分が注目しているのは2つ。\n1つ目は前処理です。LLMで抽出するには、カルテの自由記載を構造化する必要があり、ここは大手連合でも手が回っていません。\n2つ目は中小病院です。大学病院はNTTクラスと組めますが、市中病院の治験ネットワーク化と抽出支援は空白地帯です。大手が実証で型を作った後、横展開の受け皿になる事業は成立すると見ています。",
+      "image_url": "https://group.ntt/common/img/ogp.jpg?20250701",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f96d7268-e636-45a8-b40f-f26cea723d1f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-07-06",
+      "category": "digital",
+      "title": "Ubie×相澤病院：生成AIを院内全体へ正式導入",
+      "source_name": "相澤病院",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000216.000048083.html",
+      "summary": [
+        "相澤病院が「ユビー生成AI」を院内全体へ正式導入。",
+        "モバイルアプリ版も入れ、病棟・外来で使える環境を整備します。"
+      ],
+      "comment": "生成AIのニュースは毎週出ますが、Ubieがさすが頑張っていると思っていて、このニュースが他と違うのは数字が出ていることです。\n退院前カンファレンス記録の作成時間が60分から10分。ここまではよくある話です。経営的に効くのはもう一つの数字で、退院時共同指導料の算定件数が月2件から最大14件。生成AIが時間を減らしただけでなく、算定を拾い、病院の収益に直結しています。\n病院への導入稟議は「便利です」では通りません。「時間がこれだけ減り、算定がこれだけ増えます」まで言えて初めて動きます。時間と収益、2つの数字をセットで出せている点で、現場実装のお手本です。\n\n◆事業機会メモ\nこのニュースから持ち帰るべきは、「業務効率化AI」を「算定改善AI」として売り直す型です。\n退院時共同指導料のように、業務負担が重くて算定漏れが起きている項目は他にもあります。入退院支援加算、地域連携パス関連、各種指導料。ここを狙って「このAIを入れると月○件の算定が増えます」と提案できれば、導入費用は算定増で回収できる計算が立ち、稟議の通り方が変わります。\n病院向けに何かを売っている方は、自社サービスの効果を「時間」だけでなく「算定」で言い直せないか、一度点検する価値があります。\n\n★その他の今週の注目ニュース（短評）",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/216/48083-216-d3a6737c2bbb125c8dc4d13794b885ba-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6116382a-069b-4e38-a991-78fb09e611cc",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "device",
+      "title": "アイラト：放射線治療計画AI支援ソフトウェア「RatoAI」が製造販売承認を取得",
+      "source_name": "アイラト",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000040.000119113.html",
+      "summary": [
+        "アイラトが、放射線治療計画AI支援ソフトウェア「RatoAI」について、高度管理医療機器（クラスⅢ）として製造販売承認を取得したと発表しました。"
+      ],
+      "comment": "これは今週の中で、かなり重要なニュースだと思います。\nRatoAIは、放射線治療計画の作成をAIで支援するソフトウェアです。CT画像上で臓器や組織の輪郭抽出を支援し、線量分布の推論などを通じて、治療計画作成の業務負担を軽減することを目指しています。\n医療AIのニュースはたくさんありますが、ちゃんと今回は「薬事承認を取得した」というニュースだったので取り上げています。（最近、こういうことをやるとか研究発表とかが多い）\n\n医療AIは、研究やPoCで終わるものも多いですが、実際に医療機器として承認を取り、医療現場に入っていくには、薬事、品質管理、臨床現場とのすり合わせ、導入後の運用設計が必要になります。\n特に放射線治療計画は、高度な専門性と時間を要する領域です。AIがここに入ることで、単なる効率化だけでなく、専門人材の業務負担軽減、治療計画の標準化、地域間格差の縮小にもつながる可能性があります。\n医療AIビジネスでは、「AIでできます」ではなく、「医療機器として承認され、現場で使われる状態まで持っていけるか」が本質であり、販売が大事です。\n以前から言っていた「承認で道のりは半分」なので、やっとアイラトともこれから販売なのですが、使われる範囲が狭いので営業・販売は比較的しやすいと思っています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/119113/40/119113-40-34ddaed9beb55cfd457f470fc814b9d3-1834x1024.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c546a790-11c4-4baf-a1b3-de442e15fc98",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "digital",
+      "title": "eWeLL：訪問看護向け「AI訪問予定・ルート」を有償提供開始へ",
+      "source_name": "東証グロース上場",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000140.000026391.html",
+      "summary": [
+        "東証グロース上場のeWeLLが、訪問看護専用電子カルテ「iBow」の新サービスとして、訪問看護師の最大1か月間の訪問予定と移動ルートを自動最適化する「iBow AI訪問予定・ルート」を2026年7月1日から有償提供すると発表しました。"
+      ],
+      "comment": "eWeLLは訪問看護専用電子カルテ「iBow」を提供している上場企業で、訪問看護という特定領域に深く入り込んでいる会社です。今回のリリースでは、累計1億件超の訪問看護データをもとに、訪問予定と移動ルートをAIで最適化するサービスを有償提供するとしています。\n訪問看護の現場では、訪問予定を組む業務がかなり大変です。利用者の状態、訪問頻度、看護師の勤務条件、移動距離、急変・キャンセル対応など、考える要素が多い。しかも、多くの場合、管理者の経験と勘に依存しています。\nただ、この「移動ルートの最適化」って他もやっていて、けどこうやって書いて思ったのですが、「スタートアップが先行してやっていたところに、市場が温まったのでいよいよ大企業が同じプロダクトを作って乗り込んできた」というい構図かもしれません。\nどのようにこの市場が変わっていくのか注目をしています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/26391/140/26391-140-f59e6e832a9652211e2ed2b6210bce04-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "5be878a7-9d07-469c-a8ac-a0edf879a438",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "device",
+      "title": "MRTグループ：クラウド型医療機器管理システム「MMS」が導入150施設へ",
+      "source_name": "MRTグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000058805.html",
+      "summary": [
+        "MRTグループのMedikikiが提供するクラウド型医療機器管理システム「MMS」が、無料提供開始から1年強で導入数150施設に到達しました。",
+        "100床以上の病院を中心に、小規模クリニックから大学病院まで導入が進んでいるとのことです。"
+      ],
+      "comment": "これは、医療機関経営と医療安全の観点で面白いニュースです。\n医療DXというと、電子カルテ、予約、問診、AI、オンライン診療などに注目が集まりがちですが、医療機器管理も非常に重要です。\n病院内には多くの医療機器があります。どこにあるのか、使える状態なのか、点検されているのか、添付文書は最新か、貸出・返却が管理されているか。これらは医療安全にも病院経営にも関わります。\n一方で、現場では紙やExcelで管理している施設もまだ多いと思います。\nMMSは、医療機関側には初期費用ゼロ・基本機能永年無料で提供し、メーカー・卸業者向けの情報配信プラットフォームとして収益化するモデルです。ここがビジネスモデルとして面白いです。\n医療機関に直接課金しにくい領域でも、関係する企業側のKPIとつなげることで成立する場合があります。\nヘルスケアビジネスでは、「誰が使うのか」と同じくらい、「誰が支払うのか」「誰にとって経済合理性があるのか」を考えることが大事です。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/58805/79/58805-79-986d0149d0fd0ff7ee89be9622eccf97-1231x391.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "55fc8f86-e55d-4ab6-9e55-3faf0bf92ee8",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "digital",
+      "title": "リーバー×笠間市：子ども向け医療相談・オンライン一次救急を自治体で提供",
+      "source_name": "リーバー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000191.000033619.html",
+      "summary": [
+        "リーバーが、茨城県笠間市で、0歳から中学3年生を対象に、医療相談サービス「いつでもドクター」とオンライン診療サービス「オンライン一次救急」の提供を開始しました。",
+        "夜間・休日も、子育て世帯が医師に相談・受診できる環境を整備する取り組みです。"
+      ],
+      "comment": "これは自治体ヘルスケアのニュースとして重要だと思います。以前もヘルスケアビジネス研究会で話をした地方×自治体のモデルですね。\nオンライン診療というと、都市部の便利な受診手段として語られることが多いですが、本来は地域医療資源の不足を補う手段でもあります。\n笠間市のように、平日夜間や休日の初期救急体制に課題がある地域では、小児の急な体調不良に対して、保護者が不安を感じる場面が多いと思います。\n「救急車を呼ぶほどではないが、今すぐ医師に相談したい」というニーズはかなりあります。ここに、医療相談とオンライン一次救急を組み合わせることで、保護者の不安軽減と救急外来への不要な集中の抑制の両方を狙える。\n\nヘルスケアビジネスとしては、自治体が導入主体になるモデルは今後さらに増えると思います。子育て支援、夜間休日医療、救急適正利用、学校保健、メンタルヘルス、フレイル、生活習慣病など、自治体のKPIとヘルスケアサービスがつながる領域は広いです。\nただし、自治体向けサービスでは、住民への周知、医師会・薬剤師会との関係、地域医療機関との役割分担、費用対効果の説明がとても重要になります。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/33619/191/33619-191-172c233df03622fa749b5c9a03ebf1fc-2401x2397.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "10b3d9c4-ab40-4e93-ab7c-2bd862093f0c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "drug",
+      "title": "TXP Medical×田辺ファーマ：希少疾患の前向き観察研究を支援",
+      "source_name": "TXP Medical",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000031630.html",
+      "summary": [
+        "TXP Medicalが、田辺ファーマからの委託により、IgG4関連疾患に対するイネビリズマブの長期有効性・安全性を検証する前向き観察研究「4SigHT研究」の支援を開始しました。",
+        "全国約40施設、約100名を対象に、2032年3月まで6年間にわたりデータを収集・解析する研究です。"
+      ],
+      "comment": "TXP、こういうこともやりだしていたのですね！！\n製薬企業にとって、薬が承認された後のリアルワールドデータ、特に希少疾患領域での長期有効性・安全性のエビデンス構築は重要になります。\n今回の研究では、TXP MedicalのEDCやDWHを活用し、電子カルテ由来の検査値などを取り込みながら、前向きにデータを収集していく設計になっています。\n希少疾患では、症例数が少なく、施設が分散し、長期のフォローが必要になります。こうした領域では、研究運営、症例登録、データ収集、倫理審査、解析、論文化までを一気通貫で支援できる基盤の価値が高いです。\nヘルスケアビジネスでは、医療データは単に「たくさん持っている」だけでは価値になりません。\nどの疾患領域で、どの臨床課題に対して、どの製薬企業・医療機器企業の意思決定に使える形にするのか。\nRWDビジネスは、データ量だけでなく、研究設計力、医療機関ネットワーク、疾患理解、メディカルアフェアーズとの接続が重要になると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/31630/171/31630-171-474b537aa9fc132f5d4501960586de5a-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "f65ce748-e77d-4f8a-9638-e190b47e6208",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "digital",
+      "title": "SBS情報システム：生成AI搭載のクラウド対応電子カルテ「PrimeKarteNEXT」",
+      "source_name": "SBS情報システム",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000046611.html",
+      "summary": [
+        "SBS情報システムが、クラウド対応の統合型電子カルテシステム「PrimeKarteNEXT」をリリース。",
+        "生成AI「PrimeKarteAIR」によるSOAP自動生成、退院サマリや診療情報提供書の要約、個人情報マスク、患者サマライズ画面、病床管理機能などを搭載しています。"
+      ],
+      "comment": "電子カルテに生成AIが入っていく流れは、かなり本格化してきたと思います。\n今回のリリースでは、診察時のメモや音声データからSOAP形式のカルテ下書きを作る、退院サマリや診療情報提供書を要約する、AIサーバー送信前に個人情報をマスクする、といった機能が紹介されています。\n医療現場では、記録、要約、紹介状、退院サマリ、申し送りなど、文章業務が非常に多いです。ここに生成AIが入るのは自然な流れです。\nただし、電子カルテにAIを入れる場合、単なる文章生成では不十分です。\nどの情報を参照するのか、誤りをどう防ぐのか、医師がどこまで確認するのか、個人情報をどう保護するのか、既存業務の中で本当に使いやすいのか。\nここまで設計しないと、現場には定着しません。\n今後の電子カルテは、単なる記録システムから、医療者の業務を支援するAIワークスペースに変わっていく可能性があります。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/46611/54/46611-54-218ae5ab8b856bca6f0252184cb484c1-2117x1442.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "00e86450-f9ed-4550-82f7-c7a250d16f50",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "digital",
+      "title": "アライドテレシス×ビットブレイン：医療DXを支える安全なネットワーク基盤で協業",
+      "source_name": "アライドテレシスとビットブレイン",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000026.000019901.html",
+      "summary": [
+        "アライドテレシスとビットブレインが、医療機関における安全なネットワーク環境の構築を目的に協業を開始。",
+        "ビットブレインの医療専用閉域ネットワーク「WCI」と、アライドテレシスのSD-WANルーターを組み合わせ、遠隔読影や医療データ連携を支えるネットワーク基盤を展開していくとしています。"
+      ],
+      "comment": "これは少し地味に見えるかもしれませんが、医療DXの実装では非常に重要です。\n医療DXや医療AIの話をすると、アプリ、AI、電子カルテ、データ連携に目が行きがちです。しかし、それらを安全に動かすには、ネットワーク基盤が必要です。\n遠隔読影、医療機関間の画像共有、電子カルテ連携、医療データ連携、医療特化LLMの利用などでは、扱うデータが非常にセンシティブです。インターネット経由で何でもつなげばよいという話ではありません。\n今回のWCIは、医療専用の閉域ネットワークとして、医療機関間やIT企業間を安全につなぐことを狙っています。ここにネットワーク機器メーカーのアライドテレシスが入ることで、医療DXのインフラとしての展開がしやすくなる可能性があります。\nヘルスケアビジネスでは、表に見えるサービスだけでなく、セキュリティ、ネットワーク、認証、監査ログ、データ連携基盤のような“裏側のインフラ”も重要です。\n医療DXは、便利さと安全性をセットで設計しないと広がらないと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/19901/26/19901-26-726fe7323d1f071b0656ae66f824bf48-981x355.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "013b8b07-d9d2-4c4a-951b-4639c195213f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-30",
+      "category": "drug",
+      "title": "PST：音声バイオマーカーによる抑うつ症状モニタリングの可能性を発表",
+      "source_name": "PSTメディカル",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000023.000040125.html",
+      "summary": [
+        "PSTメディカルが、神奈川県精神神経科診療所協会所属10施設との共同研究成果として、音声バイオマーカーによる抑うつ症状モニタリングの可能性を発表しました。",
+        "99症例・291データの解析で、音声から推定した抑うつ重症度スコアとHAM-Dスコアとの関連などが示されています。"
+      ],
+      "comment": "これはデジタルバイオマーカー、特にメンタルヘルス領域のニュースとして面白いです。\nメンタルヘルスでは、患者さんの状態評価が、診察時の会話や質問票に依存しがちです。ただ、抑うつ症状は日々変動しますし、診察と診察の間の状態変化を把握するのは難しい。\n音声バイオマーカーは、短時間・非侵襲で取得できる可能性があり、日常生活の中で継続的に測定できる点が特徴です。\n今回の研究では、音声特徴量と抑うつ症状の重症度・変化との関連が示されており、来院間モニタリングへの応用可能性が期待されています。\nもちろん、音声だけで診断するという話ではなく、医師の診察、質問票、生活情報などと組み合わせてどう使うかが重要です。\nヘルスケアビジネスとしては、デジタルバイオマーカーは、疾患管理、治験、DTx、職域メンタルヘルス、遠隔診療、PHRなどとつながる領域です。今後かなり注目されると思います。\n\nどれが気になったか、ぜひコメントしてください！！",
+      "company": {
+        "name": "今週のまとめ：医療DXは「サービス」から「実装インフラ」へ広がっている",
+        "profile": "今週のニュースを見ていると、医療・ヘルスケアビジネスがかなり実装フェーズに入ってきていると感じます。ヘルスケアビジネスは、アプリやAIを単体で出す段階から、「実装インフラの競争」になってきていると思います。どのように業務フローや提供サービスの中に入れていくか。",
+        "url": null,
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/40125/23/40125-23-00e9b9844cd2169f759d1c3106792c7c-1920x876.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "5df2932d-26e6-423f-b75b-8d5b15f88ee7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "レイヤード：3病院で患者コミュニケーションDXの実践モデルを構築",
+      "source_name": "レイヤード",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000078.000004524.html",
+      "summary": [
+        "レイヤードが、公立八女総合病院、友愛医療センター、角田病院の3病院と連携し、患者説明、カルテ記録、同意取得といった患者コミュニケーション領域のDX実践モデルを構築したと発表しました。"
+      ],
+      "comment": "これは今週の中でもかなり良いニュースだと思いました。\nレイヤードはもともとクリニック領域で、Web問診、予約、患者説明、動画活用など、患者コミュニケーションに強みを持ってきた会社です。その会社が病院領域で、患者説明、カルテ記録、同意取得まで含めたDX実践モデルを作っている点が面白いです。\n今回のリリースで特に良いのは、単に「AIを入れました」「電子同意書を入れました」ではなく、病院ごとの課題と成果が具体的に書かれていることです。\nたとえば、電子同意書では医師の説明時間が1件あたり約10分から約2分へ短縮。\n音声認識AIによるカルテ記録では、カルテ記入時間が20〜30分から2〜3分へ短縮。動画による患者説明では、手術説明の効率化・標準化につながっています。\n\n医療DXは、単独ツールを入れれば終わりではありません。患者説明、同意取得、記録、理解度確認、診療前後の情報提供が一連の流れとしてつながる必要があります。\n病院のDXは、電子カルテや基幹システムだけではなく、こうした「患者コミュニケーションの再設計」にかなり余地があると思います。\nヘルスケアビジネスとしても、病院に売るなら「機能」ではなく、「どの業務時間が何分減るのか」「誰の負担が減るのか」「患者の理解や納得感がどう変わるのか」まで見せることが大事だと感じました。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/4524/78/4524-78-05f4f141cfb587ddd2c623d72d54f20f-1484x780.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "d997f914-adb6-4769-bf2a-39871add509d",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "MG-DX：ユニスマイル薬局に薬局特化接客AIエージェントを提供開始",
+      "source_name": "サイバーエージェントグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000058.000093498.html",
+      "summary": [
+        "サイバーエージェントグループのMG-DXが、ユニスマイル薬局に薬局特化接客AIエージェント「薬局受付AIエージェント」を提供開始。",
+        "受付利用率97.8％、受付対応時間を月最大約61時間削減したと発表しています。"
+      ],
+      "comment": "これは薬局DXのニュースとしてかなり面白いです。\nMG-DXは、サイバーエージェントの連結子会社で、医療AI・薬局DX領域に取り組んでいる会社です。今回はユニスマイル薬局アキバ店で、薬局の受付業務をAI接客エージェントで自動化したというリリースです。\n\n薬局の受付というと地味に見えるかもしれませんが、実際にはかなり大事です。\n処方箋を預ける、戻り受付をする、患者の状況を確認する、待ち時間を短縮する、医療事務が調剤アシストに回れるようにする。こうした小さな業務の積み重ねが、薬局の生産性に直結します。\n\n今回、受付機の利用率が処方箋受付件数ベースで97.8％、受付対応時間が月最大約61時間削減という数字が出ているのも良いです。ヘルスケアビジネスでは、「便利です」ではなく、現場でどれくらい業務が減ったのかを数字で示せることが重要です。\n薬局は、対物業務から対人業務へと言われていますが、そのためには受付、入力、確認、服薬指導前後の事務作業を減らす必要があります。\n薬局DXは、単にオンライン服薬指導だけではなく、受付、順番管理、遠隔服薬指導、AI接客、レセコン連携、患者フォローまで含めた薬局オペレーション全体の再設計になっていくと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/93498/58/93498-58-b1df4900f61645ebd8385630792ce82f-1800x945.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b5fbc24c-bb3b-428f-96a7-f0d2c6ef5993",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "クラウドドクター×amano：オンライン診療から薬の即時配送までを愛知県で拡大",
+      "source_name": "オンライン診療プラットフォーム「クラウドドクター」",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000164410.html",
+      "summary": [
+        "オンライン診療プラットフォーム「クラウドドクター」が、愛知県を中心に調剤薬局などを展開するアマノと連携し、Uber等を活用した薬の即時配送エリアを拡大。",
+        "名古屋市を含む愛知県内16自治体が新たに対象となりました。"
+      ],
+      "comment": "これはオンライン診療の「最後の1マイル」のニュースとして見ています。\nオンライン診療は、診察がオンラインになるだけでは完結しません。診察後に、処方、オンライン服薬指導、決済、薬の受け取りまでつながって初めて、患者にとって本当に便利になります。\n\n今回のクラウドドクターとアマノの連携では、オンライン診療、オンライン服薬指導、Uber等を活用した薬の配送までを組み合わせています。つまり、医師、薬局、配送網がつながることで、患者が自宅や職場で医療を完結しやすくなる。\nオンライン診療ビジネスでは、診療システムだけでなく、薬局ネットワークと配送がかなり重要です。特に、忙しい人、子育て世代、移動が難しい人、近くに医療機関がない人にとって、薬の受け取りまで含めた体験設計が価値になります。\n\n一方で、医療アクセスの改善と、適切な診療・服薬指導・薬剤管理をどう両立するかは重要です。便利さだけでなく、安全性、継続性、地域薬局との関係をどう作るかがポイントになると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/164410/16/164410-16-afdae048656ded08a76ccdb268fca711-3900x1268.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "2aa11073-4c55-42dd-be21-0c1b6811b630",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "drug",
+      "title": "LIFESCAPES：AMED橋渡し研究プログラムに採択、BCI技術で脳卒中後リハビリへ",
+      "source_name": "LIFESCAPES",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000018.000140834.html",
+      "summary": [
+        "LIFESCAPESが、AMEDの令和8年度「橋渡し研究プログラム」に採択。",
+        "脳卒中後の重度上肢機能障害に対して、Brain-Computer Interface（BCI）技術を活用した医師主導治験を開始する取り組みです。"
+      ],
+      "comment": "これは大学発医療機器スタートアップの社会実装という文脈で重要だと思います。\nLIFESCAPESは、慶應義塾大学発の医療機器スタートアップで、BMI/BCI技術を基盤にニューロリハビリテーション医療機器の開発を進めている会社です。今回のAMED橋渡し研究プログラムでは、北海道大学を支援機関として、脳卒中後の重度上肢麻痺に対する医師主導治験が進むとのことです。\n\nここで重要なのは、研究技術が「すごい」だけではなく、医療機器として臨床試験に進み、医療現場で使える形に近づいている点です。\nリハビリテーション領域は、医療ニーズが大きい一方で、保険点数、人員配置、継続利用、患者のモチベーション、施設側の導入負担など、事業化の壁が多い領域です。\nBCIやBMIは、未来感のある技術ですが、医療機器として社会実装するには、臨床的有効性、リハビリ現場への導入、療法士との役割分担、保険償還、機器価格、施設側の投資判断まで考える必要があります。\nAMEDの橋渡し研究は、大学の研究成果を医療現場へ届けるための制度ですが、採択後にどう製品化・事業化していくかが本当の勝負です。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/140834/18/140834-18-dbcea116c24596d2733aa6a2793dcb6c-1212x523.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6200f823-60c3-4a53-8dbd-2c29bb7d9b53",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "Direava：GENIAC第4期に採択、外科手術未来予測モデルを開発へ",
+      "source_name": "Direava",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000161347.html",
+      "summary": [
+        "Direavaが、経済産業省およびNEDOによる国内生成AI開発力強化プロジェクト「GENIAC」第4期に採択。",
+        "手術安全性向上のための「外科手術未来予測モデル」の開発と実証を進めると発表しました。"
+      ],
+      "comment": "これは医療AIの中でも、かなり攻めたテーマだと思います。\nDireava（ディリーバ）は、現役外科医である竹内先生が創業したスタートアップで、外科手術の安全性向上に向けたAI技術に取り組んでいます。今回のGENIAC採択では、手術画像や言語など複数のデータを活用し、「外科手術未来予測モデル」を開発するとのことです。\n\n医療AIというと、診断支援や問診、カルテ要約が注目されがちですが、外科領域では、術野認識、解剖構造の把握、次に起こり得るリスクの予測、合併症の低減など、別の難しさがあります。\n手術支援AIは、単に画像認識の精度が高ければよいわけではありません。\n術者の判断を邪魔しないUI、リアルタイム性、責任範囲、症例ごとのばらつき、術者の熟練度、病院への導入コストなどを考える必要があります。\nGENIACのような国の生成AI開発支援に、医療・外科領域のテーマが入ってくるのは、日本の医療AIにとって重要な流れです。\n今後、医療AIは、汎用AIをそのまま医療に使うだけでなく、診療科・手技・業務ごとに特化したモデルへ進んでいくと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/161347/8/161347-8-196f1e31f1e753909508fb9c78b9a8dd-1176x463.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e40d1a1d-53d5-499b-971f-2bfb9da49a99",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "聖路加国際病院×DUMSCO：乳がん患者の外見変化を支援するデジタルプログラムを共同研究",
+      "source_name": "聖路加国際病院とDUMSCO",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000049.000045932.html",
+      "summary": [
+        "聖路加国際病院とDUMSCOが、乳がん薬物療法中または開始予定の患者を対象に、アプリを用いた外見変化支援プログラムの共同研究を開始。",
+        "アピアランスケアの新しいデジタル支援モデル構築を目指します。"
+      ],
+      "comment": "これは、医療と生活支援の間にある非常に大事な領域だと思います。\nがん治療では、治療そのものだけでなく、脱毛、皮膚症状、爪の変化、見た目の変化、仕事や人間関係への影響など、生活面の困りごとが多くあります。これを支援するのがアピアランスケアです。\n\n今回の取り組みでは、聖路加国際病院とDUMSCOが、がん患者サポートアプリ「ハカルテ」の技術基盤を活用し、患者の治療段階や状態に応じて必要な情報を届けるデジタル支援モデルを作ろうとしています。\nヘルスケアビジネスでは、治療成績や診断精度だけではなく、患者のQOL、自己効力感、生活への復帰、働き方、家族との関係も重要です。\n特にがん領域では、医療機関での診療と、日常生活の間にある支援ニーズが大きい。ここをアプリやデジタルプログラムで支えることは、今後の患者支援ビジネスの重要な方向性だと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/45932/49/45932-49-ab8de2489b2f385d7bf7bed2240b20f6-3840x2560.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "abf3724e-df9d-4f9b-b4d3-981027d58f75",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "digital",
+      "title": "MYLILY×MRSO.jp：更年期オンライン診療から健診・がん検診予約へ",
+      "source_name": "更年期専門オンライン診療プラットフォーム「MYLILY」",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000032.000082057.html",
+      "summary": [
+        "更年期専門オンライン診療プラットフォーム「MYLILY」が、人間ドック・健診予約サイト「」と業務提携。",
+        "更年期世代の女性が、オンライン診療に加えて、全国の人間ドック・健診機関の予約を利用できる導線を構築します。"
+      ],
+      "comment": "これは女性ヘルスケアと予防医療の接続として面白いです。\nMYLILY（最近社名を変えました。旧、My fitですね）は、更年期専門のオンライン診療プラットフォームです。今回、MRSO.jpと連携することで、更年期症状の治療だけでなく、がん検診や人間ドックへの導線も作ろうとしています。\n更年期世代の女性は、ホルモン変化、不眠、気分の変動、体重増加、骨粗鬆症、婦人科疾患、乳がん・子宮頸がん検診など、さまざまな健康課題が重なりやすい時期です。\nここで重要なのは、オンライン診療を「1回の診察」で終わらせるのではなく、検診、予防医療、生活習慣支援、メンタルヘルスなどへ広げている点です。\nヘルスケアビジネスでは、特定の症状や疾患から入って、継続的な健康管理プラットフォームへ拡張する流れがあります。\n\n更年期医療は、女性ヘルスケア、企業の健康経営、人的資本、予防医療、検診受診率向上ともつながる領域です。今後さらに注目されると思います。",
+      "source_url_2": "http://MRSO.jp",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/82057/32/82057-32-22be0cb28daeca962a68467a17b6225c-1273x723.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "8cc22032-aed6-4925-a1b5-018acf5403e9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-22",
+      "category": "wearable",
+      "title": "テックドクター×慶應義塾大学：関節リウマチ患者のウェアラブルデータ研究成果を国際学会で発表",
+      "source_name": "テックドクター",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000080.000071267.html",
+      "summary": [
+        "テックドクターが参画した、慶應義塾大学医学部リウマチ・膠原病内科主導の関節リウマチ患者を対象としたウェアラブルデータ研究成果が、欧州リウマチ学会および国際臨床免疫学会で発表されました。"
+      ],
+      "comment": "これはデジタルバイオマーカーのニュースとして重要だと思います。\n今回の研究では、関節リウマチ患者を対象に、Fitbitで取得した身体活動、睡眠、心拍変動などのデータと、患者報告アウトカム、QOL、倦怠感との関連を解析しています。機械学習を使うことで、患者の主観的なQOLや倦怠感を客観的に推定できる可能性が示されています。\nこれまで疾患活動性や患者状態の評価は、診察時の情報、検査値、質問票に依存していました。しかし、慢性疾患では日々の状態変化が重要です。ウェアラブルデータを使えば、患者の日常生活の中で起きている変化を継続的に見ることができます。\n\nただし、ウェアラブルデータは、集めればよいというものではありません。医療現場で使うには、どの指標が臨床的に意味を持つのか、医師がどう解釈するのか、患者にどうフィードバックするのか、治療判断にどうつながるのかを設計する必要があります。\nデジタルバイオマーカーは、創薬、治験、疾患管理、遠隔診療、予防医療のすべてに関わる領域です。今後かなり重要になると思います。\n\nつまり、ヘルスケアビジネスは、医療機関の中の業務効率化だけでもなく、患者向けアプリだけでもありません。病院の業務、薬局の受付、オンライン診療後の薬の配送、リハビリ、手術、がん患者の生活支援、更年期女性の予防医療、慢性疾患の日常モニタリングまで、医療の前後左右に広がっています。\n\n以上です！やはり長くなってしまうのですが、これでいいのかどうか、ぜひみなさんのコメントもらいたいです！！\nぜひ気軽にコメントしてください！",
+      "company": {
+        "name": "今週のまとめ：ヘルスケアビジネスは「現場の業務」と「患者の生活」の両方に広がっている",
+        "profile": "今週のニュースを見ていると、ヘルスケアビジネスの広がり方がかなり見えてきます。レイヤードは、病院の患者説明・同意取得・カルテ記録という患者コミュニケーション業務に入っています。MG-DXは、薬局の受付という日々のオペレーションにAIを入れています。クラウドドクターは、オンライン診療、服薬指導、薬の配送までつなげています。LIFESCAPESやDireavaは、公的支援を受けながら、リハビリや外科手術という高度医療の領域でAI・医療機器開発を進めています。DUMSCOは、乳がん患者のアピアランスケアという、治療と生活の間にある課題に取り組んでいます。MYLILYは、更年期オンライン診療から健診・がん検診へ導線を広げています。テックドクターは、ウェアラブルデータを慢性疾患の状態把握に使う取り組みを進めています。",
+        "url": null,
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/71267/80/71267-80-06b9cb91d4ba7f0fcce2a96ed3febf0d-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "067c014f-eede-4891-886f-8193814eb3e1",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "digital",
+      "title": "メドコム：医療機関専用スマートフォン上でAI議事録サービスを開始",
+      "source_name": "メドコム",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000065.000064723.html",
+      "summary": [
+        "メドコムが、患者説明や院内会議をAIで自動要約する「メドコムAI議事録」の販売開始を発表。",
+        "スマートフォン1台で録音、文字起こし、生成AIによる要約、QRコード経由での電子カルテ出力まで行えるサービスです。"
+      ],
+      "comment": "これは今週入れた方がよいニュースだと思います。\nメドコムは医療機関専用スマートフォンを提供している会社で、以前から病院内のPHS置き換え、院内コミュニケーション、医療現場の情報共有のDXに取り組んでいます。導入病院数や利用者数も増えており、病院内のインフラになりつつある存在です。\n今回のAI議事録で面白いのは、単体のAI議事録サービスではなく、すでに病院内で使われている医療機関専用スマートフォンの上に、録音・文字起こし・要約・電子カルテ出力を載せている点です。\n医療現場では、患者説明、カンファレンス、会議、申し送り、面談など、記録化したい音声情報がたくさんあります。ただし、医療情報なので、普通の議事録AIをそのまま使うにはセキュリティや運用上の不安があります。\n医療DXでは、AI単体の機能よりも、「どの端末で、どの環境で、どの業務の中で、安全に使われるか」が重要です。メドコムのように、すでに病院内の業務端末・コミュニケーション基盤になっているプレイヤーがAI機能を載せていくのは、かなり自然な流れだと思います。\nメドコムはこのような医療現場のAI業務改善サービスをもっといろいろ載せていくのがいいですよね。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/64723/65/64723-65-480b92c5c9d32b1dedfc76061ae71eaf-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b6ea309b-d184-4735-b453-62e4b02cedb0",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "digital",
+      "title": "CureApp：DTx業界を牽引する10社が集まり、Business Roundtableを開催",
+      "source_name": "CureApp",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000274.000015777.html",
+      "summary": [
+        "CureAppが、DTxの社会実装に向けて業界を牽引する10社を集め、「DTx Business Roundtable 2026」を開催。",
+        "CureApp、BiPSEE、CaTe、DTアクシス、emol、Meiji Seika ファルマ、MICIN、沢井製薬などが参加しています。"
+      ],
+      "comment": "これ、早速早朝からXで苦言を呈してしまいました。大事なことがたくさんあると思うので、今日の勉強会でも話すのですが、書いていきます！\n\nこれまで日本のDTxで上市してきていたのは、CureAppの3製品のみでした。それが2026年6月からサスメド、塩野義、そしてDTアクシスと3製品が上市されました。\n今まではDTx≒CureAppというイメージだったのが、これが、他に3社もDTxをリリースしてきて、存在感が薄れると思ったのか、今になって「業界振興をする」といってこのようなことを始めるのは遅いと思っています。\n業界振興に関しては、デジタルヘルスアライアンスが今までとても頑張ってきたわけであって、新しく作るべきではない。むしろ日本医療ベンチャー協会でCureAppのDTxの支援もしたのだから、デジタルヘルスアライアンスが嫌であったら、医療ベンチャー協会でやればいいのに、今回、まだ3つ目として集まりを作っている感じです。\nこれが大きな市場だったらいいのですが、DTxというまだ市場ができあがっていないものなわけで、分かれて作っていくメリット（本当に業界振興をするというメリット）がわかりません。やはり、CureAppが、地震が存在感がなくなってしまうのではないかという危機感から、「今になって」こういうことをやりだしたのだと思っています。\nこのように後手後手になるのは良くないと思っていて、このようなマーケティングに関して、今日の勉強会では話をしていこうと思っています！",
+      "source_url_2": "https://x.com/HiroakiKato/status/2066284708980576383?s=20",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/15777/274/15777-274-65292d469f5d2d66d29e3149793957f3-1484x1058.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6f12e05d-6338-4047-985f-9e9ab09e501d",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "digital",
+      "title": "クラシテク：ケアマネ・病院からの新規依頼電話にAIが自動応答",
+      "source_name": "クラシテク",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000018.000160988.html",
+      "summary": [
+        "クラシテクが、訪問看護ステーションや医療・介護事業者向けに、ケアマネジャーや病院からの新規依頼電話にAIが自動応答する「AI集患電話」を提供開始。",
+        "シフトの空き状況から対応可能日時を即答し、属人化していた電話対応をデータ化するサービスです。"
+      ],
+      "comment": "これはかなりヘルスケアビジネス研究会らしいニュースだと思って取り上げました。\n訪問看護や在宅医療では、ケアマネジャーや病院の地域連携室から「空きありますか？」という電話が入ります。ここにすぐ答えられるかどうかで、新規利用者を受けられるかが決まります。\nでも実際には、管理者が訪問中だったり、シフトや訪問スケジュールを確認しないと回答できなかったりして、「確認して折り返します」となる。その間に、依頼は他の事業所に決まってしまう。\nこれ、めちゃくちゃ現場っぽい課題です。\n医療・介護の集患や紹介獲得は、広告だけではなく、こういう「1本の電話に即答できるか」に左右されます。そして、これまでは取りこぼした依頼が記録に残らず、経営側から見えにくかった。\nAI集患電話は、単に電話対応をAI化するというより、在宅医療・訪問看護の新規依頼獲得を、データ化された経営指標に変えるサービスだと思います。\nヘルスケアビジネスでは、診療行為そのものだけでなく、「集患」「紹介元対応」「空き枠管理」「折り返し対応」「機会損失の可視化」みたいな周辺業務にも大きな事業機会があります。\nAIの使いどころとしても、かなり現実的だと思います。\nこの領域、この1社だけで刈り取る領域ではないので、まだまだ2～3社くらいは入っていけると思っています。",
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "8c3096f0-cdbe-418f-b3b9-080a6aa5031b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "drug",
+      "title": "岡山大学など：医療圏を越えた医薬品の共同調達へ",
+      "source_name": "岡山大学",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004080.000072793.html",
+      "summary": [
+        "岡山大学、島根大学、岡山赤十字病院、岡山市立市民病院が、医療圏を越えた医薬品の共同調達等に関する合意書を締結。",
+        "大学病院主導で、医薬品の安定確保体制を構築する取り組みです。"
+      ],
+      "comment": "これは、病院経営・医薬品流通・フォーミュラリーの観点でかなり面白いニュースです。\n医薬品の安定供給は、ここ数年ずっと大きな課題になっています。後発医薬品の供給不安、原薬調達、薬価制度、卸との関係、院内採用品目の標準化など、単に「薬が足りない」という話ではなく、医療提供体制そのものに関わる問題です。\n今回の取り組みで重要なのは、個別病院ごとの調達ではなく、医療圏を越えて、複数の公的医療機関・大学病院が共同で医薬品使用方針や調達体制を作ろうとしている点です。\n病院経営の観点では、今後は単独病院で何でも最適化する時代から、地域・医療圏・大学病院ネットワーク単位で、医薬品、物流、検査、人材、医療機器、データを共同で考える時代に入っていくと思います。\n医薬品の共同調達は、コスト削減だけでなく、標準治療の統一、安定供給、医療の質の確保、流通効率化にもつながります。\n医療機関向けビジネスでも、個別病院に売るだけでなく、「地域医療ネットワーク全体の運用改善」に入っていく発想が重要になっていくと思います。あと、こういう医療ネットワークというか、運営法人は別々にしながらゆるやかな医療グループを作っていくという動きが出てくるんじゃないかと思っています。\n（YouTubeのReal Valueで、美容院業界で同じような取り組みをしようというプレゼンが2週間くらい前にあったと思います。）",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/72793/4080/72793-4080-dd99bca93eab5e1e0752b8b4170834bb-1297x741.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "04730a80-cd1e-4c82-8ab9-a702aa678e78",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "service",
+      "title": "ゆみの：ベトナム基幹病院と地域包括ケアモデル構築へMOU締結",
+      "source_name": "医療法人社団ゆみ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000019.000076891.html",
+      "summary": [
+        "医療法人社団ゆみのが、ベトナム保健省直轄の基幹病院であるトンニャット病院、DOMED Clinicと、循環器疾患患者を対象とした病院から在宅への連携型地域包括ケアモデル構築に向けた基本合意書を締結しました。"
+      ],
+      "comment": "これは、日本の医療機関が海外に地域包括ケアモデルを展開するという意味で面白いです。\nゆみのは本当にいろいろやっていて、日本でも心不全・循環器領域を中心に、外来、在宅、リハビリ、遠隔モニタリング、地域連携を組み合わせた医療モデルに取り組んでいる医療法人です。\n今回のベトナムとのMOUは、単に日本の医師が海外で診療するという話ではなく、日本で培った「病院から在宅へ」「急性期から生活へ」「専門医療から地域連携へ」というケアモデルを海外の医療提供体制に応用しようとしている点が重要です。\n今後、アジア各国でも高齢化、循環器疾患、慢性疾患、在宅医療、介護連携のニーズは増えていきます。その中で、日本の地域包括ケアや在宅医療のノウハウは、輸出できる可能性があります。\nヘルスケアビジネスとしては、医療機器やデジタルツールだけでなく、「ケアモデルそのもの」を海外に展開するという視点が大事になると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/76891/19/76891-19-696477e28b1b63390ca9db2312be3be6-1388x837.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "3458b5d0-6362-4e32-9b79-732c0de4c539",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "service",
+      "title": "クラスター×北大病院×Mediative：メタバース診察システムでひきこもり支援",
+      "source_name": "クラスター",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000017626.html",
+      "summary": [
+        "クラスター、北海道大学病院、Mediativeが、ひきこもり支援のためのメタバース診察システムの共同研究を開始。",
+        "6月11日より、仮想空間を活用した支援・診療の可能性を検証する取り組みです。"
+      ],
+      "comment": "面白いことやっていますよね。メタバース医療というと、少し前はかなりバズワード的に語られていた印象もあります。\nただ、今回のような「ひきこもり支援」というテーマでは、メタバースはかなり相性がよい可能性があります。\nひきこもりやメンタルヘルスの領域では、本人が医療機関や相談窓口に行くこと自体が大きなハードルになります。いきなり対面で会うのが難しい、外出が難しい、顔を出すことに抵抗がある、という方も多い。\nそのときに、仮想空間で段階的に人とつながる、支援者と接点を持つ、安心できる環境で相談する、という設計は意味があると思います。\nもちろん、メタバースで診察すればすべて解決するわけではありません。医療安全、本人確認、緊急時対応、診療録、保険上の扱い、支援者との連携など、考えるべきことは多いです。\nただ、医療・福祉において「来院できない人」「支援につながれない人」にどう接点を作るかは非常に重要です。メタバースは、その一つの選択肢になり得ると思います。\nこの取り組みがうまくいかなくても、企業としてはこの座組のリリースができたりして、Mediativeの畑先生はやり方うまいと思いました！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/17626/443/17626-443-10344cf28b2a0d64ac5055a5e5b50f73-2560x1440.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "2a6b06c8-4576-4607-b363-afb584c1a078",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "drug",
+      "title": "Dioseve：iPS細胞を用いた生殖再生医療でシリーズA追加ラウンド10億円超を調達",
+      "source_name": "Dioseve",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000103378.html",
+      "summary": [
+        "Dioseveが、シリーズA追加ラウンドで10億円超を調達。",
+        "海外投資家や大手製薬会社が参画し、NEDO DTSUにも採択されています。",
+        "iPS細胞を用いた生殖再生医療の社会実装を目指すスタートアップです。"
+      ],
+      "comment": "Dioseve、昨年のIVS？で社長にお会いしていました。これは再生医療・iPS細胞・不妊治療領域のスタートアップとして注目だと思います。\n生殖医療は、医療ニーズが大きく、社会的関心も高い一方で、倫理、規制、価格、アクセス、臨床安全性、社会受容性など、非常に多くの論点があります。\nDioseveは、iPS細胞を用いた卵子作製技術を基盤に、生殖再生医療の社会実装を目指している会社です。まだ実用化までには時間がかかる領域だと思いますが、海外投資家や大手製薬企業が入っている点は、グローバルに見ても注目度が高いことを示していると思います。\n再生医療スタートアップは、技術の期待値が高い一方で、開発期間が長く、資金も大きく必要です。研究成果をどう臨床に持っていくか、どう規制と向き合うか、どの国で最初に事業化するかが重要になります。\nヘルスケアビジネスとしては、短期売上ではなく、長期の技術プラットフォームと社会実装の道筋をどう作るかを見る必要があります。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/103378/4/103378-4-789272a2b0b33c49b4d5823935caab99-3900x1936.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "dfc91bb2-86d1-4449-947b-cfa61cb3ecf6",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-15",
+      "category": "service",
+      "title": "港区×港区医師会：生活習慣病の発症・重症化予防で連携協定",
+      "source_name": "東京都港区と港区医師会",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000119.000140793.html",
+      "summary": [
+        "東京都港区と港区医師会が、区民の生活習慣病の発症および重症化予防に向けた連携協力に関する基本協定を締結。",
+        "地域の医療資源と行政が連携し、区民の健康づくりと重症化予防に取り組むニュースです。"
+      ],
+      "comment": "これは自治体と医師会の連携による予防医療・重症化予防のニュースです。\n生活習慣病は、医療機関に来た患者さんだけを診ていても十分ではありません。健診、保健指導、受診勧奨、かかりつけ医、専門医療機関、行政の保健事業がつながる必要があります。\n自治体が住民の健康課題に向き合い、医師会と協定を結んで地域で取り組むというのは、今後ますます重要になると思います。\nヘルスケアビジネスの観点では、自治体や医師会と連携する予防医療・重症化予防サービスはまだ余地があります。ただし、単にアプリを入れるだけではなく、住民への周知、医療機関への受診導線、医師会との合意形成、保健師や行政職員の業務フローまで含めて設計する必要があります。\n今週、いよいよ昨年に発表をした「東京都産業企業医師会」の東京都医師会の理事会でのプレゼンがあり、前に進んできていると思っています。",
+      "company": {
+        "name": "今週のまとめ：医療・ヘルスケアの“現場の詰まり”をどう解くか",
+        "profile": "今週のニュースを見ていると、医療・ヘルスケアビジネスのテーマがかなり広がっていると感じます。言うまでもなく、ヘルスケアビジネスは、アプリやAIだけではありません。医薬品の調達、訪問看護の電話対応、DTxの業界形成、地域包括ケア、メタバース支援、再生医療、医療機関スマホ、自治体予防医療まで、さまざまな「現場の詰まり」や「産業のボトルネック」をどう解くかが事業になります。その視点でニュースを見てもらえたらと思っています！ぜひ気軽にコメントしてください！あと、本日の勉強会もよろしくお願いいたします！！",
+        "url": null,
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/140793/119/140793-119-6d2254b454cf1990449b43715e1414d2-1316x878.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "1111a8fa-47bf-4faf-8662-9c1766a881c9",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "drug",
+      "title": "ノボ ノルディスク×自治体：肥満症対策が“地域連携モデル”へ",
+      "source_name": "ノボ ノルディスク ファーマ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000159.000006756.html",
+      "summary": [
+        "ノボ ノルディスク ファーマが、東京都西多摩郡日の出町と肥満症対策に関する連携協定を締結。",
+        "肥満症の早期発見と、適切な医療につながる環境整備を進める取り組みです。"
+      ],
+      "comment": "これは今週の中でもかなり重要だと思いました。\n肥満症は、これから医療・ヘルスケアビジネスの大きなテーマになります。\nただし、肥満症治療はマンジャロやゼップバウンドのような単に薬剤を出せばよいという話ではなく、早期発見、受診勧奨、専門医療機関への接続、生活習慣改善、継続支援まで含めた地域の仕組みが必要になります。\nこのリリースでは、全国の自治体の約6割で、肥満症の専門医療機関が行政区域内にない現状にも触れられています。\nつまり、肥満症治療は「薬の普及」だけでなく、「地域でどう診断・治療につなげるか」という医療提供体制の問題でもあります。\n\n製薬企業が自治体と組む意味は、疾患啓発だけでなく、住民の受診行動、保健事業、専門医療機関との連携、医療費適正化まで含めた地域モデルをつくることにあると思います。\nもちろん製薬企業も薬だけでなくヘルスケアカンパニーとなるために薬以外の取り組みも始めないといけないのですが。\n今後、肥満症、認知症、心不全、CKD、フレイルなどは、製薬企業・自治体・医療機関・保険者が連携するテーマになっていくと思っています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/6756/159/6756-159-4c07179fcfe1beb451d82a9cca72b917-752x296.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "a45f1293-f973-4163-9d93-ac616750ecc8",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "drug",
+      "title": "Medii×帝人ファーマ：希少疾患領域で専門医相談モデルが本格運用へ",
+      "source_name": "Medii",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000101.000060898.html",
+      "summary": [
+        "Mediiが、帝人ファーマと副甲状腺機能低下症領域で協業開始。",
+        "指定難病である副甲状腺機能低下症の適切な診断・治療を目指して、医師向け専門医相談サービス「Medii Eコンサル」内に専用相談窓口を設ける取り組みです。"
+      ],
+      "comment": "先週もMediiと旭化成セラピューティクスのDIC領域の協業を取り上げましたが、今週もMedii×製薬企業のニュースが出ています。Mediiの取り組み進んできています。\n\n今回の副甲状腺機能低下症は、指定難病であり、診断・治療に専門性が必要な領域です。試験運用では、約6か月で累計156件の症例相談が寄せられたとのことで、専門医相談ニーズの高さが見えます。\nここで面白いのは、製薬企業が単に薬剤情報を届けるだけではなく、疾患領域における診断・治療の質を上げるために、専門医相談プラットフォームと組んでいる点です。\n希少疾患、難病、専門医が少ない疾患領域では、専門医アクセスそのものが医療課題になります。製薬企業にとっても、適切な診断・治療につながることは、疾患啓発、適正使用、医師教育、患者アウトカムの改善につながります。\n今後、製薬企業のデジタル施策は、単なる医師向け情報提供ではなく、「疾患領域の診療支援インフラ」を作る方向に広がっていくと思っています。",
+      "source_url_2": "https://medii.jp/news/20260602",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/60898/101/60898-101-c2e6905d1e9e19093e1082810f1aa286-956x170.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "19d45836-7118-4688-b9e8-f825737b774c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "policy",
+      "title": "メディヴァ：診療報酬改定を背景に、医療機関向け業務量調査サービスを開始",
+      "source_name": "メディヴァ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000026.000041752.html",
+      "summary": [
+        "メディヴァが、医療機関向けに「業務量調査・測定結果提供サービス」を開始。",
+        "診療報酬改定で重要性が高まる業務改善の効果検証を支援するサービスです。"
+      ],
+      "comment": "これは非常に実務的で、医療機関向けビジネスとして面白いところに目をつけているなと思って取り上げました。\n診療報酬改定では、医療従事者の処遇改善、業務効率化、タスクシフト、医療DX、職場環境改善などが重要になります。ただ、医療機関側からすると、「業務改善しました」と言うだけでは不十分で、どこにどれだけ業務量があり、何を変えるとどの程度改善するのかを可視化する必要があります。\n\n医療現場には、感覚的には忙しいけれど、業務量が定量化されていない仕事がたくさんあります。\n看護師、医師事務作業補助者、外来、病棟、検査、受付、会計、書類作成など、どこに負荷があるかを測ることが、業務改善の出発点になります。\n（実は今ある病院でちょうどこの計測をいろんな部門でしているところでした）\n\nヘルスケアビジネスでは、「AIで効率化します」「DXで改善します」と言う前に、まず現場の業務を測ることが大事です。測れないものは改善できない。医療機関向けの業務改善サービスは、今後もっと伸びると思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/41752/26/41752-26-7e8e14b76e85e6a129f5aa7010ce3aa3-1900x900.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e52447dc-f73a-4ea6-b253-e9559cfd08aa",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "service",
+      "title": "IT FORCE×大阪府：医療機関等への支援事業もデジタル化される時代へ",
+      "source_name": "IT FORCE",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000086945.html",
+      "summary": [
+        "IT FORCEが、大阪府の「おおさか事業者ポータル」をリリース。",
+        "医療機関等における賃上げ・物価上昇に対する支援事業のデジタル化を支援する取り組みです。"
+      ],
+      "comment": "これは一見すると医療DXというより行政DXのニュースですが、医療機関支援のデジタル化として見ると面白いです。\n医療機関は、診療報酬だけでなく、補助金、支援金、物価高対策、賃上げ支援、施設基準、各種届出など、行政とのやり取りが非常に多いです。こうした手続きが紙やExcel、個別メールで残っていると、医療機関側も行政側も負担が大きい。\n（最近株主総会の案内が紙で届くことの批判がXでばずっていました）\n\n医療機関の経営支援や業務支援を考えると、診療そのものだけでなく、こうした行政手続き、補助金申請、制度対応、事務処理も重要な領域になります。\n医療DXというと電子カルテやオンライン資格確認に目が行きがちですが、医療機関を取り巻く行政手続きのDXも大きな市場になる可能性があります。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/86945/31/86945-31-6cd7e35d0c0f8e997a8658bde7226246-2400x1260.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c0cdb1d2-db95-4ace-8937-446bb7cabba4",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "service",
+      "title": "AccordX：選定療養の予約キャンセル対応サービスを開始",
+      "source_name": "AccordX",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000043761.html",
+      "summary": [
+        "AccordXが、2026年6月施行の保険診療キャンセル料制度対応として、医療機関向けに「請求できるくん for クリニック」の受付を開始。",
+        "選定療養「予約に基づく診察」の届出整備から、請求・回収・患者問い合わせ対応まで支援するサービスです。"
+      ],
+      "comment": "先週もDr.JOYのキャンセルマネジメントを取り上げましたが、今週もキャンセル料対応サービスのリリースが出ています。\nこの領域で大事なのは、無料の通常予約に対して何でもキャンセル料を取れるという話ではないということです。選定療養として「予約に基づく診察」の予約料を徴収している場合のキャンセル料、という制度理解が重要です。\nそのうえで、医療機関側には、届出、患者説明、同意、請求、回収、問い合わせ対応、トラブル対応という業務が発生します。制度変更があっても、現場が実際に運用できなければ広がりません。\nヘルスケアビジネスでは、制度変更そのものが事業機会になります。ただし、制度を正しく読み、現場に無理なく落とし込むところまで設計できるかが勝負です。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/43761/28/43761-28-ac96abeb4f19ba366b8296a84eaab3ec-1280x704.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "da6cb9bf-6af5-4fc3-a26b-2447d0e0ac40",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "digital",
+      "title": "DeNA/アルム：“持ち運べる診療所”で医療アクセス課題に挑む",
+      "source_name": "DeNA/アルム",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000044577.html",
+      "summary": [
+        "DeNA/アルムが、統合型遠隔医療支援ソリューション「Join Mobile Clinic（JMC）」を防衛大臣に紹介。",
+        "医療アクセスが限られる環境でも、専門医の知見を活用できる遠隔医療支援の可能性を提案しています。"
+      ],
+      "comment": "坂野さんがもう退任したDeNA/アルム。\n「持ち運べる診療所」という言葉だけだと少しイメージしにくいのですが、これは、医師が常駐していない場所や医療アクセスが限られる環境に、遠隔診療・医療支援の仕組みを持ち込むという話だと理解しています。\n\nアルムはもともと、医療関係者間コミュニケーションアプリ「Join」などを展開してきた会社で、医療ICTのグローバル展開にも取り組んでいます。\n今回のJoin Mobile Clinicは、現地にいる医療者・支援者と、遠隔地の専門医をつなぎ、画像や情報を共有しながら診療判断を支援するような仕組みです。\n\n今回、防衛省に紹介している背景として、2026年5月に、自衛官が現場で実施できる救命措置の範囲が拡大されたことがあります。医師がすぐにいない現場でも、専門医の知見を遠隔で活用しながら、初期対応や判断を支援するニーズが高まっているということだと思います。\nこの話は、防衛医療だけに限りません。\n災害現場、離島・へき地、救急搬送前、避難所、海外派遣、イベント医療、産業保健、訪問診療など、医療資源が十分にない場所に、医療機能をどう届けるかというテーマにつながります。\n遠隔医療は、都市部の便利なオンライン診療だけではなく、「医療が届きにくい場所に、どこまで診療機能を持ち込めるか」という医療アクセスの再設計でもあります。\n\n今後は、オンライン診療アプリ単体ではなく、通信、医療機器、画像共有、専門医ネットワーク、現地スタッフの教育、救急・搬送との連携まで含めた“持ち運べる医療システム”のような発想が広がっていくと思います。",
+      "source_url_2": "https://www.allm.net/news/20260605/",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/44577/130/44577-130-28146230776a6ecfa04eb3c345b5b209-1536x2048.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "da5fc091-b978-4a7c-af46-129317ae851b",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "service",
+      "title": "リゾートトラスト／ハイメディック：会員制検診で“病気になる前からの健康管理”を強化",
+      "source_name": "リゾートトラスト",
+      "source_url": "https://www.resorttrust.co.jp/ir/topics/2677/",
+      "summary": [
+        "リゾートトラストの子会社ハイメディックが、会員制総合メディカル倶楽部「グランドハイメディック倶楽部」の新コース「ハイメディック横浜ベイコース」を開始。",
+        "BASEGATE横浜関内クリニックで、睡眠や女性医療にも着目した検診を提供するとしています。"
+      ],
+      "comment": "このリリースでは「ゼロ次予防」という言葉が使われていますが、まだ一般的にはそれほど浸透していない言葉だと思います。\nここではシンプルに、病気になってから見つけるのではなく、病気になる前からリスクを見つけ、生活や医療につなげる予防医療、と理解するとよいと思います。\nハイメディックは、PET、MRI、CTなどを組み合わせた高精度検診を、会員制で提供してきた代表的なプレイヤーです。今回の横浜ベイコースでは、従来のがん・生活習慣病リスクの早期発見に加えて、睡眠や女性医療にも力を入れている点が特徴です。\n\n睡眠は、肥満、糖尿病、認知機能、メンタルヘルス、循環器疾患、仕事のパフォーマンスなど、さまざまな健康課題と関係します。また、女性医療は、ホルモン変化、骨粗鬆症、更年期、婦人科疾患、働き方とも深くつながります。\nつまり、検診ビジネスも、単に「がんを早く見つける」だけではなく、睡眠、女性医療、生活習慣、将来リスク、受診後のフォローアップまで含めた、継続的な健康管理サービスに変わりつつあるということだと思います。\n\n予防医療は、誰が費用を払うのかが非常に重要です。現時点では、企業、保険者、富裕層・経営者層のように、健康への投資にお金を払える層から広がりやすい領域です。\n会員制医療は、単なる検査の集合ではなく、安心、継続的な健康管理、医療機関への接続、家族を含めた健康支援、場合によってはステータス性も含めたサービスです。\n今後、Longevity、抗加齢医学、エグゼクティブ医療、会員制検診は、予防医療ビジネスの一つの大きな柱になっていくと思います。",
+      "source_url_2": "https://www.himedic.jp/",
+      "image_url": "https://www.resorttrust.co.jp/ir/assets/images/og-image.jpg",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "7cb4c7b3-431e-4c19-ae13-4f7346357f4a",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-08",
+      "category": "service",
+      "title": "インバウンド医療：外国人観光客の体調不良対応が宿泊業の課題に",
+      "source_name": "東先生",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000009.000150517.html",
+      "summary": [
+        "東先生のメディ・エンジンが、外国人観光客の急な体調不良対応に関する調査を発表。",
+        "宿泊・接客業従事者の54％が対応に不安を感じており、医療機関との連携不足が課題とされています。"
+      ],
+      "comment": "これはインバウンド医療・観光医療の文脈で面白いです。\n外国人観光客が増える中で、ホテル、旅館、観光施設、飲食店などが、体調不良や急病時にどう対応するかは大きな課題になります。言語、保険、支払い、受診先、救急搬送、医療機関の受け入れ、文化の違いなど、現場はかなり困るはずです。\nここには、医療相談、多言語対応、受診先案内、オンライン診療、旅行保険、宿泊施設向けSaaS、医療機関連携など、複数のビジネス機会があります。\nインバウンド医療は、医療機関だけでなく、観光産業・宿泊業・保険会社・自治体を巻き込む領域です。日本が観光立国を目指すなら、外国人が安心して医療につながれる仕組みも必要になると思います。\n\n先週のDIC、今週の副甲状腺機能低下症と、Mediiと製薬企業の協業が続いています。\nこれは、製薬企業のデジタル施策としてかなり重要な流れだと思います。これまで製薬企業の医師向けデジタル施策は、情報提供、ウェビナー、疾患啓発、eディテーリングが中心でした。\nしかし、今後は「医師が実際に困っている診療上の意思決定を支援する」方向に進んでいくのではないかと思います。\n専門医相談は、製薬企業が直接診療するわけではありませんが、疾患領域の診断・治療水準を上げるインフラになり得ます。特に希少疾患、専門医が少ない疾患、診断遅延が起きやすい疾患では、専門医相談の価値は高い。\n製薬企業にとっても、適切な診断・治療につながることで、疾患啓発、適正使用、医師教育、患者アウトカム改善につながります。\nこのモデルは、今後かなり増えると思っています。\n\n＜ 今週のまとめ：ヘルスケアビジネスの支払者と導入主体が広がっている＞\n\n今週のニュースを見ていると、ヘルスケアビジネスの支払者と導入主体が、医療機関だけではなくなっていると感じます。\nノボ×日の出町では、自治体が肥満症対策の導入主体になります。\nMedii×帝人ファーマでは、製薬企業が専門医相談の仕組みづくりに関わっています。\nIT FORCE×大阪府では、行政手続きのDXが医療機関支援につながっています。\nDeNA/アルムの“持ち運べる診療所”では、災害医療・防衛・自治体・へき地医療まで視野に入ります。\nハイメディックでは、富裕層・経営者層が予防医療の支払者になります。\nインバウンド医療では、宿泊業、観光産業、保険会社、自治体が関係してきます。\n\nつまり、ヘルスケアビジネスは、医療機関に売るだけではなくなっています。\n自治体、保険者、製薬企業、企業人事、観光産業、富裕層、行政、保険会社など、支払者と導入主体が多様化しています。\n今後のヘルスケア新規事業では、前回の勉強会でも話しましたが\n誰が使うのか、誰が困っているのか、誰が支払うのか、誰のKPIに効くのか、どの既存予算に乗るのか\nを整理することがますます重要になると思います。\n\nぜひ気軽にコメントしてください！",
+      "company": {
+        "name": "補足",
+        "profile": "■  Medii×製薬企業の専門医相談モデルは、製薬企業の新しいデジタル戦略になる",
+        "url": null,
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/150517/9/150517-9-1f6ccc76049161dfc603afb70f446c85-1200x721.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "1d84004c-6017-4e7b-a42a-442fe31cbef7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "device",
+      "title": "オリンパス：イスラエル医療機器メーカーBioProtectを約433億円で買収",
+      "source_name": "オリンパス",
+      "source_url": "https://www.olympus.co.jp/news/2026/nr03018.html",
+      "summary": [
+        "オリンパスが、イスラエルの医療機器メーカーBioProtectの買収を発表。",
+        "BioProtectは、前立腺がんの放射線治療時に直腸などの周辺組織を保護する、生分解性バルーンスペーサーを開発している企業です。",
+        "買収金額は2.7億ドル、約433億円とされています。"
+      ],
+      "comment": "今週の上場企業・大企業ニュースとして、一番大きいのはこれだと思います。\nオリンパスは、もともと内視鏡を中心とした「診断」の会社というイメージが強い企業です。もちろん内視鏡を使った処置領域もありますが、会社全体の見え方としては、消化器内視鏡を中心とした診断・観察機器のグローバルリーダーという印象が強かったと思います。\n今回のBioProtect買収で面白いのは、前立腺がん放射線治療における周辺組織保護という、かなり具体的な「治療プロセス」に関わる医療機器を取り込んでいる点です。\nつまり、診断機器企業が、治療・処置・ケアパスウェイ全体に価値提供を広げようとしている動きとして見られます。\n医療機器企業の今後の方向性としては、単体の機器を売るだけでなく、特定疾患領域や特定手技の中で、診断、治療、合併症予防、術後管理まで含めたポートフォリオを作る流れが強まると思っています。\n大企業メドテックは、すべてを自社開発するのではなく、海外スタートアップや専門技術をM&Aで取り込みながら、診断から治療へ、機器単体から疾患・手技全体へ広がっていく。\nアイリスも今はインフルエンザ・コロナ診断AIだけなので、今後、M＆Aをするときにどこに広がったらいいのかとか考えさせられたニュースでした！",
+      "source_url_2": "https://www.olympus.co.jp/ir/data/announcement/2026/contents/ir00010.pdf",
+      "image_url": "https://www.olympus.co.jp/news/2026/contents/nr03018/nr03018_00000.jpg",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "287d41c9-8bcd-4e4e-bbc8-df0b2464a31f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "device",
+      "title": "アルフレッサHD：耳鼻咽喉科領域の医療機器メーカーを子会社化",
+      "source_name": "アルフレッサHD",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000073.000155184.html",
+      "summary": [
+        "アルフレッサHDが、耳鼻咽喉科・頭頸部外科領域の医療機器メーカーである永島医科器械の株式取得・子会社化を発表。",
+        "永島医科器械は創業100年以上の歴史を持つ専門領域特化型の医療機器メーカーです。"
+      ],
+      "comment": "結構これはびっくりしました！そしてニュースとしては医薬品卸・医療機器流通の未来を考えるうえで面白いニュースです。\n医薬品卸は、従来の「仕入れて届ける」だけでは利益率が厳しくなっています（だいたい利益率1.5～2％）。その中で、医療機器、診断薬、メディカル品、医療機関支援サービスなどに広げていく動きが強まっています。\n今回のポイントは、アルフレッサが販売網だけでなく、専門領域の製造・開発機能を持つ医療機器メーカーを取り込んだことです。\n耳鼻咽喉科・頭頸部外科という診療科特化の医療機器メーカーは、大学病院や専門医との関係性、製品改良の知見、保守・サポート、現場ニーズの把握が強みになります。\n医療機器ビジネスでは、製品そのものの強さに加えて、診療科特化の知見、販売網、現場サポートが重要です。\n医薬品卸がメーカー機能や専門領域の知見を取り込みながら、単なる流通から医療機関支援・メディカル事業へ広がっていく流れとして注目しています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/155184/73/155184-73-9dc87856b15ec34c7eff5b1d0bc42812-609x416.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ea681dea-d77d-479e-92a2-30fd5d1c27dc",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "digital",
+      "title": "Dr.JOY：6月1日施行のキャンセル料制度に対応した医療機関向けサービスを開始",
+      "source_name": "Dr.JOY",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000118372.html",
+      "summary": [
+        "Dr.JOYが、2026年6月1日より施行される厚労省通知に対応し、医療機関向けの「Dr.JOY キャンセルマネジメント」を提供開始。",
+        "AI電話による事前案内、直前キャンセル時の空き枠案内、キャンセル料決済リンク発行まで一気通貫で支援するサービスです。"
+      ],
+      "comment": "これは「制度変更に合わせて、すぐに現場課題をサービス化する」例として面白いです。\nただし、このキャンセル料の話は、かなり注意して見た方がいいです。\n当初、保険診療でもキャンセル料を取れるというように受け止められた面があったのですが、その後、厚労省が修正・整理をして、無料の通常予約に対して広くキャンセル料を取れるという話ではなく、選定療養として「予約料」を徴収している医療機関におけるキャンセル料の話だと理解しています。\nつまり、すべてのクリニックや病院が、一般の保険診療の予約キャンセルに対して自由にキャンセル料を取れる、という話ではない。ここを誤解するとかなり危ないと思います。\n\nそれでも、医療機関のキャンセル問題自体は重要です。\n医師・スタッフの稼働、検査枠、手術枠、外来枠、売上、患者待ち時間、医療資源の有効活用に関わります。特に予約料を取るような専門外来、健診、日帰り手術、自由診療に近い領域では、キャンセル管理の仕組み化はニーズがあると思います。\nヘルスケアビジネスでは、制度変更が出た瞬間にサービス化するスピードは大事です。一方で、制度の解釈を間違えると、サービスの前提が崩れてしまう。制度を読む力と、現場オペレーションに落とす力の両方が必要だと感じます。（このあたり、あとで補足します！）",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118372/28/118372-28-8856bdcd8514cb775a8d0be402b64fe8-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c00a7923-c59d-4468-8cc3-88372e333d49",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "device",
+      "title": "キヤノンメディカル：新型超音波診断装置「Aplio me X」を発売",
+      "source_name": "キヤノンメディカル",
+      "source_url": "https://jp.medical.canon/News/PressRelease/Detail/176320-834",
+      "summary": [
+        "キヤノンメディカルが、ハイエンドクラスの超音波診断装置「Aplio me X」を発表。",
+        "高性能GPUの搭載により高画質な検査画像とスムーズな検査ワークフローの実現を目指し、国内販売を2026年6月1日に開始するとされています。"
+      ],
+      "comment": "普通にとらえるなら単なる超音波診断装置の発売のニュースですが、ここで注目したいのは、単に「画質が良い」「高性能」という話だけではなく、検査ワークフローを意識している点です。\n\n医療機器は、スペック競争だけでは現場に入っていきません。特に超音波検査は、検者の技量、検査時間、プローブ操作、画像の再現性、所見の記録、レポート作成、次の診療行動への接続まで含めたワークフローの中で使われます。\n今後の画像診断機器は、「きれいに見える」だけでなく、「誰が使っても一定の品質が出る」「検査が速くなる」「見落としが減る」「記録や説明がしやすい」「AIやデータ連携とつながる」ことが重要になっていくと思います。\n検査ワークフローをどれだけ理解して製品設計できるか。これは画像診断機器だけでなく、医療機器全般に共通する視点です。\nヘルスケアビジネスでは、プロダクト単体の価値ではなく、現場の業務フローのどこに入り、何を短縮し、何を標準化し、誰の負担を減らすのかを設計することが大切です！（ここ最近、こればかり言っている気がします）",
+      "image_url": "https://jp.medical.canon/",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e40e34e3-6216-46da-afb6-45ce6a0ccb1e",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "digital",
+      "title": "日本システム技術：保健指導特化型PHRアプリ「TomoBe」を提供開始",
+      "source_name": "日本システム技術",
+      "source_url": "https://www.jast.jp/cms/wp-content/uploads/2026/05/ir_notice20260527.pdf",
+      "summary": [
+        "日本システム技術が、自治体・健康保険組合などの保険者向けに、保健指導に特化したPHRアプリ「TomoBe」の提供を開始。",
+        "歩数、体重、食事、健診データ、疾病予測などを統合し、行動変容を継続支援するアプリです。"
+      ],
+      "comment": "日本システム技術という会社は、一般にはそこまで知られていないかもしれませんが、東証プライム上場（4323）の独立系SI企業です。大学向けシステムやシステム開発に加えて、医療ビッグデータ事業を持っている会社です。\n医療ビッグデータ事業では、JMICSという保険者向けサービスを展開しており、レセプトや健診データを活用した保険者支援、データヘルス、医療費適正化などに関わっています。つまり、医療機関向けというより、健康保険組合や自治体などの「保険者」に近い会社です。\n今回のTomoBeは、保健指導を点ではなく線にするPHRアプリという位置づけです。\n健診結果を見て1回指導するだけでなく、歩数、体重、食事、健診データ、疾病予測をつなげて、行動変容を継続支援するという方向性です。\nPHRは単なる健康データの置き場ではなかなか使われません。誰が何のために使うのかが重要です。\nその意味では、保険者が行う保健指導、特定保健指導、生活習慣病予防、医療費適正化とつながるPHRは、事業化の筋が見えやすいと思います。\nPHRは「個人向けアプリ」として考えるよりも、「保険者の保健事業を支える運用基盤」として考えた方が広がる可能性があると思っています。（JMDCと一緒？）",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "daa55941-2255-4810-8eb4-b638100543aa",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "digital",
+      "title": "ヘルスケアAIoTコンソーシアム：設立10周年シンポジウムを開催",
+      "source_name": "ヘルスケアAIoTコンソーシアム",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000021204.html",
+      "summary": [
+        "ヘルスケアAIoTコンソーシアムが、設立10周年記念シンポジウム「攻めの予測・予防医療」の社会実装に向けて、を開催。",
+        "AI・IoT・行動変容データが切り拓く2050年の健康社会へのロードマップがテーマです。"
+      ],
+      "comment": "ヘルスケアAIoTコンソーシアム、久しぶりに見たという方もいるかもしれません！！（自分は久しぶりでした！！）\nこのコンソーシアムは、2016年頃に、AIやIoTを活用してヘルスケアを変えていくという文脈で立ち上がった産学官の団体です。当時はIoT、ウェアラブル、ビッグデータ、PHR、行動変容、予防医療がかなり注目されていて、「AIoT」という言葉にも新しさがありました。\n自分が2015年とかにエクスメディオと関わっているときに、こういう団体がこれしかなくて参加したような記憶があります。\n10年前は、ヘルスケアIoTやPHR、予測医療はかなり未来感のあるテーマでした。ただ、この10年で何が起きたかというと、技術は進んだ一方で、社会実装は思ったほど簡単ではなかったと思います。\n理由は、デバイスがあっても使い続けてもらえない、データがあっても医療や保険に接続しない、予測できても行動変容につながらない、誰が費用を払うのかが曖昧、という問題があったからです。\n\n今回、設立10周年で「攻めの予測・予防医療」をテーマにしているのは、ある意味でこの10年の再挑戦だと思います。\nAI、IoT、PHR、行動変容データは、今でも予防医療の重要テーマです。ただ、今後は技術の話だけでなく、保険者、企業、自治体、医療機関、生活者の誰が使い、誰が払うのかまで設計できるかがポイントになります。\nただ、会長だった東大の山本先生がこの10年で、当たり前なのですが、10歳年をとられていて・・・\nこの団体が今後どこまで実装側に寄っていくのか、どの企業・自治体・保険者が関わるのかは、注目しておいてよいと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/21204/8/21204-8-65900bd09398b11f522f84f99720add5-626x164.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "11a47015-cf9a-42ce-95db-aee6fa4d56f7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-06-01",
+      "category": "digital",
+      "title": "コンヴァノ：上場企業がヘルスケア・DX／AI領域を含む中期経営計画を発表",
+      "source_name": "コンヴァノ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000154.000006824.html",
+      "summary": [
+        "コンヴァノが、2029年3月期を最終年度とする中期経営計画を発表。",
+        "ネイル事業を基盤に、ヘルスケア、コンサルティング、DX／AI領域を拡大し、「事業創造プラットフォーム企業」への進化を目指すとしています。"
+      ],
+      "comment": "コンヴァノ知らなかったです！！\nFASTNAILなどのネイルサロン事業を展開している東証グロース上場企業（6574）らしいです！！\n\n正直、自分もこの会社はそこまで詳しく追っていたわけではありません。\nただ、今回の中期経営計画では、ネイル事業を基盤に、ヘルスケア、コンサルティング、DX／AI領域を拡大していくと打ち出しています。\nここで面白いのは、異業種の上場企業が、自社の既存顧客接点や店舗運営ノウハウ、サービス提供体制をもとに、ヘルスケアやDX／AIに広げようとしている点です。\nただし、ヘルスケア参入は簡単ではありません。ヘルスケアという言葉をIRに入れることはできますが、実際に事業として成立させるには、医療・健康領域のどの課題を解くのか、誰が払うのか、自社の既存事業との接続がどこにあるのかを明確にする必要があります。\n異業種企業がヘルスケアに入るときは、「市場が大きそうだから」ではうまくいきません。\n既存顧客基盤、店舗網、データ、サービス提供力、ブランドが、どのヘルスケア課題とつながるのか。ここが見えないと、単なるIR上のストーリーで終わってしまいます。\n今後、本当にヘルスケア領域で事業を作れるのか、注目して見ていきたいと思います！！\n\n【補足】 Dr.JOYとは別に考えたい：医療機関のキャンセル管理は「制度」より運用が難しい\n\nキャンセル料制度の話は、ニュースとしてはDr.JOYのサービス開始ですが、ヘルスケアビジネス的にはもう少し広い論点があると思っています。\n医療機関の予約枠は、実はかなり重要な経営資源です。外来枠、検査枠、手術枠、健診枠、カウンセリング枠など、1枠1枠に人員配置や準備が紐づいています。\nただ、キャンセル料を取るとなると、患者説明、同意取得、予約料の扱い、地方厚生局への届出、決済、トラブル対応、スタッフ教育などが必要になります。つまり、制度上できるかどうかだけでなく、現場で運用できるかが難しい。\nここは、医療DXサービスのチャンスでもあります。制度変更や通知が出たときに、現場が困る業務をどこまで早く、正確に、低負荷で仕組み化できるか。\n実際、サードクリニックで導入しようとしてもいろいろ論点がありすぎて困ってしまっているんですよね。\nヘルスケアビジネスでは、こうした制度対応型の業務支援も重要な領域だと思います。\n\n＜今週のまとめ＞ヘルスケアビジネスは「現場フロー」と「支払者」がますます重要に\n\n今週のニュースを見ていると、ヘルスケアビジネスは大きく3つの方向に広がっていると感じます。\n1つ目は、オリンパスやアルフレッサのような、大企業・上場企業による医療機器・メディカル品領域への投資です。診断から治療へ、流通からメーカー機能へ、というように、既存大手企業のポートフォリオが変わりつつあります。\n2つ目は、Dr.JOY、メドコム、キヤノンメディカルのような、医療機関の現場フローをどう変えるかという動きです。予約、キャンセル、検査、記録、議事録、電子カルテ出力など、医療現場の具体的な業務に入り込むサービスが増えています。\n3つ目は、日本システム技術やヘルスケアAIoTコンソーシアムのような、PHR、保険者、予防医療、行動変容、データ活用の流れです。ここは、誰が使い、誰が払い、どう継続するのかの設計がますます重要になります。\nこの前の勉強会でも話しましたが、ヘルスケアビジネスでは、プロダクトそのものよりも、\n「どの現場フローに入るのか」「誰の業務負担を減らすのか」「誰が費用を払うのか」「どの既存アセットと接続するのか」「制度や診療報酬とどう関係するのか」\nを考えることが重要です！！\n\n今週もニュース、まとめた自分が一番勉強になっているかもしれないと思うくらいでした。\nぜひ気軽にコメントしてください！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/6824/154/6824-154-5c05e3009608accdc6a396b1526de80f-978x366.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "89d40ebe-67d1-4f0a-a5a0-a1e2250ee2d8",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "service",
+      "title": "大企業連携：金融・IT・通信がヘルスケア基盤に入ってくる時代へ",
+      "source_name": "SMBCグループ",
+      "source_url": "https://global.fujitsu/ja-jp/pr/news/2026/05/19-01",
+      "summary": [
+        "SMBCグループ、富士通、ソフトバンクが、健康・医療分野で業務提携に合意し、持続可能な医療の実現に向けた国産ヘルスケア基盤構築を発表。"
+      ],
+      "comment": "これは今週の大企業系ニュースとしてかなり重要だと思います。\nSMBCグループ、富士通、ソフトバンクという、金融・IT・通信の大企業が、健康・医療分野で連携するというニュースです。\n自分は実は聞いてしまっているので、なかなか詳しい話はできないのですが、医療DXは、もはや医療機関の中だけで完結する話ではなくなっています。医療データ、健康データ、保険、金融、通信、クラウド、AI、本人確認、セキュリティ、決済、医療費適正化、健康寿命延伸がつながる領域になってきています。\nヘルスケアビジネスの観点では、患者・生活者向けは今後は「単独サービス」よりも、複数の大企業・医療機関・自治体・保険者が接続する基盤型の取り組みが増えていくと思います。\nそのときに、空中戦だけでアプリを中心にデータ連携だけでやっていくか、クリニックをつくったりジム事務と連携系したりしてリアルを起点にしていくか。いよいよ医療系以外の大企業の新規事業としても「ヘルスケア」領域に意識が向いてきていると思っています。",
+      "source_url_2": "https://www.softbank.jp/corp/news/press/sbkk/2026/20260519_01/",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b9710358-3c52-41e6-b4ad-35a01f88a65f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "drug",
+      "title": "認知機能AI診断支援アプリ：SaMDは“承認前の最終局面”へ",
+      "source_name": "エクサウィザーズグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000446.000030192.html",
+      "summary": [
+        "エクサウィザーズグループのExaMDが、認知機能AI診断支援アプリの治験において第1症例目の登録完了を発表。"
+      ],
+      "comment": "ExaMDが開発しているのは、スマートフォン等で取得した「音声」から認知機能を分析するプログラム医療機器です。2025年に厚労省の優先審査対象品目に指定されており、今回、治験の第1症例目登録が完了したというリリースです。ここで面白いのは、認知機能領域において、画像や検査値ではなく「音声」を使ったAI診断支援アプリがSaMDとして進んでいる点です。そしてそれが意外と精度がいいらしい。\n認知症・MCI・認知機能低下の領域は、超高齢社会の中で非常に大きなテーマですが、早期発見、受診勧奨、診断補助、地域包括ケア、介護予防、保険者施策など、どこに事業モデルを置くかで全く違うビジネスになります。\nSaMDとして承認を目指す場合は、薬事だけでなく、その後の保険、医療現場導入・検査フローまで考える必要があるのは先週話した通りで、どう売っていこうと思っているのか注目しています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/30192/446/30192-446-dac9bca1b7744b1f32b032a401160a44-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e13da1af-df3e-46a3-b141-caca9816e5e3",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "device",
+      "title": "手術支援AI：腹腔鏡下胆嚢摘出術を支援するAIが製造販売承認",
+      "source_name": "LPIXEL",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000093.000010005.html",
+      "summary": [
+        "LPIXELが、オリンパスと共同開発した手術支援AI「EIRL Surgery LC」の製造販売承認取得を発表。"
+      ],
+      "comment": "LPIXEL、いろいろやっていますね。EIRL Surgery LCは、腹腔鏡下胆嚢摘出術を支援するAI医療機器です。手術中に解剖学的ランドマークを表示し、医師の判断を支援するソフトウェアとして承認されています。\n前回のAIメディカルサービスの内視鏡AIもそうですが、医療AIは「診断支援」から「手術支援」まで広がってきています。\n特に手術支援AIは、単に画像を解析するだけでなく、術者の認識、教育、安全性、施設間格差、若手医師育成などと関係します。ここは医療AIの中でも非常に面白い領域です。\n一方で、現場導入は簡単ではなく、手術室の既存機器、術者のワークフロー、医療安全、責任所在、導入費用、手術件数、教育効果など、病院側が納得する導入理由が必要になります。\nSaMDは承認されるものを「作る」ことまではできるようになっているので、ニュースの目新しさは減ってきているなと思っています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/10005/93/10005-93-0496f541c3b2cc95eabf8c703d7b110a-1704x940.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c0be5691-fb66-461d-a68b-a7835dadb4da",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "digital",
+      "title": "医師470名調査：医療DXで患者と向き合う時間は増えていない",
+      "source_name": "エムステージグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000228.000019504.html",
+      "summary": [
+        "エムステージグループが、医師470名を対象に医療DXの実態を調査。"
+      ],
+      "comment": "この調査では、医療DXが進んでも「患者と向き合う時間が増えた」と感じている医師は少なく、約8割が増えていないと回答しています。\nまだ医療DXといっても、長い変遷から見たら初期だとは思うのですが、これはかなり重要です。\n医療DXは、ここからも単にツールを導入すればよいわけではありません。\n本来は、医師の業務から「やらなくてよい仕事」を剥がし、患者に向き合う時間や診療の質を上げるためのものです。しかし、現場では、システムが増えたことで逆に入力や確認作業が増えているケースもあります。医療DX事業を考える上では、「便利な機能」ではなく、「本当に医療者の業務を減らしているか」を考える必要があります。（これ、今度、共著がでるのですが、そこで書いています）",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/19504/228/19504-228-71862095783683d891b4ae3cb95eb0b9-3900x2200.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c32a12bd-8edf-4887-a312-9c6e4eec50fd",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "digital",
+      "title": "訪問診療×AI記録：移動中に診療記録が終わる世界へ",
+      "source_name": "MedTechGroup",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000180183.html",
+      "summary": [
+        "MedTechGroupが、訪問診療の記録業務を支援する「AI Hippo 医療Loop」の音声×要約機能を発表。"
+      ],
+      "comment": "今までも何社か取り組んできていた訪問診療×AI記録。\n訪問診療では、診療後に戻ってからカルテ記録をまとめて入力する「後追い入力」が大きな負担になります。そこに音声記録とAI要約を入れ、移動中や診療直後に記録を完了させるというもの。\n医療AIというと診断支援に目が行きがちですが、実際に現場でニーズが大きいのは「記録」「要約」「申し送り」「報告書」「事務作業」の領域です。特に在宅医療・訪問診療は、移動、記録、多職種連携、家族説明、診療報酬算定など、情報処理負荷が高いので、AI活用の余地は大きいのですが、結局これも、作ることはできるので「どう売るか」がポイント。そういう時代になってきました。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/180183/12/180183-12-a3108c867893821c45313d317fe854c6-3222x1984.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "64ee75d3-97b9-43f9-8749-dcdb99390ed2",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "drug",
+      "title": "DIC×専門医相談：製薬企業と医師相談プラットフォームの協業",
+      "source_name": "Mediiと旭化成セラピューティクス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000100.000060898.html",
+      "summary": [
+        "Mediiと旭化成セラピューティクスが、播種性血管内凝固症候群（DIC）の早期診断・治療最適化を目指して協業。"
+      ],
+      "comment": "Mediiと旭化成セラピューティクスが、DIC領域で専門医相談窓口を設けるというリリースです。Medii頑張っています。今回のこれは、単なる医師向けDtoD相談サービスではなく、製薬企業・疾患領域・専門医ネットワーク・地域医療支援がつながるモデルですね。\nDICのように診断・治療判断が難しい領域では、専門医へのアクセス格差が大きな課題になります。そこにオンライン専門医相談を入れることで、地域や施設を超えて診療の質を支援できる可能性があります。\n製薬企業にとっても、疾患啓発、適正使用、医師教育、専門医ネットワーク形成という意味で重要で、Mediiとしてはこのような疾患、そして製薬企業等との関係を一つずつ増やしていく感じだと思います。\n結局、製薬マーケの企業がHOKUTOもですが伸びていますね。",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000249.000079452.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/60898/100/60898-100-8268a8158b04311d7758cdbe0065bc04-960x540.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "36a46cc2-98c4-4df9-ad9f-31273820c58c",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "digital",
+      "title": "薬局DX：AI-OCR×患者フォローシステムで処方箋入力を自動化",
+      "source_name": "NeoX",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000086518.html",
+      "summary": [
+        "NeoXが、カケハシの患者フォローシステム「Pocket Musubi」とAI-OCR「薬師丸賢太」の連携開始を発表。"
+      ],
+      "comment": "薬局DXのニュースです。Pocket Musubiから送られた処方箋画像を、AI-OCRで解析し、レセコンへ自動反映する仕組みとのことです。ウエルシア薬局・総合メディカルの一部店舗から順次運用開始とされています。\n薬局業務は、対物業務から対人業務へと言われていますが、そのためには入力、確認、転記、事務作業を減らす必要があります。\nカケハシはしっかりど真ん中のことをやってきますね。このニュースは、薬局の患者フォロー、処方箋受付、レセコン入力がつながっていく流れとして見ています。競合もどう動いていくか、一度整理しないとですね。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/86518/28/86518-28-6521a48c89b7b1e7267b1ee6faa8afc8-1920x1080.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "a06b2703-c73a-48ba-a435-981c45743bc7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "digital",
+      "title": "自治体×遠隔医療相談：子育て世帯・妊婦への24時間医師相談",
+      "source_name": "リーバー",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000181.000033619.html",
+      "summary": [
+        "リーバーが、茨城県行方市で妊婦・中学生以下の子育て世帯を対象に「いつでもドクター」の提供開始を発表。"
+      ],
+      "comment": "伊藤先生が社長のリーバーの自治体向けの遠隔医療相談サービスです。もうだいぶ長くやっています。妊婦または中学生以下の子どもがいる世帯を対象に、スマートフォンで24時間365日医師に相談できる環境を提供するという内容です。\nそんな内容のサービス、たくさんあるだろと思うけど、これがうまくいっているのは「地方発」であり、愛知県のPREVENTと同じくベンチャークライアントモデルだからだと思っています。\n★忘れなかったら、今月の勉強会の一つのテーマにして詳しく話します！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/33619/181/33619-181-8f38090a68f38d0714ae6f34c5cc0002-2386x453.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "e02f47ba-fc5f-4bf0-977b-c236e43fc915",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "digital",
+      "title": "AIメンタルヘルス：年1回のストレスチェックから“日常モニタリング”へ",
+      "source_name": "広島県北広島町",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000056652.html",
+      "summary": [
+        "広島県北広島町、広島大学、アドダイスが、AIを活用したメンタルヘルスケア実証実験の成果を発表。"
+      ],
+      "comment": "スマートウォッチのバイタルデータとAI解析を使って、メンタル不調の早期検知や行動変容を目指す取り組みです。今後、ストレスチェックの対象拡大もあり、メンタルヘルスは企業・自治体の重要テーマになりますが、こういうサービスは山のようにあり。\n面白いのは、年1回のストレスチェックではなく、日常の睡眠、活動量、心身状態を継続的に見るという考え方ですが、もちろんそれだけで契約というわけにはならないのでどうするか。\nただ、この感覚は「東京」での感覚で、地方だと「新しい」となるんどえ、8のリーバーのニュースと同じく、「地方×ベンチャークライアントモデルで東京でやりつくしたことをやる」というのは今、2周くらい回ってありかもと思っています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/56652/36/56652-36-b0de50b40965c052a176954966117fa9-2880x880.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "cec70c8e-f587-46b8-bb28-e6d3b955bee7",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-25",
+      "category": "drug",
+      "title": "バイオシミラー普及：健保組合と製薬企業が患者向け情報提供で連携",
+      "source_name": "ホワイトヘルスケア",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000010.000130385.html",
+      "summary": [
+        "ホワイトヘルスケアが、健康保険組合によるバイオシミラー普及モデル事業コンソーシアムとセルトリオン・ヘルスケア・ジャパンの連携を発表。"
+      ],
+      "comment": "これは医療費適正化の観点で面白いニュースです。\nバイオシミラーは、医療費削減や患者負担軽減につながる可能性がありますが、実際に普及するには、医師・薬剤師・患者の理解が必要です。\n今回のように、健康保険組合が関与し、患者向けオンラインセミナーを行うというのは、保険者が医療費適正化と患者教育に関わるモデルとして自分はここで保険じゃがちゃんと出てくるかと新しいと思っていて、注目したために取り上げました！！\n\n10個コメントするの、まぁまぁ大変です・・・抜けているニュースがあるかもで、それがあったら教えてほしいですし、ぜひ気軽にコメントしてほしいです！\nよろしくお願いいたします！！\n\nあと今週は5/28木に勉強会もあるので、よろしくお願いいたします！！！",
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "916a8f32-6e59-4799-8ce2-297459712664",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "policy",
+      "title": "SaMD・DTx：保険収載がつき、いよいよ「事業化フェーズ」へ",
+      "source_name": "サスメド",
+      "source_url": "https://www.susmed.co.jp/news/post/12021/",
+      "summary": [
+        "サスメドが、「サスメド 不眠障害用アプリ Medcle」の保険収載了承を発表。"
+      ],
+      "comment": "まず先週の一番のニュースと言ったら、サスメドの不眠障害用治療アプリ「Medcle」が、中医協で保険収載を了承されたというニュースです。保険適用は2026年6月1日からの予定で、保険償還価格は24,100円。処方したときの保険点数として「プログラム医療機器等指導管理料」90点、導入期加算50点が示されています。（初月140点、2回目50点・・というもの）。今回、塩野義のDTxも一緒に承認されたので、2で今週の深堀します！",
+      "source_url_2": "https://www.mhlw.go.jp/content/10808000/001699500.pdf",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "5ba0e0c0-0b0d-4792-b19e-8d3c3fc3ad02",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "policy",
+      "title": "小児ADHD×DTx：治療補助アプリが保険収載され、医療現場に入る時代へ",
+      "source_name": "塩野義製薬",
+      "source_url": "https://www.mhlw.go.jp/content/10808000/001699500.pdf",
+      "summary": [
+        "塩野義製薬の「ENDEAVORRIDE（エンデバーライド）」が、小児期ADHDの治療補助プログラム医療機器として保険収載予定。"
+      ],
+      "comment": "ENDEAVORRIDEは、小児期における注意欠如多動症（ADHD）の治療用アプリです。中医協資料では、決定区分はC2、新機能・新技術、保険償還価格は14,500円、保険適用予定日はサスメドと同じく2026年6月1日です。処方したときの保険料もサスメドと同じく「プログラム医療機器等指導管理料」90点、導入期加算50点です。",
+      "source_url_2": "https://www.pmda.go.jp/medical_devices/2025/M20250311001/index.html",
+      "company": {
+        "name": "今週の深堀り！",
+        "profile": "今回2つのDTxが承認されてわかったことは、DTxは「特定保険医療材料の料金（アプリ代）＋プログラム医療機器等指導管理料90点、導入期加算50点」がおおよその保険点数ということです。そして、特定保険医療材料の料金（アプリ代）はざっくり1.5万円（塩野義：ADHD）～4.5万円（CureApp：禁煙・高血圧）くらい。この単価は患者さんがクリニックに払う費用なので、その中から何％かが企業の収益になります。医薬品がだいたい20％なので、今回のサスメドだと、約24000円のうち、クリニックの売り上げは20％の5000円くらい、サスメドは80％の19000円くらいかと想像します。で、この費用は「企業―クリニック」の契約なので、もちろん20％とかでなくてもいいですし、30％でも50％でもいい。クリニックごとに値段変えてもいいですし、「今だけ特価」みたいにして安くしてもいい（ただし、医療機器は原価以下には公正取引の観点でできないので、無料にはできずある程度の価格まで）。このあたり面白いので、ぜひまた月次の勉強会でも取り上げようと思います。あと、何よりも言いたいのはSaMDやDTxは、薬事承認を取ることだけがゴールではないです。自分の体感だと、承認までは10分の4～5。半分行くか行かないかくらいで、たいへんなのは今からだと思っています。クリニックの医師に営業をして導入してもらって、クリニックで導入されたとしても、医師がどう患者に説明し、患者がどう継続利用してくれて、医療機関がこれなら経済合理性があると言って使い続けてくれて初めて事業になります。今回、保険点数としてサスメドは24000円なので、3割負担で約7200円患者さんの窓口負担が増える。これを開業医が説明しきれるかとかが問題になると思います。結構、窓口の費用が高い時は文句を言われるので。このあたり、サスメド、塩野義ともに上場企業なので、めちゃくちゃ研究の対象になると思っています！！",
+        "url": null,
+        "ceo": null
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "7ffe322a-35d6-424c-9bd5-3d5ed576134f",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "device",
+      "title": "AI医療機器：承認後の「現場実装設計」が勝負になる",
+      "source_name": "AIメディカルサービス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000041.000049025.html",
+      "summary": [
+        "AIメディカルサービスが、内視鏡画像診断支援ソフトウェア「gastroAI model-G3」の製造販売承認取得を発表。"
+      ],
+      "comment": "AIメディカルサービスが、胃内視鏡動画から早期胃がんや腺腫が疑われる領域を抽出し、医師の病変検出を支援するAI医療機器「gastroAI model-G3」の製造販売承認を取得。内視鏡検査中に動画解析することで、AIがリアルタイムで病変候補を示す製品です。",
+      "company": {
+        "name": "深堀り",
+        "profile": "コメントがたくさんになりすぎているので、ちょっとすでに困っているのですが、今回リリースを見ると感度94.6％、特異度94.3％でした。自分としては、意外と制度低めだなという感じで。これ、わかりやすく言うと感度94.6%ということは、病変陽性例のうち5.4%が偽陰性（本当は病変があるが、検査では陰性と判定された）、すなわち見逃しに相当する感じです。ここで書かれていないので陽性例は何例あったかわからないけど、仮に陽性例が1099例であれば、約59例が見逃しとなる計算になります。本来的には、もっと特異度（本当は病変がない例を、正しく陰性と判定できる割合）を高めるほうが確定診断にはいいのですが、特異度と感度はバランスなので、特異度を高めると感度が低くなってしまう。（例えば特異度99％とかにすると、これだと感度80％台になってしまう感じ）。そういう中で見た目？がいいように感度94.6％、特異度94.3％という点にした気がしています。これも買うのは医師なので、リリースの見た目がよくっても売れていくのかこれからに注目だと思います。",
+        "url": null,
+        "ceo": null
+      },
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/49025/41/49025-41-cfa60d3a8b047b4d8d60184e7bc6da70-3840x2160.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "16d2d362-bf90-4d09-ade1-4c44a916a5ce",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "digital",
+      "title": "医療DX基盤：医療向けソブリンクラウドとAI活用",
+      "source_name": "富士通と日本IBM",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000562.000093942.html",
+      "summary": [
+        "富士通と日本IBMが、医療向けソブリンクラウド基盤の構築と医療AI活用の協業具体化を発表。"
+      ],
+      "comment": "富士通と日本IBMは、ヘルスケア領域での協業を具体化し、医療向けソブリンクラウド基盤の構築、電子カルテソリューションの稼働、複数医療機関のデータ連携、医療AI活用を推進すると発表しました。医療機関のデータ連携とAI活用を、クラウド基盤から支える取り組みです。\n病院の電子カルテの大手の富士通と日本IBMとかの連携なので、まだこのリリースだけではどうなっていくかわからないのではあるのですが、医療DXは、アプリやシステム単体の競争から、クラウド、データ連携、AI活用、セキュリティ、ソブリン性を含む基盤競争に移りつつあると感じます。医療機関のデータをどこに置き、誰が管理し、どのAIが活用し、どの範囲で連携するのか。追ってリリースに注目しようと思います。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/93942/562/93942-562-8be733921e2c09a0800e3aafedf1f818-1015x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "ed488876-ab28-49ba-89aa-8b1d1a05e791",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "policy",
+      "title": "診療報酬改定×生成AI：現場業務を支えるAIツール",
+      "source_name": "MDV",
+      "source_url": "https://www.mdv.co.jp/press/uploadfile/docs/1bdfa70986cdbbac1585f7fd2af6ac0ca85403dd.pdf",
+      "summary": [
+        "MDVが、2026年度診療報酬改定に関する質問に生成AIで回答する「改定QAチャットボット」の無料提供を開始。"
+      ],
+      "comment": "MDVさすがって感じで、たしかに誰かがやればよかったことをしっかりやってくるのはさすがMDVって思っています。2026年度診療報酬改定に関する病院職員の疑問に、厚労省発出資料を参照して生成AIが回答する「改定QAチャットボット」を、2026年10月31日まで期間限定で無料提供するらしいです。これやれましたよね。診療報酬改定時の資料確認・疑義確認の負担軽減を狙う取り組みということですが、作成の手軽さのわりに、使用者のリストが取れたり、使っている人は事務の方と属性も固定されているのでこれ本当にいい施策だなと。\nオンライン診療でも何でも「厚労省のQ＆A」のチャットボット作ったほうがいいと思いました！！\nあと、Q＆Aボット作ると、みんながどこで困っているかわかりますよね！！\n\n最初10個のつもりだったのですが、思ったよりも大変で、やり方考えます！\n一旦、注目ニュースだけは内容とともに書きます！！\nニュースの個数は決めない方がいいかも。",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "eb957d35-2866-41fb-a6d7-4600b41c6edd",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "digital",
+      "title": "予防医療・健康経営：特定保健指導にもAI記録支援",
+      "source_name": "ウィーメックス",
+      "source_url": "https://www.wemex.com/news/20260515_180.html",
+      "summary": [
+        "ウィーメックスが、特定保健指導支援システムにAIによる初回面談記録支援機能を実装すると発表。"
+      ],
+      "comment": "ウィーメックスが、健診機関や民間特定保健指導機関向けの「Wemex 保健指導システム」に、AIによる初回面談記録支援機能「面談まとめるくん」を実装すると発表したリリース。面談を録音するだけで、AIが内容を要約し、SOAP形式の指導記録を自動生成する機能。",
+      "image_url": "https://www.wemex.com/assets/images/ogp.png",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "929dfd02-eb46-47fb-9952-f0f15c680b87",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "digital",
+      "title": "医療データ利活用：制度論から“事業基盤”へ",
+      "source_name": "ファインデックス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000009200.html",
+      "summary": [
+        "ファインデックスが、次世代医療基盤法に基づく認定医療データの利活用拠点「オペレーションセンター」の整備を発表。"
+      ],
+      "comment": "ファインデックスが、次世代医療基盤法に基づく医療データプラットフォーム事業について、認定医療データの利用施設となるオペレーションセンターを東京都内に新設して、2026年6月からセキュリティ設備工事に着手、9月完成予定と発表したリリース。電子カルテデータを中心とした認定医療データの利活用に向けた拠点整備をしています。\n今後は「データを持っている」だけではなく、「適法に、安全に、継続的に使える形で運用できる」ことが競争力になると思っています。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/9200/64/9200-64-e7e32f93a0ee37d1682fab917fa1450d-1153x397.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "cff849b4-0104-49da-b330-86072cc2b6ee",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "digital",
+      "title": "AIネイティブ電子カルテ：電子カルテがAI時代に再設計される",
+      "source_name": "ポテック",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000106806.html",
+      "summary": [
+        "ポテックが、AIネイティブなレセコン一体型電子カルテ「AIカルテ」を発表。"
+      ],
+      "comment": "ヘルスケアビジネス研究会にいる、ありたくさんが社長のポテックが、AIネイティブなレセコン一体型電子カルテ「AIカルテ」を発表したリリース。レセコンどうしているのだろうと思っているのですが、どうしましたか？？\nAIを前提に、電子カルテ、レセコン、診療業務支援を一体で再設計するコンセプトはもちろん今の時代ど真ん中で、「診察を記録するためのシステム」だった電子カルテを、AI時代に、記録、請求、診療支援、患者対応、外部AI連携まで含めて、医療機関の業務基盤そのものを再設計しようとしていてすごいなと。\n今から既存の電子カルテもAIを載せてくると思うのですが、AIを後から乗せるのか、最初からAI前提でデータ構造・UI・ワークフローを設計するのかがどう違ってくるのか注目しています！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/106806/6/106806-6-6376e1547b4a4c0ae78289f5cfb8229e-3600x1890.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "4d8d9ef4-0d82-412e-8151-0998d57f7c52",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "device",
+      "title": "手術支援AI：日本発AI医療機器のグローバル展開",
+      "source_name": "手術支援AI",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000017.000063564.html",
+      "summary": [],
+      "comment": "アナウトが、外科手術支援AIのグローバル展開加速に向けたシリーズB資金調達を発表。",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/63564/17/63564-17-0ab0772a9c6ca8d955821cb12ab1f795-509x366.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "9ac09820-c721-4b84-8e36-391033960a28",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "drug",
+      "title": "治験・臨床研究DX：信頼形成と情報導線が重要になる",
+      "source_name": "QLife",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000381.000000347.html",
+      "summary": [
+        "QLifeが、治験参加を後押しする鍵は「安全性」と「信頼できる情報源」であるという調査結果を発表。"
+      ],
+      "comment": "QLifeは、自社の治験情報会員5,000名を対象に、治験へのイメージや参加検討時の不安、求められる情報発信に関する調査を実施し、治験参加を後押しする要素として「安全性」と「信頼できる情報源」が重要であると発表。当たり前な感じなアンケートだけど、こういうニュースを主導している媒体というのがブランドにつながるのか？！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/347/381/347-381-cf39296a78a88284c22280e8c881e167-1040x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "3d894741-5207-4ff1-8b80-fbfa42d7cd51",
+      "created_at": "2026-10-21T07:12:31.327Z",
+      "published_date": "2026-05-18",
+      "category": "digital",
+      "title": "健康経営・人的資本：予防医療は企業経営と接続し始めている",
+      "source_name": "メディフォン",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000068.000154534.html",
+      "summary": [
+        "メディフォンが、さんぎょうい株式会社と業務提携し、クラウド型健康管理システム「mediment」の販売代理契約を締結。"
+      ],
+      "comment": "メディフォンは、産業保健支援を行うさんぎょうい株式会社と業務提携し、クラウド型健康管理システム「mediment」の販売代理契約を締結。企業の健康経営・人的資本経営の推進を支援するため、健康管理システムの販売・導入を拡大する取り組みみたいです。\n予防医療や健康経営はまだまだ拡大していくと思っています。特に予防医療は今からは医療機関の中では不十分で、健康経営として企業からさらに広がっていくと思っています。これは、予防医療ビジネスでは、「医学的に正しい」だけでなく、「誰が、なぜ、お金を払うのか」の設計が大事だからで、予防医療のお金を払えるのは今は企業と富裕層という感じだと思っています。\n\n書いてみたら5000字くらいでした。\nこれを、しばらく「業」として、月曜日、できたら月曜日のAM中で13時までに書いていこうと思います！！\n\nぜひコメントとか深堀とか、こういうことありがたいとか何か書いてもらえるとうれしいです！！",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/154534/68/154534-68-f61ec04280bd6033a383ae127de410bc-1200x675.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "status": "published",
+      "updated_at": "2026-10-21T07:12:31.327Z"
     }
   ]
 }

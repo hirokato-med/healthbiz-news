@@ -10,21 +10,21 @@
  *   - text: 本文のテキスト（タグを除いたもの、先頭 8,000 字）
  *   - company_overview: 「会社概要」以降のテキスト（PR TIMES の場合）
  */
+import { fetchText } from './lib/fetch-text.mjs';
+
 const [url] = process.argv.slice(2);
 if (!url) {
   console.error('usage: node pipeline/release.mjs <url>');
   process.exit(2);
 }
 
-const res = await fetch(url, {
-  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HealthcareBusinessNews/1.0)' },
-  redirect: 'follow',
-});
-if (!res.ok) {
-  console.error(`取得に失敗しました: ${res.status}`);
+let html;
+try {
+  html = await fetchText(url);
+} catch (e) {
+  console.error(`取得に失敗しました: ${e.message}`);
   process.exit(1);
 }
-const html = await res.text();
 
 const meta = (name) =>
   html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${name}["'][^>]+content=["']([^"']+)["']`, 'i'))?.[1] ??
@@ -37,8 +37,10 @@ const published_at =
   html.match(/<time[^>]+datetime=["']([^"']+)["']/i)?.[1] ??
   html.match(/(\d{4}年\d{1,2}月\d{1,2}日\s*\d{1,2}時\d{1,2}分)/)?.[1] ??
   null;
-const company = meta('article:author') ?? strip(html.match(/class="[^"]*company[^"]*"[^>]*>([\s\S]*?)<\//i)?.[1] ?? '') || null;
-const image_url = meta('og:image') ? new URL(meta('og:image'), url).href : null;
+const company =
+  meta('article:author') ??
+  (strip(html.match(/<a[^>]+href="\/main\/html\/searchrlp\/company_id\/\d+"[^>]*>([\s\S]*?)<\/a>/i)?.[1] ?? '') || null);
+const image_url = meta('og:image') ? new URL(unescapeHtml(meta('og:image')), url).href : null;
 
 // 本文: script/style/nav を落としてからテキスト化
 const body = html
@@ -67,4 +69,8 @@ function strip(s) {
     .replace(/[ \t]+/g, ' ')
     .replace(/\n\s*\n+/g, '\n')
     .trim();
+}
+
+function unescapeHtml(s) {
+  return s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 }

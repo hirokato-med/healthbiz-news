@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T21:34:50.147Z",
+  "updated_at": "2026-10-21T21:54:38.980Z",
   "articles": [
     {
       "id": "95efb05a-6486-408e-b146-400d8b810136",
@@ -426,6 +426,26 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "8e7fb10a-6d64-422a-be70-f5ceb6ec940e",
+      "created_at": "2026-10-21T21:54:38.980Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000039.000063841.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/63841/39/63841-39-c03595513f289480f437caee29ceaba2-709x495.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "longevity",
+      "featured": false,
+      "published_date": "2026-10-16",
+      "source_name": "エーザイ",
+      "title": "エーザイ、脳を活性化する運動プログラム「ブレパサイズ」がエクシングの介護施設向けタブレット「健康王国DX」に正式搭載",
+      "summary": [
+        "JOYSOUNDを展開するエクシングの介護施設向けヘルスケア機器「健康王国DX」に、2026年10月7日から「ブレパサイズ」の配信を開始した。配信先は同機器を使う介護施設と自治体。",
+        "2026年1月から期間限定で搭載して利用状況を検証し、結果を踏まえて正式コンテンツにした。音楽に合わせて手足を動かしながら知的課題をこなすデュアルタスク運動。",
+        "エーザイは他産業と連携した「認知症エコシステム」の構築を掲げる。ブレパサイズは疾患の治療・予防を目的としたものではないとしている。"
+      ],
+      "comment": "抗体薬を持つエーザイが、薬の外側で介護施設の日常に入り込む動きです。自分が注目したのは、「自社で端末を配らず、カラオケ機器の既存の配信網に乗せた」点です。介護施設にはすでにJOYSOUNDの端末があり、現場の負担なく届きます。製薬会社にとっては売上ではなく、認知症と共生する社会との接点を増やし、早期受診につながる土壌を作る投資だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T21:54:38.980Z"
+    },
+    {
       "id": "5ba14585-5c96-42c0-9186-6b611e6f5da6",
       "created_at": "2026-10-21T15:26:14.680Z",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000075.000041759.html",
@@ -534,6 +554,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/153048/4/153048-4-b27461972074570cc403d86c7870561a-3470x2312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "05b1748d-eb05-4c2c-899b-c15d80f38628",
+      "created_at": "2026-10-21T21:54:38.980Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000099121.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/99121/380/99121-380-22b660c7cddca55e2040064f50caae93-924x469.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "longevity",
+      "featured": false,
+      "published_date": "2026-10-15",
+      "source_name": "積水化学工業",
+      "title": "積水メディカル、血液で軽度認知障害のリスクを測る「MCIスクリーニング検査」の受託6年目。自治体・企業と啓発を拡大",
+      "summary": [
+        "積水化学の100%子会社・積水メディカルは、MCBIが提供する「MCIスクリーニング検査プラス」の受託検査機関で、液体クロマトグラフ質量分析計で血中タンパク質を測る。事業は今月で6年目。",
+        "厚労省の推計では2040年の65歳以上の認知症有病者は約584万人。MCI段階での生活習慣改善や社会参加が認知機能維持につながるとして、自治体や企業と連携して啓発する。",
+        "積水メディカルは資本金12億75百万円。拡大新生児スクリーニング検査からMCI検査まで、ライフステージに沿った受託検査を事業にしている。"
+      ],
+      "comment": "血液でMCIのリスクを見る検査は採血だけで済むので健診に乗せやすい一方、結果を受け取った人が何をするかが設計されていないと不安だけが残ります。自分が注目したのは、「検査会社が自治体や企業と組んで啓発側に回る」動きです。抗体薬の登場で早期発見の価値は上がりました。検査の後ろに受診と行動変容の導線を誰が作るかが、この市場の論点だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T21:54:38.980Z"
     },
     {
       "id": "ead06f91-7d63-40a0-8f31-0f1ce9a16fb4",
@@ -940,6 +980,46 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/229/48083-229-51bd76e00726110c73377c670f4dc7e0-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "dd9d269b-c7cc-4460-bd51-d640b814a440",
+      "created_at": "2026-10-21T21:54:38.980Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000231.000035577.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/35577/231/35577-231-fe4b6df71bdcb9429062e3b2e78ac276-314x316.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "longevity",
+      "featured": false,
+      "published_date": "2026-10-08",
+      "source_name": "ダイセル",
+      "title": "ダイセル、ホップ由来素材「アストロホップ」と筋トレの併用で中高年の筋肉量が増加。12週間のヒト臨床試験を論文化",
+      "summary": [
+        "中高年の男女を対象に、アストロホップの継続摂取と自重の筋力トレーニングを12週間組み合わせたプラセボ対照試験で、四肢筋肉量と骨格筋量指数が有意に増え、炎症性サイトカインIL-6が抑制された。",
+        "論文は査読付き学術誌「診療と新薬」に掲載。10月14〜16日の「食品開発展2026」で最新エビデンスとして発表した。",
+        "アストロホップはホップ由来ポリフェノールの腸内代謝物8-プレニルナリンゲニンを含む機能性食品素材。機能性表示食品への活用を見据える。"
+      ],
+      "comment": "サルコペニア対策の素材は乳由来のたんぱく質やHMBが先行してきました。自分が注目したのは、「ホップの腸内代謝物を少量で効かせる」という設計で、飲料や食品に混ぜやすい点です。中高年の筋肉市場は、たんぱく質原料の値上がりで代替素材を探す食品メーカーが増えています。機能性表示が取れれば、素材ビジネスとして広がると思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T21:54:38.980Z"
+    },
+    {
+      "id": "915f5495-ccc9-4e3f-857d-b115036057cd",
+      "created_at": "2026-10-21T21:54:38.980Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001252.000015177.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/15177/1252/15177-1252-769a3532b28bd53800ea12f903b9ca1e-675x380.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "longevity",
+      "featured": false,
+      "published_date": "2026-10-08",
+      "source_name": "千葉大学",
+      "title": "千葉大学、週1〜3回働く高齢者は3年後の死亡リスクが29%、認知症リスクが43%低いと確認。全国4万人超の追跡研究",
+      "summary": [
+        "日本老年学的評価研究（JAGES）のデータで、要介護認定を受けていない65歳以上の地域在住高齢者41,758人と56,153人を分析し、就労頻度と3年後の健康・ウェルビーイング46指標の関連を調べた。",
+        "非就労者に比べ、週1〜3回働く人は死亡リスクが29%、認知症リスクが43%、要介護リスクが40%低く、幸福感や生活満足度も高かった。",
+        "週4回以上働く人も各リスクは低いが、スポーツや趣味の会への参加が少なく、喫煙・飲酒のリスクが高かった。論文はArchives of Gerontology and Geriatricsに掲載。"
+      ],
+      "comment": "自分が注目したのは、「週1〜3回」という頻度で効果が出ている点です。フルタイムで働かなくても、月に数日の仕事があるだけで要介護リスクが4割下がるなら、介護予防事業の設計は運動教室より就労の場づくりに寄ってよいことになります。近藤克則先生らのJAGESの大規模データなので、自治体が政策の根拠に使える数字だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-21T21:54:38.980Z"
     },
     {
       "id": "fb51ff53-23e1-4667-9dae-25391812ca92",
@@ -1365,6 +1445,35 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/130024/8/130024-8-0ef8034bbab2dff4b1dcd448c6c40096-1448x1086.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "eac06e79-9a5d-46df-9d34-9173573c5d20",
+      "created_at": "2026-10-21T21:54:38.980Z",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000121.000077937.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/77937/121/77937-121-b61fea636d05df7a35e6f9550c02f1fc-1421x217.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "category": "longevity",
+      "featured": false,
+      "published_date": "2026-10-01",
+      "source_name": "こころのカンパニー",
+      "title": "こころのカンパニー、レオスの公募投信「ひふみクロスオーバーpro」が株式を取得。高齢者終身サポート「おひさぽ」など全国15拠点に拡大",
+      "summary": [
+        "レオス・キャピタルワークスが運用する公募投資信託「ひふみクロスオーバーpro」が、既存株主からのセカンダリー取引で同社株式を取得した。新株発行は伴わない。",
+        "2020年設立。家族信託コンサルと財産管理アプリ「おやとこ」から始め、身元保証や生活支援を担う高齢者等終身サポート「おひさぽ」などを展開。従業員は241名、全国15拠点。",
+        "提携先は57の銀行など890社超。2026年4月にトリニティ・テクノロジーから社名を変更した。"
+      ],
+      "comment": "身寄りのない高齢者の身元保証は、入院や施設入所の現場で毎日起きている問題なのに、制度の隙間に落ちてきました。自分が注目したのは、「公募投信が未上場のエイジテックに入った」ことで、上場を見据えた資金が入る段階に来たということです。司法書士法人を母体に銀行57行と提携している導線は、スタートアップには作りにくい資産だと思います。",
+      "company": {
+        "name": "株式会社こころのカンパニー",
+        "profile": "2020年10月設立（旧トリニティ・テクノロジー）、東京都千代田区。未上場。高齢者等終身サポート「おひさぽ」、家族信託コンサルティングとSaaS「おやとこ」、相続手続きDX「スマホde相続」などを展開。従業員241名（連結、2026年8月）、全国15拠点。",
+        "url": "https://kokorono.co.jp/",
+        "ceo": {
+          "name": "磨和寛",
+          "bio": "立教大学法学部卒。2007年に司法書士試験に合格し、2012年に司法書士法人を設立して家族信託の士業グループに育てた。2020年にこころのカンパニーを創業。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-21T21:54:38.980Z"
     },
     {
       "id": "7e5d9078-4462-4b8f-8af9-41e072911caa",

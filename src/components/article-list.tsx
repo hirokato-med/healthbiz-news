@@ -50,7 +50,7 @@ export function ArticleList({
         out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: `${todays.length}本` });
         ordered.forEach((a, i) => out.push({ kind: i === 0 ? 'featured' : 'article', key: a.id, article: a }));
       } else {
-        out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: '22時ごろ更新' });
+        out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: '12時・18時・22時に更新' });
       }
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));

@@ -1,7 +1,7 @@
 # Healthcare Business News
 
 加藤浩晃のコメント付きヘルスケアビジネスニュースアプリ。
-毎晩22時に、その日のプレスリリースから1〜5本を選び、コメントを添えて配信する。
+毎日12時・18時・22時に、直前の数時間に出たプレスリリース・適時開示から1〜3本を選び、コメントを添えて配信する。
 
 ```
 [毎晩の配信（Claude の定期タスク）] ──push──▶ [data/articles.json] ──取得──▶ [アプリ (Expo)]
@@ -17,7 +17,7 @@
 | `src/constants/channels.ts` | チャンネル定義（名前・色）。カテゴリを増やすのはここ |
 | `src/lib/articles.ts` | 記事の取得。既定は GitHub 上の `data/articles.json` |
 | `data/articles.json` | 配信済みの記事。配信パイプラインが毎晩追記する |
-| `pipeline/NIGHTLY.md` | 毎晩の配信手順（Claude が読む） |
+| `pipeline/NIGHTLY.md` | 配信手順（1日3回、Claude が読む） |
 | `pipeline/COMMENT_STYLE.md` | 加藤コメントの文体ガイド |
 | `pipeline/prtimes.mjs` | PR TIMES の検索結果からリリース一覧を取る |
 | `pipeline/tdnet.mjs` | TDnet（適時開示）からヘルスケア関連の開示を取る |

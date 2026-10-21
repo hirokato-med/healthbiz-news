@@ -40,7 +40,7 @@ export default function HomeScreen() {
     return {
       label: '本日の配信',
       count,
-      value: count ? `${count}本` : '22時ごろ',
+      value: count ? `${count}本` : '12時に更新',
       right: latest ? `${formatDateShort(latest)} 更新` : '',
     };
   }, [articles]);

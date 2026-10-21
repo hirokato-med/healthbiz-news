@@ -21,11 +21,11 @@ export default function AboutScreen() {
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
         <ThemedText type="featured">Healthcare Business News</ThemedText>
         <ThemedText themeColor="textSecondary" style={styles.lead}>
-          医療機器・ウェアラブル・創薬・デジタルヘルスなど、ヘルスケアビジネスのプレスリリースを毎晩1〜5本厳選し、
+          医療機器・ウェアラブル・創薬・デジタルヘルスなど、ヘルスケアビジネスのプレスリリースと適時開示から1日5本前後を厳選し、
           医師・加藤浩晃のコメントを添えてお届けします。
         </ThemedText>
 
-        <Row label="配信" value="毎日22時ごろ" theme={theme} />
+        <Row label="配信" value="毎日12時・18時・22時ごろ" theme={theme} />
         <Row label="コメント" value="加藤浩晃（医師・ヘルスケアビジネス）" theme={theme} />
         <Row label="要約について" value="各社のプレスリリースをもとに作成。正確な内容は原文をご確認ください。" theme={theme} />
 

@@ -45,3 +45,6 @@ example
 # 環境変数（Supabase のキー）
 .env
 .env.local
+
+# Web ビルド出力
+web-dist

@@ -90,7 +90,7 @@ export default function HomeScreen() {
       </View>
 
       <View style={styles.pager} onLayout={(e) => setPagerHeight(e.nativeEvent.layout.height)}>
-        {pagerHeight > 0 && (
+        {(
           <FlatList
             ref={pagerRef}
             data={Channels}
@@ -103,7 +103,7 @@ export default function HomeScreen() {
             onMomentumScrollEnd={onScroll}
             scrollEventThrottle={32}
             getItemLayout={(_, i) => ({ length: width, offset: width * i, index: i })}
-            renderItem={({ item }) => <ArticleList channel={item} width={width} height={pagerHeight} />}
+            renderItem={({ item }) => <ArticleList channel={item} width={width} height={pagerHeight || undefined} />}
             // 隣のチャンネルは先に描いておき、スワイプ時に白く見えないようにする
             initialNumToRender={2}
             windowSize={3}

@@ -34,7 +34,7 @@ export function ArticleList({
   bottomInset?: number;
 }) {
   const theme = useTheme();
-  const { articles, loading, reload, savedIds } = useStore();
+  const { articles, loading, error, reload, savedIds } = useStore();
 
   const rows = useMemo<Row[]>(() => {
     const today = todayJST();
@@ -75,14 +75,16 @@ export function ArticleList({
     return out;
   }, [articles, channel, savedIds]);
 
-  const empty =
-    channel.id === 'saved'
+  const empty = error
+    ? `記事を読み込めませんでした。\n下に引っぱって再読み込みしてください。\n（${error}）`
+    : channel.id === 'saved'
       ? '保存した記事はまだありません。\n記事を開いて「保存」を押すとここに残ります。'
       : 'このチャンネルの記事はまだありません。';
 
   return (
     <FlatList
-      style={{ width, height }}
+      // 高さが測れていない間（Web の一部環境）は親いっぱいに広げる
+      style={{ width, height: height ?? '100%' }}
       contentContainerStyle={[styles.content, { paddingBottom: bottomInset + Spacing.ten }]}
       data={rows}
       keyExtractor={(row) => row.key}

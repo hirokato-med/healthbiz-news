@@ -1,6 +1,7 @@
 import { useRouter } from 'expo-router';
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
 import { Thumb } from '@/components/thumb';
 import { channelOf } from '@/constants/channels';
@@ -29,9 +30,7 @@ export function FeaturedArticle({ article }: { article: Article }) {
       <ThemedText type="featured">{article.title}</ThemedText>
       <View style={[styles.comment, { borderLeftColor: theme.accent }]}>
         <View style={styles.commentBy}>
-          <View style={[styles.avatar, { backgroundColor: theme.accent }]}>
-            <ThemedText style={[styles.avatarText, { color: theme.onAccent }]}>加</ThemedText>
-          </View>
+          <KatoAvatar size={22} />
           <ThemedText type="caption" themeColor="textSecondary">
             加藤浩晃のコメント
           </ThemedText>
@@ -69,8 +68,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 6,
   },
-  avatar: { width: 18, height: 18, borderRadius: 9, alignItems: 'center', justifyContent: 'center' },
-  avatarText: { fontSize: 10, lineHeight: 12, fontWeight: '700' },
   /** 2行で45字前後 */
   commentText: {
     fontSize: 14,

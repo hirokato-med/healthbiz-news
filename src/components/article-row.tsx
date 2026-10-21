@@ -1,9 +1,10 @@
 import { useRouter } from 'expo-router';
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
 import { Thumb } from '@/components/thumb';
-import { Hairline, Radius, Spacing } from '@/constants/theme';
+import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatRelative } from '@/lib/articles';
 import { useStore } from '@/lib/store';
@@ -43,8 +44,8 @@ export function ArticleRow({ article }: { article: Article }) {
       </View>
 
       <View style={[styles.comment, { borderLeftColor: theme.accent }]}>
-        <View style={[styles.tag, { backgroundColor: theme.accent }]}>
-          <ThemedText style={[styles.tagText, { color: theme.onAccent }]}>加</ThemedText>
+        <View style={styles.avatar}>
+          <KatoAvatar size={22} />
         </View>
         <ThemedText type="comment" numberOfLines={2} style={styles.commentText}>
           {article.comment}
@@ -88,18 +89,8 @@ const styles = StyleSheet.create({
     borderLeftWidth: 3,
     paddingLeft: Spacing.three,
   },
-  tag: {
-    width: 20,
-    height: 20,
-    borderRadius: Radius.tag,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 1,
-  },
-  tagText: {
-    fontSize: 11,
-    lineHeight: 14,
-    fontWeight: '700',
+  avatar: {
+    marginTop: 0,
   },
   /** 2行で40字前後 */
   commentText: {

@@ -3,6 +3,7 @@ import * as WebBrowser from 'expo-web-browser';
 import { Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Thumb } from '@/components/thumb';
@@ -81,9 +82,7 @@ export default function ArticleScreen() {
         </ThemedText>
         <View style={[styles.commentBox, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
           <View style={styles.byline}>
-            <View style={[styles.avatar, { backgroundColor: theme.accent }]}>
-              <ThemedText style={[styles.avatarText, { color: theme.onAccent }]}>加</ThemedText>
-            </View>
+            <KatoAvatar size={40} />
             <View>
               <ThemedText type="caption" style={{ fontWeight: '700' }}>
                 加藤浩晃
@@ -183,8 +182,6 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.four,
   },
   byline: { flexDirection: 'row', alignItems: 'center', gap: Spacing.three, marginBottom: Spacing.three },
-  avatar: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-  avatarText: { fontSize: 13, lineHeight: 16, fontWeight: '700' },
   sourceButton: {
     marginTop: Spacing.six,
     borderRadius: Radius.button,

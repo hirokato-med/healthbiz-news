@@ -42,6 +42,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
   // 新着の基準時刻（起動時に決めて、そのセッション中は動かさない）
   const [newSince] = useState(() => new Date(Date.now() - NewWindowMs).toISOString());
+  const [sinceDate] = useState(() => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date(Date.now() - 24 * 60 * 60 * 1000)));
   const [reactions, setReactions] = useState<Record<string, Reaction>>({});
 
   const reload = useCallback(async () => {
@@ -103,7 +104,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<Store>(() => {
     const isNew = (a: Article) =>
-      a.kind !== 'substack' && !!a.created_at && a.created_at > newSince && !readIds.has(a.id);
+      a.kind !== 'substack' &&
+      // 配信日が今日か昨日で、配信から36時間以内（過去記事の一括取り込み分は新着にしない）
+      a.published_date >= sinceDate &&
+      !!a.created_at &&
+      a.created_at > newSince &&
+      !readIds.has(a.id);
     return {
       articles,
       loading,
@@ -119,7 +125,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       reactionOf: (id) => reactions[id] ?? null,
       setReaction,
     };
-  }, [articles, loading, error, reload, savedIds, toggleSaved, readIds, markRead, newSince, reactions, setReaction]);
+  }, [articles, loading, error, reload, savedIds, toggleSaved, readIds, markRead, newSince, sinceDate, reactions, setReaction]);
 
   return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>;
 }

@@ -1,3 +1,4 @@
+import { useRouter } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Pressable,
@@ -16,7 +17,7 @@ import { ChannelTabs } from '@/components/channel-tabs';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Channels } from '@/constants/channels';
-import { Hairline, Spacing } from '@/constants/theme';
+import { Hairline, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
@@ -32,6 +33,7 @@ export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const theme = useTheme();
   const { articles, reload } = useStore();
+  const router = useRouter();
   const pagerRef = useRef<ScrollViewInstance>(null);
   // 記事から戻ってきたときに見ていたタブへ戻れるよう、位置はメモリに退避しておく
   const [index, setIndex] = useState(uiState.channelIndex);
@@ -88,9 +90,21 @@ export default function HomeScreen() {
               加藤浩晃のヘルスケアビジネスニュース
             </ThemedText>
           </View>
-          <ThemedText type="caption" themeColor="textSecondary" style={styles.date}>
-            {formatDateLong(todayJST())}
-          </ThemedText>
+          <View style={styles.mastheadRight}>
+            <ThemedText type="caption" themeColor="textSecondary" style={styles.date}>
+              {formatDateLong(todayJST())}
+            </ThemedText>
+            <Pressable
+              onPress={() => router.push('/search')}
+              accessibilityRole="button"
+              accessibilityLabel="記事を検索"
+              hitSlop={8}
+              style={({ pressed }) => [styles.searchButton, { backgroundColor: theme.surface, opacity: pressed ? 0.7 : 1 }]}>
+              <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                🔍 検索
+              </ThemedText>
+            </Pressable>
+          </View>
         </View>
         <ChannelTabs index={index} onSelect={selectTab} />
         <Pressable
@@ -160,6 +174,8 @@ const styles = StyleSheet.create({
   date: {
     fontVariant: ['tabular-nums'],
   },
+  mastheadRight: { alignItems: 'flex-end', gap: 6 },
+  searchButton: { paddingHorizontal: Spacing.two, paddingVertical: 4, borderRadius: Radius.chip },
   ticker: {
     flexDirection: 'row',
     alignItems: 'center',

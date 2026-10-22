@@ -1,10 +1,12 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import { Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { ArticleRow } from '@/components/article-row';
 import { KatoAvatar } from '@/components/kato-avatar';
+import { SubscribeLink } from '@/components/subscribe-link';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -12,7 +14,8 @@ import { Thumb } from '@/components/thumb';
 import { channelOf } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
-import { trackArticle, trackClick } from '@/lib/analytics';
+import { track, trackArticle, trackClick } from '@/lib/analytics';
+import { relatedArticles } from '@/lib/related';
 import { formatDateLong } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 
@@ -25,12 +28,16 @@ export default function ArticleScreen() {
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const { articles, isSaved, toggleSaved } = useStore();
+  const { articles, isSaved, toggleSaved, markRead, reactionOf, setReaction } = useStore();
 
   const article = articles.find((a) => a.id === id);
   useEffect(() => {
-    if (article) trackArticle(article);
-  }, [article]);
+    if (article) {
+      trackArticle(article);
+      markRead(article.id);
+    }
+  }, [article, markRead]);
+  const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
   if (!article) {
     return (
       <ThemedView style={styles.root}>
@@ -66,9 +73,25 @@ export default function ArticleScreen() {
         <ThemedText type="title" style={styles.title}>
           {article.title}
         </ThemedText>
-        <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
-          {article.source_name}・{formatDateLong(article.published_date)}
-        </ThemedText>
+        <View style={[styles.meta, styles.metaRow]}>
+          {article.kind === 'substack' ? (
+            <ThemedText type="caption" themeColor="textSecondary">
+              {article.source_name}
+            </ThemedText>
+          ) : (
+            <Pressable
+              onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.source_name } })}
+              accessibilityRole="link"
+              hitSlop={6}>
+              <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                {article.source_name} ›
+              </ThemedText>
+            </Pressable>
+          )}
+          <ThemedText type="caption" themeColor="textSecondary">
+            ・{formatDateLong(article.published_date)}
+          </ThemedText>
+        </View>
 
         {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
@@ -83,6 +106,26 @@ export default function ArticleScreen() {
             <ThemedText style={{ flex: 1 }}>{line}</ThemedText>
           </View>
         ))}
+
+        {article.quote?.text ? (
+          <View style={[styles.quote, { borderLeftColor: theme.line }]}>
+            <ThemedText type="caption" themeColor="textSecondary" style={{ fontWeight: '700' }}>
+              原文より
+            </ThemedText>
+            <ThemedText style={styles.quoteText}>“{article.quote.text}”</ThemedText>
+            {article.quote.source || article.quote.url ? (
+              <Pressable
+                onPress={() => article.quote?.url && (trackClick('quote_source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.quote.url))}
+                accessibilityRole="link"
+                disabled={!article.quote.url}>
+                <ThemedText type="caption" style={{ color: article.quote.url ? theme.accent : theme.textSecondary }}>
+                  — {article.quote.source ?? '出典'}
+                  {article.quote.url ? ' ↗' : ''}
+                </ThemedText>
+              </Pressable>
+            ) : null}
+          </View>
+        ) : null}
 
         <ThemedText type="section" style={styles.sectionLabel}>
           {article.kind === 'substack' ? '記事の冒頭' : '加藤浩晃のコメント'}
@@ -101,12 +144,37 @@ export default function ArticleScreen() {
           </View>
           <ThemedText type="comment">{article.comment}</ThemedText>
         </View>
+        {article.kind !== 'substack' ? (
+          <>
+            <View style={styles.afterComment}>
+              <SubscribeLink where="article" />
+            </View>
+            <Reactions
+              value={reactionOf(article.id)}
+              onPick={(r) => {
+                setReaction(article.id, r);
+                track('helpful', { article_id: article.id, reaction: r, category: article.category });
+              }}
+            />
+          </>
+        ) : null}
 
         {article.company ? (
           <>
-            <ThemedText type="section" style={styles.sectionLabel}>
-              {article.company.name}
-            </ThemedText>
+            <Pressable
+              onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.company!.name } })}
+              accessibilityRole="link"
+              style={styles.sectionLabel}>
+              <ThemedText type="section">
+                {article.company.name} <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>記事一覧 ›</ThemedText>
+              </ThemedText>
+            </Pressable>
+            {article.company.listed ? (
+              <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                {article.company.listed}
+              </ThemedText>
+            ) : null}
+            {article.company.financials ? <ThemedText style={styles.companyText}>{article.company.financials}</ThemedText> : null}
             <ThemedText style={styles.companyText}>{article.company.profile}</ThemedText>
             {article.company.ceo ? (
               <View style={styles.ceo}>
@@ -151,8 +219,54 @@ export default function ArticleScreen() {
             ? '加藤浩晃が連載しているメルマガの記事です。全文はメルマガで読めます。購読するとメールで届きます。'
             : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
         </ThemedText>
+
+        {related.length ? (
+          <View style={styles.related}>
+            <ThemedText type="section" style={styles.sectionLabel}>
+              関連する記事
+            </ThemedText>
+            {related.map((a) => (
+              <ArticleRow key={a.id} article={a} compact />
+            ))}
+          </View>
+        ) : null}
       </ScrollView>
     </ThemedView>
+  );
+}
+
+/** 「役に立った」「もっと詳しく知りたい」のワンタップ反応。押したら端末に残し、GA に送る */
+function Reactions({ value, onPick }: { value: 'helpful' | 'more' | null; onPick: (r: 'helpful' | 'more') => void }) {
+  const theme = useTheme();
+  if (value) {
+    return (
+      <ThemedText type="caption" themeColor="textSecondary" style={styles.reactionThanks}>
+        {value === 'helpful' ? '「役に立った」を受け付けました。ありがとうございます。' : '「もっと詳しく知りたい」を受け付けました。今後の配信の参考にします。'}
+      </ThemedText>
+    );
+  }
+  return (
+    <View style={styles.reactions}>
+      <ThemedText type="caption" themeColor="textSecondary">
+        この記事は
+      </ThemedText>
+      {(
+        [
+          ['helpful', '👍 役に立った'],
+          ['more', '🔎 もっと詳しく知りたい'],
+        ] as const
+      ).map(([key, label]) => (
+        <Pressable
+          key={key}
+          onPress={() => onPick(key)}
+          accessibilityRole="button"
+          style={({ pressed }) => [styles.reactionButton, { borderColor: theme.line, backgroundColor: pressed ? theme.surface : 'transparent' }]}>
+          <ThemedText type="caption" style={{ fontWeight: '700' }}>
+            {label}
+          </ThemedText>
+        </Pressable>
+      ))}
+    </View>
   );
 }
 
@@ -186,6 +300,11 @@ const styles = StyleSheet.create({
   },
   title: { marginTop: Spacing.one, marginBottom: Spacing.two },
   meta: { marginBottom: Spacing.four },
+  metaRow: { flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' },
+  quote: { marginTop: Spacing.five, borderLeftWidth: 3, paddingLeft: Spacing.three, gap: Spacing.one },
+  quoteText: { fontSize: 15, lineHeight: 24, fontStyle: 'italic' },
+  afterComment: { marginTop: Spacing.three },
+  related: { marginTop: Spacing.four },
   image: { width: '100%', aspectRatio: 16 / 9, marginBottom: Spacing.two },
   sectionLabel: { marginTop: Spacing.five, marginBottom: Spacing.two },
   bullet: { flexDirection: 'row', gap: Spacing.three, alignItems: 'flex-start', marginBottom: Spacing.one },
@@ -208,4 +327,7 @@ const styles = StyleSheet.create({
   companyText: { fontSize: 14, lineHeight: 23 },
   ceo: { marginTop: Spacing.two, gap: Spacing.one },
   disclaimer: { marginTop: Spacing.three, lineHeight: 18 },
+  reactions: { flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', gap: Spacing.two, marginTop: Spacing.four },
+  reactionButton: { borderWidth: 1, borderRadius: Radius.tag, paddingHorizontal: Spacing.three, paddingVertical: 6 },
+  reactionThanks: { marginTop: Spacing.four },
 });

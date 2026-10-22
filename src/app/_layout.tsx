@@ -13,6 +13,8 @@ export default function RootLayout() {
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="article/[id]" />
           <Stack.Screen name="privacy" />
+          <Stack.Screen name="search" />
+          <Stack.Screen name="company/[name]" />
         </Stack>
         <StatusBar style="auto" />
       </StoreProvider>

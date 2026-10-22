@@ -6,6 +6,10 @@ export type Company = {
   /** 設立年月、所在地、資本金、上場/未上場、事業内容など。1段落 */
   profile: string;
   url?: string | null;
+  /** 上場市場（「東証プライム」など）。未上場なら無し */
+  listed?: string | null;
+  /** 上場企業の直近の業績（「2026年3月期 売上647億円、営業利益…」）。1〜2文 */
+  financials?: string | null;
   /** 代表者。経歴は前職・創業の経緯を1〜3文 */
   ceo?: { name: string; bio: string } | null;
 };
@@ -33,4 +37,8 @@ export type Article = {
   featured?: boolean | null;
   /** news: 配信記事（既定）/ substack: Substack の投稿（comment に冒頭、summary は空） */
   kind?: 'news' | 'substack';
+  /** 海外記事: 原文（英語）からの一文引用と出典 */
+  quote?: { text: string; source?: string | null; url?: string | null } | null;
+  /** 配信した時刻（publish.mjs が付ける）。新着の判定に使う */
+  created_at?: string;
 };

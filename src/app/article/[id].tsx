@@ -1,7 +1,7 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import * as WebBrowser from 'expo-web-browser';
-import { Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleRow } from '@/components/article-row';
@@ -16,6 +16,7 @@ import { Hairline, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { track, trackArticle, trackClick } from '@/lib/analytics';
 import { relatedArticles } from '@/lib/related';
+import { preloadShareCard, shareArticle } from '@/lib/share-card';
 import { formatDateLong } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 
@@ -31,12 +32,23 @@ export default function ArticleScreen() {
   const { articles, isSaved, toggleSaved, markRead, reactionOf, setReaction } = useStore();
 
   const article = articles.find((a) => a.id === id);
+  // 共有の結果を短く知らせる（画像を保存した／コピーした）
+  const [shareNote, setShareNote] = useState<string | null>(null);
   useEffect(() => {
     if (article) {
       trackArticle(article);
       markRead(article.id);
     }
   }, [article, markRead]);
+  useEffect(() => {
+    // 最初の共有で待たせないよう、顔写真を先に読んでおく
+    preloadShareCard();
+  }, []);
+  useEffect(() => {
+    if (!shareNote) return;
+    const t = setTimeout(() => setShareNote(null), 2800);
+    return () => clearTimeout(t);
+  }, [shareNote]);
   const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
   if (!article) {
     return (
@@ -51,11 +63,12 @@ export default function ArticleScreen() {
   const channel = channelOf(article.category);
   const saved = isSaved(article.id);
 
-  const share = () =>
-    (trackClick('share', { article_id: article.id }),
-    Share.share({
-      message: `${article.title}\n${article.source_url}\n\n— Healthcare Business News（加藤浩晃のコメント付き）`,
-    }).catch(() => {}));
+  // 共有: 見出し・コメント・顔写真入りの画像カードを共有シートへ（対応していない環境では画像を保存して本文をコピー）
+  const share = async () => {
+    trackClick('share', { article_id: article.id });
+    const result = await shareArticle(article);
+    if (result === 'download') setShareNote('画像を保存し、本文をコピーしました');
+  };
 
   return (
     <ThemedView style={styles.root}>
@@ -63,8 +76,15 @@ export default function ArticleScreen() {
         <BarButton label="‹ 戻る" onPress={() => router.back()} color={theme.accent} />
         <View style={{ flex: 1 }} />
         <BarButton label={saved ? '★ 保存済み' : '☆ 保存'} onPress={() => (trackClick(saved ? 'unsave' : 'save', { article_id: article.id }), toggleSaved(article.id))} color={theme.accent} />
-        <BarButton label="共有" onPress={share} color={theme.accent} />
+        <BarButton label="共有" onPress={() => void share()} color={theme.accent} />
       </View>
+      {shareNote ? (
+        <View style={[styles.note, { backgroundColor: theme.surface }]}>
+          <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+            {shareNote}
+          </ThemedText>
+        </View>
+      ) : null}
 
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
         <ThemedText type="eyebrow" style={{ color: channel.color }}>
@@ -290,6 +310,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: Hairline,
   },
   barButton: { paddingHorizontal: Spacing.two, paddingVertical: 6 },
+  note: { alignItems: 'center', paddingVertical: Spacing.two },
   barButtonText: { fontSize: 15, lineHeight: 20, fontWeight: '700' },
   content: {
     paddingHorizontal: Spacing.four,

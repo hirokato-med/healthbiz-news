@@ -50,7 +50,7 @@ export default function HomeScreen() {
   const ticker = useMemo(() => {
     // 日付が変わって当日分がまだ無い間も、直近の配信日の本数を出す
     const today = todayJST();
-    const news = articles.filter((a) => a.kind !== 'substack');
+    const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly');
     const latest = news[0]?.published_date;
     const count = latest ? news.filter((a) => a.published_date === latest).length : 0;
     return {

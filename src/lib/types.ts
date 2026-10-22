@@ -36,7 +36,9 @@ export type Article = {
   /** 直近24時間でいちばん大事な記事（トップで大きく出す）。常に1本だけ。無ければ直近の配信の先頭 */
   featured?: boolean | null;
   /** news: 配信記事（既定）/ substack: Substack の投稿（comment に冒頭、summary は空） */
-  kind?: 'news' | 'substack';
+  kind?: 'news' | 'substack' | 'weekly';
+  /** 今週のまとめ: 対象期間と、選んだ記事（id と一言コメント）。comment には加藤の総括が入る */
+  weekly?: { range: string; total?: number | null; items: { article_id: string; comment: string }[] } | null;
   /** 海外記事: 原文（英語）からの一文引用と出典 */
   quote?: { text: string; source?: string | null; url?: string | null } | null;
   /** 配信した時刻（publish.mjs が付ける）。新着の判定に使う */

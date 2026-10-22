@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ArticleRow } from '@/components/article-row';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { SubscribeLink } from '@/components/subscribe-link';
+import { WeeklyDetail } from '@/components/weekly-detail';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -52,7 +53,7 @@ export default function ArticleScreen() {
   const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
   // 発信元の企業ページは、記事が2本以上あるか会社情報があるときだけリンクにする（1本だけのページに飛ばさない）
   const sourceHasPage = useMemo(() => {
-    if (!article || article.kind === 'substack') return false;
+    if (!article || article.kind === 'substack' || article.kind === 'weekly') return false;
     const { articles: list, info } = articlesOfCompany(article.source_name, articles);
     return list.length > 1 || !!info;
   }, [article, articles]);
@@ -93,169 +94,175 @@ export default function ArticleScreen() {
       ) : null}
 
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
-        <ThemedText type="eyebrow" style={{ color: channel.color }}>
-          {channel.name}
-        </ThemedText>
-        <ThemedText type="title" style={styles.title}>
-          {article.title}
-        </ThemedText>
-        <View style={[styles.meta, styles.metaRow]}>
-          {!sourceHasPage ? (
-            <ThemedText type="caption" themeColor="textSecondary">
-              {article.source_name}
-            </ThemedText>
-          ) : (
-            <Pressable
-              onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.source_name } })}
-              accessibilityRole="link"
-              hitSlop={6}>
-              <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
-                {article.source_name} ›
+        {article.kind === 'weekly' ? (
+          <WeeklyDetail issue={article} articles={articles} onShare={() => void share()} />
+        ) : (
+          <>
+          <ThemedText type="eyebrow" style={{ color: channel.color }}>
+            {channel.name}
+          </ThemedText>
+          <ThemedText type="title" style={styles.title}>
+            {article.title}
+          </ThemedText>
+          <View style={[styles.meta, styles.metaRow]}>
+            {!sourceHasPage ? (
+              <ThemedText type="caption" themeColor="textSecondary">
+                {article.source_name}
               </ThemedText>
-            </Pressable>
-          )}
-          <ThemedText type="caption" themeColor="textSecondary">
-            ・{formatDateLong(article.published_date)}
-          </ThemedText>
-        </View>
-
-        {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
-
-        {article.summary.length > 0 && (
-          <ThemedText type="section" style={styles.sectionLabel}>
-            ポイント
-          </ThemedText>
-        )}
-        {article.summary.map((line, i) => (
-          <View key={i} style={styles.bullet}>
-            <View style={[styles.dot, { backgroundColor: theme.accent }]} />
-            <ThemedText style={{ flex: 1 }}>{line}</ThemedText>
-          </View>
-        ))}
-
-        {article.quote?.text ? (
-          <View style={[styles.quote, { borderLeftColor: theme.line }]}>
-            <ThemedText type="caption" themeColor="textSecondary" style={{ fontWeight: '700' }}>
-              原文より
-            </ThemedText>
-            <ThemedText style={styles.quoteText}>“{article.quote.text}”</ThemedText>
-            {article.quote.source || article.quote.url ? (
+            ) : (
               <Pressable
-                onPress={() => article.quote?.url && (trackClick('quote_source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.quote.url))}
+                onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.source_name } })}
                 accessibilityRole="link"
-                disabled={!article.quote.url}>
-                <ThemedText type="caption" style={{ color: article.quote.url ? theme.accent : theme.textSecondary }}>
-                  — {article.quote.source ?? '出典'}
-                  {article.quote.url ? ' ↗' : ''}
-                </ThemedText>
-              </Pressable>
-            ) : null}
-          </View>
-        ) : null}
-
-        <ThemedText type="section" style={styles.sectionLabel}>
-          {article.kind === 'substack' ? '記事の冒頭' : '加藤浩晃のコメント'}
-        </ThemedText>
-        <View style={[styles.commentBox, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
-          <View style={styles.byline}>
-            <KatoAvatar size={40} />
-            <View>
-              <ThemedText type="caption" style={{ fontWeight: '700' }}>
-                加藤浩晃
-              </ThemedText>
-              <ThemedText type="caption" themeColor="textSecondary" style={{ fontSize: 11 }}>
-                医師・ヘルスケアビジネス
-              </ThemedText>
-            </View>
-          </View>
-          <ThemedText type="comment">{article.comment}</ThemedText>
-        </View>
-        {article.kind !== 'substack' ? (
-          <>
-            <View style={styles.afterComment}>
-              <SubscribeLink where="article" />
-            </View>
-            <Reactions
-              value={reactionOf(article.id)}
-              onPick={(r) => {
-                setReaction(article.id, r);
-                track('helpful', { article_id: article.id, reaction: r, category: article.category });
-              }}
-            />
-          </>
-        ) : null}
-
-        {article.company ? (
-          <>
-            <Pressable
-              onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.company!.name } })}
-              accessibilityRole="link"
-              style={styles.sectionLabel}>
-              <ThemedText type="section">
-                {article.company.name} <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>記事一覧 ›</ThemedText>
-              </ThemedText>
-            </Pressable>
-            {article.company.listed ? (
-              <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
-                {article.company.listed}
-              </ThemedText>
-            ) : null}
-            {article.company.financials ? <ThemedText style={styles.companyText}>{article.company.financials}</ThemedText> : null}
-            <ThemedText style={styles.companyText}>{article.company.profile}</ThemedText>
-            {article.company.ceo ? (
-              <View style={styles.ceo}>
-                <ThemedText type="caption" style={{ fontWeight: '700' }}>
-                  ▸ 代表：{article.company.ceo.name}
-                </ThemedText>
-                {/* 経歴が取れなかった記事は名前だけ出す（「経歴確認できない」を読者に見せない） */}
-                {article.company.ceo.bio && !/経歴確認できない|不明/.test(article.company.ceo.bio) ? (
-                  <ThemedText style={styles.companyText}>{article.company.ceo.bio}</ThemedText>
-                ) : null}
-              </View>
-            ) : null}
-            {article.company.url ? (
-              <Pressable onPress={() => (trackClick('company', { article_id: article.id }), WebBrowser.openBrowserAsync(article.company!.url!))} accessibilityRole="link">
+                hitSlop={6}>
                 <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
-                  会社サイト ↗
+                  {article.source_name} ›
                 </ThemedText>
               </Pressable>
-            ) : null}
-          </>
-        ) : null}
-
-        <Pressable
-          onPress={() => (trackClick(article.kind === 'substack' ? 'substack_read' : 'source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url))}
-          style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
-          accessibilityRole="link">
-          <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
-            {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : 'プレスリリース原文を読む ↗'}
-          </ThemedText>
-        </Pressable>
-        {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
-        {article.source_url_2 ? (
-          <Pressable
-            onPress={() => (trackClick('source_2', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url_2!))}
-            style={({ pressed }) => [styles.sourceButton, styles.sourceButtonSecondary, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
-            accessibilityRole="link">
-            <ThemedText style={[styles.sourceButtonText, { color: theme.accent }]}>相手方のリリースも読む ↗</ThemedText>
-          </Pressable>
-        ) : null}
-        <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
-          {article.kind === 'substack'
-            ? '加藤浩晃が連載しているメルマガの記事です。全文はメルマガで読めます。購読するとメールで届きます。'
-            : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
-        </ThemedText>
-
-        {related.length ? (
-          <View style={styles.related}>
-            <ThemedText type="section" style={styles.sectionLabel}>
-              関連する記事
+            )}
+            <ThemedText type="caption" themeColor="textSecondary">
+              ・{formatDateLong(article.published_date)}
             </ThemedText>
-            {related.map((a) => (
-              <ArticleRow key={a.id} article={a} compact />
-            ))}
           </View>
-        ) : null}
+
+          {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
+
+          {article.summary.length > 0 && (
+            <ThemedText type="section" style={styles.sectionLabel}>
+              ポイント
+            </ThemedText>
+          )}
+          {article.summary.map((line, i) => (
+            <View key={i} style={styles.bullet}>
+              <View style={[styles.dot, { backgroundColor: theme.accent }]} />
+              <ThemedText style={{ flex: 1 }}>{line}</ThemedText>
+            </View>
+          ))}
+
+          {article.quote?.text ? (
+            <View style={[styles.quote, { borderLeftColor: theme.line }]}>
+              <ThemedText type="caption" themeColor="textSecondary" style={{ fontWeight: '700' }}>
+                原文より
+              </ThemedText>
+              <ThemedText style={styles.quoteText}>“{article.quote.text}”</ThemedText>
+              {article.quote.source || article.quote.url ? (
+                <Pressable
+                  onPress={() => article.quote?.url && (trackClick('quote_source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.quote.url))}
+                  accessibilityRole="link"
+                  disabled={!article.quote.url}>
+                  <ThemedText type="caption" style={{ color: article.quote.url ? theme.accent : theme.textSecondary }}>
+                    — {article.quote.source ?? '出典'}
+                    {article.quote.url ? ' ↗' : ''}
+                  </ThemedText>
+                </Pressable>
+              ) : null}
+            </View>
+          ) : null}
+
+          <ThemedText type="section" style={styles.sectionLabel}>
+            {article.kind === 'substack' ? '記事の冒頭' : '加藤浩晃のコメント'}
+          </ThemedText>
+          <View style={[styles.commentBox, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
+            <View style={styles.byline}>
+              <KatoAvatar size={40} />
+              <View>
+                <ThemedText type="caption" style={{ fontWeight: '700' }}>
+                  加藤浩晃
+                </ThemedText>
+                <ThemedText type="caption" themeColor="textSecondary" style={{ fontSize: 11 }}>
+                  医師・ヘルスケアビジネス
+                </ThemedText>
+              </View>
+            </View>
+            <ThemedText type="comment">{article.comment}</ThemedText>
+          </View>
+          {article.kind !== 'substack' ? (
+            <>
+              <View style={styles.afterComment}>
+                <SubscribeLink where="article" />
+              </View>
+              <Reactions
+                value={reactionOf(article.id)}
+                onPick={(r) => {
+                  setReaction(article.id, r);
+                  track('helpful', { article_id: article.id, reaction: r, category: article.category });
+                }}
+              />
+            </>
+          ) : null}
+
+          {article.company ? (
+            <>
+              <Pressable
+                onPress={() => router.push({ pathname: '/company/[name]', params: { name: article.company!.name } })}
+                accessibilityRole="link"
+                style={styles.sectionLabel}>
+                <ThemedText type="section">
+                  {article.company.name} <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>記事一覧 ›</ThemedText>
+                </ThemedText>
+              </Pressable>
+              {article.company.listed ? (
+                <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                  {article.company.listed}
+                </ThemedText>
+              ) : null}
+              {article.company.financials ? <ThemedText style={styles.companyText}>{article.company.financials}</ThemedText> : null}
+              <ThemedText style={styles.companyText}>{article.company.profile}</ThemedText>
+              {article.company.ceo ? (
+                <View style={styles.ceo}>
+                  <ThemedText type="caption" style={{ fontWeight: '700' }}>
+                    ▸ 代表：{article.company.ceo.name}
+                  </ThemedText>
+                  {/* 経歴が取れなかった記事は名前だけ出す（「経歴確認できない」を読者に見せない） */}
+                  {article.company.ceo.bio && !/経歴確認できない|不明/.test(article.company.ceo.bio) ? (
+                    <ThemedText style={styles.companyText}>{article.company.ceo.bio}</ThemedText>
+                  ) : null}
+                </View>
+              ) : null}
+              {article.company.url ? (
+                <Pressable onPress={() => (trackClick('company', { article_id: article.id }), WebBrowser.openBrowserAsync(article.company!.url!))} accessibilityRole="link">
+                  <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                    会社サイト ↗
+                  </ThemedText>
+                </Pressable>
+              ) : null}
+            </>
+          ) : null}
+
+          <Pressable
+            onPress={() => (trackClick(article.kind === 'substack' ? 'substack_read' : 'source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url))}
+            style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
+            accessibilityRole="link">
+            <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
+              {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : 'プレスリリース原文を読む ↗'}
+            </ThemedText>
+          </Pressable>
+          {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
+          {article.source_url_2 ? (
+            <Pressable
+              onPress={() => (trackClick('source_2', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url_2!))}
+              style={({ pressed }) => [styles.sourceButton, styles.sourceButtonSecondary, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
+              accessibilityRole="link">
+              <ThemedText style={[styles.sourceButtonText, { color: theme.accent }]}>相手方のリリースも読む ↗</ThemedText>
+            </Pressable>
+          ) : null}
+          <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
+            {article.kind === 'substack'
+              ? '加藤浩晃が連載しているメルマガの記事です。全文はメルマガで読めます。購読するとメールで届きます。'
+              : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
+          </ThemedText>
+
+          {related.length ? (
+            <View style={styles.related}>
+              <ThemedText type="section" style={styles.sectionLabel}>
+                関連する記事
+              </ThemedText>
+              {related.map((a) => (
+                <ArticleRow key={a.id} article={a} compact />
+              ))}
+            </View>
+          ) : null}
+          </>
+        )}
       </ScrollView>
     </ThemedView>
   );

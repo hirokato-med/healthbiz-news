@@ -20,7 +20,7 @@ export function companyNamesOf(a: Article): string[] {
  */
 export function relatedArticles(target: Article, all: Article[], limit = 3): Article[] {
   const keys = new Set(companyNamesOf(target).map(companyKey));
-  const news = all.filter((a) => a.id !== target.id && a.kind !== 'substack');
+  const news = all.filter((a) => a.id !== target.id && a.kind !== 'substack' && a.kind !== 'weekly');
   const sameCompany = news.filter((a) => companyNamesOf(a).some((n) => keys.has(companyKey(n))));
   const sameCategory = news.filter((a) => a.category === target.category && !sameCompany.includes(a));
   return [...sameCompany, ...sameCategory].slice(0, limit);
@@ -29,7 +29,7 @@ export function relatedArticles(target: Article, all: Article[], limit = 3): Art
 /** 会社ページ用: その会社の記事（新しい順）と、会社情報ブロック */
 export function articlesOfCompany(name: string, all: Article[]): { articles: Article[]; info: Article['company'] | null } {
   const key = companyKey(name);
-  const articles = all.filter((a) => a.kind !== 'substack' && companyNamesOf(a).some((n) => companyKey(n) === key));
+  const articles = all.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && companyNamesOf(a).some((n) => companyKey(n) === key));
   const info = articles.map((a) => a.company).find((c) => c && companyKey(c.name) === key) ?? null;
   return { articles, info };
 }

@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
-import { fetchArticles, fetchSubstack } from './articles';
+import { fetchArticles, fetchSubstack, fetchWeekly } from './articles';
 import type { Article } from './types';
 
 const SavedKey = 'healthbiz.saved.v1';
@@ -48,8 +48,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const reload = useCallback(async () => {
     setLoading(true);
     try {
-      const [news, substack] = await Promise.all([fetchArticles(), fetchSubstack()]);
-      setArticles([...news, ...substack]);
+      const [news, substack, weekly] = await Promise.all([fetchArticles(), fetchSubstack(), fetchWeekly()]);
+      setArticles([...weekly, ...news, ...substack]);
       setError(null);
       return true;
     } catch (e) {
@@ -105,6 +105,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const value = useMemo<Store>(() => {
     const isNew = (a: Article) =>
       a.kind !== 'substack' &&
+      a.kind !== 'weekly' &&
       // 配信日が今日か昨日で、配信から36時間以内（過去記事の一括取り込み分は新着にしない）
       a.published_date >= sinceDate &&
       !!a.created_at &&

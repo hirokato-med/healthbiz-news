@@ -5,7 +5,7 @@
  * `saved` は下部タブの「保存」画面用で、上部のチャンネル一覧には出さない。
  */
 
-export type ChannelId = 'today' | 'device' | 'wearable' | 'longevity' | 'drug' | 'digital' | 'dx' | 'service' | 'policy' | 'global' | 'substack' | 'saved';
+export type ChannelId = 'today' | 'device' | 'wearable' | 'longevity' | 'drug' | 'digital' | 'dx' | 'service' | 'policy' | 'global' | 'substack' | 'weekly' | 'saved';
 
 export type Channel = {
   id: ChannelId;
@@ -30,12 +30,15 @@ export const Channels: readonly Channel[] = [
 
 export const SavedChannel: Channel = { id: 'saved', name: '保存済み', color: '#1E4FD8' };
 
+/** 毎週土曜の「今週のまとめ」。上部タブには出さず、トップの一覧に1本の記事として並ぶ */
+export const WeeklyChannel: Channel = { id: 'weekly', name: '今週のまとめ', color: '#1E4FD8' };
+
 /** 記事に付けられるカテゴリ（特殊チャンネルを除く） */
 export type Category = Exclude<ChannelId, 'today' | 'saved'>;
 
-/** 配信パイプラインが付けるニュースのカテゴリ（substack は Substack の投稿専用） */
-export type NewsCategory = Exclude<Category, 'substack'>;
+/** 配信パイプラインが付けるニュースのカテゴリ（substack はメルマガ、weekly は今週のまとめ専用） */
+export type NewsCategory = Exclude<Category, 'substack' | 'weekly'>;
 
 export function channelOf(id: ChannelId): Channel {
-  return Channels.find((c) => c.id === id) ?? (id === 'saved' ? SavedChannel : Channels[0]);
+  return Channels.find((c) => c.id === id) ?? (id === 'saved' ? SavedChannel : id === 'weekly' ? WeeklyChannel : Channels[0]);
 }

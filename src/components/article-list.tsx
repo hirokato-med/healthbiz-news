@@ -66,7 +66,8 @@ export function ArticleList({
     const out: Row[] = [];
 
     if (channel.id === 'today') {
-      const news = articles.filter((a) => a.kind !== 'substack');
+      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly');
+      const weeklies = articles.filter((a) => a.kind === 'weekly');
       // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
       const latest = news[0]?.published_date;
       if (!latest) {
@@ -81,13 +82,16 @@ export function ArticleList({
         news.find((a) => a.image_url && a.published_date === latest) ??
         news.find((a) => a.featured && recent(a)) ??
         news[0];
+      // 今週のまとめ（土曜配信）は、出てから2日間は注目記事のすぐ下に出す
+      const freshWeekly = weeklies.find((w) => w.published_date >= dayBefore(latest));
       const todays = news.filter((a) => a.published_date === latest && a !== lead);
-      const past = news.filter((a) => a.published_date !== latest && a !== lead);
+      const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => w !== freshWeekly)].sort((a, b) => b.published_date.localeCompare(a.published_date));
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
       out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0)}本` });
       out.push({ kind: 'featured', key: lead.id, article: lead });
       // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
       out.push({ kind: 'subscribe-link', key: 'subscribe-link' });
+      if (freshWeekly) out.push({ kind: 'article', key: freshWeekly.id, article: freshWeekly });
       todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));

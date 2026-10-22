@@ -4,6 +4,8 @@ import type { Article } from './types';
 
 /** 本番の記事データ。配信パイプラインが毎晩ここに push する */
 const DefaultArticlesUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json';
+/** 今週のまとめ（pipeline/weekly.mjs が書く） */
+const DefaultWeeklyUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/weekly.json';
 /** Substack の投稿（pipeline/substack.mjs が書く） */
 const DefaultSubstackUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/substack.json';
 
@@ -50,6 +52,44 @@ export async function fetchSubstack(): Promise<Article[]> {
       summary: [],
       comment: p.excerpt,
       image_url: p.image_url ?? null,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+type WeeklyIssue = {
+  id: string;
+  published_date: string;
+  title: string;
+  range: string;
+  total?: number | null;
+  note: string;
+  image_url?: string | null;
+  items: { article_id: string; comment: string }[];
+};
+
+/** 今週のまとめを記事と同じ形にして返す。取れなくても配信記事の表示は止めない。 */
+export async function fetchWeekly(): Promise<Article[]> {
+  if (articlesUrl === 'mock') return [];
+  try {
+    const url = articlesUrl.includes('/data/articles.json') ? articlesUrl.replace('/data/articles.json', '/data/weekly.json') : DefaultWeeklyUrl;
+    const bust = Math.floor(Date.now() / 60_000);
+    const res = await fetch(`${url}?t=${bust}`);
+    if (!res.ok) return [];
+    const body = (await res.json()) as { issues?: WeeklyIssue[] };
+    return (body.issues ?? []).map((w) => ({
+      id: w.id,
+      kind: 'weekly' as const,
+      published_date: w.published_date,
+      category: 'weekly' as const,
+      title: w.title,
+      source_name: '加藤浩晃',
+      source_url: `https://hirokato-med.github.io/healthbiz-news/article/${w.id}`,
+      summary: [],
+      comment: w.note,
+      image_url: w.image_url ?? null,
+      weekly: { range: w.range, total: w.total ?? null, items: w.items },
     }));
   } catch {
     return [];

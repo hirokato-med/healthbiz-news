@@ -75,8 +75,26 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
   - 判断の目安: 業界の構造が動く話（上場企業の M&A・事業売却、制度変更、薬事承認、大型の資金調達）＞ 大企業の新規事業・提携 ＞ スタートアップの新サービス。金額と当事者の規模が大きいほど上。
   - 加藤さんがチャットで「これをトップに」と言った場合は `node pipeline/feature.mjs <source_url>` で差し替える。
   - **トップ記事には必ず画像（`image_url`）を付ける。** トップは画像を大きく出す枠なので、画像が無い記事はトップにしない。
-    - いちばん大事なニュースに画像が無いとき（適時開示や官公庁の発表など）は、まず当事者企業の自社サイトの同じ件のページや製品ページから og:image を探して `image_url` に入れる（`node pipeline/ogimage.mjs <url>`）。
+    - いちばん大事なニュースに画像が無いとき（適時開示や官公庁の発表など）は、**当事者のロゴでよい。** 次の順で探して `image_url` に入れる:
+      1. 自社サイトの同じ件のページや製品ページの og:image（`node pipeline/ogimage.mjs <url>`）
+      2. 自社サイトのトップページの og:image（たいていロゴ。`node pipeline/ogimage.mjs https://www.example.co.jp/`）
+      3. 発表元が官公庁なら、その官公庁のロゴ（下の表）
+    - 配信後に付けるときは `node pipeline/setimage.mjs <source_url> <画像URL>`。
+    - **トップ以外の記事も、画像が無ければ同じ方法でロゴを付ける**（一覧のサムネイルが揃う）。
     - それでも画像が無ければ、その記事は `featured: false` のまま通常の行に出し、画像のある記事の中でいちばん大事なものをトップにする。
+
+  官公庁などのロゴ（各サイトの og:image。表示が崩れたら `ogimage.mjs` で取り直す）:
+
+  | 発表元 | 画像 URL |
+  |---|---|
+  | 厚生労働省 | https://www.mhlw.go.jp/common/img/img_ogp.jpg |
+  | PMDA | https://www.pmda.go.jp/files/000253405.png |
+  | デジタル庁 | https://www.digital.go.jp/themes/custom/gov_theme_da_2023/assets/images/ogp.png |
+  | 内閣府 | https://www.cao.go.jp/common4/img/ogp_image001.jpg |
+  | 東京都 | https://www.metro.tokyo.lg.jp/documents/158990/5052145/opg.png/3c79ba89-ab16-4589-4fad-b5b411615b25?version=1.1&t=1764164520819&imagePreview=1 |
+  | 日本取引所グループ（JPX） | https://www.jpx.co.jp/common/images/other/nlsgeu000000pud7-img/ogp.png |
+  | FDA | https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png |
+  | 経済産業省 | og:image 無し。`https://www.meti.go.jp/` 内のロゴ画像を探す |
 - その1本は記事本文まで読む: `node pipeline/release.mjs <url>`（本文・公開日時・og:image・会社概要を JSON で返す）。事業内容、解決しようとしている課題、金額と相手、資金使途、実績の数字を押さえる。両社がリリースを出している案件は両方読み、URL も両方載せる（`source_url_2`）。
 - **上場企業が当事者のときは、その会社の自社サイトのニュース／IR ページまで見に行く。**
   - 同じ件の自社リリース・適時開示があれば読み、URL を `source_url_2` に載せる（PR TIMES と両方）。
@@ -93,7 +111,7 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 - **comment**: `COMMENT_STYLE.md` の文体。**厚く書く1本は 250〜350字**、残りは **60〜150字（1〜4文）**。全部同じ熱量で書かない。
 - **source_name**: 発信元。法人格（株式会社など）は省く。
 - **source_url**: PR TIMES の記事ページ URL（`https://prtimes.jp/main/html/rd/p/....html`）。
-- **image_url**: `release.mjs` が返す og:image。取れなければ省略。
+- **image_url**: `release.mjs` が返す og:image。無ければ上記3の方法で当事者（または官公庁）のロゴを入れる。
 - **company**: 上記3の条件に合う会社だけ。`name` / `profile`（設立年月、所在地、資本金、上場/未上場、事業内容、許認可を1段落。代表者名は入れない）/ `url` / `ceo: { name, bio }`。
 - **published_date**: 今日の日付。
 - **category**: 8つのどれか。

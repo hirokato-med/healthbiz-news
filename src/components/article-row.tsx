@@ -18,14 +18,15 @@ import type { Article } from '@/lib/types';
 export function ArticleRow({ article, compact = false }: { article: Article; compact?: boolean }) {
   const theme = useTheme();
   const router = useRouter();
-  const { isSaved } = useStore();
+  const { isSaved, isRead } = useStore();
+  const read = isRead(article.id);
 
   return (
     <Pressable
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
       style={({ pressed }) => [styles.row, compact && styles.rowCompact, { borderBottomColor: theme.line, opacity: pressed ? 0.7 : 1 }]}
       accessibilityRole="button"
-      accessibilityLabel={`${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
+      accessibilityLabel={`${read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
           <View style={styles.headlineRow}>
@@ -42,6 +43,12 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
                 ★
               </ThemedText>
             )}
+            {/* 開いたことのある記事は、発信元・日付の横に小さく「既読」 */}
+            {read ? (
+              <ThemedText type="caption" themeColor="textSecondary">
+                既読
+              </ThemedText>
+            ) : null}
           </View>
         </View>
         <Thumb article={article} style={compact ? styles.thumbCompact : styles.thumb} />

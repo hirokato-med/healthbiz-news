@@ -1,15 +1,16 @@
 import { useMemo, useRef } from 'react';
-import { FlatList, RefreshControl, StyleSheet, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { FlatList, RefreshControl, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 
 import { PullToRefresh } from '@/components/pull-to-refresh';
 
 import { ArticleRow } from '@/components/article-row';
 import { FeaturedArticle } from '@/components/featured-article';
 import { SectionHeader } from '@/components/section-header';
+import { SubscribeLink } from '@/components/subscribe-link';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import type { Channel } from '@/constants/channels';
-import { MaxContentWidth, Spacing } from '@/constants/theme';
+import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatDateLong, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
@@ -19,6 +20,7 @@ import type { Article } from '@/lib/types';
 type Row =
   | { kind: 'section'; key: string; title: string; aside?: string }
   | { kind: 'subscribe'; key: string }
+  | { kind: 'subscribe-link'; key: string }
   | { kind: 'featured'; key: string; article: Article }
   | { kind: 'article'; key: string; article: Article };
 
@@ -84,6 +86,8 @@ export function ArticleList({
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
       out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0)}本` });
       out.push({ kind: 'featured', key: lead.id, article: lead });
+      // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
+      out.push({ kind: 'subscribe-link', key: 'subscribe-link' });
       todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
@@ -131,6 +135,12 @@ export function ArticleList({
       renderItem={({ item }) => {
         if (item.kind === 'section') return <SectionHeader title={item.title} aside={item.aside} color={channel.color} />;
         if (item.kind === 'subscribe') return <SubstackSubscribe />;
+        if (item.kind === 'subscribe-link')
+          return (
+            <View style={[styles.subscribeRow, { borderBottomColor: theme.line }]}>
+              <SubscribeLink where="featured" />
+            </View>
+          );
         if (item.kind === 'featured') return <FeaturedArticle article={item.article} />;
         return <ArticleRow article={item.article} />;
       }}
@@ -154,6 +164,7 @@ const styles = StyleSheet.create({
     width: '100%',
     maxWidth: MaxContentWidth,
   },
+  subscribeRow: { paddingVertical: Spacing.two, borderBottomWidth: Hairline },
   empty: {
     textAlign: 'center',
     paddingVertical: Spacing.ten * 2,

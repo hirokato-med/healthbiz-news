@@ -15,7 +15,7 @@ import { channelOf } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { track, trackArticle, trackClick } from '@/lib/analytics';
-import { relatedArticles } from '@/lib/related';
+import { articlesOfCompany, relatedArticles } from '@/lib/related';
 import { preloadShareCard, shareArticle } from '@/lib/share-card';
 import { formatDateLong } from '@/lib/articles';
 import { useStore } from '@/lib/store';
@@ -50,6 +50,12 @@ export default function ArticleScreen() {
     return () => clearTimeout(t);
   }, [shareNote]);
   const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
+  // 発信元の企業ページは、記事が2本以上あるか会社情報があるときだけリンクにする（1本だけのページに飛ばさない）
+  const sourceHasPage = useMemo(() => {
+    if (!article || article.kind === 'substack') return false;
+    const { articles: list, info } = articlesOfCompany(article.source_name, articles);
+    return list.length > 1 || !!info;
+  }, [article, articles]);
   if (!article) {
     return (
       <ThemedView style={styles.root}>
@@ -94,7 +100,7 @@ export default function ArticleScreen() {
           {article.title}
         </ThemedText>
         <View style={[styles.meta, styles.metaRow]}>
-          {article.kind === 'substack' ? (
+          {!sourceHasPage ? (
             <ThemedText type="caption" themeColor="textSecondary">
               {article.source_name}
             </ThemedText>

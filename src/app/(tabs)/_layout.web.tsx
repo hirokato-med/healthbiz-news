@@ -27,7 +27,7 @@ export default function TabsLayout() {
           tabBarIcon: icon('▤'),
           // 前回開いたあとに配信された未読の本数
           tabBarBadge: newCount > 0 ? newCount : undefined,
-          tabBarBadgeStyle: { backgroundColor: theme.up, color: theme.onAccent, fontSize: 11, fontWeight: '700' },
+          tabBarBadgeStyle: { backgroundColor: theme.accent, color: theme.onAccent, fontSize: 11, fontWeight: '700' },
         }}
       />
       <Tabs.Screen name="saved" options={{ title: '保存', tabBarIcon: icon('☆') }} />

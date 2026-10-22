@@ -25,6 +25,7 @@ export default function SearchScreen() {
   }, []);
 
   const terms = query
+    .normalize('NFKC')
     .trim()
     .toLowerCase()
     .split(/[\s　]+/)
@@ -90,6 +91,7 @@ function haystack(a: Article): string {
   return [a.title, a.source_name, a.comment, a.company?.name, a.company?.profile, ...(a.summary ?? [])]
     .filter(Boolean)
     .join('\n')
+    .normalize('NFKC')
     .toLowerCase();
 }
 

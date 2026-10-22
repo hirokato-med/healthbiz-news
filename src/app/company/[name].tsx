@@ -19,7 +19,7 @@ import { useStore } from '@/lib/store';
  */
 export default function CompanyScreen() {
   const { name: raw } = useLocalSearchParams<{ name: string }>();
-  const name = decodeURIComponent(raw ?? '');
+  const name = safeDecode(raw ?? '');
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
@@ -94,6 +94,15 @@ export default function CompanyScreen() {
       />
     </ThemedView>
   );
+}
+
+/** expo-router が復号済みのことも、%xx のままのこともあるので、失敗したらそのまま使う */
+function safeDecode(s: string): string {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
 }
 
 const styles = StyleSheet.create({

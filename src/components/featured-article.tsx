@@ -2,7 +2,6 @@ import { useRouter } from 'expo-router';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { KatoAvatar } from '@/components/kato-avatar';
-import { SubscribeLink } from '@/components/subscribe-link';
 import { ThemedText } from '@/components/themed-text';
 import { Thumb } from '@/components/thumb';
 import { channelOf } from '@/constants/channels';
@@ -43,7 +42,6 @@ export function FeaturedArticle({ article }: { article: Article }) {
       <ThemedText type="caption" themeColor="textSecondary">
         {article.source_name}・{formatRelative(article.published_date)}
       </ThemedText>
-      <SubscribeLink where="featured" />
     </Pressable>
   );
 }

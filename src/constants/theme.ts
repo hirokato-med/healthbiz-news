@@ -14,6 +14,8 @@ export const Colors = {
     text: '#121A33',
     /** 発信元・時刻などの脇役 */
     textSecondary: '#7A7A7A',
+    /** 既読の見出し。脇役より濃く、本文より薄い */
+    textMuted: '#5A6272',
     /** 白地。ニュースアプリの基本 */
     background: '#FFFFFF',
     /** 一段沈んだ面（ティッカー、コメント欄、サムネイルの下地） */
@@ -29,6 +31,7 @@ export const Colors = {
   dark: {
     text: '#F2F2F2',
     textSecondary: '#9A9A9A',
+    textMuted: '#A7B0C0',
     background: '#111214',
     surface: '#1C1E22',
     line: '#2A2D33',

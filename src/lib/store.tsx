@@ -73,7 +73,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     AsyncStorage.getItem(LastSeenKey)
       .then((raw) => {
         setNewSince(raw);
-        return AsyncStorage.setItem(LastSeenKey, new Date().toISOString());
+        // ちらっと開いて閉じただけで目印が消えないよう、直前の記録から1時間は基準を進めない
+        const recent = raw && Date.now() - new Date(raw).getTime() < 60 * 60 * 1000;
+        return recent ? undefined : AsyncStorage.setItem(LastSeenKey, new Date().toISOString());
       })
       .catch(() => {});
   }, [reload]);

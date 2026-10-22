@@ -28,12 +28,12 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
       style={({ pressed }) => [styles.row, compact && styles.rowCompact, { borderBottomColor: theme.line, opacity: pressed ? 0.7 : 1 }]}
       accessibilityRole="button"
-      accessibilityLabel={`${fresh ? '新着。' : read ? '既読。' : ''}${article.title}`}>
+      accessibilityLabel={`${fresh ? '新着。' : read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
           <View style={styles.headlineRow}>
             {fresh ? <View style={[styles.newDot, { backgroundColor: theme.accent }]} /> : null}
-            <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={[styles.headline, read && { color: theme.textSecondary }]}>
+            <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={[styles.headline, read && { color: theme.textMuted }]}>
               {article.title}
             </ThemedText>
           </View>

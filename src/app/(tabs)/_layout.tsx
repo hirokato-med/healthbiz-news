@@ -1,12 +1,10 @@
 import { NativeTabs } from 'expo-router/native-tabs';
 
 import { useTheme } from '@/hooks/use-theme';
-import { useStore } from '@/lib/store';
 
 /** 下部タブ（iOS / Android のネイティブタブバー）。Web 版は _layout.web.tsx。 */
 export default function TabsLayout() {
   const theme = useTheme();
-  const { newCount } = useStore();
   return (
     <NativeTabs
       backgroundColor={theme.background}
@@ -15,7 +13,6 @@ export default function TabsLayout() {
       <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>トップ</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf={{ default: 'newspaper', selected: 'newspaper.fill' }} md="newspaper" />
-        {newCount > 0 ? <NativeTabs.Trigger.Badge>{String(newCount)}</NativeTabs.Trigger.Badge> : null}
       </NativeTabs.Trigger>
       <NativeTabs.Trigger name="saved">
         <NativeTabs.Trigger.Label>保存</NativeTabs.Trigger.Label>

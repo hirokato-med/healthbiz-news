@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:29:56.101Z",
+  "updated_at": "2026-10-22T09:36:49.639Z",
   "posts": [
     {
       "id": "substack:https://hiroakikato.substack.com/p/1022lancet-digital-health1ai521",
@@ -160,6 +160,1078 @@
       "published_date": "2026-10-03",
       "excerpt": "土曜日です。今日もよろしくお願いします！！\n先週の9月25日のメルマガで「Oura、上場で時価総額2兆円へ」と書きました。\nそのOuraの上場が、値決めの直前で延期になりました。\n公式の理由は「需要は強いが、IPO市場が不透明」。\n関係者の話では、売り出し価格が仮条件の下限で決まりそうだったので見送ったということのようです。\n今日は、この延期を「市場はOuraを何の会社だと見たのか」という答え合わせとして書いていきます。\nそれでは、今日のニュースです。\n◆Oura postpon…\n Read more",
       "image_url": "https://substackcdn.com/image/fetch/$s_!iwQd!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2df5e14b-47da-4137-a6cc-06cd50ebb53f_1280x1280.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/102jamaai4ai",
+      "title": "JAMA、自律型の臨床AIに「医師免許」を与える提案に4通の反論、争点は「AIは医師になれるか」ではなく「責任を誰に残すか」",
+      "url": "https://hiroakikato.substack.com/p/102jamaai4ai",
+      "published_date": "2026-10-02",
+      "excerpt": "金曜日です。今日もよろしくお願いします！！\n昨日は「臨床医AI科学者」という医師の新しいキャリアの話でした。\n今日はその裏返しで、「AIに医師免許を」という話です。\nJAMAに4月、医師の判断を介さずに診療するAIに、医師と同じような免許制度を作ろうという提案が載りました。\n書いたのは、ペンシルベニア大学のアロン・バーグマン氏と、UCSFのロバート・ワクター教授、オバマ政権の医療改革を設計したエゼキエル・エマニュエル教授です。\n9月30日、この提案に4通の反論と、著者の返答が…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!V2PM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94352fbd-d3e7-4a8b-990b-7edbf70aeb88_792x458.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/101lancet-digital-healthaiai",
+      "title": "Lancet Digital Healthが「臨床医AI科学者」という新しい医師のキャリアを提案、AIが病院で使われないのは精度が足りないからではなく「間に立つ医師」がいないから",
+      "url": "https://hiroakikato.substack.com/p/101lancet-digital-healthaiai",
+      "published_date": "2026-10-01",
+      "excerpt": "10月になりました。今月もよろしくお願いします！！\n今日は久しぶりに論文の話です。\nLancet Digital Healthに9月29日、「臨床医AI科学者（clinician–AI scientist）」という新しい医師のキャリアを提案する論考が出ました。\n書いたのは、ロンドンのムーアフィールズ眼科病院のピアース・キーン教授と、北京の清華大学のウォン・ティエンイン教授を中心とするグループで、2人とも眼科医です。\n主張は1つです。\n医療AIが病院で使われないのは、AIの精度…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!QLWT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae203694-0348-4637-9931-02b36fc778c6_813x477.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/930rock-healthai3",
+      "title": "Rock Healthレビュー、AIで「立派な事業計画」が一晩でできる時代に、新規事業が本当に確かめるべき3つの問い、最初の市場・買う席に座る人・払う理由",
+      "url": "https://hiroakikato.substack.com/p/930rock-healthai3",
+      "published_date": "2026-09-30",
+      "excerpt": "水曜日です。Rock Healthレビューの回です！！\n今週のRock Weekly（9月28日号）のテーマは「Ready, set, GTM」。\nGTMは「Go-To-Market」、作ったものを誰にどう売るかの戦略のことです。\nRock Healthが言いたいのは、こうです。\nAIのおかげで、見栄えのする事業計画は一晩で作れるようになった。\nでも、それは「検証された戦略」とは別物で、新しい市場に出るときは、計画の見栄えより「3つの問い」に答えられるかで決まる。\nヘルスケアの…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!fmfl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16005fc0-57d2-417f-8e4b-5841177331ce_857x594.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/929ai",
+      "title": "中国・平安好医生、外国人向けにAI通訳と「同行する人」をセットにした受診支援を開始、保険会社が売るのは治療ではなく「医療の入口」になった",
+      "url": "https://hiroakikato.substack.com/p/929ai",
+      "published_date": "2026-09-29",
+      "excerpt": "火曜日です。今日もよろしくお願いします！！\n久しぶりに、中国の平安（ピンアン）の話です。\n中国最大級の保険グループ平安の医療部門である平安好医生（ピンアン・グッドドクター）が、中国に住む外国人向けに、19か国語のAI通訳と、病院まで一緒に行く担当者をセットにした受診支援サービスを始めました。\n保険会社が売っているのは、もう保険でも治療でもなく「医療の入口」です。\n今日は、この動きを日本の側から読みます。\nそれでは、今日のニュースです。\n◆Ping An launches AI-…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/9281615186000dx",
+      "title": "レイヤードが上場、初値は公開価格の1.6倍、福岡の15人の会社が18年かけて6,000の診療所に育てられた、診療所DXは「受付の手間」から始まる",
+      "url": "https://hiroakikato.substack.com/p/9281615186000dx",
+      "published_date": "2026-09-28",
+      "excerpt": "月曜日です。今週もよろしくお願いします！！\n先週金曜の9月25日、診療所向けのWeb問診や予約のシステムを作るレイヤードが、東京証券取引所に上場しました。\n福岡で15人の会社を引き継いだ毛塚牧人社長が、18年かけて、全国6,000の医療機関に使われる会社にして、上場まで来ました。\n自分も毛塚社長には仲良くさせてもらっています。\n今日は、この上場から、診療所のDXがどこから始まり、どこへ向かうのかを書いていこうと思います。\nそれでは、今日のニュースです。\n◆東京証券取引所スタンダ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!-Vnb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5524dfd2-05d9-4621-8100-80cf4a745db4_1484x779.jpeg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/927neuralinkals",
+      "title": "Neuralink、ALSで話せなくなった男性が「考えるだけ」で自分の声を取り戻した、脳と機械をつなぐ医療は「刺す」と「刺さない」の競争へ",
+      "url": "https://hiroakikato.substack.com/p/927neuralinkals",
+      "published_date": "2026-09-27",
+      "excerpt": "日曜日です。今日は山口のメンズヘルス医学会の2日目です。\n9月23日に、イーロン・マスク氏のNeuralink（ニューラリンク）が、ALSで話せなくなった男性が脳に埋めた装置で自分の声を取り戻した様子を公開しました。\nその翌日、Neuralinkの共同創業者が別に作った会社Precision Neuroscience（プレシジョン・ニューロサイエンス）が、大型の資金調達を発表しました。\n脳と機械をつなぐ技術が、実験室の話から、会社と会社の競争に変わってきています。\nそれでは…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!zmV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHTIv3Qwa0AAIwiD.jpg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/926nature-aging103545",
+      "title": "Nature Aging、10万人の健診データで見えた「男性の老化は35〜45歳から速くなる」、メンズヘルスは更年期ではなく中年の血液検査から始まる",
+      "url": "https://hiroakikato.substack.com/p/926nature-aging103545",
+      "published_date": "2026-09-26",
+      "excerpt": "土曜日になりました！一週間が早いです。。\n昨日のメールで書くのを忘れてしまっていたのですが、昨日から自分は山口県山口市に来ていて、今日・明日と開かれる日本メンズヘルス医学会の学術大会に参加します。\n日本メンズヘルス医学会は、自分は理事を務めていて、今日「メンズヘルスアップデート2026」とい…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!XUIp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c3bea9-c5ae-450a-98de-901dde271566_881x581.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/925oura2500",
+      "title": "Oura、上場で時価総額2兆円へ、指輪を売る会社ではなく「月額を払い続ける会員」を500万人持つ会社だった",
+      "url": "https://hiroakikato.substack.com/p/925oura2500",
+      "published_date": "2026-09-25",
+      "excerpt": "金曜日です。今週もあと1日、よろしくお願いします！！\n9月21日に、指輪型の健康デバイスを作るOura（オーラ）が、米Nasdaqへの上場手続きを正式に始めました。\n時価総額は、上限で140億ドル（約2兆2,000億円）になる見込みです。\nこのメルマガでは、6月のRing 5、7月のイーライリリーの出資、8月の睡眠スコアをめぐる訴訟と、Ouraはメルマガの常連で3回書いてきました。\n今日は上場の資料から、この会社が「何で稼いでいるのか」を見ていきます！\nそれでは、今日のニュー…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/924rock-health8",
+      "title": "Rock Healthレビュー、保険料8%増で米企業が福利厚生を作り直す、健康保険は「会社が選ぶ」から「社員が選ぶ」へ",
+      "url": "https://hiroakikato.substack.com/p/924rock-health8",
+      "published_date": "2026-09-24",
+      "excerpt": "木曜日です。今週は祝日で1日ずれましたが、Rock Healthレビューの回です！！\n今週のRock Weekly（9月21日号）のテーマは「Reap the benefits」、米国の企業が従業員に用意する健康保険の作り直しです。\n保険料が2027年に8%超上がる見通しになり、企業は給付を削るだけでなく、保険の「組み方」そのものを変え始めました。\n月曜に書いたAngle Healthは、その流れの一例でした。\n今日は、その全体像と、日本の企業にとっての意味を書きます。\nそれ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!qlI8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9111b94f-9750-49db-9fd3-2d4a2c16dc0e_837x574.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/923aesto-health954",
+      "title": "Aesto Health、電子カルテの「引っ越し業者」から954万人分が流出、データは移すときに一番漏れる",
+      "url": "https://hiroakikato.substack.com/p/923aesto-health954",
+      "published_date": "2026-09-23",
+      "excerpt": "秋分の日の水曜です。連休も今日まで。長かったような短かったような・・・。\n今日は、米国で今年2番目に大きい医療データの流出の話です。\n漏れたのは病院からではなく、病院が電子カルテを入れ替えるときにデータを運ぶ「引っ越し業者」のAesto Health（エスト ヘルス）からでした。\n日本では2027年から標準型電子カルテの供給が始まり、これから全国でカルテの引っ越しが起きます。\n今日は、その前に知っておきたいことを書きます。\nそれでは、今日のニュースです。\n◆Aesto Heal…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/922fda2240",
+      "title": "FDA、アルツハイマー病の血液検査を2か月で2件承認、40歳から使える検査も薬の普及を決めるのは「検査」になった",
+      "url": "https://hiroakikato.substack.com/p/922fda2240",
+      "published_date": "2026-09-22",
+      "excerpt": "連休もあと2日で明日まで。今日もよろしくお願いします！！\n9月18日のJAMAのニュース欄に、FDAがアルツハイマー病の血液検査を新たに2件承認したことがまとめられていました。\n米国のC2N Diagnostics（シーツーエヌ）とRoche（ロシュ）の検査です。\nこれまでPETか髄液検査でしか確かめられなかった脳の変化が、採血で分かるようになってきました。\n今日は、この動きが「薬」ではなく「検査」がアルツハイマー治療の普及を決める時代に入ったことを書きます。\nそれでは、今日…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Yk5i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc525fc9d-1365-4e75-9803-fd8892eaf8f5_792x389.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/921angle-health2ai4000",
+      "title": "Angle Health、従業員2人の会社にも売れる健康保険をAIで作り、評価額4,000億円へ、ヘルスケアの空白は「中小企業」にある",
+      "url": "https://hiroakikato.substack.com/p/921angle-health2ai4000",
+      "published_date": "2026-09-21",
+      "excerpt": "今日は敬老の日です。連休をみなさん、どうお過ごしでしょうか？\n今週もよろしくお願いします！！\n9月18日に、米国のAngle Health（アングル ヘルス）が、6億ドル（約940億円）を調達して評価額27億ドル（約4,200億円）になったと発表しました。\n中小企業向けの健康保険を、AIで安く速く作る会社です。\n今日は、この会社を通じて「ヘルスケアの新規事業で、まだ空いている場所はどこか」を書いていこうと思います。\nそれでは、今日のニュースです。\n◆Angle Health R…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/920nature-medicineaiaiai",
+      "title": "Nature Medicine、病院の中だけで動く医療AIがクラウドのAIに並んだ、次の勝負は賢さではなく「AIが自分の迷いを申告できるか」",
+      "url": "https://hiroakikato.substack.com/p/920nature-medicineaiaiai",
+      "published_date": "2026-09-20",
+      "excerpt": "日曜日です。今日は論文の回にしていきます！！\n9月15日にNature Medicineに、ドイツのドレスデン工科大学のチームが、患者データを一切外に出さず、病院の中のコンピュータだけで動く診断AIエージェントを作って評価した論文が出ました。\n日本の病院が医療AIを入れるときに一番気にするのは、「患者さんのデータを海外のクラウドに送っていいのか」です。\nこの論文はその問い答えているものだったので、取り上げていきます。\nそして、この論文の本当の主張は、賢さの比較ではなく、「A…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!HWTK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa28f4aa2-fea0-4be3-8b94-67dc674e1c3e_847x551.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/919vitality-googleai1ai",
+      "title": "Vitality × Google、AIが「次にやる健康行動」を1つだけ勧めて報酬を出す、予防はAIの賢さではなく「動かす設計」で決まる",
+      "url": "https://hiroakikato.substack.com/p/919vitality-googleai1ai",
+      "published_date": "2026-09-19",
+      "excerpt": "土曜日です。今週もお疲れさまでした！！\n今日は、9月17日に健康増進プログラムのVitality（バイタリティ）とGoogleが、AIで会員に「次にやる健康行動」を1つだけ勧めて報酬を出す仕組みを米国の保険会社と企業向けに本格展開すると発表したことを取り上げます。\n今週は、AIの速度の整え方…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!eVqQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11fab8a8-2bbb-4aa4-811a-d7b184cc64ce_1289x573.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/918novo-nordiskanthropicclaudeai",
+      "title": "Novo Nordisk、AnthropicのClaudeで創薬へ、製薬は「AI 1社と組む」から「AI各社を使い分ける」時代へ",
+      "url": "https://hiroakikato.substack.com/p/918novo-nordiskanthropicclaudeai",
+      "published_date": "2026-09-18",
+      "excerpt": "金曜日です。今週もあと1日、がんばっていきましょう！！\n9月14日に、AnthropicのCEOダリオ・アモデイ氏の「速度を落とせ」という論考を書きました。\nそのわずか2日後に、同じAnthropicが世界最大級の製薬会社と創薬で組むというニュースが出ました。\n今日は、この発表を読みながら、製薬会社とAIの関係がどう変わってきているのかを書いていきます！！\nそれでは、今日のニュースです。\n◆Novo and Anthropic will collaborate to adva…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Ttkz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a6d9d81-ed86-4691-b1ca-cf6cbe76cae8_679x405.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/917jamiaaiai",
+      "title": "JAMIA、医療AIは「データを全部入れる」と賢くなるのか、医療AIの競争はビッグデータから正しいデータへ",
+      "url": "https://hiroakikato.substack.com/p/917jamiaaiai",
+      "published_date": "2026-09-17",
+      "excerpt": "今日のメルマガは内容を何にするか、いろいろ読んでめちゃくちゃ悩みました。\n結局のところ、久しぶりの論文の会にしようと思います！\n医療AIの世界には、疑われることの少ない思い込みがあるのですが、それは、\n「カルテ、検査値、画像、薬剤とデータを全部入れるほどAIは賢くなる」というものです。\n今日は、この思い込みを正面から検…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!D0AH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3cf1a3f8-60c6-4686-8720-58ffad3d23c9_977x505.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/916rock-health",
+      "title": "Rock Healthレビュー、がん医療が「点」から「線」へ。診断の日ではなく、人生に寄り添うケアへ",
+      "url": "https://hiroakikato.substack.com/p/916rock-health",
+      "published_date": "2026-09-16",
+      "excerpt": "水曜なので、Rock Healthレビューの回です。\n今週号のタイトルは「Cancer care continuum」。\ncontinuum（コンティニュアム）は連続体という意味で、医療の世界では、予防から検診、診断、治療、そして治療後の人生までを切れ目なくつなぐ「ケアの連続体」という使い方をします。\n今週号は、がん…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!zj44!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1b072f1-74ae-4a51-8b74-95ab766cec37_855x480.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/915applehealth",
+      "title": "Apple、Healthアプリで血液検査の販売を開始へ。「記録する場所」が「検査を買う場所」になった",
+      "url": "https://hiroakikato.substack.com/p/915applehealth",
+      "published_date": "2026-09-15",
+      "excerpt": "昨日は、AI業界のいちばん頂点の話をしていました。\n今日は一転して、生活者の手元の話です。\n先週9月9日のAppleの新製品発表イベントで、iPhoneの中に、医療の新しい入口がひとつ増えました。\n米国のHealthアプリで、血液検査が買えるようになるのです！！！\n日本はまだ対象外ですが、この動きは日本のヘルスケアの数…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/914anthropic-ceo-ai",
+      "title": "Anthropic CEO ダリオ・アモデイ、異例の論考、AIの競争は「誰が安全に速く進めるか」へ",
+      "url": "https://hiroakikato.substack.com/p/914anthropic-ceo-ai",
+      "published_date": "2026-09-14",
+      "excerpt": "学会明けの月曜です。今週も元気にいきましょう！！\n先週は、AIと医療の仕事について、現象（9月10日）と理論（9月13日）を書きました。\n今日は、AI業界の最先端から出てきた、異例の文章を読んでいきます！！\nClaude（クロード）を作るAI企業Anthropic（アンソロピック）のCEO、Dario Amodei（…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!dfwF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0adcf29a-a140-4a5b-b36f-0b80738863a8_713x591.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/913nejmaijevons-paradox",
+      "title": "NEJM、AIで医師の仕事が効率化されると医師の需要はむしろ増える、医療のJevons paradox",
+      "url": "https://hiroakikato.substack.com/p/913nejmaijevons-paradox",
+      "published_date": "2026-09-13",
+      "excerpt": "昨日、日本ヘルスケアイノベーション学会の第2回学術大会を、一橋講堂で無事に開催できました！\nお越しくださったみなさん、登壇いただいた先生方、本当にありがとうございました！！！\n塩崎恭久元厚労大臣、渋谷健司先生、メディカル・データ・ビジョンの中村正樹社長の基調講演から、吉村健佑先生の政策、小久保欣哉先生の経営戦略、沖…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!bpy1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52c12a74-3ea3-4dd1-8371-0ba4d4202579_2048x1152.jpeg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/91282",
+      "title": "厚生労働省、82枚の「日本の医療の教科書」を公開、日本の外来患者はもうピークを過ぎていた",
+      "url": "https://hiroakikato.substack.com/p/91282",
+      "published_date": "2026-09-12",
+      "excerpt": "いよいよ今日、日本ヘルスケアイノベーション学会の第2回学術大会です！\n14時に一橋講堂でお会いしましょう！！！\nその学会の朝にふさわしい資料が、昨日出ました。\n厚労省の社会保障審議会医療保険部会に提出された、日本の医療の「基礎資料」、全82枚です。\n日本の医療と健康の現状、保険制度の仕組み、これからの環境変化までを数字…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!gSwE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8acba41b-19ff-4516-81b0-92640bff2b0f_728x501.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/911100ai-ready",
+      "title": "厚労省、電子カルテ100%はゴールではない、日本の医療をAI Readyにする計画が決まった",
+      "url": "https://hiroakikato.substack.com/p/911100ai-ready",
+      "published_date": "2026-09-11",
+      "excerpt": "今週は、米国医師会のAI組織、医療の働き手とAIと書いてきましたが、金曜の今日は日本の政策の話で締めます。\nおととい9月9日、日本の医療DXの今後4年を決める2つの文書が、正式に決まりました。\n8月6日に、厚労省にヘルスケアAX・DX推進本部ができて、推進と規制は車の両輪だと書きました。\nその推進の側の具体策が、出て…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/910rock-healthai",
+      "title": "Rock Healthレビュー、AIは医療の仕事を奪うのか、放射線科医の給料が過去最高値という現実",
+      "url": "https://hiroakikato.substack.com/p/910rock-healthai",
+      "published_date": "2026-09-10",
+      "excerpt": "昨日はAMAの速報を優先したので、今日は今週のRock Healthレビューをしていきます！\n今週号のタイトルは「Clocking in」。タイムカードを押して出勤する、という意味の言い回しです。\nテーマは医療の働き手とAIで「AIがいよいよ医療の職場に出勤してきた」という掛け方だと思います。医療で働くすべての人に…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!8NVj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F454e638b-9e9b-4776-8469-cb4044a492e2_858x501.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/99aiai",
+      "title": "米国医師会、AI専門組織のトップにデジタル医療の第一人者、医師会がAIを「運用」する時代へ",
+      "url": "https://hiroakikato.substack.com/p/99aiai",
+      "published_date": "2026-09-09",
+      "excerpt": "今週はRock Healthレビューがないみたいなので、今日はどうしても書きたい速報の話をしていきます。\n自分がいま日本で取り組んでいることと、見ている未来がまったく同じ動きが、米国の医師会で起きたからです。\nそれでは、前置きも少なく、いきなり今日のニュースです。\n◆AMA announces Jennifer Gol…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Pbau!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36e21bda-933e-408f-9fc5-52ae5d0f7bf5_1018x609.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/98lancetaieric-topol",
+      "title": "Lancet、医療AIは「病名」ではなく「人生の軌跡」を学ぶ、Eric Topolが描く次の医療",
+      "url": "https://hiroakikato.substack.com/p/98lancetaieric-topol",
+      "published_date": "2026-09-08",
+      "excerpt": "8月25日のメルマガで、老化時計についてのNature Medicineの総説を紹介しました。\nあの著者の一人だったEric Topol（エリック・トポル）氏が、先週金曜、今度はLancetに、医療AIの次の形を描く論考を出しました。\n体の年齢の次はカルテの話です。\n1ページの短い論考ですが、主張はとても大きいので、今…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!-O88!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b87731e-2f41-48bc-bdc3-7237483047d0_812x541.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/97goodrx4000250",
+      "title": "GoodRx、月4000円でジェネリック250種類を無料にしてどこで儲けるのか、医療版プライム会員の設計",
+      "url": "https://hiroakikato.substack.com/p/97goodrx4000250",
+      "published_date": "2026-09-07",
+      "excerpt": "新しい週になりました！\n今週の土曜はいよいよ日本ヘルスケアイノベーション学会です。\n今週も元気にいきましょう！！\n8月29日のメルマガでSword HealthのHeadspace買収を取り上げて、デジタルヘルスの競争の単位が疾患から患者へ移っていると書きました。\n今日はその続きの話です。\n競争の単位を、患者からさらに「世…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/96openaigpt-6-astraagiai",
+      "title": "OpenAI、最新型GPT-6 AstraでAGI時代へ、初見の問題を解くAIは医療をどう変えるのか",
+      "url": "https://hiroakikato.substack.com/p/96openaigpt-6-astraagiai",
+      "published_date": "2026-09-06",
+      "excerpt": "日曜なので、少し大きな話をします！！\n今週は日本の政策、医療AIの専門化と書いてきましたが、今日はそれらのベースになる基盤技術の話です。\n9月3日、OpenAIが最新のAIモデル、GPT-6 Astra（アストラ）を発表しました。\nChatGPTを作っている会社の、いちばん新しい頭脳です。\n発表の場で、OpenAIのBr…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/95openevidence3ai",
+      "title": "OpenEvidence、医学の巨人3人の名を冠したAI群、がんの専門エージェントで次の段階へ",
+      "url": "https://hiroakikato.substack.com/p/95openevidence3ai",
+      "published_date": "2026-09-05",
+      "excerpt": "土曜日ですね。今週もお疲れさまでした！\n8月14日のメルマガで、全米の医師の4割が毎日使うという医療AI検索、OpenEvidenceを紹介しました。今日はその続編です。\n9月3日に、OpenEvidenceが新しいAIモデル群を発表しました！\n医師の情報の入口を取った会社が次にどこへ向かうのかが、この発表に出ています。",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!SfMz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d8b2a44-01c7-4f9c-8315-e0dd7a22388b_926x494.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/94336017",
+      "title": "厚労省医政局、予算要求3.3倍の6,017億円、自分のいた局が「産業政策の役所」に変わり始めた",
+      "url": "https://hiroakikato.substack.com/p/94336017",
+      "published_date": "2026-09-04",
+      "excerpt": "昨日は、英国政府がAIスタートアップの最初の顧客になるという話を書きました。\n金曜の今日は、日本の政策の話です。しかも、自分の古巣の厚労省の話になります。\n厚労省の医政局が、2027年度の予算の概算要求を出しました。\n金額は今年度の当初予算の約3.3倍です。\nただ、本当のニュースは金額ではなく、中身です。\n自分がかつて働い…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!WaKK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64dc9860-1494-41b2-943f-54ac63fe59c4_1064x732.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/93ai6",
+      "title": "英国、AIスタートアップに補助金ではなく「発注」を始めた、自分が6月に日本へ提言した方式です",
+      "url": "https://hiroakikato.substack.com/p/93ai6",
+      "published_date": "2026-09-03",
+      "excerpt": "昨日の日本経営学会の発表、終えてきました！\n生粋の経営学者のみなさんからの質問は鋭くて、鍛えられました。\nこの経営学者への道の話は、また改めて書いていきます。\n今日は、英国の新しい政策の話です。\n一昨日の9月1日に発表されたもので、AIスタートアップへの支援なのですが補助金ではありません。政府が顧客となって買うのです。\nそ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!D4LR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b3918f8-68b1-47bd-af41-9ff4f6137649_888x609.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/92rock-health",
+      "title": "Rock Healthレビュー、小児デジタルヘルスは「子どものアプリ」から「家族を支える仕組み」へ",
+      "url": "https://hiroakikato.substack.com/p/92rock-health",
+      "published_date": "2026-09-02",
+      "excerpt": "今日で、このメルマガは100号になりました！\n5月末に始めて、休まず毎日書いてきた100通です。\n読み続けてくださっているみなさんのおかげです。ありがとうございます！！\nそして、今日はこれから日本経営学会の第100回大会で研究発表をしてきます。\nたまたまですが、メルマガの100号と第100回の学会発表日が同じ日になりまし…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!e9fK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67a1b2ac-9b47-4460-abdb-6681720ea65b_849x569.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/91492",
+      "title": "厚労省、受診は減ったのに医療費は過去最大49.2兆円、日本の医療で何が起きているのか",
+      "url": "https://hiroakikato.substack.com/p/91492",
+      "published_date": "2026-09-01",
+      "excerpt": "今日から9月です！今月もよろしくお願いします！！\n昨日は、効く薬を続けてもらうデジタルヘルスの基本とも言うべき話をしました。\n9月の初日の今日は、日本の医療のいちばんよく登場する数字の話をしていきます。\n先週8月28日に厚労省が公表した、2025年度の医療費の動向です。\n過去最大を更新しましたが、面白いのは総額ではなくそ…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/RvutPUGJowk"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/831jama2",
+      "title": "JAMA、薬は効くが飲まれなければ意味がない、2万人試験が示した「続けてもらう技術」",
+      "url": "https://hiroakikato.substack.com/p/831jama2",
+      "published_date": "2026-08-31",
+      "excerpt": "8月も最後の日になりました！今週も月曜から、元気にいきましょう！！\n昨日は、AIが心エコーを撮って読むという最先端の話をしました。\n今日はあえて、AIらしさのない研究を取り上げます。\n薬を切らした患者さんにメッセージを送るという、それだけの試験です。\nでも自分は、ここにデジタルヘルスの本質の一つがあると思っています。\nお…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!z9oz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa82572d8-bd0b-432f-bea3-960f0e3972e6_779x423.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/830jama-cardiologyai",
+      "title": "JAMA Cardiology、AIが超音波を「撮って、読む」、専門家しかできない検査が広がっていく",
+      "url": "https://hiroakikato.substack.com/p/830jama-cardiologyai",
+      "published_date": "2026-08-30",
+      "excerpt": "日曜なので、少し大きな視点の話をしようと思います。\n8月21日（金）飲める案がに、AIは医師を置き換えるのかというJAMAの挑発的な論説を紹介しました。\n今日取り上げる研究は、この問いに別の角度から答えています。\nAIで医師の代わりをさせるのではなく、専門家がいる場所でしかできなかった検査をAIの支援で専門家のいない…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!vtto!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee59a667-4659-469f-aaf0-b6c7e90bb570_833x432.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/829sword-health4800headspace",
+      "title": "Sword Health、4800億円だった瞑想アプリのHeadspaceを買収へ",
+      "url": "https://hiroakikato.substack.com/p/829sword-health4800headspace",
+      "published_date": "2026-08-29",
+      "excerpt": "土曜日ですね。今週もお疲れさまでした！\n昨日は日本の保険の境界線の話をしましたが、今日は米国の大きなM&Aのニュースです。\n世界で最も有名な瞑想アプリのHeadspace（ヘッドスペース）が、身売りします。\n買い手は、デジタル理学療法のSword Health（ソード・ヘルス）です。\nそしてHeadspaceの売却の値…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/828",
+      "title": "中医協、「保険で払う医療」はどこまでか、湿布は自己負担・出産は保険へ",
+      "url": "https://hiroakikato.substack.com/p/828",
+      "published_date": "2026-08-28",
+      "excerpt": "今週は米国の話が続いたので、金曜の今日は日本の制度の話をします。\n元厚労省の人間として、これは書いておきたい回です。\nおととい26日、中医協（中央社会保険医療協議会。診療報酬や薬の公定価格を決める、厚労省の審議会です）の総会が開かれました。\n議題は3つありました。費用対効果評価、OTC類似薬の保険給付の見直し、そして…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/827lancetai",
+      "title": "Lancet、AI音声入力は「カルテ作成ツール」ではない、患者の物語を誰が編集するのか",
+      "url": "https://hiroakikato.substack.com/p/827lancetai",
+      "published_date": "2026-08-27",
+      "excerpt": "この夏、AI音声入力の話を何度も書いてきました。\n8月11日のDoximityでは診療記録AIのScribeの利用者が7月に10倍になったと書き、\n8月15日のEpicでも、診察の会話からカルテの下書きを作るAI Chartingが主力製品でした。\n医療AIの中で、いま最も順調に普及しているツールです。\n今日は、その定…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Hse9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc733c608-1d94-44f0-a86a-83b155c853fe_817x540.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/826rock-health",
+      "title": "Rock Healthレビュー、不妊治療テックが広げる「知る権利」、次は「受けられる権利」へ",
+      "url": "https://hiroakikato.substack.com/p/826rock-health",
+      "published_date": "2026-08-26",
+      "excerpt": "水曜なので、Rock Healthレビューの回です。\n今週号のタイトルは「Not so over easy」です。これ、ちょっとタイトルを説明させてください。\n「over easy」は、米国の朝食の定番の注文の言葉です。\n目玉焼きを両面で焼いて、黄身をとろとろに残す焼き方を「eggs over easy」と言います。\n…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!i5UK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc668c36-c794-495d-9dcf-988828426ddc_844x537.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/825nature-medicine",
+      "title": "Nature Medicine、老化は全身で同じ速さではない、「臓器別の年齢」が次の医療を変える",
+      "url": "https://hiroakikato.substack.com/p/825nature-medicine",
+      "published_date": "2026-08-25",
+      "excerpt": "今日は、自分の専門である抗加齢医学のど真ん中、そしてこれからの医療の本丸になると考えている話をします。\n『0次予防から始まる健康国家戦略』にも書きましたが、これからの医療は、「病気を治すこと」から「健康な時間をどれだけ延ばせるか」というロンジェビティ（健康長寿）へ向かっていきます。\n病気になってから対処するのではな…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!voyY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F397eee96-1fa7-4757-a579-1f4666020af6_825x633.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/824oura",
+      "title": "Oura、睡眠の精度をめぐり集団訴訟、睡眠スコアは医療のデータなのか",
+      "url": "https://hiroakikato.substack.com/p/824oura",
+      "published_date": "2026-08-24",
+      "excerpt": "今週も月曜になりました！8月最後の1週間、今週も頑張っていきましょう！！\n先週の木曜に、JAMAの論考をもとに、ウェアラブルの数字は「消費者が見たい数字」で「医療に必要な数字」ではないという話を書きました。\nその4日後、この論点がそのまま裁判になりました。\nOuraが、睡眠トラッキングの精度をめぐって集団訴訟を起こさ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/823devoted-health4ai",
+      "title": "Devoted Health、評価額4兆円で調達協議、医療AIの価値は「誰が回収するか」で決まる",
+      "url": "https://hiroakikato.substack.com/p/823devoted-health4ai",
+      "published_date": "2026-08-23",
+      "excerpt": "日曜なので、少し広い視点でお金と事業モデルの話をします。\n今週は、GLP-1の栄養からJAMAの論説、FDAの規制まで書いてきました。\n今日はその締めくくりに、いま米国でいちばん高い値のつきつつあるヘルスケアスタートアップを取り上げます。\n保険と医療とAIを一体にした、Devoted Health（ディボーテッド・ヘ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/822fdaaiai",
+      "title": "FDA、生成AIの医療機器をどう審査するか、患者が直接使うAIほど高リスク",
+      "url": "https://hiroakikato.substack.com/p/822fdaaiai",
+      "published_date": "2026-08-22",
+      "excerpt": "土曜日ですね。今週も1週間、お疲れさまでした！\n昨日の「AI単独の方が『医師＋AI』より良い医療になるかもしれない」というJAMAの論説のメルマガ、読んでもらえましたか？\n配信後に何人かの方から感想をいただきました。\nやはり、引っかかるところのあるテーマなのだと思います。\n配信したあとも自分の中でずっと余韻が残っていて…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!5m_E!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dd0aa72-c11d-42cc-a88a-f74e1ee268f0_941x588.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/821jamaaiai",
+      "title": "JAMA、AI単独の方が「医師＋AI」より良い医療になるのか",
+      "url": "https://hiroakikato.substack.com/p/821jamaaiai",
+      "published_date": "2026-08-21",
+      "excerpt": "昨日は、ウェアラブルのデータを医師がどう受け取るかというJAMAの論説を紹介しました。\n今日も同じJAMAから、今週8月17日に公開されたばかりの、かなり挑発的な論説を取り上げます。\n「医師＋AI」をこれからの医療の進めるべき姿だという、いまの医療AIの大前提そのものを疑う内容です。\nそれでは、今日のニュースです。\n◆…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!4W8q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e57eb3b-ff36-4832-824a-79a4d82f3e60_807x471.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/820jama",
+      "title": "JAMA、ウェアラブル戦争の次の勝者は、センサーが良い会社ではない",
+      "url": "https://hiroakikato.substack.com/p/820jama",
+      "published_date": "2026-08-20",
+      "excerpt": "今日は、最近増えてきている外来の出来事からでメルマガを書こうと思います。\n外来をしていると「先生、睡眠スコアがずっと60点台なんですけど、大丈夫でしょうか」と聞かれる場面が増えてきました。\n患者さんはApple WatchとかOura Ringをしていて、毎晩の数字がスマホにたまっています。\nただ正直に言うと、その数…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!S160!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44b8c677-8e3d-4bdd-9971-0679c50bdc76_800x464.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/819rock-healthglp-1",
+      "title": "Rock Healthレビュー、GLP-1投資の第二幕、勝負は「薬を届けた後」に移った",
+      "url": "https://hiroakikato.substack.com/p/819rock-healthglp-1",
+      "published_date": "2026-08-19",
+      "excerpt": "水曜なので、今週のRock Healthレビューの回です！\n今週号のタイトルは、なんと「Nutrition’s Second Act（栄養の第二幕）」でした！！\n昨日、NestléのGLP-1向け食品開発を書いたばかりですが、同じ週のRock Healthも栄養をメインテーマに持ってきました！\nやっぱりここが熱くなっ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!NiKq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06730e09-3413-43e2-8b48-23337f265f59_819x495.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/818aiglp-1",
+      "title": "ネスレ、痩せ薬の利用者向け食品をAIで開発、GLP-1の周りに経済圏が生まれる",
+      "url": "https://hiroakikato.substack.com/p/818aiglp-1",
+      "published_date": "2026-08-18",
+      "excerpt": "今日は昨日8/17にロイターで報じられた、食品の巨人の話です。\nこの夏、GLP-1について、イーライリリーとノボの薬の競争、Amazonの参入、保険の制度と書いてきました。\n今日は新しい登場人物で、Nestlé（ネスレ）が痩せ薬を使う人のための食品をAIで開発しています。\nそれでは、今日のニュースです。\n◆Nestle…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/817googleabbottzocdocai",
+      "title": "Google、AbbottとZocdocと連携、医療AIの競争は正しい答えの勝負から「行動までの道筋」を握る勝負へ！",
+      "url": "https://hiroakikato.substack.com/p/817googleabbottzocdocai",
+      "published_date": "2026-08-17",
+      "excerpt": "お盆が明けました！今週も月曜から、張り切っていきましょう！！\nそして今日は、みなさんにお礼を言わせてください。このメルマガの登録者が、1000人を超えました！！\n5月末に始めて、2か月半ちょっと。\n毎日休まず書くと決めて、平日も土日もお盆も書き続けてきましたが、正直、こんなに早く1,000人の方に読んでもらえるように…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/816hippocratic-aiai30ai",
+      "title": "Hippocratic AI、医療AIとして30種類の「AI専門家チーム」で攻める",
+      "url": "https://hiroakikato.substack.com/p/816hippocratic-aiai30ai",
+      "published_date": "2026-08-16",
+      "excerpt": "お盆最後の日曜になりました。今日も変わらず書いていきます！\n今週は、Doximity、OpenEvidence、Epicと医師との接点や業務の流れを握る会社の話が続きました。\n今日はその先の話として、医療AIが「賢い1人」から「専門家のチーム」に変わり始めたという発表があったので取り上げていきます！\nそしてこの会社は…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/815epicai",
+      "title": "Epic、生成AIは電子カルテの巨人を壊すどころか強くしている",
+      "url": "https://hiroakikato.substack.com/p/815epicai",
+      "published_date": "2026-08-15",
+      "excerpt": "お盆の土曜も変わらずにメルマガを書いていきます！\n昨日は、医師の情報の入口を取ったOpenEvidenceの話をしました。\n今日は、その先にある医療ITでいちばん強い部分として、電子カルテの巨人であるEpic（エピック）を取り上げます。\n生成AIの時代に、この巨人は壊されるどころかむしろ強くなっています。\nそれに関する…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/814openevidence1974ai",
+      "title": "OpenEvidence、企業評価額1.9兆円、米国医師74万人が使う医療AIの中身を検証した論文が出た",
+      "url": "https://hiroakikato.substack.com/p/814openevidence1974ai",
+      "published_date": "2026-08-14",
+      "excerpt": "お盆の真っ盛りですが、今日も変わらずメルマガを書いていきます！\n昨日は、医療AIの次の証明は費用対効果だという話をしました。\n今日は、その検証がいちばん追いついていない場所の話です。\nいま世界で最も速く医師に広がっている医療AI、OpenEvidence（オープンエビデンス）を取り上げていきます！！\n知っている方も多い…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!bc8e!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ac972cf-187c-464a-902f-7dc4979f7beb_818x479.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/813npj-digital-medicineai",
+      "title": "npj Digital Medicine、皮膚がんAIアプリで皮膚がんを早く見つければ、医療費も減るのか",
+      "url": "https://hiroakikato.substack.com/p/813npj-digital-medicineai",
+      "published_date": "2026-08-13",
+      "excerpt": "お盆ですね。世の中は休みモードですが、このメルマガは変わらず毎日書いていきます！\n実は今日は、何を取り上げるか久しぶりに悩みました。\nいつもは前日の夜や朝の時点でこれだとすぐ決まるのですが、今日は決め手に欠けて、いろんなニュースや論文をかなり調べました。\nそして決め手に欠けるまま、何を書こうか２時くらいまで考えたので…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!IgAf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c49d065-5f64-420a-8b9d-88370aebbe13_813x480.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/812rock-health",
+      "title": "Rock Healthレビュー、気候変動は「薬が届く、病院が稼働する」という医療の当たり前を壊し始めた",
+      "url": "https://hiroakikato.substack.com/p/812rock-health",
+      "published_date": "2026-08-12",
+      "excerpt": "昨日は、医療AIの勝負を分けるのは「届ける力」だという話を書きました。\n今日取り上げる今週のRock Healthレビューは、奇しくもその続きのような号です。\n薬が届く、病院が稼働する、患者さんが受診できるという医療が当たり前にしてきたその前提が、気候変動で壊れ始めているという話です。\nそれでは、今日のニュースです！！",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!pCFJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5960ec63-6fba-46a5-9cb1-56e7bd180175_835x511.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/811doximityai",
+      "title": "医師向けプラットフォームのDoximity、株価が一晩で急騰、医療AIの勝負はモデルの性能より「届ける力」",
+      "url": "https://hiroakikato.substack.com/p/811doximityai",
+      "published_date": "2026-08-11",
+      "excerpt": "8月11日、今日は「山の日」ですね。\n2016年に制定された新しい祝日で、正直、自分にはまだあまりなじんでいません。\n制定された2016年は厚労省で働いていた頃で、翌2017年からはアイリスを作って必死にやっていたので、この祝日と一緒に過ごした記憶があまりないのだと思います。\nそれでも、もう10年になる祝日だと知…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!WBlB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c446ca5-84d6-42b3-ad6b-fb3f5053cbff_923x452.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/810eu-ai-actai2028ai",
+      "title": "EU AI Actの医療AI規制は2028年へ延期、医療AIは今どこまで自律化しているのか",
+      "url": "https://hiroakikato.substack.com/p/810eu-ai-actai2028ai",
+      "published_date": "2026-08-10",
+      "excerpt": "今週も月曜になりました！お盆の週ですが、今週も頑張っていきましょう！！\n今月8月2日、EUのAI規制法（EU AI Act）で、高リスクAIに関する義務の適用が始まる節目の日でした。\nただ、結論から言うとこの日程は延期されています。\nそこで今日は、規制の話と合わせて、そもそも医療AIはいまどこまで自律化しているのかを…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/89ai",
+      "title": "ウォール街、AI株の次に買っているのはヘルスケア株、米ヘルスケア指数は過去最高値に！",
+      "url": "https://hiroakikato.substack.com/p/89ai",
+      "published_date": "2026-08-09",
+      "excerpt": "日曜なので、ヘルスケア領域で広い視点の話をしていこうと思います！\nこの夏、リリーの大型買収、AmazonのGLP-1参入、Functionの720億円調達と、ヘルスケアに大きなお金が動くニュースを毎日書いてきました。\n実はこの個別の動きの背景でもっと大きな流れが生まれてきていて、ウォール街の資金がAI株からヘルスケア…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/88function-health7201",
+      "title": "Function Health、株を渡さず720億円調達、健康診断が「年1回の行事」でなくなっていく",
+      "url": "https://hiroakikato.substack.com/p/88function-health7201",
+      "published_date": "2026-08-08",
+      "excerpt": "今日は昨日のメルマガでも予告をしていた、Function Health（ファンクション・ヘルス）の大型調達の話をします。\n7月20日のベッカムのIM8、7月26日のQuest、そして昨日のAmazonといったように今週書いてきたお金と予防医療の話が、まとまるような内容になっています。\nいつもつい、メルマガが長くなりが…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!1ceG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3ec69b9-da40-485b-b7bb-fd6ff2ed8f04_1059x623.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/87amazon20188",
+      "title": "Amazon、2018年から8年のヘルスケア挑戦で、ようやく勝てる場所を見つけた！",
+      "url": "https://hiroakikato.substack.com/p/87amazon20188",
+      "published_date": "2026-08-07",
+      "excerpt": "昨日、8月6日にAmazonから大きな発表がありました！！\n本当は途中まで、書くと予告をしていたFunction Healthの720億円調達の内容を書いていたのですが、Amazonのニュースを優先していこうと思います。\n（なので、全面的に書き換えをしていて現在、朝の4時です・・・。Function Healthの話…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!JCyY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83180d11-dd2e-4df2-b16e-d7388f16d30d_1393x563.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/86axdx",
+      "title": "厚労省が「ヘルスケアAX・DX推進本部」設置、厚生労働大臣を本部長に概算要求に向けて始動",
+      "url": "https://hiroakikato.substack.com/p/86axdx",
+      "published_date": "2026-08-06",
+      "excerpt": "昨日は、「米国でAIが診療や処方にまで踏み込み始めて、間違えたときに誰が責任を負うのか」という議論が始まっているという話を書きました。\n今日は日本の動きとして、厚生労働省が立ち上げ、昨日8月5日に初会合が開かれた「ヘルスケアAX・DX推進本部」について話をしてきます。\n7月24日に取り上げたU.E.N.O.Planに…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!ViXc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0707f543-3136-4837-bcfe-eec16f17b0e8_1079x561.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/85rock-healthai",
+      "title": "Rock Healthレビュー、AIの健康助言で害が出たら誰の責任か",
+      "url": "https://hiroakikato.substack.com/p/85rock-healthai",
+      "published_date": "2026-08-05",
+      "excerpt": "昨日は、メルマガの冒頭で、volと日付を間違えたものを送信してしまいました！！\n自分に朝来たメールで気づいたのですが、日にちが「8/5水」になっていて、「今日ってもう水曜日だっけ？！」と、びっくりしていました。\nメルマガを最後書き終えていたのが深夜で、普通に眠い感じで人間的なミスをしてしまっていました。\n昨日、びっくり…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!VuTe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F724109d4-3bf6-4acf-bdb7-1d889241d7b6_836x469.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/85samsunggalaxy-ringfda",
+      "title": "SamsungのGalaxy Ring、睡眠時無呼吸のリスク検知でリングデバイス初のFDAクリアランス",
+      "url": "https://hiroakikato.substack.com/p/85samsunggalaxy-ringfda",
+      "published_date": "2026-08-04",
+      "excerpt": "Thanks for reading 加藤浩晃のヘルスケアイノベーション通信! Subscribe for free to receive new posts and support my work.\nこのメルマガでは、6月28日にOura Ring 5、7月23日にイーライリリーのOura出資など、リング型ウェアラブルの話を続けて書いてきました。\n今日はその続きで、Samsungによる発表です！！\nリングで、睡眠時無呼吸という病気のリスクを拾えるようになるという話です。\nそ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/83openaichatgpt-health3",
+      "title": "OpenAI、ChatGPT Healthを全米に開放、週3億件の健康相談を医療記録と接続",
+      "url": "https://hiroakikato.substack.com/p/83openaichatgpt-health3",
+      "published_date": "2026-08-03",
+      "excerpt": "今週も月曜になりました！8月最初の1週間、今週も頑張っていきましょう！！\n昨日は、米国成人の24%が心の悩みを生成AIに相談しているという調査を紹介しました。\n今日はその相談を受けている側の本命、OpenAIの話です。\n先週から2回予告してきた「ChatGPT Health」について、詳しい人もそうでない人もいると思う…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/82npj-digital-medicine24ai",
+      "title": "npj Digital Medicine、米国成人の24%が利用、生成AIはもう心の悩みの入口になり始めている",
+      "url": "https://hiroakikato.substack.com/p/82npj-digital-medicine24ai",
+      "published_date": "2026-08-02",
+      "excerpt": "有料購読者向けの記事です。全文はメルマガで読めます。",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!pRCQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4d5f42-b655-4ac3-9fb9-148761d94e74_809x437.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/81teladocm-and-a",
+      "title": "Teladoc、M&Aで築いた世界最大のオンライン診療企業が、なぜいま苦戦しているのか",
+      "url": "https://hiroakikato.substack.com/p/81teladocm-and-a",
+      "published_date": "2026-08-01",
+      "excerpt": "8月に入りました！今月も頑張りましょう！！よろしくお願いします！\nそして、このメルマガを登録してくれている人が900人を超えました。\n5月末から始めて2か月ちょっと、毎日読んでくださって本当にありがとうございます。\n毎日のView数は1000人くらいで、200～300人の方が登録なしで読んでいるようなので、この際ぜひ登…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!kDMY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35c47fe0-2300-43e8-b70b-1196f87a49dc_1399x647.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/731npj-digital-medicine",
+      "title": "npj Digital Medicine、「最終判断は医師」がそれだけでは安全対策にならない理由",
+      "url": "https://hiroakikato.substack.com/p/731npj-digital-medicine",
+      "published_date": "2026-07-31",
+      "excerpt": "昨日は、医療AIの「七つの大罪」の論文を紹介しました。\n盲信、非人間化、誤った目標の最適化。こうした失敗を防ぐ答えとして、よく言われるのが「最後は医師が確認するから大丈夫」です。\n今日は、その考えに正面から疑問を投げる論文を紹介します。昨日と同じnpj Digital Medicineで、7月23日に公開されたばか…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!7JA1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07d7de4a-107a-4c72-bf56-b12c31abada1_801x484.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/730npj-digital-medicineai",
+      "title": "npj Digital Medicine、医療AIの「七つの大罪」、精度が高くても医療を悪くする失敗の型",
+      "url": "https://hiroakikato.substack.com/p/730npj-digital-medicineai",
+      "published_date": "2026-07-30",
+      "excerpt": "月曜に、米国の保険会社Cignaが、AIで医療費を3年で2億ドル減らすという話を書きました。\nそのとき「削減額だけでなく加入者の健康がどうなったかで評価すべきだ」とも書きました。\n今日は、この話を考えるうえで読んでおきたい論文を紹介します。\n7月14日に医学誌npj Digital Medicineで正式版が公開され…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!wAj5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0051bba-3819-4dde-8fd3-d6efac8c1829_793x490.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/729rock-health",
+      "title": "Rock Healthレビュー、米国政府はデジタルヘルスに追い風と逆風を同時に吹かせている",
+      "url": "https://hiroakikato.substack.com/p/729rock-health",
+      "published_date": "2026-07-29",
+      "excerpt": "水曜なので、今週もRock Healthレビューをしていきます！\n今週号のタイトルは「The Policy Odyssey」。\nデジタルヘルス企業の航海になぞらえて、米国の政策がいま、追い風と逆風を同時に吹かせているという内容でした。\n政策の話が続きますが、日本の骨太の方針と読み比べると面白いです。\nそれでは、今日のニ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!jp9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7f99c9c-50f4-4db4-824b-f5a08850075a_850x573.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/728202517",
+      "title": "最新2025年の平均寿命発表、女性は世界1位・男性は7位、長寿国の到達点と次の課題",
+      "url": "https://hiroakikato.substack.com/p/728202517",
+      "published_date": "2026-07-28",
+      "excerpt": "昨日は、米国の保険会社CignaがAIと人の介入で医療費を減らす話を書きました。\n今日はその上にある問いです。医療が介入して延ばしたいのは、そもそも何なのか。\nちょうど先週24日、厚生労働省が2025年の簡易生命表を公表しました。\n日本人の寿命の最新データです。今日はこれを読んでいきます！\nそれでは、今日のニュースです。",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!9Yyt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9def64ae-54d1-4561-875e-2722b70fa91a_724x311.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/727cignaai32",
+      "title": "米保険大手Cigna、AIで医療費を3年で2億ドル減らすと発表",
+      "url": "https://hiroakikato.substack.com/p/727cignaai32",
+      "published_date": "2026-07-27",
+      "excerpt": "月曜になりました！\n7月もあっというまに最終週です。今週も一週間、元気に頑張っていきましょう！！\n今日は、医療AIの話をしていきます。\nただ、いつもの「診断の精度が上がった」という話ではなく、「医療費がいくら減るか」を保険会社が数字で出してきたという話をします。\nそれでは、今日のニュースです。\n◆Cigna Health…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/726quest-diagnosticsourawhoophims",
+      "title": "Quest Diagnostics、OuraもWHOOPもHimsも裏側は同じ検査会社だった",
+      "url": "https://hiroakikato.substack.com/p/726quest-diagnosticsourawhoophims",
+      "published_date": "2026-07-26",
+      "excerpt": "日曜なので、今日は政策よりもヘルスケアビジネスの構造によった話をしようと思います。\nこのメルマガではOura、WHOOP、Hims & Hersなど、消費者向けヘルスケアの会社を取り上げてきました。\n実はこの各社のサービスの裏側に、同じ1つの会社がいます。\n今週の決算でその会社の急成長がはっきり数字に出ました。\nその会…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/725rock-health",
+      "title": "Rock Healthレビュー、テクノロジーで病気の流行を早期に把握する技術",
+      "url": "https://hiroakikato.substack.com/p/725rock-health",
+      "published_date": "2026-07-25",
+      "excerpt": "今週は骨太の方針の話ばかりが続いたので、今日は本来なら火曜か水曜日に出すのが延期なっていた今週のRock Healthレビューについて書いていきます。\nテーマは、この夏アメリカで広がっている食中毒です。\nただ、もちろんRock Healthの記事なので、そこから展開しているのはデジタルヘルスで病気の広がりをどう早く…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!v3Uw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd41e3eb8-9a87-4afb-8205-a47b8d0a096d_617x451.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/724uenoplan6",
+      "title": "厚労省「U.E.N.O.Plan」、攻めの予防医療として6領域を決定",
+      "url": "https://hiroakikato.substack.com/p/724uenoplan6",
+      "published_date": "2026-07-24",
+      "excerpt": "今週は火曜・水曜と「骨太の方針2026」を取り上げました。\nその中で、一番の特徴として「攻めの予防医療」という見出しに注目しました。\nそして、その続きがもう動きだしているのですが、\n閣議決定からわずか2日後の昨日、厚生労働省が「攻めの予防医療」の具体策を発表しました。\n今日はこれを取り上げていこうと思います！（Rock…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/723oura",
+      "title": "イーライリリー、Ouraに出資。薬の競争は「続けてもらう仕組み」の競争へ",
+      "url": "https://hiroakikato.substack.com/p/723oura",
+      "published_date": "2026-07-23",
+      "excerpt": "火曜日・水曜日と、連日「骨太の方針2026」を取り上げました！\n骨太の方針は、医療系企業の人も、医療者も、もちろん行政の人にも関係する、これからの1年の行動や意思決定に必ず反映されてくる文書です。\nまだ読めていない人は、医療の部分だけでもぜひ読んでみてほしいと思っています。\n（昨日と一昨日のメルマガはアーカイブで読め…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/7222026",
+      "title": "骨太の方針2026閣議決定、原案との差分でわかる「医療改革」の本気度",
+      "url": "https://hiroakikato.substack.com/p/7222026",
+      "published_date": "2026-07-22",
+      "excerpt": "昨日、予定通り「骨太の方針2026」が閣議決定されました！！\n骨太の方針の正式名称は「経済財政運営と改革の基本方針2026 『責任ある積極財政』元年 ～日本の挑戦を起動する！～」です。\n昨日のこのメルマガで、原案の読みどころと「閣議決定版で見るポイント」を挙げました。\n今日はその答え合わせで、本文を全部読みましたが医…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/7212026",
+      "title": "骨太の方針2026、閣議決定を前に「医療」の部分を先に読んでおく",
+      "url": "https://hiroakikato.substack.com/p/7212026",
+      "published_date": "2026-07-21",
+      "excerpt": "今日は、日本の医療にとって大事な日です。\n「骨太の方針2026」が、今日にも閣議決定される見込みです。\nそこで本来は火曜日はRock Health回でしたがそれは（忘れなかったら）木曜日に回して、今日と明日は2回に分けて「骨太の方針2026」の話をします！\n今日は6月30日に示された原案から医療・ヘルスケアに関わる部…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/720im810",
+      "title": "ベッカムのサプリIM8、株を渡さず10億ドルを集めた新しいお金の流れ",
+      "url": "https://hiroakikato.substack.com/p/720im810",
+      "published_date": "2026-07-20",
+      "excerpt": "月曜になりました！今週も一週間、頑張っていきましょう！！\n今日は海の日で祝日ですが、メルマガは平常運転です。\n今日とりあげるのは、デビッド・ベッカムのサプリの話です。\nただ、面白いと思って取り上げている理由としては、ベッカムではなくその裏側のお金の流れです。\nぜひ知識として知ってもらえるといいと思っています。\nそれで…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/719cvs-health9000ai",
+      "title": "米CVS Health、9000万人の薬局が「AI医療の入口」になる日",
+      "url": "https://hiroakikato.substack.com/p/719cvs-health9000ai",
+      "published_date": "2026-07-19",
+      "excerpt": "今日は日曜なので、少し先の医療を考える話をします！\n先週の日曜に、OpenAIが医療の入口、いわば「医療のOS」を取りにきているという話を書きました。\n今日はその続きです。\nテック企業ではなく、医療の側から同じ入口を取りにいく会社が出てきました。\nアメリカ最大の薬局チェーン、CVS Healthです。\nそれでは、今日のニ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/718",
+      "title": "イーライリリー、痩せ薬の次はサイケデリック（幻覚剤）市場へ",
+      "url": "https://hiroakikato.substack.com/p/718",
+      "published_date": "2026-07-18",
+      "excerpt": "今日は土曜だし、せっかく「ヘルスケアイノベーション通信」というタイトルにしているので、少し変わったテーマにしていこうと思います！\n痩せ薬のマンジャロで世界最大級の製薬企業になったイーライリリーが、次の投資対象に選んだのは幻覚剤でした。\n7月16日に、サイケデリック（幻覚薬）企業の買収に最大38億ドルを投じると発表し…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/717lancet2040",
+      "title": "Lancet日本特集、2040年に向けて「社会契約の再設計」を提言",
+      "url": "https://hiroakikato.substack.com/p/717lancet2040",
+      "published_date": "2026-07-17",
+      "excerpt": "今週は、OpenAI、CMS、Whoop、NVIDIAと、海外の企業や行政の動きを見てきました。\n今日は日本の話をしていきます。\n昨日7月16日の朝、Lancet（ランセット、世界で最も権威ある医学誌グループの一つ）の地域誌（Regional Health - Western Pacific）に、日本の医療制度を正…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/716nvidiaceoai",
+      "title": "NVIDIAファンCEO来日、台湾では国ぐるみの「AI病院」が動き出している",
+      "url": "https://hiroakikato.substack.com/p/716nvidiaceoai",
+      "published_date": "2026-07-16",
+      "excerpt": "半導体大手NVIDIA（エヌビディア）のジェンスン・ファンCEOが、いま日本に来ています。\n日経新聞によれば、昨晩は東京・神田の、やきとんの居酒屋に現れたそうです。\n世界でいちばん忙しい経営者の一人が、神田の路地を歩いて取引先との懇親会へ。\n神田は自分が住んでいたことある場所で、今、アイリス株式会社がある場所なので、…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/715rock-health2026ai4",
+      "title": "Rock Health、2026年上半期総括レポート＆AIで誰でもつくれる時代に残る4つの強み",
+      "url": "https://hiroakikato.substack.com/p/715rock-health2026ai4",
+      "published_date": "2026-07-15",
+      "excerpt": "火曜に届かなかったRock Healthのニュースレターが、昨日ようやく公開されました。\n前回が6月30日だったので、2週間ぶりです。\n内容としても上半期の総括レポートつきで、待った甲斐のある中身でしたので今日はRock Healthレビュー回にします。\nそれでは、今日のニュースです。\n◆Summertime, and…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!KPZo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd70ab651-ac6e-43a5-bbdf-52aefd791873_927x508.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/714whoopgoogle-fitbit-air",
+      "title": "Whoop対Google Fitbit Air、腕のバンドが「医療インフラ」になる日",
+      "url": "https://hiroakikato.substack.com/p/714whoopgoogle-fitbit-air",
+      "published_date": "2026-07-14",
+      "excerpt": "火曜はRock Healthのレビュー回ですが、今週も本家のニュースレターが届いていません。そこで今日は、一つの製品カテゴリーの動きを見ます。\nその前に一つ。この通信も、今日で50回になりました！\n5月末に始めて、平日も週末も続けてこられたのは、読んでくださる皆さまのおかげです。ありがとうございます。\nこれからも、そ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/713cms",
+      "title": "米CMS、行政が「つくる側」に回り、デジタルヘルスに「成果」で支払う",
+      "url": "https://hiroakikato.substack.com/p/713cms",
+      "published_date": "2026-07-13",
+      "excerpt": "今週も月曜になりました！今週も一週間、頑張っていきましょう！！！\n先週の金曜に、自民・維新の社会保障改革13項目を取り上げました。\n7月中におそらく出される「骨太の方針2026」の議論も大詰めで、給付と負担、診療報酬という制度の中身が焦点です。\nただ、どれほど良い制度も、それを動かすシステムが古く、現場に使われなけれ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/712openaiaios",
+      "title": "OpenAI、狙いは「医療AI」ではなく「医療のOS」",
+      "url": "https://hiroakikato.substack.com/p/712openaiaios",
+      "published_date": "2026-07-12",
+      "excerpt": "日曜なので、少し先の医療の姿を考える話をしようと思います。\n先週のForbesに、OpenAIの医療参入を深く報じた記事が出ていました。\n読んで感じたのは、OpenAIが医療でつくろうとしているのは、診断AIのような個別の機能ではなく医療の入口そのもの、いわば「医療のOS」だということです。\nそれでは、今日のニュース…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/7112026",
+      "title": "2026年上半期の総括、デジタルヘルスは「話題」から「実績」で選ばれる時代へ",
+      "url": "https://hiroakikato.substack.com/p/7112026",
+      "published_date": "2026-07-11",
+      "excerpt": "今週は、日本の社会保障改革やHimsの世界展開など、大きな構造の話が続きました。\n土曜の今日は、その全体像を一枚で見られるニュースです。\n2026年上半期のデジタルヘルス投資の総括が出ました。\n◆The Maturity Era: Digital Health Funding, H1 2026（Galen Growt…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/71013",
+      "title": "自民・維新の社会保障改革13項目、医療費の伸びが「経済」に縛られる時代へ",
+      "url": "https://hiroakikato.substack.com/p/71013",
+      "published_date": "2026-07-10",
+      "excerpt": "5月末に始めたこのメルマガですが、登録が500名を突破しました！\n毎日読んでくださる皆さまのおかげです。本当にありがとうございます。\nこれからも、その日いちばん大事なヘルスケアの話をお届けしていきます。\nさて、今日は海外ではなく日本の話です。医療AIやウェアラブルの話が続きましたが、その技術がどんな制度の上で動くのか…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/79hims-and-hers",
+      "title": "Hims & Hers、世界最大の「消費者向け医療プラットフォーム」が日本にも来る",
+      "url": "https://hiroakikato.substack.com/p/79hims-and-hers",
+      "published_date": "2026-07-09",
+      "excerpt": "有料購読者向けの記事です。全文はメルマガで読めます。",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/78ai",
+      "title": "ユタ州、AIが「前と同じ薬」を医師なしで処方することへの議論",
+      "url": "https://hiroakikato.substack.com/p/78ai",
+      "published_date": "2026-07-08",
+      "excerpt": "昨日に続いて、今日こそRock Healthのレビューを、と思っていたのですが、本家のニュースレターが今日もまだ届きません。\n配信自体が止まっているようなので、Rock Healthは届きしだいにして今日も別の話題にします。\n昨日は英国NHSが、患者さんを適切な医療サービスへ案内する「入口」のAIの話でした。\n今日はそ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/77nhsai",
+      "title": "英国NHS、医療アクセスは受診の前にAIが振り分ける時代へ",
+      "url": "https://hiroakikato.substack.com/p/77nhsai",
+      "published_date": "2026-07-07",
+      "excerpt": "火曜はRock Healthレビューの回ですが、今朝はまだ7時になっても本家のRock Healthのニュースレターが届いていません（サイトも更新されていませんでした）。\nそこで、Rock Healthの話は明日に回して、今日は、英国NHSの話をします。\n取り上げるのは、NHS App（英国の公的医療制度NHSのアプ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/76clair-health",
+      "title": "Clair Health、ウェアラブルの次の主戦場は「女性ホルモン」",
+      "url": "https://hiroakikato.substack.com/p/76clair-health",
+      "published_date": "2026-07-06",
+      "excerpt": "今週も月曜になりました。今週も一週間、頑張っていきましょう！！\n今日は、女性医療とウェアラブルの話です。じつは自分がいま、一番注目している分野の一つで、ウェアラブルで女性ホルモンを捉えようというニュースです。\nBusiness Insiderに、Clair Health（クレア・ヘルス）というスタートアップの記事が出…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/75ai",
+      "title": "AIは、医療起業を「現場を知る人」に開いていく",
+      "url": "https://hiroakikato.substack.com/p/75ai",
+      "published_date": "2026-07-05",
+      "excerpt": "今日は日曜なので、少し人のストーリーがある話をします。\nReuters（ロイター通信）に、Here Now Health（ヒア・ナウ・ヘルス）というアメリカの会社の記事が出ていました。\nそれでは、今日のニュースです。\n◆For one small business, AI was key to a quick star…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/74claude-scienceai",
+      "title": "Claude Science、AI企業は診療現場の次に「研究室」を狙う",
+      "url": "https://hiroakikato.substack.com/p/74claude-scienceai",
+      "published_date": "2026-07-04",
+      "excerpt": "少し前に、Anthropic（アンソロピック）の高性能AI「Fable 5（フェイブル5）」が輸出規制で一時停止していました。\nそしてこれに対策が講じられ、7月1日に再び使えるようになりました！\n自分も改めて触ってみて、正直、圧倒的に賢いと感じました！！\nここまで来ると、賢さそのものよりそれをどれだけ使い倒し、「誰に使…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!sCOC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84e4ad9b-768f-4d85-9ba3-247597fd99bf_751x561.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/73spotify8",
+      "title": "Spotify創業者が挑む予防医療、受けた人の8割が「来年も」即予約の理由",
+      "url": "https://hiroakikato.substack.com/p/73spotify8",
+      "published_date": "2026-07-03",
+      "excerpt": "先週の日曜は、ありたくさんと、YouTube「月刊ヘルステック」で6月のヘルステックを振り返ったのを共有していませんでした！！！\nその月の代表的なニュースをまとめて取り上げているので、家事や移動のあいだに、ラジオ感覚で聞き流していただけたらうれしいです。\nYouTubeにアーカイブも残しています。（最近ショート動画で…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/7SB_TVOMicM"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/72natureai",
+      "title": "Nature論文、医療AIは「診断」から「疾患管理」へ進む",
+      "url": "https://hiroakikato.substack.com/p/72natureai",
+      "published_date": "2026-07-02",
+      "excerpt": "まず、うれしい私事のご報告をさせてください！\n昨日7月1日、我が家に新しい家族が加わりました！\n元気な男の子です。母子ともに健やかで、ほっとしています。\n新しい命を前にすると、自分が考えている「2100年の医療」も、遠い未来の話ではなくこの子が生きる現実なのだとあらためて実感します。\nさて、メルマガの本文に移りますが、昨…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!S-CZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ee891c2-1e03-4a2b-aa8e-c3272a8f5b54_546x458.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/71dx",
+      "title": "日本成長戦略、医療DXは「医療政策」から「成長戦略」へ",
+      "url": "https://hiroakikato.substack.com/p/71dx",
+      "published_date": "2026-07-01",
+      "excerpt": "今日から7月。2026年も後半戦のスタートです。今月も元気にいきましょう！！\n7月最初の今日は、日本の医療DXにとって、かなり大きなニュースを取り上げます。\n政府の日本成長戦略会議が、6月30日に「日本成長戦略（案）」を取りまとめました。\n緊縮ではなく未来へ投資し、17の戦略分野へ官民でお金を集中させるという国全体の成…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/630rock-health",
+      "title": "Rock Healthレビュー、公的医療市場は巨大市場であると同時に政策リスクでもある",
+      "url": "https://hiroakikato.substack.com/p/630rock-health",
+      "published_date": "2026-06-30",
+      "excerpt": "火曜日はRock Healthレビューの回です！\nRock Health（米国のデジタルヘルスに特化した投資・調査の会社）が毎週出すニュースレターから、海外のヘルスケアの動きを分析していきます。\n今週のRock Health WeeklyのテーマはMedicaid（米国の低所得者向けの公的医療保険）です。\n記事のタイ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!JxYy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6daf2069-9a2f-47e9-a22e-5e380cae6d1b_649x463.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/629midjourney",
+      "title": "Midjourney再考、医療は「未来感」だけでは変わらない",
+      "url": "https://hiroakikato.substack.com/p/629midjourney",
+      "published_date": "2026-06-29",
+      "excerpt": "新しい一週間が始まりました。今週もよろしくお願いします！\nそして、このメルマガの登録も350名を超えました。読んでくださる皆さまのおかげです。本当にありがとうございます。\n先週、Midjourney Medicalを取り上げました。\n画像生成AIで有名なMidjourneyが医療に参入し、音と水で全身をスキャンする「…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/628oura-ring-5",
+      "title": "Oura Ring 5、測るデバイスから「医療アクセスの入口」へ",
+      "url": "https://hiroakikato.substack.com/p/628oura-ring-5",
+      "published_date": "2026-06-28",
+      "excerpt": "昨日は、日本抗加齢医学会総会で、会長企画シンポジウムのAIプログラムの企画と座長を担当させてもらいました。\n会場は大いに盛り上がり、医療AIからLongevity AIまで密度の濃い議論ができて、本当にやってよかったと感じています！\n心配していた台風も行きも帰りも移動には影響がなくほっとしました。\n今日は最終日、3日…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/62720274",
+      "title": "厚労省「認証電子カルテ」、2027年4月の提供開始へ",
+      "url": "https://hiroakikato.substack.com/p/62720274",
+      "published_date": "2026-06-27",
+      "excerpt": "昨日は、カンヌライオンズの事例から、規制産業では「広告」より接点の設計が勝負になる、という話を書きました。\n今日は自分はこれから台風の中、日本抗加齢医学会総会の2日目に向かいます。\n一番台風が強くなると予想されている15時半からは、会長企画シンポジウムの一つとして第1会場でAIのセッションを担当します。\n医療AIの現…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/626viagrablue-brands",
+      "title": "Viagra「Blue Brands」、規制産業では「広告」より“接点設計”が勝負になる",
+      "url": "https://hiroakikato.substack.com/p/626viagrablue-brands",
+      "published_date": "2026-06-26",
+      "excerpt": "今日から、自分が評議員を務める日本抗加齢医学会総会が始まります。\n台風が近づく土曜日には、AIのセッションを担当することになっていて、無事に開催できるか、少しそわそわしています。\nそんな今日は、少し毛色を変えて、ヘルスケアの「マーケティング」の話です。\n世界最大級の広告・クリエイティブの祭典、カンヌライオンズで、医療…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!hiM1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62f29546-57fb-46a3-864d-27b2817c38f4_1024x728.jpeg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/625eli-lillyos",
+      "title": "Eli Lilly、製薬企業は「薬を売る会社」から「研究OSを持つ会社」へ",
+      "url": "https://hiroakikato.substack.com/p/625eli-lillyos",
+      "published_date": "2026-06-25",
+      "excerpt": "最近はAIやデジタルヘルスの話が続きましたが、ヘルスケアビジネス全体を見るうえで、製薬企業の動きは外せません。\n今日は、米国の大手製薬会社Eli Lillyの話です。\nLillyは、肥満症・糖尿病の大型薬（GLP-1と呼ばれるもの。マンジャロやゼップバウンドが有名）で急成長し、いまや世界で最も時価総額の大きい製薬会…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/624ai",
+      "title": "医療機器センター、医療AIは「規制するか」ではなく「どう信頼できる形で使うか」へ",
+      "url": "https://hiroakikato.substack.com/p/624ai",
+      "published_date": "2026-06-24",
+      "excerpt": "今日で、このメルマガはvol.30になりました！\n毎日続けてこられたのは、読んでくださる皆さまのおかげです。登録も300名を超えました。本当にありがとうございます。\nこのメルマガは、AIに限らず、オンライン診療やSaMD、ウェアラブル、薬局、予防医療まで、ヘルスケアビジネス全般の「いま知っておいてほしい話」をお届け…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/623rock-health",
+      "title": "Rock Healthレビュー、睡眠は毎日測れる「健康のサイン」だ",
+      "url": "https://hiroakikato.substack.com/p/623rock-health",
+      "published_date": "2026-06-23",
+      "excerpt": "昨日は、Natureに載った自律型医療AIエージェント「MIRA」を取り上げました。\nAIが答えるだけでなく、電子カルテの中で動き始めているという話です。\n今日から火曜日は、趣向を変えます。\n自分が毎週読んでいる「Rock Health Weekly」を題材に、海外のデジタルヘルスの動きを一緒に読み解く回にします。\nR…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!vTE3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3e5d0e1-754f-4ec3-9239-c9c4928b589e_634x469.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/622natureai",
+      "title": "Nature論文、医療AIは助言するだけでなく「電子カルテを操作する」段階へ",
+      "url": "https://hiroakikato.substack.com/p/622natureai",
+      "published_date": "2026-06-22",
+      "excerpt": "月曜日になりました！今週も頑張っていきましょう！！！\n先週は、誕生日の特別回やMidjourney Medicalなど、少し未来感のある回が続きました。\n今日は、医療AIの社会実装にぐっと近い、6月17日に出た重要なNature論文を取り上げます。\nテーマは「自律型の医療AIエージェント」です。\nそれでは、今日の論文で…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!cqv1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F492c8491-3abd-400c-86f6-393931f1d8c9_1225x675.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/621midjourneyaiai",
+      "title": "Midjourney、画像を「作るAI」から身体を「読むAI」へ進むのか",
+      "url": "https://hiroakikato.substack.com/p/621midjourneyaiai",
+      "published_date": "2026-06-21",
+      "excerpt": "一昨日、6月19日（金）に45歳の誕生日を迎えました。\nその日に『0次予防から始まる健康国家戦略』の予約も始まり、自分にとって大きな節目の日になりました。\n一方で同じ日に、7年以上つけていた腕時計をなくしました。\nタクシーに忘れたようで、会社に連絡してドライブレコーダーも確認してもらいましたが、見つかりませんでした。\n…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/620frontier-healthai",
+      "title": "Frontier Health、医療AIはチャットから「業務を動かすエージェント」へ",
+      "url": "https://hiroakikato.substack.com/p/620frontier-healthai",
+      "published_date": "2026-06-20",
+      "excerpt": "昨日は、45歳の誕生日と新刊『0次予防から始まる健康国家戦略』の予約開始ということで、いつもとは少し違う特別版でした。\nお祝いや感想をたくさんいただき、ありがとうございました！！\n今日からまた気持ちを切り替えて、通常回に戻って、医療AI・医療DX・ヘルスケアビジネスのニュースを見ていきます。\nそれでは、今日のニュース…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/6190",
+      "title": "医療を「治療」から「設計」へ。『0次予防から始まる健康国家戦略』の予約が始まりました！",
+      "url": "https://hiroakikato.substack.com/p/6190",
+      "published_date": "2026-06-19",
+      "excerpt": "今日は6月19日。私事ですが、本日45歳の誕生日を迎えました。\nそして、ちょうどこのタイミングで、7月に出版予定の新刊『0次予防から始まる健康国家戦略』の予約が始まりました。\n◆0次予防から始まる 健康国家戦略\n　2040年における医療の未来予想図\n　https://www.amazon.co.jp/dp/477922…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/618google-deepmindai",
+      "title": "Google DeepMind、AIは診療支援から「治療法を探す相棒」へ",
+      "url": "https://hiroakikato.substack.com/p/618google-deepmindai",
+      "published_date": "2026-06-18",
+      "excerpt": "ここ数日、医療AIの話を続けてきました。\nAIをどう評価するか。どんな学習ループを持つべきか。そして昨日は、資金が一部の企業に集中している、という話でした。\n今日は、もう少し先の未来を感じるニュースです。\nテーマは、AIが診療の支援だけでなく、研究や創薬、治療法を探す「相棒」になり始めている、という話です。\nそれでは、…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/617",
+      "title": "デジタルヘルス業界の投資状況レポート（2026年1～3月）。資金は戻ってきたけど、全員に戻ったわけではない",
+      "url": "https://hiroakikato.substack.com/p/617",
+      "published_date": "2026-06-17",
+      "excerpt": "昨日は、Nadella氏の投稿から「医療AIの差は、モデルではなく学習ループで決まる」という話を書きました。\n今日は少し視点を変えて、お金の話をします。デジタルヘルスの資金調達市場が、いま実際にどう動いているか、です。\nその前に、ご報告を一つ。\n昨日、ロンドンブーツの田村淳さんが手がけるYouTube「XU」で、自分…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/J0HbuvH5JvE"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/616satya-nadellaai",
+      "title": "Satya Nadella、医療AIの差はモデルではなく「学習ループ」で決まる",
+      "url": "https://hiroakikato.substack.com/p/616satya-nadellaai",
+      "published_date": "2026-06-16",
+      "excerpt": "昨日は、Nature Medicineの比較評価論文を取り上げて、医療AIが「名乗り」ではなく、実際の評価で比較される時代に入った、という話を書きました。\n今日は、そこからもう一歩進めます。汎用AIがどんどん強くなっていく時代に、医療機関やヘルスケア企業は、何を競争力にすればいいのか。そういう話です。\nきっかけは、…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/615nature-medicineaiai",
+      "title": "Nature Medicine論文、医療特化AIは本当に汎用AIより強いのか",
+      "url": "https://hiroakikato.substack.com/p/615nature-medicineaiai",
+      "published_date": "2026-06-15",
+      "excerpt": "昨日は、自分が主宰するJapan Healthcare CEO Summitの第4回でした。\n経営者や議員、官僚など49名が集まり、年に一度の交流の場になりました。\nこうした会をやってとてもありがたいなと感じていることは、忙しい方々と一度にお会いできることです。\nみなさん普段はなかなか時間が取りにくく、個別に対面する…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!sqU2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHKnhQi5bMAA4M8C.jpg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/614anthropic-fable-5ai",
+      "title": "Anthropic Fable 5停止、AIが賢くなるほど「使えなくなるリスク」も大きくなる",
+      "url": "https://hiroakikato.substack.com/p/614anthropic-fable-5ai",
+      "published_date": "2026-06-14",
+      "excerpt": "日曜日ですね、1週間が早いです。\n今日はこのあと、毎年主宰して第4回目になる「Japan Healthcare CEO Summit」があります。\nヘルスケア領域の経営者と政治家・官僚の方々などが集まる会で、今からとても楽しみにしています！\nさて、今週は生成AIと医療AIの話題が本当に多い一週間でした。\nClaude …",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/613nvidia-abridgeai",
+      "title": "Nvidia × Abridge、医療AIは「汎用モデル」から「医療特化モデル」へ",
+      "url": "https://hiroakikato.substack.com/p/613nvidia-abridgeai",
+      "published_date": "2026-06-13",
+      "excerpt": "土曜日ですね。\n今週は、生成AIと医療DXの話題が本当に多い一週間でした。\nClaude Fable 5のように、汎用AIそのものが圧倒的に賢くなる流れ。\nその一方で、患者向けAIや医療機関の中で使うAIのように、現場にどう安全に実装するかという流れ。\n今日は、その先にあるニュースを取り上げます。\nテーマは、医療AIが「…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/612patientgptai",
+      "title": "PatientGPT、患者向けAIは「医療機関の外ではなく中」に入っていく",
+      "url": "https://hiroakikato.substack.com/p/612patientgptai",
+      "published_date": "2026-06-12",
+      "excerpt": "昨日はClaude Fable 5を取り上げて、「賢いAIが来ても、医療がすぐに変わるわけではない」という話を書きました。\n今日は、その続きです。\nでは、その賢いAIを、医療の中でどう安全に使うのか。\nまず、足元で起きていることから見ていきます。\n患者は、もうAIを使い始めています。\n米国の大手非営利団体AARP（5…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/611anthropicai",
+      "title": "Anthropic、医療を動かすのはAIの賢さではなく「届ける力」",
+      "url": "https://hiroakikato.substack.com/p/611anthropicai",
+      "published_date": "2026-06-11",
+      "excerpt": "昨日はNHS Onlineを取り上げて、「医療の入口そのものを設計し直す」という話を書きました。\n今日は、その根っこにある「AIそのもの」の話をします。\nその前に、ご報告を一つ。\n昨日、ロンドンブーツの田村淳さんが手がけるYouTube「XU」で、自分が登壇した動画が公開されました。\nテーマは「医療×新規事業の作り…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/_8MFvyhaGlE"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/nhs-online",
+      "title": "６月１０日（水）：NHS Online、医療アクセスは、ネットショッピングのようになるのか",
+      "url": "https://hiroakikato.substack.com/p/nhs-online",
+      "published_date": "2026-06-10",
+      "excerpt": "昨日は、予防医療の検査サービスが生活者の日常に広がっていくプリメディカのニュースを取り上げました。\n医療・ヘルスケアの接点が病院の外へ出ていく、という流れです。\n今日は、その「医療への入口そのものを設計し直す」動きを、英国の大きな取り組みから見ていきます。\nあと、昨年12月に堀江貴文さんの「ホリエモンチャンネル」…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/bDMv2WlgDS0"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/69",
+      "title": "プリメディカ、予防医療の本質は、「測ること」ではなく「変わること」",
+      "url": "https://hiroakikato.substack.com/p/69",
+      "published_date": "2026-06-09",
+      "excerpt": "昨日は、英国のFlok HealthというAI理学療法スタートアップについて書きました。\nAIが情報提供だけでなく、リハビリ支援の一部を担い始めているという話です。\n医療・ヘルスケアは、病院やクリニックの中だけで完結するものではなくなってきています。\nAIによるリハビリ支援もそうですし、オンライン診療、PHR、ウェアラ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/68flok-healthai",
+      "title": "Flok Health、リハビリAIは理学療法士の代わりではなく「待ち時間」を減らす",
+      "url": "https://hiroakikato.substack.com/p/68flok-healthai",
+      "published_date": "2026-06-08",
+      "excerpt": "月曜日ですね。\n自分はいつも月曜日になると、「今週も頑張ろう」と気合が入ります。\nみなさんは、土日はどう過ごされましたでしょうか？\n自分は、休んだような、休んでいないような感じで、結局バタバタと過ごしてしまいました。\nただ、6月も2週目に入りますし、今週も一つずつ前に進めていきたいですね。\nお互いに、今週も頑張りましょう！\n…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/67googleai",
+      "title": "Google、ヘルスケア情報は「検索順位」から「AIがどう答えるか」へ",
+      "url": "https://hiroakikato.substack.com/p/67googleai",
+      "published_date": "2026-06-07",
+      "excerpt": "昨日、SNSで「メルマガ登録者が100人を超えました」と書いたところ、そこからさらに70人以上の方が登録してくださいました。\n本当にありがとうございます！！\n多くの方に読んでもらえるのはやっぱりうれしいですね。\n今日のテーマは、Google AI Modeのヘルスケア広告テストです。\nこれは単なる広告の話ではなく、ヘルス…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/66denadx",
+      "title": "塩野義・エムスリー・DeNA、ヘルスケアDXは「現場の中」に入り込む",
+      "url": "https://hiroakikato.substack.com/p/66denadx",
+      "published_date": "2026-06-06",
+      "excerpt": "今日は土曜日ですが、昨日はヘルスケアビジネス的に大きなニュースがいくつもありました！！\n塩野義製薬のADHD治療アプリ発売。\nエムスリーによるワイズマンのM&A。\nDeNAと横浜市立大学の医療DXシステム開発。\nどれも単独でかなり大きいニュースです。\n今日は1本に絞らず、3本まとめて見てみたいと思います。\n◆塩野義製薬、AD…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/65",
+      "title": "大きな未来を掲げても、最初はピンポイントの臨床課題から入る",
+      "url": "https://hiroakikato.substack.com/p/65",
+      "published_date": "2026-06-05",
+      "excerpt": "今日は日帰りで、母校の浜松医科大学に行ってきます。\n学生向けに、\n「2040年における医療の未来予想図」\nというテーマで講義をしてきます。\n今回、かなりいいスライドと講義内容ができました。\n医療DX、医療AI、予防医療、ヘルスケアイノベーション、医療者のキャリア、そして2040年に医療がどう変わっていくのか。\n学生向けに作っ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/64ai",
+      "title": "AI時代でも、ヘルスケア企業の競争優位性は「独自データ」になる",
+      "url": "https://hiroakikato.substack.com/p/64ai",
+      "published_date": "2026-06-04",
+      "excerpt": "このメルマガも、今日で10回目になりました。\n毎日書けるか不安だったのですが、なんとか10回目まで来ました。\n読んでくださっている皆さん、本当にありがとうございます！\nそして昨日は、東京証券取引所の中にある兜倶楽部で、東京大学応用資本市場研究センターのフェローとして自分が書いたレポートの記者説明会をしてきました。\nテーマ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!lCS0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHJ39aBQasAAPgqE.jpg"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/63",
+      "title": "デジタルアプリは、医療を「生活の中」に広げる",
+      "url": "https://hiroakikato.substack.com/p/63",
+      "published_date": "2026-06-03",
+      "excerpt": "今日はこの大雨の中、初めての出来事があります！\n12時から東京証券取引所の中にある兜倶楽部で、東京大学応用資本市場研究センターのフェローとして自分が書いたレポートの記者説明会をします。\nタイトルは、\n「医療機器・SaMDスタートアップのIPOを阻む構造的課題\n〜革新的な医療機器開発スタートアップ企業の上場促進に向けて〜」\n…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/62dtxdt1",
+      "title": "DTxの新たな展開！DTアクシスの「第1段階承認＋評価療養」",
+      "url": "https://hiroakikato.substack.com/p/62dtxdt1",
+      "published_date": "2026-06-02",
+      "excerpt": "今日は、朝から大阪に日帰り出張をします。\nというのは、関西医薬品協会が主催する「デジタルヘルスセミナー」に行くためです。\nhttps://www.link-j.org/event/article-52230.html\nこの講演、1年前から呼ばれていて、今日の参加者はオンライン含めると900人くらい！！\nそして、セミナーの…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/615",
+      "title": "5月のヘルステックニュースから見えた次の変化",
+      "url": "https://hiroakikato.substack.com/p/615",
+      "published_date": "2026-06-01",
+      "excerpt": "Thanks for reading 加藤浩晃のヘルスケアイノベーション通信! Subscribe for free to receive new posts and support my work.\n今日から6月ですね！\nあっという間に2026年も、もう6月に入ってしまいました。\nそして、自分が主宰しているヘルスケアビジネス研究会も、2026年6月で10年目に入ります！！\n今年の方針としては、6月からは発信を徐々に戻していこうと思うので、このメルマガもちょっとずつ広げていけ…",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/_5qWCxS6PVM"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/531",
+      "title": "なぜ自分はヘルスケアイノベーションを進めたいのか",
+      "url": "https://hiroakikato.substack.com/p/531",
+      "published_date": "2026-05-31",
+      "excerpt": "Thanks for reading 加藤浩晃のヘルスケアビジネス通信! Subscribe for free to receive new posts and support my work.\n今日は日曜日なので、いつものようにニュースから入るのではなく、自分がなぜヘルスケアイノベーションを進めたいのか、なぜ周りにも勧めたいのかを書いてみたいと思います。\n少し一人語りです。\n医療者が、ビジネスや事業の話をする。\nすると、なぜか怒られることがあります。\nお金の話をするなんて医…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/530",
+      "title": "人生のボーナス期間は今だけ。",
+      "url": "https://hiroakikato.substack.com/p/530",
+      "published_date": "2026-05-30",
+      "excerpt": "昨日は、子どもの寝かしつけをしていたら寝落ちしてしまっていました。。\n木曜日にやったヘルスケアビジネス研究会でも話をしていたのですが、\n今週というか今月は、GW明けくらいから、1日4時間前後睡眠の生活を意識的にしています。\n周りに「休養できてないじゃん！」（注：昨年『休養ベスト100』って本を出版している）って言われます。\nただ、4月に今年度の目標を「今までの5倍頑張る！」としていて、",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/529",
+      "title": "新規事業の成功は時代との交点",
+      "url": "https://hiroakikato.substack.com/p/529",
+      "published_date": "2026-05-29",
+      "excerpt": "加藤浩晃のヘルスケアビジネス通信　vol.004｜2026年5月29日（金）\nThanks for reading 加藤浩晃のヘルスケアビジネス通信! Subscribe for free to receive new posts and support my work.\n昨日はヘルスケアビジネス研究会のリアル勉強会でした！\nこのメルマガにも書きましたが、「なぜヘルスケアビジネスはこれほどまでに難しいのか」ということに対して、体系的に整理し（10年くらいこれをやってきて、やっときれいに整理できるようになりました）、そこで解決策として「ヘルスケアビジネス…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/528",
+      "title": "なぜヘルスケアビジネスはこれほどまでに難しいのか。",
+      "url": "https://hiroakikato.substack.com/p/528",
+      "published_date": "2026-05-28",
+      "excerpt": "加藤浩晃のヘルスケアビジネス通信　vol.003｜2026年5月28日（木）\nThanks for reading 加藤浩晃のヘルスケアビジネス通信! Subscribe for free to receive new posts and support my work.\n昨日は「自社課題から事業をつくる考え方」についてメルマガを書きました。\nたくさんの方に読んでいただいたり、新規のメルマガ登録をしてもらえてうれしいです！\nSubstackはどちらかというと交流メインでやっていきたいと思っていて、ただ、なんの話題もないと話しかけにくいと思うので、そのネタ…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!WriC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdcb1572-c549-433a-9dd9-497516fcfff6_960x536.png"
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/527",
+      "title": "自社課題から事業をつくる考え方",
+      "url": "https://hiroakikato.substack.com/p/527",
+      "published_date": "2026-05-27",
+      "excerpt": "加藤浩晃のヘルスケアビジネス通信　vol.002｜2026年5月27日（水）\nThanks for reading 加藤浩晃のヘルスケアビジネス通信! Subscribe for free to receive new posts and support my work.\n昨日からSubstackでメルマガを始めました。\n最初は「毎日のヘルスケアビジネスニュース」という感じで始めてみたのですが、AI時代に、ニュースをきれいにまとめるだけなら、自分がやる意味はあまりないなとも思いました。\nということで、朝令暮改ですが、少しコンセプトを変えます！\nこのメルマガ…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/526",
+      "title": "製薬企業の次の姿：エーザイ、2028年度に売上収益1兆円へ",
+      "url": "https://hiroakikato.substack.com/p/526",
+      "published_date": "2026-05-26",
+      "excerpt": "加藤浩晃のヘルスケアビジネスニュース\nvol.001｜2026年5月26日号\nThanks for reading 活動メルマガ! Subscribe for free to receive new posts and support my work.\n今日から、ヘルスケアビジネスに関する注目ニュースを、毎朝5分で読める形でお届けしていこうと思います。\n医療DX、ヘルステック、製薬、医療機器、予防医療、保険、政策、スタートアップ、上場企業など、医療・ヘルスケア産業の動きを、自分なりの視点でピックアップしていきます。\nそれでは、今日のヘルスケアビジネスニュースです。\n…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/13",
+      "title": "今日はヘルステック新年会🎍",
+      "url": "https://hiroakikato.substack.com/p/13",
+      "published_date": "2025-01-03",
+      "excerpt": "おはようございます🌞\n今日は我が家の2大行事の一つ、「ヘルステック新年会」です。\n昨日は会場の設営や買い出しなど、この日の準備に1日かかりました😅\nAI時代には「身体性」が大事で、こうやってリアルで会えるのが何よりも価値が高くなっていくと思っています。\nあと、一気にたくさんの人に年始のあいさつができるのもいい！\n今日は70人以上が参加してもらえるので、とても楽しみです！\nでは、もうそろそろ準備のために行ってきます！！\n今日のVoicyでは「医師はAIに置き換わっていくのか？！」という話をしています！",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/2025112025",
+      "title": "2025年の抱負とテーマを決めました！🎍",
+      "url": "https://hiroakikato.substack.com/p/2025112025",
+      "published_date": "2025-01-01",
+      "excerpt": "2025年、明けましておめでとうございます！🎍\n今年も本当によろしくお願いいたします！！！\n2025年の自分は、今朝、起きたらエネルギーに満ち溢れていました！！\nVoicyでも話をしたのですが、2025年の抱負とテーマとして\n「信念を持って批判される」を設定しました。\nこれ、「批判される」がポイントで、最近自分は批判されていませんでした。\n2017年～2019年くらいに活動したときは「医師がなんでビジネスなんだ」と批判されていたりしまくっていたのですが、\n最近はビジネスというよりもデジタルヘルス寄りだったり、\n仲間内のコンフォートゾーンでしか活動できていませんでした。\nこれを変えます！\n”2…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/202412312024",
+      "title": "2024年にやるべきことをやりきる！💪",
+      "url": "https://hiroakikato.substack.com/p/202412312024",
+      "published_date": "2024-12-31",
+      "excerpt": "こんにちは～こんばんはの時間になってしまいました！🌞\nただ、これから、毎日「活動メルマガ」としてこれは書いていこうと思っています。\n通常は「朝」に「おはようございます」とともに、\nその日やること（≒その日の活動）を”宣言”していきたいなと。\n今までは朝、Voicyをとっていたのですが、\nこれからは朝に\nメルマガ⇒Voicyの順番にしていきたいなと。\n（とは言っても、これも変えていくかもしれません）\nいずれにしても、今日の朝にVoicyで宣言をした\n・YouTube\n・メルマガ（この「活動メルマガ」）\nを未熟な形でも2024年から始められたのはよかったです！！\n2025年はさらに頑張っていきま…",
+      "image_url": null
+    },
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1229",
+      "title": "今日から年末モード🙋‍♂️",
+      "url": "https://hiroakikato.substack.com/p/1229",
+      "published_date": "2024-12-29",
+      "excerpt": "おはようございます🌞\n年末になってきましたね。昨日まで奥さんのクリニックがやっていて今日から休みなので、我が家は今日からが年末モードです。\nしばらくゆっくりして、読みたかった本とかAI関連で勉強したかったこととかに時間を使おうと思います。\nみなさんも年末、ゆっくりお過ごしください🙆‍♂️\n加藤浩晃\nThanks for reading 活動メルマガ! Subscribe for free to receive new posts and support my work.",
+      "image_url": null
     }
   ]
 }

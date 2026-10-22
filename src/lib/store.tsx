@@ -6,7 +6,8 @@ import type { Article } from './types';
 
 const SavedKey = 'healthbiz.saved.v1';
 const ReadKey = 'healthbiz.read.v1';
-const LastSeenKey = 'healthbiz.lastseen.v1';
+/** 新着とみなす期間。配信から36時間以内で、まだ開いていない記事に目印を付ける */
+const NewWindowMs = 36 * 60 * 60 * 1000;
 const ReactionKey = 'healthbiz.reactions.v1';
 
 export type Reaction = 'helpful' | 'more';
@@ -39,8 +40,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [error, setError] = useState<string | null>(null);
   const [savedIds, setSavedIds] = useState<Set<string>>(new Set());
   const [readIds, setReadIds] = useState<Set<string>>(new Set());
-  // 前回開いた時刻。これより後に配信された記事を「新着」として目印を付ける
-  const [newSince, setNewSince] = useState<string | null>(null);
+  // 新着の基準時刻（起動時に決めて、そのセッション中は動かさない）
+  const [newSince] = useState(() => new Date(Date.now() - NewWindowMs).toISOString());
   const [reactions, setReactions] = useState<Record<string, Reaction>>({});
 
   const reload = useCallback(async () => {
@@ -68,15 +69,6 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       .catch(() => {});
     AsyncStorage.getItem(ReactionKey)
       .then((raw) => raw && setReactions(JSON.parse(raw) as Record<string, Reaction>))
-      .catch(() => {});
-    // 前回開いた時刻を読んでから、今回の時刻を書く（次回の「新着」の基準になる）
-    AsyncStorage.getItem(LastSeenKey)
-      .then((raw) => {
-        setNewSince(raw);
-        // ちらっと開いて閉じただけで目印が消えないよう、直前の記録から1時間は基準を進めない
-        const recent = raw && Date.now() - new Date(raw).getTime() < 60 * 60 * 1000;
-        return recent ? undefined : AsyncStorage.setItem(LastSeenKey, new Date().toISOString());
-      })
       .catch(() => {});
   }, [reload]);
 
@@ -111,7 +103,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<Store>(() => {
     const isNew = (a: Article) =>
-      newSince != null && a.kind !== 'substack' && !!a.created_at && a.created_at > newSince && !readIds.has(a.id);
+      a.kind !== 'substack' && !!a.created_at && a.created_at > newSince && !readIds.has(a.id);
     return {
       articles,
       loading,

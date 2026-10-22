@@ -33,7 +33,7 @@ export default function CompanyScreen() {
   const header = (
     <View style={styles.header}>
       <ThemedText type="eyebrow" themeColor="textSecondary">
-        企業
+        {info ? '企業' : '発信元'}
       </ThemedText>
       <ThemedText type="title">{info?.name ?? name}</ThemedText>
       {info?.listed ? (
@@ -68,7 +68,7 @@ export default function CompanyScreen() {
         </Pressable>
       ) : null}
       <ThemedText type="section" style={styles.sectionLabel}>
-        この会社の記事 <ThemedText type="caption" style={{ color: theme.up }}>{list.length}本</ThemedText>
+        {info ? 'この会社の記事' : 'この発信元の記事'} <ThemedText type="caption" style={{ color: theme.up }}>{list.length}本</ThemedText>
       </ThemedText>
     </View>
   );

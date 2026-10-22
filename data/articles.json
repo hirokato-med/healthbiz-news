@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T02:58:28.304Z",
+  "updated_at": "2026-10-22T03:18:11.615Z",
   "articles": [
     {
       "id": "d03f1439-126b-4df0-a43b-fc86184fb2f5",
@@ -573,6 +573,55 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "5d26abde-a0af-4d92-a6b0-0f729915304b",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-19",
+      "source_name": "Veritas In Silico",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261019552930.pdf",
+      "title": "Veritas In Silico、東レとのmRNA標的低分子創薬で「ヒット化合物取得」のマイルストーンを達成。標的は脂質異常症のPCSK9",
+      "summary": [
+        "2021年7月に締結した東レとの共同創薬研究で、PCSK9遺伝子のmRNAが作る立体構造に結合して薬効を示す低分子化合物を取得した。AI創薬基盤「aibVIS」でRNA構造解析や分子設計を担う。",
+        "PCSK9は抗体薬やsiRNA薬で治療上の有用性が検証された標的で、世界市場は2034年に約140億ドルとの予測がある。低分子なら製造・供給面で幅広い患者に届けやすいとする。",
+        "マイルストーン収入の授受はなく、2026年12月期の業績予想は変わらない。同社の2025年12月期は事業収益0.9億円、営業損失4.0億円。"
+      ],
+      "comment": "PCSK9は抗体薬とsiRNA薬がすでにあり、効くことは証明済みの標的です。自分が注目したのは、「タンパク質ではなくmRNAの立体構造を低分子で狙う」という狙いで、成功すれば注射薬を飲み薬に置き換える話になります。ただしヒット化合物はスタート地点で、売上0.9億円に赤字4億円の会社には資金の時間が勝負だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
+    },
+    {
+      "id": "c28ca1cc-34cd-476a-a1f7-a5c4ee639bc1",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/154244/19/154244-19-4c36e57135b62ec13de58c28bf925648-3900x2780.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "published_date": "2026-10-19",
+      "source_name": "NovAccel",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000019.000154244.html",
+      "title": "NovAccel、福島県浪江町に次世代がん治療薬の原料「アクチニウム225」の製造拠点を新設。経産省の立地補助金に採択",
+      "summary": [
+        "茨城県土浦市のNovAccelが、経済産業省「自立・帰還支援雇用創出企業立地補助金」に採択され、浪江町に独自の小型超伝導電子加速器を使う医療用ラジオアイソトープ製造拠点を整備する。",
+        "がん細胞だけを狙う標的アルファ線治療（TAT）の中核原料Ac-225は、製薬会社の臨床開発が進むにつれ需要が急増する一方、世界的な生産能力不足が最大のボトルネックになっている。",
+        "広島の施設に続く拠点で、世界最大級のAc-225商用製造拠点を目指す。同社は2024年6月設立、資本金7億円。"
+      ],
+      "comment": "放射性医薬品は薬の設計より原料の供給が足りない、という珍しい市場です。自分が注目したのは、「製薬会社ではなく加速器メーカーが原料側からサプライチェーンを押さえる」立ち位置です。Ac-225は世界中の製薬会社が取り合っていて、安定供給できる会社は数えるほどしかない。復興の補助金で立地できる福島は、この事業にとって合理的な選択だと思います。",
+      "company": {
+        "name": "株式会社NovAccel",
+        "profile": "2024年6月設立、茨城県土浦市。資本金7億24万円、未上場。医療用超伝導加速器の研究・開発と、アクチニウム225などの医療用ラジオアイソトープの製造。広島に製造施設を持つ。",
+        "url": "https://novaccel.jp",
+        "ceo": {
+          "name": "山下了",
+          "bio": "経歴確認できない"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
+    },
+    {
       "id": "4bab8a0d-6e2c-4fe6-8bd8-1263a4481044",
       "created_at": "2026-10-21T07:12:31.327Z",
       "published_date": "2026-10-19",
@@ -640,6 +689,35 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/89680/13/89680-13-d8c70223ef14876d1f0135247aa7db90-894x171.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "105076ff-3bcb-4bde-acd4-dfcf66915e62",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/92194/7/92194-7-880556a0f956b3e5b8028e88268b9252-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "published_date": "2026-10-16",
+      "source_name": "AdipoSeeds",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000092194.html",
+      "title": "慶大発AdipoSeeds、脂肪組織から作る血小板様細胞の国内治験に向け資金調達。医薬品卸の東邦HDとコージンバイオが出資",
+      "summary": [
+        "慶應義塾大学医学部発のAdipoSeedsが、東邦ホールディングスとコージンバイオを引受先とする第三者割当増資を実施した。金額は非開示。",
+        "脂肪由来の間葉系幹細胞株から分化させた血小板様細胞ASCL-PLCを再生医療等製品として開発。難治性皮膚潰瘍向けはAMEDの事業に採択され国内治験へ、輸血用血小板向けは東京科学大学で臨床研究の準備を進める。",
+        "東邦HDとは再生医療等製品の流通体制を、コージンバイオとは医療機関向けPRP（多血小板血漿）の加工受託事業を共同で進める。2016年7月設立、資本金1億1,000万円。"
+      ],
+      "comment": "血小板は献血に頼り、保存期間が4日ほどしかない医療資源です。自分が注目したのは、「出資者が医薬品卸と培地メーカー」という組み合わせで、研究の次に来る製造と流通を先に押さえた点です。細胞製品は作れても病院に届ける温度管理と物流が壁になるので、東邦の参画は筋が通っています。PRPの受託加工で先に売上を作る設計も、再生医療ベンチャーには珍しく現実的だと思います。",
+      "company": {
+        "name": "株式会社AdipoSeeds",
+        "profile": "2016年7月設立、東京都新宿区（慶應義塾大学医学部内）。資本金1億1,000万円、未上場。脂肪組織由来の血小板様細胞ASCL-PLCを使う再生医療等製品の開発と、PRP療法向けの調製・評価・保存技術の事業化。",
+        "url": "https://www.adiposeeds.co.jp/",
+        "ceo": {
+          "name": "不破淳二",
+          "bio": "1993年に日本債券信用銀行（現あおぞら銀行）に入社し、国内支店、調査部、建設省への出向を経験。2003年に遺伝子解析ベンチャーのヒュービットジェノミクスに入社し、バイアウトファンド投資先の管理部長などを経て2021年にAdipoSeedsに参画（会社サイトの役員紹介より）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
     },
     {
       "id": "8e7fb10a-6d64-422a-be70-f5ceb6ec940e",
@@ -1094,6 +1172,55 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "a2e95a2a-d0ad-445f-8c90-ce342cf96d71",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/69194/1058/69194-1058-1935b17a5970d56741d0e9a56b717711-1000x202.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "published_date": "2026-10-09",
+      "source_name": "大日本印刷",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001058.000069194.html",
+      "title": "DNP、韓国NEXEL、シミックファーマサイエンスが合弁「TriNebula Cell Tech」を設立。iPS細胞由来の心筋細胞で動物実験の代替市場へ",
+      "summary": [
+        "3社の共同出資で10月9日に合弁会社を設立。資本金5,000万円、所在地は東京都新宿区。ヒトiPS細胞由来の心筋細胞など、動物実験を代替・補完する評価手法向け製品のグローバル展開に向けたマーケティングを担う。",
+        "DNPはNEXELとのライセンス契約に基づき心筋細胞を製造し、合弁で得た市場・顧客ニーズをもとに製造・販売体制の構築を目指す。シミックファーマサイエンスは非臨床試験の受託で培った知見を提供する。",
+        "製薬企業、化学・化粧品メーカー、CRO、大学などに製品を提案し、各国の動物実験代替に関する規制動向も把握する。"
+      ],
+      "comment": "米FDAが動物実験の段階的廃止を打ち出して以降、ヒト細胞で安全性を評価する市場が現実の需要になりました。自分が注目したのは、「印刷会社が細胞を製造し、韓国のバイオ企業がライセンスを出し、CROが使い方を知っている」という3社の分業です。iPS細胞を売る側は製造と販路が課題で、DNPの製造力はそこに合う。合弁の役割がマーケティングから始まる点は慎重で、現実的だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
+    },
+    {
+      "id": "94619b61-21d5-4af8-b2ab-3af72461e508",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/154873/6/154873-6-fe2c42afc373680dfcd97a5c788f649d-1122x1402.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "published_date": "2026-10-09",
+      "source_name": "RadioNano Therapeutics",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000154873.html",
+      "title": "京大発RadioNano Therapeutics、BNCT用ホウ素薬剤「RN-501」の第I/IIa相試験に向けシリーズBの1stクローズ。三井金属と京大iCAPが出資",
+      "summary": [
+        "ホウ素中性子捕捉療法（BNCT）用の無機ナノ粒子製剤を開発する京都のRadioNano Therapeuticsが、三井金属と京都大学イノベーションキャピタルを引受先とする第三者割当増資でシリーズBのファーストクローズを完了した。金額は非開示。",
+        "資金はリードパイプライン「RN-501」の第I/IIa相臨床試験、治験薬のGMP製造体制、開発体制の強化に使う。PMDAの戦略相談を踏まえて非臨床試験を進め、基本特許が成立した。",
+        "日本は2020年に世界で初めてBNCTを保険診療として承認した。同社は2024年4月設立、資本金1億円で、セカンドクローズに向けた調達を続ける。"
+      ],
+      "comment": "BNCTの薬は現在ステラファーマのステボロニン1剤で、適応はまだ頭頸部がんと審議中の髄膜腫です。自分が注目したのは、「ホウ素を大量に含むナノ粒子で、薬剤側から適応を広げに行く」というアプローチで、装置側ではなく薬の競争が始まったことです。三井金属が出資しているのは無機材料の製造を担うからで、材料会社が創薬に入る入口にもなっていると思います。",
+      "company": {
+        "name": "RadioNano Therapeutics株式会社",
+        "profile": "2024年4月設立、京都市左京区。資本金1億円、未上場。京都大学の小松直樹教授と鈴木実教授が開発した高親水性含ホウ素無機ナノ粒子を使うBNCT用製剤「RN-501」を研究開発。",
+        "url": "https://www.radionano-tx.com/",
+        "ceo": {
+          "name": "千葉雅俊",
+          "bio": "経歴確認できない"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
+    },
+    {
       "id": "544f9425-cd7e-4e61-bf03-690a88bb544d",
       "created_at": "2026-10-21T15:17:18.592Z",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000018.000102901.html",
@@ -1346,6 +1473,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/109519/60/109519-60-2c7e914d5c6e9797f3ae85a49fc770fa-2999x1444.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c430ba4c-f4f6-4e0e-adde-af5b5974d1d1",
+      "created_at": "2026-10-22T03:18:11.615Z",
+      "category": "drug",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-07",
+      "source_name": "大塚ホールディングス",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261007547350.pdf",
+      "title": "大塚製薬、IgA腎症治療薬「VOYXACT（シベプレンリマブ）」の正式承認に向けた一部変更申請の段階的提出を米FDAに完了",
+      "summary": [
+        "大塚製薬の米国子会社OPDCが10月6日（米国時間）、成人IgA腎症の治療薬として迅速承認されているVOYXACTの正式承認（Traditional Approval）取得に向け、生物製剤承認一部変更申請（sBLA）のローリング提出を完了した。",
+        "2026年12月期の連結業績予想に変更はない。大塚は同薬を今後の成長を牽引する製品群の一つと位置付ける。",
+        "大塚ホールディングスの2025年12月期は売上収益2兆4,689億円、営業利益4,793億円。"
+      ],
+      "comment": "迅速承認は代替指標で先に売り始め、あとから本承認を取る仕組みです。自分が注目したのは、「迅速承認から1年ほどで正式承認の申請を完了した」速さで、腎機能の悪化という時間のかかる指標で結果を出せた、という意味を持ちます。IgA腎症は承認薬が相次いで競争が厳しい領域なので、本承認の有無が病院の処方選択に直結すると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T03:18:11.615Z"
     },
     {
       "id": "86d2caea-e4ec-40e0-8064-ccee2e90870d",

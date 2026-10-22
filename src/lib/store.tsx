@@ -10,7 +10,8 @@ type Store = {
   articles: Article[];
   loading: boolean;
   error: string | null;
-  reload: () => Promise<void>;
+  /** 取り直す。失敗したら false */
+  reload: () => Promise<boolean>;
   savedIds: ReadonlySet<string>;
   isSaved: (id: string) => boolean;
   toggleSaved: (id: string) => void;
@@ -30,8 +31,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const [news, substack] = await Promise.all([fetchArticles(), fetchSubstack()]);
       setArticles([...news, ...substack]);
       setError(null);
+      return true;
     } catch (e) {
       setError(e instanceof Error ? e.message : '記事を読み込めませんでした');
+      return false;
     } finally {
       setLoading(false);
     }

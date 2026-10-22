@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  Pressable,
   ScrollView,
   StyleSheet,
   useWindowDimensions,
@@ -30,7 +31,7 @@ export default function HomeScreen() {
   const { width } = useWindowDimensions();
   const insets = useSafeAreaInsets();
   const theme = useTheme();
-  const { articles } = useStore();
+  const { articles, reload } = useStore();
   const pagerRef = useRef<ScrollViewInstance>(null);
   // 記事から戻ってきたときに見ていたタブへ戻れるよう、位置はメモリに退避しておく
   const [index, setIndex] = useState(uiState.channelIndex);
@@ -92,7 +93,11 @@ export default function HomeScreen() {
           </ThemedText>
         </View>
         <ChannelTabs index={index} onSelect={selectTab} />
-        <View style={[styles.ticker, { backgroundColor: theme.surface }]}>
+        <Pressable
+          onPress={() => void reload()}
+          accessibilityRole="button"
+          accessibilityLabel="記事を更新"
+          style={[styles.ticker, { backgroundColor: theme.surface }]}>
           <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1}>
             {ticker.label}
           </ThemedText>
@@ -102,7 +107,7 @@ export default function HomeScreen() {
           <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1} style={styles.tickerDate}>
             {ticker.right}
           </ThemedText>
-        </View>
+        </Pressable>
       </View>
 
       <View style={styles.pager} onLayout={(e) => setPagerHeight(e.nativeEvent.layout.height)}>

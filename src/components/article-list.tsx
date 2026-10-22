@@ -141,7 +141,7 @@ export function ArticleList({
           </ThemedText>
         )
       }
-      refreshControl={<RefreshControl refreshing={loading} onRefresh={reload} tintColor={theme.textSecondary} />}
+      refreshControl={<RefreshControl refreshing={loading} onRefresh={() => void reload()} tintColor={theme.textSecondary} />}
       />
     </PullToRefresh>
   );

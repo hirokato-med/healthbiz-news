@@ -6,11 +6,12 @@ import { ThemedText } from '@/components/themed-text';
 import { Links } from '@/constants/links';
 import { Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackClick } from '@/lib/analytics';
 
 /** Substack の購読を勧めるカード。Substack タブの先頭に出す。 */
 export function SubstackSubscribe({ compact = false }: { compact?: boolean }) {
   const theme = useTheme();
-  const open = () => WebBrowser.openBrowserAsync(Links.substackSubscribe);
+  const open = () => (trackClick('substack_subscribe', { where: compact ? 'article' : 'channel' }), WebBrowser.openBrowserAsync(Links.substackSubscribe));
 
   if (compact) {
     return (

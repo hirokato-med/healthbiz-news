@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -17,6 +17,7 @@ import { ThemedView } from '@/components/themed-view';
 import { Channels } from '@/constants/channels';
 import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 
@@ -33,6 +34,12 @@ export default function HomeScreen() {
   const [index, setIndex] = useState(0);
   // 横ページャーの高さ。各チャンネルの一覧に明示的に渡す（Web では stretch だけだと高さが 0 になる）
   const [pagerHeight, setPagerHeight] = useState(0);
+  // 見ているチャンネルを計測（横スワイプでもタブ押下でも index が変わる）
+  // 遠いタブへ飛ぶとき途中のページも index に入るので、少し落ち着いてから記録する
+  useEffect(() => {
+    const t = setTimeout(() => trackScreen(`channel:${Channels[index].id}`, { channel: Channels[index].name }), 600);
+    return () => clearTimeout(t);
+  }, [index]);
 
   const ticker = useMemo(() => {
     // 日付が変わって当日分がまだ無い間も、直近の配信日の本数を出す

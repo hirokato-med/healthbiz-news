@@ -1,5 +1,6 @@
 import { useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
+import { useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -8,9 +9,13 @@ import { ThemedView } from '@/components/themed-view';
 import { Links } from '@/constants/links';
 import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackClick, trackScreen } from '@/lib/analytics';
 
 /** アプリについて（App Store 審査で求められるプライバシーポリシーへの導線もここ） */
 export default function AboutScreen() {
+  useEffect(() => {
+    trackScreen('about');
+  }, []);
   const insets = useSafeAreaInsets();
   const theme = useTheme();
   const router = useRouter();
@@ -33,7 +38,7 @@ export default function AboutScreen() {
         <Row label="要約について" value="各社のプレスリリースをもとに作成。正確な内容は原文をご確認ください。" theme={theme} />
 
         <Pressable
-          onPress={() => WebBrowser.openBrowserAsync(Links.substackSubscribe)}
+          onPress={() => (trackClick('substack_subscribe', { where: 'about' }), WebBrowser.openBrowserAsync(Links.substackSubscribe))}
           style={[styles.link, { borderBottomColor: theme.line }]}
           accessibilityRole="link">
           <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>加藤浩晃のメルマガを購読する ↗</ThemedText>
@@ -41,7 +46,7 @@ export default function AboutScreen() {
             ヘルスケアイノベーション通信。登録するとメールで届きます。
           </ThemedText>
         </Pressable>
-        <Pressable onPress={() => router.push('/privacy')} style={[styles.link, { borderBottomColor: theme.line }]} accessibilityRole="link">
+        <Pressable onPress={() => (trackClick('privacy'), router.push('/privacy'))} style={[styles.link, { borderBottomColor: theme.line }]} accessibilityRole="link">
           <ThemedText style={{ color: theme.accent, fontWeight: '700' }}>プライバシーポリシー ›</ThemedText>
         </Pressable>
         <Row label="お問い合わせ" value={Links.contactEmail} theme={theme} />

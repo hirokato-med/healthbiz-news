@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -7,9 +8,13 @@ import { ThemedView } from '@/components/themed-view';
 import { SavedChannel } from '@/constants/channels';
 import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackScreen } from '@/lib/analytics';
 
 /** 保存した記事の一覧 */
 export default function SavedScreen() {
+  useEffect(() => {
+    trackScreen('saved');
+  }, []);
   const insets = useSafeAreaInsets();
   const theme = useTheme();
   return (

@@ -1,17 +1,23 @@
 import { useRouter } from 'expo-router';
+import { useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Links } from '@/constants/links';
+import { AnalyticsEnabled } from '@/lib/analytics';
 import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackScreen } from '@/lib/analytics';
 
 const Updated = '2026年10月22日';
 
 /** プライバシーポリシー。App Store の審査で URL が必要になるので、Web 版の /privacy として公開される */
 export default function PrivacyScreen() {
+  useEffect(() => {
+    trackScreen('privacy');
+  }, []);
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
@@ -41,7 +47,9 @@ export default function PrivacyScreen() {
           記事の原文（プレスリリース・適時開示）、Substack などの外部サイトへのリンクを含みます。リンク先のサイトでの情報の取り扱いは、各サイトのプライバシーポリシーに従います。
         </Section>
         <Section title="5. アクセス解析・広告">
-          本アプリは、アクセス解析ツールや広告配信の仕組みを使用していません。
+          {AnalyticsEnabled
+            ? 'どの画面や記事がよく読まれているかを把握するため、Google アナリティクス（Google LLC）を利用しています。送信されるのは、見た画面・開いた記事・押したボタンの種類と、端末の種類やおおまかな地域などの統計情報で、氏名やメールアドレスなど個人を特定する情報は含みません。IP アドレスは匿名化されます。Google による情報の取り扱いは、Google のプライバシーポリシー（https://policies.google.com/privacy）をご確認ください。広告配信の仕組みは使用していません。'
+            : '本アプリは、アクセス解析ツールや広告配信の仕組みを使用していません。'}
         </Section>
         <Section title="6. 記事の内容について">
           要約は各社のプレスリリース・適時開示をもとに作成しています。正確な内容は原文をご確認ください。コメントは運営者個人の見解であり、特定の企業や商品を推奨するものではありません。

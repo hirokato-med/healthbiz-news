@@ -1,4 +1,5 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useEffect } from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import { Pressable, ScrollView, Share, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,6 +12,7 @@ import { Thumb } from '@/components/thumb';
 import { channelOf } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { trackArticle, trackClick } from '@/lib/analytics';
 import { formatDateLong } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 
@@ -26,6 +28,9 @@ export default function ArticleScreen() {
   const { articles, isSaved, toggleSaved } = useStore();
 
   const article = articles.find((a) => a.id === id);
+  useEffect(() => {
+    if (article) trackArticle(article);
+  }, [article]);
   if (!article) {
     return (
       <ThemedView style={styles.root}>
@@ -40,16 +45,17 @@ export default function ArticleScreen() {
   const saved = isSaved(article.id);
 
   const share = () =>
+    (trackClick('share', { article_id: article.id }),
     Share.share({
       message: `${article.title}\n${article.source_url}\n\n— Healthcare Business News（加藤浩晃のコメント付き）`,
-    }).catch(() => {});
+    }).catch(() => {}));
 
   return (
     <ThemedView style={styles.root}>
       <View style={[styles.bar, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
         <BarButton label="‹ 戻る" onPress={() => router.back()} color={theme.accent} />
         <View style={{ flex: 1 }} />
-        <BarButton label={saved ? '★ 保存済み' : '☆ 保存'} onPress={() => toggleSaved(article.id)} color={theme.accent} />
+        <BarButton label={saved ? '★ 保存済み' : '☆ 保存'} onPress={() => (trackClick(saved ? 'unsave' : 'save', { article_id: article.id }), toggleSaved(article.id))} color={theme.accent} />
         <BarButton label="共有" onPress={share} color={theme.accent} />
       </View>
 
@@ -111,7 +117,7 @@ export default function ArticleScreen() {
               </View>
             ) : null}
             {article.company.url ? (
-              <Pressable onPress={() => WebBrowser.openBrowserAsync(article.company!.url!)} accessibilityRole="link">
+              <Pressable onPress={() => (trackClick('company', { article_id: article.id }), WebBrowser.openBrowserAsync(article.company!.url!))} accessibilityRole="link">
                 <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
                   会社サイト ↗
                 </ThemedText>
@@ -121,7 +127,7 @@ export default function ArticleScreen() {
         ) : null}
 
         <Pressable
-          onPress={() => WebBrowser.openBrowserAsync(article.source_url)}
+          onPress={() => (trackClick(article.kind === 'substack' ? 'substack_read' : 'source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url))}
           style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
           accessibilityRole="link">
           <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
@@ -131,7 +137,7 @@ export default function ArticleScreen() {
         {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
         {article.source_url_2 ? (
           <Pressable
-            onPress={() => WebBrowser.openBrowserAsync(article.source_url_2!)}
+            onPress={() => (trackClick('source_2', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url_2!))}
             style={({ pressed }) => [styles.sourceButton, styles.sourceButtonSecondary, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
             accessibilityRole="link">
             <ThemedText style={[styles.sourceButtonText, { color: theme.accent }]}>相手方のリリースも読む ↗</ThemedText>

@@ -17,4 +17,19 @@ for f in *.html */*.html; do
   sed -i 's#<meta name="viewport" content="[^"]*"#<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"#' "$f"
   sed -i 's#</head>#<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
 done
+# 利用状況の計測（Google アナリティクス）。測定 ID があるときだけ全ページに読み込む
+if [ -n "${EXPO_PUBLIC_GA_ID:-}" ]; then
+  GA_ID="$EXPO_PUBLIC_GA_ID" python3 - <<'PY'
+import glob, os
+ga = os.environ["GA_ID"]
+snippet = ('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script>'
+           '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;'
+           "gtag('js',new Date());gtag('config','%s',{send_page_view:false,anonymize_ip:true});</script>") % (ga, ga)
+for f in glob.glob('*.html') + glob.glob('*/*.html'):
+    h = open(f, encoding='utf-8').read()
+    if 'googletagmanager' in h: continue
+    open(f, 'w', encoding='utf-8').write(h.replace('</head>', snippet + '</head>', 1))
+print('GA snippet injected:', ga)
+PY
+fi
 echo "built: $OUT"

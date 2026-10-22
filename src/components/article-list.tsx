@@ -1,5 +1,7 @@
-import { useMemo } from 'react';
-import { FlatList, RefreshControl, StyleSheet } from 'react-native';
+import { useMemo, useRef } from 'react';
+import { FlatList, RefreshControl, StyleSheet, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+
+import { PullToRefresh } from '@/components/pull-to-refresh';
 
 import { ArticleRow } from '@/components/article-row';
 import { FeaturedArticle } from '@/components/featured-article';
@@ -11,6 +13,7 @@ import { MaxContentWidth, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatDateLong, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
+import { uiState } from '@/lib/ui-state';
 import type { Article } from '@/lib/types';
 
 type Row =
@@ -37,6 +40,24 @@ export function ArticleList({
 }) {
   const theme = useTheme();
   const { articles, loading, error, reload, savedIds } = useStore();
+  const listRef = useRef<FlatList<Row>>(null);
+  // 記事から戻ってきたとき、読んでいた位置に戻す（復元は一覧が十分な高さになった最初の1回だけ）
+  const restored = useRef(false);
+  const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    uiState.scroll.set(channel.id, e.nativeEvent.contentOffset.y);
+  };
+  const onContentSizeChange = (_w: number, h: number) => {
+    if (restored.current) return;
+    const y = uiState.scroll.get(channel.id) ?? 0;
+    if (y <= 0) {
+      restored.current = true;
+      return;
+    }
+    if (h >= y + (height ?? 0)) {
+      restored.current = true;
+      listRef.current?.scrollToOffset({ offset: y, animated: false });
+    }
+  };
 
   const rows = useMemo<Row[]>(() => {
     const today = todayJST();
@@ -96,7 +117,12 @@ export function ArticleList({
       : 'このチャンネルの記事はまだありません。';
 
   return (
-    <FlatList
+    <PullToRefresh onRefresh={reload} refreshing={loading} listRef={listRef} width={width}>
+      <FlatList
+      ref={listRef}
+      onScroll={onScroll}
+      scrollEventThrottle={100}
+      onContentSizeChange={onContentSizeChange}
       // 高さが測れていない間（Web の一部環境）は親いっぱいに広げる
       style={{ width, height: height ?? '100%' }}
       contentContainerStyle={[styles.content, { paddingBottom: bottomInset + Spacing.ten }]}
@@ -116,7 +142,8 @@ export function ArticleList({
         )
       }
       refreshControl={<RefreshControl refreshing={loading} onRefresh={reload} tintColor={theme.textSecondary} />}
-    />
+      />
+    </PullToRefresh>
   );
 }
 

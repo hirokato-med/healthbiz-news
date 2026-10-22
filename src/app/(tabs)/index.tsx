@@ -20,6 +20,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
+import { uiState } from '@/lib/ui-state';
 
 /**
  * トップ画面。白いヘッダー（題字・日付）→ 文字タブ（選択中だけチャンネル色の下線）→ ティッカー →
@@ -31,12 +32,14 @@ export default function HomeScreen() {
   const theme = useTheme();
   const { articles } = useStore();
   const pagerRef = useRef<ScrollViewInstance>(null);
-  const [index, setIndex] = useState(0);
+  // 記事から戻ってきたときに見ていたタブへ戻れるよう、位置はメモリに退避しておく
+  const [index, setIndex] = useState(uiState.channelIndex);
   // 横ページャーの高さ。各チャンネルの一覧に明示的に渡す（Web では stretch だけだと高さが 0 になる）
   const [pagerHeight, setPagerHeight] = useState(0);
   // 見ているチャンネルを計測（横スワイプでもタブ押下でも index が変わる）
   // 遠いタブへ飛ぶとき途中のページも index に入るので、少し落ち着いてから記録する
   useEffect(() => {
+    uiState.channelIndex = index;
     const t = setTimeout(() => trackScreen(`channel:${Channels[index].id}`, { channel: Channels[index].name }), 600);
     return () => clearTimeout(t);
   }, [index]);
@@ -107,6 +110,9 @@ export default function HomeScreen() {
         {pagerHeight > 0 && (
         <ScrollView
           ref={pagerRef}
+          onLayout={() => {
+            if (index > 0) pagerRef.current?.scrollTo({ x: width * index, animated: false });
+          }}
           horizontal
           pagingEnabled
           bounces={false}

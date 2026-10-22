@@ -51,8 +51,13 @@ export function ArticleList({
         return out;
       }
       // いちばん大きな枠は「直近24時間でいちばん大事な1本」（featured）。新しい順ではない。
-      // 直近の配信日とその前日から探し、無ければ直近の記事
-      const lead = news.find((a) => a.featured && a.published_date >= dayBefore(latest)) ?? news[0];
+      // 画像を大きく出す枠なので、画像のある記事を優先する。直近の配信日とその前日から探す
+      const recent = (a: Article) => a.published_date >= dayBefore(latest);
+      const lead =
+        news.find((a) => a.featured && a.image_url && recent(a)) ??
+        news.find((a) => a.image_url && a.published_date === latest) ??
+        news.find((a) => a.featured && recent(a)) ??
+        news[0];
       const todays = news.filter((a) => a.published_date === latest && a !== lead);
       const past = news.filter((a) => a.published_date !== latest && a !== lead);
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;

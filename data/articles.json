@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-22T02:28:52.711Z",
+  "updated_at": "2026-10-22T02:52:55.106Z",
   "articles": [
     {
       "id": "fa21dc4c-8e6a-4c62-b9f9-15389e487a78",
       "created_at": "2026-10-22T02:28:52.711Z",
       "published_date": "2026-10-22",
       "category": "policy",
-      "featured": true,
+      "featured": false,
       "title": "キッセイ薬品の血管炎治療薬「タブネオス」、厚労省が新規投与の差し控えと既存患者の中止・切り替えを要請。承認資料の信頼性に問題の可能性",
       "source_name": "キッセイ薬品工業",
       "source_url": "https://www.release.tdnet.info/inbs/140120261021554206.pdf",
@@ -45,8 +45,8 @@
       "id": "3a62d262-d299-4663-9816-c6277e1c7688",
       "created_at": "2026-10-22T02:28:52.711Z",
       "published_date": "2026-10-22",
-      "category": "digital",
-      "featured": false,
+      "category": "dx",
+      "featured": true,
       "title": "eWeLL、訪問看護の電子カルテ「iBow」の記録から経営状態を12指標で評価し改善策をAIが示す「iBowボード Pro」を提供開始",
       "source_name": "eWeLL",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000151.000026391.html",

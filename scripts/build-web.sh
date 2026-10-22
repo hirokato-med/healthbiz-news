@@ -4,6 +4,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 OUT="${1:-web-dist}"
+# 利用状況の計測（Google アナリティクス）の測定 ID。空にすると計測しない
+export EXPO_PUBLIC_GA_ID="${EXPO_PUBLIC_GA_ID-G-PYC7DZRBKW}"
 CI=1 npx expo export --platform web --output-dir "$OUT"
 cd "$OUT"
 # Jekyll に _expo フォルダを無視させない

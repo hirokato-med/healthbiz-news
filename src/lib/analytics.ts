@@ -7,7 +7,8 @@ import { Platform } from 'react-native';
  *   ネイティブ: Measurement Protocol に直接 POST する（EXPO_PUBLIC_GA_API_SECRET が必要）
  * 測定 ID（G-XXXXXXXX）が無ければ何もしない。個人を特定する情報は送らない。
  */
-const MeasurementId = process.env.EXPO_PUBLIC_GA_ID ?? '';
+// 測定 ID は公開されるものなので既定値をここに置く（別のプロパティで計測したいときは環境変数で上書き）
+const MeasurementId = process.env.EXPO_PUBLIC_GA_ID ?? 'G-PYC7DZRBKW';
 const ApiSecret = process.env.EXPO_PUBLIC_GA_API_SECRET ?? '';
 const ClientKey = 'healthbiz.ga.client.v1';
 

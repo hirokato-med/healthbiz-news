@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:47:43.757Z",
+  "updated_at": "2026-10-22T04:30:01.226Z",
   "articles": [
     {
       "id": "d807f344-f9f3-47b0-b235-1089e4d20639",
@@ -207,6 +207,26 @@
       "comment": "訪問看護ステーションは17年連続で増えて2万か所を超え、一方で年6.4%が廃業しています。自分が注目したのは、「電子カルテに溜まった記録とレセプトを、入力なしで経営指標に変える」点です。管理者は看護師で、経営分析の時間も知識も足りない。eWeLLは営業利益率42%の会社で、カルテの次に経営を握れば解約されにくくなる。SaaSの王道の深掘りだと思います。",
       "status": "published",
       "updated_at": "2026-10-22T02:28:52.711Z"
+    },
+    {
+      "id": "b3f2bb12-ac76-4eb0-beea-d115af8452c1",
+      "created_at": "2026-10-22T04:30:01.226Z",
+      "category": "global",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-21",
+      "source_name": "Fresenius Medical Care",
+      "source_url": "https://www.prnewswire.com/news-releases/fresenius-medical-care-brings-kidney-care-innovation-to-critical-care-patients-with-us-launch-of-multifiltratepro-302916083.html",
+      "title": "独フレゼニウス・メディカルケア、ICUの急性腎障害向け持続的腎代替療法「multiFiltratePRO」を米国で発売。クエン酸抗凝固の専用システムとしてFDAが初めて認可",
+      "summary": [
+        "10月19日にFDAがmultiFiltratePROシステムをクリアランスし、クエン酸ナトリウム液「Cienby」と塩化カルシウム液「Calrezdy」を承認。米国で初めて、局所クエン酸抗凝固（RCA）をラベル内で行える持続的腎代替療法（CKRT）の装置と専用液のセットになった。",
+        "クエン酸とカルシウムのポンプを装置に統合し、血流や濾液の流量が変わるとき自動で注入速度を調整する。外付けの輸液ポンプが要らず、ICUでの回路の凝固を減らす。対象は成人と体重40kg以上の小児。",
+        "欧州やアジアで標準となっている治療を米国に持ち込む形で、同社は血液透析濾過（HDF）装置「5008X」の米国投入にも続く。"
+      ],
+      "comment": "ICUの急性腎障害で24時間回す透析は、回路が詰まるたびに看護師が止まる治療です。自分が注目したのは、「欧州やアジアで標準のクエン酸抗凝固を、米国が装置と専用液のセットでようやく認めた」という順番で、米国が医療機器で後発に回る例は珍しくありません。日本はもともとナファモスタットなどで独自の抗凝固をしてきた国なので、同じ装置が入っても使い方の議論は別に起きると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T04:30:01.226Z"
     },
     {
       "id": "251515ee-0787-4615-ac77-796369fac7bb",
@@ -451,6 +471,26 @@
       "featured": false
     },
     {
+      "id": "b5b0933d-483b-4f3f-9e8d-99a841ada788",
+      "created_at": "2026-10-22T04:30:01.226Z",
+      "category": "global",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-20",
+      "source_name": "GSK",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+      "title": "英GSKの慢性B型肝炎治療薬「Hibsago（ベピロビルセン）」をFDAが承認。半年の投与後に治療を終えられる可能性がある初のアンチセンス薬",
+      "summary": [
+        "FDAは10月20日、既存の抗ウイルス薬と併用する注射薬Hibsago（一般名ベピロビルセン）を、肝硬変のない成人の慢性B型肝炎治療薬として承認した。慢性B型肝炎で初のアンチセンス核酸医薬。",
+        "対象は抗ウイルス薬を6か月以上服用しウイルスが抑制され、HBs抗原が3,000IU/mL以下の患者。ロシュのHBs抗原定量検査がコンパニオン診断として同時に認可された。",
+        "最長24週間皮下投与し、既存薬をその後24週以上続ける。2本の第III相試験で、既存薬の中止基準を満たした患者は24%（プラセボ0%）、全治療中止24週後もウイルスが抑制されHBs抗原が検出されなかった患者は19%。重篤な肝障害と血小板減少の枕囲み警告がある。"
+      ],
+      "comment": "B型肝炎は飲み薬を一生続ける病気で、やめられる人はほとんどいませんでした。自分が注目したのは、「半年の注射で2割の患者が治療そのものを終えられる」という結果で、数字は小さく見えますが、慢性感染症で治療の出口が初めてできたことになります。核酸医薬を導出したIonisにとっても初の大型承認です。日本は約100万人のB型肝炎ウイルス保有者がいる国で、GSKは日本でも申請中なので、国内の承認と薬価が次の論点になると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T04:30:01.226Z"
+    },
+    {
       "id": "00e168e9-2ee9-4e32-8c8f-2c8f4627bafd",
       "created_at": "2026-10-21T15:26:14.680Z",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000193.000046445.html",
@@ -620,6 +660,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/5823/200/5823-200-fe9cf94713ec070ec6bad9b6093eb987-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c0808c5b-91b4-481b-ba40-6ac72fa02390",
+      "created_at": "2026-10-22T04:30:01.226Z",
+      "category": "global",
+      "featured": false,
+      "source_url_2": "https://www.sec.gov/Archives/edgar/data/1479615/000119312526425238/d189864dex991.htm",
+      "image_url": null,
+      "published_date": "2026-10-19",
+      "source_name": "Merck KGaA",
+      "source_url": "https://www.businesswire.com/news/home/20261019777870/en/Merck-KGaA-Darmstadt-Germany-to-Acquire-Silence-Therapeutics-Strengthening-Rare-Disease-Pipeline-with-Innovative-siRNA-Asset",
+      "title": "独メルク（Merck KGaA）、英Silence Therapeuticsを企業価値11億ドル（約1,740億円）で買収。真性多血症のsiRNA薬を第III相前に取り込む",
+      "summary": [
+        "メルクKGaAは10月19日、英Silence Therapeuticsを全額現金で買収する契約を結んだ。企業価値11億ドル（約1,740億円）、株式価値は約13億ドル（約2,050億円）。1ADS当たり20ドルで、直前の終値に対して約130%のプレミアムと報じられている。",
+        "Silenceの主力候補divesiranは、骨髄が赤血球を作りすぎる希少な血液がん・真性多血症を対象とするsiRNA薬で、8月に第II相の良好な結果を公表し第III相入りの段階にある。FDAのファストトラックと希少疾病用医薬品の指定を受けている。",
+        "英国会社法のスキーム・オブ・アレンジメントで実施し、2027年第1四半期の完了を見込む。メルクにとってはSpringWorks買収、Bio-Techne買収合意に続く2年足らずで3件目の大型買収。"
+      ],
+      "comment": "真性多血症の標準治療は瀉血で、血を抜く以外にまともな薬がなかった領域です。自分が注目したのは、「大手が第III相の手前で、終値の2倍以上を払って取りに来た」ことで、希少疾病の後期資産がいまのバイオ業界で最も高く売れる商品だと示しています。siRNAは肝臓以外の標的でも実用化が進み、日本では武田薬品が同じ疾患で承認を取ったばかりなので、競合の構図が日本にも持ち込まれると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T04:30:01.226Z"
     },
     {
       "id": "5d26abde-a0af-4d92-a6b0-0f729915304b",
@@ -897,6 +957,55 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/153048/4/153048-4-b27461972074570cc403d86c7870561a-3470x2312.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "b0abd636-2c3d-4e46-8871-cff68dfb32a7",
+      "created_at": "2026-10-22T04:30:01.226Z",
+      "category": "global",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-15",
+      "source_name": "OMass Therapeutics",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/15/3381281/0/en/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology.html",
+      "title": "英OMass Therapeutics、先天性副腎過形成の低分子薬でシリーズC 3億1,000万ドル（約490億円）を調達。Bain、Forbion、Novo Holdingsが共同リード",
+      "summary": [
+        "オックスフォード大学発のOMass Therapeuticsが10月15日、応募超過となったシリーズCで3億1,000万ドル（約2億3,000万ポンド、約490億円）を調達した。Bain Capital Life Sciences、Forbion、Novo Holdingsが共同リード。",
+        "資金は、副腎のMC2（メラノコルチン2）受容体を阻害する主力候補OMS1620を、先天性副腎過形成（CAH）とACTH依存性クッシング症候群で第II相まで進めるのに使う。ループス向けのSLC15A4阻害薬の早期臨床にも充てる。",
+        "既存投資家のSyncona、Oxford Science Enterprises、GV、Sanofi Venturesなども全員が参加。累計調達額は約4億7,500万ドルと報じられている。CAHの承認薬は現在、米Neurocrineの1剤のみ。"
+      ],
+      "comment": "先天性副腎過形成は、大量のステロイドで抑えるしかなかった小児期からの病気で、昨年ようやく初の非ステロイド薬が出た領域です。自分が注目したのは、「2番手を狙う英国の会社に、米欧の大手ファンドが490億円を入れた」規模で、希少内分泌疾患の市場が投資家に見えてきたことを示しています。日本でもCAHは指定難病で患者が一定数いる領域なので、Neurocrineに続く選択肢がどの順番で国内に入るかを見ておきたいと思います。",
+      "company": {
+        "name": "OMass Therapeutics",
+        "profile": "英オックスフォード。未上場。ネイティブ質量分析と独自の化学を組み合わせ、膜タンパク質など創薬が難しかった標的に対する低分子薬を開発するオックスフォード大学発のバイオ企業。免疫疾患と希少疾患が中心。",
+        "url": "https://www.omass.com/",
+        "ceo": {
+          "name": "Ros Deegan",
+          "bio": "ケンブリッジ大学で自然科学を学び、INSEADでMBAを取得。Trevenaで財務・事業開発を担当した後、Bicycle Therapeuticsのプレジデント兼最高事業責任者として米国子会社を立ち上げ、2019年からOMassのCEO（投資家Synconaの紹介ページなどより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-22T04:30:01.226Z"
+    },
+    {
+      "id": "7c794c0d-b32e-471a-9b97-fc6611e55753",
+      "created_at": "2026-10-22T04:30:01.226Z",
+      "category": "global",
+      "featured": false,
+      "source_url_2": null,
+      "image_url": null,
+      "published_date": "2026-10-15",
+      "source_name": "City Therapeutics",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/16/3382239/0/en/city-therapeutics-announces-pricing-of-upsized-initial-public-offering.html",
+      "title": "米City Therapeutics、RNAi薬を肝臓以外へ広げる構想でNasdaq上場。規模を拡大したIPOで2億ドル（約316億円）を調達",
+      "summary": [
+        "マサチューセッツ州ケンブリッジのCity Therapeuticsが10月15日、IPOの売り出し株数を当初の約972万株から1,111万1,111株に増やし、1株18ドル（仮条件17〜19ドルの中央値）で価格決定した。調達額は約2億ドル（約316億円）。",
+        "10月16日にNasdaqでティッカー「CTY」として取引を開始。引受証券はゴールドマン・サックス、ジェフリーズ、スティーフェル、オッペンハイマー。追加で約167万株のオーバーアロットメント権がある。",
+        "siRNAで病気の原因タンパク質のmRNAを分解するRNAi薬を、肝臓以外の組織に届ける技術を開発。主力候補CITY-FXIは第XI因子を狙う抗凝固薬で、Bausch + Lomb（眼疾患）やBiogen（中枢神経）との提携を持つ。共同創業者はAlnylam創業CEOのJohn Maraganore氏。"
+      ],
+      "comment": "RNAi薬はAlnylamが肝臓の希少疾患で証明した技術で、次の競争は肝臓の外に届けられるかに移っています。自分が注目したのは、「主力が希少疾患ではなく抗凝固薬」という点で、脳出血のリスクが少ない第XI因子阻害は大手製薬が低分子や抗体で競う巨大市場です。日本の投資家にとっては、治験前後のバイオ企業が規模を拡大して上場できる米国市場の体温を測る案件だと思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T04:30:01.226Z"
     },
     {
       "id": "48a0db99-3704-46b2-a6be-70898b1b2966",

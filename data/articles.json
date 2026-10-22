@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T04:30:01.226Z",
+  "updated_at": "2026-10-22T05:07:45.623Z",
   "articles": [
     {
       "id": "d807f344-f9f3-47b0-b235-1089e4d20639",
@@ -471,6 +471,26 @@
       "featured": false
     },
     {
+      "id": "ffbd4255-4ee1-42bd-ac51-ef93d436712a",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-20",
+      "category": "global",
+      "featured": false,
+      "title": "米FDA、処方薬に付属するアプリの最終ガイダンスを公表。添付文書に載せる条件と、表示内容を「広告」として扱う原則を初めて明文化",
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-issues-final-guidance-prescription-drug-apps-and-software",
+      "source_url_2": null,
+      "image_url": null,
+      "summary": [
+        "FDAは10月20日、製薬企業が処方薬と一緒に開発・配布するアプリ（コンパニオンソフト）について、開発・配布・表示の枠組みを定めた最終ガイダンスを公表した。いつFDAへの提出が必要か、いつ添付文書（処方情報）に記載すべきか、何を提出するかの3点に答える内容。",
+        "吸入器と連動するアプリのように医療機器とつながるものは、薬の使い方の中心を担うため原則として添付文書に記載する。症状トラッカーや服薬リマインダーなど単独で動くアプリは、安全で有効な使用に不可欠か、意味のある臨床的利益を示せる場合に限って記載する。",
+        "アプリが利用者に表示する内容は、多くの場合ほかの医薬品広告と同じ「販促資料」として扱う。医薬品部門と機器部門の考え方をそろえ、開発者に一貫した道筋を示すことが狙いで、FDAはデジタルヘルスを重点領域と位置づけている。"
+      ],
+      "comment": "製薬会社が薬に添えて配るアプリは、米国でも「どこまでが薬の一部で、どこからが宣伝か」が長く曖昧でした。自分が注目したのは、「アプリの表示内容は原則として広告として扱う」と最初に線を引いたことで、効果を示せたアプリだけが添付文書に載れるという二段構えになります。日本でも製薬会社の服薬支援アプリは増えていますが、薬機法上の位置づけは個別判断のままなので、この整理は国内の議論でも参照されると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
+    },
+    {
       "id": "b5b0933d-483b-4f3f-9e8d-99a841ada788",
       "created_at": "2026-10-22T04:30:01.226Z",
       "category": "global",
@@ -660,6 +680,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/5823/200/5823-200-fe9cf94713ec070ec6bad9b6093eb987-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "6d12f9cd-1a6a-4de5-9796-63036776f03f",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-19",
+      "category": "global",
+      "featured": false,
+      "title": "英GSKの免疫療法薬「Jemperli（ドスタルリマブ）」、FDAがMSI-H/dMMRの局所進行直腸がんで加速承認。化学療法・放射線・手術を避けられる可能性がある初の薬",
+      "source_name": "GSK",
+      "source_url": "https://www.gsk.com/en-gb/media/press-releases/jemperli-dostarlimab-approved-in-us-as-first-and-only-immunotherapy-for-adults-with-msi-hdmmr-locally-advanced-rectal-cancer/",
+      "source_url_2": "https://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+      "image_url": null,
+      "summary": [
+        "GSKは10月19日、抗PD-1抗体Jemperli（ドスタルリマブ）が、ステージII・IIIのMSI-H/dMMR（ミスマッチ修復機能欠損）局所進行直腸がんの成人に対し、FDAの加速承認を受けたと発表した。この病型で初めてかつ唯一の免疫療法薬。MSI-H/dMMRは直腸がんの約5〜10%にみられる。",
+        "根拠は第II相AZUR-1試験（154例）。3週ごと500mgを9サイクル単剤投与し、治験医師評価では評価可能な144例のうち68%が手術なしで12か月持続する臨床的完全奏効を達成。探索的解析では76%が治療後1年以上がんの痕跡がなく、奏効例では中央値2年超の追跡で再発の報告はない。",
+        "重篤な副作用は20%、投与中止は3%。ファストトラック、ブレークスルーセラピー、優先審査に加え、新設の国家優先バウチャーも受け、PDUFA日より前に承認された。プロジェクト・オルビスの枠組みで各国の審査も進んでいる。"
+      ],
+      "comment": "直腸がんの標準治療は化学放射線療法と手術で、治ったあとも排便・排尿・性機能の障害や人工肛門が残ることがあります。自分が注目したのは、「手術そのものをしないで7割近くが1年後も完全奏効」という結果で、がん治療が「切る前に生検で遺伝子を調べる」順番に変わる象徴的な承認だと思います。対象は直腸がんの5〜10%とはいえ、日本でもMSI検査は保険で広く行われているので、該当する患者が手術を回避できるかは早く国内の論点になると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
     },
     {
       "id": "c0808c5b-91b4-481b-ba40-6ac72fa02390",
@@ -1150,6 +1190,46 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "8f21ada8-ab20-43dc-b2dc-d7a6ea6831fe",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-14",
+      "category": "global",
+      "featured": false,
+      "title": "米Iambic Therapeutics、AI創薬でNasdaq上場。IPOで1億5,000万ドル（約237億円）を調達し、約2年で臨床入りしたHER2阻害薬の開発を加速",
+      "source_name": "Iambic Therapeutics",
+      "source_url": "https://www.iambic.ai/post/iambic-announces-pricing-of-initial-public-offering",
+      "source_url_2": null,
+      "image_url": null,
+      "summary": [
+        "サンディエゴのIambic Therapeuticsは10月14日、IPOの価格を1株16ドルに決定した。937万5,000株を売り出し、調達額は約1億5,000万ドル（約237億円）。10月15日からNasdaqでティッカー「IAM」として取引を開始した。引受はJPモルガン、ジェフリーズ、BofA証券、シティ。",
+        "同社は独自AIと自動化した化学・生物実験を組み合わせた創薬プラットフォームを掲げ、主力候補IAM1363（経口・脳移行性のHER2選択的阻害薬、HER2陽性・HER2変異のがんが対象）を約2年で臨床入りさせたことを実績として示している。",
+        "共同創業者兼CEOのTom Miller氏は元カリフォルニア工科大学の化学教授。AI創薬企業の上場は、米国で治験段階のバイオ企業のIPOが再び動き出した流れの中にある。"
+      ],
+      "comment": "AI創薬は「候補を速く出せる」とは言われてきましたが、株式市場がその速さにお金を払うかは別の問題でした。自分が注目したのは、「約2年で臨床入り」という開発期間そのものが上場の売り物になっている点で、投資家が評価する軸が薬の効果より前の段階に来ています。日本でも大手製薬がAI創薬スタートアップと組む案件は多いですが、独立して上場まで行く例はまだなく、出口の形として参考になると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
+    },
+    {
+      "id": "d0444001-7749-4687-b7bc-e9038425339f",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-14",
+      "category": "global",
+      "featured": false,
+      "title": "米FDA、希少疾病の医薬品開発を作り直す「Rare Disease Framework Initiative」を開始。少人数の患者で現実的に集められる証拠に合わせた審査の枠組みを目指す",
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease",
+      "source_url_2": null,
+      "image_url": null,
+      "summary": [
+        "FDAは10月14日、希少疾病向けの医薬品・生物製剤の開発を見直す「Rare Disease Framework Initiative」を発表した。白書を公表し、疾患ごとの違い、患者のニーズ、製品の種類、少人数の患者集団で現実的に生成できる証拠を踏まえた「目的に合った」枠組みを作るとしている。",
+        "FDAによると承認薬がある希少疾病は全体の5%程度にとどまる。規制判断の明確さと予測可能性を高めること、開発の早い段階と節目で患者の声を組み込むこと、外部の専門知識を活用して審査を個別化すること、共有の資源づくりや審査官の研修などを柱に掲げた。",
+        "10月28日にFDAのホワイトオーク本部で、Reagan-Udall財団の進行による公開会議を開き、患者団体や企業から意見を募る。パブリックコメントは10月28日から12月11日まで受け付ける。"
+      ],
+      "comment": "希少疾病は患者が少なすぎて通常の比較試験が組めず、薬があっても承認に届かないことが開発の壁でした。自分が注目したのは、「疾患ごとに集められる証拠の量に審査を合わせる」と当局が白書で言い切った点で、ここ数か月の個別の加速承認を制度として定着させる動きです。日本の指定難病は300超で、同じ課題を抱えつつ条件付き早期承認制度の使い方を模索している段階なので、米国の枠組みがどんな証拠水準で落ち着くかは国内の制度設計にも影響すると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
+    },
+    {
       "id": "cb0c62ec-0fb5-4753-a809-088689e24de1",
       "created_at": "2026-10-21T14:45:13.634Z",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000005.000139031.html",
@@ -1252,6 +1332,35 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/26391/150/26391-150-445417b244162ed5e83a14e3e66d54e2-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "efd760d2-8783-4b4f-81f6-148a8b5a1870",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-13",
+      "category": "global",
+      "featured": false,
+      "title": "米Suki、医療AIエージェントの開発でシリーズE 9,000万ドル（約142億円）を調達。音声入力の記録支援から450以上の医療機関に広げた基盤を、他社製品に組み込む事業へ",
+      "source_name": "Suki",
+      "source_url": "https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies/",
+      "source_url_2": null,
+      "image_url": null,
+      "summary": [
+        "カリフォルニア州レッドウッドシティのSukiは10月13日、シリーズEで9,000万ドル（約142億円）を調達したと発表した。新規投資家はHealthier Capital、Crosslink Capital、Hercules Capital。既存のVenrock、Flare Capital Partners、Hedosophia、Philips Ventures、Zoom Venturesなども参加した。",
+        "診療の会話から記録を自動作成するアンビエントAIを450以上の医療機関に提供し、30社以上の技術パートナーがSDKやAPIで自社製品に組み込む。2026年の患者診療件数は前年比190%以上増、2025年の売上は倍増、パートナー経由の売上は2年で10倍以上に伸びたとしている。",
+        "資金はパートナー連携、AI技術、電子カルテとの接続、営業組織の拡大に使う。直前の10月8日には、Wolters KluwerのUpToDateの知見を診療中に呼び出せる「Ask」を発表しており、記録支援から臨床判断支援、オーダーや予約を代行するエージェントへ広げる。"
+      ],
+      "comment": "米国のアンビエントAIは、カルテ記録の自動化で一気に普及したあと、各社が「次に何をさせるか」で競っています。自分が注目したのは、「自社アプリより他社に組み込ませる売上が10倍に伸びた」という点で、医師が使う画面を持つ会社ではなく、裏側の部品になる道を選んだことがわかります。日本でも診療録のAI作成は各社が参入していますが、電子カルテベンダーに組み込まれる側に回るのか、自前で医師を抱えるのかの分岐は、この先2〜3年で決まると思います。",
+      "company": {
+        "name": "Suki",
+        "profile": "米カリフォルニア州レッドウッドシティ。未上場。診療中の会話から診療記録を自動作成する音声AI「Suki for Clinicians」と、他社の電子カルテや医療アプリに組み込むためのSDK・API「Suki for Partners」を提供。電子カルテに依存しない設計で、450以上の医療機関が利用。",
+        "url": "https://www.suki.ai/",
+        "ceo": {
+          "name": "Punit Soni",
+          "bio": "GoogleとMotorola Mobilityでプロダクト部門の責任者を務め、インドのEC大手Flipkartの最高製品責任者を経て2017年ごろにSukiを創業。ウォートン校でMBAを取得（投資家Flare Capitalの紹介ページなどより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
     },
     {
       "id": "89a1438e-a1e3-4699-b108-f4f8d216e605",
@@ -1530,6 +1639,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/229/48083-229-51bd76e00726110c73377c670f4dc7e0-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "4a6fbc72-a72c-4f94-8d83-0f4201d1b96c",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-08",
+      "category": "global",
+      "featured": false,
+      "title": "米Viatris、術後鎮痛薬「EXPAREL」のPacira BioSciencesを株式価値16.5億ドル（約2,610億円）で買収。非オピオイドの痛み治療を新薬事業の柱に",
+      "source_name": "Viatris / Pacira BioSciences",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1396814/000110465926114571/tm2627240d2_ex99-1.htm",
+      "source_url_2": null,
+      "image_url": null,
+      "summary": [
+        "ViatrisとPacira BioSciencesは10月8日、Viatrisが1株36.50ドルの現金、株式価値約16.5億ドル（約2,610億円）でPaciraを買収する契約を結んだと発表した。Viatris子会社による公開買付けと、その後の合併で行い、2026年末までの完了を見込む。両社の取締役会は全員一致で承認した。",
+        "Paciraは手術後の痛みに使う長時間作用型の局所麻酔薬EXPAREL、変形性膝関節症の痛みに使う徐放性ステロイド注射ZILRETTAを持ち、2026年6月までの12か月の売上は約7億4,600万ドル（約1,180億円）、調整後EBITDAは1億7,700万ドル。膝OA向けの遺伝子治療PCRX-201も第II相にある。",
+        "Viatrisは買収資金を主に手元資金で賄い、残りを短期借入で調達する。米国の新薬部門の営業・市場アクセス・メディカル部門を取り込み、自社が申請中の速効型メロキシカムとの相乗効果を見込むとしている。"
+      ],
+      "comment": "ジェネリック大手が自社の成長のために、特許で守られた新薬を買う動きが続いています。自分が注目したのは、「術後の痛みを麻薬性鎮痛薬なしで抑える薬」が2,600億円の値段になった点で、米国のオピオイド問題が非オピオイド鎮痛薬の市場価値を押し上げています。日本では術後鎮痛にオピオイドを多用してこなかった分、この領域の新薬は後回しにされがちですが、Viatrisは日本法人を持つ会社なので、国内への導入が検討されるかを見ておきたいと思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
     },
     {
       "id": "dd9d269b-c7cc-4460-bd51-d640b814a440",
@@ -2044,6 +2173,26 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/130024/8/130024-8-0ef8034bbab2dff4b1dcd448c6c40096-1448x1086.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "c46c1aad-3d4c-49b7-b2aa-e2408137373b",
+      "created_at": "2026-10-22T05:07:45.623Z",
+      "published_date": "2026-10-01",
+      "category": "global",
+      "featured": false,
+      "title": "米FDA、子どもの成長に合わせて広げられる初の人工心臓弁「Autus Size-Adjustable Valve」を承認。先天性心疾患の子どもの再手術を減らす狙い、開発はエドワーズライフサイエンス",
+      "source_name": "FDA",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children",
+      "source_url_2": "https://www.edwards.com/healthcare-professionals/products-services/autus-size-adjustable-valve",
+      "image_url": null,
+      "summary": [
+        "FDAは10月1日、先天性の肺動脈弁疾患をもつ小児向けに、外科的に植え込む肺動脈弁「Autus Size-Adjustable Valve」を承認した。植え込み後にバルーンカテーテルで広げて子どもの成長に合わせられる初の人工弁で、弁葉に動物由来の組織ではなく高分子素材を使う米国初の承認でもある。",
+        "植え込み時は直径約13mm（幼児サイズ）から始め、成長に応じて段階的に最大22mm（成人サイズ相当）まで拡張できる。従来の生体弁は子どもでは硬化・劣化が早く、成長とともに複数回の開心術が必要だった。1年の追跡では合成弁葉の耐久性は良好とされる。",
+        "米国では肺動脈弁の閉鎖・狭窄で年間約4,200人の赤ちゃんが生まれる。承認の根拠となった試験は米国12施設の62例（生後18か月〜16歳）。開発したAutus Valve Technologiesはエドワーズライフサイエンスが買収しており、承認はエドワーズに対して出ている。"
+      ],
+      "comment": "先天性心疾患の子どもは、体が大きくなるたびに人工弁を入れ替える開心術を繰り返してきました。自分が注目したのは、「弁を入れ替えずにカテーテルで広げる」という発想の転換で、小児医療機器の少ない市場に大手のエドワーズが買収で入ってきた点も含めて重要です。日本では小児用医療機器の開発が採算面で遅れ、学会が繰り返し国に要望を出してきた領域なので、米国で承認された製品が国内に何年遅れで届くかが問われると思います。",
+      "status": "published",
+      "updated_at": "2026-10-22T05:07:45.623Z"
     },
     {
       "id": "bf5e8be1-a324-459c-b4fc-ffdbd8775a6d",

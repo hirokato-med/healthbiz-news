@@ -6,9 +6,9 @@ import { Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 
 /** 引っ張れる最大の深さ（px）。iOS の標準的な引っ張りと同じくらい */
-const MaxPull = 220;
+const MaxPull = 110;
 /** この深さまで引いて離すと更新する（px） */
-const Threshold = 90;
+const Threshold = 60;
 /** 更新中・失敗表示のときに残す帯の高さ（px） */
 const BusyHeight = 64;
 /** 指の移動に対する追従の割合（1 より小さいと「重い」手応えになる） */

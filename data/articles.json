@@ -2603,7 +2603,12 @@
       },
       "image_url": "https://prcdn.freetls.fastly.net/release_image/79736/47/79736-47-f3e58f2d06fda8008da05b70c7106c25-1920x400.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
-      "updated_at": "2026-10-21T07:12:31.327Z"
+      "updated_at": "2026-10-21T07:12:31.327Z",
+      "quote": {
+        "text": "The round was led by .406 Ventures, with continued backing from Emerson Collective (managed by Yosemite), Forerunner, and Serena Ventures, and new participation from Japan-based MPower Partners.",
+        "source": "Teal Health",
+        "url": "https://www.getteal.com/news/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening"
+      }
     },
     {
       "id": "3dbe750f-1de0-43ea-bf19-e8f40aaf1762",
@@ -2726,7 +2731,12 @@
       "comment": "Samsungのワイヤレスイヤホン「Galaxy Buds」に、補聴器の機能が乗ります。米国FDAが、処方箋なしで買えるOTC補聴器として認可しました。対象はGalaxy Buds3 ProとBuds4 Pro、18歳以上の軽度〜中等度の難聴で、提供は2026年第4四半期からです。\nこの「OTC医療機器」みたいなのは日本でもこれから増えていっておかしくないと思っています！（アイリスのnodocaもそうなる方がいい）\n使い方は、設定画面から約5分のセルフ聴力検査を受け、その結果に合わせて聞き取りにくい音を増幅する。検査のソフトウェアはSaMD（医療機器プログラム）として登録され、処方式には補聴器のフィッティングで標準のNAL-NL2を使っています。\nWHOの推計では難聴は世界で15億人、2050年に25億人。費用と偏見で、必要な人の多くが補聴器を使っていません。\n補聴器を安くしたのではなく、買いに行く手前の「聴力検査」ごとイヤホンに入れたところが効いていると思います。",
       "image_url": "https://prcdn.freetls.fastly.net/release_image/30942/986/30942-986-149af843787a1091ef79365842100b66-728x410.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
-      "updated_at": "2026-10-21T07:12:31.327Z"
+      "updated_at": "2026-10-21T07:12:31.327Z",
+      "quote": {
+        "text": "With the latest clearance from the FDA, we are expanding access to hearing support and making proactive care effortless by integrating the Hearing Test and Hearing Aid functionality directly into the Galaxy Buds.",
+        "source": "Samsung Newsroom",
+        "url": "https://news.samsung.com/global/samsungs-hearing-aid-feature-on-galaxy-buds-cleared-by-fda"
+      }
     },
     {
       "id": "ce39b5db-6151-4dc3-ad48-92173330d1bf",
@@ -3009,7 +3019,12 @@
       "comment": "「Goalkeepers Report 2026」の公開に合わせた発表です。内訳は教育40％、ヘルスケア40％、農業10％、デジタル基盤10％。\nヘルスケアでは、医療従事者向けの診断・臨床の意思決定支援、妊産婦・新生児ケアのツール、新薬やワクチンの探索が挙がっています。\nAIそのものの開発ではなく、「届かないところに届ける」ほうに資金を置いているのが財団らしいと思います。",
       "image_url": "https://prcdn.freetls.fastly.net/release_image/129554/15/129554-15-b3b0252a4f64f3ea63f58dd69067086c-1211x856.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
-      "updated_at": "2026-10-21T07:12:31.327Z"
+      "updated_at": "2026-10-21T07:12:31.327Z",
+      "quote": {
+        "text": "The Gates Foundation today announced plans to spend at least US$1 billion over the next two years to expand access to artificial intelligence and the AI-enabled solutions, opportunities, and knowledge that have too often been out of reach for many around the world.",
+        "source": "Gates Foundation",
+        "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/goalkeepers-report-equitable-ai"
+      }
     },
     {
       "id": "64a7466b-8b81-4ccd-990d-1d31bbc77a9f",

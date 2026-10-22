@@ -13,7 +13,7 @@ import type { Article } from '@/lib/types';
 /**
  * 一覧の1行。上段は「太ゴシックの見出し＋発信元・日付」と右のサムネイル、
  * 下段に加藤コメントの冒頭2行（40字前後）を全幅で出す。
- * 新着（前回開いたあとに配信、未読）は見出しの前に青い点、開いた記事は見出しを薄くする。
+ * 新着（今日・昨日の配信で未読）は見出しの前に青い点、開いた記事は発信元の横に「既読」。
  * compact は関連記事・検索結果用（コメント行なし、サムネイル小）。
  */
 export function ArticleRow({ article, compact = false }: { article: Article; compact?: boolean }) {
@@ -33,7 +33,7 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
         <View style={styles.body}>
           <View style={styles.headlineRow}>
             {fresh ? <View style={[styles.newDot, { backgroundColor: theme.accent }]} /> : null}
-            <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={[styles.headline, read && { color: theme.textMuted }]}>
+            <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={styles.headline}>
               {article.title}
             </ThemedText>
           </View>

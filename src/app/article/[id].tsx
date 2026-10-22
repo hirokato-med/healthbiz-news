@@ -113,7 +113,10 @@ export default function ArticleScreen() {
                 <ThemedText type="caption" style={{ fontWeight: '700' }}>
                   ▸ 代表：{article.company.ceo.name}
                 </ThemedText>
-                <ThemedText style={styles.companyText}>{article.company.ceo.bio}</ThemedText>
+                {/* 経歴が取れなかった記事は名前だけ出す（「経歴確認できない」を読者に見せない） */}
+                {article.company.ceo.bio && !/経歴確認できない|不明/.test(article.company.ceo.bio) ? (
+                  <ThemedText style={styles.companyText}>{article.company.ceo.bio}</ThemedText>
+                ) : null}
               </View>
             ) : null}
             {article.company.url ? (

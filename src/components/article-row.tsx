@@ -13,26 +13,22 @@ import type { Article } from '@/lib/types';
 /**
  * 一覧の1行。上段は「太ゴシックの見出し＋発信元・日付」と右のサムネイル、
  * 下段に加藤コメントの冒頭2行（40字前後）を全幅で出す。
- * 新着（今日・昨日の配信で未読）は見出しの前に青い点、開いた記事は発信元の横に「既読」。
  * compact は関連記事・検索結果用（コメント行なし、サムネイル小）。
  */
 export function ArticleRow({ article, compact = false }: { article: Article; compact?: boolean }) {
   const theme = useTheme();
   const router = useRouter();
-  const { isSaved, isRead, isNew } = useStore();
-  const read = isRead(article.id);
-  const fresh = isNew(article);
+  const { isSaved } = useStore();
 
   return (
     <Pressable
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
       style={({ pressed }) => [styles.row, compact && styles.rowCompact, { borderBottomColor: theme.line, opacity: pressed ? 0.7 : 1 }]}
       accessibilityRole="button"
-      accessibilityLabel={`${fresh ? '新着。' : read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
+      accessibilityLabel={`${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
           <View style={styles.headlineRow}>
-            {fresh ? <View style={[styles.newDot, { backgroundColor: theme.accent }]} /> : null}
             <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={styles.headline}>
               {article.title}
             </ThemedText>
@@ -46,11 +42,6 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
                 ★
               </ThemedText>
             )}
-            {read && !compact ? (
-              <ThemedText type="caption" themeColor="textSecondary">
-                既読
-              </ThemedText>
-            ) : null}
           </View>
         </View>
         <Thumb article={article} style={compact ? styles.thumbCompact : styles.thumb} />
@@ -94,13 +85,6 @@ const styles = StyleSheet.create({
     gap: Spacing.two,
   },
   headline: { flex: 1 },
-  /** 新着の目印 */
-  newDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    marginTop: 8,
-  },
   meta: {
     flexDirection: 'row',
     alignItems: 'center',

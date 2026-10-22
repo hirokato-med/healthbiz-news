@@ -2,7 +2,11 @@ import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'react-native';
 
+import { startAutoUpdate } from '@/lib/auto-update';
 import { StoreProvider } from '@/lib/store';
+
+// Web 版: 新しい版が公開されたら自動で読み込み直す
+startAutoUpdate();
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();

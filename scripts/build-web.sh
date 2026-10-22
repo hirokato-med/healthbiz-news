@@ -6,8 +6,11 @@ cd "$ROOT"
 OUT="${1:-web-dist}"
 # 利用状況の計測（Google アナリティクス）の測定 ID。空にすると計測しない
 export EXPO_PUBLIC_GA_ID="${EXPO_PUBLIC_GA_ID-G-PYC7DZRBKW}"
+# ビルドごとの版。アプリはこれと公開中の version.json を比べて、違えば読み込み直す（src/lib/auto-update.ts）
+export EXPO_PUBLIC_BUILD_ID="${EXPO_PUBLIC_BUILD_ID:-$(date -u +%Y%m%d%H%M%S)}"
 CI=1 npx expo export --platform web --output-dir "$OUT"
 cd "$OUT"
+echo "{\"build\":\"$EXPO_PUBLIC_BUILD_ID\"}" > version.json
 # Jekyll に _expo フォルダを無視させない
 touch .nojekyll
 # どの URL でも index.html を返せるように（記事ページの直接アクセス・再読み込み用）

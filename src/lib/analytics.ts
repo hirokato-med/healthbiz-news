@@ -25,10 +25,13 @@ declare global {
 /** 画面（上タブのチャンネル、保存、このアプリ、記事）を見た */
 export function trackScreen(screen: string, params: Params = {}) {
   track('screen_view', { screen_name: screen, ...params });
+  // GA の標準レポート（ページとスクリーン、リアルタイムの表示回数）に出るよう、Web では page_view も送る
+  pageView(typeof params.channel === 'string' ? `${params.channel}｜HB News` : `${screen}｜HB News`);
 }
 
 /** 記事を開いた */
 export function trackArticle(a: { id: string; title: string; category: string; source_name: string; kind?: string }) {
+  pageView(`${a.title.slice(0, 80)}｜HB News`);
   track('article_view', {
     article_id: a.id,
     article_title: a.title.slice(0, 100),
@@ -41,6 +44,15 @@ export function trackArticle(a: { id: string; title: string; category: string; s
 /** 外部リンクやボタンを押した。kind: source / source_2 / company / substack_read / substack_subscribe / share / save / unsave */
 export function trackClick(kind: string, params: Params = {}) {
   track('click', { kind, ...params });
+}
+
+function pageView(title: string) {
+  if (!AnalyticsEnabled || Platform.OS !== 'web') return;
+  try {
+    window.gtag?.('event', 'page_view', { page_title: title, page_location: window.location.href });
+  } catch {
+    // 計測の失敗でアプリを止めない
+  }
 }
 
 export function track(name: string, params: Params = {}) {

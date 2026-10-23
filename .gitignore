@@ -48,3 +48,6 @@ example
 
 # Web ビルド出力
 web-dist
+
+# 配信の回ごとの入力ファイル（publish.mjs に渡したら不要）
+pipeline/today.json

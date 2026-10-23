@@ -22,20 +22,28 @@ export function ColumnHeader({ title, aside, asideColor }: { title: string; asid
   );
 }
 
-/** 左の段のトップ記事。大きな画像 → 分類 → 大きな見出し → 加藤コメント（全文） */
-export function DesktopLead({ article }: { article: Article }) {
+/**
+ * 左の段のトップ記事。大きな画像 → 分類 → 大きな見出し → 加藤コメント（全文）。
+ * horizontal: 2 段組のとき。画像を左、見出しとコメントを右に並べて高さを抑える
+ */
+export function DesktopLead({ article, horizontal = false }: { article: Article; horizontal?: boolean }) {
   const theme = useTheme();
   const router = useRouter();
   const channel = channelOf(article.category);
   return (
-    <Pressable onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })} style={({ pressed }) => [styles.lead, pressed && styles.pressed]} accessibilityRole="button">
-      <Thumb article={article} style={styles.leadImage} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
-      <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
-      <ThemedText style={styles.leadTitle}>{article.title}</ThemedText>
-      <Comment article={article} lines={8} />
-      <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
-        {article.source_name}・{formatRelative(article.published_date)}
-      </ThemedText>
+    <Pressable
+      onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
+      style={({ pressed }) => [horizontal ? styles.leadRow : styles.lead, pressed && styles.pressed]}
+      accessibilityRole="button">
+      <Thumb article={article} style={[styles.leadImage, horizontal && styles.leadImageRow]} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
+      <View style={horizontal ? styles.leadBody : styles.lead}>
+        <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
+        <ThemedText style={[styles.leadTitle, horizontal && styles.leadTitleRow]}>{article.title}</ThemedText>
+        <Comment article={article} lines={horizontal ? 5 : 8} />
+        <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
+          {article.source_name}・{formatRelative(article.published_date)}
+        </ThemedText>
+      </View>
     </Pressable>
   );
 }
@@ -59,7 +67,7 @@ export function DesktopSubCard({ article }: { article: Article }) {
 }
 
 /** 中の段（新着）の 1 行。分類 → 見出し → コメント 2 行、右に小さな画像 */
-export function DesktopRow({ article }: { article: Article }) {
+export function DesktopRow({ article, wide = false }: { article: Article; wide?: boolean }) {
   const theme = useTheme();
   const router = useRouter();
   const { isRead, isSaved } = useStore();
@@ -84,7 +92,7 @@ export function DesktopRow({ article }: { article: Article }) {
           {isRead(article.id) ? '　既読' : ''}
         </ThemedText>
       </View>
-      <Thumb article={article} style={styles.rowImage} fit={article.category === 'earnings' ? 'contain' : 'cover'} />
+      <Thumb article={article} style={[styles.rowImage, wide && styles.rowImageWide]} fit={article.category === 'earnings' ? 'contain' : 'cover'} />
     </Pressable>
   );
 }
@@ -116,6 +124,10 @@ const styles = StyleSheet.create({
   lead: { gap: Spacing.two },
   leadImage: { width: '100%', aspectRatio: 16 / 10, borderRadius: 0, marginBottom: Spacing.one },
   leadTitle: { fontSize: 26, lineHeight: 37, fontWeight: '800', letterSpacing: -0.2 },
+  leadRow: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start' },
+  leadImageRow: { flex: 1.1, width: undefined, marginBottom: 0 },
+  leadBody: { flex: 1, gap: Spacing.two },
+  leadTitleRow: { fontSize: 23, lineHeight: 34 },
   sub: { flex: 1, gap: 4 },
   subImage: { width: '100%', aspectRatio: 16 / 10, borderRadius: 0, marginBottom: 2 },
   subTitle: { fontSize: 15, lineHeight: 22, fontWeight: '700' },
@@ -123,6 +135,7 @@ const styles = StyleSheet.create({
   rowBody: { flex: 1, gap: 4 },
   rowTitle: { fontSize: 15, lineHeight: 22, fontWeight: '700' },
   rowImage: { width: 96, height: 68, borderRadius: 4 },
+  rowImageWide: { width: 150, height: 100 },
   comment: { borderLeftWidth: 3, paddingLeft: Spacing.three - 2, gap: 2, marginTop: 2 },
   commentBy: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   commentText: { fontSize: 13.5, lineHeight: 23 },

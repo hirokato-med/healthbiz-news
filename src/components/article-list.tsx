@@ -1,5 +1,5 @@
 import { useMemo, useRef } from 'react';
-import { FlatList, RefreshControl, ScrollView, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { FlatList, RefreshControl, ScrollView, StyleSheet, useWindowDimensions, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 
 import { PullToRefresh } from '@/components/pull-to-refresh';
 
@@ -48,6 +48,9 @@ export function ArticleList({
 }) {
   const theme = useTheme();
   const desktop = useDesktop();
+  // PC 向け: トップは横幅が十分あるときだけ 3 段組。分野のタブと、幅が足りないときは 2 段組（記事の段＋右の段）
+  const { width: windowWidth } = useWindowDimensions();
+  const threeColumns = channel.id === 'today' && windowWidth >= 1360;
   const { articles, loading, error, reload, savedIds } = useStore();
   const listRef = useRef<FlatList<Row>>(null);
   const deskListRef = useRef<FlatList<Article>>(null);
@@ -136,7 +139,7 @@ export function ArticleList({
     const lead = featured?.kind === 'featured' ? featured.article : (articlesIn.slice(0, 6).find((a) => a.image_url && !a.kind) ?? articlesIn[0]);
     const latest = lead?.published_date;
     const subs =
-      channel.id === 'today' ? articlesIn.filter((a) => a !== lead && a.image_url && !a.kind && a.published_date === latest).slice(0, 2) : [];
+      threeColumns ? articlesIn.filter((a) => a !== lead && a.image_url && !a.kind && a.published_date === latest).slice(0, 2) : [];
     const list = articlesIn.filter((a) => a !== lead && !subs.includes(a));
     const head = rows.find((r) => r.kind === 'section');
     return {
@@ -147,7 +150,7 @@ export function ArticleList({
       centerTitle: channel.id === 'today' ? '新着' : '記事一覧',
       aside: head?.kind === 'section' ? head.aside : undefined,
     };
-  }, [rows, channel]);
+  }, [rows, channel, threeColumns]);
 
   const empty = error
     ? `記事を読み込めませんでした。\n下に引っぱって再読み込みしてください。\n（${error}）`
@@ -189,7 +192,61 @@ export function ArticleList({
     />
   );
 
-  // PC 向け: 左の段・中の段・右の段の 3 段組（各段は別々にスクロール）
+  // PC 向け 2 段組: 左にトップ記事（横並び）と一覧をまとめ、右に「今日の注目」など
+  if (desktop && !threeColumns) {
+    return (
+      <View style={{ width, height: height ?? '100%', alignItems: 'center' }}>
+        <View style={[styles.desktopRow, { height: height ?? '100%' }]}>
+          <FlatList
+            ref={deskListRef}
+            onScroll={onScroll}
+            scrollEventThrottle={100}
+            style={[styles.mainCol, { borderRightColor: theme.line }]}
+            contentContainerStyle={styles.colContent}
+            data={desk.list}
+            keyExtractor={(a) => a.id}
+            ListHeaderComponent={
+              <View>
+                <ColumnHeader title={desk.leftTitle} aside={desk.aside} />
+                {desk.lead ? <DesktopLead article={desk.lead} horizontal /> : null}
+                {desk.subs.length ? (
+                  <View style={[styles.subs, { borderTopColor: theme.line }]}>
+                    {desk.subs.map((a) => (
+                      <DesktopSubCard key={a.id} article={a} />
+                    ))}
+                    {desk.subs.length === 1 ? <View style={{ flex: 1 }} /> : null}
+                  </View>
+                ) : null}
+                {channel.id === 'today' ? (
+                  <View style={[styles.subscribeRow, { borderBottomColor: theme.line, marginTop: Spacing.four }]}>
+                    <SubscribeLink where="featured" />
+                  </View>
+                ) : null}
+                {channel.id === 'substack' ? <SubstackSubscribe /> : null}
+                {desk.list.length ? (
+                  <View style={{ marginTop: Spacing.six }}>
+                    <ColumnHeader title={desk.centerTitle} />
+                  </View>
+                ) : null}
+                {!desk.lead && !loading ? (
+                  <ThemedText themeColor="textSecondary" style={styles.empty}>
+                    {empty}
+                  </ThemedText>
+                ) : null}
+              </View>
+            }
+            renderItem={({ item }) => <DesktopRow article={item} wide />}
+            refreshControl={<RefreshControl refreshing={loading} onRefresh={() => void reload()} tintColor={theme.textSecondary} />}
+          />
+          <ScrollView style={styles.rightCol} contentContainerStyle={styles.colContent} showsVerticalScrollIndicator={false}>
+            <DesktopSidebar onSelectChannel={onSelectChannel} />
+          </ScrollView>
+        </View>
+      </View>
+    );
+  }
+
+  // PC 向け 3 段組（トップ・横幅が十分あるとき）: 左の段・中の段・右の段（各段は別々にスクロール）
   if (desktop) {
     return (
       <View style={{ width, height: height ?? '100%', alignItems: 'center' }}>
@@ -259,6 +316,7 @@ const styles = StyleSheet.create({
   },
   colContent: { paddingTop: Spacing.five, paddingBottom: Spacing.ten },
   leftCol: { width: 470, flexGrow: 0, paddingRight: Spacing.five },
+  mainCol: { flex: 1, borderRightWidth: Hairline, paddingRight: Spacing.six },
   centerCol: { flex: 1, borderLeftWidth: Hairline, borderRightWidth: Hairline, paddingHorizontal: Spacing.five },
   rightCol: { width: SidebarWidth, flexGrow: 0, paddingLeft: Spacing.five },
   subs: { flexDirection: 'row', gap: Spacing.four, marginTop: Spacing.five, paddingTop: Spacing.four, borderTopWidth: Hairline },

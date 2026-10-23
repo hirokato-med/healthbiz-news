@@ -9,19 +9,89 @@
       "source_url": "https://www.release.tdnet.info/inbs/xxxxxxxxxxxxxxxx.pdf",
       "ir_url": "https://corporate.m3.com/ir/",
       "ir_docs": [
-        { "label": "決算説明資料（2027年3月期 第2四半期）", "url": "https://www.release.tdnet.info/inbs/yyyyyyyyyyyyyyyy.pdf" },
-        { "label": "有価証券報告書（2026年3月期）", "url": "（IR ライブラリか EDINET の URL）" }
+        {
+          "label": "決算説明資料（2027年3月期 第2四半期）",
+          "url": "https://www.release.tdnet.info/inbs/yyyyyyyyyyyyyyyy.pdf"
+        },
+        {
+          "label": "有価証券報告書（2026年3月期）",
+          "url": "（IR ライブラリか EDINET の URL）"
+        }
       ],
       "image_url": "（会社サイトの og:image。ロゴでよい）",
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",
         "kind": "決算短信",
         "rows": [
-          { "label": "売上収益", "value": "1,650億円", "change": "+12.0%" },
-          { "label": "営業利益", "value": "420億円", "change": "+8.1%" },
-          { "label": "純利益", "value": "280億円", "change": "-3.2%" }
+          {
+            "label": "売上収益",
+            "value": "1,650億円",
+            "prev": "1,473億円",
+            "change": "+12.0%"
+          },
+          {
+            "label": "営業利益",
+            "value": "420億円",
+            "prev": "389億円",
+            "change": "+8.1%"
+          },
+          {
+            "label": "純利益",
+            "value": "280億円",
+            "prev": "289億円",
+            "change": "-3.2%"
+          }
         ],
-        "forecast": "通期は売上収益3,400億円・営業利益900億円の予想を据え置き（進捗率 49% / 47%）。"
+        "forecast": "通期は売上収益3,400億円・営業利益900億円の予想を据え置き（進捗率 49% / 47%）。",
+        "columns": {
+          "value": "今期",
+          "prev": "前年同期",
+          "change": "前年同期比"
+        },
+        "compare_note": "前年同期＝2025年4〜9月（前の期の中間期）。純利益は親会社の所有者に帰属する中間利益。",
+        "history": {
+          "columns": [
+            "売上収益",
+            "営業利益"
+          ],
+          "rows": [
+            {
+              "period": "2024年3月期",
+              "values": [
+                "2,600億円",
+                "700億円"
+              ],
+              "bar": 2600
+            },
+            {
+              "period": "2025年3月期",
+              "values": [
+                "2,800億円",
+                "760億円"
+              ],
+              "bar": 2800
+            },
+            {
+              "period": "2026年3月期",
+              "values": [
+                "3,050億円",
+                "820億円"
+              ],
+              "bar": 3050
+            },
+            {
+              "period": "2027年3月期",
+              "note": "会社予想",
+              "values": [
+                "3,400億円",
+                "900億円"
+              ],
+              "bar": 3400,
+              "forecast": true
+            }
+          ],
+          "note": "通期の実績（各期の決算短信より）。"
+        }
       },
       "summary": [
         "（伸びた・減った理由を1文。セグメント名と数字）",

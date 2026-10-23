@@ -5,6 +5,7 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleRow } from '@/components/article-row';
+import { EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { WeeklyDetail } from '@/components/weekly-detail';
@@ -126,6 +127,15 @@ export default function ArticleScreen() {
 
           {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
+          {article.earnings ? (
+            <>
+              <ThemedText type="section" style={styles.sectionLabel}>
+                決算の概要
+              </ThemedText>
+              <EarningsTable earnings={article.earnings} />
+            </>
+          ) : null}
+
           {article.summary.length > 0 && (
             <ThemedText type="section" style={styles.sectionLabel}>
               ポイント
@@ -233,9 +243,17 @@ export default function ArticleScreen() {
             style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
             accessibilityRole="link">
             <ThemedText style={[styles.sourceButtonText, { color: theme.onAccent }]}>
-              {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : 'プレスリリース原文を読む ↗'}
+              {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : article.category === 'earnings' ? '決算短信（PDF）を読む ↗' : 'プレスリリース原文を読む ↗'}
             </ThemedText>
           </Pressable>
+          {article.ir_url ? (
+            <Pressable
+              onPress={() => (trackClick('ir', { article_id: article.id }), WebBrowser.openBrowserAsync(article.ir_url!))}
+              style={({ pressed }) => [styles.sourceButton, styles.sourceButtonSecondary, { borderColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
+              accessibilityRole="link">
+              <ThemedText style={[styles.sourceButtonText, { color: theme.accent }]}>{article.source_name}の IR ページを見る ↗</ThemedText>
+            </Pressable>
+          ) : null}
           {article.kind === 'substack' ? <SubstackSubscribe compact /> : null}
           {article.source_url_2 ? (
             <Pressable
@@ -248,7 +266,9 @@ export default function ArticleScreen() {
           <ThemedText type="caption" themeColor="textSecondary" style={styles.disclaimer}>
             {article.kind === 'substack'
               ? '加藤浩晃が連載しているメルマガの記事です。全文はメルマガで読めます。購読するとメールで届きます。'
-              : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
+              : article.category === 'earnings'
+                ? '数字は決算短信・適時開示をもとにまとめています。正確な内容は原文と IR ページをご確認ください。'
+                : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
           </ThemedText>
 
           {related.length ? (

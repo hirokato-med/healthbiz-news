@@ -66,7 +66,8 @@ export function ArticleList({
     const out: Row[] = [];
 
     if (channel.id === 'today') {
-      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly');
+      // 決算は「決算」タブで見る（決算シーズンにトップが埋まらないように）。トップに出すのは featured にしたものだけ
+      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && (a.category !== 'earnings' || a.featured));
       const weeklies = articles.filter((a) => a.kind === 'weekly');
       // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
       const latest = news[0]?.published_date;

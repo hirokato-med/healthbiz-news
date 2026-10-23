@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "published_date": "2026-11-05",
+      "category": "earnings",
+      "featured": false,
+      "title": "エムスリー、2027年3月期中間決算は売上収益12%増・営業利益8%増。通期予想は据え置き",
+      "source_name": "エムスリー",
+      "source_url": "https://www.release.tdnet.info/inbs/xxxxxxxxxxxxxxxx.pdf",
+      "ir_url": "https://corporate.m3.com/ir/",
+      "image_url": "（会社サイトの og:image。ロゴでよい）",
+      "earnings": {
+        "period": "2027年3月期 第2四半期（中間期）",
+        "kind": "決算短信",
+        "rows": [
+          { "label": "売上収益", "value": "1,650億円", "change": "+12.0%" },
+          { "label": "営業利益", "value": "420億円", "change": "+8.1%" },
+          { "label": "純利益", "value": "280億円", "change": "-3.2%" }
+        ],
+        "forecast": "通期は売上収益3,400億円・営業利益900億円の予想を据え置き（進捗率 49% / 47%）。"
+      },
+      "summary": [
+        "（伸びた・減った理由を1文。セグメント名と数字）",
+        "（2つ目の要因）",
+        "（今後の見通し・会社のコメント）"
+      ],
+      "comment": "（加藤浩晃のコメント。60〜120字。数字の意味を1つだけ）",
+      "company": {
+        "name": "エムスリー",
+        "listed": "東証プライム",
+        "financials": "（直近の通期実績と今期予想を1文）",
+        "profile": "（事業内容を1文）",
+        "url": "https://corporate.m3.com/"
+      }
+    }
+  ]
+}

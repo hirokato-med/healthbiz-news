@@ -41,6 +41,18 @@ export type Article = {
   weekly?: { range: string; total?: number | null; items: { article_id: string; comment: string }[] } | null;
   /** 海外記事: 原文（英語）からの一文引用と出典 */
   quote?: { text: string; source?: string | null; url?: string | null } | null;
+  /** 上場企業の IR ページ（決算・適時開示の一覧）。決算記事では必ず付く */
+  ir_url?: string | null;
+  /** 決算記事: 対象期間と主要な数字（前年同期比つき）、通期予想 */
+  earnings?: {
+    /** 「2027年3月期 第2四半期（中間期）」など */
+    period: string;
+    /** 決算短信 / 業績予想の修正 など */
+    kind?: string | null;
+    rows: { label: string; value: string; change?: string | null }[];
+    /** 通期予想（据え置き・上方修正など）を1文で */
+    forecast?: string | null;
+  } | null;
   /** 配信した時刻（publish.mjs が付ける）。新着の判定に使う */
   created_at?: string;
 };

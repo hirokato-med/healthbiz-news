@@ -21,7 +21,7 @@ if (!file) {
 }
 
 const status = flags.includes('--draft') ? 'draft' : 'published';
-const Categories = new Set(['device', 'wearable', 'drug', 'digital', 'dx', 'service', 'longevity', 'policy', 'global']);
+const Categories = new Set(['device', 'wearable', 'drug', 'digital', 'dx', 'service', 'longevity', 'policy', 'earnings', 'global']);
 
 const raw = JSON.parse(await readFile(file, 'utf8'));
 const rows = (Array.isArray(raw) ? raw : raw.articles).map((a, i) => {

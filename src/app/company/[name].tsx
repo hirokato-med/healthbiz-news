@@ -25,6 +25,7 @@ export default function CompanyScreen() {
   const insets = useSafeAreaInsets();
   const { articles } = useStore();
   const { articles: list, info } = useMemo(() => articlesOfCompany(name, articles), [name, articles]);
+  const irUrl = list.map((a) => a.ir_url).find(Boolean) ?? null;
 
   useEffect(() => {
     trackScreen('company', { company: name });
@@ -59,6 +60,13 @@ export default function CompanyScreen() {
           </ThemedText>
           {info.ceo.bio && !/経歴確認できない|不明/.test(info.ceo.bio) ? <ThemedText style={styles.body}>{info.ceo.bio}</ThemedText> : null}
         </View>
+      ) : null}
+      {irUrl ? (
+        <Pressable onPress={() => (trackClick('ir', { company: name }), WebBrowser.openBrowserAsync(irUrl))} accessibilityRole="link">
+          <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+            IR ページ ↗
+          </ThemedText>
+        </Pressable>
       ) : null}
       {info?.url ? (
         <Pressable onPress={() => (trackClick('company', { company: name }), WebBrowser.openBrowserAsync(info.url!))} accessibilityRole="link">

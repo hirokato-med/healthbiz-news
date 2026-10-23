@@ -29,6 +29,7 @@ export const ShareCardText = {
   appName: 'Healthcare Business News',
   author: '加藤浩晃のコメント',
   cta: '記事の続きはアプリで',
+  qrHint: 'QRコードを読み取ると、この記事が開きます',
   url: 'https://hirokato-med.github.io/healthbiz-news/',
 } as const;
 
@@ -44,6 +45,8 @@ export type ShareCardInput = {
   categoryColor: string;
   /** 加藤浩晃の顔写真。無ければ薄いグレーの丸を置く */
   avatar?: CanvasImageSource | null;
+  /** 記事 URL の QR コード（true が黒いマス）。あればフッターの右に置く */
+  qr?: boolean[][] | null;
   /** 描画に使うフォント。既定は `ShareCardFontFamily`（テストで Linux のフォントに差し替えるために開けてある） */
   fontFamily?: string;
 };
@@ -167,7 +170,7 @@ export function excerptComment(comment: string, length = CommentExcerptLength): 
 /**
  * 1080×1080 の共有カードを描く。ctx は同じ大きさの canvas のもの。
  * 上から: アプリ名 → 分類ラベル（チャンネル色）→ 見出し（最大 4 行）→ 青い縦棒付きの引用 →
- * 丸いアバターと「加藤浩晃のコメント」→ 罫線 → 「記事の続きはアプリで」と URL。
+ * 丸いアバターと「加藤浩晃のコメント」→ 罫線 → 「記事の続きはアプリで」と URL（QR があれば右に QR コード）。
  * 見出しもコメントも短いときは中身が上に寄って下が空くので、空きの半分だけ（上限あり）下げて置く。
  */
 export function drawShareCard(ctx: CanvasRenderingContext2D, input: ShareCardInput): void {
@@ -199,7 +202,8 @@ export function drawShareCard(ctx: CanvasRenderingContext2D, input: ShareCardInp
   ctx.fillText(ShareCardText.appName, M + 12 + 14, M);
 
   // ── 下から固定の要素（罫線・CTA・URL）の位置
-  const footerRuleY = H - M - 96;
+  const qr = input.qr && input.qr.length > 0 ? input.qr : null;
+  const footerRuleY = H - M - (qr ? 150 : 96);
   const avatarSize = 60;
   const gapQuoteToAuthor = 28;
   const gapAuthorToFooter = 44;
@@ -273,23 +277,52 @@ export function drawShareCard(ctx: CanvasRenderingContext2D, input: ShareCardInp
   ctx.font = font(700, authorSize);
   ctx.fillText(ShareCardText.author, quoteX + avatarSize + 16, authorTop + (avatarSize - authorSize) / 2 - 1);
 
-  // ── フッター。罫線 → 「記事の続きはアプリで」（オレンジの目印付き）→ URL（紺）
+  // ── フッター。罫線 → 「記事の続きはアプリで」（オレンジの目印付き）→ URL（紺）。QR があれば右端に置き、文字はその左に収める
   ctx.fillStyle = C.line;
   ctx.fillRect(M, footerRuleY, contentWidth, 2);
-  const ctaTop = footerRuleY + 26;
+  const qrSize = 168;
+  const footerTextWidth = qr ? contentWidth - qrSize - 32 : contentWidth;
+  const ctaTop = footerRuleY + (qr ? 36 : 26);
   const ctaSize = 28;
   ctx.fillStyle = C.orange;
   ctx.fillRect(M, ctaTop + 9, 10, 10);
   ctx.fillStyle = C.text;
   ctx.font = font(700, ctaSize);
   ctx.fillText(ShareCardText.cta, M + 10 + 12, ctaTop);
-  const urlTop = ctaTop + ctaSize + 12;
+  let urlTop = ctaTop + ctaSize + 12;
+  if (qr) {
+    const hintSize = 24;
+    ctx.fillStyle = C.textSecondary;
+    ctx.font = font(400, hintSize);
+    ctx.fillText(fitWidth(ctx, ShareCardText.qrHint, footerTextWidth), M, urlTop);
+    urlTop += hintSize + 14;
+  }
   const urlSize = 28;
   ctx.fillStyle = C.accent;
   ctx.font = font(400, urlSize);
-  ctx.fillText(fitWidth(ctx, ShareCardText.url, contentWidth), M, urlTop);
+  ctx.fillText(fitWidth(ctx, ShareCardText.url, footerTextWidth), M, urlTop);
+  if (qr) drawQr(ctx, qr, W - M - qrSize, footerRuleY + 22, qrSize, C.text);
 
   ctx.restore();
+}
+
+/** QR コードを size×size の正方形に描く。周りに 2 マス分の白い余白（読み取りに要る）を取る */
+function drawQr(ctx: CanvasRenderingContext2D, modules: boolean[][], x: number, y: number, size: number, color: string): void {
+  const n = modules.length;
+  const cell = size / (n + 4);
+  ctx.fillStyle = '#FFFFFF';
+  ctx.fillRect(x, y, size, size);
+  ctx.fillStyle = color;
+  for (let r = 0; r < n; r++) {
+    for (let c = 0; c < n; c++) {
+      // 隣のマスと隙間ができないよう、座標を丸めてから塗る
+      if (modules[r][c]) {
+        const x0 = Math.round(x + (c + 2) * cell);
+        const y0 = Math.round(y + (r + 2) * cell);
+        ctx.fillRect(x0, y0, Math.round(x + (c + 3) * cell) - x0, Math.round(y + (r + 3) * cell) - y0);
+      }
+    }
+  }
 }
 
 /** 行の配列を `lineHeight` 間隔で描き、最後の行の下端の y を返す。文字は行の高さの中央に置く */

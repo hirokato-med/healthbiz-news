@@ -11,6 +11,7 @@
  *   PNG 化は同期の `toDataURL` で行う。画面を開いたときに `preloadShareCard()` を呼んでおくと初回も速い
  */
 
+import qrcode from 'qrcode-generator';
 import { Image, Platform, Share } from 'react-native';
 
 import { channelOf } from '@/constants/channels';
@@ -105,11 +106,21 @@ async function renderShareCardFile(article: Article): Promise<File> {
     categoryName: channel.name,
     categoryColor: channel.color,
     avatar,
+    qr: qrModulesOf(articleUrlOf(article)),
   });
 
   // toBlob は別タスクで戻るためタップの activation が切れやすい。同期の toDataURL から Blob を組む
   const blob = dataUrlToBlob(canvas.toDataURL('image/png'));
   return new File([blob], `healthbiz-news-${article.id.slice(0, 8)}.png`, { type: 'image/png' });
+}
+
+/** URL を QR コードのマス目（true が黒）にする。誤り訂正は M（15%） */
+function qrModulesOf(url: string): boolean[][] {
+  const qr = qrcode(0, 'M');
+  qr.addData(url);
+  qr.make();
+  const n = qr.getModuleCount();
+  return Array.from({ length: n }, (_, r) => Array.from({ length: n }, (_, c) => qr.isDark(r, c)));
 }
 
 function dataUrlToBlob(dataUrl: string): Blob {

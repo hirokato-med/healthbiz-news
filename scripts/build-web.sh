@@ -17,10 +17,33 @@ touch .nojekyll
 cp index.html 404.html
 # iPhone の「ホーム画面に追加」で全画面アプリとして動くようにする
 cp "$ROOT/assets/images/icon.png" apple-touch-icon.png
+# ホーム画面に追加したときの「アプリの範囲」（scope）。これが無いと iPhone が記事のページをアプリの外とみなし、
+# 上下に「完了」などのブラウザの枠を出すことがある
+python3 - <<'PY'
+import json
+from PIL import Image
+Image.open("apple-touch-icon.png").convert("RGB").resize((512, 512)).save("icon-512.png")
+Image.open("apple-touch-icon.png").convert("RGB").resize((192, 192)).save("icon-192.png")
+json.dump({
+    "name": "Healthcare Business News",
+    "short_name": "HB News",
+    "start_url": "/healthbiz-news/",
+    "scope": "/healthbiz-news/",
+    "id": "/healthbiz-news/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#1E4FD8",
+    "lang": "ja",
+    "icons": [
+        {"src": "/healthbiz-news/icon-192.png", "sizes": "192x192", "type": "image/png"},
+        {"src": "/healthbiz-news/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    ],
+}, open("manifest.json", "w"), ensure_ascii=False)
+PY
 for f in *.html */*.html; do
   [ -f "$f" ] || continue
   sed -i 's#<meta name="viewport" content="[^"]*"#<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"#' "$f"
-  sed -i 's#</head>#<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
+  sed -i 's#</head>#<link rel="manifest" href="/healthbiz-news/manifest.json"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
 done
 # 利用状況の計測（Google アナリティクス）。測定 ID があるときだけ全ページに読み込む
 if [ -n "${EXPO_PUBLIC_GA_ID:-}" ]; then

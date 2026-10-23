@@ -18,6 +18,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Channels } from '@/constants/channels';
 import { Hairline, Radius, Spacing } from '@/constants/theme';
+import { DesktopMaxWidth, useDesktop } from '@/hooks/use-desktop';
 import { useTheme } from '@/hooks/use-theme';
 import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
@@ -32,6 +33,7 @@ export default function HomeScreen() {
   const { width } = useWindowDimensions();
   const insets = useSafeAreaInsets();
   const theme = useTheme();
+  const desktop = useDesktop();
   const { articles, reload } = useStore();
   const router = useRouter();
   const pagerRef = useRef<ScrollViewInstance>(null);
@@ -80,7 +82,34 @@ export default function HomeScreen() {
 
   return (
     <ThemedView style={styles.root}>
-      <View style={[styles.header, { paddingTop: insets.top + Spacing.two }]}>
+      <View style={[styles.header, { paddingTop: insets.top + Spacing.two }, desktop && { borderBottomColor: theme.line, borderBottomWidth: Hairline }]}>
+        <View style={desktop ? styles.desktopInner : undefined}>
+        {desktop ? (
+          // PC 向け: 題字を大きく、右に検索欄と「保存」「このアプリ」（下のタブバーの代わり）
+          <View style={[styles.masthead, styles.mastheadDesktop]}>
+            <View>
+              <ThemedText style={styles.appNameDesktop}>Healthcare Business News</ThemedText>
+              <ThemedText type="caption" themeColor="textSecondary">
+                加藤浩晃のヘルスケアビジネスニュース
+              </ThemedText>
+            </View>
+            <View style={{ flex: 1 }} />
+            <Pressable
+              onPress={() => router.push('/search')}
+              accessibilityRole="search"
+              style={({ pressed }) => [styles.searchBox, { backgroundColor: theme.surface, borderColor: theme.line, opacity: pressed ? 0.7 : 1 }]}>
+              <ThemedText type="caption" themeColor="textSecondary">
+                🔍 記事・企業名で検索
+              </ThemedText>
+            </Pressable>
+            <Pressable onPress={() => router.push('/saved')} accessibilityRole="link" hitSlop={6}>
+              <ThemedText style={[styles.headerLink, { color: theme.accent }]}>☆ 保存</ThemedText>
+            </Pressable>
+            <Pressable onPress={() => router.push('/about')} accessibilityRole="link" hitSlop={6}>
+              <ThemedText style={[styles.headerLink, { color: theme.accent }]}>このアプリ</ThemedText>
+            </Pressable>
+          </View>
+        ) : (
         <View style={styles.masthead}>
           <View>
             <ThemedText type="section" style={styles.appName}>
@@ -106,21 +135,27 @@ export default function HomeScreen() {
             </Pressable>
           </View>
         </View>
+        )}
         <ChannelTabs index={index} onSelect={selectTab} />
+        </View>
         <Pressable
           onPress={() => void reload()}
           accessibilityRole="button"
           accessibilityLabel="記事を更新"
-          style={[styles.ticker, { backgroundColor: theme.surface }]}>
-          <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1}>
-            {ticker.label}
-          </ThemedText>
-          <ThemedText type="caption" numberOfLines={1} style={[styles.tickerValue, { color: ticker.count ? theme.up : theme.textSecondary }]}>
-            {ticker.value}
-          </ThemedText>
-          <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1} style={styles.tickerDate}>
-            {ticker.right}
-          </ThemedText>
+          style={[styles.ticker, { backgroundColor: theme.surface }, desktop && { paddingHorizontal: 0 }]}>
+          <View style={[styles.tickerInner, desktop && styles.desktopInner, desktop && { paddingHorizontal: Spacing.five }]}>
+            <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1}>
+              {ticker.label}
+            </ThemedText>
+            <ThemedText type="caption" numberOfLines={1} style={[styles.tickerValue, { color: ticker.count ? theme.up : theme.textSecondary }]}>
+              {ticker.value}
+              {desktop ? <ThemedText type="caption" themeColor="textSecondary">{'　｜　毎日 12時・18時・22時に配信'}</ThemedText> : null}
+            </ThemedText>
+            <ThemedText type="caption" themeColor="textSecondary" numberOfLines={1} style={styles.tickerDate}>
+              {desktop ? `${formatDateLong(todayJST())}　` : ''}
+              {ticker.right}
+            </ThemedText>
+          </View>
         </Pressable>
       </View>
 
@@ -140,7 +175,7 @@ export default function HomeScreen() {
           onMomentumScrollEnd={onScroll}
           scrollEventThrottle={32}>
           {Channels.map((c) => (
-            <ArticleList key={c.id} channel={c} width={width} height={pagerHeight} />
+            <ArticleList key={c.id} channel={c} width={width} height={pagerHeight} onSelectChannel={selectTab} />
           ))}
         </ScrollView>
         )}
@@ -177,11 +212,42 @@ const styles = StyleSheet.create({
   mastheadRight: { alignItems: 'flex-end', gap: 6 },
   searchButton: { paddingHorizontal: Spacing.two, paddingVertical: 4, borderRadius: Radius.chip },
   ticker: {
+    paddingHorizontal: Spacing.four,
+    paddingVertical: Spacing.two - 1,
+  },
+  tickerInner: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: Spacing.three,
+  },
+  desktopInner: {
+    width: '100%',
+    maxWidth: DesktopMaxWidth,
+    alignSelf: 'center',
+  },
+  mastheadDesktop: {
+    paddingHorizontal: Spacing.five,
+    paddingTop: Spacing.three,
+    paddingBottom: Spacing.two,
+    gap: Spacing.five,
+  },
+  appNameDesktop: {
+    fontSize: 28,
+    lineHeight: 36,
+    fontWeight: '800',
+    letterSpacing: -0.3,
+  },
+  searchBox: {
+    width: 300,
+    borderWidth: Hairline,
+    borderRadius: 999,
     paddingHorizontal: Spacing.four,
-    paddingVertical: Spacing.two - 1,
+    paddingVertical: Spacing.two,
+  },
+  headerLink: {
+    fontSize: 15,
+    lineHeight: 20,
+    fontWeight: '700',
   },
   tickerValue: {
     flex: 1,

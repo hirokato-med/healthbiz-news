@@ -13,21 +13,20 @@ import type { Article } from '@/lib/types';
 /**
  * トップの注目記事。大きな画像の下に分類ラベル・太い見出し・コメントの冒頭。
  */
-export function FeaturedArticle({ article }: { article: Article }) {
+/** wide: PC 向け。画像を左、見出しとコメントを右に並べる */
+export function FeaturedArticle({ article, wide = false }: { article: Article; wide?: boolean }) {
   const theme = useTheme();
   const router = useRouter();
   const channel = channelOf(article.category);
 
-  return (
-    <Pressable
-      onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
-      style={({ pressed }) => [styles.card, { borderBottomColor: theme.line, opacity: pressed ? 0.7 : 1 }]}
-      accessibilityRole="button">
-      <Thumb article={article} style={styles.image} large />
+  const body = (
+    <>
       <ThemedText type="eyebrow" style={{ color: channel.color }}>
         {channel.name}
       </ThemedText>
-      <ThemedText type="featured">{article.title}</ThemedText>
+      <ThemedText type="featured" style={wide ? styles.wideTitle : undefined}>
+        {article.title}
+      </ThemedText>
       <View style={[styles.comment, { borderLeftColor: theme.accent }]}>
         <View style={styles.commentBy}>
           <KatoAvatar size={22} />
@@ -35,13 +34,32 @@ export function FeaturedArticle({ article }: { article: Article }) {
             加藤浩晃のコメント
           </ThemedText>
         </View>
-        <ThemedText type="comment" numberOfLines={2} style={styles.commentText}>
+        <ThemedText type="comment" numberOfLines={wide ? 5 : 2} style={styles.commentText}>
           {article.comment}
         </ThemedText>
       </View>
       <ThemedText type="caption" themeColor="textSecondary">
         {article.source_name}・{formatRelative(article.published_date)}
       </ThemedText>
+    </>
+  );
+
+  return (
+    <Pressable
+      onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
+      style={({ pressed }) => [styles.card, wide && styles.wideCard, { borderBottomColor: theme.line, opacity: pressed ? 0.7 : 1 }]}
+      accessibilityRole="button">
+      {wide ? (
+        <>
+          <Thumb article={article} style={styles.wideImage} large />
+          <View style={styles.wideBody}>{body}</View>
+        </>
+      ) : (
+        <>
+          <Thumb article={article} style={styles.image} large />
+          {body}
+        </>
+      )}
     </Pressable>
   );
 }
@@ -57,6 +75,10 @@ const styles = StyleSheet.create({
     aspectRatio: 2,
     marginBottom: Spacing.one,
   },
+  wideCard: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start', paddingTop: Spacing.two },
+  wideImage: { flex: 1.1, aspectRatio: 16 / 10 },
+  wideBody: { flex: 1, gap: Spacing.two },
+  wideTitle: { fontSize: 24, lineHeight: 35 },
   comment: {
     borderLeftWidth: 3,
     paddingLeft: Spacing.three,

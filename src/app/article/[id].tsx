@@ -5,6 +5,7 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleRow } from '@/components/article-row';
+import { DesktopSidebar } from '@/components/desktop-sidebar';
 import { EarningsHistory, EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { ShareButtons } from '@/components/share-buttons';
@@ -17,6 +18,7 @@ import { ThemedView } from '@/components/themed-view';
 import { Thumb } from '@/components/thumb';
 import { channelOf } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
+import { DesktopMaxWidth, SidebarWidth, useDesktop } from '@/hooks/use-desktop';
 import { useTheme } from '@/hooks/use-theme';
 import { track, trackArticle, trackClick } from '@/lib/analytics';
 import { articlesOfCompany, relatedArticles } from '@/lib/related';
@@ -33,6 +35,7 @@ export default function ArticleScreen() {
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
+  const desktop = useDesktop();
   const { articles, isSaved, toggleSaved, markRead, reactionOf, setReaction } = useStore();
 
   const article = articles.find((a) => a.id === id);
@@ -96,17 +99,23 @@ export default function ArticleScreen() {
         </View>
       ) : null}
 
-      <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
+      <ScrollView contentContainerStyle={[desktop ? styles.contentDesktop : styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
+        {/* PC 向け: 記事を白いカードに入れ、右に「今日の注目」などの列 */}
+        <View style={desktop ? styles.desktopRow : undefined}>
+        <View style={desktop ? [styles.desktopMain, { borderColor: theme.line }] : undefined}>
         {article.kind === 'weekly' ? (
           <WeeklyDetail issue={article} articles={articles} onShare={() => void share()} />
         ) : article.kind === 'monthly' ? (
           <MonthlyEarningsDetail issue={article} onShare={() => void share()} />
         ) : (
           <>
+          {/* PC 向けでは画像を見出しの右に小さく置き、すぐ本文が読めるようにする */}
+          <View style={desktop && article.image_url ? styles.desktopHead : undefined}>
+          <View style={desktop && article.image_url ? { flex: 1 } : undefined}>
           <ThemedText type="eyebrow" style={{ color: channel.color }}>
             {channel.name}
           </ThemedText>
-          <ThemedText type="title" style={styles.title}>
+          <ThemedText type="title" style={[styles.title, desktop && styles.titleDesktop]}>
             {article.title}
           </ThemedText>
           <View style={[styles.meta, styles.metaRow]}>
@@ -129,7 +138,11 @@ export default function ArticleScreen() {
             </ThemedText>
           </View>
 
-          {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
+          </View>
+          {desktop && article.image_url ? <Thumb article={article} style={styles.imageDesktop} /> : null}
+          </View>
+
+          {!desktop && article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
           {article.summary.length > 0 && (
             <ThemedText type="section" style={styles.sectionLabel}>
@@ -313,6 +326,13 @@ export default function ArticleScreen() {
           ) : null}
           </>
         )}
+        </View>
+        {desktop ? (
+          <View style={{ width: SidebarWidth }}>
+            <DesktopSidebar />
+          </View>
+        ) : null}
+        </View>
       </ScrollView>
     </ThemedView>
   );
@@ -383,6 +403,12 @@ const styles = StyleSheet.create({
     maxWidth: MaxContentWidth,
   },
   title: { marginTop: Spacing.one, marginBottom: Spacing.two },
+  titleDesktop: { fontSize: 28, lineHeight: 40 },
+  contentDesktop: { paddingHorizontal: Spacing.five, alignSelf: 'center', width: '100%', maxWidth: DesktopMaxWidth },
+  desktopRow: { flexDirection: 'row', alignItems: 'flex-start', gap: Spacing.six },
+  desktopMain: { flex: 1, marginTop: Spacing.five, borderWidth: Hairline, borderRadius: Radius.thumb + 6, paddingHorizontal: Spacing.six, paddingTop: Spacing.five, paddingBottom: Spacing.six },
+  desktopHead: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start' },
+  imageDesktop: { width: 220, height: 146, marginTop: Spacing.one },
   meta: { marginBottom: Spacing.four },
   metaRow: { flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' },
   quote: { marginTop: Spacing.five, borderLeftWidth: 3, paddingLeft: Spacing.three, gap: Spacing.one },

@@ -1,9 +1,10 @@
 import { useMemo, useRef } from 'react';
-import { FlatList, RefreshControl, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { FlatList, RefreshControl, ScrollView, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 
 import { PullToRefresh } from '@/components/pull-to-refresh';
 
 import { ArticleRow } from '@/components/article-row';
+import { DesktopSidebar } from '@/components/desktop-sidebar';
 import { FeaturedArticle } from '@/components/featured-article';
 import { SectionHeader } from '@/components/section-header';
 import { SubscribeLink } from '@/components/subscribe-link';
@@ -11,6 +12,7 @@ import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
 import type { Channel } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
+import { DesktopMaxWidth, SidebarWidth, useDesktop } from '@/hooks/use-desktop';
 import { useTheme } from '@/hooks/use-theme';
 import { formatDateLong, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
@@ -34,13 +36,17 @@ export function ArticleList({
   width,
   height,
   bottomInset = 0,
+  onSelectChannel,
 }: {
   channel: Channel;
   width?: number;
   height?: number;
   bottomInset?: number;
+  /** PC 向け画面の右の列から、トップのタブを切り替える */
+  onSelectChannel?: (index: number) => void;
 }) {
   const theme = useTheme();
+  const desktop = useDesktop();
   const { articles, loading, error, reload, savedIds } = useStore();
   const listRef = useRef<FlatList<Row>>(null);
   // 記事から戻ってきたとき、読んでいた位置に戻す（復元は一覧が十分な高さになった最初の1回だけ）
@@ -127,16 +133,15 @@ export function ArticleList({
       ? '保存した記事はまだありません。\n記事を開いて「保存」を押すとここに残ります。'
       : 'このチャンネルの記事はまだありません。';
 
-  return (
-    <PullToRefresh onRefresh={reload} refreshing={loading} listRef={listRef} width={width}>
-      <FlatList
+  const list = (
+    <FlatList
       ref={listRef}
       onScroll={onScroll}
       scrollEventThrottle={100}
       onContentSizeChange={onContentSizeChange}
       // 高さが測れていない間（Web の一部環境）は親いっぱいに広げる
-      style={{ width, height: height ?? '100%' }}
-      contentContainerStyle={[styles.content, { paddingBottom: bottomInset + Spacing.ten }]}
+      style={desktop ? { flex: 1, height: height ?? '100%' } : { width, height: height ?? '100%' }}
+      contentContainerStyle={[desktop ? styles.contentDesktop : styles.content, { paddingBottom: bottomInset + Spacing.ten }]}
       data={rows}
       keyExtractor={(row) => row.key}
       renderItem={({ item }) => {
@@ -148,7 +153,7 @@ export function ArticleList({
               <SubscribeLink where="featured" />
             </View>
           );
-        if (item.kind === 'featured') return <FeaturedArticle article={item.article} />;
+        if (item.kind === 'featured') return <FeaturedArticle article={item.article} wide={desktop} />;
         return <ArticleRow article={item.article} />;
       }}
       ListEmptyComponent={
@@ -159,7 +164,26 @@ export function ArticleList({
         )
       }
       refreshControl={<RefreshControl refreshing={loading} onRefresh={() => void reload()} tintColor={theme.textSecondary} />}
-      />
+    />
+  );
+
+  // PC 向け: 中央に記事一覧、右に「今日の注目」「最新の決算」などの列（右の列は一覧と別にスクロール）
+  if (desktop) {
+    return (
+      <View style={{ width, height: height ?? '100%', alignItems: 'center' }}>
+        <View style={[styles.desktopRow, { height: height ?? '100%' }]}>
+          {list}
+          <ScrollView style={{ width: SidebarWidth, flexGrow: 0 }} showsVerticalScrollIndicator={false}>
+            <DesktopSidebar onSelectChannel={onSelectChannel} />
+          </ScrollView>
+        </View>
+      </View>
+    );
+  }
+
+  return (
+    <PullToRefresh onRefresh={reload} refreshing={loading} listRef={listRef} width={width}>
+      {list}
     </PullToRefresh>
   );
 }
@@ -170,6 +194,16 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: '100%',
     maxWidth: MaxContentWidth,
+  },
+  contentDesktop: {
+    paddingRight: Spacing.two,
+  },
+  desktopRow: {
+    flexDirection: 'row',
+    width: '100%',
+    maxWidth: DesktopMaxWidth,
+    paddingHorizontal: Spacing.five,
+    gap: Spacing.six,
   },
   subscribeRow: { paddingVertical: Spacing.two, borderBottomWidth: Hairline },
   empty: {

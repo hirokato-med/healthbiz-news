@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { DesktopBackToTop } from '@/components/desktop-back';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Links } from '@/constants/links';
@@ -22,6 +23,7 @@ export default function AboutScreen() {
   return (
     <ThemedView style={styles.root}>
       <View style={[styles.header, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
+        <DesktopBackToTop />
         <ThemedText type="section" style={styles.title}>
           このアプリ
         </ThemedText>
@@ -68,7 +70,7 @@ function Row({ label, value, theme }: { label: string; value: string; theme: Ret
 
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  header: { paddingHorizontal: Spacing.four, paddingBottom: Spacing.three, borderBottomWidth: Hairline },
+  header: { flexDirection: 'row', alignItems: 'center', gap: Spacing.four, paddingHorizontal: Spacing.four, paddingBottom: Spacing.three, borderBottomWidth: Hairline },
   title: { fontSize: 18 },
   content: {
     paddingHorizontal: Spacing.four,

@@ -1,6 +1,88 @@
 {
-  "updated_at": "2026-10-23T07:12:39.767Z",
+  "updated_at": "2026-10-23T08:31:00.446Z",
   "articles": [
+    {
+      "id": "b569bb46-8142-40ce-b99e-b59eb504ee82",
+      "created_at": "2026-10-23T08:31:00.446Z",
+      "published_date": "2026-10-23",
+      "category": "device",
+      "featured": false,
+      "title": "パシフィックサプライ、装着型ロボット「Keeogoメディカル」がクラスⅡ管理医療機器の認証を取得。医療機関・リハビリ施設向けに提供開始",
+      "source_name": "パシフィックサプライ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000049.000132758.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/132758/49/132758-49-c2995593b531075f71677929741708e3-3900x2600.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "下肢歩行補助ロボット「Keeogoメディカル」が薬機法の管理医療機器（クラスⅡ、特定保守管理医療機器）として認証されました（認証番号308AGBZX00055000）。",
+        "関節部のセンサーが患者の随意運動を検知し、膝モーターで歩行・階段昇降・立ち座りを補助します。使用目的は下肢の筋力の維持・発達・回復です。",
+        "これまでは生活支援用具として普及を進めてきましたが、今後は全国の医療機関やリハビリテーション施設に医療機器として提供し、導入支援を始めます。"
+      ],
+      "comment": "福祉用具として売っていた装着型ロボットを、医療機器として取り直した話です。注目したのは、クラスⅡの認証で「下肢の筋力を維持・回復させる」という使用目的が明示された点で、これで病院のリハビリ室に正式に置ける製品になります。ただ診療報酬上の位置づけはこれからで、先行するHALのように保険で評価されるかどうかが普及の分かれ目になるのだと思います。",
+      "company": {
+        "name": "パシフィックサプライ",
+        "profile": "1968年7月設立、大阪府大東市、資本金4,000万円、未上場。義肢・装具・福祉用具の提供とセミナー活動を行う。川村義肢などと同じKAWAMURAグループの一社で、従業員82人。",
+        "url": "https://www.p-supply.co.jp/",
+        "ceo": {
+          "name": "川村慶",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T08:31:00.446Z"
+    },
+    {
+      "id": "7389645d-c53a-4d69-88f6-b44f7b03c850",
+      "created_at": "2026-10-23T08:31:00.446Z",
+      "published_date": "2026-10-23",
+      "category": "dx",
+      "featured": false,
+      "title": "パラマウントベッド、練馬区の在宅介護で睡眠センサー「眠りSCAN」を6か月検証。夜間の状況を可視化し、職員の心理的負担が改善、随時訪問も減少",
+      "source_name": "パラマウントベッド",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000098878.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/98878/88/98878-88-1b2626e1b7777615b02a98d43fc8a49c-1104x1104.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "練馬区と練馬区介護サービス事業者連絡協議会との協定に基づき、2025年7〜12月に定期巡回・随時対応型訪問介護看護と居宅介護支援の事業所で非接触型睡眠センサーを導入しました。",
+        "前半3か月はデータ取得のみ、後半3か月はデータを事業所に戻してケアプランの見直しに使用。職員アンケートでは導入前の心理的負担が改善し、随時訪問の回数減少も成果に挙がりました。",
+        "家族が睡眠状況を確認して安心したという声や、施設入所ではなく在宅継続を選んだ事例も報告。一方で利用者への説明と同意、プライバシー、機器管理が課題として残りました。"
+      ],
+      "comment": "施設向けに広がった眠りSCANを在宅介護に持ち込んだ検証です。注目したのは、効果の中心が利用者の数値ではなく「職員の心理的負担の改善」と「随時訪問の減少」だった点で、人手不足の訪問介護では、夜間に何が起きているか分かること自体が価値になります。自治体との協定で6か月回した結果報告なので、ほかの区市町村が導入を検討する材料になるのだと思います。",
+      "company": {
+        "name": "パラマウントベッド",
+        "profile": "医療・介護用ベッドやマットレス、睡眠センサー「眠りSCAN」を手がける。持株会社のパラマウントベッドホールディングスは2026年2月5日付で東証への上場を廃止した。",
+        "url": "https://www.paramountbed.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T08:31:00.446Z"
+    },
+    {
+      "id": "ce12cfd3-d7c2-4b9f-b50b-b9c316beef39",
+      "created_at": "2026-10-23T08:31:00.446Z",
+      "published_date": "2026-10-23",
+      "category": "global",
+      "featured": false,
+      "title": "中国Ping An Good Doctor、2026年1〜9月の純利益は35%増の2.5億元（約55億円）。AI医師の利用者1,300万人、法人顧客8,100社で「保険＋医療」を拡大",
+      "source_name": "Ping An Good Doctor",
+      "source_url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html",
+      "image_url": null,
+      "quote": {
+        "text": "During the period, the Company recorded total revenue of RMB3.51billion and net profit of RMB0.25 billion, representing year-on-year growth of 35%.",
+        "source": "PR Newswire（Ping An Good Doctor）",
+        "url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html"
+      },
+      "summary": [
+        "香港上場の平安健康医療科技（Ping An Good Doctor）は2026年1〜9月の売上収益35.1億元（約770億円）、純利益2.5億元（約55億円）で、純利益は前年同期比35%増でした（1元≈22円で換算）。",
+        "法人向け健康管理は過去12か月の有料法人顧客が8,100社超（約60%増）。AI医師の利用者は約1,300万人に達し、複雑疾患のAI支援MDTプラットフォームは4つの疾患領域をカバーしました。",
+        "平安生命と脳の健康サービスを開始し、全国11か所の長寿センターを公開。今後はAIを専門医療サービスや、保険と医療を組み合わせた商品開発に広げるとしています。"
+      ],
+      "comment": "中国の保険グループ傘下のオンライン医療が、9か月で純利益35%増まで来ました。注目したのは、伸びているのが個人向けアプリではなく、保険契約者向けの会員サービスと法人の健康管理（顧客8,100社、約6割増）だという点です。支払う側である保険会社や企業と組んで医療サービスを売る形は、日本の保険会社や健保向けヘルスケア事業者が目指す形そのもので、参考になるのだと思います。",
+      "company": {
+        "name": "Ping An Good Doctor",
+        "listed": "香港証券取引所（1833.HK）",
+        "financials": "2026年1〜9月は売上収益35.1億元・純利益2.5億元（純利益は前年同期比35%増）。",
+        "profile": "中国平安保険グループのオンライン医療・健康管理プラットフォーム（平安健康医療科技）。保険会員向け医療サービス、法人向け健康管理、AI医師、自社運営の医療施設を展開する。"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T08:31:00.446Z"
+    },
     {
       "id": "a50e4b8f-1e0e-4f35-94db-1dfa4363ea2f",
       "created_at": "2026-10-23T07:12:39.767Z",

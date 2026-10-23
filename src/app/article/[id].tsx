@@ -156,9 +156,8 @@ export default function ArticleScreen() {
           <MonthlyEarningsDetail issue={article} onShare={() => void share()} />
         ) : (
           <>
-          {/* PC 向けでは画像を見出しの右に小さく置き、すぐ本文が読めるようにする */}
-          <View style={desktop && article.image_url ? styles.desktopHead : undefined}>
-          <View style={desktop && article.image_url ? { flex: 1 } : undefined}>
+          <View>
+          <View>
           <ThemedText type="eyebrow" style={{ color: channel.color }}>
             {channel.name}
           </ThemedText>
@@ -186,7 +185,10 @@ export default function ArticleScreen() {
           </View>
 
           </View>
-          {desktop && article.image_url ? <Thumb article={article} style={styles.imageDesktop} fit={article.category === 'earnings' ? 'contain' : 'cover'} /> : null}
+          {/* PC 向けでは見出しの下に、横長の画像を高さを抑えて置く（すぐ本文が読めるように） */}
+          {desktop && article.image_url ? (
+            <Thumb article={article} style={[styles.imageDesktop, article.category === 'earnings' && styles.logoDesktop]} fit={article.category === 'earnings' ? 'contain' : 'cover'} />
+          ) : null}
           </View>
 
           {!desktop && article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
@@ -471,8 +473,9 @@ const styles = StyleSheet.create({
   leftButton: { borderWidth: Hairline, borderRadius: Radius.button, paddingVertical: Spacing.two, alignItems: 'center' },
   leftButtonText: { fontSize: 14, lineHeight: 20, fontWeight: '700' },
   rightCol: { width: SidebarWidth, paddingLeft: Spacing.five },
-  desktopHead: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start' },
-  imageDesktop: { width: 220, height: 146, marginTop: Spacing.one },
+  imageDesktop: { width: '100%', aspectRatio: 2, marginBottom: Spacing.two },
+  /** 決算記事の画像は会社ロゴなので、高さを抑える */
+  logoDesktop: { aspectRatio: 4 },
   meta: { marginBottom: Spacing.four },
   metaRow: { flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap' },
   quote: { marginTop: Spacing.five, borderLeftWidth: 3, paddingLeft: Spacing.three, gap: Spacing.one },

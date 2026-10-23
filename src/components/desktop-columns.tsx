@@ -23,7 +23,7 @@ export function ColumnHeader({ title, aside, asideColor }: { title: string; asid
 }
 
 /**
- * 左の段のトップ記事。大きな画像 → 分類 → 大きな見出し → 加藤コメント（全文）。
+ * 左の段のトップ記事。分類 → 大きな見出し → 大きな画像 → 加藤コメント（全文）。
  * horizontal: 2 段組のとき。見出しを横いっぱいに、その下に加藤コメント（左）と写真（右）を並べる
  */
 export function DesktopLead({ article, horizontal = false }: { article: Article; horizontal?: boolean }) {
@@ -52,9 +52,9 @@ export function DesktopLead({ article, horizontal = false }: { article: Article;
         </>
       ) : (
         <>
-          <Thumb article={article} style={styles.leadImage} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
           <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
           <ThemedText style={styles.leadTitle}>{article.title}</ThemedText>
+          <Thumb article={article} style={[styles.leadImage, { marginTop: Spacing.one }]} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
           <Comment article={article} lines={8} />
           <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
             {article.source_name}・{formatRelative(article.published_date)}

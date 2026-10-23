@@ -1,5 +1,5 @@
 import { useMemo, useRef } from 'react';
-import { FlatList, RefreshControl, ScrollView, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { FlatList, RefreshControl, ScrollView, StyleSheet, useWindowDimensions, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 
 import { PullToRefresh } from '@/components/pull-to-refresh';
 
@@ -48,8 +48,9 @@ export function ArticleList({
 }) {
   const theme = useTheme();
   const desktop = useDesktop();
-  // PC 向けは 2 段組（記事の段＋右の段）。3 段組の描き方も残してあるが、いまは使わない（加藤さんの判断）
-  const threeColumns = false;
+  // PC 向け: トップは 3 段組（横幅が足りないときは 2 段組）。分野のタブは 2 段組（記事の段＋右の段）
+  const { width: windowWidth } = useWindowDimensions();
+  const threeColumns = channel.id === 'today' && windowWidth >= 1280;
   const { articles, loading, error, reload, savedIds } = useStore();
   const listRef = useRef<FlatList<Row>>(null);
   const deskListRef = useRef<FlatList<Article>>(null);
@@ -136,9 +137,9 @@ export function ArticleList({
     const articlesIn = rows.flatMap((r) => (r.kind === 'article' || r.kind === 'featured' ? [r.article] : []));
     const featured = rows.find((r) => r.kind === 'featured');
     const lead = featured?.kind === 'featured' ? featured.article : (articlesIn.slice(0, 6).find((a) => a.image_url && !a.kind) ?? articlesIn[0]);
-    const latest = lead?.published_date;
     const subs =
-      threeColumns ? articlesIn.filter((a) => a !== lead && a.image_url && !a.kind && a.published_date === latest).slice(0, 2) : [];
+      // 小さな 2 本は出さない（「新着」を配信の並びどおりに見せるため）
+      [] as Article[];
     const list = articlesIn.filter((a) => a !== lead && !subs.includes(a));
     const head = rows.find((r) => r.kind === 'section');
     return {

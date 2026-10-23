@@ -20,15 +20,18 @@ export function ShareButtons({ article, onShareImage }: { article: Article; onSh
       void Linking.openURL(webUrl);
       return;
     }
-    // スマホの LINE はアプリの投稿画面を直接開く（入っていなければ Web）
+    // スマホの X・LINE はアプリの投稿画面を直接開く（入っていなければ Web）。リンクに記事のカードが付く
     const appUrl = snsAppUrlOf(sns, article);
     if (appUrl) {
       openAppOrWeb(appUrl, webUrl);
       return;
     }
-    // X・Facebook・LinkedIn は共有画像（QR 入り）付きで共有シートを開き、そこからアプリを選んでもらう。
-    // 投稿画面の URL では画像を付けられず、リンクだけの投稿になってしまうため
-    onShareImage();
+    // Facebook・LinkedIn は投稿文を渡せるアプリの URL が無いので、共有シートからアプリを選んでもらう
+    if (typeof navigator.share === 'function') {
+      navigator.share({ title: article.title, text: article.title, url: articleUrlOf(article) }).catch(() => {});
+      return;
+    }
+    void Linking.openURL(webUrl);
   };
 
   const copy = async () => {

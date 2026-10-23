@@ -167,6 +167,7 @@ node pipeline/overseas.mjs 2026-10-21T09:00:00Z > /tmp/overseas.json   # 前回�
 3. `pipeline/today.json` を削除する。
 4. `node pipeline/substack.mjs` で Substack の投稿一覧も更新する（0本の回でもこれだけは行い、変更があれば push する）。
 5. `git add data/ && git commit -m "配信 YYYY-MM-DD: N本" && git push origin main`
+   - push のあとに `bash scripts/update-og.sh` を実行する（記事ごとのリンク用カードを公開する。X・Facebook・LINE にリンクを貼ったとき、見出しとコメントの画像が出るようになる）。失敗しても配信は済んでいるので、エラーを結果メールに書いて続ける。
 6. `https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json` を取得し、今日の記事が含まれていることを確認する（反映に数分かかることがある）。
 
 ### 6. 報告

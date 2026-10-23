@@ -46,10 +46,20 @@ export function snsShareUrlOf(sns: SnsId, article: Article): string {
   }
 }
 
-/** スマホのアプリで投稿画面を開く URL。アプリに投稿文を渡せて、画像なしでよい LINE だけ */
+/**
+ * スマホのアプリで投稿画面を開く URL（見出しと記事 URL を入れる）。X と LINE だけ。
+ * 記事 URL には記事ごとのリンク用カード（pipeline/og-cards.mjs）が付くので、投稿すると画像付きで表示される
+ */
 export function snsAppUrlOf(sns: SnsId, article: Article): string | null {
-  if (sns !== 'line') return null;
-  return `line://msg/text/${encodeURIComponent(`${article.title}\n${articleUrlOf(article)}`)}`;
+  const text = encodeURIComponent(`${article.title}\n${articleUrlOf(article)}`);
+  switch (sns) {
+    case 'x':
+      return `twitter://post?message=${text}`;
+    case 'line':
+      return `line://msg/text/${text}`;
+    default:
+      return null;
+  }
 }
 
 /** 共有シートに添える本文（見出しと記事 URL） */

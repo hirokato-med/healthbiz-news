@@ -28,6 +28,23 @@ export function articleUrlOf(article: Article): string {
   return `${AppUrl}article/${article.id}`;
 }
 
+/** SNS ごとの投稿画面の URL（ログイン済みならそのまま投稿できる） */
+export type SnsId = 'x' | 'facebook' | 'line' | 'linkedin';
+export function snsShareUrlOf(sns: SnsId, article: Article): string {
+  const url = encodeURIComponent(articleUrlOf(article));
+  const text = encodeURIComponent(`${article.title}｜加藤浩晃のコメント付き`);
+  switch (sns) {
+    case 'x':
+      return `https://x.com/intent/post?text=${text}&url=${url}`;
+    case 'facebook':
+      return `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+    case 'line':
+      return `https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`;
+    case 'linkedin':
+      return `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+  }
+}
+
 /** 共有シートに添える本文（見出しと記事 URL） */
 function shareTextOf(article: Article): string {
   return `${article.title}\n${articleUrlOf(article)}`;
@@ -172,11 +189,15 @@ function downloadFile(file: File): void {
   setTimeout(() => URL.revokeObjectURL(href), 60_000);
 }
 
-async function copyText(text: string): Promise<void> {
+/** クリップボードに入れる。入れられたら true */
+export async function copyText(text: string): Promise<boolean> {
   try {
-    await navigator.clipboard?.writeText(text);
+    if (!navigator.clipboard) return false;
+    await navigator.clipboard.writeText(text);
+    return true;
   } catch {
     // クリップボードが使えない環境（HTTP など）では何もしない
+    return false;
   }
 }
 

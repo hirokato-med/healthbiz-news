@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ArticleRow } from '@/components/article-row';
 import { EarningsHistory, EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
+import { ShareButtons } from '@/components/share-buttons';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { MonthlyEarningsDetail } from '@/components/monthly-earnings-detail';
 import { WeeklyDetail } from '@/components/weekly-detail';
@@ -210,6 +211,7 @@ export default function ArticleScreen() {
               />
             </>
           ) : null}
+          <ShareButtons article={article} onShareImage={() => void share()} />
 
           {article.company ? (
             <>

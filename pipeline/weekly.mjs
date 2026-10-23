@@ -4,13 +4,15 @@
  *
  *   node pipeline/weekly.mjs candidates [YYYY-MM-DD]   # その土曜（既定は今日 JST）の対象期間の記事を一覧で出す
  *   node pipeline/weekly.mjs publish pipeline/weekly-draft.json   # 検証して data/weekly.json に追加
+ *   node pipeline/weekly.mjs publish <draft.json> --sample        # 見本として今日の日付で出す（本番の号が出るときに自動で消える）
  *
  * 対象期間: 前の土曜〜金曜の7日間（土曜 10/24 の号なら 10/17〜10/23）。
  * 下書きの形: { "note": "総括（2〜3文）", "items": [{ "article_id": "...", "comment": "一言（1〜2文）" }, ...5本] }
  */
 import { readFile, writeFile } from 'node:fs/promises';
 
-const [cmd, arg] = process.argv.slice(2);
+const [cmd, arg, flag] = process.argv.slice(2);
+const sample = flag === '--sample';
 const root = new URL('../', import.meta.url);
 const articlesFile = new URL('data/articles.json', root);
 const weeklyFile = new URL('data/weekly.json', root);
@@ -61,9 +63,9 @@ if (cmd === 'candidates') {
   }
   const first = inRange.get(draft.items[0].article_id);
   const issue = {
-    id: `weekly-${p.saturday}`,
-    published_date: p.saturday,
-    title: `今週のヘルスケアビジネス ${md(p.from)}–${md(p.to)}`,
+    id: sample ? 'weekly-sample' : `weekly-${p.saturday}`,
+    published_date: sample ? todayJST() : p.saturday,
+    title: `${sample ? '【見本】' : ''}今週のヘルスケアビジネス ${md(p.from)}–${md(p.to)}`,
     range: `${md(p.from)}–${md(p.to)}`,
     total: inRange.size,
     note: draft.note,
@@ -73,7 +75,8 @@ if (cmd === 'candidates') {
     created_at: new Date().toISOString(),
   };
   const current = JSON.parse(await readFile(weeklyFile, 'utf8').catch(() => '{"issues":[]}'));
-  const issues = [issue, ...current.issues.filter((w) => w.id !== issue.id)].sort((a, b) => b.published_date.localeCompare(a.published_date));
+  // 本番の号を出すときは見本を消す
+  const issues = [issue, ...current.issues.filter((w) => w.id !== issue.id && (sample || w.id !== 'weekly-sample'))].sort((a, b) => b.published_date.localeCompare(a.published_date));
   await writeFile(weeklyFile, JSON.stringify({ updated_at: issue.created_at, issues }, null, 2) + '\n');
   console.log(`data/weekly.json に「${issue.title}」（${issue.items.length}本）を書きました`);
 } else {

@@ -38,7 +38,9 @@ const watch = await readFile(new URL('pipeline/earnings-watchlist.json', root), 
   .catch(() => []);
 const norm = (s) => s.normalize('NFKC').toLowerCase();
 const watchNames = watch.flatMap((w) => [w.name, ...(w.alias ?? [])]).map(norm);
-const isWatched = (company) => watchNames.some((n) => norm(company).includes(n));
+const watchCodes = new Set(watch.map((w) => w.code).filter(Boolean));
+const isWatched = (company, code) => watchCodes.has(code) || watchNames.some((n) => norm(company).includes(n));
+const watchSegment = (code) => watch.find((w) => w.code === code)?.segment ?? null;
 const published = new Set(
   JSON.parse(await readFile(new URL('data/articles.json', root), 'utf8')).articles.flatMap((a) => [a.source_url, a.source_url_2].filter(Boolean)),
 );
@@ -52,14 +54,14 @@ for (let d = from; d <= to; d = addDays(d, 1)) {
     if (!kind) continue;
     if (/訂正/.test(item.title) || Material.test(item.title)) continue;
     const c = byCode.get(item.code);
-    const priority = isWatched(item.company);
+    const priority = isWatched(item.company, item.code);
     if (!c && !priority && !NameHint.test(item.company)) continue;
     out.push({
       date: d,
       ...item,
       kind,
       ir_url: c?.ir_news_url ?? c?.ir_url ?? null,
-      segment: c?.segment ?? null,
+      segment: watchSegment(item.code) ?? c?.segment ?? null,
       market: c?.market ?? null,
       in_list: !!c,
       priority,

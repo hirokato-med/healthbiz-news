@@ -65,7 +65,7 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
             ) : null}
           </View>
         </View>
-        <Thumb article={article} style={compact ? styles.thumbCompact : styles.thumb} />
+        <Thumb article={article} style={compact ? styles.thumbCompact : styles.thumb} fit={article.category === 'earnings' ? 'contain' : 'cover'} />
       </View>
 
       {!compact ? (

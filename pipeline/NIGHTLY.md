@@ -27,7 +27,7 @@
 - **指示チャンネル**: ヘルスケアビジネス研究会 Slack のプライベートチャンネル `#11-アプリ配信指示`（channel_id `C0CB1QS4XV5`）。加藤さんがスマホから「このニュース追加して」「〇〇をトップに」「コメントをこう変えて」と書く場所。
   - 毎回の配信の前に `slack_read_channel` で読み、✅ / ❓ が付いていない新しい指示があれば先に実行する。読んだら 👀、反映して push したらスレッドに結果を返して ✅、迷ったらスレッドで聞き返して ❓ を付ける。
   - 配信の回とは別に、毎時0分（7〜23時 JST）の定期タスク `healthbiz-slack-instructions` でも同じ確認をしている。
-  - **即時の窓口**: Claude のページ「HealthBiz 配信指示板」 https://claude.ai/artifact/1yPGRu9dsA56nYEq6NcHni 。加藤さんがこのページにコメントして「Claude に送る」を選ぶと、配信ワーカーのセッションがその場で起きる。起きたら `ArtifactComments`（action: read）でコメントを読み、同じ手順で実行し、そのスレッドに結果を返して resolve する。
+  - **即時の窓口（配信指示板）**: Claude のページ https://claude.ai/artifact/1yPGRu9dsA56nYEq6NcHni 。加藤さんが入力欄に指示を書いて「送る」と、ページが自分を再公開し、配信ワーカーのセッションがその場で起きる（republish の通知）。起きたら: (1) `Artifact`（action: read, url: 上のURL）で最新の HTML を取り、ファイルに保存。(2) `node pipeline/shijiban.mjs list <保存したhtml>` で受付待ちの指示を見る。(3) 指示を実行して push。(4) `node pipeline/shijiban.mjs reply <html> <id> done <返事>` で返事を書き込み、その HTML を `Artifact`（publish, 同じ url）で公開し直す。迷うときは status を question にして聞き返す。返事は加藤さんがスマホで読むので、追加した記事のタイトルとコメント全文、変更前後を書く。
 - **解説チャンネル**: `#03-加藤のニュース解説`（channel_id `C0B4BP3HZQU`）に、加藤さんが前日のニュース解説を翌朝7時ごろ投稿する。12時の回では前日分の投稿を読み、そこに載っているニュースでアプリに無いもの（source_url で突き合わせる）を追加する。
 
 ### 1. 収集

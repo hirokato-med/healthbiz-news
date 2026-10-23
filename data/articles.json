@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23T02:35:05.430Z",
+  "updated_at": "2026-10-23T04:15:25.458Z",
   "articles": [
     {
       "id": "85cdc345-1033-49f2-963d-55fe472eb8bd",
       "created_at": "2026-10-23T02:30:43.733Z",
       "published_date": "2026-10-23",
       "category": "dx",
-      "featured": false,
+      "featured": true,
       "title": "エムティーアイのクラウド電子カルテ「CLIPLA」、過去カルテを生成AIが要約する「AIサマリー機能」を11月から無償提供。カルテを「書く」ではなく「読む」時間を減らす",
       "source_name": "エムティーアイ",
       "source_url": "https://prtimes.jp/main/html/rd/p/000001235.000002943.html",
@@ -284,7 +284,7 @@
       "source_url": "https://prtimes.jp/main/html/rd/p/000000083.000141666.html",
       "source_url_2": null,
       "image_url": "https://prcdn.freetls.fastly.net/release_image/141666/83/141666-83-78ccacf96320d335c1c639a15596259c-1033x507.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "featured": true,
+      "featured": false,
       "category": "service",
       "source_name": "日立製作所",
       "title": "日立とケーエスケー、医薬品配送の欠員時にルートを自動で組み替えるDXの実証を完了。営業担当の代行配送を60%減らし11月から本稼働",

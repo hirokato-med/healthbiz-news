@@ -80,7 +80,7 @@ export function ArticleList({
       // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
       const latest = news[0]?.published_date;
       if (!latest) {
-        out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: '12時・18時・22時に更新' });
+        out.push({ kind: 'section', key: 'h-today', title: '本日の配信', aside: loading ? '読み込み中…' : '12時・18時・22時に更新' });
         return out;
       }
       // いちばん大きな枠は「直近24時間でいちばん大事な1本」（featured）。新しい順ではない。
@@ -127,7 +127,7 @@ export function ArticleList({
     if (channel.id === 'substack') out.push({ kind: 'subscribe', key: 'subscribe' });
     list.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
     return out;
-  }, [articles, channel, savedIds]);
+  }, [articles, channel, savedIds, loading]);
 
   // PC 向け 3 段組: 左の段（トップ記事＋小さな 2 本）と中の段（新着の一覧）に分ける。右の段は DesktopSidebar
   const desk = useMemo(() => {

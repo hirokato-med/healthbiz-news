@@ -34,7 +34,7 @@ export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const theme = useTheme();
   const desktop = useDesktop();
-  const { articles, reload } = useStore();
+  const { articles, reload, loading } = useStore();
   const router = useRouter();
   const pagerRef = useRef<ScrollViewInstance>(null);
   // 記事から戻ってきたときに見ていたタブへ戻れるよう、位置はメモリに退避しておく
@@ -58,10 +58,10 @@ export default function HomeScreen() {
     return {
       label: latest === today ? '本日の配信' : '最新の配信',
       count,
-      value: count ? `${count}本` : '12時に更新',
+      value: count ? `${count}本` : loading ? '読み込み中…' : '12時に更新',
       right: latest ? `${formatDateShort(latest)} 更新` : '',
     };
-  }, [articles]);
+  }, [articles, loading]);
 
   // Web（Safari）では onMomentumScrollEnd が発火しないので、onScroll でもページ位置を追従する
   const onScroll = useCallback(

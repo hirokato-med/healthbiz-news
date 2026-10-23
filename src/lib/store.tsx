@@ -9,6 +9,8 @@ const ReadKey = 'healthbiz.read.v1';
 /** 新着とみなす期間。配信から36時間以内で、まだ開いていない記事に目印を付ける */
 const NewWindowMs = 36 * 60 * 60 * 1000;
 const ReactionKey = 'healthbiz.reactions.v1';
+/** 前回読み込んだ記事。起動直後は通信を待たずにこれを出し、読み込めたら差し替える（空の画面が一瞬出ないように） */
+const ArticlesCacheKey = 'healthbiz.articles-cache.v1';
 
 export type Reaction = 'helpful' | 'more';
 
@@ -49,8 +51,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setLoading(true);
     try {
       const [news, substack, weekly, monthly] = await Promise.all([fetchArticles(), fetchSubstack(), fetchWeekly(), fetchMonthly()]);
-      setArticles([...monthly, ...weekly, ...news, ...substack]);
+      const all = [...monthly, ...weekly, ...news, ...substack];
+      setArticles(all);
       setError(null);
+      AsyncStorage.setItem(ArticlesCacheKey, JSON.stringify(all)).catch(() => {});
       return true;
     } catch (e) {
       setError(e instanceof Error ? e.message : '記事を読み込めませんでした');
@@ -61,6 +65,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
+    // 通信より先に前回の記事を出す（通信の結果が先に来ていたら上書きしない）
+    AsyncStorage.getItem(ArticlesCacheKey)
+      .then((raw) => raw && setArticles((cur) => (cur.length ? cur : (JSON.parse(raw) as Article[]))))
+      .catch(() => {});
     reload();
     AsyncStorage.getItem(SavedKey)
       .then((raw) => raw && setSavedIds(new Set(JSON.parse(raw) as string[])))

@@ -1,10 +1,12 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import * as WebBrowser from 'expo-web-browser';
-import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View, type LayoutChangeEvent, type ScrollViewInstance } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleRow } from '@/components/article-row';
+import { ColumnHeader } from '@/components/desktop-columns';
+import { DesktopHeader } from '@/components/desktop-header';
 import { DesktopSidebar } from '@/components/desktop-sidebar';
 import { EarningsHistory, EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
@@ -36,6 +38,14 @@ export default function ArticleScreen() {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
   const desktop = useDesktop();
+  // PC 向け: 左の段の目次から各見出しへ飛ぶための位置
+  const scrollRef = useRef<ScrollViewInstance>(null);
+  const anchors = useRef<Record<string, number>>({});
+  const mainTop = useRef(0);
+  const anchor = (key: string) => (e: LayoutChangeEvent) => {
+    anchors.current[key] = e.nativeEvent.layout.y;
+  };
+  const jump = (key: string) => scrollRef.current?.scrollTo({ y: Math.max(0, mainTop.current + (anchors.current[key] ?? 0) - 16), animated: true });
   const { articles, isSaved, toggleSaved, markRead, reactionOf, setReaction } = useStore();
 
   const article = articles.find((a) => a.id === id);
@@ -85,12 +95,15 @@ export default function ArticleScreen() {
 
   return (
     <ThemedView style={styles.root}>
+      {desktop ? <DesktopHeader active={article.kind === 'weekly' || article.kind === 'monthly' ? undefined : channel.id} /> : null}
+      {!desktop ? (
       <View style={[styles.bar, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
         <BarButton label="‹ 戻る" onPress={() => router.back()} color={theme.accent} />
         <View style={{ flex: 1 }} />
         <BarButton label={saved ? '★ 保存済み' : '☆ 保存'} onPress={() => (trackClick(saved ? 'unsave' : 'save', { article_id: article.id }), toggleSaved(article.id))} color={theme.accent} />
         <BarButton label="共有" onPress={() => void share()} color={theme.accent} />
       </View>
+      ) : null}
       {shareNote ? (
         <View style={[styles.note, { backgroundColor: theme.surface }]}>
           <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
@@ -99,10 +112,44 @@ export default function ArticleScreen() {
         </View>
       ) : null}
 
-      <ScrollView contentContainerStyle={[desktop ? styles.contentDesktop : styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
-        {/* PC 向け: 記事を白いカードに入れ、右に「今日の注目」などの列 */}
+      <ScrollView ref={scrollRef} contentContainerStyle={[desktop ? styles.contentDesktop : styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
+        {/* PC 向け: 左の段（戻る・目次・保存・共有）／中の段（記事）／右の段（関連記事・今日の注目など）の 3 段組 */}
         <View style={desktop ? styles.desktopRow : undefined}>
-        <View style={desktop ? [styles.desktopMain, { borderColor: theme.line }] : undefined}>
+        {desktop ? (
+          <View style={styles.leftCol}>
+            <Pressable onPress={() => (router.canGoBack() ? router.back() : router.navigate('/'))} accessibilityRole="link" hitSlop={6}>
+              <ThemedText style={[styles.leftBack, { color: theme.accent }]}>‹ 一覧へ戻る</ThemedText>
+            </Pressable>
+            {!article.kind || article.kind === 'news' ? (
+              <View style={[styles.toc, { borderLeftColor: theme.line }]}>
+                {[
+                  ['points', 'ポイント', article.summary.length > 0],
+                  ['comment', '加藤浩晃のコメント', true],
+                  ['earnings', '決算の概要', !!article.earnings],
+                  ['history', '業績の推移', !!article.earnings?.history?.rows.length],
+                  ['source', article.category === 'earnings' ? '資料・IR' : '原文・会社情報', true],
+                ]
+                  .filter(([, , show]) => show)
+                  .map(([key, label]) => (
+                    <Pressable key={key as string} onPress={() => jump(key as string)} style={styles.tocItem} accessibilityRole="link">
+                      <ThemedText style={[styles.tocText, { color: theme.textSecondary }]}>{label as string}</ThemedText>
+                    </Pressable>
+                  ))}
+              </View>
+            ) : null}
+            <Pressable
+              onPress={() => (trackClick(saved ? 'unsave' : 'save', { article_id: article.id }), toggleSaved(article.id))}
+              style={({ pressed }) => [styles.leftButton, { borderColor: theme.line, opacity: pressed ? 0.7 : 1 }]}>
+              <ThemedText style={[styles.leftButtonText, { color: theme.accent }]}>{saved ? '★ 保存済み' : '☆ 保存する'}</ThemedText>
+            </Pressable>
+            <Pressable onPress={() => void share()} style={({ pressed }) => [styles.leftButton, { borderColor: theme.line, opacity: pressed ? 0.7 : 1 }]}>
+              <ThemedText style={[styles.leftButtonText, { color: theme.accent }]}>共有する</ThemedText>
+            </Pressable>
+          </View>
+        ) : null}
+        <View
+          onLayout={(e) => (mainTop.current = e.nativeEvent.layout.y)}
+          style={desktop ? [styles.desktopMain, { borderLeftColor: theme.line, borderRightColor: theme.line }] : undefined}>
         {article.kind === 'weekly' ? (
           <WeeklyDetail issue={article} articles={articles} onShare={() => void share()} />
         ) : article.kind === 'monthly' ? (
@@ -139,13 +186,13 @@ export default function ArticleScreen() {
           </View>
 
           </View>
-          {desktop && article.image_url ? <Thumb article={article} style={styles.imageDesktop} /> : null}
+          {desktop && article.image_url ? <Thumb article={article} style={styles.imageDesktop} fit={article.category === 'earnings' ? 'contain' : 'cover'} /> : null}
           </View>
 
           {!desktop && article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
           {article.summary.length > 0 && (
-            <ThemedText type="section" style={styles.sectionLabel}>
+            <ThemedText type="section" style={styles.sectionLabel} onLayout={anchor('points')}>
               ポイント
             </ThemedText>
           )}
@@ -176,7 +223,7 @@ export default function ArticleScreen() {
             </View>
           ) : null}
 
-          <ThemedText type="section" style={styles.sectionLabel}>
+          <ThemedText type="section" style={styles.sectionLabel} onLayout={anchor('comment')}>
             {article.kind === 'substack' ? '記事の冒頭' : '加藤浩晃のコメント'}
           </ThemedText>
           <View style={[styles.commentBox, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
@@ -196,13 +243,13 @@ export default function ArticleScreen() {
 
           {article.earnings ? (
             <>
-              <ThemedText type="section" style={styles.sectionLabel}>
+              <ThemedText type="section" style={styles.sectionLabel} onLayout={anchor('earnings')}>
                 決算の概要
               </ThemedText>
               <EarningsTable earnings={article.earnings} />
               {article.earnings.history?.rows.length ? (
                 <>
-                  <ThemedText type="section" style={styles.sectionLabel}>
+                  <ThemedText type="section" style={styles.sectionLabel} onLayout={anchor('history')}>
                     業績の推移
                   </ThemedText>
                   <EarningsHistory history={article.earnings.history} />
@@ -265,6 +312,7 @@ export default function ArticleScreen() {
           ) : null}
 
           <Pressable
+            onLayout={anchor('source')}
             onPress={() => (trackClick(article.kind === 'substack' ? 'substack_read' : 'source', { article_id: article.id }), WebBrowser.openBrowserAsync(article.source_url))}
             style={({ pressed }) => [styles.sourceButton, { backgroundColor: theme.accent, opacity: pressed ? 0.85 : 1 }]}
             accessibilityRole="link">
@@ -314,7 +362,7 @@ export default function ArticleScreen() {
                 : '要約はプレスリリースをもとに作成しています。正確な内容は原文をご確認ください。'}
           </ThemedText>
 
-          {related.length ? (
+          {related.length && !desktop ? (
             <View style={styles.related}>
               <ThemedText type="section" style={styles.sectionLabel}>
                 関連する記事
@@ -328,7 +376,15 @@ export default function ArticleScreen() {
         )}
         </View>
         {desktop ? (
-          <View style={{ width: SidebarWidth }}>
+          <View style={styles.rightCol}>
+            {related.length ? (
+              <View style={{ marginBottom: Spacing.six }}>
+                <ColumnHeader title="関連する記事" />
+                {related.map((a) => (
+                  <ArticleRow key={a.id} article={a} compact />
+                ))}
+              </View>
+            ) : null}
             <DesktopSidebar />
           </View>
         ) : null}
@@ -403,10 +459,18 @@ const styles = StyleSheet.create({
     maxWidth: MaxContentWidth,
   },
   title: { marginTop: Spacing.one, marginBottom: Spacing.two },
-  titleDesktop: { fontSize: 28, lineHeight: 40 },
+  titleDesktop: { fontSize: 26, lineHeight: 38 },
   contentDesktop: { paddingHorizontal: Spacing.five, alignSelf: 'center', width: '100%', maxWidth: DesktopMaxWidth },
-  desktopRow: { flexDirection: 'row', alignItems: 'flex-start', gap: Spacing.six },
-  desktopMain: { flex: 1, marginTop: Spacing.five, borderWidth: Hairline, borderRadius: Radius.thumb + 6, paddingHorizontal: Spacing.six, paddingTop: Spacing.five, paddingBottom: Spacing.six },
+  desktopRow: { flexDirection: 'row', alignItems: 'flex-start', paddingTop: Spacing.five },
+  desktopMain: { flex: 1, borderLeftWidth: Hairline, borderRightWidth: Hairline, paddingHorizontal: Spacing.six, paddingBottom: Spacing.six },
+  leftCol: { width: 210, paddingRight: Spacing.five, gap: Spacing.three, position: 'sticky' as 'relative', top: Spacing.four },
+  leftBack: { fontSize: 14, lineHeight: 20, fontWeight: '700', marginBottom: Spacing.two },
+  toc: { borderLeftWidth: 2, marginBottom: Spacing.three },
+  tocItem: { paddingVertical: Spacing.two, paddingLeft: Spacing.three },
+  tocText: { fontSize: 13.5, lineHeight: 19 },
+  leftButton: { borderWidth: Hairline, borderRadius: Radius.button, paddingVertical: Spacing.two, alignItems: 'center' },
+  leftButtonText: { fontSize: 14, lineHeight: 20, fontWeight: '700' },
+  rightCol: { width: SidebarWidth, paddingLeft: Spacing.five },
   desktopHead: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start' },
   imageDesktop: { width: 220, height: 146, marginTop: Spacing.one },
   meta: { marginBottom: Spacing.four },

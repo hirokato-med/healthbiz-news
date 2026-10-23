@@ -93,6 +93,19 @@ export default function HomeScreen() {
                 加藤浩晃のヘルスケアビジネスニュース
               </ThemedText>
             </View>
+            {/* 日付と配信本数（スマホでは題字の下の帯に出しているもの） */}
+            <Pressable onPress={() => void reload()} accessibilityRole="button" accessibilityLabel="記事を更新" style={[styles.deskDate, { borderLeftColor: theme.line }]}>
+              <ThemedText type="caption" themeColor="textSecondary">
+                {formatDateLong(todayJST())}
+              </ThemedText>
+              <ThemedText type="caption" themeColor="textSecondary">
+                {ticker.label}{' '}
+                <ThemedText type="caption" style={{ color: ticker.count ? theme.up : theme.textSecondary, fontWeight: '700' }}>
+                  {ticker.value}
+                </ThemedText>
+                ・12時/18時/22時に配信
+              </ThemedText>
+            </Pressable>
             <View style={{ flex: 1 }} />
             <Pressable
               onPress={() => router.push('/search')}
@@ -138,6 +151,7 @@ export default function HomeScreen() {
         )}
         <ChannelTabs index={index} onSelect={selectTab} />
         </View>
+        {!desktop ? (
         <Pressable
           onPress={() => void reload()}
           accessibilityRole="button"
@@ -157,6 +171,7 @@ export default function HomeScreen() {
             </ThemedText>
           </View>
         </Pressable>
+        ) : null}
       </View>
 
       <View style={styles.pager} onLayout={(e) => setPagerHeight(e.nativeEvent.layout.height)}>
@@ -243,6 +258,11 @@ const styles = StyleSheet.create({
     borderRadius: 999,
     paddingHorizontal: Spacing.four,
     paddingVertical: Spacing.two,
+  },
+  deskDate: {
+    borderLeftWidth: Hairline,
+    paddingLeft: Spacing.four,
+    gap: 1,
   },
   headerLink: {
     fontSize: 15,

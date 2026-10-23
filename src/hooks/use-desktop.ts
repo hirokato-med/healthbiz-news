@@ -4,7 +4,7 @@ import { Platform, useWindowDimensions } from 'react-native';
 /** この横幅以上の Web では PC 向けの 2 列の画面にする（スマホ・タブレット縦はこれまでどおり） */
 export const DesktopMinWidth = 1024;
 /** PC 向け画面の中身の最大幅と、右の列の幅 */
-export const DesktopMaxWidth = 1200;
+export const DesktopMaxWidth = 1240;
 export const SidebarWidth = 340;
 
 /**

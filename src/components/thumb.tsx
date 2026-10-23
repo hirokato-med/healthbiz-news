@@ -10,7 +10,8 @@ import type { Article } from '@/lib/types';
  * 記事のサムネイル。画像があればそれを、無ければチャンネル色の薄い下地に
  * チャンネル名を置いた代替タイルを出す（プレスリリースは画像が無いことが多い）。
  */
-export function Thumb({ article, style, large }: { article: Article; style?: StyleProp<ViewStyle>; large?: boolean }) {
+/** fit: 'contain' はロゴ画像（決算記事など）を切らずに出すとき */
+export function Thumb({ article, style, large, fit = 'cover' }: { article: Article; style?: StyleProp<ViewStyle>; large?: boolean; fit?: 'cover' | 'contain' }) {
   const channel = channelOf(article.category);
 
   if (article.image_url) {
@@ -18,7 +19,7 @@ export function Thumb({ article, style, large }: { article: Article; style?: Sty
       <Image
         source={{ uri: article.image_url }}
         style={[styles.base, style as StyleProp<ImageStyle>]}
-        contentFit="cover"
+        contentFit={fit}
         transition={150}
         accessibilityIgnoresInvertColors
       />

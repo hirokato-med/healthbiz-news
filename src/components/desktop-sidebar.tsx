@@ -3,6 +3,7 @@ import * as WebBrowser from 'expo-web-browser';
 import { useMemo } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { ColumnHeader } from '@/components/desktop-columns';
 import { ThemedText } from '@/components/themed-text';
 import { Channels } from '@/constants/channels';
 import { Links } from '@/constants/links';
@@ -48,10 +49,10 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
   return (
     <View style={styles.root}>
       {picks.length ? (
-        <View style={[styles.card, { borderColor: theme.line, backgroundColor: theme.background }]}>
-          <ThemedText style={styles.cardTitle}>今日の注目</ThemedText>
+        <View>
+          <ColumnHeader title="今日の注目" />
           {picks.map((a, i) => (
-            <Pressable key={a.id} onPress={() => open(a, 'picks')} style={({ pressed }) => [styles.pick, i > 0 && { borderTopColor: theme.line, borderTopWidth: Hairline }, pressed && { opacity: 0.6 }]}>
+            <Pressable key={a.id} onPress={() => open(a, 'picks')} style={({ pressed }) => [styles.pick, { borderBottomColor: theme.line, borderBottomWidth: Hairline }, pressed && { opacity: 0.6 }]}>
               <ThemedText style={[styles.rank, { color: theme.accent }]}>{i + 1}</ThemedText>
               <ThemedText style={styles.pickText} numberOfLines={3}>
                 {a.title}
@@ -62,28 +63,24 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
       ) : null}
 
       {earnings.length ? (
-        <View style={[styles.card, { borderColor: theme.line, backgroundColor: theme.background }]}>
-          <View style={styles.cardHead}>
-            <ThemedText style={styles.cardTitle}>最新の決算</ThemedText>
-            <Pressable onPress={() => selectChannel(earningsIndex)} hitSlop={6}>
-              <ThemedText type="caption" style={{ color: theme.accent }}>
-                決算タブへ ›
-              </ThemedText>
-            </Pressable>
-          </View>
+        <View>
+          <Pressable onPress={() => selectChannel(earningsIndex)} accessibilityRole="link">
+            <ColumnHeader title="最新の決算" aside="決算タブへ ›" asideColor={theme.accent} />
+          </Pressable>
           {earnings.map((a, i) => {
             const row = a.earnings!.rows.find((r) => r.label.includes('営業')) ?? a.earnings!.rows[0];
             const change = row?.change ?? '';
             const down = /^[-−]|減|拡大|赤字(?!縮小)/.test(change) && !change.includes('縮小');
+            const up = !down && /^\+|増|黒字|上方|縮小/.test(change);
             return (
-              <Pressable key={a.id} onPress={() => open(a, 'earnings')} style={({ pressed }) => [styles.earn, i > 0 && { borderTopColor: theme.line, borderTopWidth: Hairline }, pressed && { opacity: 0.6 }]}>
+              <Pressable key={a.id} onPress={() => open(a, 'earnings')} style={({ pressed }) => [styles.earn, { borderBottomColor: theme.line, borderBottomWidth: Hairline }, pressed && { opacity: 0.6 }]}>
                 <ThemedText style={styles.earnName} numberOfLines={1}>
                   {a.source_name}
                 </ThemedText>
                 {row ? (
                   <ThemedText style={styles.earnRow} numberOfLines={1}>
                     {row.label} {row.value}{' '}
-                    <ThemedText style={[styles.earnRow, { color: down ? theme.accent : theme.up, fontWeight: '700' }]}>{change}</ThemedText>
+                    <ThemedText style={[styles.earnRow, { color: down ? theme.accent : up ? theme.up : theme.textSecondary, fontWeight: '700' }]}>{change}</ThemedText>
                   </ThemedText>
                 ) : null}
                 <ThemedText type="caption" themeColor="textSecondary" style={styles.earnMeta}>
@@ -106,8 +103,8 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
         </Pressable>
       </View>
 
-      <View style={[styles.card, { borderColor: theme.line, backgroundColor: theme.background }]}>
-        <ThemedText style={styles.cardTitle}>分野から探す</ThemedText>
+      <View>
+        <ColumnHeader title="分野から探す" />
         <View style={styles.chips}>
           {Channels.map((c, i) =>
             c.id === 'today' ? null : (
@@ -123,13 +120,13 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
 }
 
 const styles = StyleSheet.create({
-  root: { gap: Spacing.four, paddingTop: Spacing.five, paddingBottom: Spacing.ten },
+  root: { gap: Spacing.six },
   card: { borderWidth: Hairline, borderRadius: Radius.thumb + 4, padding: Spacing.four },
   cardHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   cardTitle: { fontSize: 15, lineHeight: 22, fontWeight: '800', marginBottom: Spacing.two },
-  pick: { flexDirection: 'row', gap: Spacing.three, paddingVertical: Spacing.two + 2 },
+  pick: { flexDirection: 'row', gap: Spacing.three, paddingVertical: Spacing.two + 1 },
   rank: { fontSize: 18, lineHeight: 22, fontWeight: '800', width: 16 },
-  pickText: { flex: 1, fontSize: 14, lineHeight: 21 },
+  pickText: { flex: 1, fontSize: 13.5, lineHeight: 21 },
   earn: { paddingVertical: Spacing.two + 2, gap: 1 },
   earnName: { fontSize: 14, lineHeight: 20, fontWeight: '700' },
   earnRow: { fontSize: 13, lineHeight: 19 },

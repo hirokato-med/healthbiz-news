@@ -33,7 +33,7 @@ export function articleUrlOf(article: Article): string {
 export type SnsId = 'x' | 'facebook' | 'line' | 'linkedin';
 export function snsShareUrlOf(sns: SnsId, article: Article): string {
   const url = encodeURIComponent(articleUrlOf(article));
-  const text = encodeURIComponent(`${article.title}｜加藤浩晃のコメント付き`);
+  const text = encodeURIComponent(article.title);
   switch (sns) {
     case 'x':
       return `https://x.com/intent/post?text=${text}&url=${url}`;
@@ -46,17 +46,10 @@ export function snsShareUrlOf(sns: SnsId, article: Article): string {
   }
 }
 
-/** スマホのアプリで投稿画面を開く URL。アプリ側に投稿文を渡せる X と LINE だけ */
+/** スマホのアプリで投稿画面を開く URL。アプリに投稿文を渡せて、画像なしでよい LINE だけ */
 export function snsAppUrlOf(sns: SnsId, article: Article): string | null {
-  const text = encodeURIComponent(`${article.title}｜加藤浩晃のコメント付き\n${articleUrlOf(article)}`);
-  switch (sns) {
-    case 'x':
-      return `twitter://post?message=${text}`;
-    case 'line':
-      return `line://msg/text/${text}`;
-    default:
-      return null;
-  }
+  if (sns !== 'line') return null;
+  return `line://msg/text/${encodeURIComponent(`${article.title}\n${articleUrlOf(article)}`)}`;
 }
 
 /** 共有シートに添える本文（見出しと記事 URL） */
@@ -70,7 +63,7 @@ export async function shareArticle(article: Article): Promise<ShareResult> {
 
   if (Platform.OS !== 'web') {
     // TODO(native): react-native-view-shot で共有カードを撮って画像共有にする。それまではテキスト
-    await Share.share({ message: `${text}\n\n— Healthcare Business News（加藤浩晃のコメント付き）` }).catch(() => {});
+    await Share.share({ message: text }).catch(() => {});
     return 'text';
   }
 

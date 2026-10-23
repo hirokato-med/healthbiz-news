@@ -20,19 +20,17 @@ export function ShareButtons({ article, onShareImage }: { article: Article; onSh
       void Linking.openURL(webUrl);
       return;
     }
-    // スマホでは Web の投稿画面だとログインを求められるので、入っているアプリで開く
+    // スマホの LINE はアプリの投稿画面を直接開く（入っていなければ Web）
     const appUrl = snsAppUrlOf(sns, article);
     if (appUrl) {
       openAppOrWeb(appUrl, webUrl);
       return;
     }
-    // Facebook・LinkedIn は投稿文を渡せるアプリの URL が無いので、共有シートからアプリを選んでもらう
-    if (typeof navigator.share === 'function') {
-      navigator.share({ title: article.title, text: `${article.title}｜加藤浩晃のコメント付き`, url: articleUrlOf(article) }).catch(() => {});
-      return;
-    }
-    void Linking.openURL(webUrl);
+    // X・Facebook・LinkedIn は共有画像（QR 入り）付きで共有シートを開き、そこからアプリを選んでもらう。
+    // 投稿画面の URL では画像を付けられず、リンクだけの投稿になってしまうため
+    onShareImage();
   };
+
   const copy = async () => {
     trackClick('share_sns', { article_id: article.id, sns: 'copy' });
     if (await copyText(`${article.title}\n${articleUrlOf(article)}`)) {

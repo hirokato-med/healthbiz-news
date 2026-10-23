@@ -24,7 +24,7 @@ export function ColumnHeader({ title, aside, asideColor }: { title: string; asid
 
 /**
  * 左の段のトップ記事。大きな画像 → 分類 → 大きな見出し → 加藤コメント（全文）。
- * horizontal: 2 段組のとき。画像を左、見出しとコメントを右に並べて高さを抑える
+ * horizontal: 2 段組のとき。見出しを横いっぱいに、その下に加藤コメント（左）と写真（右）を並べる
  */
 export function DesktopLead({ article, horizontal = false }: { article: Article; horizontal?: boolean }) {
   const theme = useTheme();
@@ -33,17 +33,34 @@ export function DesktopLead({ article, horizontal = false }: { article: Article;
   return (
     <Pressable
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
-      style={({ pressed }) => [horizontal ? styles.leadRow : styles.lead, pressed && styles.pressed]}
+      style={({ pressed }) => [styles.lead, pressed && styles.pressed]}
       accessibilityRole="button">
-      <Thumb article={article} style={[styles.leadImage, horizontal && styles.leadImageRow]} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
-      <View style={horizontal ? styles.leadBody : styles.lead}>
-        <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
-        <ThemedText style={[styles.leadTitle, horizontal && styles.leadTitleRow]}>{article.title}</ThemedText>
-        <Comment article={article} lines={horizontal ? 5 : 8} />
-        <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
-          {article.source_name}・{formatRelative(article.published_date)}
-        </ThemedText>
-      </View>
+      {horizontal ? (
+        // 2 段組: 見出しを横いっぱいに、その下の左に加藤コメント、右に写真
+        <>
+          <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
+          <ThemedText style={[styles.leadTitle, styles.leadTitleRow]}>{article.title}</ThemedText>
+          <View style={styles.leadRow}>
+            <View style={styles.leadBody}>
+              <Comment article={article} lines={7} />
+              <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
+                {article.source_name}・{formatRelative(article.published_date)}
+              </ThemedText>
+            </View>
+            <Thumb article={article} style={[styles.leadImage, styles.leadImageRow]} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
+          </View>
+        </>
+      ) : (
+        <>
+          <Thumb article={article} style={styles.leadImage} large fit={article.category === 'earnings' ? 'contain' : 'cover'} />
+          <ThemedText style={[styles.label, { color: channel.color }]}>{channel.name}</ThemedText>
+          <ThemedText style={styles.leadTitle}>{article.title}</ThemedText>
+          <Comment article={article} lines={8} />
+          <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>
+            {article.source_name}・{formatRelative(article.published_date)}
+          </ThemedText>
+        </>
+      )}
     </Pressable>
   );
 }
@@ -124,10 +141,10 @@ const styles = StyleSheet.create({
   lead: { gap: Spacing.two },
   leadImage: { width: '100%', aspectRatio: 16 / 10, borderRadius: 0, marginBottom: Spacing.one },
   leadTitle: { fontSize: 26, lineHeight: 37, fontWeight: '800', letterSpacing: -0.2 },
-  leadRow: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start' },
-  leadImageRow: { flex: 1.1, width: undefined, marginBottom: 0 },
+  leadRow: { flexDirection: 'row', gap: Spacing.five, alignItems: 'flex-start', marginTop: Spacing.one },
+  leadImageRow: { flex: 1, width: undefined, marginBottom: 0 },
   leadBody: { flex: 1, gap: Spacing.two },
-  leadTitleRow: { fontSize: 23, lineHeight: 34 },
+  leadTitleRow: { fontSize: 28, lineHeight: 40 },
   sub: { flex: 1, gap: 4 },
   subImage: { width: '100%', aspectRatio: 16 / 10, borderRadius: 0, marginBottom: 2 },
   subTitle: { fontSize: 15, lineHeight: 22, fontWeight: '700' },

@@ -1,5 +1,5 @@
 import { useMemo, useRef } from 'react';
-import { FlatList, RefreshControl, ScrollView, StyleSheet, useWindowDimensions, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
+import { FlatList, RefreshControl, ScrollView, StyleSheet, View, type NativeScrollEvent, type NativeSyntheticEvent } from 'react-native';
 
 import { PullToRefresh } from '@/components/pull-to-refresh';
 
@@ -48,9 +48,8 @@ export function ArticleList({
 }) {
   const theme = useTheme();
   const desktop = useDesktop();
-  // PC 向け: トップは横幅が十分あるときだけ 3 段組。分野のタブと、幅が足りないときは 2 段組（記事の段＋右の段）
-  const { width: windowWidth } = useWindowDimensions();
-  const threeColumns = channel.id === 'today' && windowWidth >= 1360;
+  // PC 向けは 2 段組（記事の段＋右の段）。3 段組の描き方も残してあるが、いまは使わない（加藤さんの判断）
+  const threeColumns = false;
   const { articles, loading, error, reload, savedIds } = useStore();
   const listRef = useRef<FlatList<Row>>(null);
   const deskListRef = useRef<FlatList<Article>>(null);

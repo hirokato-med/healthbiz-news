@@ -1,0 +1,1693 @@
+{
+  "updated_at": "2026-10-23T02:55:51Z",
+  "companies": [
+    {
+      "code": "130A",
+      "name": "Veritas In Silico",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.veritasinsilico.com/jp/ir.html",
+      "ir_news_url": "https://www.veritasinsilico.com/jp/ir/news.html"
+    },
+    {
+      "code": "160A",
+      "name": "アズパートナーズ",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "177A",
+      "name": "コージンバイオ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://kohjin-bio.jp/ir/",
+      "ir_news_url": "https://kohjin-bio.jp/ir/disclosure/"
+    },
+    {
+      "code": "189A",
+      "name": "D&Mカンパニー",
+      "segment": "ヘルスケアその他",
+      "market": "グロース",
+      "ir_url": "https://www.dmcompany.co.jp/ir/",
+      "ir_news_url": "https://www.dmcompany.co.jp/ir/news"
+    },
+    {
+      "code": "190A",
+      "name": "Chordia Therapeutics",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.chordiatherapeutics.com/ja/ir.html",
+      "ir_news_url": "https://www.chordiatherapeutics.com/ja/ir/news.html"
+    },
+    {
+      "code": "197A",
+      "name": "タウンズ",
+      "segment": "診断・検査",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "206A",
+      "name": "PRISM BioLab",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://prismbiolab.com/ir/",
+      "ir_news_url": "https://prismbiolab.com/ir/disclosure/"
+    },
+    {
+      "code": "2160",
+      "name": "ジーエヌアイグループ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.gnipharma.com/ir/",
+      "ir_news_url": "https://www.gnipharma.com/ir/news/"
+    },
+    {
+      "code": "2175",
+      "name": "エス・エム・エス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.bm-sms.co.jp/ir/",
+      "ir_news_url": "https://www.bm-sms.co.jp/ir/news/"
+    },
+    {
+      "code": "2183",
+      "name": "リニカル",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": "https://www.linical.com/ja/investors",
+      "ir_news_url": "https://www.linical.com/ja/investors/ir-news"
+    },
+    {
+      "code": "219A",
+      "name": "Heartseed",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://heartseed.jp/ir/index.html",
+      "ir_news_url": "https://heartseed.jp/ir/library/result/index.html"
+    },
+    {
+      "code": "2370",
+      "name": "メディネット",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.medinet-inc.co.jp/ir/",
+      "ir_news_url": null
+    },
+    {
+      "code": "2373",
+      "name": "ケア21",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "2393",
+      "name": "日本ケアサプライ",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": "https://www.caresupply.co.jp/ir/",
+      "ir_news_url": "https://www.caresupply.co.jp/ir/release.html"
+    },
+    {
+      "code": "2395",
+      "name": "新日本科学",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": "https://snbl.com/ir/",
+      "ir_news_url": "https://snbl.com/ir/library/ir-news/"
+    },
+    {
+      "code": "2413",
+      "name": "エムスリー",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://corporate.m3.com/news/",
+      "ir_news_url": "https://corporate.m3.com/press_release/"
+    },
+    {
+      "code": "2425",
+      "name": "ケアサービス",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": "https://www.care.co.jp/ir/",
+      "ir_news_url": "https://www.care.co.jp/ir/news"
+    },
+    {
+      "code": "2435",
+      "name": "シダー",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "2664",
+      "name": "カワチ薬品",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "2667",
+      "name": "イメージ ワン",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://www.imageone.co.jp/ir/",
+      "ir_news_url": "https://www.imageone.co.jp/ir/news/"
+    },
+    {
+      "code": "2689",
+      "name": "オルバディーブイエックスヘルスケア",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.olbadvx.jp/ir/",
+      "ir_news_url": "https://www.olbadvx.jp/ir/library/library_01.html"
+    },
+    {
+      "code": "2784",
+      "name": "アルフレッサ ホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.alfresa.com/ir/",
+      "ir_news_url": "https://www.alfresa.com/ir/news/"
+    },
+    {
+      "code": "2796",
+      "name": "ファーマライズホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "286A",
+      "name": "ユカリア",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://eucalia.jp/ir/",
+      "ir_news_url": "https://eucalia.jp/ir/news/"
+    },
+    {
+      "code": "3034",
+      "name": "クオールホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.qolhd.co.jp/ir/",
+      "ir_news_url": "https://www.qolhd.co.jp/ir/irnews/"
+    },
+    {
+      "code": "3055",
+      "name": "TSUMUGU HOLDINGS",
+      "segment": "医薬品卸",
+      "market": "札証",
+      "ir_url": "https://www.tsumuguhd.co.jp/ir/",
+      "ir_news_url": "https://www.tsumuguhd.co.jp/ir/library/"
+    },
+    {
+      "code": "3088",
+      "name": "マツキヨココカラ&カンパニー",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.matsukiyococokara.com/ir/",
+      "ir_news_url": "https://www.matsukiyococokara.com/ir/library/"
+    },
+    {
+      "code": "3148",
+      "name": "クリエイトSDホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.createsdhd.co.jp/ir/",
+      "ir_news_url": "https://www.createsdhd.co.jp/irnews/"
+    },
+    {
+      "code": "3151",
+      "name": "バイタルケーエスケー・ホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.vitalksk.co.jp/ir/",
+      "ir_news_url": "https://www.vitalksk.co.jp/ir/news/"
+    },
+    {
+      "code": "3154",
+      "name": "メディアスホールディングス",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.medius.co.jp/ir/",
+      "ir_news_url": "https://www.medius.co.jp/ir/news/"
+    },
+    {
+      "code": "3183",
+      "name": "ウイン・パートナーズ",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "3349",
+      "name": "コスモス薬品",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.cosmospc.co.jp/ir/",
+      "ir_news_url": "https://www.cosmospc.co.jp/ir/ir_new/"
+    },
+    {
+      "code": "3353",
+      "name": "メディカル一光グループ",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": "https://www.m-ikkou.co.jp/ir/",
+      "ir_news_url": "https://www.m-ikkou.co.jp/ir/library/release/"
+    },
+    {
+      "code": "3360",
+      "name": "シップヘルスケアホールディングス",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "3391",
+      "name": "ツルハホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.tsuruha-hd.co.jp/ir/",
+      "ir_news_url": "https://www.tsuruha-hd.co.jp/ir/p/news/"
+    },
+    {
+      "code": "3417",
+      "name": "大木ヘルスケアホールディングス",
+      "segment": "医薬品卸",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "3544",
+      "name": "サツドラホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "3549",
+      "name": "クスリのアオキホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": "https://kusuri-aoki-hd.co.jp/ir/",
+      "ir_news_url": "https://kusuri-aoki-hd.co.jp/news/?news_tab=ir"
+    },
+    {
+      "code": "3628",
+      "name": "データホライゾン",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "3645",
+      "name": "メディカルネット",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://www.medical-net.com/ir/",
+      "ir_news_url": "https://www.medical-net.com/ir/library/"
+    },
+    {
+      "code": "3649",
+      "name": "ファインデックス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://findex.co.jp/ir/",
+      "ir_news_url": null
+    },
+    {
+      "code": "366A",
+      "name": "ウェルネス・コミュニケーションズ",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://wellcoms.jp/ir/",
+      "ir_news_url": "https://wellcoms.jp/ir/news/"
+    },
+    {
+      "code": "3671",
+      "name": "ソフトマックス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://ir.s-max.co.jp/ja/ir.html",
+      "ir_news_url": "https://ir.s-max.co.jp/ja/ir/irnews.html"
+    },
+    {
+      "code": "368A",
+      "name": "北里",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.kitazato.co.jp/ja/ir/",
+      "ir_news_url": "https://www.kitazato.co.jp/ja/ir/ir-all/"
+    },
+    {
+      "code": "3733",
+      "name": "ソフトウェア・サービス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://www.softs.co.jp/ir/index.html",
+      "ir_news_url": "https://www.softs.co.jp/ir/news.html"
+    },
+    {
+      "code": "3750",
+      "name": "ADRバイオメディカルホールディングス",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": "https://adr.co.jp/investor-relations/",
+      "ir_news_url": "https://adr.co.jp/category/news/"
+    },
+    {
+      "code": "3939",
+      "name": "カナミックネットワーク",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.kanamicnetwork.co.jp/ir/",
+      "ir_news_url": "https://www.kanamicnetwork.co.jp/ir/library/disclosure/"
+    },
+    {
+      "code": "4151",
+      "name": "協和キリン",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://ir.kyowakirin.com/ja/index.html",
+      "ir_news_url": "https://ir.kyowakirin.com/ja/news.html"
+    },
+    {
+      "code": "4172",
+      "name": "Hiクラテス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://hi-crates.co.jp/company/company-ir/",
+      "ir_news_url": "https://hi-crates.co.jp/company/company-ir/irnews/"
+    },
+    {
+      "code": "4263",
+      "name": "サスメド",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://www.susmed.co.jp/ir/",
+      "ir_news_url": "https://www.susmed.co.jp/ir/irnews/"
+    },
+    {
+      "code": "4320",
+      "name": "CEホールディングス",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": "https://www.ce-hd.co.jp/ir/",
+      "ir_news_url": "https://www.ce-hd.co.jp/ir/irnews/"
+    },
+    {
+      "code": "4350",
+      "name": "メディカルシステムネットワーク",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": "https://www.msnw.co.jp/ir/",
+      "ir_news_url": "https://www.msnw.co.jp/news/"
+    },
+    {
+      "code": "442A",
+      "name": "クラシコ",
+      "segment": "ヘルスケアその他",
+      "market": "グロース",
+      "ir_url": "https://classico.co.jp/ir/",
+      "ir_news_url": null
+    },
+    {
+      "code": "4438",
+      "name": "Welby",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://welby.jp/ir/",
+      "ir_news_url": "https://welby.jp/ir/irnews/"
+    },
+    {
+      "code": "4480",
+      "name": "メドレー",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.medley.jp/ir/",
+      "ir_news_url": "https://www.medley.jp/ir/disclosure/"
+    },
+    {
+      "code": "4483",
+      "name": "JMDC",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.jmdc.co.jp/ir/",
+      "ir_news_url": "https://www.jmdc.co.jp/ir/news/"
+    },
+    {
+      "code": "4502",
+      "name": "武田薬品工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.takeda.com/jp/investors/",
+      "ir_news_url": null
+    },
+    {
+      "code": "4503",
+      "name": "アステラス製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.astellas.com/jp/investors",
+      "ir_news_url": "https://www.astellas.com/jp/investors/financial-results-library"
+    },
+    {
+      "code": "4506",
+      "name": "住友ファーマ",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.sumitomo-pharma.co.jp/ir/",
+      "ir_news_url": "https://www.sumitomo-pharma.co.jp/news/ir/"
+    },
+    {
+      "code": "4507",
+      "name": "塩野義製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.shionogi.com/jp/ja/investors.html",
+      "ir_news_url": "https://www.shionogi.com/jp/ja/investors/latest-ir-information.html"
+    },
+    {
+      "code": "4512",
+      "name": "わかもと製薬",
+      "segment": "製薬",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4516",
+      "name": "日本新薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.nippon-shinyaku.co.jp/ir/",
+      "ir_news_url": "https://www.nippon-shinyaku.co.jp/ir/ir_news/"
+    },
+    {
+      "code": "4519",
+      "name": "中外製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4521",
+      "name": "科研製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.kaken.co.jp/invest/",
+      "ir_news_url": "https://www.kaken.co.jp/nr/"
+    },
+    {
+      "code": "4523",
+      "name": "エーザイ",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.eisai.co.jp/ir/index.html",
+      "ir_news_url": null
+    },
+    {
+      "code": "4524",
+      "name": "森下仁丹",
+      "segment": "製薬",
+      "market": "スタンダード",
+      "ir_url": "https://www.jintan.co.jp/corp/ir/",
+      "ir_news_url": "https://www.jintan.co.jp/corp/ir/library/"
+    },
+    {
+      "code": "4527",
+      "name": "ロート製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.rohto.co.jp/ir/",
+      "ir_news_url": "https://www.rohto.co.jp/ir/news/"
+    },
+    {
+      "code": "4528",
+      "name": "小野薬品工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.ono-pharma.com/ja/ir",
+      "ir_news_url": "https://www.ono-pharma.com/ja/ir/library"
+    },
+    {
+      "code": "4534",
+      "name": "持田製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.mochida.co.jp/ir/index.html",
+      "ir_news_url": "https://www.mochida.co.jp/ir/news/index.html"
+    },
+    {
+      "code": "4536",
+      "name": "参天製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.santen.com/ja/ir",
+      "ir_news_url": "https://www.santen.com/ja/news?category=ir-news"
+    },
+    {
+      "code": "4538",
+      "name": "扶桑薬品工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.fuso-pharm.co.jp/investor/",
+      "ir_news_url": "https://www.fuso-pharm.co.jp/investor/news/"
+    },
+    {
+      "code": "4539",
+      "name": "日本ケミファ",
+      "segment": "製薬",
+      "market": "スタンダード",
+      "ir_url": "https://www.chemiphar.co.jp/ir/",
+      "ir_news_url": "https://www.chemiphar.co.jp/ir/release/index.html"
+    },
+    {
+      "code": "4540",
+      "name": "ツムラ",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.tsumura.co.jp/ir/",
+      "ir_news_url": "https://www.tsumura.co.jp/ir/library/"
+    },
+    {
+      "code": "4543",
+      "name": "テルモ",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.terumo.co.jp/investors",
+      "ir_news_url": "https://www.terumo.co.jp/investors/library"
+    },
+    {
+      "code": "4544",
+      "name": "H.U.グループホールディングス",
+      "segment": "診断・検査",
+      "market": "プライム",
+      "ir_url": "https://www.hugp.com/ir/",
+      "ir_news_url": "https://www.hugp.com/ir/library/"
+    },
+    {
+      "code": "4547",
+      "name": "キッセイ薬品工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.kissei.co.jp/investor/",
+      "ir_news_url": "https://www.kissei.co.jp/investor/news/"
+    },
+    {
+      "code": "4548",
+      "name": "生化学工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.seikagaku.co.jp/ja/ir.html",
+      "ir_news_url": "https://www.seikagaku.co.jp/ja/ir/news_ir.html"
+    },
+    {
+      "code": "4549",
+      "name": "栄研化学",
+      "segment": "診断・検査",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4552",
+      "name": "JCRファーマ",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.jcrpharm.co.jp/ir/",
+      "ir_news_url": "https://www.jcrpharm.co.jp/ir/ir_news/"
+    },
+    {
+      "code": "4553",
+      "name": "東和薬品",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.towayakuhin.co.jp/ir/",
+      "ir_news_url": "https://www.towayakuhin.co.jp/ir/library/result.php"
+    },
+    {
+      "code": "4554",
+      "name": "富士製薬工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.fujipharma.jp/ir/",
+      "ir_news_url": "https://www.fujipharma.jp/ir/news/"
+    },
+    {
+      "code": "4558",
+      "name": "中京医薬品",
+      "segment": "製薬",
+      "market": "スタンダード",
+      "ir_url": "https://chukyoiyakuhin.co.jp/ir/",
+      "ir_news_url": "https://chukyoiyakuhin.co.jp/ir_news/"
+    },
+    {
+      "code": "4559",
+      "name": "ゼリア新薬工業",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.zeria.co.jp/ir/",
+      "ir_news_url": "https://www.zeria.co.jp/ir/ir-topics/"
+    },
+    {
+      "code": "4563",
+      "name": "アンジェス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.anges.co.jp/ir",
+      "ir_news_url": "https://www.anges.co.jp/ir/news"
+    },
+    {
+      "code": "4564",
+      "name": "オンコセラピー・サイエンス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.oncotherapy.co.jp/ir/",
+      "ir_news_url": "https://www.oncotherapy.co.jp/ir/ir-news/"
+    },
+    {
+      "code": "4565",
+      "name": "ネクセラファーマ",
+      "segment": "バイオ・創薬",
+      "market": "プライム",
+      "ir_url": "https://investors.nxera.life/",
+      "ir_news_url": "https://investors.nxera.life/news/"
+    },
+    {
+      "code": "4568",
+      "name": "第一三共",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.daiichisankyo.co.jp/investors/",
+      "ir_news_url": "https://www.daiichisankyo.co.jp/investors/ir_news/"
+    },
+    {
+      "code": "4569",
+      "name": "杏林製薬",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.kyorin-pharm.co.jp/ir/",
+      "ir_news_url": "https://www.kyorin-pharm.co.jp/ir/library/"
+    },
+    {
+      "code": "4570",
+      "name": "免疫生物研究所",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.ibl-japan.co.jp/stockholder/",
+      "ir_news_url": "https://www.ibl-japan.co.jp/stockholder/ir_release/"
+    },
+    {
+      "code": "4571",
+      "name": "NANOホールディングス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4572",
+      "name": "カルナバイオサイエンス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.carnabio.com/japanese/ir/",
+      "ir_news_url": "https://www.carnabio.com/japanese/ir/news/"
+    },
+    {
+      "code": "4574",
+      "name": "大幸薬品",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.seirogan.co.jp/ir/",
+      "ir_news_url": "https://www.seirogan.co.jp/ir/ir/news.html"
+    },
+    {
+      "code": "4575",
+      "name": "キャンバス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.canbas.co.jp/ir/",
+      "ir_news_url": "https://www.canbas.co.jp/ir/news/"
+    },
+    {
+      "code": "4576",
+      "name": "デ・ウエスタン・セラピテクス研究所",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://dwti.co.jp/ir/",
+      "ir_news_url": "https://dwti.co.jp/news/"
+    },
+    {
+      "code": "4577",
+      "name": "ダイト",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.daitonet.co.jp/ir/",
+      "ir_news_url": "https://www.daitonet.co.jp/ir/ir_news.html"
+    },
+    {
+      "code": "4578",
+      "name": "大塚ホールディングス",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.otsuka.com/jp/ir/",
+      "ir_news_url": "https://www.otsuka.com/jp/ir/news/"
+    },
+    {
+      "code": "4579",
+      "name": "ラクオリア創薬",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.raqualia.com/ja/ir.html",
+      "ir_news_url": "https://www.raqualia.com/ja/ir/news.html"
+    },
+    {
+      "code": "4582",
+      "name": "シンバイオ製薬",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4583",
+      "name": "カイオム・バイオサイエンス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4584",
+      "name": "キッズウェル・バイオ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.kidswellbio.com/ir/",
+      "ir_news_url": "https://www.kidswellbio.com/ir/library/"
+    },
+    {
+      "code": "4586",
+      "name": "メドレックス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.medrx.co.jp/ir/index.html",
+      "ir_news_url": "https://www.medrx.co.jp/ir/irnews_back/index.html"
+    },
+    {
+      "code": "4587",
+      "name": "ペプチドリーム",
+      "segment": "バイオ・創薬",
+      "market": "プライム",
+      "ir_url": "https://www.peptidream.com/ir/",
+      "ir_news_url": "https://www.peptidream.com/ir/news/"
+    },
+    {
+      "code": "4588",
+      "name": "オンコリスバイオファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4591",
+      "name": "リボミック",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.ribomic.com/ir.php",
+      "ir_news_url": "https://www.ribomic.com/ir/news.php"
+    },
+    {
+      "code": "4592",
+      "name": "サンバイオ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4593",
+      "name": "ヘリオス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.healios.co.jp/ir/",
+      "ir_news_url": "https://www.healios.co.jp/ir/news/"
+    },
+    {
+      "code": "4594",
+      "name": "ブライトパス・バイオ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.brightpathbio.com/ir/",
+      "ir_news_url": "https://www.brightpathbio.com/ir/news.html"
+    },
+    {
+      "code": "4595",
+      "name": "ミズホメディー",
+      "segment": "診断・検査",
+      "market": "スタンダード",
+      "ir_url": "https://www.mizuho-m.co.jp/ir/",
+      "ir_news_url": "https://www.mizuho-m.co.jp/ir/news.html"
+    },
+    {
+      "code": "4596",
+      "name": "窪田製薬ホールディングス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://kubotaholdings.co.jp/ir/index.html",
+      "ir_news_url": "https://kubotaholdings.co.jp/ir/library/disclosure/index.html"
+    },
+    {
+      "code": "4597",
+      "name": "ソレイジア・ファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://solasia.co.jp/ir/",
+      "ir_news_url": "https://solasia.co.jp/ir/news/"
+    },
+    {
+      "code": "4598",
+      "name": "Delta-Fly Pharma",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.delta-flypharma.co.jp/ir/",
+      "ir_news_url": "https://www.delta-flypharma.co.jp/ir/news/"
+    },
+    {
+      "code": "4599",
+      "name": "ステムリム",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://stemrim.com/investors/",
+      "ir_news_url": "https://stemrim.com/investors/ir_library/"
+    },
+    {
+      "code": "4671",
+      "name": "ファルコホールディングス",
+      "segment": "診断・検査",
+      "market": "スタンダード",
+      "ir_url": "https://www.falco-hd.co.jp/stockholder/",
+      "ir_news_url": null
+    },
+    {
+      "code": "4694",
+      "name": "ビー・エム・エル",
+      "segment": "診断・検査",
+      "market": "プライム",
+      "ir_url": "https://www.bml.co.jp/ir/",
+      "ir_news_url": "https://www.bml.co.jp/ir/release/"
+    },
+    {
+      "code": "475A",
+      "name": "ギミック",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "4820",
+      "name": "イーエムシステムズ",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.emsystems.co.jp/",
+      "ir_news_url": null
+    },
+    {
+      "code": "4875",
+      "name": "メディシノバ・インク",
+      "segment": "バイオ・創薬",
+      "market": "スタンダード",
+      "ir_url": "https://medicinova.jp/ir",
+      "ir_news_url": null
+    },
+    {
+      "code": "4880",
+      "name": "セルソース",
+      "segment": "バイオ・創薬",
+      "market": "スタンダード",
+      "ir_url": "https://www.cellsource.co.jp/ir/",
+      "ir_news_url": "https://www.cellsource.co.jp/ir/news/"
+    },
+    {
+      "code": "4881",
+      "name": "ファンペップ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.funpep.co.jp/ir/",
+      "ir_news_url": "https://www.funpep.co.jp/ir/news/"
+    },
+    {
+      "code": "4882",
+      "name": "ペルセウスプロテオミクス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.ppmx.com/ir/",
+      "ir_news_url": "https://www.ppmx.com/ir/news/"
+    },
+    {
+      "code": "4883",
+      "name": "モダリス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://modalistx.com/jp/ir/",
+      "ir_news_url": "https://modalistx.com/jp/irnews/"
+    },
+    {
+      "code": "4884",
+      "name": "クリングルファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.kringle-pharma.com/ir_info/",
+      "ir_news_url": "https://www.kringle-pharma.com/ir_info/library/financial_statements/"
+    },
+    {
+      "code": "4885",
+      "name": "室町ケミカル",
+      "segment": "製薬",
+      "market": "スタンダード",
+      "ir_url": "https://www.muro-chem.co.jp/ir/",
+      "ir_news_url": "https://www.muro-chem.co.jp/ir/library/"
+    },
+    {
+      "code": "4886",
+      "name": "あすか製薬ホールディングス",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.aska-pharma-hd.co.jp/invest/",
+      "ir_news_url": "https://www.aska-pharma-hd.co.jp/invest/news.html"
+    },
+    {
+      "code": "4887",
+      "name": "サワイグループホールディングス",
+      "segment": "製薬",
+      "market": "プライム",
+      "ir_url": "https://www.sawaigroup.holdings/ir/",
+      "ir_news_url": "https://www.sawaigroup.holdings/ir/news/"
+    },
+    {
+      "code": "4888",
+      "name": "ステラファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://stella-pharma.co.jp/ir/",
+      "ir_news_url": "https://stella-pharma.co.jp/ir/news/"
+    },
+    {
+      "code": "4889",
+      "name": "レナサイエンス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.renascience.co.jp/ir/",
+      "ir_news_url": "https://www.renascience.co.jp/ir/ir_news/"
+    },
+    {
+      "code": "4890",
+      "name": "坪田ラボ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://tsubota-lab.com/ir/",
+      "ir_news_url": "https://tsubota-lab.com/ir/irnews/"
+    },
+    {
+      "code": "4891",
+      "name": "ティムス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.tms-japan.co.jp/ja/ir.html",
+      "ir_news_url": "https://www.tms-japan.co.jp/ja/ir/news.html"
+    },
+    {
+      "code": "4892",
+      "name": "サイフューズ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.cyfusebio.com/ir/",
+      "ir_news_url": "https://www.cyfusebio.com/ir/news/"
+    },
+    {
+      "code": "4893",
+      "name": "ノイルイミューン・バイオテック",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.noile-immune.com/ir/",
+      "ir_news_url": "https://www.noile-immune.com/ir/news.html"
+    },
+    {
+      "code": "4894",
+      "name": "クオリプス",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.cuorips.co.jp/irrelation",
+      "ir_news_url": "https://www.cuorips.co.jp/irrelation/irnews"
+    },
+    {
+      "code": "4896",
+      "name": "ケイファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.kpharma.co.jp/ir",
+      "ir_news_url": "https://www.kpharma.co.jp/ir/news"
+    },
+    {
+      "code": "4978",
+      "name": "リプロセル",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://reprocell.co.jp/ir/",
+      "ir_news_url": "https://reprocell.co.jp/ir/news/"
+    },
+    {
+      "code": "5038",
+      "name": "eWeLL",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://ewell.co.jp/ir/",
+      "ir_news_url": "https://ewell.co.jp/ir/ir-news/"
+    },
+    {
+      "code": "504A",
+      "name": "イノバセル",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://innovacell.com/ir/",
+      "ir_news_url": null
+    },
+    {
+      "code": "5187",
+      "name": "クリエートメディック",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.createmedic.co.jp/ir/",
+      "ir_news_url": "https://www.createmedic.co.jp/ir/library/"
+    },
+    {
+      "code": "520A",
+      "name": "ジェイファーマ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.j-pharma.com/ir/",
+      "ir_news_url": "https://www.j-pharma.com/ir/news/"
+    },
+    {
+      "code": "5592",
+      "name": "くすりの窓口",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://kusurinomadoguchi.co.jp/ir/",
+      "ir_news_url": "https://kusurinomadoguchi.co.jp/ir/library/disclosure_information/"
+    },
+    {
+      "code": "5619",
+      "name": "マーソ",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://www.mrso.co.jp/ir/",
+      "ir_news_url": "https://www.mrso.co.jp/ir/disclosure/"
+    },
+    {
+      "code": "6029",
+      "name": "アトラグループ",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "6034",
+      "name": "MRT",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://medrt.co.jp/ir/",
+      "ir_news_url": "https://medrt.co.jp/ir/news/index.html"
+    },
+    {
+      "code": "6059",
+      "name": "ウチヤマホールディングス",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "6062",
+      "name": "チャーム・ケア・コーポレーション",
+      "segment": "医療・介護サービス",
+      "market": "プライム",
+      "ir_url": "https://www.charmcc.jp/corp/ir/",
+      "ir_news_url": "https://www.charmcc.jp/corp/ir/news/"
+    },
+    {
+      "code": "6063",
+      "name": "日本エマージェンシーアシスタンス",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": "https://emergency.co.jp/ir/",
+      "ir_news_url": "https://emergency.co.jp/ir/news/"
+    },
+    {
+      "code": "6090",
+      "name": "ヒューマン・メタボローム・テクノロジーズ",
+      "segment": "診断・検査",
+      "market": "スタンダード",
+      "ir_url": "https://humanmetabolome.com/jpn/ir-info/",
+      "ir_news_url": "https://humanmetabolome.com/jpn/ir-info/news/"
+    },
+    {
+      "code": "6099",
+      "name": "エラン",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": "https://www.kkelan.com/ir/",
+      "ir_news_url": "https://www.kkelan.com/ir/news/"
+    },
+    {
+      "code": "6190",
+      "name": "フェニックスバイオ",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://phoenixbio.co.jp/ir/",
+      "ir_news_url": "https://phoenixbio.co.jp/ir/news.html"
+    },
+    {
+      "code": "634A",
+      "name": "レイヤード",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "6523",
+      "name": "PHCホールディングス",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.phchd.com/jp/ir",
+      "ir_news_url": "https://www.phchd.com/jp/ir/news"
+    },
+    {
+      "code": "6545",
+      "name": "インターネットインフィニティー",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://iif.jp/ir/",
+      "ir_news_url": "https://iif.jp/ir/ir_news.html"
+    },
+    {
+      "code": "6823",
+      "name": "リオン",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.rion.co.jp/ir/",
+      "ir_news_url": "https://www.rion.co.jp/news/"
+    },
+    {
+      "code": "6849",
+      "name": "日本光電工業",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.nihonkohden.co.jp/ja/ir.html",
+      "ir_news_url": "https://www.nihonkohden.co.jp/ja/ir/news.html"
+    },
+    {
+      "code": "6869",
+      "name": "シスメックス",
+      "segment": "診断・検査",
+      "market": "プライム",
+      "ir_url": "https://www.sysmex.co.jp/ir/",
+      "ir_news_url": "https://www.sysmex.co.jp/ir/news.html"
+    },
+    {
+      "code": "6960",
+      "name": "フクダ電子",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.fukuda.co.jp/ir/",
+      "ir_news_url": "https://www.fukuda.co.jp/ir/news/"
+    },
+    {
+      "code": "7061",
+      "name": "日本ホスピスホールディングス",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://www.jhospice.co.jp/ja/ir.html",
+      "ir_news_url": "https://www.jhospice.co.jp/ja/ir/news.html"
+    },
+    {
+      "code": "7062",
+      "name": "フレアス",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://fureasu.jp/ir/",
+      "ir_news_url": "https://fureasu.jp/ir/irnews/"
+    },
+    {
+      "code": "7071",
+      "name": "アンビスホールディングス",
+      "segment": "医療・介護サービス",
+      "market": "プライム",
+      "ir_url": "https://ir.amvis.com/ja/ir.html",
+      "ir_news_url": "https://ir.amvis.com/ja/ir/news.html"
+    },
+    {
+      "code": "7079",
+      "name": "WDBココ",
+      "segment": "ヘルスケアその他",
+      "market": "グロース",
+      "ir_url": "https://www.wdbcoco.com/ir/",
+      "ir_news_url": "https://www.wdbcoco.com/ir/irnews/"
+    },
+    {
+      "code": "7091",
+      "name": "リビングプラットフォーム",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://www.living-platform.com/ir/",
+      "ir_news_url": "https://www.living-platform.com/ir/news/"
+    },
+    {
+      "code": "7096",
+      "name": "ステムセル研究所",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://stemcell.co.jp/corporate/ir/",
+      "ir_news_url": null
+    },
+    {
+      "code": "7129",
+      "name": "ミアヘルサホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "スタンダード",
+      "ir_url": "https://www.merhalsa-hd.jp/ir/",
+      "ir_news_url": "https://www.merhalsa-hd.jp/ir/irnews/"
+    },
+    {
+      "code": "7133",
+      "name": "HYUGA PRIMARY CARE",
+      "segment": "調剤・ドラッグストア",
+      "market": "グロース",
+      "ir_url": "https://www.hyuga-primary.care/ja/ir.html",
+      "ir_news_url": "https://www.hyuga-primary.care/ja/ir/news.html"
+    },
+    {
+      "code": "7362",
+      "name": "T.S.I",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://www.t-s-i.jp/ir/index.html",
+      "ir_news_url": "https://www.t-s-i.jp/ir/news/index.html"
+    },
+    {
+      "code": "7447",
+      "name": "ナガイレーベン",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "7459",
+      "name": "メディパルホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.medipal.co.jp/ir/",
+      "ir_news_url": "https://www.medipal.co.jp/news/"
+    },
+    {
+      "code": "7575",
+      "name": "日本ライフライン",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.jll.co.jp/investors/",
+      "ir_news_url": "https://www.jll.co.jp/investors/news/index.html"
+    },
+    {
+      "code": "7600",
+      "name": "日本エム・ディ・エム",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.jmdm.co.jp/ir/",
+      "ir_news_url": "https://www.jmdm.co.jp/ir/ir-library/"
+    },
+    {
+      "code": "7634",
+      "name": "星医療酸器",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "7649",
+      "name": "スギホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.sugi-hd.co.jp/ir/",
+      "ir_news_url": "https://www.sugi-hd.co.jp/news/"
+    },
+    {
+      "code": "7679",
+      "name": "薬王堂ホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.yakuodo-hd.co.jp/ir/",
+      "ir_news_url": "https://www.yakuodo-hd.co.jp/ir/news/"
+    },
+    {
+      "code": "7681",
+      "name": "レオクラン",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.leoclan.co.jp/ir/",
+      "ir_news_url": "https://www.leoclan.co.jp/ir/irnews/"
+    },
+    {
+      "code": "7702",
+      "name": "JMS",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.jms.cc/ir/index.html",
+      "ir_news_url": "https://www.jms.cc/ir/news.html"
+    },
+    {
+      "code": "7707",
+      "name": "プレシジョン・システム・サイエンス",
+      "segment": "診断・検査",
+      "market": "グロース",
+      "ir_url": "https://www.pss.co.jp/ir/",
+      "ir_news_url": "https://www.pss.co.jp/ir/dataroom.html"
+    },
+    {
+      "code": "7716",
+      "name": "ナカニシ",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.nakanishi-inc.jp/ir/",
+      "ir_news_url": "https://www.nakanishi-inc.jp/ir/irnews/"
+    },
+    {
+      "code": "7730",
+      "name": "マニー",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://mani.co.jp/ir/",
+      "ir_news_url": "https://mani.co.jp/ir/news/"
+    },
+    {
+      "code": "7733",
+      "name": "オリンパス",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.olympus.co.jp/ir/",
+      "ir_news_url": "https://www.olympus.co.jp/ir/data/"
+    },
+    {
+      "code": "7743",
+      "name": "シード",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.seed.co.jp/company/ir/",
+      "ir_news_url": "https://www.seed.co.jp/company/ir/news/"
+    },
+    {
+      "code": "7747",
+      "name": "朝日インテック",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://ir.asahi-intecc.co.jp/ja/ir.html",
+      "ir_news_url": "https://ir.asahi-intecc.co.jp/ja/ir/pressrelease.html"
+    },
+    {
+      "code": "7749",
+      "name": "メディキット",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://medikit.co.jp/ir/",
+      "ir_news_url": "https://medikit.co.jp/ir/library/press.html"
+    },
+    {
+      "code": "7774",
+      "name": "ジャパン・ティッシュエンジニアリング",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.jpte.co.jp/investors/index.html",
+      "ir_news_url": "https://www.jpte.co.jp/investors/news/index.html"
+    },
+    {
+      "code": "7775",
+      "name": "大研医器",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://daiken-iki.co.jp/ir/",
+      "ir_news_url": "https://daiken-iki.co.jp/news/ir/"
+    },
+    {
+      "code": "7776",
+      "name": "セルシード",
+      "segment": "バイオ・創薬",
+      "market": "グロース",
+      "ir_url": "https://www.cellseed.com/ir/",
+      "ir_news_url": "https://www.cellseed.com/ir/library/results.html"
+    },
+    {
+      "code": "7777",
+      "name": "スリー・ディー・マトリックス",
+      "segment": "医療機器",
+      "market": "グロース",
+      "ir_url": "https://www.3d-matrix.co.jp/ir/",
+      "ir_news_url": "https://www.3d-matrix.co.jp/ir/irnews.html"
+    },
+    {
+      "code": "7779",
+      "name": "CYBERDYNE",
+      "segment": "医療機器",
+      "market": "グロース",
+      "ir_url": "https://www.cyberdyne.jp/ir",
+      "ir_news_url": "https://www.cyberdyne.jp/news/c/ir"
+    },
+    {
+      "code": "7780",
+      "name": "メニコン",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.menicon.co.jp/company/ir/",
+      "ir_news_url": "https://www.menicon.co.jp/company/ir/ir_news.html"
+    },
+    {
+      "code": "7782",
+      "name": "シンシア",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.sincere-vision.com/ir/",
+      "ir_news_url": "https://www.sincere-vision.com/ir/news/"
+    },
+    {
+      "code": "7792",
+      "name": "コラントッテ",
+      "segment": "ヘルスケアその他",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "7807",
+      "name": "幸和製作所",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "7813",
+      "name": "プラッツ",
+      "segment": "ヘルスケアその他",
+      "market": "スタンダード",
+      "ir_url": "https://www.platz-ltd.co.jp/ir/",
+      "ir_news_url": "https://www.platz-ltd.co.jp/ir/news.html"
+    },
+    {
+      "code": "7840",
+      "name": "フランスベッドホールディングス",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": "https://francebed-hd.co.jp/ir-top/",
+      "ir_news_url": "https://francebed-hd.co.jp/ir/news/ir-release/"
+    },
+    {
+      "code": "7979",
+      "name": "松風",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.shofu.co.jp/ir/",
+      "ir_news_url": "https://www.shofu.co.jp/ir/library/"
+    },
+    {
+      "code": "8086",
+      "name": "ニプロ",
+      "segment": "医療機器",
+      "market": "プライム",
+      "ir_url": "https://www.nipro.co.jp/ir/",
+      "ir_news_url": "https://www.nipro.co.jp/ir/news/"
+    },
+    {
+      "code": "8095",
+      "name": "アステナホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.astena-hd.com/ir.html",
+      "ir_news_url": "https://www.astena-hd.com/ir/ir_news.html"
+    },
+    {
+      "code": "8129",
+      "name": "東邦ホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://ir.tohohd.co.jp/ja/index.html",
+      "ir_news_url": "https://ir.tohohd.co.jp/ja/pressrelease.html"
+    },
+    {
+      "code": "8938",
+      "name": "グローム・ホールディングス",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://glome-holdings.com/ir/",
+      "ir_news_url": "https://glome-holdings.com/ir/topics_back.php"
+    },
+    {
+      "code": "9158",
+      "name": "シーユーシー",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "9214",
+      "name": "Recovery International",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "9218",
+      "name": "メンタルヘルステクノロジーズ",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "グロース",
+      "ir_url": "https://www.mh-tec.co.jp/ir",
+      "ir_news_url": "https://www.mh-tec.co.jp/ir/news"
+    },
+    {
+      "code": "9220",
+      "name": "エフビー介護サービス",
+      "segment": "医療・介護サービス",
+      "market": "スタンダード",
+      "ir_url": "https://www.fb-kaigo.co.jp/ir",
+      "ir_news_url": "https://www.fb-kaigo.co.jp/ir/news"
+    },
+    {
+      "code": "9229",
+      "name": "サンウェルズ",
+      "segment": "医療・介護サービス",
+      "market": "プライム",
+      "ir_url": "https://sunwels.jp/ir/",
+      "ir_news_url": "https://sunwels.jp/ir/ir-news/"
+    },
+    {
+      "code": "9237",
+      "name": "笑美面",
+      "segment": "医療・介護サービス",
+      "market": "グロース",
+      "ir_url": "https://emimen.co.jp/ir/",
+      "ir_news_url": "https://emimen.co.jp/ir/disclosure/"
+    },
+    {
+      "code": "9265",
+      "name": "ヤマシタヘルスケアホールディングス",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "9267",
+      "name": "Genky DrugStores",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    },
+    {
+      "code": "9273",
+      "name": "コーア商事ホールディングス",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.koashoji-hd.com/ir/",
+      "ir_news_url": "https://www.koashoji-hd.com/news/"
+    },
+    {
+      "code": "9340",
+      "name": "アソインターナショナル",
+      "segment": "医療機器",
+      "market": "スタンダード",
+      "ir_url": "https://www.aso-inter.co.jp/ir/",
+      "ir_news_url": "https://www.aso-inter.co.jp/ir/news/"
+    },
+    {
+      "code": "9341",
+      "name": "GENOVA",
+      "segment": "医療IT・デジタルヘルス",
+      "market": "プライム",
+      "ir_url": "https://www.genova.co.jp/ir/individual_investor.html",
+      "ir_news_url": "https://genova.co.jp/ir/news"
+    },
+    {
+      "code": "9627",
+      "name": "アインホールディングス",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": "https://www.ainj.co.jp/corporate/ir/",
+      "ir_news_url": "https://www.ainj.co.jp/corporate/ir/news/"
+    },
+    {
+      "code": "9729",
+      "name": "トーカイ",
+      "segment": "ヘルスケアその他",
+      "market": "プライム",
+      "ir_url": "https://www.tokai-corp.com/finance/",
+      "ir_news_url": "https://www.tokai-corp.com/finance/news/"
+    },
+    {
+      "code": "9987",
+      "name": "スズケン",
+      "segment": "医薬品卸",
+      "market": "プライム",
+      "ir_url": "https://www.suzuken.co.jp/ir/",
+      "ir_news_url": "https://www.suzuken.co.jp/ir/news/"
+    },
+    {
+      "code": "9989",
+      "name": "サンドラッグ",
+      "segment": "調剤・ドラッグストア",
+      "market": "プライム",
+      "ir_url": null,
+      "ir_news_url": null
+    }
+  ]
+}

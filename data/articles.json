@@ -1,82 +1,36 @@
 {
-  "updated_at": "2026-10-23T08:44:53.317Z",
+  "updated_at": "2026-10-23T12:28:45.431Z",
   "articles": [
     {
-      "id": "b621259c-b0b5-4595-9008-b9fb1b6f59c7",
-      "created_at": "2026-10-23T06:51:36.168Z",
-      "published_date": "2026-10-23",
-      "category": "dx",
-      "featured": false,
-      "title": "アルフレッサとセイコーソリューションズ、医療DXで協業。手術や検査の同意書を電子化する「COMPACT IN」を医薬品卸の営業網で病院に広げる",
-      "source_name": "アルフレッサホールディングス",
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000103.000155184.html",
-      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000071.000169528.html",
-      "image_url": "https://prcdn.freetls.fastly.net/release_image/155184/103/155184-103-b5ec278aa7bac47a737a058ad372e139-585x270.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "summary": [
-        "アルフレッサHD子会社のアルフレッサと、セイコーグループ子会社のセイコーソリューションズは10月23日、医療機関向け電子同意サービス「COMPACT IN 医療機関向けプラン」の共同展開を含む医療DX分野の協業で基本合意書を結んだと発表した。",
-        "手術・検査・処置の同意書を電子化し、複数の同意書への一括同意、遠隔地の家族による非対面の同意、電子署名・タイムスタンプの付与、文書の一元管理ができる。厚労省の医療情報システム安全管理ガイドライン第6.0版に準拠する。",
-        "アルフレッサが販売支援と申込の取次ぎを担い、セイコーソリューションズが説明・契約・サポートを行う。電子署名やタイムスタンプを使った新サービスも両社で検討する。"
-      ],
-      "comment": "病院の同意書は紙で印刷して記入し、複写して保管する仕事が看護師や事務に残っています。自分が注目したのは、「電子同意を売るのが、ITベンダーではなく医薬品卸」という組み合わせで、全国の病院に毎日出入りするMSの営業網が医療DXの販路になります。卸の本業は薬の配送と価格交渉で利益が薄いので、卸がシステムの取次ぎで稼ぐ形がどこまで広がるかを見ておきたいと思います。",
-      "company": {
-        "name": "アルフレッサホールディングス",
-        "listed": "東証プライム",
-        "financials": "2027年3月期第1四半期は売上高7,890億円（前年同期比4.1%増）、営業利益56億円（19.6%減）。",
-        "profile": "医療用医薬品卸の国内大手。医薬品の製造、セルフメディケーション卸、調剤薬局も手がける。本社は東京都千代田区。",
-        "url": "https://www.alfresa.com/"
-      },
-      "status": "published",
-      "updated_at": "2026-10-23T06:51:36.168Z"
-    },
-    {
-      "id": "ce12cfd3-d7c2-4b9f-b50b-b9c316beef39",
-      "created_at": "2026-10-23T08:31:00.446Z",
+      "id": "d9d09899-a17c-443b-90cc-14abc2ff8d39",
+      "created_at": "2026-10-23T12:28:45.431Z",
       "published_date": "2026-10-23",
       "category": "global",
       "featured": false,
-      "title": "中国Ping An Good Doctor、2026年1〜9月の純利益は35%増の2.5億元（約55億円）。AI医師の利用者1,300万人、法人顧客8,100社で「保険＋医療」を拡大",
-      "source_name": "Ping An Good Doctor",
-      "source_url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html",
+      "title": "中国Innovent、CLDN18.2標的ADC「arcotatug tavatecan」の胃がん第3相試験で全生存期間と無増悪生存期間の両方を達成。大中華圏以外の権利は武田薬品",
+      "source_name": "Innovent Biologics",
+      "source_url": "https://www.prnewswire.com/news-releases/2026-esmo-lba--innovent-announces-international-phase-3-study-of-arcotatug-tavatecan-cldn18-2-adc-in-gastric-cancer-met-dual-primary-endpoints-of-pfs-and-os-302918052.html",
       "image_url": null,
       "quote": {
-        "text": "During the period, the Company recorded total revenue of RMB3.51billion and net profit of RMB0.25 billion, representing year-on-year growth of 35%.",
-        "source": "PR Newswire（Ping An Good Doctor）",
-        "url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html"
+        "text": "The median OS was 10.2 months in the arcotatug tavatecan group versus 6.9 months in the TPC group, representing a 43% reduction in the risk of death (HR=0.57, 95% CI: 0.45–0.73; P<0.0001).",
+        "source": "PR Newswire（Innovent Biologics）",
+        "url": "https://www.prnewswire.com/news-releases/2026-esmo-lba--innovent-announces-international-phase-3-study-of-arcotatug-tavatecan-cldn18-2-adc-in-gastric-cancer-met-dual-primary-endpoints-of-pfs-and-os-302918052.html"
       },
       "summary": [
-        "香港上場の平安健康医療科技（Ping An Good Doctor）は2026年1〜9月の売上収益35.1億元（約770億円）、純利益2.5億元（約55億円）で、純利益は前年同期比35%増でした（1元≈22円で換算）。",
-        "法人向け健康管理は過去12か月の有料法人顧客が8,100社超（約60%増）。AI医師の利用者は約1,300万人に達し、複雑疾患のAI支援MDTプラットフォームは4つの疾患領域をカバーしました。",
-        "平安生命と脳の健康サービスを開始し、全国11か所の長寿センターを公開。今後はAIを専門医療サービスや、保険と医療を組み合わせた商品開発に広げるとしています。"
+        "香港上場のInnovent Biologicsが、CLDN18.2陽性の既治療進行胃・食道胃接合部腺がんを対象にした国際第3相試験G-HOPE-001（中国・日本で実施）の結果をESMO 2026のLate-Breaking Abstractで発表しました。",
+        "全生存期間の中央値は10.2か月対6.9か月（死亡リスク43%減、HR 0.57）、無増悪生存期間は7.1か月対3.1か月（HR 0.45）、奏効率は37.4%対7.7%。グレード3以上の悪心・嘔吐は0.9%・2.6%にとどまりました。",
+        "同薬（IBI343、武田の開発コードTAK-921）は大中華圏以外の開発・製造・販売権を武田薬品が持ちます。CLDN18.2を標的とするADCとして世界で初めて新薬承認申請が受理されています。"
       ],
-      "comment": "中国の保険グループ傘下のオンライン医療が、9か月で純利益35%増まで来ました。注目したのは、伸びているのが個人向けアプリではなく、保険契約者向けの会員サービスと法人の健康管理（顧客8,100社、約6割増）だという点です。支払う側である保険会社や企業と組んで医療サービスを売る形は、日本の保険会社や健保向けヘルスケア事業者が目指す形そのもので、参考になるのだと思います。",
+      "comment": "胃がんのCLDN18.2は、アステラスのゾルベツキシマブで日本でも知られるようになった標的ですが、今回はADC（抗体薬物複合体）で後方ラインの生存期間を3.3か月延ばしました。注目したのは、日本の施設が治験に入っており、日本を含む大中華圏以外の権利を武田薬品が持っている点で、国内の申請は武田が担うことになります。中国バイオの第3相が日本の患者に直結する例として、覚えておきたい結果だと思います。",
       "company": {
-        "name": "Ping An Good Doctor",
-        "listed": "香港証券取引所（1833.HK）",
-        "financials": "2026年1〜9月は売上収益35.1億元・純利益2.5億元（純利益は前年同期比35%増）。",
-        "profile": "中国平安保険グループのオンライン医療・健康管理プラットフォーム（平安健康医療科技）。保険会員向け医療サービス、法人向け健康管理、AI医師、自社運営の医療施設を展開する。"
+        "name": "Innovent Biologics",
+        "listed": "香港証券取引所（1801.HK）",
+        "financials": "2025年12月期は売上収益130.4億元（前期比38.4%増）、IFRS純利益8.14億元で初の通期黒字（2026年3月26日の年次業績発表より）。",
+        "profile": "中国・蘇州のバイオ医薬品企業。がん、心血管・代謝、自己免疫、眼科の領域で創薬から製造・販売まで手がける。",
+        "url": "https://www.innoventbio.com/"
       },
       "status": "published",
-      "updated_at": "2026-10-23T08:31:00.446Z"
-    },
-    {
-      "id": "e97379d5-7317-4123-a053-b52078d5ef79",
-      "created_at": "2026-10-23T06:51:36.168Z",
-      "published_date": "2026-10-23",
-      "category": "drug",
-      "featured": false,
-      "title": "楽天メディカル、頭頸部がんの光免疫療法とペムブロリズマブ併用の長期追跡をESMOで発表。奏効期間の中央値44.3か月、4年生存率35.3%、2028年の米国申請を目指す",
-      "source_name": "楽天メディカル",
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000073.000043244.html",
-      "source_url_2": "https://rakuten-med.jp/",
-      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
-      "summary": [
-        "楽天メディカルは10月23日、欧州臨床腫瘍学会（ESMO 2026）で、再発・転移性の頭頸部扁平上皮がんを対象にASP-1929のアルミノックス治療（光免疫療法）とペムブロリズマブを併用した第Ib/II相試験（19例）の長期追跡結果をポスター発表した。",
-        "追跡期間中央値53.1か月で、有効性評価が可能な17例の全生存期間中央値は28.2か月、推定生存率は36か月で47.1%、48か月で35.3%。奏効期間中央値は44.3か月で、完全奏効5例のうち4例が42か月超から60か月超の時点で生存していた。新たな安全性シグナルはなかった。",
-        "症例数が少ない探索的な結果と位置づけつつ、局所再発の頭頸部がんの一次治療として国際共同第III相試験（ASP-1929-381）を実施中で、その結果をもとに2028年に米国で申請することを目指す。"
-      ],
-      "comment": "光免疫療法は日本では2020年に世界初の承認を受けましたが、米国ではまだ承認されていません。自分が注目したのは、「17例の小さな試験でも、完全奏効の患者が4〜5年生きている」という長期データで、免疫療法と組み合わせたときの持続性を示す材料になります。米国申請は2028年と、承認から8年かかる計画で、日本発の治療法を世界に広げる難しさがそのまま日程に出ていると思います。",
-      "status": "published",
-      "updated_at": "2026-10-23T06:51:36.168Z"
+      "updated_at": "2026-10-23T12:28:45.431Z"
     },
     {
       "id": "14f319a7-571c-4306-a000-5b97c4ad3a49",
@@ -133,6 +87,36 @@
       },
       "status": "published",
       "updated_at": "2026-10-23T08:44:53.317Z"
+    },
+    {
+      "id": "ce12cfd3-d7c2-4b9f-b50b-b9c316beef39",
+      "created_at": "2026-10-23T08:31:00.446Z",
+      "published_date": "2026-10-23",
+      "category": "global",
+      "featured": false,
+      "title": "中国Ping An Good Doctor、2026年1〜9月の純利益は35%増の2.5億元（約55億円）。AI医師の利用者1,300万人、法人顧客8,100社で「保険＋医療」を拡大",
+      "source_name": "Ping An Good Doctor",
+      "source_url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html",
+      "image_url": null,
+      "quote": {
+        "text": "During the period, the Company recorded total revenue of RMB3.51billion and net profit of RMB0.25 billion, representing year-on-year growth of 35%.",
+        "source": "PR Newswire（Ping An Good Doctor）",
+        "url": "https://www.prnewswire.com/news-releases/ping-an-good-doctors-nine-month-net-profit-rises-35-company-accelerates-efforts-to-broaden-ai-applications-in-healthcare-302917736.html"
+      },
+      "summary": [
+        "香港上場の平安健康医療科技（Ping An Good Doctor）は2026年1〜9月の売上収益35.1億元（約770億円）、純利益2.5億元（約55億円）で、純利益は前年同期比35%増でした（1元≈22円で換算）。",
+        "法人向け健康管理は過去12か月の有料法人顧客が8,100社超（約60%増）。AI医師の利用者は約1,300万人に達し、複雑疾患のAI支援MDTプラットフォームは4つの疾患領域をカバーしました。",
+        "平安生命と脳の健康サービスを開始し、全国11か所の長寿センターを公開。今後はAIを専門医療サービスや、保険と医療を組み合わせた商品開発に広げるとしています。"
+      ],
+      "comment": "中国の保険グループ傘下のオンライン医療が、9か月で純利益35%増まで来ました。注目したのは、伸びているのが個人向けアプリではなく、保険契約者向けの会員サービスと法人の健康管理（顧客8,100社、約6割増）だという点です。支払う側である保険会社や企業と組んで医療サービスを売る形は、日本の保険会社や健保向けヘルスケア事業者が目指す形そのもので、参考になるのだと思います。",
+      "company": {
+        "name": "Ping An Good Doctor",
+        "listed": "香港証券取引所（1833.HK）",
+        "financials": "2026年1〜9月は売上収益35.1億元・純利益2.5億元（純利益は前年同期比35%増）。",
+        "profile": "中国平安保険グループのオンライン医療・健康管理プラットフォーム（平安健康医療科技）。保険会員向け医療サービス、法人向け健康管理、AI医師、自社運営の医療施設を展開する。"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T08:31:00.446Z"
     },
     {
       "id": "b569bb46-8142-40ce-b99e-b59eb504ee82",
@@ -302,6 +286,53 @@
       },
       "status": "published",
       "updated_at": "2026-10-23T07:12:39.767Z"
+    },
+    {
+      "id": "b621259c-b0b5-4595-9008-b9fb1b6f59c7",
+      "created_at": "2026-10-23T06:51:36.168Z",
+      "published_date": "2026-10-23",
+      "category": "dx",
+      "featured": false,
+      "title": "アルフレッサとセイコーソリューションズ、医療DXで協業。手術や検査の同意書を電子化する「COMPACT IN」を医薬品卸の営業網で病院に広げる",
+      "source_name": "アルフレッサホールディングス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000103.000155184.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000071.000169528.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/155184/103/155184-103-b5ec278aa7bac47a737a058ad372e139-585x270.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "アルフレッサHD子会社のアルフレッサと、セイコーグループ子会社のセイコーソリューションズは10月23日、医療機関向け電子同意サービス「COMPACT IN 医療機関向けプラン」の共同展開を含む医療DX分野の協業で基本合意書を結んだと発表した。",
+        "手術・検査・処置の同意書を電子化し、複数の同意書への一括同意、遠隔地の家族による非対面の同意、電子署名・タイムスタンプの付与、文書の一元管理ができる。厚労省の医療情報システム安全管理ガイドライン第6.0版に準拠する。",
+        "アルフレッサが販売支援と申込の取次ぎを担い、セイコーソリューションズが説明・契約・サポートを行う。電子署名やタイムスタンプを使った新サービスも両社で検討する。"
+      ],
+      "comment": "病院の同意書は紙で印刷して記入し、複写して保管する仕事が看護師や事務に残っています。自分が注目したのは、「電子同意を売るのが、ITベンダーではなく医薬品卸」という組み合わせで、全国の病院に毎日出入りするMSの営業網が医療DXの販路になります。卸の本業は薬の配送と価格交渉で利益が薄いので、卸がシステムの取次ぎで稼ぐ形がどこまで広がるかを見ておきたいと思います。",
+      "company": {
+        "name": "アルフレッサホールディングス",
+        "listed": "東証プライム",
+        "financials": "2027年3月期第1四半期は売上高7,890億円（前年同期比4.1%増）、営業利益56億円（19.6%減）。",
+        "profile": "医療用医薬品卸の国内大手。医薬品の製造、セルフメディケーション卸、調剤薬局も手がける。本社は東京都千代田区。",
+        "url": "https://www.alfresa.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T06:51:36.168Z"
+    },
+    {
+      "id": "e97379d5-7317-4123-a053-b52078d5ef79",
+      "created_at": "2026-10-23T06:51:36.168Z",
+      "published_date": "2026-10-23",
+      "category": "drug",
+      "featured": false,
+      "title": "楽天メディカル、頭頸部がんの光免疫療法とペムブロリズマブ併用の長期追跡をESMOで発表。奏効期間の中央値44.3か月、4年生存率35.3%、2028年の米国申請を目指す",
+      "source_name": "楽天メディカル",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000073.000043244.html",
+      "source_url_2": "https://rakuten-med.jp/",
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "summary": [
+        "楽天メディカルは10月23日、欧州臨床腫瘍学会（ESMO 2026）で、再発・転移性の頭頸部扁平上皮がんを対象にASP-1929のアルミノックス治療（光免疫療法）とペムブロリズマブを併用した第Ib/II相試験（19例）の長期追跡結果をポスター発表した。",
+        "追跡期間中央値53.1か月で、有効性評価が可能な17例の全生存期間中央値は28.2か月、推定生存率は36か月で47.1%、48か月で35.3%。奏効期間中央値は44.3か月で、完全奏効5例のうち4例が42か月超から60か月超の時点で生存していた。新たな安全性シグナルはなかった。",
+        "症例数が少ない探索的な結果と位置づけつつ、局所再発の頭頸部がんの一次治療として国際共同第III相試験（ASP-1929-381）を実施中で、その結果をもとに2028年に米国で申請することを目指す。"
+      ],
+      "comment": "光免疫療法は日本では2020年に世界初の承認を受けましたが、米国ではまだ承認されていません。自分が注目したのは、「17例の小さな試験でも、完全奏効の患者が4〜5年生きている」という長期データで、免疫療法と組み合わせたときの持続性を示す材料になります。米国申請は2028年と、承認から8年かかる計画で、日本発の治療法を世界に広げる難しさがそのまま日程に出ていると思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T06:51:36.168Z"
     },
     {
       "id": "d31fdf90-1af3-4ff5-bc20-6d9e389fa589",

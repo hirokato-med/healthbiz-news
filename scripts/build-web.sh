@@ -17,13 +17,9 @@ touch .nojekyll
 cp index.html 404.html
 # iPhone の「ホーム画面に追加」で全画面アプリとして動くようにする
 cp "$ROOT/assets/images/icon.png" apple-touch-icon.png
-# SNS でリンクを共有したときのカード（X / Facebook / LINE など）
-cp "$ROOT/assets/images/og-image.png" og-image.png
-OG='<meta property="og:type" content="website"><meta property="og:site_name" content="Healthcare Business News"><meta property="og:title" content="Healthcare Business News｜加藤浩晃のヘルスケアビジネスニュース"><meta property="og:description" content="医師・加藤浩晃のコメント付きで、医療機器・創薬・医療DX・政策・決算のニュースを毎日配信。"><meta property="og:image" content="https://hirokato-med.github.io/healthbiz-news/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="description" content="医師・加藤浩晃のコメント付きで、医療機器・創薬・医療DX・政策・決算のニュースを毎日配信。">'
 for f in *.html */*.html; do
   [ -f "$f" ] || continue
   sed -i 's#<meta name="viewport" content="[^"]*"#<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"#' "$f"
-  grep -q 'og:title' "$f" || sed -i "s#</head>#${OG}</head>#" "$f"
   sed -i 's#</head>#<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
 done
 # 利用状況の計測（Google アナリティクス）。測定 ID があるときだけ全ページに読み込む

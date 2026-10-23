@@ -67,8 +67,8 @@ export function ArticleList({
 
     if (channel.id === 'today') {
       // 決算は「決算」タブで見る（決算シーズンにトップが埋まらないように）。トップに出すのは featured にしたものだけ
-      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && (a.category !== 'earnings' || a.featured));
-      const weeklies = articles.filter((a) => a.kind === 'weekly');
+      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && a.kind !== 'monthly' && (a.category !== 'earnings' || a.featured));
+      // まとめ（今週のまとめ・今月の注目決算）
       // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
       const latest = news[0]?.published_date;
       if (!latest) {
@@ -84,15 +84,17 @@ export function ArticleList({
         news.find((a) => a.featured && recent(a)) ??
         news[0];
       // 今週のまとめ（土曜配信）は、出てから2日間は注目記事のすぐ下に出す
-      const freshWeekly = weeklies.find((w) => w.published_date >= dayBefore(latest));
+      const weeklies = articles.filter((a) => a.kind === 'weekly' || a.kind === 'monthly');
+      // 出てから2日間は注目記事のすぐ下に出す（今週のまとめと今月の注目決算が重なれば両方）
+      const freshDigests = weeklies.filter((w) => w.published_date >= dayBefore(latest));
       const todays = news.filter((a) => a.published_date === latest && a !== lead);
-      const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => w !== freshWeekly)].sort((a, b) => b.published_date.localeCompare(a.published_date));
+      const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
       out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0)}本` });
       out.push({ kind: 'featured', key: lead.id, article: lead });
       // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
       out.push({ kind: 'subscribe-link', key: 'subscribe-link' });
-      if (freshWeekly) out.push({ kind: 'article', key: freshWeekly.id, article: freshWeekly });
+      freshDigests.forEach((w) => out.push({ kind: 'article', key: w.id, article: w }));
       todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));

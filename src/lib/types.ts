@@ -36,11 +36,33 @@ export type Article = {
   /** 直近24時間でいちばん大事な記事（トップで大きく出す）。常に1本だけ。無ければ直近の配信の先頭 */
   featured?: boolean | null;
   /** news: 配信記事（既定）/ substack: Substack の投稿（comment に冒頭、summary は空） */
-  kind?: 'news' | 'substack' | 'weekly';
+  kind?: 'news' | 'substack' | 'weekly' | 'monthly';
   /** 今週のまとめ: 対象期間と、選んだ記事（id と一言コメント）。comment には加藤の総括が入る */
   weekly?: { range: string; total?: number | null; items: { article_id: string; comment: string }[] } | null;
   /** 海外記事: 原文（英語）からの一文引用と出典 */
   quote?: { text: string; source?: string | null; url?: string | null } | null;
+  /** 今月の注目決算まとめ: 対象月と、領域ごとの決算の表。comment には加藤の総括が入る */
+  monthly?: {
+    month: string;
+    segments: {
+      name: string;
+      items: {
+        company: string;
+        period: string;
+        revenue: string;
+        revenue_change?: string | null;
+        profit: string;
+        profit_change?: string | null;
+        /** 営業利益以外を載せるとき（IFRS の税引前利益など）の名前 */
+        profit_label?: string | null;
+        note: string;
+        /** 注目企業（太字・オレンジの印） */
+        highlight?: boolean;
+        article_id?: string | null;
+        ir_url?: string | null;
+      }[];
+    }[];
+  } | null;
   /** 上場企業の IR ページ（決算・適時開示の一覧）。決算記事では必ず付く */
   ir_url?: string | null;
   /** 決算記事: 関連する IR 資料（決算説明資料・補足資料・有価証券報告書／半期報告書など）。上から順に出す */
@@ -52,6 +74,8 @@ export type Article = {
     /** 決算短信 / 業績予想の修正 など */
     kind?: string | null;
     rows: { label: string; value: string; change?: string | null }[];
+    /** 領域（月刊ヘルステックの分け方: 製薬・OTC / 医療機器 / 医療DX / 調剤・ドラッグストア など） */
+    segment?: string | null;
     /** 通期予想（据え置き・上方修正など）を1文で */
     forecast?: string | null;
   } | null;

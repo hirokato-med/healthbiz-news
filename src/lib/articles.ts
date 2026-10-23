@@ -4,6 +4,8 @@ import type { Article } from './types';
 
 /** 本番の記事データ。配信パイプラインが毎晩ここに push する */
 const DefaultArticlesUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/articles.json';
+/** 今月の注目決算まとめ（pipeline/monthly-earnings.mjs が書く） */
+const DefaultMonthlyUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/monthly-earnings.json';
 /** 今週のまとめ（pipeline/weekly.mjs が書く） */
 const DefaultWeeklyUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/weekly.json';
 /** Substack の投稿（pipeline/substack.mjs が書く） */
@@ -94,6 +96,48 @@ export async function fetchWeekly(): Promise<Article[]> {
   } catch {
     return [];
   }
+}
+
+type MonthlyIssue = {
+  id: string;
+  published_date: string;
+  title: string;
+  month: string;
+  note: string;
+  image_url?: string | null;
+  segments: NonNullable<Article['monthly']>['segments'];
+};
+
+/** 今月の注目決算まとめを記事と同じ形にして返す。取れなくても配信記事の表示は止めない。 */
+export async function fetchMonthly(): Promise<Article[]> {
+  if (articlesUrl === 'mock') return [];
+  try {
+    const url = articlesUrl.includes('/data/articles.json') ? articlesUrl.replace('/data/articles.json', '/data/monthly-earnings.json') : DefaultMonthlyUrl;
+    const bust = Math.floor(Date.now() / 60_000);
+    const res = await fetch(`${url}?t=${bust}`);
+    if (!res.ok) return [];
+    const body = (await res.json()) as { issues?: MonthlyIssue[] };
+    return (body.issues ?? []).map((m) => ({
+      id: m.id,
+      kind: 'monthly' as const,
+      published_date: m.published_date,
+      category: 'earnings' as const,
+      title: m.title,
+      source_name: '加藤浩晃',
+      source_url: `https://hirokato-med.github.io/healthbiz-news/article/${m.id}`,
+      summary: [],
+      comment: m.note,
+      image_url: m.image_url ?? null,
+      monthly: { month: m.month, segments: m.segments },
+    }));
+  } catch {
+    return [];
+  }
+}
+
+/** まとめ記事（今週のまとめ・今月の注目決算）か */
+export function isDigest(a: Article): boolean {
+  return a.kind === 'weekly' || a.kind === 'monthly';
 }
 
 async function fetchFromJson(url: string): Promise<Article[]> {

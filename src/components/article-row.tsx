@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
 import { Thumb } from '@/components/thumb';
+import { channelOf } from '@/constants/channels';
 import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatRelative } from '@/lib/articles';
@@ -29,24 +30,22 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
       accessibilityLabel={`${read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
-          {article.kind === 'weekly' ? (
-            // 今週のまとめは、見出しの上に青い帯のラベルを出してひと目で分かるように
+          {article.kind === 'weekly' || article.kind === 'monthly' ? (
+            // まとめ記事は、見出しの上に色の帯のラベルを出してひと目で分かるように
             <View style={styles.weeklyBadgeRow}>
-              <View style={[styles.weeklyBadge, { backgroundColor: theme.accent }]}>
-                <ThemedText type="caption" style={{ color: theme.onAccent, fontWeight: '800' }}>
-                  今週のまとめ
+              <View style={[styles.weeklyBadge, { backgroundColor: article.kind === 'monthly' ? EarningsGreen : theme.accent }]}>
+                <ThemedText type="caption" style={{ color: '#FFFFFF', fontWeight: '800' }}>
+                  {article.kind === 'monthly' ? '今月の注目決算' : '今週のまとめ'}
                 </ThemedText>
               </View>
-              {article.weekly?.range ? (
-                <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
-                  {article.weekly.range}
-                </ThemedText>
-              ) : null}
+              <ThemedText type="caption" style={{ color: article.kind === 'monthly' ? EarningsGreen : theme.accent, fontWeight: '700' }}>
+                {article.kind === 'monthly' ? article.monthly?.month : article.weekly?.range}
+              </ThemedText>
             </View>
           ) : null}
           <View style={styles.headlineRow}>
             <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={styles.headline}>
-              {article.kind === 'weekly' ? article.title.replace(/^(【見本】)?今週のまとめ｜/, '$1') : article.title}
+              {article.kind === 'weekly' || article.kind === 'monthly' ? article.title.replace(/^(【見本】)?(今週のまとめ|今月の注目決算)｜/, '$1') : article.title}
             </ThemedText>
           </View>
           <View style={styles.meta}>
@@ -82,6 +81,8 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
     </Pressable>
   );
 }
+
+const EarningsGreen = channelOf('earnings').color;
 
 const styles = StyleSheet.create({
   row: {

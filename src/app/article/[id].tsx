@@ -8,6 +8,7 @@ import { ArticleRow } from '@/components/article-row';
 import { EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { SubscribeLink } from '@/components/subscribe-link';
+import { MonthlyEarningsDetail } from '@/components/monthly-earnings-detail';
 import { WeeklyDetail } from '@/components/weekly-detail';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
@@ -54,7 +55,7 @@ export default function ArticleScreen() {
   const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
   // 発信元の企業ページは、記事が2本以上あるか会社情報があるときだけリンクにする（1本だけのページに飛ばさない）
   const sourceHasPage = useMemo(() => {
-    if (!article || article.kind === 'substack' || article.kind === 'weekly') return false;
+    if (!article || article.kind === 'substack' || article.kind === 'weekly' || article.kind === 'monthly') return false;
     const { articles: list, info } = articlesOfCompany(article.source_name, articles);
     return list.length > 1 || !!info;
   }, [article, articles]);
@@ -97,6 +98,8 @@ export default function ArticleScreen() {
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + Spacing.ten }]}>
         {article.kind === 'weekly' ? (
           <WeeklyDetail issue={article} articles={articles} onShare={() => void share()} />
+        ) : article.kind === 'monthly' ? (
+          <MonthlyEarningsDetail issue={article} onShare={() => void share()} />
         ) : (
           <>
           <ThemedText type="eyebrow" style={{ color: channel.color }}>

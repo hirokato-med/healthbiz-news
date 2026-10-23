@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T02:30:43.733Z",
+  "updated_at": "2026-10-23T02:35:05.430Z",
   "articles": [
     {
       "id": "85cdc345-1033-49f2-963d-55fe472eb8bd",
@@ -783,6 +783,56 @@
       "status": "published",
       "updated_at": "2026-10-21T03:21:54.341Z",
       "featured": false
+    },
+    {
+      "id": "084a0c36-940b-4a12-877a-2b459a190758",
+      "created_at": "2026-10-23T02:35:05.430Z",
+      "published_date": "2026-10-20",
+      "category": "global",
+      "featured": false,
+      "title": "スイスAlcon、網膜疾患の細胞治療薬「ENCELTO」を持つ米Neurotech Pharmaceuticalsを5億5,000万ドル（約869億円）で買収。FDA唯一承認のMacTel治療薬を眼科外科の販路に乗せる",
+      "source_name": "Alcon",
+      "source_url": "https://www.alcon.com/media-release/alcon-acquires-neurotech-and-encelto-only-fda-approved-treatment-mactel-type-2/",
+      "source_url_2": "https://investor.alcon.com/news-and-events/press-releases/news-details/2026/Alcon-Acquires-Neurotech-and-ENCELTO-the-Only-FDA-Approved-Treatment-for-MacTel-Type-2/default.aspx",
+      "image_url": null,
+      "summary": [
+        "眼科大手のAlcon（SIX/NYSE上場）は10月20日、慢性・神経変性の眼疾患向け細胞治療を開発する米Neurotech Pharmaceuticalsを買収したと発表した。買収額は5億5,000万ドル（約869億円）で、商業上のマイルストン達成時の追加支払いがある。",
+        "Neurotechの「ENCELTO」は、特発性黄斑部毛細血管拡張症2型（MacTel）に対する米国で唯一のFDA承認薬。2025年3月に優先審査・希少疾病用医薬品指定を経て承認された。眼内に外科的に埋め込むカプセル化細胞が神経栄養因子CNTFを放出し続け、視細胞の喪失を抑える。",
+        "米国のMacTel患者は診断済みで約2万5,000人、年2,000〜3,000人が新たに診断される。Alconは2027年の中核EPSにわずかに希薄化し、その後は押し上げると見込む。ゴールドマン・サックスがAlconの財務助言を務めた。"
+      ],
+      "quote": {
+        "text": "As part of the acquisition, Alcon paid $550 million to acquire Neurotech Pharmaceuticals, Inc. Alcon may be required to make additional contingent payments, including upon the achievement of commercial milestones.",
+        "source": "Alcon media release",
+        "url": "https://www.alcon.com/media-release/alcon-acquires-neurotech-and-encelto-only-fda-approved-treatment-mactel-type-2/"
+      },
+      "comment": "白内障手術の器械やコンタクトレンズで知られるAlconが、薬と細胞治療の会社を買う動きを続けています。自分が注目したのは、「患者2万5,000人の希少疾患の薬に、約870億円を払った」という値付けで、手術で埋め込む製剤だからこそ、眼科外科に強いAlconの営業網が活きる組み合わせです。日本では黄斑部毛細血管拡張症に承認薬がなく、細胞治療の承認も製造も別の制度になるので、国内導入までの道は長いと思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:35:05.430Z"
+    },
+    {
+      "id": "23ba496b-4217-4749-ad27-7cc1ee9cd12d",
+      "created_at": "2026-10-23T02:35:05.430Z",
+      "published_date": "2026-10-20",
+      "category": "global",
+      "featured": false,
+      "title": "米Intuitive Surgical、2026年第3四半期は売上30.5億ドル（約4,820億円）で22%増。手術支援ロボット「da Vinci」の手術件数は14%増、設置台数は546台に",
+      "source_name": "Intuitive Surgical",
+      "source_url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6/",
+      "source_url_2": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm",
+      "image_url": null,
+      "summary": [
+        "手術支援ロボットのIntuitive Surgical（Nasdaq上場）は10月20日、2026年第3四半期の売上が30.5億ドル（約4,820億円）で前年同期比22%増だったと発表した。da Vinciの手術件数は約14%増、気管支鏡ロボットIonは約31%増。",
+        "四半期のda Vinci設置は546台（前年427台）で、うち最新機da Vinci 5が315台。da Vinciの稼働台数は1万2,094台（12%増）、Ionは1,152台（21%増）。",
+        "GAAP純利益は5億2,300万ドルで、4億5,000万ドルの反トラスト訴訟引当を含み前年から減少。非GAAP純利益は10億5,000万ドル（EPS 3.00ドル）。通期のda Vinci手術件数の伸びは約14〜15%と見込む。"
+      ],
+      "quote": {
+        "text": "Our strong performance this quarter was marked by broad-based adoption across our multi-port, single-port, and Ion platforms.",
+        "source": "Intuitive Q3 2026 earnings release (CEO Dave Rosa)",
+        "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6/"
+      },
+      "comment": "手術支援ロボットは、台数より「どれだけ手術で使われたか」が売上を決めるビジネスです。自分が注目したのは、「設置が1年で427台から546台に増え、そのうち6割が最新機」という点で、米国の病院が買い替え投資を止めていないことを示しています。日本ではメディカロイドやシスメックスなど国産機が保険適用を広げている段階なので、Intuitiveの数字は国内勢が追う相手の速度そのものだと思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:35:05.430Z"
     },
     {
       "id": "ffbd4255-4ee1-42bd-ac51-ef93d436712a",
@@ -1648,6 +1698,31 @@
       "updated_at": "2026-10-21T07:12:31.327Z"
     },
     {
+      "id": "97574b2e-4f43-42f0-aba6-e619fac7dc2c",
+      "created_at": "2026-10-23T02:35:05.430Z",
+      "published_date": "2026-10-13",
+      "category": "global",
+      "featured": false,
+      "title": "米UnitedHealth Group、2026年第3四半期は売上1,127億ドル（約17.8兆円）、営業利益66億ドル。医療費率88.4%で通期の利益見通しを引き上げ",
+      "source_name": "UnitedHealth Group",
+      "source_url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-10-13-uhg-reports-third-quarter-2026-results.html",
+      "source_url_2": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2026/unh-reports-third-quarter-2026-results.pdf",
+      "image_url": "https://www.unitedhealthgroup.com/content/dam/UHG/Images/misc/uhg-twitter.png",
+      "summary": [
+        "米医療保険最大手UnitedHealth Group（NYSE上場）は10月13日、2026年第3四半期の売上が1,127億ドル（約17.8兆円）、営業利益が66億ドル、純利益率3.6%だったと発表した。調整後EPSは4.69ドル。通期の調整後EPS見通しを20.50ドル以上に引き上げた。",
+        "医療費率（MCR）は88.4%。医療費管理と価格設定、給付設計の見直しに加え、2026年分の保険金引当の6億1,000万ドルの好転が効いた。営業費用率は12.8%と前年同期の13.5%から下がった。",
+        "保険のUnitedHealthcareは4,830万人を対象に売上863億ドル・利益28億ドル、医療サービスのOptumは1億2,000万人超を対象に売上669億ドル・利益37億ドル。ACA個人保険の利益を約100万人に返金する方針や、地方病院1,500への支払い前倒しも示した。"
+      ],
+      "quote": {
+        "text": "UnitedHealth Group (NYSE: UNH) today reported third quarter 2026 results and raised guidance for full year 2026. The company now expects full year 2026 adjusted net earnings of at least $20.50 per share, incorporating experience through the third quarter 2026.",
+        "source": "UnitedHealth Group news release",
+        "url": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2026/unh-reports-third-quarter-2026-results.pdf"
+      },
+      "comment": "UnitedHealthは昨年、医療費の急増で業績予想を取り下げて株価が半分近くになった会社です。自分が注目したのは、「医療費率88.4%」という数字で、去年荒れた医療費を給付設計と価格で抑え込めたことを市場に示す四半期になりました。一方で、ACA保険の利益返金や地方病院への支払い前倒しを同じ資料で並べているのは、利益回復が政治的な批判を招くことを織り込んだ構成だと思います。日本の健保とは仕組みが違いますが、1社で17兆円を動かす保険者の医療費の抑え方は、国内の民間保険にも参考になります。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:35:05.430Z"
+    },
+    {
       "id": "efd760d2-8783-4b4f-81f6-148a8b5a1870",
       "created_at": "2026-10-22T05:07:45.623Z",
       "published_date": "2026-10-13",
@@ -1753,6 +1828,31 @@
       "image_url": "https://prcdn.freetls.fastly.net/release_image/2535/9512/2535-9512-b57091d0c0baa264fef634a0848c3aec-1196x717.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "status": "published",
       "updated_at": "2026-10-21T07:12:31.327Z"
+    },
+    {
+      "id": "fd0402e3-a735-40cc-8cd7-a85cfdbad052",
+      "created_at": "2026-10-23T02:35:05.430Z",
+      "published_date": "2026-10-12",
+      "category": "global",
+      "featured": false,
+      "title": "米Google、新型トラッカー「Fitbit Edge」（179.99ドル）と、血圧やインスリン抵抗性の傾向を追う「Health Guardian」を発表。Google Health PremiumのAIコーチと連動",
+      "source_name": "Google",
+      "source_url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/",
+      "source_url_2": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/google_health_fitbit_air_metal_mesh_blog_hero.width-1300.png",
+      "summary": [
+        "Googleは10月12日、画面付きの次世代トラッカー「Fitbit Edge」（179.99ドル、約2万8,000円）を発表した。予約を受け付け、米国では10月27日に発売。画面なしの「Fitbit Air」と「Pixel Watch 5」の間に位置づける。",
+        "健康の変化を長期で追う新機能群「Health Guardian」を、Google Health Premiumの加入者向けにFitbit AirとEdgeで10月中に提供する。血圧の傾向とインスリン抵抗性の傾向を設定すると、装着条件を満たせば毎月初めにレポートが届き、GeminiのAIコーチが生活習慣の助言につなげる。",
+        "自動運動検出を10種類から100種類以上に拡大し、位置情報などの文脈で検出精度を約2倍にしたとする。女性の健康ではFlo Healthと提携し、月経周期に合わせたコーチングを提供する。"
+      ],
+      "quote": {
+        "text": "Health Guardian features — our new suite of health and safety tools that track subtle changes to your health over time — are rolling out to Fitbit Air and Fitbit Edge for users with a Google Health Premium subscription later this month.",
+        "source": "Google Keyword blog",
+        "url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/"
+      },
+      "comment": "GoogleはFitbitブランドを「Google Health」に作り直し、月額のAIコーチを軸にした体制に移っています。自分が注目したのは、「血圧とインスリン抵抗性の傾向を、医療機器の承認を取らずに有料会員向けの月次レポートとして出す」やり方で、診断ではなく傾向の通知にとどめることで規制の外側で走っています。日本でも血圧の傾向表示をどう扱うかは薬機法の判断が分かれる領域なので、国内投入の形は米国と変わる可能性があると思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:35:05.430Z"
     },
     {
       "id": "f435caf9-9d92-462d-aca4-2f1f9e359522",

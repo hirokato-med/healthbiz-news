@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Linking, Pressable, StyleSheet, View } from 'react-native';
+import { Linking, Platform, Pressable, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { trackClick } from '@/lib/analytics';
-import { articleUrlOf, copyText, snsShareUrlOf, type SnsId } from '@/lib/share-card';
+import { articleUrlOf, copyText, snsAppUrlOf, snsShareUrlOf, type SnsId } from '@/lib/share-card';
 import type { Article } from '@/lib/types';
 
 /** 記事の下に並べるシェアボタン（X / Facebook / LINE / LinkedIn / リンクのコピー / 画像で共有） */
@@ -15,7 +15,23 @@ export function ShareButtons({ article, onShareImage }: { article: Article; onSh
 
   const openSns = (sns: SnsId) => {
     trackClick('share_sns', { article_id: article.id, sns });
-    void Linking.openURL(snsShareUrlOf(sns, article));
+    const webUrl = snsShareUrlOf(sns, article);
+    if (!isMobileWeb()) {
+      void Linking.openURL(webUrl);
+      return;
+    }
+    // スマホでは Web の投稿画面だとログインを求められるので、入っているアプリで開く
+    const appUrl = snsAppUrlOf(sns, article);
+    if (appUrl) {
+      openAppOrWeb(appUrl, webUrl);
+      return;
+    }
+    // Facebook・LinkedIn は投稿文を渡せるアプリの URL が無いので、共有シートからアプリを選んでもらう
+    if (typeof navigator.share === 'function') {
+      navigator.share({ title: article.title, text: `${article.title}｜加藤浩晃のコメント付き`, url: articleUrlOf(article) }).catch(() => {});
+      return;
+    }
+    void Linking.openURL(webUrl);
   };
   const copy = async () => {
     trackClick('share_sns', { article_id: article.id, sns: 'copy' });
@@ -64,3 +80,15 @@ const styles = StyleSheet.create({
   mark: { fontWeight: '800', lineHeight: 22 },
   label: { fontSize: 11, lineHeight: 14 },
 });
+
+function isMobileWeb(): boolean {
+  return Platform.OS === 'web' && typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
+/** アプリの URL を開き、アプリが入っていなくて画面がそのまま残っていたら Web の投稿画面を開く */
+function openAppOrWeb(appUrl: string, webUrl: string) {
+  window.location.href = appUrl;
+  setTimeout(() => {
+    if (document.visibilityState === 'visible') window.location.href = webUrl;
+  }, 1500);
+}

@@ -46,6 +46,19 @@ export function snsShareUrlOf(sns: SnsId, article: Article): string {
   }
 }
 
+/** スマホのアプリで投稿画面を開く URL。アプリ側に投稿文を渡せる X と LINE だけ */
+export function snsAppUrlOf(sns: SnsId, article: Article): string | null {
+  const text = encodeURIComponent(`${article.title}｜加藤浩晃のコメント付き\n${articleUrlOf(article)}`);
+  switch (sns) {
+    case 'x':
+      return `twitter://post?message=${text}`;
+    case 'line':
+      return `line://msg/text/${text}`;
+    default:
+      return null;
+  }
+}
+
 /** 共有シートに添える本文（見出しと記事 URL） */
 function shareTextOf(article: Article): string {
   return `${article.title}\n${articleUrlOf(article)}`;

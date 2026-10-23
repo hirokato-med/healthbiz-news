@@ -79,8 +79,12 @@ async function publishToFile(rows) {
       if (a !== newLead && a.featured && (a.created_at ?? '') >= cutoff) a.featured = false;
     }
   }
+  // 並びは配信日の新しい順。同じ日の中では、order（加藤さんが並びを指定した記事。小さいほど上）→ 配信の新しい順
   const articles = [...bySource.values()].sort(
-    (a, b) => b.published_date.localeCompare(a.published_date) || b.created_at.localeCompare(a.created_at),
+    (a, b) =>
+      b.published_date.localeCompare(a.published_date) ||
+      (a.order ?? Infinity) - (b.order ?? Infinity) ||
+      b.created_at.localeCompare(a.created_at),
   );
   await writeFile(target, JSON.stringify({ updated_at: now, articles }, null, 2) + '\n');
   console.log(`data/articles.json を更新しました（全${articles.length}件）`);

@@ -90,6 +90,8 @@ export type Article = {
     /** 通期予想（据え置き・上方修正など）を1文で */
     forecast?: string | null;
   } | null;
+  /** 同じ配信日の中での並び順（加藤さんが指定したときだけ。小さいほど上。publish.mjs の並べ替えで使う） */
+  order?: number;
   /** 配信した時刻（publish.mjs が付ける）。新着の判定に使う */
   created_at?: string;
 };

@@ -375,3 +375,94 @@ function sourceSize(src: CanvasImageSource): { w: number; h: number } {
   const h = 'height' in src ? src.height : 0;
   return typeof w === 'number' && typeof h === 'number' ? { w, h } : { w: 0, h: 0 };
 }
+
+/** リンクを貼ったときに出るカード（og:image）の大きさ。X・Facebook の横長カードの比率（1.91:1） */
+export const LinkCardWidth = 1200;
+export const LinkCardHeight = 630;
+
+/**
+ * 1200×630 のリンク用カードを描く。共有カードと同じ見た目を横長にしたもの。
+ * 上から: アプリ名 → 分類ラベル → 見出し（最大 3 行）→ アバターと「加藤浩晃のコメント」→ 青い縦棒付きの引用（最大 2 行）。
+ * リンク自体が押せるので、QR コードと URL は入れない。
+ */
+export function drawLinkCard(ctx: CanvasRenderingContext2D, input: ShareCardInput): void {
+  const W = LinkCardWidth;
+  const H = LinkCardHeight;
+  const M = 64;
+  const contentWidth = W - M * 2;
+  const family = input.fontFamily ?? ShareCardFontFamily;
+  const font = (weight: 400 | 700, size: number) => `${weight} ${size}px ${family}`;
+  const C = ShareCardColors;
+
+  ctx.save();
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.textBaseline = 'top';
+  ctx.textAlign = 'left';
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+  ctx.fillStyle = C.background;
+  ctx.fillRect(0, 0, W, H);
+
+  // ── アプリ名
+  const appNameSize = 34;
+  ctx.fillStyle = C.orange;
+  ctx.fillRect(M, M - 8 + 10, 15, 15);
+  ctx.fillStyle = C.accent;
+  ctx.font = font(700, appNameSize);
+  ctx.fillText(ShareCardText.appName, M + 15 + 14, M - 8);
+
+  // ── 見出しは 52px で 3 行、入らなければ 46px、それでも溢れたら 3 行目を … で締める
+  const TitleMaxLines = 3;
+  let titleSize = 52;
+  let titleLines: string[] = [];
+  for (const size of [52, 46]) {
+    titleSize = size;
+    ctx.font = font(700, size);
+    titleLines = wrapText(ctx, input.title.trim(), contentWidth);
+    if (titleLines.length <= TitleMaxLines) break;
+  }
+  if (titleLines.length > TitleMaxLines) {
+    ctx.font = font(700, titleSize);
+    titleLines = wrapText(ctx, input.title.trim(), contentWidth, { maxLines: TitleMaxLines });
+  }
+  const titleLineHeight = Math.round(titleSize * 1.36);
+
+  const categorySize = 26;
+  const avatarSize = 40;
+  const quoteSize = 27;
+  const quoteLineHeight = 42;
+  const barWidth = 4;
+  const quoteX = M + barWidth + 24;
+  ctx.font = font(400, quoteSize);
+  const quoteLines = wrapText(ctx, excerptComment(input.comment), W - M - quoteX, { maxLines: 2 });
+
+  // ── 縦の並びを測って、余った高さの半分だけ全体を下げる（上に寄りすぎないように）
+  const blockHeight =
+    categorySize + 16 + titleLines.length * titleLineHeight + 30 + (quoteLines.length > 0 ? avatarSize + 12 + quoteLines.length * quoteLineHeight : 0);
+  const top = 128 + Math.max(0, Math.floor((H - M - 128 - blockHeight) / 2));
+
+  ctx.font = font(700, categorySize);
+  ctx.fillStyle = input.categoryColor;
+  ctx.fillText(input.categoryName.trim(), M, top);
+
+  const titleTop = top + categorySize + 16;
+  ctx.fillStyle = C.text;
+  ctx.font = font(700, titleSize);
+  drawLines(ctx, titleLines, M, titleTop, titleLineHeight, titleSize);
+
+  if (quoteLines.length > 0) {
+    const quoteBlockTop = titleTop + titleLines.length * titleLineHeight + 30;
+    const quoteHeight = avatarSize + 12 + quoteLines.length * quoteLineHeight;
+    ctx.fillStyle = C.accent;
+    ctx.fillRect(M, quoteBlockTop, barWidth, quoteHeight);
+    drawAvatar(ctx, input.avatar ?? null, quoteX, quoteBlockTop, avatarSize);
+    ctx.fillStyle = C.textSecondary;
+    ctx.font = font(700, 22);
+    ctx.fillText(ShareCardText.author, quoteX + avatarSize + 12, quoteBlockTop + (avatarSize - 22) / 2 - 1);
+    ctx.fillStyle = C.text;
+    ctx.font = font(400, quoteSize);
+    drawLines(ctx, quoteLines, quoteX, quoteBlockTop + avatarSize + 12, quoteLineHeight, quoteSize);
+  }
+
+  ctx.restore();
+}

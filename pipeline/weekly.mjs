@@ -7,7 +7,7 @@
  *   node pipeline/weekly.mjs publish <draft.json> --sample        # 見本として今日の日付で出す（本番の号が出るときに自動で消える）
  *
  * 対象期間: 前の土曜〜金曜の7日間（土曜 10/24 の号なら 10/17〜10/23）。
- * 下書きの形: { "note": "総括（2〜3文）", "items": [{ "article_id": "...", "comment": "一言（1〜2文）" }, ...5本] }
+ * 下書きの形: { "headline": "その週を一言で（20字前後）", "note": "総括（2〜3文）", "items": [{ "article_id": "...", "comment": "一言（1〜2文）" }, ...5本] }
  */
 import { readFile, writeFile } from 'node:fs/promises';
 
@@ -65,7 +65,8 @@ if (cmd === 'candidates') {
   const issue = {
     id: sample ? 'weekly-sample' : `weekly-${p.saturday}`,
     published_date: sample ? todayJST() : p.saturday,
-    title: `${sample ? '【見本】' : ''}今週のヘルスケアビジネス ${md(p.from)}–${md(p.to)}`,
+    // 見出しは「今週のまとめ｜その週を一言で」。一言が無ければ期間
+    title: `${sample ? '【見本】' : ''}今週のまとめ｜${draft.headline ?? `ヘルスケアビジネス ${md(p.from)}–${md(p.to)}`}`,
     range: `${md(p.from)}–${md(p.to)}`,
     total: inRange.size,
     note: draft.note,

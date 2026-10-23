@@ -246,6 +246,23 @@ export default function ArticleScreen() {
               {article.kind === 'substack' ? 'メルマガで続きを読む ↗' : article.category === 'earnings' ? '決算短信（PDF）を読む ↗' : 'プレスリリース原文を読む ↗'}
             </ThemedText>
           </Pressable>
+          {article.ir_docs?.length ? (
+            <View style={[styles.irDocs, { borderColor: theme.line }]}>
+              <ThemedText type="caption" themeColor="textSecondary" style={{ fontWeight: '700' }}>
+                IR 資料
+              </ThemedText>
+              {article.ir_docs.map((d) => (
+                <Pressable
+                  key={d.url}
+                  onPress={() => (trackClick('ir_doc', { article_id: article.id, doc: d.label }), WebBrowser.openBrowserAsync(d.url))}
+                  accessibilityRole="link"
+                  style={({ pressed }) => [styles.irDoc, { borderTopColor: theme.line, opacity: pressed ? 0.7 : 1 }]}>
+                  <ThemedText style={[styles.irDocText, { color: theme.accent }]}>{d.label}</ThemedText>
+                  <ThemedText style={{ color: theme.accent }}>↗</ThemedText>
+                </Pressable>
+              ))}
+            </View>
+          ) : null}
           {article.ir_url ? (
             <Pressable
               onPress={() => (trackClick('ir', { article_id: article.id }), WebBrowser.openBrowserAsync(article.ir_url!))}
@@ -376,6 +393,9 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.four - 2,
     alignItems: 'center',
   },
+  irDocs: { marginTop: Spacing.two, borderWidth: Hairline, borderRadius: Radius.button, paddingHorizontal: Spacing.three, paddingTop: Spacing.two },
+  irDoc: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: Spacing.three, borderTopWidth: Hairline, gap: Spacing.two },
+  irDocText: { flex: 1, fontSize: 14, lineHeight: 20, fontWeight: '700' },
   sourceButtonSecondary: { backgroundColor: 'transparent', borderWidth: 1.5, marginTop: Spacing.two },
   sourceButtonText: { fontSize: 15, lineHeight: 20, fontWeight: '700' },
   companyText: { fontSize: 14, lineHeight: 23 },

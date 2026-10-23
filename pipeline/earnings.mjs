@@ -7,7 +7,8 @@
  *
  * 対象企業は pipeline/healthcare-companies.json（証券コード・IR ページ）。一覧に無い会社は、
  * 社名にヘルスケアの語（製薬・メディカル など）があるものだけ拾う（ir_url は空。配信係が調べて足す）。
- * 出力: JSON の配列 [{ date, time, code, company, title, kind, pdf, ir_url, segment, market, published }]
+ * 出力: JSON の配列 [{ date, time, code, company, title, kind, pdf, ir_url, segment, market, priority, published }]
+ *   priority: pipeline/earnings-watchlist.json の企業（月刊ヘルステックで取り上げる企業など）。上限に関係なく必ず配信する
  *   published: すでに data/articles.json に同じ PDF の記事があるか
  */
 import { readFile } from 'node:fs/promises';
@@ -31,18 +32,28 @@ const companies = await readFile(new URL('pipeline/healthcare-companies.json', r
   .then((t) => JSON.parse(t).companies ?? [])
   .catch(() => []);
 const byCode = new Map(companies.map((c) => [String(c.code).slice(0, 4), c]));
+// 必ずカバーする企業（月刊ヘルステックに出てくる企業など）。社名の一部一致で判定（全角・半角は揃える）
+const watch = await readFile(new URL('pipeline/earnings-watchlist.json', root), 'utf8')
+  .then((t) => JSON.parse(t).companies ?? [])
+  .catch(() => []);
+const norm = (s) => s.normalize('NFKC').toLowerCase();
+const watchNames = watch.flatMap((w) => [w.name, ...(w.alias ?? [])]).map(norm);
+const isWatched = (company) => watchNames.some((n) => norm(company).includes(n));
 const published = new Set(
   JSON.parse(await readFile(new URL('data/articles.json', root), 'utf8')).articles.flatMap((a) => [a.source_url, a.source_url_2].filter(Boolean)),
 );
 
 const out = [];
+const Material = /説明資料|プレゼンテーション|補足資料|補足説明|ファクトブック|fact ?book|データ集|決算概要/i;
 for (let d = from; d <= to; d = addDays(d, 1)) {
-  for (const item of await tdnetDay(d)) {
+  const day = await tdnetDay(d);
+  for (const item of day) {
     const kind = Kinds.find(([re]) => re.test(item.title))?.[1];
     if (!kind) continue;
-    if (/訂正|補足説明|説明資料|プレゼンテーション/.test(item.title)) continue;
+    if (/訂正/.test(item.title) || Material.test(item.title)) continue;
     const c = byCode.get(item.code);
-    if (!c && !NameHint.test(item.company)) continue;
+    const priority = isWatched(item.company);
+    if (!c && !priority && !NameHint.test(item.company)) continue;
     out.push({
       date: d,
       ...item,
@@ -51,10 +62,15 @@ for (let d = from; d <= to; d = addDays(d, 1)) {
       segment: c?.segment ?? null,
       market: c?.market ?? null,
       in_list: !!c,
+      priority,
+      // 同じ日に出た、同じ会社の決算説明資料・補足資料（TDnet の PDF）
+      materials: day.filter((x) => x.code === item.code && x.pdf && Material.test(x.title)).map((x) => ({ title: x.title, pdf: x.pdf })),
       published: published.has(item.pdf),
     });
   }
 }
+// 必ずカバーする企業を先頭に
+out.sort((a, b) => Number(b.priority) - Number(a.priority));
 console.log(JSON.stringify(out, null, 2));
 console.error(`${from}〜${to}: ヘルスケア企業の決算・業績修正 ${out.length}件（未配信 ${out.filter((x) => !x.published).length}件）`);
 

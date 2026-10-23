@@ -29,9 +29,24 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
       accessibilityLabel={`${read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
+          {article.kind === 'weekly' ? (
+            // 今週のまとめは、見出しの上に青い帯のラベルを出してひと目で分かるように
+            <View style={styles.weeklyBadgeRow}>
+              <View style={[styles.weeklyBadge, { backgroundColor: theme.accent }]}>
+                <ThemedText type="caption" style={{ color: theme.onAccent, fontWeight: '800' }}>
+                  今週のまとめ
+                </ThemedText>
+              </View>
+              {article.weekly?.range ? (
+                <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700' }}>
+                  {article.weekly.range}
+                </ThemedText>
+              ) : null}
+            </View>
+          ) : null}
           <View style={styles.headlineRow}>
             <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={styles.headline}>
-              {article.title}
+              {article.kind === 'weekly' ? article.title.replace(/^(【見本】)?今週のまとめ｜/, '$1') : article.title}
             </ThemedText>
           </View>
           <View style={styles.meta}>
@@ -86,6 +101,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     gap: Spacing.two,
   },
+  weeklyBadgeRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.two },
+  weeklyBadge: { borderRadius: 4, paddingHorizontal: 8, paddingVertical: 2 },
   headlineRow: {
     flexDirection: 'row',
     alignItems: 'flex-start',

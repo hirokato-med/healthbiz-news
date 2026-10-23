@@ -53,7 +53,8 @@ node pipeline/tdnet.mjs 2026-10-20 # 前日分（前回配信以降に出たも�
 node pipeline/earnings.mjs 2026-10-21 2026-10-23   # 前回配信日〜今日。published:false が未配信
 ```
 
-- 1回あたり **最大8本**。多いときはプライム → スタンダード → グロースの順、同じ市場なら規模の大きい順。残りは次の回に回す（同じ PDF は自動で「配信済み」になる）。
+- **`priority: true`（`pipeline/earnings-watchlist.json` の企業。月刊ヘルステックで取り上げる企業）は本数の上限に関係なく、その回で必ず配信する。**
+- それ以外は1回あたり **最大8本**。多いときはプライム → スタンダード → グロースの順、同じ市場なら規模の大きい順。残りは次の回に回す（同じ PDF は自動で「配信済み」になる）。
 - PDF は `curl -sSL <pdf> -o x.pdf && pdftotext -layout x.pdf -` で読み、**サマリー情報（1ページ目の表）から数字を写す**。推測で埋めない。
 - 書き方は `pipeline/example-earnings.json` の形:
   - `category: "earnings"`、`source_url` は決算短信の PDF、`ir_url` は `earnings.mjs` が返す IR ページ（空なら会社サイトで IR ページを探して入れ、`pipeline/healthcare-companies.json` にも追記する）。
@@ -62,6 +63,11 @@ node pipeline/earnings.mjs 2026-10-21 2026-10-23   # 前回配信日〜今日。
   - `earnings.forecast`: 通期予想と、据え置き／上方修正／下方修正、分かれば進捗率を1文で。
   - `summary`: 増減の要因を2つ（セグメント名と数字）と、見通し1つ。
   - `comment`: 60〜120字。数字の意味を1つだけ（「この会社にとって何が起きているか」）。
+  - `ir_docs`: IR 資料へのリンクを上から順に（label と url）。
+    1. 決算説明資料（`earnings.mjs` の `materials` にある TDnet の PDF。無ければ会社の IR ライブラリで同じ期の説明資料 PDF を探す）
+    2. 決算補足資料・データブックがあれば
+    3. 最新の **有価証券報告書**（本決算のとき）または **半期報告書**（中間決算のとき）。決算短信より後に提出されるので、その時点で出ている最新のもの（前の期）を、会社の IR ライブラリか EDINET で探して `label` に期を入れる（例「有価証券報告書（2026年3月期）」）。見つからなければ付けない。
+    - label の例: 「決算説明資料（2027年3月期 第2四半期）」「決算補足資料」「半期報告書（2026年3月期 中間期）」
   - `image_url`: 会社サイトトップの og:image（ロゴ）。`company` は上場企業の軽いブロック（listed / financials / profile / url）。
   - `featured` は付けない（決算は「決算」タブに出る。トップには出さない）。大型の業績修正など特に重要なものだけ `featured: true` にすると、トップにも出る。
 

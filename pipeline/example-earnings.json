@@ -8,6 +8,10 @@
       "source_name": "エムスリー",
       "source_url": "https://www.release.tdnet.info/inbs/xxxxxxxxxxxxxxxx.pdf",
       "ir_url": "https://corporate.m3.com/ir/",
+      "ir_docs": [
+        { "label": "決算説明資料（2027年3月期 第2四半期）", "url": "https://www.release.tdnet.info/inbs/yyyyyyyyyyyyyyyy.pdf" },
+        { "label": "有価証券報告書（2026年3月期）", "url": "（IR ライブラリか EDINET の URL）" }
+      ],
       "image_url": "（会社サイトの og:image。ロゴでよい）",
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",

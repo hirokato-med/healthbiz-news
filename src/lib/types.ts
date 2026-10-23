@@ -43,6 +43,8 @@ export type Article = {
   quote?: { text: string; source?: string | null; url?: string | null } | null;
   /** 上場企業の IR ページ（決算・適時開示の一覧）。決算記事では必ず付く */
   ir_url?: string | null;
+  /** 決算記事: 関連する IR 資料（決算説明資料・補足資料・有価証券報告書／半期報告書など）。上から順に出す */
+  ir_docs?: { label: string; url: string }[] | null;
   /** 決算記事: 対象期間と主要な数字（前年同期比つき）、通期予想 */
   earnings?: {
     /** 「2027年3月期 第2四半期（中間期）」など */

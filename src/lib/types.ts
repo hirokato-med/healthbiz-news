@@ -73,7 +73,18 @@ export type Article = {
     period: string;
     /** 決算短信 / 業績予想の修正 など */
     kind?: string | null;
-    rows: { label: string; value: string; change?: string | null }[];
+    /** value = 今回、prev = 比べた相手（前年同期・前回予想など）、change = 増減率 */
+    rows: { label: string; value: string; prev?: string | null; change?: string | null }[];
+    /** 列の見出し。省略時は 今期 / 前年同期 / 前年同期比 */
+    columns?: { value?: string; prev?: string; change?: string } | null;
+    /** 何と比べた数字かの説明（「前年同期＝2025年3〜8月」など） */
+    compare_note?: string | null;
+    /** 業績の推移（直近の通期実績と今期予想）。bar は売上高を億円単位の数値で */
+    history?: {
+      columns: string[];
+      rows: { period: string; values: string[]; bar?: number | null; note?: string | null; forecast?: boolean }[];
+      note?: string | null;
+    } | null;
     /** 領域（月刊ヘルステックの分け方: 製薬・OTC / 医療機器 / 医療DX / 調剤・ドラッグストア など） */
     segment?: string | null;
     /** 通期予想（据え置き・上方修正など）を1文で */

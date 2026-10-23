@@ -5,7 +5,7 @@ import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ArticleRow } from '@/components/article-row';
-import { EarningsTable } from '@/components/earnings-table';
+import { EarningsHistory, EarningsTable } from '@/components/earnings-table';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { MonthlyEarningsDetail } from '@/components/monthly-earnings-detail';
@@ -130,15 +130,6 @@ export default function ArticleScreen() {
 
           {article.image_url ? <Thumb article={article} style={styles.image} large /> : null}
 
-          {article.earnings ? (
-            <>
-              <ThemedText type="section" style={styles.sectionLabel}>
-                決算の概要
-              </ThemedText>
-              <EarningsTable earnings={article.earnings} />
-            </>
-          ) : null}
-
           {article.summary.length > 0 && (
             <ThemedText type="section" style={styles.sectionLabel}>
               ポイント
@@ -188,6 +179,23 @@ export default function ArticleScreen() {
             </View>
             <ThemedText type="comment">{article.comment}</ThemedText>
           </View>
+
+          {article.earnings ? (
+            <>
+              <ThemedText type="section" style={styles.sectionLabel}>
+                決算の概要
+              </ThemedText>
+              <EarningsTable earnings={article.earnings} />
+              {article.earnings.history?.rows.length ? (
+                <>
+                  <ThemedText type="section" style={styles.sectionLabel}>
+                    業績の推移
+                  </ThemedText>
+                  <EarningsHistory history={article.earnings.history} />
+                </>
+              ) : null}
+            </>
+          ) : null}
           {article.kind !== 'substack' ? (
             <>
               <View style={styles.afterComment}>

@@ -25,6 +25,8 @@ const Kinds = [
   [/業績予想.*修正|業績の修正|通期業績予想/, '業績予想の修正'],
   [/特別損失|減損/, '特別損失'],
 ];
+// 社名に「薬品」などが入るがヘルスケア企業ではない会社（2026-10-23 加藤さん確認: 昭栄薬品は化学品商社）
+const Exclude = new Set(['3537']);
 const NameHint = /製薬|薬品|ファーマ|メディカル|メディカ|医療|バイオ|ヘルスケア|ライフサイエンス|調剤|薬局|ドラッグ|ホスピタル|ケア|クリニック|デンタル|ジェネリック|ワクチン|セラピュ/;
 
 const root = new URL('../', import.meta.url);
@@ -53,6 +55,7 @@ for (let d = from; d <= to; d = addDays(d, 1)) {
     const kind = Kinds.find(([re]) => re.test(item.title))?.[1];
     if (!kind) continue;
     if (/訂正/.test(item.title) || Material.test(item.title)) continue;
+    if (Exclude.has(item.code)) continue; // ヘルスケア企業ではないのに社名で引っかかる会社
     const c = byCode.get(item.code);
     const priority = isWatched(item.company, item.code);
     if (!c && !priority && !NameHint.test(item.company)) continue;

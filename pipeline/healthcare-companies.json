@@ -182,7 +182,7 @@
       "name": "ファーマライズホールディングス",
       "segment": "調剤・ドラッグストア",
       "market": "スタンダード",
-      "ir_url": null,
+      "ir_url": "https://www.pharmarise.com/ir/",
       "ir_news_url": null
     },
     {
@@ -294,7 +294,7 @@
       "name": "サツドラホールディングス",
       "segment": "調剤・ドラッグストア",
       "market": "スタンダード",
-      "ir_url": null,
+      "ir_url": "https://satudora-hd.co.jp/ir/",
       "ir_news_url": null
     },
     {
@@ -838,8 +838,8 @@
       "name": "サンバイオ",
       "segment": "バイオ・創薬",
       "market": "グロース",
-      "ir_url": null,
-      "ir_news_url": null
+      "ir_url": "https://www.sanbio.com/ir/",
+      "ir_news_url": "https://www.sanbio.com/ir/library/"
     },
     {
       "code": "4593",
@@ -1622,7 +1622,7 @@
       "name": "ヤマシタヘルスケアホールディングス",
       "segment": "医療機器",
       "market": "スタンダード",
-      "ir_url": null,
+      "ir_url": "https://www.yhchd.co.jp/",
       "ir_news_url": null
     },
     {

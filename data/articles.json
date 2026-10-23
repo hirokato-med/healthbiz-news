@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-23T00:31:06.942Z",
+  "updated_at": "2026-10-23T02:30:43.733Z",
   "articles": [
+    {
+      "id": "85cdc345-1033-49f2-963d-55fe472eb8bd",
+      "created_at": "2026-10-23T02:30:43.733Z",
+      "published_date": "2026-10-23",
+      "category": "dx",
+      "featured": false,
+      "title": "エムティーアイのクラウド電子カルテ「CLIPLA」、過去カルテを生成AIが要約する「AIサマリー機能」を11月から無償提供。カルテを「書く」ではなく「読む」時間を減らす",
+      "source_name": "エムティーアイ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001235.000002943.html",
+      "source_url_2": "https://clipla.jp/",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/2943/1235/2943-1235-118b7b7718c110b6fe7bf4acc9c5727b-1874x1006.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "エムティーアイ子会社のクリプラは10月23日、クラウド電子カルテ「CLIPLA」シリーズに、生成AIが過去のカルテ記載を要約して表示する「AIサマリー機能」を2026年11月から提供すると発表した。希望する医療機関に当面無償で提供する。",
+        "カルテ画面でワンクリックすると、主訴・所見・処置・処方の要点を同じ画面に表示する。再診時の経過確認、紹介状の作成準備、担当医交代時の引き継ぎを想定し、要約は下書きとして医師が確認・修正して使う。",
+        "オプトイン方式で、送信した情報はAIの学習に使わない契約とし、データは国内で処理する。10月29日からの日本臨床眼科学会の展示でデモを行う。"
+      ],
+      "comment": "クリニック向け電子カルテの生成AIは、診察中の会話からカルテを作る「書く」支援が中心でした。自分が注目したのは、「診察の前に過去のカルテを読み返す時間」を狙った点で、慢性疾患で長く通う患者ほど効く機能です。当面無償にしたのは、要約の精度と医師の使い方を先に現場で確かめたいからだと思います。眼科に強い電子カルテなので、学会の展示で眼科医の反応を見てから有償化を決める順番だと思います。",
+      "company": {
+        "name": "エムティーアイ",
+        "listed": "東証プライム",
+        "financials": "2025年9月期は売上高299億円、営業利益29億円。2026年9月期は期初に売上高315億円、営業利益27億円を予想。",
+        "profile": "「ルナルナ」「music.jp」などのコンテンツ配信と、電子カルテ・母子手帳アプリなどのヘルスケア事業を手がける。本社は東京都新宿区。",
+        "url": "https://www.mti.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T02:30:43.733Z"
+    },
+    {
+      "id": "fb765635-e2a4-485b-af34-989c454de66e",
+      "created_at": "2026-10-23T02:30:43.733Z",
+      "published_date": "2026-10-23",
+      "category": "longevity",
+      "featured": false,
+      "title": "SBCメディカルグループ、DNAメチル化から「生物学的年齢」を推定する検査を自社開発。グループのWaqooの再生医療の研究基盤を使い、臓器ごとの年齢評価を目指す",
+      "source_name": "SBCメディカルグループ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000396.000097803.html",
+      "source_url_2": "https://sbc-ai-longevity.com/",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/97803/396/97803-396-faadebf245076a0688eeef2bb3fcd719-2752x1536.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "湘南美容クリニックを運営するSBC Medical Group Holdings（米Nasdaq上場）は10月23日、DNAメチル化の解析から一人ひとりの生物学的年齢を推定する検査の自社開発に着手したと発表した。子会社のSBC AI Longevity Innovationが開発を進める。",
+        "連結子会社のWaqoo（東証グロース）と、その子会社セルプロジャパンが再生医療分野で培った細胞・分子レベルの研究基盤を活用する。臓器ごとの年齢評価、採血を伴わない測定、日本人データに基づく評価の仕組みに取り組む。",
+        "検査結果を起点に生活習慣を見直す「個人ごとの基準」を提供し、生活習慣の見直し前後で繰り返し測れる仕組みを目指す。ロンジェビティ市場は2025年の約120兆円から2035年に約310兆円に拡大すると引用している。"
+      ],
+      "comment": "美容クリニック最大手のSBCは、米国上場後に「ロンジェビティ」を事業戦略の中核に置くと言ってきました。自分が注目したのは、「検査を自社で作って、クリニックの送客の入口にする」構えで、生物学的年齢の検査は海外では数万円のD2C商品ですが、日本では美容医療の顧客基盤と結びつくと桁の違う商売になります。DNAメチル化年齢は研究が進む一方で、臨床での意味づけはまだ定まっていないので、どこまでを医療として語るかの線引きが問われると思います。",
+      "company": {
+        "name": "SBCメディカルグループ",
+        "listed": "米Nasdaq",
+        "financials": "2025年12月期は売上高1億7,360万ドル（前年比15%減）、純利益5,100万ドル（9%増）。年末時点で283拠点。",
+        "profile": "湘南美容クリニックなどの美容医療・歯科・不妊治療クリニックに経営支援を行う持株会社。2024年に米Nasdaqに上場。本社は米カリフォルニア州アーバイン。",
+        "url": "https://sbc-holdings.com/jp"
+      },
+      "status": "published",
+      "updated_at": "2026-10-23T02:30:43.733Z"
+    },
+    {
+      "id": "40a2d091-ec11-4a61-bce4-8125cb2fab30",
+      "created_at": "2026-10-23T02:30:43.733Z",
+      "published_date": "2026-10-23",
+      "category": "wearable",
+      "featured": false,
+      "title": "ドコモ、初めての人向けの「スマートウォッチ03」を11月25日に8,980円で発売。QRコードで初期設定、最大7日のバッテリー、歩数と睡眠を「dヘルスケア」に連携",
+      "source_name": "NTTドコモ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000941.000118641.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118641/941/118641-941-e7b40554afeab73ef2a76f0dc4354ebf-1139x350.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "NTTドコモは10月23日、自社ブランドの「スマートウォッチ03」を11月25日に発売すると発表した。ドコモオンラインショップ価格は8,980円（税込）。前2機種は累計7万台を販売し、購入者の声を反映して初期設定、画面の見やすさ、電池持ちを改善した。",
+        "1.93インチの有機ELで文字サイズは従来比最大1.5倍、QRコードを読むだけでアプリ導入と接続ができる。バッテリーは最大7日間。心拍、睡眠、血中酸素、ストレス値、月経周期などを記録し、緊急ブザー機能も備える。",
+        "歩数と睡眠のデータは「dヘルスケア」と連携し、健康ミッションの達成でdポイントがもらえる。全国のドコモショップとAmazonなどのECでも販売する。"
+      ],
+      "comment": "スマートウォッチは、使う人の多くがまだ持っていない高齢層へどう広げるかが次の市場です。自分が注目したのは、「設定の分かりやすさと7日のバッテリー」を売りにした1万円以下の機種を、通信キャリアが自社ブランドで出す点で、健康データはdヘルスケアとdポイントに流れる設計になっています。7万台という販売実績は小さく見えますが、店頭で説明して売れる販路を持つ会社だからこそ、健康機器として高齢者に届く可能性があると思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:30:43.733Z"
+    },
+    {
+      "id": "485529a2-a4d5-41f9-b6d2-26477b959a9a",
+      "created_at": "2026-10-23T02:30:43.733Z",
+      "published_date": "2026-10-23",
+      "category": "global",
+      "featured": false,
+      "title": "米NVIDIA、GTC Berlinで医療・創薬の提携を発表。ワシントン大学とタンパク質設計のオープンモデル「RFD4-Proteina」を公開し、Siemens Healthineersと次世代の適応放射線治療を開発",
+      "source_name": "NVIDIA",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000672.000012662.html",
+      "source_url_2": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/12662/672/12662-672-e3de2dc77a3b54f4f8c4a6f35f891b89-1600x900.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "NVIDIAは10月21日、ベルリンで開いたGTC Berlinで、世界の主要な医療機関・研究機関との協業を発表した。ワシントン大学医学部タンパク質設計研究所（所長はノーベル化学賞のDavid Baker氏）と、タンパク質を目的に合わせて設計・探索するオープンモデル「RFD4-Proteina」を公開した。",
+        "RFD4-Proteinaはタンパク質結合、低分子結合、酵素の足場、DNA結合の4つのベンチマークでベースラインを上回る設計成功率を示したとし、Amazon、Google Cloud、Hugging Face、OpenAI、AnthropicのClaude Scienceなどを通じて利用できる。",
+        "Siemens Healthineersとは、エージェント型AIとロボティクスで患者ごとに計画を立てる次世代の適応放射線治療を共同開発する。Automata、Benchling、Danaherなど7社がBioNeMoを使い、創薬と自律型ラボをつなぐ科学エージェントを開発する。"
+      ],
+      "quote": {
+        "text": "NVIDIA today announced collaborations with leading global healthcare and research organizations to advance protein design — including through a newly released open model, RFD4-Proteina — accelerate drug discovery and bring greater precision to cancer care.",
+        "source": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care"
+      },
+      "comment": "NVIDIAは半導体を売る会社ですが、医療では「モデルを無料で配って計算需要を作る」戦い方をしています。自分が注目したのは、「タンパク質設計のモデルを、Amazon、Google、OpenAIなど競合するはずのクラウドすべてから使えるようにした」点で、創薬の基盤モデルの配り先を一社に絞らないことで、どこで使われてもNVIDIAのGPUが回る構図です。日本の製薬会社も創薬AIの多くをこの上に載せることになるので、国産の基盤より使い方の競争になると思います。",
+      "status": "published",
+      "updated_at": "2026-10-23T02:30:43.733Z"
+    },
     {
       "id": "6a832da7-53f9-427e-87a1-824e75a7aae0",
       "created_at": "2026-10-23T00:30:41.233Z",

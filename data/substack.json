@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-22T12:29:09.943Z",
+  "updated_at": "2026-10-23T02:30:55.160Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1023vol151naturegoogle3aiai",
+      "title": "10月23日（金）vol.151：Nature、Googleが「個人の健康エージェント」の設計図を公開、データ分析・医学知識・コーチの3つのAIを司会のAIがまとめる、専門家には差が見えて利用者には見えなかった",
+      "url": "https://hiroakikato.substack.com/p/1023vol151naturegoogle3aiai",
+      "published_date": "2026-10-23",
+      "excerpt": "金曜日です。今日も論文の回です！！\n10月15日のメルマガで、GoogleのFitbit Edgeと「月10ドルのAIコーチ」の話を書きました。\nそのAIコーチの中身にあたる研究が、10月21日にNatureに出ました。\nGoogle ResearchとGoogle DeepMindのチームによる論文です。\n一言で言うと、「1つのAIに全部やらせるのをやめて、3つのAIに分業させ、司会のAIがまとめる」という設計です。\nそれでは、今日のニュースです！！\n◆The anatomy of a personal health agent（Nature、2026年10月21日）\n　https://ww…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!XQLb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec1fa2fa-67e8-4fca-b169-343eac052683_843x514.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1022lancet-digital-health1ai521",
       "title": "Lancet Digital Health、顔写真1枚でAIが「見た目の年齢」とがんの生存を読む、実年齢より5歳以上老けて見える患者は死亡リスクが21%高かった",

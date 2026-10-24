@@ -100,7 +100,9 @@ export function ArticleList({
       const todays = news.filter((a) => a.published_date === latest && a !== lead);
       const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
-      out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0)}本` });
+      // 本数は上の帯（本日の配信 ◯本）とそろえ、同じ日に出た今週のまとめ・今月の注目決算も数える（加藤さん指示）
+      const digestsToday = weeklies.filter((w) => w.published_date === latest).length;
+      out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0) + digestsToday}本` });
       out.push({ kind: 'featured', key: lead.id, article: lead });
       // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
       out.push({ kind: 'subscribe-link', key: 'subscribe-link' });

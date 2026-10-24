@@ -59,8 +59,10 @@ export default function HomeScreen() {
   const ticker = useMemo(() => {
     // 日付が変わって当日分がまだ無い間も、直近の配信日の本数を出す
     const today = todayJST();
-    const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && a.kind !== 'monthly' && (a.category !== 'earnings' || a.featured));
-    const latest = news[0]?.published_date;
+    // 今週のまとめ・今月の注目決算も「配信」に数える（2026-10-24 加藤さん指示: 記事1本＋今週のまとめで「本日の配信 2本」）
+    const news = articles.filter((a) => a.kind !== 'substack' && (a.category !== 'earnings' || a.featured));
+    // 並び順に頼らず、いちばん新しい配信日を取る（まとめは配列の先頭に来るが、先週の号のこともある）
+    const latest = news.reduce<string | undefined>((m, a) => (!m || a.published_date > m ? a.published_date : m), undefined);
     const count = latest ? news.filter((a) => a.published_date === latest).length : 0;
     return {
       label: latest === today ? '本日の配信' : '最新の配信',

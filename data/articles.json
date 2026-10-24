@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-10-24T08:27:47.211Z",
+  "updated_at": "2026-10-24T12:27:19.582Z",
   "articles": [
+    {
+      "id": "382f564e-8099-4d1a-9da8-379540e33173",
+      "created_at": "2026-10-24T12:27:19.582Z",
+      "published_date": "2026-10-24",
+      "category": "global",
+      "featured": false,
+      "title": "米AbbVie「Skyrizi」、クローン病の導入療法を皮下注で始められる用法をFDAが承認。点滴なしで自宅から治療を開始でき、先進治療の未経験患者の74%が12週で臨床的寛解",
+      "source_name": "AbbVie",
+      "source_url": "https://www.prnewswire.com/news-releases/us-fda-approves-subcutaneous-induction-regimen-for-abbvies-skyrizi-risankizumab-rzaa-for-adults-with-moderately-to-severely-active-crohns-disease-302918434.html",
+      "image_url": null,
+      "quote": {
+        "text": "Patients now have the option to start SKYRIZI treatment at home, with induction doses delivered by an on-body injector (OBI) induction pack and then continue using an OBI once every eight weeks throughout the course of maintenance treatment.",
+        "source": "PR Newswire（AbbVie）",
+        "url": "https://www.prnewswire.com/news-releases/us-fda-approves-subcutaneous-induction-regimen-for-abbvies-skyrizi-risankizumab-rzaa-for-adults-with-moderately-to-severely-active-crohns-disease-302918434.html"
+      },
+      "summary": [
+        "FDAは10月23日、中等症〜重症の活動期クローン病の成人に対し、SKYRIZI（リサンキズマブ）の導入療法を皮下注（720mgを0・2・4・8週）で行う用法を承認しました。オンボディ注射器で自宅から治療を始め、12週以降は8週ごとの維持投与に移れます。",
+        "根拠は第3相AFFIRM試験で、12週時点の臨床的寛解（56%対30%）と内視鏡的反応（43%対15%）の両主要評価項目でプラセボに優越しました。先進治療の未経験患者では臨床的寛解74%対27%、内視鏡的反応60%対15%でした。",
+        "安全性は既知のプロファイルと一貫し、新たなリスクは見られませんでした。あわせて、全適応で結核検査の要否を医師の判断に委ねる添付文書の改訂も承認されています。"
+      ],
+      "comment": "SKYRIZIは2025年に売上175億ドルと、AbbVieの屋台骨になった薬です。注目したのは、クローン病の導入期に必要だった3回の点滴をなくし、最初から自宅の皮下注で完結させた点で、通院の手間が処方の決め手になる免疫疾患の領域では、効き目と同じくらい重要な変更です。日本でも使われている薬なので、皮下注による導入の国内申請が次に来るのだと思います。",
+      "company": {
+        "name": "AbbVie",
+        "listed": "NYSE（ABBV）",
+        "financials": "2025年12月期の売上高は611.6億ドル（前期比8.6%増）。SKYRIZIは175.6億ドル、RINVOQは83.0億ドル（2026年2月の決算発表より）。",
+        "profile": "米イリノイ州の製薬大手。免疫、腫瘍、神経科学、美容医療（アラガン）が主力。",
+        "url": "https://www.abbvie.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-24T12:27:19.582Z"
+    },
     {
       "id": "e347753c-2b39-47af-8130-e6d9e22864dd",
       "created_at": "2026-10-24T08:27:47.211Z",

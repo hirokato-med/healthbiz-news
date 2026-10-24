@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-10-23T12:28:45.431Z",
+  "updated_at": "2026-10-24T02:28:46.570Z",
   "articles": [
+    {
+      "id": "6136c82d-11e2-4233-bdb4-e8036ba2abeb",
+      "created_at": "2026-10-24T02:28:46.570Z",
+      "published_date": "2026-10-24",
+      "category": "global",
+      "featured": false,
+      "title": "米Gilead、経口IL-23受容体阻害薬「HCXT-2001」をPepStarから前払い12.75億ドル（約2,010億円）で取得。炎症性腸疾患の「毎日の飲み薬」で先行するJ&Jを追う",
+      "source_name": "Gilead Sciences",
+      "source_url": "https://www.gilead.com/news/news-details/2026/gilead-to-acquire-investigational-oral-il-23r-inhibitor-hcxt-2001-strengthening-its-inflammation-pipeline-in-ibd",
+      "source_url_2": "https://www.businesswire.com/news/home/20261022181871/en/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD",
+      "image_url": "https://gilead.stylelabs.cloud/api/public/content/5aa9e3a1861d45d692e97934a8ca2455?v=7f1e7bab",
+      "quote": {
+        "text": "Under the terms of the agreement, Gilead will acquire an oral IL-23R inhibitor program, including lead asset HCXT-2001, from PepStar for $1.275 billion in upfront cash consideration, subject to customary adjustments, which is payable at closing.",
+        "source": "Gilead Sciences ニュースリリース",
+        "url": "https://www.gilead.com/news/news-details/2026/gilead-to-acquire-investigational-oral-il-23r-inhibitor-hcxt-2001-strengthening-its-inflammation-pipeline-in-ibd"
+      },
+      "summary": [
+        "Gileadは非上場のPepStar Therapeuticsから、経口IL-23受容体阻害薬プログラム（主力はHCXT-2001）の全世界の権利を取得します。前払いは現金12億7,500万ドル（約2,010億円、1ドル≈158円）で、2026年10〜12月期の完了を見込みます。",
+        "HCXT-2001は半減期を延ばした経口の環状ペプチドで、第1相試験中。主な対象は炎症性腸疾患（IBD）で、乾癬への応用も見込んでいます。安全性・有効性は未確立で、どの規制当局の承認も受けていません。",
+        "Gileadは単剤に加え、自社の経口候補emvistegrastとの併用で「IBDの毎日の飲み薬」を目指すとしています。この取引で2026年第4四半期の1株利益を0.79〜0.83ドル押し下げる見込みです。"
+      ],
+      "comment": "第1相の飲み薬に、前払いだけで12.75億ドルという値段がついた点に注目しました。IL-23受容体を経口ペプチドで抑える競争はJ&Jが先行しており、Gileadは自社のemvistegrastとの併用まで見据えて買っています。炎症性腸疾患の治療が注射から毎日の飲み薬へ移る流れは、日本の消化器領域の処方にも数年内に及ぶのだと思います。",
+      "company": {
+        "name": "Gilead Sciences",
+        "listed": "NASDAQ（GILD）",
+        "financials": "2025年12月期は総収入294億ドル（前期比2%増）、製品売上289億ドル（2026年2月の決算発表より）。",
+        "profile": "米カリフォルニア州フォスターシティのバイオ医薬品企業。HIV、ウイルス性肝炎、がん、炎症領域の医薬品を35か国以上で展開する。",
+        "url": "https://www.gilead.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-24T02:28:46.570Z"
+    },
     {
       "id": "b621259c-b0b5-4595-9008-b9fb1b6f59c7",
       "created_at": "2026-10-23T06:51:36.168Z",

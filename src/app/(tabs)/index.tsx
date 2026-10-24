@@ -1,6 +1,7 @@
 import { useRouter } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -24,6 +25,12 @@ import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 import { uiState } from '@/lib/ui-state';
+
+/**
+ * スマホの Web 版（ホーム画面アプリ）で、題字の上に空ける高さ。iOS 26 以降は画面の上端に薄いぼかしが残るので、
+ * 日付・題字がそこにかからないよう少し下げる
+ */
+const WebTopGap = 18;
 
 /**
  * トップ画面。白いヘッダー（題字・日付）→ 文字タブ（選択中だけチャンネル色の下線）→ ティッカー →
@@ -82,7 +89,7 @@ export default function HomeScreen() {
 
   return (
     <ThemedView style={styles.root}>
-      <View style={[styles.header, { paddingTop: insets.top + Spacing.two }, desktop && { borderBottomColor: theme.line, borderBottomWidth: Hairline }]}>
+      <View style={[styles.header, { paddingTop: insets.top + (Platform.OS === 'web' && !desktop ? WebTopGap : Spacing.two) }, desktop && { borderBottomColor: theme.line, borderBottomWidth: Hairline }]}>
         <View style={desktop ? styles.desktopInner : undefined}>
         {desktop ? (
           // PC 向け: 題字を大きく、右に検索欄と「保存」「このアプリ」（下のタブバーの代わり）

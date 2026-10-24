@@ -16,7 +16,7 @@ import type { Article } from '@/lib/types';
 import { uiState } from '@/lib/ui-state';
 
 /**
- * PC 向け画面の右の列。今日の注目 → 最新の決算 → メルマガ登録 → 分野から探す。
+ * PC 向け画面の右の列。今日の注目 → 今週のまとめ → 最新の決算 → メルマガ登録 → 分野から探す。
  * onSelectChannel があればトップのタブを切り替え、無ければ（記事ページなど）トップへ戻ってそのタブを開く。
  */
 export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: number) => void }) {
@@ -24,13 +24,15 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
   const router = useRouter();
   const { articles } = useStore();
 
-  const { picks, earnings } = useMemo(() => {
+  const { picks, earnings, weekly } = useMemo(() => {
     const news = articles.filter((a) => !a.kind || a.kind === 'news').filter((a) => a.category !== 'earnings' || a.featured);
     const latest = news[0]?.published_date;
     const todays = news.filter((a) => a.published_date === latest);
     return {
       picks: [...todays.filter((a) => a.featured), ...todays.filter((a) => !a.featured)].slice(0, 5),
       earnings: articles.filter((a) => a.category === 'earnings' && a.earnings).slice(0, 5),
+      // 最新の今週のまとめ（土曜配信）
+      weekly: articles.filter((a) => a.kind === 'weekly').sort((a, b) => b.published_date.localeCompare(a.published_date))[0],
     };
   }, [articles]);
 
@@ -60,6 +62,19 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
             </Pressable>
           ))}
         </View>
+      ) : null}
+
+      {weekly ? (
+        <Pressable onPress={() => open(weekly, 'weekly')} style={({ pressed }) => pressed && { opacity: 0.7 }} accessibilityRole="button">
+          <ColumnHeader title="今週のまとめ" aside={weekly.weekly?.range} asideColor={theme.accent} />
+          <ThemedText style={styles.weeklyTitle}>{weekly.title.replace(/^今週のまとめ｜/, '')}</ThemedText>
+          <ThemedText style={styles.weeklyNote} numberOfLines={4}>
+            {weekly.comment}
+          </ThemedText>
+          <ThemedText type="caption" style={{ color: theme.accent, fontWeight: '700', marginTop: Spacing.two }}>
+            {weekly.weekly?.items?.length ? `注目の${weekly.weekly.items.length}本を読む ›` : '読む ›'}
+          </ThemedText>
+        </Pressable>
       ) : null}
 
       {earnings.length ? (
@@ -127,6 +142,8 @@ const styles = StyleSheet.create({
   pick: { flexDirection: 'row', gap: Spacing.three, paddingVertical: Spacing.two + 1 },
   rank: { fontSize: 18, lineHeight: 22, fontWeight: '800', width: 16 },
   pickText: { flex: 1, fontSize: 13.5, lineHeight: 21 },
+  weeklyTitle: { fontSize: 16, lineHeight: 24, fontWeight: '800', marginBottom: Spacing.one },
+  weeklyNote: { fontSize: 13, lineHeight: 21 },
   earn: { paddingVertical: Spacing.two + 2, gap: 1 },
   earnName: { fontSize: 14, lineHeight: 20, fontWeight: '700' },
   earnRow: { fontSize: 13, lineHeight: 19 },

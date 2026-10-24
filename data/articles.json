@@ -1,6 +1,65 @@
 {
-  "updated_at": "2026-10-24T02:28:46.570Z",
+  "updated_at": "2026-10-24T08:27:47.211Z",
   "articles": [
+    {
+      "id": "e347753c-2b39-47af-8130-e6d9e22864dd",
+      "created_at": "2026-10-24T08:27:47.211Z",
+      "published_date": "2026-10-24",
+      "category": "global",
+      "featured": false,
+      "title": "ノボ ノルディスク、週1回のインスリン「Awiqli」が10歳以上の2型糖尿病の子どもにFDA承認。基礎インスリンの注射を週7回から1回に",
+      "source_name": "Novo Nordisk",
+      "source_url": "https://www.prnewswire.com/news-releases/novos-awiqli-receives-fda-approval-as-the-first-and-only-once-weekly-insulin-for-children-10-years-of-age-and-older-with-type-2-diabetes-302918384.html",
+      "image_url": "https://www.novonordisk.com/content/dam/nncorp/global/en/front-page/images/lasting-health-starts-today-image2.jpg",
+      "quote": {
+        "text": "This approval offers a once-weekly basal insulin treatment option, which reduces the frequency of weekly basal injections from seven to one per week.",
+        "source": "PR Newswire（Novo Nordisk）",
+        "url": "https://www.prnewswire.com/news-releases/novos-awiqli-receives-fda-approval-as-the-first-and-only-once-weekly-insulin-for-children-10-years-of-age-and-older-with-type-2-diabetes-302918384.html"
+      },
+      "summary": [
+        "FDAは10月23日、週1回の持効型基礎インスリン「Awiqli（インスリン イコデク）」を、食事・運動療法の補助として10歳以上の2型糖尿病の小児に承認しました。小児で承認された初めての週1回インスリンです。",
+        "承認の根拠は成人の対照試験（ONWARDS試験群）と、10〜18歳未満の小児での単回投与の薬物動態試験です。基礎インスリンの注射回数が週7回から1回に減ります。",
+        "Awiqliは米国・EUなど20か国以上で承認済みで、米国では7万以上の薬局で入手できます。同社は19歳以下の2型糖尿病患者が2050年に約8万4,000人に達するとの推計を引用しています。"
+      ],
+      "comment": "小児の2型糖尿病は日本でも増えていますが、毎日のインスリン注射を学校生活の中で続けるのは本人にも家族にも負担です。注目したのは、承認の根拠が小児の大規模試験ではなく、成人データと小児の薬物動態試験だった点で、既存薬の対象を広げる現実的な道筋です。日本でも成人向けに承認されている薬なので、小児への拡大が次の論点になるのだと思います。",
+      "company": {
+        "name": "Novo Nordisk",
+        "listed": "NASDAQ Copenhagen / NYSE（NVO）",
+        "financials": "2025年12月期の売上高は約3,090億デンマーククローネ（前期比6.4%増、2026年2月の通期決算発表の報道より）。",
+        "profile": "デンマークの製薬大手。糖尿病・肥満症治療薬（インスリン、GLP-1）を中心に展開する。",
+        "url": "https://www.novonordisk.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-24T08:27:47.211Z"
+    },
+    {
+      "id": "416d38de-0539-4871-97fc-d3c2ea41c9a4",
+      "created_at": "2026-10-24T08:27:47.211Z",
+      "published_date": "2026-10-24",
+      "category": "service",
+      "featured": false,
+      "title": "Well Body、理学療法士が5分で社員の不調の原因を見立てる企業向け「Offi-Stretch Check」を開始。予約不要で全社員が対象、部署別のリスクレポートも",
+      "source_name": "Well Body",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000077.000132303.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/132303/77/132303-77-fe123032ea2acfe607a26985bc7b49d9-1691x930.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "出張型フィジカルケア「Offi-Stretch」を展開するWell Bodyが、理学療法士が姿勢と動作から症状の原因部位を特定する5分のチェックを企業向けに始めました。業務の合間に予約なしで受けられ、痛みのない社員も対象です。",
+        "健康診断の数値に出ない腰痛・肩こりなどの不調は働く世代の約4人に1人が抱え（厚労省2022年国民生活基礎調査）、出勤していても生産性が落ちるプレゼンティーイズムの原因になるとしています。",
+        "受診者全体の身体リスクの分布を部署別にまとめたレポートを人事に提供し、次の健康施策の設計に使えるようにします。料金はサービス資料で案内しています。"
+      ],
+      "comment": "健康経営の施策は、もともと健康意識の高い社員にしか届かないという課題があります。注目したのは、「痛い場所ではなく原因の場所」を理学療法士が5分で言葉にして返す設計で、本人の自分ごと化と、人事向けの部署別データの両方を狙っている点です。健診では拾えない筋骨格の不調を可視化するサービスは、健保の保健事業よりも企業の人的資本投資として広がるのだと思います。",
+      "company": {
+        "name": "Well Body",
+        "profile": "2022年9月設立、東京都港区（南青山）、資本金2,700万円、未上場。理学療法士が企業に出張して施術する「Offi-Stretch」を展開し、整形外科医の松平浩氏が顧問。",
+        "url": "https://offi-stretch.com/",
+        "ceo": {
+          "name": "水野純一",
+          "bio": "理学療法士。2万人を診た経験から独自メソッドを作り、中野の店舗を経て2022年にWell Bodyを創業。共同代表は吉村直途氏。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-24T08:27:47.211Z"
+    },
     {
       "id": "6136c82d-11e2-4233-bdb4-e8036ba2abeb",
       "created_at": "2026-10-24T02:28:46.570Z",

@@ -44,6 +44,10 @@ for f in *.html */*.html; do
   [ -f "$f" ] || continue
   sed -i 's#<meta name="viewport" content="[^"]*"#<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"#' "$f"
   sed -i 's#</head>#<link rel="manifest" href="/healthbiz-news/manifest.json"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="HB News"><link rel="apple-touch-icon" href="/healthbiz-news/apple-touch-icon.png"><meta name="theme-color" content="\#1E4FD8"></head>#' "$f"
+  # iOS 26 以降のホーム画面アプリでは、画面の上端に「スクロール端のぼかし」がかかり、題字や分野タブの文字が滲む。
+  # 上端に固定・全幅・不透明で高さ 10px を超える要素があると WebKit はこのぼかしを省くので、ステータスバーの高さぶんの帯を置く
+  # （背景と同じ色なので見た目は変わらない。ホーム画面アプリのときだけ）
+  grep -q 'hb-topband' "$f" || sed -i 's#</head>#<style>.hb-topband{display:none}@media (display-mode: standalone){.hb-topband{display:block;position:fixed;top:0;left:0;right:0;height:max(12px,env(safe-area-inset-top));background:\#FFFFFF;z-index:2147483647;pointer-events:none}}@media (display-mode: standalone) and (prefers-color-scheme: dark){.hb-topband{background:\#111214}}</style></head>#; s#</body>#<div class="hb-topband" aria-hidden="true"></div></body>#' "$f"
 done
 # 利用状況の計測（Google アナリティクス）。測定 ID があるときだけ全ページに読み込む
 if [ -n "${EXPO_PUBLIC_GA_ID:-}" ]; then

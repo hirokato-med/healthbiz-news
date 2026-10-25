@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-10-25T08:27:32.014Z",
+  "updated_at": "2026-10-25T12:27:13.559Z",
   "articles": [
+    {
+      "id": "234a1197-98f3-4a39-be1a-7825453f8c5f",
+      "created_at": "2026-10-25T12:27:13.559Z",
+      "published_date": "2026-10-25",
+      "category": "global",
+      "featured": false,
+      "title": "米J&J「ERLEADA」、高リスク前立腺がんの手術前後6か月ずつの投与で再発・死亡リスクを手術単独より62%低減。3年時点で追加治療なしの患者は64.6%対32%（ESMO）",
+      "source_name": "Johnson & Johnson",
+      "source_url": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-erleada-apalutamide-treatment-before-and-after-surgery-reduces-risk-of-recurrence-or-death-by-62-versus-surgery-alone-in-high-risk-prostate-cancer-302918654.html",
+      "image_url": null,
+      "quote": {
+        "text": "At a median follow-up of 37.8 months, apalutamide plus ADT significantly improved EFS, reducing the risk of recurrence or death by 62 percent compared with surgery alone (hazard ratio [HR], 0.38; 95 percent confidence interval [CI], 0.26-0.55; p<0.0001).",
+        "source": "PR Newswire（Johnson & Johnson）",
+        "url": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-erleada-apalutamide-treatment-before-and-after-surgery-reduces-risk-of-recurrence-or-death-by-62-versus-surgery-alone-in-high-risk-prostate-cancer-302918654.html"
+      },
+      "summary": [
+        "第3相PROTEUSのサブ試験で、高リスク限局性・局所進行前立腺がん408例を、アパルタミド＋ADTを手術前後に6サイクルずつ行う群（102例）と手術単独群（306例）に割り付けました。追跡中央値37.8か月で、無イベント生存のハザード比は0.38（p<0.0001）でした。",
+        "3年無イベント生存率は63%対41.4%で、手術単独の無イベント生存期間中央値は19.1か月。遠隔転移のない生存は51%のリスク減（HR 0.49）、次の治療までの期間は71%のリスク減で、3年時点で追加治療を受けていない患者は64.6%対32%でした。",
+        "Grade 3〜4の有害事象は31%対22%で、主な副作用はほてり（64%）と尿失禁（63%）。この用法は未承認で、論文はEuropean Urologyに受理されています。全生存は追跡中です。"
+      ],
+      "comment": "前立腺がんの手術は「取って終わり」ではなく、高リスクでは半数近くが再発します。注目したのは、すでに転移例で使われている飲み薬を手術の前後6か月ずつ挟むだけで、3年後に追加治療なしでいる人が倍になった点で、泌尿器科の標準治療の順番を変えうる結果です。日本は前立腺がんの罹患数が男性で最多なので、承認申請の動きと保険上の扱いを早めに見ておきたいと思います。",
+      "company": {
+        "name": "Johnson & Johnson",
+        "listed": "NYSE（JNJ）",
+        "financials": "2025年12月期の売上高は941.9億ドル（前期比6.0%増）、うち医薬品（Innovative Medicine）は604.0億ドル（2026年1月の決算発表より）。",
+        "profile": "米ニュージャージー州の医薬品・医療機器大手。がん、免疫、神経科学の医薬品と、手術・整形外科領域の医療機器を展開する。",
+        "url": "https://www.jnj.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-25T12:27:13.559Z"
+    },
     {
       "id": "3c014475-845f-46a6-b494-49bf32d0b85f",
       "created_at": "2026-10-25T08:27:32.014Z",

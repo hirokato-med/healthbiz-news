@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-24T12:26:19.519Z",
+  "updated_at": "2026-10-25T02:26:30.374Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1025ai",
+      "title": "イーロン・マスク、「人型ロボットの数が人間を超える」「お金は物理の単位に戻る」「国の借金はAIとロボットで返す」",
+      "url": "https://hiroakikato.substack.com/p/1025ai",
+      "published_date": "2026-10-25",
+      "excerpt": "日曜日です。今日は医療から少し離れて、AIと今後の世界の話をしたいと思います！！\nこの1か月、イーロン・マスク氏がAIとロボットについていろいろな場所で話しています。\n決算説明会、ポッドキャスト、ホワイトハウスの記者団への発言などです。\n1つ1つは断片ですが並べると1つの世界観になっていくので、今日はそれを整理して医療の側から考えていきます。\nそれでは、今日のニュースです！！\n◆Tesla 2026年第3四半期 決算説明会（2026年10月22日）\n　https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3OLL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398b0881-d4b9-4feb-b7a2-d577b130db37_659x532.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1024vol152jama-network-open",
       "title": "10月24日（土）vol.152：JAMA Network Open、けがをした子どものためにビデオ診療を用意したら、半分以上で使われなかった、理由は機械の不具合ではなく「専門医が気づかなかった」「手が空いていなかった」",

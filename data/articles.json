@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-10-24T12:27:19.582Z",
+  "updated_at": "2026-10-25T02:29:02.612Z",
   "articles": [
+    {
+      "id": "ca1f0651-f204-4a08-b733-ab5abc892e10",
+      "created_at": "2026-10-25T02:29:02.612Z",
+      "published_date": "2026-10-25",
+      "category": "global",
+      "featured": false,
+      "title": "米Merck と Moderna、個別化mRNAがんワクチン「intismeran」＋キイトルーダの第3相で、切除後メラノーマの再発・死亡リスクを42%低減。2年無再発率は82.2%対70.0%、NEJM掲載へ",
+      "source_name": "Merck & Co.",
+      "source_url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/",
+      "image_url": "https://www.merck.com/wp-content/uploads/sites/124/2022/03/Merck.png",
+      "quote": {
+        "text": "At the primary pre-specified analysis (intention-to-treat), after a median follow-up of 24.6 months, intismeran in combination with KEYTRUDA significantly reduced the risk of recurrence or death by 42% (HR=0.58 [95% CI, 0.45–0.75]; two-sided p<0.001).",
+        "source": "Merck ニュースリリース",
+        "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+      },
+      "summary": [
+        "完全切除後の病期IIB〜IVのメラノーマ1,137例を対象にした二重盲検第3相INTerpath-001の結果を、ESMO 2026のPresidential Symposium（10月24日）で発表しました。追跡中央値24.6か月で、無再発生存のハザード比は0.58（p<0.001）でした。",
+        "2年無再発生存率は82.2%対70.0%、遠隔転移のない生存のハザード比は0.62（p=0.002）。最初の6か月は両群同等（HR 0.99）で、投与完了後の6か月以降は再発・死亡リスクが58%減（HR 0.42）でした。全生存はまだ未成熟です。",
+        "intismeranは患者ごとの腫瘍変異から最大34個のネオアンチゲンをコードするmRNAを個別に製造する治療です。Grade 3〜5の治療関連有害事象は14.2%対13.4%。両社は規制当局と協議中で、論文はNEJMへの掲載が受理されています。"
+      ],
+      "comment": "個別化がんワクチンが第3相で初めて勝ったという、腫瘍免疫の歴史に残る結果です。注目したのは、効果が出るのが投与開始から6か月以降で、その後はリスクが6割近く減るという時間の形で、患者ごとにmRNAを作る工程と効果が立ち上がるまでの期間が、実臨床での使い方の課題になります。日本はメラノーマが少ない一方で、個別製造の薬価と供給体制をどう組むかは、ほかのがん種に広がる前に考えておくべき論点だと思います。",
+      "company": {
+        "name": "Merck & Co.",
+        "listed": "NYSE（MRK）",
+        "profile": "米ニュージャージー州の製薬大手（日本ではMSD）。がん免疫薬キイトルーダを主力とし、Modernaと個別化ネオアンチゲン療法intismeranを共同開発する。",
+        "url": "https://www.merck.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-25T02:29:02.612Z"
+    },
     {
       "id": "382f564e-8099-4d1a-9da8-379540e33173",
       "created_at": "2026-10-24T12:27:19.582Z",

@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-10-25T02:29:02.612Z",
+  "updated_at": "2026-10-25T08:27:32.014Z",
   "articles": [
+    {
+      "id": "3c014475-845f-46a6-b494-49bf32d0b85f",
+      "created_at": "2026-10-25T08:27:32.014Z",
+      "published_date": "2026-10-25",
+      "category": "global",
+      "featured": false,
+      "title": "米Amgen「IMDELLTRA」、進展型小細胞肺がんの1次維持療法でイミフィンジ併用により死亡リスクを58%低減。生存期間中央値21.1か月対12.7か月、NEJMに同時掲載",
+      "source_name": "Amgen",
+      "source_url": "https://www.prnewswire.com/news-releases/imdelltra-in-combination-with-imfinzi-reduced-risk-of-death-by-an-unprecedented-58-in-first-line-extensive-stage-small-cell-lung-cancer-302918652.html",
+      "image_url": "https://www.amgen.com/-/media/Themes/Global/Global/Global/images/migration/Common/default-opengraph-image2.jpg",
+      "quote": {
+        "text": "At one year, nearly 80% of patients treated with IMDELLTRA in combination with durvalumab remained alive compared to 53% with durvalumab alone (95% CI: 74.2, 83.7 vs. 47.3, 59.0).",
+        "source": "PR Newswire（Amgen）",
+        "url": "https://www.prnewswire.com/news-releases/imdelltra-in-combination-with-imfinzi-reduced-risk-of-death-by-an-unprecedented-58-in-first-line-extensive-stage-small-cell-lung-cancer-302918652.html"
+      },
+      "summary": [
+        "第3相DeLLphi-305の中間解析で、初回治療（デュルバルマブ＋白金製剤＋エトポシド）後に進行していない進展型小細胞肺がんの患者に対し、tarlatamab（IMDELLTRA）＋デュルバルマブの維持療法が全生存のハザード比0.42（p<0.001）を示しました。",
+        "生存期間中央値は21.1か月対12.7か月、1年生存率は約80%対53%。無増悪生存の中央値は7.4か月対1.9か月（HR 0.34）、奏効率は26.4%対4.1%で、脳転移や肝転移のある患者でも効果は一貫していました。",
+        "Grade 3以上の治療関連有害事象は20.9%対10.8%、サイトカイン放出症候群は49.6%でほとんどがGrade 1〜2でした。ESMO 2026のPresidential Symposiumで発表され、NEJMに同時掲載。Amgenは各国の規制当局との協議を急ぐとしています。"
+      ],
+      "comment": "小細胞肺がんは数十年ほとんど治療が進まなかった領域で、生存期間を8か月以上延ばした第3相は珍しい結果です。注目したのは、IMDELLTRAを後方ラインから初回化学療法の直後の維持療法へ前倒しする点で、対象になる患者が一気に広がります。一方で投与初期にサイトカイン放出症候群を見る外来での観察が必要で、日本の病院がこの体制を組めるかが、承認後の普及を左右するのだと思います。",
+      "company": {
+        "name": "Amgen",
+        "listed": "NASDAQ（AMGN）",
+        "financials": "2025年12月期の売上高は368億ドル（前期比10%増）。IMDELLTRAの2025年売上は6.27億ドル（2026年2月の決算発表より）。",
+        "profile": "米カリフォルニア州サウザンドオークスのバイオ医薬品大手。がん、心血管、骨、炎症領域の抗体医薬が主力。",
+        "url": "https://www.amgen.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-25T08:27:32.014Z"
+    },
     {
       "id": "ca1f0651-f204-4a08-b733-ab5abc892e10",
       "created_at": "2026-10-25T02:29:02.612Z",

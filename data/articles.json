@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-10-26T10:46:27.000Z",
+  "updated_at": "2026-10-26T12:45:20.053Z",
   "articles": [
+    {
+      "id": "3c5b74d6-01d7-407f-819e-bf03a999b411",
+      "created_at": "2026-10-26T12:45:20.053Z",
+      "published_date": "2026-10-26",
+      "category": "global",
+      "featured": false,
+      "title": "中国HUTCHMED×アストラゼネカ、MET過剰発現を伴うEGFR変異肺がんの一次治療でサボリチニブ＋タグリッソが病勢進行・死亡リスクを44%低減（SANOVO）。前日発表のSAFFRONでは二次治療で全生存期間を4.9か月延長、NEJM同時掲載（ESMO）",
+      "source_name": "HUTCHMED（GlobeNewswire）",
+      "source_url": "https://www.biospace.com/press-releases/hutchmed-highlights-sanovo-phase-iii-data-for-orpathys-plus-tagrisso-in-first-line-egfr-mutated-lung-cancer-presented-at-esmo-congress-2026",
+      "source_url_2": "https://www.biospace.com/press-releases/hutchmed-highlights-saffron-global-phase-iii-data-presented-at-esmo-congress-2026-and-simultaneously-published-in-the-new-england-journal-of-medicine",
+      "image_url": null,
+      "summary": [
+        "中国HUTCHMEDとアストラゼネカは10月26日、MET過剰発現を伴うEGFR変異陽性の未治療非小細胞肺がん326例を対象にした中国の第3相SANOVO試験の結果をESMO 2026で発表した。サボリチニブ（ORPATHYS）＋オシメルチニブ（タグリッソ）は、タグリッソ単剤に比べ病勢進行または死亡のリスクを44%下げ（HR 0.56）、無増悪生存期間の中央値は24.9か月対13.8か月。全生存期間もHR 0.48、中央値44.5か月対34.9か月だった。",
+        "前日25日には、タグリッソ治療後に進行したMET駆動型のEGFR変異肺がん338例を対象にした国際第3相SAFFRON試験の結果がプレジデンシャルシンポジウムで発表され、NEJMに同時掲載された。白金製剤併用化学療法に比べ無増悪生存期間のHRは0.55（中央値7.6か月対5.4か月）、全生存期間のHRは0.68（17.8か月対12.9か月）。",
+        "この併用は中国でEGFR-TKI治療後のMET増幅例に承認済み。SAFFRONに基づき米FDAに新薬承認申請を提出し、欧州・日本でも申請を進めている。SANOVOに基づき中国で一次治療の適応追加申請を予定。ORPATHYSはアストラゼネカと共同開発し、アストラゼネカが販売する。"
+      ],
+      "quote": {
+        "text": "SANOVO demonstrates that by identifying MET overexpression at diagnosis and initiating an all-oral, dual-targeted combination upfront, we can meaningfully extend PFS and OS while preserving patient quality of life.",
+        "source": "Johnny Cheng, Acting CEO and CFO, HUTCHMED",
+        "url": "https://www.biospace.com/press-releases/hutchmed-highlights-sanovo-phase-iii-data-for-orpathys-plus-tagrisso-in-first-line-egfr-mutated-lung-cancer-presented-at-esmo-congress-2026"
+      },
+      "comment": "タグリッソの耐性の一因であるMET経路に、最初からもう1剤を足して先回りする戦略が、二次治療でも一次治療でも数字で裏付けられました。注目したのは、中国のバイオ企業が創った薬をアストラゼネカが世界で売るという分業が、NEJM掲載の国際第3相まで到達した点で、中国発の分子標的薬が世界標準に入る実例になります。日本でも申請が進んでおり、EGFR肺がんの一次治療からMET検査が広がるかが次の論点だと思います。",
+      "company": {
+        "name": "HUTCHMED",
+        "listed": "香港・ナスダック・ロンドンAIM上場（HKEX: 13、Nasdaq/AIM: HCM）",
+        "financials": "2025年12月期の連結売上高は5億4,850万ドル（約867億円、前期比13%減）、純利益4億5,690万ドル（事業売却益を含む）。腫瘍・免疫分野の連結売上高は2億8,550万ドル（21%減）。2026年は同分野で3億3,000万〜4億5,000万ドルを見込む。",
+        "profile": "香港・上海に拠点を置くバイオ医薬品企業。がんと免疫疾患の分子標的薬・免疫療法を自社創製から開発・販売し、中国で4製品を発売。大腸がん薬フルキンチニブ（FRUZAQLA）は武田薬品が海外で販売する。",
+        "url": "https://www.hutch-med.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-26T12:45:20.053Z"
+    },
     {
       "id": "e6af5dbe-d82a-4833-b186-fdcda80281b3",
       "created_at": "2026-10-26T10:45:57.580Z",

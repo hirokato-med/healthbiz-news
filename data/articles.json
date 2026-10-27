@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-10-27T11:26:29.661Z",
+  "updated_at": "2026-10-27T12:40:23.540Z",
   "articles": [
+    {
+      "id": "b15930f8-e66c-41b6-8c2b-e5ac6a5ac9ed",
+      "created_at": "2026-10-27T12:40:23.540Z",
+      "published_date": "2026-10-27",
+      "category": "global",
+      "featured": false,
+      "title": "中国・復星医薬系の復宏漢霖（Henlius）、抗PD-1抗体セルプルリマブの米国ブリッジング試験ASTRIDEで進展型小細胞肺がんの全生存期間中央値12.4か月対10.2か月（対アテゾリズマブ）。欧州など50超の国・地域で承認済みの中国製PD-1が米国へ",
+      "source_name": "Henlius（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/henlius-reports-positive-results-from-astride-us-bridging-study-for-serplulimab-in-combination-with-chemotherapy-for-first-line-treatment-of-patients-with-extensive-stage-small-cell-lung-cancer-es-sclc-302920457.html",
+      "image_url": null,
+      "summary": [
+        "中国の復宏漢霖（Shanghai Henlius Biotech）は10月27日、抗PD-1抗体セルプルリマブ＋化学療法の米国ブリッジング試験ASTRIDEの結果をESMO 2026で発表したと公表した。進展型小細胞肺がんの一次治療201例を米国63施設で、アテゾリズマブ＋化学療法と1対1に割り付けた記述的試験（優越性・非劣性の検定は設定なし）。",
+        "全生存期間の中央値は12.4か月対10.2か月（ハザード比0.82、95%信頼区間0.56〜1.20）、1年生存率52.4%対41.4%、2年生存率32.2%対17.6%。無増悪生存期間の中央値は5.4か月対4.9か月、奏効率は65.7%対67.0%。グレード3以上の有害事象は73.7%対73.0%で同程度だった。",
+        "セルプルリマブは欧州で「Hetronifly」として販売され、英独伊西など10か国超で保険償還の対象。小細胞肺がんなどで50超の国・地域で承認され、2026年6月には中国で胃がん周術期の適応を取得した。米国では2022年にFDAの希少疾病用医薬品指定を受けているが未承認で、リリースは米国の申請計画には触れていない。"
+      ],
+      "quote": {
+        "text": "Serplulimab is a current treatment option for patients in Europe and other global markets, and the results from our ASTRIDE study, combined with our ASTRUM-005 Phase 3 trial, reflect the potential benefit for U.S. patients with ES-SCLC, a rare and aggressive disease.",
+        "source": "Jason Zhu, Executive Director and CEO, Henlius",
+        "url": "https://www.prnewswire.com/news-releases/henlius-reports-positive-results-from-astride-us-bridging-study-for-serplulimab-in-combination-with-chemotherapy-for-first-line-treatment-of-patients-with-extensive-stage-small-cell-lung-cancer-es-sclc-302920457.html"
+      },
+      "comment": "中国で生まれたPD-1抗体が、欧州で売った実績を手に米国市場の入口に立った話です。注目したのは、米国の患者で中国の第3相の結果を再現する「ブリッジング試験」という手順で、統計的な勝ち負けを示す設計ではなく、FDAが中国データを受け入れる条件を満たすための試験だと読めます。数字は中国の試験と一致しており、中国製の免疫チェックポイント阻害薬が米国で承認されれば、価格の面で米大手にも波及すると思います。",
+      "company": {
+        "name": "復宏漢霖（Shanghai Henlius Biotech）",
+        "listed": "香港証券取引所（2696）",
+        "financials": "2025年12月期は売上高約66.7億元（約1,467億円、前期比16.5%増）、純利益約8.27億元（約182億円）で3年連続の黒字。セルプルリマブの売上高は約14.9億元（約328億円、13.7%増）。",
+        "profile": "2010年設立、上海。復星医薬グループのバイオ医薬企業で、がん・自己免疫・眼科領域のバイオシミラーと新薬を手がける。10製品が60超の国・地域で承認されている。",
+        "url": "https://www.henlius.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-27T12:40:23.540Z"
+    },
     {
       "id": "13f14909-bfd4-4533-aa91-7c2f40d492ea",
       "created_at": "2026-10-27T09:09:11.821Z",

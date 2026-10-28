@@ -1,6 +1,93 @@
 {
-  "updated_at": "2026-10-28T09:21:43.090Z",
+  "updated_at": "2026-10-28T12:44:51.402Z",
   "articles": [
+    {
+      "id": "d9629629-c674-4cf7-a5fd-d713078fec42",
+      "created_at": "2026-10-28T12:44:51.402Z",
+      "published_date": "2026-10-28",
+      "category": "drug",
+      "featured": false,
+      "title": "ノボ ノルディスク ファーマ、GLP-1受容体作動薬の不適正使用が確認された場合は「供給制限を含む」対応を取ると表明。広告・サイトの監視で1,200件超を当局に報告、厚労省の10月14日の再周知を受け医薬品卸と協議",
+      "source_name": "PR TIMES",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000172.000006756.html",
+      "image_url": "https://www.novonordisk.co.jp/content/dam/nncorp/jp/ja/home/NOVO_NORDISK_HQ_095-L1005354%20cut2.jpg",
+      "summary": [
+        "ノボ ノルディスク ファーマは10月28日、GLP-1受容体作動薬の適正使用に対する取り組みを発表した。2020年から不適切な使用や誤解を招く表現を含む広告・ウェブサイトのモニタリングを続け、これまで1,200件以上の事案を当局へ報告してきたほか、関係企業と共同で適正使用を呼びかけるお知らせを継続的に出している。",
+        "厚生労働省が2026年6月16日に出した「GLP-1受容体作動薬及びGIP/GLP-1受容体作動薬の適正使用に係る対応の徹底について」、日本肥満学会が10月3日に出した「安全な減量に関するステートメント（インクレチン関連薬を用いた減量によるケトーシス関連事象の注意喚起）」、厚労省が10月14日に出した適正使用の再周知通知を指針として、医薬品卸売業各社と意見交換し、対応策を検討してきた。",
+        "今後は不適正使用の実態把握を速やかに進め、公正取引委員会、関係省庁、学会などと連携しながら、不適正使用が確認された場合には供給制限を含む対応を迅速に進めるとした。治療を必要とする患者への供給には十分配慮するとしている。"
+      ],
+      "comment": "製薬会社が自社製品の「売り先を絞る」と公言するのは異例です。注目したのは、公正取引委員会の名前を挙げている点で、特定の医療機関への出荷停止は独占禁止法上の取引拒絶に当たりうるため、当局と足並みを揃えてから踏み込む構えです。自由診療のダイエット処方を収益源にしてきたクリニックには、仕入れそのものが止まるリスクが現実になりました。",
+      "company": {
+        "name": "ノボ ノルディスク ファーマ株式会社",
+        "profile": "1980年6月設立、東京都千代田区丸の内。デンマークのノボ ノルディスクの日本法人で、糖尿病・肥満症治療薬（オゼンピック、ウゴービなど）や成長ホルモン、血友病治療薬を展開する。",
+        "url": "https://www.novonordisk.co.jp/",
+        "ceo": {
+          "name": "小谷啓輔",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-28T12:44:51.402Z"
+    },
+    {
+      "id": "7aa1b67c-f801-422d-85e9-01d9c2d5ae21",
+      "created_at": "2026-10-28T12:44:51.402Z",
+      "published_date": "2026-10-28",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】イーライリリー、3重作動薬レタトルチドがオゼンピック2mgとの直接比較第3相（TRANSCEND-T2D-2）で主要・主要副次評価項目をすべて達成。80週でHbA1c −2.2%対−1.8%、体重減少20.9%対9.4%",
+      "source_name": "Eli Lilly",
+      "source_url": "https://www.prnewswire.com/news-releases/lillys-retatrutide-delivered-greater-a1c-reduction-and-more-than-double-the-weight-loss-of-ozempics-highest-approved-dose-in-head-to-head-trial-302921328.html",
+      "image_url": null,
+      "summary": [
+        "イーライリリーは10月28日、2型糖尿病の成人1,298人を対象にした非盲検の第3相試験TRANSCEND-T2D-2のトップライン結果を発表した。メトホルミン（SGLT2阻害薬併用の有無を問わず）で血糖コントロールが不十分な患者に、週1回のレタトルチド9mg・12mgと、オゼンピックの最高承認用量2mgを80週間比較した。レタトルチドを他のインクレチン薬と直接比較した第3相は初めて。",
+        "HbA1cはベースライン平均8.3%から両用量とも−2.2%、オゼンピックは−1.8%。体重（平均102.4kg、BMI 36.8）は9mgで−19.5%（−20.1kg）、12mgで−20.9%（−21.5kg）に対し、オゼンピックは−9.4%（−9.5kg）。non-HDLコレステロール、中性脂肪、収縮期血圧の改善も上回った。",
+        "主な有害事象は消化器系で、下痢28.3%/32.7%（オゼンピック26.4%）、悪心21.2%/23.8%（同21.3%）、異常感覚（ジセステジア）4.8%/6.5%（同2.7%）。有害事象による中止は9mgで4.8%、12mgで7.9%、オゼンピックは2.7%。詳細は今後の学会と論文で公表し、チルゼパチドとの直接比較TRIUMPH-5も進行中。"
+      ],
+      "comment": "ノボの最高用量を相手に選んで、血糖と体重の両方で差を見せた直接比較です。注目したのは、リリーが「今日すでに償還されている薬との比較を見せる」と言い切っている点で、承認後の保険収載と処方の切り替えを見据えた商業戦略としての治験設計です。一方で12mg群の有害事象による中止は7.9%とオゼンピックの約3倍で、効果の代償も数字に出ています。",
+      "quote": {
+        "text": "In TRANSCEND-T2D-2, the first Phase 3 trial comparing retatrutide with another incretin medicine, retatrutide delivered greater A1C reduction and more than double the weight loss of the highest approved dose of Ozempic for type 2 diabetes.",
+        "source": "Kenneth Custer, Ph.D., Executive Vice President and President of Lilly Cardiometabolic Health（プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/lillys-retatrutide-delivered-greater-a1c-reduction-and-more-than-double-the-weight-loss-of-ozempics-highest-approved-dose-in-head-to-head-trial-302921328.html"
+      },
+      "company": {
+        "name": "Eli Lilly and Company",
+        "listed": "ニューヨーク証券取引所（LLY）",
+        "profile": "米インディアナポリス。GIP/GLP-1受容体作動薬のチルゼパチド（マンジャロ、ゼップバウンド）や経口GLP-1のオルフォルグリプロン（Foundayo）を持ち、GIP・GLP-1・グルカゴンの3重作動薬レタトルチドを肥満症、2型糖尿病、変形性膝関節症、睡眠時無呼吸、心血管アウトカム、MASLDなどで第3相開発中。",
+        "url": "https://www.lilly.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-28T12:44:51.402Z"
+    },
+    {
+      "id": "eea8955b-4d05-4476-b207-5cc68cdd7e7b",
+      "created_at": "2026-10-28T12:44:51.402Z",
+      "published_date": "2026-10-28",
+      "category": "service",
+      "featured": false,
+      "title": "ジャルパックとこころのカンパニーが業務提携。介護保険外の付き添い・移動支援「こころのライフサポート」をJALの旅行客に紹介し、こころの顧客にはツアーを割引。旅をあきらめたシニアを相互送客で取り込む",
+      "source_name": "PR TIMES",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000124.000077937.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000840.000003269.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/3269/840/3269-840-a1be35d7e4bd974c8616b98fd6abcd66-3900x1950.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "ジャルパックとこころのカンパニーは10月28日、業務提携を発表した。ジャルパックの顧客に、介護保険外のオーダーメイド移動支援「こころのライフサポート」を紹介し、こころのカンパニーの顧客にはジャルパックの旅行商品を割引価格で紹介する相互送客の形。利用を希望する人はこころのカンパニーに直接申し込み、サービス利用料金は別途支払う。",
+        "こころのライフサポートは介護保険外の訪問介護・生活支援で、専門知識を持つスタッフが付き添い、最短2時間から使える。自宅での介護や家事、通院の付き添いに加え、買い物や旅行などの外出サポート、長時間の見守りに対応する。介護保険サービスは利用できる内容や時間に条件があり、希望する支援を十分に受けられないことがあるのが背景。",
+        "こころのカンパニーは2020年設立のエイジテック企業で、高齢者等終身サポート「おひさぽ」、家族信託コンサルティングとSaaSの「おやとこ」、相続手続きのDX「スマホde相続」、公益信託支援「ちゃりとら」などを展開する。ジャルパックは添乗員同行ツアーなど、シニアが自分のペースで楽しめる旅行商品を用意する。"
+      ],
+      "comment": "介護保険の外にある「付き添い」を、旅行会社の送客で売る組み合わせです。注目したのは、金銭のやり取りを介さない相互紹介にとどめ、サービス料は利用者がこころのカンパニーに直接払う設計で、旅行会社側は介護事業のリスクを負わずにシニア客の離脱を防げます。家族信託や相続まで一社で持つこころのカンパニーにとって、旅行は顧客との最初の接点になります。",
+      "company": {
+        "name": "株式会社こころのカンパニー",
+        "profile": "2020年設立、東京都千代田区内神田。未上場。高齢者の終身サポート、家族信託、相続手続きのDX、保険外の訪問介護・生活支援などを手がけるエイジテック企業。",
+        "url": "https://kokorono.co.jp/",
+        "ceo": {
+          "name": "磨和寛",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-10-28T12:44:51.402Z"
+    },
     {
       "id": "2c496dfa-df8e-4535-8830-b77c3a44d027",
       "created_at": "2026-10-28T08:35:44.807Z",

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-29T02:32:11.406Z",
+  "updated_at": "2026-10-29T04:44:08.398Z",
   "articles": [
     {
       "id": "62ccc9d9-7fff-480e-a6f7-57943ef95ebf",
       "created_at": "2026-10-29T02:32:11.406Z",
       "published_date": "2026-10-29",
       "category": "drug",
-      "featured": true,
+      "featured": false,
       "title": "大峰堂薬品工業、総工費約150億円の漢方薬スマートファクトリー「奈良新幸場」が竣工。医療用漢方内服錠剤で国内シェア75%のOEMメーカー、売上高は3年で1.5倍の112億円、2027年7月から供給開始",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000005.000116462.html",
@@ -60,7 +60,7 @@
       "created_at": "2026-10-29T02:32:11.406Z",
       "published_date": "2026-10-29",
       "category": "device",
-      "featured": false,
+      "featured": true,
       "title": "パラマウントベッド、Amazon「Alexa+」の日本提供開始に伴う開発ツール「Smart Home AI Toolkit」の先行パートナー6社に選定。眠りの自動運転ベッド「Active Sleep BED」を会話で操作し、睡眠データと生成AIの連携を検証",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000089.000098878.html",

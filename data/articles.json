@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-29T08:30:05.811Z",
+  "updated_at": "2026-10-29T09:23:30.956Z",
   "articles": [
     {
       "id": "e6a2b9d2-1da9-4bb3-b24d-f0283cdc733a",
       "created_at": "2026-10-29T08:30:05.811Z",
       "published_date": "2026-10-29",
       "category": "dx",
-      "featured": false,
+      "featured": true,
       "title": "エス・エム・エス、アジア太平洋の医療従事者向けプラットフォーム事業（MIMSグループ）の売却・撤退を決議。中間決算と同日に海外セグメント（売上38億円・損失2.9億円）を切り出し、人材紹介と「カイポケ」に経営資源を集中",
       "source_name": "エス・エム・エス",
       "source_url": "https://www.release.tdnet.info/inbs/140120261029559323.pdf",
@@ -1511,7 +1511,7 @@
       "created_at": "2026-10-29T02:32:11.406Z",
       "published_date": "2026-10-29",
       "category": "device",
-      "featured": true,
+      "featured": false,
       "title": "パラマウントベッド、Amazon「Alexa+」の日本提供開始に伴う開発ツール「Smart Home AI Toolkit」の先行パートナー6社に選定。眠りの自動運転ベッド「Active Sleep BED」を会話で操作し、睡眠データと生成AIの連携を検証",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000089.000098878.html",

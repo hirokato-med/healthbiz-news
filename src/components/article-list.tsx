@@ -15,10 +15,13 @@ import type { Channel } from '@/constants/channels';
 import { Hairline, MaxContentWidth, Spacing } from '@/constants/theme';
 import { DesktopMaxWidth, SidebarWidth, useDesktop } from '@/hooks/use-desktop';
 import { useTheme } from '@/hooks/use-theme';
-import { formatDateLong, todayJST } from '@/lib/articles';
+import { formatDateLong, isDigest, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 import { uiState } from '@/lib/ui-state';
 import type { Article } from '@/lib/types';
+
+/** トップで注目記事のすぐ下に出す決算記事の本数（2・3 本目） */
+const TopEarningsCount = 2;
 
 type Row =
   | { kind: 'section'; key: string; title: string; aside?: string }
@@ -97,7 +100,12 @@ export function ArticleList({
       const weeklies = articles.filter((a) => a.kind === 'weekly' || a.kind === 'monthly');
       // 出てから2日間は注目記事のすぐ下に出す（今週のまとめと今月の注目決算が重なれば両方）
       const freshDigests = weeklies.filter((w) => w.published_date >= dayBefore(latest));
-      const todays = news.filter((a) => a.published_date === latest && a !== lead);
+      // 決算は「決算」タブが主だが、直近の決算（配信日とその前日）の先頭 2 本は注目記事のすぐ下（2・3 本目）にも出す
+      // （2026-10-30 加藤さん指示: 決算がしっかり出ている日はトップの下に決算を）。並びは配信の並び（order → 新しい順）のまま
+      const topEarnings = articles
+        .filter((a) => a.category === 'earnings' && !isDigest(a) && a.kind !== 'substack' && a !== lead && recent(a))
+        .slice(0, TopEarningsCount);
+      const todays = news.filter((a) => a.published_date === latest && a !== lead && !topEarnings.includes(a));
       const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));
       const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
       // 本数は上の帯（本日の配信 ◯本）とそろえ、同じ日に出た今週のまとめ・今月の注目決算も数える（加藤さん指示）
@@ -107,6 +115,7 @@ export function ArticleList({
       // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
       out.push({ kind: 'subscribe-link', key: 'subscribe-link' });
       freshDigests.forEach((w) => out.push({ kind: 'article', key: w.id, article: w }));
+      topEarnings.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));

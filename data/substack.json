@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-29T12:32:04.978Z",
+  "updated_at": "2026-10-30T02:26:41.131Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1030vol158applefda",
+      "title": "10月30日（金）vol.158：Apple、FDAで取った医療機器の承認、日本に持ってくると「医療機器でない」",
+      "url": "https://hiroakikato.substack.com/p/1030vol158applefda",
+      "published_date": "2026-10-30",
+      "excerpt": "金曜日です。今日は薬事の話です！！\n10月5日のメルマガで、「Apple Watchの高血圧の通知が日本では使えない、センサーが変わると薬事をやり直すから」という話を書きました。\nApple Watchは体に当てて数字を取る側の話でしたが、\n取ったCTやMRIの画像を画面に映す側にも、医療機器になるかならないかの線引きがあります。\n今週Appleが出した新しいMacBook Proが、ちょうどその線引きの上にあるので、今日はそこを見ていきます。\nそれでは、今日のニュースです！！\n◆Apple unveils groundbreaking MacBook Pro with PROLED XDR…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!bUB7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa788a951-6531-4e45-ba71-a049cab41513_970x582.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1029vol157vera-health1219080ai28504openevidence",
       "title": "10月29日（木）vol.157：Vera Health、社員12人・広告費ゼロで190か国80万人の医師が使う臨床AI検索が2850万ドルを調達、米国の医師の4割を押さえたOpenEvidenceに、後発は「米国の外」と「短い答え」で挑む",

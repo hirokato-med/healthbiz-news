@@ -100,10 +100,10 @@ export function ArticleList({
       const weeklies = articles.filter((a) => a.kind === 'weekly' || a.kind === 'monthly');
       // 出てから2日間は注目記事のすぐ下に出す（今週のまとめと今月の注目決算が重なれば両方）
       const freshDigests = weeklies.filter((w) => w.published_date >= dayBefore(latest));
-      // 決算は「決算」タブが主だが、直近の決算（配信日とその前日）の先頭 2 本は注目記事のすぐ下（2・3 本目）にも出す
-      // （2026-10-30 加藤さん指示: 決算がしっかり出ている日はトップの下に決算を）。並びは配信の並び（order → 新しい順）のまま
+      // 決算は「決算」タブが主だが、決算が出た日だけ、その日の決算の先頭 2 本を注目記事のすぐ下（2・3 本目）にも出す
+      // （2026-10-30 加藤さん指示: 決算が出た日だけ、少しの期間トップの 2・3 番目に。前日の決算は出さない）。並びは配信の並び（order → 新しい順）のまま
       const topEarnings = articles
-        .filter((a) => a.category === 'earnings' && !isDigest(a) && a.kind !== 'substack' && a !== lead && recent(a))
+        .filter((a) => a.category === 'earnings' && !isDigest(a) && a.kind !== 'substack' && a !== lead && a.published_date === latest)
         .slice(0, TopEarningsCount);
       const todays = news.filter((a) => a.published_date === latest && a !== lead && !topEarnings.includes(a));
       const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));

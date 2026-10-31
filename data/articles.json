@@ -31,7 +31,7 @@
       "earnings": {
         "period": "2027年5月期 第1四半期",
         "kind": "決算短信",
-        "segment": "ヘルスケアその他",
+        "segment": "医療・介護サービス",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -123,7 +123,7 @@
         "url": "https://www.jfrontier.jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-31T12:04:30.403Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "7202a0e7-d41a-4403-b96e-bd0cc79563a3",
@@ -501,7 +501,7 @@
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",
         "kind": "決算短信",
-        "segment": "製薬",
+        "segment": "製薬・OTC",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -587,7 +587,7 @@
         "url": "https://www.chemiphar.co.jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:31:17.720Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "a25cd95e-cf21-4c1d-98b0-ff7de07eb371",
@@ -619,7 +619,7 @@
       "earnings": {
         "period": "2026年12月期 第3四半期（累計）",
         "kind": "決算短信",
-        "segment": "ヘルスケアその他",
+        "segment": "医療・介護サービス",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -705,7 +705,7 @@
         "url": "https://www.kkelan.com/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:31:17.720Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "41e6d98a-2ff4-4dbc-9a7d-7b8479f0a1da",
@@ -977,7 +977,7 @@
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",
         "kind": "決算短信",
-        "segment": "製薬",
+        "segment": "製薬・OTC",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -1064,7 +1064,7 @@
         "url": "https://www.daiichisankyo.co.jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:27:53.819Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "18a8ae8f-241a-46eb-bc9a-5dfe9554bb59",
@@ -1092,7 +1092,7 @@
       "earnings": {
         "period": "2026年12月期 第3四半期（累計）",
         "kind": "決算短信（業績予想の修正を含む）",
-        "segment": "製薬",
+        "segment": "製薬・OTC",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -1178,7 +1178,7 @@
         "url": "https://www.otsuka.com/jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:27:53.819Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "b94aecba-6a78-49e5-bbde-04303cd849ef",
@@ -1211,7 +1211,7 @@
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",
         "kind": "決算短信・業績予想の修正",
-        "segment": "製薬",
+        "segment": "製薬・OTC",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -1297,7 +1297,7 @@
         "url": "https://www.sumitomo-pharma.co.jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:27:53.819Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "e036573e-7eec-4c77-b0eb-550ee80d5007",
@@ -1793,7 +1793,7 @@
       "earnings": {
         "period": "2027年3月期 第2四半期（中間期）",
         "kind": "決算短信",
-        "segment": "ヘルスケアその他",
+        "segment": "医療・介護サービス",
         "columns": {
           "value": "今期",
           "prev": "前年同期",
@@ -1879,7 +1879,7 @@
         "url": "https://www.caresupply.co.jp/"
       },
       "status": "published",
-      "updated_at": "2026-10-30T07:25:07.410Z"
+      "updated_at": "2026-10-31T21:24:27.442Z"
     },
     {
       "id": "a140671d-5282-4385-9540-a5d434efd225",

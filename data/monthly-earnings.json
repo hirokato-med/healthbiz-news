@@ -1,4 +1,781 @@
 {
-  "updated_at": "2026-10-23T02:38:46.667Z",
-  "issues": []
+  "updated_at": "2026-10-31T21:25:58.168Z",
+  "issues": [
+    {
+      "id": "monthly-2026-10",
+      "published_date": "2026-11-01",
+      "title": "今月の注目決算｜製薬は上方修正が相次ぎ、機器は明暗",
+      "month": "2026年10月",
+      "note": "10月は3月期企業の中間決算が集中しました。製薬・OTCでは塩野義製薬が鳥居薬品・ラジカットの承継で中間期として過去最高となり、住友ファーマと大塚ホールディングスも通期予想を引き上げるなど上方修正が相次ぎました。医療機器はHOYAが営業利益31.6%増と大幅増益の一方、テルモは米CSL Plasmaとの契約解除で通期営業利益予想を1,600億円に下方修正し、日本ライフラインも償還価格改定で減益と明暗が分かれました。調剤・ドラッグストアではウエルシアと統合したツルハホールディングスの売上高が1兆2,755億円と2.3倍になり、医療・介護サービスではジェイフロンティアがSOKUYAKUの料金改定で黒字に転換しています。",
+      "image_url": null,
+      "segments": [
+        {
+          "name": "製薬・OTC",
+          "items": [
+            {
+              "company": "住友ファーマ",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "2,664.9億円",
+              "revenue_change": "+17.3%",
+              "profit": "421.2億円",
+              "profit_change": "△56.2%",
+              "profit_label": "コア営業利益",
+              "note": "前年の持分譲渡益の反動で減益も、米国2製品の拡大で通期を上方修正し期末15円で復配予想",
+              "highlight": true,
+              "article_id": "b94aecba-6a78-49e5-bbde-04303cd849ef",
+              "ir_url": "https://www.sumitomo-pharma.co.jp/ir/"
+            },
+            {
+              "company": "塩野義製薬",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "3,504億円",
+              "revenue_change": "+64.5%",
+              "profit": "1,327億円",
+              "profit_change": "+75.7%",
+              "profit_label": "コア営業利益",
+              "note": "鳥居薬品・ラジカットの承継とViiVロイヤリティで中間期過去最高、通期を上方修正・増配",
+              "highlight": true,
+              "article_id": "d839c797-b9c4-4c29-8e7e-cd55c0187c35",
+              "ir_url": "https://www.shionogi.com/jp/ja/investors.html"
+            },
+            {
+              "company": "日本ケミファ",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "158.2億円",
+              "revenue_change": "△0.7%",
+              "profit": "△7.0億円",
+              "profit_change": "赤字転落",
+              "profit_label": null,
+              "note": "薬価改定と原材料・人件費の上昇で営業損失7.0億円に転落、通期予想は据え置き",
+              "highlight": false,
+              "article_id": "3c835b90-0862-43ac-a278-519295582d09",
+              "ir_url": "https://www.chemiphar.co.jp/ir/"
+            },
+            {
+              "company": "第一三共",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "1兆1,672.3億円",
+              "revenue_change": "+19.7%",
+              "profit": "2,213.3億円",
+              "profit_change": "+46.9%",
+              "profit_label": "コア営業利益",
+              "note": "エンハーツ・ダトロウェイで欧米がん事業が54.8%増収、コア営業利益46.9%増",
+              "highlight": false,
+              "article_id": "1b207ff5-fae5-4fc0-a124-69d935e3c0fc",
+              "ir_url": "https://www.daiichisankyo.co.jp/investors/"
+            },
+            {
+              "company": "大塚ホールディングス",
+              "period": "2026年12月期 第3四半期（累計）",
+              "revenue": "2兆424.4億円",
+              "revenue_change": "+12.3%",
+              "profit": "4,237.3億円",
+              "profit_change": "+4.0%",
+              "profit_label": null,
+              "note": "レキサルティ・ボイザクトが好調で事業利益19.2%増、通期の事業利益予想を5,000億円に上方修正",
+              "highlight": false,
+              "article_id": "18a8ae8f-241a-46eb-bc9a-5dfe9554bb59",
+              "ir_url": "https://www.otsuka.com/jp/ir/"
+            },
+            {
+              "company": "小野薬品工業",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "2,325億円",
+              "revenue_change": "-9.6%",
+              "profit": "736億円",
+              "profit_change": "+5.1%",
+              "profit_label": "コア営業利益",
+              "note": "フォシーガ共同販売終了で国内34%減収、海外のキンロック伸長でコア営業利益は増益",
+              "highlight": false,
+              "article_id": "74c1a84f-18d8-4e1d-9faf-9e074c1eb0b5",
+              "ir_url": "https://www.ono-pharma.com/ja/ir"
+            },
+            {
+              "company": "武田薬品工業",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "2兆4,070億円",
+              "revenue_change": "+8.4%",
+              "profit": "4,067億円",
+              "profit_change": "+60.4%",
+              "profit_label": null,
+              "note": "円安で増収、恒常為替では1.0%減。エンタイビオ皮下注が伸長し営業利益60.4%増",
+              "highlight": false,
+              "article_id": "5ceb8f57-85e3-4020-8549-e687b44f9dac",
+              "ir_url": "https://www.takeda.com/jp/investors/"
+            },
+            {
+              "company": "キッセイ薬品工業",
+              "period": "2027年3月期 第2四半期（中間期）の業績予想の修正",
+              "revenue": "455億円",
+              "revenue_change": "+1.6%",
+              "profit": "16億円",
+              "profit_change": "+220.0%",
+              "profit_label": null,
+              "note": "イセルティ・ベオーバ・コルスバの伸長で中間期の営業利益予想を5億円から16億円に上方修正",
+              "highlight": false,
+              "article_id": "275b12be-655b-4e13-8f75-00bcc3fa24a5",
+              "ir_url": "https://www.kissei.co.jp/ir/"
+            },
+            {
+              "company": "ツムラ",
+              "period": "2027年3月期 通期の業績予想の修正",
+              "revenue": "2,185億円",
+              "revenue_change": "+2.3%",
+              "profit": "384億円",
+              "profit_change": "+2.4%",
+              "profit_label": null,
+              "note": "養命酒製造の連結子会社化で通期を上方修正、中国の中薬飲片は計画未達で下方",
+              "highlight": false,
+              "article_id": "64f96982-4a9c-41be-b3a7-a8d86cb31a3d",
+              "ir_url": "https://www.tsumura.co.jp/ir/"
+            },
+            {
+              "company": "室町ケミカル",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "18.6億円",
+              "revenue_change": "+4.1%",
+              "profit": "1.8億円",
+              "profit_change": "+144.8%",
+              "profit_label": null,
+              "note": "抗てんかん薬・抗ヘルペス薬向けの輸入原薬が伸び、医薬品事業は21.7%増収",
+              "highlight": false,
+              "article_id": "58068eab-2904-4f23-8ee6-70c49a23ae9b",
+              "ir_url": "https://www.muro-chem.co.jp/ir/library/"
+            },
+            {
+              "company": "ダイト",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "119億円",
+              "revenue_change": "-8.6%",
+              "profit": "7.1億円",
+              "profit_change": "-28.7%",
+              "profit_label": null,
+              "note": "OTC向け鎮咳剤とジェネリック向け消炎鎮痛剤の原薬が減り、減収減益",
+              "highlight": false,
+              "article_id": "06fd3888-edce-4f1c-8bf6-7c664296d6db",
+              "ir_url": "https://www.daitonet.co.jp/ir/ir_news.html"
+            }
+          ]
+        },
+        {
+          "name": "バイオ・創薬",
+          "items": [
+            {
+              "company": "ネクセラファーマ",
+              "period": "2026年12月期 第3四半期（累計）",
+              "revenue": "277.4億円",
+              "revenue_change": "+27.0%",
+              "profit": "98.2億円",
+              "profit_change": "黒字転換",
+              "profit_label": "コア営業利益",
+              "note": "マイルストン収入95億円とピヴラッツ・クービビックの伸長でコア営業利益98億円に黒字転換",
+              "highlight": false,
+              "article_id": "e036573e-7eec-4c77-b0eb-550ee80d5007",
+              "ir_url": "https://investors.nxera.life/"
+            },
+            {
+              "company": "ジャパン・ティッシュエンジニアリング",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "15.0億円",
+              "revenue_change": "+50.1%",
+              "profit": "0.0億円",
+              "profit_change": "黒字転換",
+              "profit_label": null,
+              "note": "自家培養軟骨ジャックなど再生医療製品が80.6%増収、営業損益が黒字転換",
+              "highlight": false,
+              "article_id": "a140671d-5282-4385-9540-a5d434efd225",
+              "ir_url": "https://www.jpte.co.jp/investors/"
+            },
+            {
+              "company": "JCRファーマ",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "199.7億円",
+              "revenue_change": "-6.5%",
+              "profit": "△35.0億円",
+              "profit_change": "赤字転落",
+              "profit_label": null,
+              "note": "契約金収入の減少と研究開発費30.6%増で営業損失35億円に転落",
+              "highlight": false,
+              "article_id": "224da6d2-9781-4c1e-8021-98fe75e4357a",
+              "ir_url": "https://www.jcrpharm.co.jp/ir/"
+            },
+            {
+              "company": "シンバイオ製薬",
+              "period": "2026年12月期 第3四半期（累計）",
+              "revenue": "7.2億円",
+              "revenue_change": "-25.6%",
+              "profit": "△48.7億円",
+              "profit_change": "赤字拡大",
+              "profit_label": null,
+              "note": "トレアキシンの減少で営業損失48.7億円に拡大、9月末で債務超過",
+              "highlight": false,
+              "article_id": "f5543117-9237-4b4a-9f43-d0495a799154",
+              "ir_url": "https://www.symbiopharma.com/ir/"
+            },
+            {
+              "company": "リボミック",
+              "period": "2027年3月期 通期予想（修正後）",
+              "revenue": "2,600万円",
+              "revenue_change": "+47.3%",
+              "profit": "-14.8億円",
+              "profit_change": "赤字縮小",
+              "profit_label": null,
+              "note": "DDSアプタマーの技術評価契約で通期の事業収益予想を2,600万円に引き上げ",
+              "highlight": false,
+              "article_id": "89d20b87-061d-4ef1-8bfb-627013a13f40",
+              "ir_url": "https://www.ribomic.com/ir/news.php"
+            },
+            {
+              "company": "メディネット",
+              "period": "2026年9月期 通期予想（修正後）",
+              "revenue": "8.2億円",
+              "revenue_change": "-12.9%",
+              "profit": "-15.2億円",
+              "profit_change": "赤字幅拡大",
+              "profit_label": null,
+              "note": "海外患者の減少で免疫細胞の加工売上が減り、通期売上高予想を8.2億円に下方修正",
+              "highlight": false,
+              "article_id": "f3e48019-04ac-41cc-a9de-bc9434b5942a",
+              "ir_url": "https://www.medinet-inc.co.jp/ir/"
+            },
+            {
+              "company": "Chordia Therapeutics",
+              "period": "2026年8月期（通期）",
+              "revenue": "なし",
+              "revenue_change": null,
+              "profit": "-14.7億円",
+              "profit_change": "赤字縮小",
+              "profit_label": null,
+              "note": "原薬・製剤コストの減少で研究開発費19.0%減、営業損失は14.7億円に縮小",
+              "highlight": false,
+              "article_id": "b59b924d-e1b5-4967-a025-b0748dfdf076",
+              "ir_url": "https://www.chordiatherapeutics.com/ja/ir/news.html"
+            },
+            {
+              "company": "セルソース",
+              "period": "2026年10月期（通期・個別）",
+              "revenue": "4,600万円",
+              "revenue_change": "今回計上",
+              "profit": "0.8億円",
+              "profit_change": "据え置き",
+              "profit_label": "通期営業利益予想",
+              "note": "コンシューマー事業の見直しで棚卸資産評価損を計上、通期予想は据え置き",
+              "highlight": false,
+              "article_id": "a7bf8d41-c3bb-4f1e-94c2-1974e2ac2a63",
+              "ir_url": "https://www.cellsource.co.jp/ir/news/"
+            }
+          ]
+        },
+        {
+          "name": "医療機器",
+          "items": [
+            {
+              "company": "テルモ",
+              "period": "2027年3月期 通期予想（修正後）",
+              "revenue": "1兆2,295億円",
+              "revenue_change": "-0.8%",
+              "profit": "1,600億円",
+              "profit_change": "-37.9%",
+              "profit_label": null,
+              "note": "テルモBCTのCSL Plasma契約解除で通期営業利益予想を1,600億円に下方修正",
+              "highlight": true,
+              "article_id": "63b8dc06-fc78-47e9-9a94-b7cd3e5327da",
+              "ir_url": "https://www.terumo.co.jp/investors/library"
+            },
+            {
+              "company": "オルバDVxヘルスケア",
+              "period": "2027年6月期 第1四半期",
+              "revenue": "314.5億円",
+              "revenue_change": "+2.0%",
+              "profit": "1.4億円",
+              "profit_change": "△45.5%",
+              "profit_label": null,
+              "note": "DVxと経営統合、統合費用で営業利益45.5%減。統合後初の通期予想は売上高1,789億円",
+              "highlight": false,
+              "article_id": "41e6d98a-2ff4-4dbc-9a7d-7b8479f0a1da",
+              "ir_url": "https://www.olbadvx.jp/ir/"
+            },
+            {
+              "company": "フクダ電子",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "646.9億円",
+              "revenue_change": "△0.2%",
+              "profit": "105.6億円",
+              "profit_change": "△0.9%",
+              "profit_label": null,
+              "note": "生体検査装置が5.9%減収、在宅医療向けレンタルが支えて前年並み",
+              "highlight": false,
+              "article_id": "50f47dd2-f5b7-43ce-8c1f-95186866f28b",
+              "ir_url": "https://www.fukuda.co.jp/ir/news/"
+            },
+            {
+              "company": "HOYA",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "5,158.9億円",
+              "revenue_change": "+13.4%",
+              "profit": "1,734.3億円",
+              "profit_change": "+31.6%",
+              "profit_label": null,
+              "note": "ライフケアと情報・通信がともに好調で営業利益31.6%増、通期売上収益1兆430億円を公表",
+              "highlight": false,
+              "article_id": "788a3913-c86e-4ce2-864f-16c8c3923080",
+              "ir_url": "https://www.hoya.com/jp/investor/"
+            },
+            {
+              "company": "日本ライフライン",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "313.5億円",
+              "revenue_change": "+7.1%",
+              "profit": "54.7億円",
+              "profit_change": "△17.4%",
+              "profit_label": null,
+              "note": "上期売上高は過去最高も、償還価格改定と研究開発の加速で営業利益17.4%減",
+              "highlight": false,
+              "article_id": "c4ebc49d-774a-4bb9-a949-bd306bd8aed4",
+              "ir_url": "https://www.jll.co.jp/investors/"
+            },
+            {
+              "company": "リオン",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "142.8億円",
+              "revenue_change": "+4.9%",
+              "profit": "21.5億円",
+              "profit_change": "+8.3%",
+              "profit_label": null,
+              "note": "補聴器は自治体の助成で増収、利益の伸びは環境機器が牽引",
+              "highlight": false,
+              "article_id": "93b930f5-703e-416d-bb1f-1619a2c7840f",
+              "ir_url": "https://www.rion.co.jp/ir/"
+            },
+            {
+              "company": "大研医器",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "51.0億円",
+              "revenue_change": "+0.8%",
+              "profit": "4.8億円",
+              "profit_change": "-29.3%",
+              "profit_label": null,
+              "note": "フィットフィックスなどは好調も材料コスト増で営業利益29.3%減",
+              "highlight": false,
+              "article_id": "b1a578bf-866e-4334-bf3c-da26484f3b9c",
+              "ir_url": "https://www.daiken-iki.co.jp/ir/"
+            },
+            {
+              "company": "松風",
+              "period": "2027年3月期 第2四半期（中間期）の業績予想の修正",
+              "revenue": "214.0億円",
+              "revenue_change": "+3.6%",
+              "profit": "34.3億円",
+              "profit_change": "+16.4%",
+              "profit_label": null,
+              "note": "政策保有株式の売却益で中間純利益予想を39.4億円に上方修正",
+              "highlight": false,
+              "article_id": "9ad7b9a4-a9d9-4174-8ba2-fd0328aa40f0",
+              "ir_url": "https://www.shofu.co.jp/ir/library/"
+            },
+            {
+              "company": "北里",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "60.0億円",
+              "revenue_change": "+14.5%",
+              "profit": "30.1億円",
+              "profit_change": "+8.8%",
+              "profit_label": null,
+              "note": "海外売上18.0%増、欧州とその他アジアが牽引しインドは販路変更で減収",
+              "highlight": false,
+              "article_id": "2de73556-759a-4dcc-a059-87a0640f6688",
+              "ir_url": "https://www.kitazato.co.jp/ja/ir/ir-all/"
+            },
+            {
+              "company": "マニー",
+              "period": "2026年8月期（通期）",
+              "revenue": "330億円",
+              "revenue_change": "+10.2%",
+              "profit": "99.4億円",
+              "profit_change": "+21.4%",
+              "profit_label": null,
+              "note": "中国でダイヤバー販売を再開しデンタル関連が回復、通期営業利益21.4%増",
+              "highlight": false,
+              "article_id": "55c304f4-280b-423e-966d-b5eaa7353c0a",
+              "ir_url": "https://mani.co.jp/ir/news/"
+            }
+          ]
+        },
+        {
+          "name": "診断・検査",
+          "items": [
+            {
+              "company": "栄研化学",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "213.9億円",
+              "revenue_change": "+4.7%",
+              "profit": "15.9億円",
+              "profit_change": "-8.2%",
+              "profit_label": null,
+              "note": "海外向け便潜血・結核遺伝子検査試薬が伸び海外売上12.6%増、営業利益は8.2%減",
+              "highlight": false,
+              "article_id": "3fdf0ff9-4f24-4240-8159-a7c43e90ccc4",
+              "ir_url": "https://www.eiken.co.jp/ir/"
+            }
+          ]
+        },
+        {
+          "name": "医療DX",
+          "items": [
+            {
+              "company": "エス・エム・エス",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "364.4億円",
+              "revenue_change": "+8.9%",
+              "profit": "49.1億円",
+              "profit_change": "+11.7%",
+              "profit_label": null,
+              "note": "人材紹介とカイポケが堅調で営業利益11.7%増、同日にMIMS事業の売却・撤退を決議",
+              "highlight": false,
+              "article_id": "91b60ce8-3491-4861-a15f-90459e80a294",
+              "ir_url": "https://www.bm-sms.co.jp/ir/"
+            },
+            {
+              "company": "メディカルネット",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "15.5億円",
+              "revenue_change": "-0.4%",
+              "profit": "-0.2億円",
+              "profit_change": "赤字",
+              "profit_label": null,
+              "note": "メディア事業の広告出稿が伸び悩み、営業赤字",
+              "highlight": false,
+              "article_id": "f3690ffb-9db8-48ab-8502-6e79cd9cf389",
+              "ir_url": "https://www.medical-net.com/ir/library/"
+            },
+            {
+              "company": "FIXER",
+              "period": "2026年8月期（通期）",
+              "revenue": "31.2億円",
+              "revenue_change": "-21.6%",
+              "profit": "-23.2億円",
+              "profit_change": "赤字",
+              "profit_label": null,
+              "note": "万博関連など大型案件の終了で売上高21.6%減、営業損失23.2億円",
+              "highlight": false,
+              "article_id": "3f11a1a6-2257-4a0f-b05e-4c0b45eb3e4a",
+              "ir_url": "https://fixer.co.jp/ir/"
+            },
+            {
+              "company": "ベルシステム24ホールディングス",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "732億円",
+              "revenue_change": "+0.0%",
+              "profit": "61.7億円",
+              "profit_change": "+4.4%",
+              "profit_label": null,
+              "note": "コンタクトセンター業務は横ばい、営業利益4.4%増",
+              "highlight": false,
+              "article_id": "375a1148-d78e-4aea-bdc9-9d9c4cbc3361",
+              "ir_url": "https://www.bell24.co.jp/ja/ir/"
+            }
+          ]
+        },
+        {
+          "name": "調剤・ドラッグストア",
+          "items": [
+            {
+              "company": "ツルハホールディングス",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "1兆2,755億円",
+              "revenue_change": "+128.7%",
+              "profit": "548億円",
+              "profit_change": "+92.6%",
+              "profit_label": null,
+              "note": "ウエルシアHDとの経営統合で売上高1兆2,755億円と2.3倍、営業利益92.6%増",
+              "highlight": true,
+              "article_id": "13502abc-b674-4004-b67b-45438811b03c",
+              "ir_url": "https://www.tsuruha-hd.co.jp/ir/p/news/"
+            },
+            {
+              "company": "Genky DrugStores",
+              "period": "2027年6月期 第1四半期",
+              "revenue": "595.0億円",
+              "revenue_change": "+6.2%",
+              "profit": "27.6億円",
+              "profit_change": "△5.3%",
+              "profit_label": null,
+              "note": "R店9店の出店で6.2%増収も、人件費・開店費用で営業利益5.3%減",
+              "highlight": false,
+              "article_id": "8db637c0-c5e4-4da9-9dde-f1c42f137cdb",
+              "ir_url": "https://genky.co.jp/ir/"
+            },
+            {
+              "company": "カワチ薬品",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "1,441億円",
+              "revenue_change": "-0.8%",
+              "profit": "30.1億円",
+              "profit_change": "-6.2%",
+              "profit_label": null,
+              "note": "夏場の天候不順で季節商材が低迷し減収減益、通期の売上高予想を下方修正",
+              "highlight": false,
+              "article_id": "b4876115-dbb7-402b-8614-127a111e98c2",
+              "ir_url": "https://www.cawachi.co.jp/ir/"
+            },
+            {
+              "company": "コスモス薬品",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "2,867億円",
+              "revenue_change": "+5.2%",
+              "profit": "120億円",
+              "profit_change": "+3.1%",
+              "profit_label": null,
+              "note": "一般食品が売上の63.0%に拡大し5.2%増収",
+              "highlight": false,
+              "article_id": "ef451bd4-923d-478c-84a1-6f3dc13d90af",
+              "ir_url": "https://www.cosmospc.co.jp/ir/ir_new/"
+            },
+            {
+              "company": "メディカル一光グループ",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "283億円",
+              "revenue_change": "+4.9%",
+              "profit": "8.2億円",
+              "profit_change": "+10.4%",
+              "profit_label": null,
+              "note": "グループ入りした医薬品卸3社が寄与し営業利益10.4%増",
+              "highlight": false,
+              "article_id": "d69e53ce-51e1-409e-8948-f964aad16c65",
+              "ir_url": "https://www.m-ikkou.co.jp/ir/library/release/"
+            },
+            {
+              "company": "スギホールディングス",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "5,407億円",
+              "revenue_change": "+8.1%",
+              "profit": "247億円",
+              "profit_change": "+4.4%",
+              "profit_label": null,
+              "note": "上期に60店を出店して2,360店、売上高8.1%増",
+              "highlight": false,
+              "article_id": "bbe8f074-5548-4a70-8fbc-ffcbbb95f779",
+              "ir_url": "https://www.sugi-hd.co.jp/news/"
+            },
+            {
+              "company": "薬王堂ホールディングス",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "898億円",
+              "revenue_change": "+8.4%",
+              "profit": "32.9億円",
+              "profit_change": "-5.3%",
+              "profit_label": null,
+              "note": "フード・ホーム部門が伸びて増収も、営業利益は5.3%減",
+              "highlight": false,
+              "article_id": "55da6316-fb40-4d56-9f23-f8a98f3a2b03",
+              "ir_url": "https://www.yakuodo-hd.co.jp/ir/news/"
+            },
+            {
+              "company": "クリエイトSDホールディングス",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "1,295億円",
+              "revenue_change": "+6.5%",
+              "profit": "54.0億円",
+              "profit_change": "-4.1%",
+              "profit_label": null,
+              "note": "調剤薬局が14.0%増収、営業利益は4.1%減",
+              "highlight": false,
+              "article_id": "500c0e52-57dc-4cda-9d14-51f7e616500d",
+              "ir_url": "https://www.createsdhd.co.jp/irnews/"
+            },
+            {
+              "company": "クスリのアオキホールディングス",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "1,590億円",
+              "revenue_change": "+13.8%",
+              "profit": "84.2億円",
+              "profit_change": "+16.0%",
+              "profit_label": null,
+              "note": "生鮮42.8%増など食品が牽引し営業利益16.0%増",
+              "highlight": false,
+              "article_id": "3a2dd881-d45f-41b9-b83f-dc36f4394242",
+              "ir_url": "https://kusuri-aoki-hd.co.jp/news/?news_tab=ir"
+            }
+          ]
+        },
+        {
+          "name": "医薬品卸",
+          "items": [
+            {
+              "company": "アステナホールディングス",
+              "period": "2026年11月期 第3四半期（累計）",
+              "revenue": "522億円",
+              "revenue_change": "+14.9%",
+              "profit": "30.1億円",
+              "profit_change": "+7.3%",
+              "profit_label": null,
+              "note": "池田物産グループの連結でHBC・食品が39.9%増収、営業利益7.3%増",
+              "highlight": false,
+              "article_id": "9029f6fa-bd7e-4c0e-8813-9cd44e94c60a",
+              "ir_url": "https://www.astena-hd.com/ir/ir_news.html"
+            }
+          ]
+        },
+        {
+          "name": "医療・介護サービス",
+          "items": [
+            {
+              "company": "ジェイフロンティア",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "59.0億円",
+              "revenue_change": "+18.0%",
+              "profit": "0.8億円",
+              "profit_change": "黒字転換",
+              "profit_label": null,
+              "note": "SOKUYAKUのクリニック・薬局向け料金改定で収益性が向上、営業利益0.8億円に黒字転換",
+              "highlight": true,
+              "article_id": "bbf1abb7-2d3a-4b4d-a897-6402d372d464",
+              "ir_url": "https://www.jfrontier.jp/ir/"
+            },
+            {
+              "company": "エラン",
+              "period": "2026年12月期 第3四半期（累計）",
+              "revenue": "450.3億円",
+              "revenue_change": "+10.5%",
+              "profit": "39.7億円",
+              "profit_change": "+31.2%",
+              "profit_label": null,
+              "note": "CSセットの導入施設が2,972施設に純増し営業利益31.2%増",
+              "highlight": false,
+              "article_id": "a25cd95e-cf21-4c1d-98b0-ff7de07eb371",
+              "ir_url": "https://www.kkelan.com/ir/"
+            },
+            {
+              "company": "日本ケアサプライ",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "187.9億円",
+              "revenue_change": "+9.9%",
+              "profit": "18.5億円",
+              "profit_change": "+19.6%",
+              "profit_label": null,
+              "note": "福祉用具レンタル卸が堅調で営業利益19.6%増",
+              "highlight": false,
+              "article_id": "deb4105e-2458-4e19-a42d-a089ede81d80",
+              "ir_url": "https://www.caresupply.co.jp/ir/"
+            },
+            {
+              "company": "シーユーシー",
+              "period": "2027年3月期 第2四半期（中間期）",
+              "revenue": "287.4億円",
+              "revenue_change": "+9.3%",
+              "profit": "9.5億円",
+              "profit_change": "-44.7%",
+              "profit_label": null,
+              "note": "医療機関支援は16%増収も、ホスピスが赤字に転じ営業利益44.7%減",
+              "highlight": false,
+              "article_id": "72a1e8f8-bce5-47c0-a73a-07945366cdb1",
+              "ir_url": "https://www.cuc-jpn.com/ir/"
+            },
+            {
+              "company": "トーカイ",
+              "period": "2027年3月期 通期業績予想（修正後。増減率は前回予想比）",
+              "revenue": "1,680億円",
+              "revenue_change": "+1.6%",
+              "profit": "103億円",
+              "profit_change": "+14.5%",
+              "profit_label": null,
+              "note": "調剤の処方箋単価の上振れとシルバー事業の効率運用で通期営業利益予想を上方修正",
+              "highlight": false,
+              "article_id": "d20d923d-9ec8-4c03-a146-45e43bcef288",
+              "ir_url": "https://www.tokai-corp.com/finance/news/"
+            },
+            {
+              "company": "D&Mカンパニー",
+              "period": "2027年5月期 第1四半期",
+              "revenue": "4.3億円",
+              "revenue_change": "-1.7%",
+              "profit": "1.1億円",
+              "profit_change": "+100.7%",
+              "profit_label": null,
+              "note": "M&Aアドバイザリーなどコンサルティングが伸び営業利益2倍",
+              "highlight": false,
+              "article_id": "57e6933e-ecb0-425c-99bb-5d62114b9d60",
+              "ir_url": "https://www.dmcompany.co.jp/ir/news"
+            }
+          ]
+        },
+        {
+          "name": "フィットネス・ウェルネス",
+          "items": [
+            {
+              "company": "TENTIAL",
+              "period": "2026年8月期（通期）",
+              "revenue": "332億円",
+              "revenue_change": null,
+              "profit": "38.2億円",
+              "profit_change": null,
+              "profit_label": null,
+              "note": "リカバリーウェア274億円、寝具が164%増で売上高332億円",
+              "highlight": false,
+              "article_id": "f8c404c2-8839-4d24-a99b-2f092f4a9757",
+              "ir_url": "https://corp.tential.jp/ir/"
+            },
+            {
+              "company": "カーブスホールディングス",
+              "period": "2026年8月期（通期）",
+              "revenue": "434億円",
+              "revenue_change": "+15.5%",
+              "profit": "77.6億円",
+              "profit_change": "+22.3%",
+              "profit_label": null,
+              "note": "会員数89.5万人と過去最高、会費改定で営業利益22.3%増",
+              "highlight": false,
+              "article_id": "fa40779b-7efa-4471-a0f0-e363fa287b02",
+              "ir_url": "https://www.curvesholdings.co.jp/ir/"
+            }
+          ]
+        },
+        {
+          "name": "その他",
+          "items": [
+            {
+              "company": "メディパルHD",
+              "period": "2027年3月期 通期予想（2026年4月〜2027年3月）",
+              "revenue": "3兆9,440億円",
+              "revenue_change": "据え置き",
+              "profit": "535億円",
+              "profit_change": "据え置き",
+              "profit_label": "営業利益（通期予想）",
+              "note": "通期の純利益予想を430億円から530億円に引き上げ",
+              "highlight": false,
+              "article_id": "a50e4b8f-1e0e-4f35-94db-1dfa4363ea2f",
+              "ir_url": "https://www.medipal.co.jp/ir/"
+            },
+            {
+              "company": "幸和製作所",
+              "period": "2027年2月期 第2四半期（中間期）",
+              "revenue": "35.2億円",
+              "revenue_change": "+5.5%",
+              "profit": "5.6億円",
+              "profit_change": "+47.5%",
+              "profit_label": null,
+              "note": "歩行車のリピート受注で9.0%増収、営業利益47.5%増",
+              "highlight": false,
+              "article_id": "44931367-355b-4592-97f9-510e0158c3f5",
+              "ir_url": null
+            },
+            {
+              "company": "ナガイレーベン",
+              "period": "2026年8月期（通期）",
+              "revenue": "172億円",
+              "revenue_change": "+1.3%",
+              "profit": "36.3億円",
+              "profit_change": "+1.2%",
+              "profit_label": null,
+              "note": "ミッフィー新商品群で第4四半期に回復、通期は微増収微増益",
+              "highlight": false,
+              "article_id": "a243124a-9420-46be-8c8c-383954eeb381",
+              "ir_url": null
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-31T21:25:58.168Z"
+    }
+  ]
 }

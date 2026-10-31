@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-10-31T02:29:03.867Z",
+  "updated_at": "2026-10-31T08:27:42.203Z",
   "articles": [
+    {
+      "id": "7202a0e7-d41a-4403-b96e-bd0cc79563a3",
+      "created_at": "2026-10-31T08:27:42.203Z",
+      "published_date": "2026-10-31",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】免疫・炎症領域の二重特異性抗体を開発するBambusa Therapeutics、規模を拡大したIPOで1億6,890万ドル（約267億円）を調達し10月30日にナスダック上場。アトピー性皮膚炎向けのIL-4Rα×IL-31抗体BBT001など、既存抗体2本分の作用を1分子の皮下注にまとめる設計",
+      "source_name": "Bambusa Therapeutics",
+      "source_url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS1836286/Bambusa-Therapeutics-Logo.jpg?id=OA3048842&p=facebook",
+      "summary": [
+        "米ボストンのBambusa Therapeutics（ナスダック: BBTX）は10月29日、規模を拡大した新規株式公開（IPO）の条件を決めたと発表した。普通株1,055万5,555株を1株16ドルで売り出し、調達総額（引受手数料等控除前）は1億6,888万8,880ドル（約267億円）。引受団には30日間で最大158万3,333株を追加購入するオプションを付与した。株式は10月30日にナスダック・グローバル・セレクト・マーケットで取引を開始し、11月2日に払い込み完了の予定。主幹事はBofA証券、エバコアISI、UBS、カンターの4社。",
+        "同社は免疫・炎症領域で、長時間作用型の二重特異性抗体を開発する臨床段階のバイオ企業。外部の先端的な抗体エンジニアリングと、臨床・商業的に実証済みの生物学的経路を1つの分子に組み合わせ、高濃度の皮下注製剤にすることで、既存の単剤抗体を超える持続性・利便性・臨床的な差別化を狙う。",
+        "パイプラインは、アトピー性皮膚炎などの炎症性皮膚疾患を対象にIL-4RαとIL-31を標的とするBBT001、2型炎症疾患を対象にIL-4RαとIL-5を標的とするBBT002（いずれも臨床開発中）と、消化器疾患向けのBBT003、自己抗体が関与する自己免疫疾患向けのBBT004（前臨床）。IL-4Rαはデュピクセント、IL-31はネモリズマブ、IL-5はメポリズマブなど既存薬で検証済みの標的で、それらを1剤で押さえる設計となる。"
+      ],
+      "comment": "抗体の新しい標的を探すのではなく、既に薬として成功した標的を2つ束ねる「組み合わせ特許」型のバイオがIPOで267億円を集めました。注目したのは、上市済みのデュピクセントやネモリズマブと同じ経路を狙う点で、有効性の読みやすさを投資家が買っています。アッヴィがアポジーを買ったばかりの免疫領域で、長時間作用の皮下注という便利さが差別化になるかが、臨床で問われます。",
+      "quote": {
+        "text": "The company combines third-party, advanced antibody engineering and clinically and commercially validated biologic pathways into a single molecule formulated for high-concentration subcutaneous delivery to improve durability, convenience, and clinical differentiation beyond the current capabilities of existing monotherapies.",
+        "source": "Bambusa Therapeutics（IPO価格決定のプレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+      },
+      "company": {
+        "name": "Bambusa Therapeutics",
+        "listed": "Nasdaq（BBTX、2026年10月30日上場）",
+        "profile": "米マサチューセッツ州ボストン。免疫・炎症疾患を対象に、検証済みの2つの標的を1分子で押さえる長時間作用型の二重特異性抗体を開発する臨床段階のバイオ企業。IL-4Rα×IL-31のBBT001、IL-4Rα×IL-5のBBT002が臨床段階。",
+        "url": "https://www.bambusatx.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-10-31T08:27:42.203Z"
+    },
     {
       "id": "d4f9d391-b07a-4e3f-974c-2cc6862d3df7",
       "created_at": "2026-10-31T02:29:03.867Z",

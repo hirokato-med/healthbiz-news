@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-30T12:28:38.309Z",
+  "updated_at": "2026-10-31T02:26:55.787Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1031vol159anthropic109ai",
+      "title": "10月31日（土）vol.159：Anthropic、米国で上場を申請、目論見書に「製薬10社のうち9社が顧客」と「AIの誤りが患者の害につながりうる」と記載",
+      "url": "https://hiroakikato.substack.com/p/1031vol159anthropic109ai",
+      "published_date": "2026-10-31",
+      "excerpt": "土曜日です。今日はAI企業・Anthropicの上場の話です！！\n9月25日のメルマガでOuraの上場、9月28日のメルマガでレイヤードの上場を書きました。\n今日はその続きで、Claudeを作っているAnthropicが米国で上場の申請書を出したので、その中に医療がどう書かれているかを読んでいきます。\nそれでは、今日のニュースです！！\n◆Anthropic, PBC　Form S-1（米国証券取引委員会、2026年10月26日提出）\nhttps://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpb…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!eaZb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb354a65-d725-4b3c-8154-3a93ec077ae9_1025x617.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1030vol158applefda",
       "title": "10月30日（金）vol.158：Apple、FDAで取った医療機器の承認、日本に持ってくると「医療機器でない」",

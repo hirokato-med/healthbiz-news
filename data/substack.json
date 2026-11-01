@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-31T12:26:32.233Z",
+  "updated_at": "2026-11-01T02:27:11.750Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/111vol160googleaiaiai",
+      "title": "11月1日（日）vol.160：Google、シンガポールの公的医療にAIをまとめて入れる、病院は「AIの共同臨床医」を試し、国は住民にAIコーチを配り、国の側は「エビデンスが出るまで実臨床に出さない」と宣言",
+      "url": "https://hiroakikato.substack.com/p/111vol160googleaiaiai",
+      "published_date": "2026-11-01",
+      "excerpt": "11月になりました。今日はGoogleと国の話です！！\n10月23日のメルマガで、Googleが「個人の健康エージェント」の設計図をNatureに出した話を書きました。\n今日はその設計図が、論文の外に出て、一つの国の医療の中に入り始めました。\nそれでは、今日のニュースです！！\n◆Partnering with Singapore to bring frontier AI to public health（Google、2026年10月29日）\n　https://blog.google/innovation-and-ai/technology/health/google-for-health-s…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!dwXK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37f53fd3-f90f-4818-a8d3-fb76a8783953_873x418.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1031vol159anthropic109ai",
       "title": "10月31日（土）vol.159：Anthropic、米国で上場を申請、目論見書に「製薬10社のうち9社が顧客」と「AIの誤りが患者の害につながりうる」と記載",

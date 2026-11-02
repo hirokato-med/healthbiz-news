@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-02T08:41:05.239Z",
+  "updated_at": "2026-11-02T12:43:06.754Z",
   "articles": [
+    {
+      "id": "320358d6-baff-479e-b2b3-1c48f6ef1619",
+      "created_at": "2026-11-02T12:43:06.754Z",
+      "published_date": "2026-11-02",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】多発性骨髄腫薬「XPOVIO」のカリオファーム、米連邦破産法11条を申請し、ガミダセル親会社のAyrmidとの合併で再建へ。最大5,500万ドル（約87億円）のDIP融資、2027年1〜3月の完了を見込む",
+      "source_name": "Karyopharm Therapeutics",
+      "source_url": "https://www.prnewswire.com/news-releases/karyopharm-therapeutics-inc-announces-planned-merger-with-ayrmid-ltd-to-strengthen-company-for-the-future-302926356.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2025019/Karyopharm-Therapeutics-Logo.jpg?id=OA3051260&p=facebook",
+      "summary": [
+        "Karyopharm Therapeutics（米マサチューセッツ州ニュートン、Nasdaq: KPTI）は11月2日、既存の貸し手・社債保有者らと再建支援契約を結び、再建後のKaryopharmとAyrmid Ltd.が合併する取引を実施するため、テキサス州南部地区の連邦破産裁判所に米連邦破産法第11章（チャプター11）の適用を申請したと発表した。チャプター11の計画を通じて取引を完了する見込みで、裁判所に入札手続きの承認を求め、他社による対抗提案も受け付ける。完了は2027年第1四半期を見込む。",
+        "既存の担保付き貸し手から最大5,500万ドル（約87億円）のDIP（占有継続債務者）融資のコミットメントを得ており、事業からの現金と合わせて手続き中の事業運営と支払いに充てる。通常どおり事業を続け、多発性骨髄腫と骨髄線維症のプログラムを進めるとしている。主力のXPOVIO（セリネクソール）は初のXPO1阻害薬で、米国で再発・難治性多発性骨髄腫に承認され、米国外50超の国・地域でXPOVIOまたはNEXPOVIOとして承認されている。日本では小野薬品工業が「エクスポビオ」として販売する。",
+        "Ayrmidは、FDA承認製品として臍帯血由来の細胞療法Omisirgeと造血幹細胞動員薬APHEXDAを持つGamida Cellの親会社で、米国の販売体制と米国外の流通網を持つ血液領域の商業段階バイオ企業。会長兼CEOのJoe Wiley氏は、両社のポートフォリオと販売体制は補完的で、より大きな血液疾患の商業企業を作れると述べた。Karyopharmの投資銀行はCenterview Partners、Ayrmidの法律顧問はPaul Hastings。"
+      ],
+      "comment": "承認薬を持つ製薬会社が、破産法を使って合併する形です。自分が注目したのは、「資産の売却ではなく、債権者と先に合意した上での合併をチャプター11で実行するところ」です。XPOVIOは売れてはいるものの、開発費と負債を支えるには足りなかった。日本では小野薬品がエクスポビオを販売しており、供給元の再建がどう進むかは国内の患者にも関わる話だと思います。",
+      "quote": {
+        "text": "Following a comprehensive review of available alternatives, we believe this process provides a clear framework to pursue a value maximizing transaction for our stakeholders while continuing our important work of advancing therapies for patients with multiple myeloma and myelofibrosis.",
+        "source": "Richard Paulson（Karyopharm 社長兼CEO、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/karyopharm-therapeutics-inc-announces-planned-merger-with-ayrmid-ltd-to-strengthen-company-for-the-future-302926356.html"
+      },
+      "company": {
+        "name": "Karyopharm Therapeutics（カリオファーム）",
+        "listed": "Nasdaq（KPTI）",
+        "profile": "米マサチューセッツ州ニュートン。核外輸送阻害の科学を基盤にがん治療薬を開発する商業段階の製薬会社。主力は初のXPO1阻害薬XPOVIO（セリネクソール）で、米国で再発・難治性多発性骨髄腫に承認、米国外50超の国・地域で承認。骨髄線維症への開発と次世代化合物エルタネクソールを進める。2026年11月に連邦破産法11条を申請し、Ayrmidとの合併による再建を目指す。",
+        "url": "https://www.karyopharm.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-02T12:43:06.754Z"
+    },
+    {
+      "id": "b6c9ccee-676d-48e8-99f8-bdf0ab0ffd76",
+      "created_at": "2026-11-02T12:43:06.754Z",
+      "published_date": "2026-11-02",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】Concept Medicalのシロリムス・コーテッドバルーン「MagicTouch」、1,842例の無作為化試験TRANSFORM IIで薬剤溶出ステントに非劣性。1年の標的病変不全は2.1%対2.4%で、金属を残さない治療がTCTで発表されLancetに受理",
+      "source_name": "Concept Medical",
+      "source_url": "https://www.prnewswire.com/news-releases/sirolimus-coated-balloon-matches-drug-eluting-stent-at-one-year-in-large-international-transform-ii-trial-302926334.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2025336/1793599924615.jpg?id=OA3052144&p=facebook",
+      "summary": [
+        "米Concept Medical（フロリダ州タンパ）のシロリムス・コーテッドバルーン（SCB）「MagicTouch」を、新規の冠動脈病変で最新のエベロリムス溶出ステント（EES）と比べた医師主導の無作為化非劣性試験TRANSFORM IIの結果が、11月1日に米サンディエゴのTCT 2026でレイトブレイキング試験として発表され、Lancet誌に受理された。欧州・アジア・南米の11カ国53施設で1,842例を登録し、病変の前拡張が成功した後に1:1で割り付けた。",
+        "12カ月の標的病変不全（心臓死・標的血管心筋梗塞・虚血による標的病変再血行再建の複合）はSCB群2.1%、EES群2.4%（ハザード比0.86）で、リスク差−0.40ポイントの片側上限0.78ポイントは事前に定めた1.5ポイントの非劣性マージンを下回った（非劣性のP=0.004）。SCB群でベイルアウトのステント留置が必要だったのは7.6%。病変血栓症はSCB群0%、EES群0.2%、出血を含む正味の有害事象は4.1%対5.3%。標的病変の再血行再建全体はSCB群が2.5%対1.1%と多かったが、虚血によるものは0.9%対0.8%で同程度だった。",
+        "対象は血管径2.0〜3.5mm・病変長50mm以下で、約半数が急性冠症候群、3分の1超が糖尿病、約3分の1が高出血リスクだった。高度石灰化・左主幹部・血栓性・STEMIの病変は含まず、追跡は5年まで続ける。試験はミラノのFondazione Ricerca e Innovazione Cardiovascolareが実施し、Concept Medicalは使途を限定しない研究助成を提供したが、設計・解析・報告には関与していない。MagicTouchはCEマーク取得済みで、米国ではFDAのブレークスルーデバイス指定を受け治験中。"
+      ],
+      "comment": "冠動脈の治療は、金属のステントを置くのが長く標準でした。自分が注目したのは、「よく前拡張した病変なら、金属を残さない薬剤バルーンでステントと同じ1年成績が出たところ」です。1,842例で非劣性が示されたので、小血管以外にも使う議論が始まる。ステント各社にとっては自社の売上を食う技術で、日本でも薬剤コーテッドバルーンの適応を広げる動きが出てくると思います。",
+      "quote": {
+        "text": "TRANSFORM II shows that when a lesion is well prepared, treating it with a sirolimus-coated balloon, without leaving a permanent metal implant, gives one-year clinical outcomes comparable to a modern drug-eluting stent.",
+        "source": "Bernardo Cortese（TRANSFORM II 治験責任医師、Fondazione Ricerca e Innovazione Cardiovascolare、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/sirolimus-coated-balloon-matches-drug-eluting-stent-at-one-year-in-large-international-transform-ii-trial-302926334.html"
+      },
+      "company": {
+        "name": "Concept Medical",
+        "profile": "米フロリダ州タンパ。薬剤を血管壁に届けるドラッグデリバリー技術の医療機器会社。ナノ粒子化したシロリムスを運ぶ「MagicTouch」シリーズのドラッグコーテッドバルーン（冠動脈用SCB、透析シャント用AVF、ED用、末梢用PTA）と薬剤溶出ステントABLUMINUSを手がけ、80カ国超で販売。MagicTouch SCBはCEマークを取得し、米国では小血管とステント内再狭窄でFDAのブレークスルーデバイス指定を受けて治験中。未上場。",
+        "url": "https://www.conceptmedical.com/",
+        "ceo": {
+          "name": "Manish Doshi",
+          "bio": "会社サイトの経営陣欄に名前のみ掲載。役職と経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-02T12:43:06.754Z"
+    },
     {
       "id": "3359f8a5-62f5-4078-8370-19253b98a950",
       "created_at": "2026-11-02T08:41:05.239Z",

@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-03T02:32:00.387Z",
+  "updated_at": "2026-11-03T12:28:54.232Z",
   "articles": [
+    {
+      "id": "733b2512-3649-45c4-8cdb-78267b37a158",
+      "created_at": "2026-11-03T12:28:54.232Z",
+      "published_date": "2026-11-03",
+      "category": "global",
+      "featured": false,
+      "title": "【ドイツ】透析最大手フレゼニウス・メディカル・ケア、2026年第3四半期は売上高49億3,700万ユーロ（約9,100億円）で1%増、営業利益は19%減。米国の透析薬償還ルール変更と中国事業の縮小が重く、通期の営業利益見通しを下半分に絞る。新CEOは「現状の評価は控えめ」",
+      "source_name": "Fresenius Medical Care",
+      "source_url": "https://www.prnewswire.com/news-releases/fresenius-medical-care-reports-third-quarter-2026-performance-partially-offsetting-headwinds-and-narrowing-full-year-outlook-302927537.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS811832/FMC-Logo.jpg?id=OA3054103&p=facebook",
+      "summary": [
+        "透析の製品とサービスで世界最大のフレゼニウス・メディカル・ケア（独バート・ホンブルク）は11月3日、2026年第3四半期（7〜9月）の決算を発表した。売上高は49億3,700万ユーロ（約9,100億円、1ユーロ185円換算）で前年同期比1%増（為替一定で1%減）、営業利益は3億8,400万ユーロで19%減、純利益は1億6,000万ユーロで42%減。特別項目を除く営業利益は5億4,500万ユーロで5%減、営業利益率は11.0%（前年11.7%）だった。",
+        "透析サービスのCare Deliveryは売上高34億9,200万ユーロ（3%増）で、米国は29億2,000万ユーロ（3%増）だが、新薬を一時的に別枠で償還する米国のTDAPA制度の影響が逆風となり、米国の既存市場の治療件数は1.1%減。特別項目を除く同部門の営業利益は4%増、TDAPAの影響を除いた基礎的な増益率は21%としている。製品事業のCare Enablementは新型透析装置「5008X CAREsystem」の販売で14億5,100万ユーロ（7%増）。中国では透析装置4008Aの現地生産・販売をやめ、腹膜透析事業から撤退し、1億800万ユーロの一時費用を計上した。",
+        "5008Xは2026年初の発売以来、米国クリニックの透析装置の約16%を置き換え、348施設で130万回の治療を実施し、うち血液透析濾過（HDF）は50万回超、高容量HDFは30万回超。10月には急性腎障害向けの持続的腎代替療法装置multiFiltratePROを米国で発売した。通期見通しは売上高をおおむね横ばいのまま、特別項目を除く営業利益を「横ばいから1桁台半ばのマイナス」に絞った。10月に就任したシャービン・コランギーCEOは「現状の評価は控えめで、時間をかけて軌道を改善する」と述べた。約10億ユーロの自社株買いは9月末までに3億5,700万ユーロを実施。"
+      ],
+      "comment": "世界最大の透析会社の決算で、売上は横ばい、営業利益は2割減です。自分が注目したのは、「米国で新薬を別枠で払うTDAPAの仕組みが、透析クリニックの収入を押し下げているところ」です。透析は患者数が読める安定事業ですが、償還ルール一つで利益が動く。新CEOが就任3週間で「評価は控えめ」と言い切ったのは、FME25+で絞った後に伸ばす種が5008Xしかないからだと思います。",
+      "quote": {
+        "text": "Fresenius Medical Care delivered a quarter of broadly stable revenue and resilient earnings development, as continued underlying performance improvements counter the expected negative effects from TDAPA regulations and increased inflation headwinds.",
+        "source": "Martin Fischer（フレゼニウス・メディカル・ケアCFO、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/fresenius-medical-care-reports-third-quarter-2026-performance-partially-offsetting-headwinds-and-narrowing-full-year-outlook-302927537.html"
+      },
+      "company": {
+        "name": "Fresenius Medical Care（フレゼニウス・メディカル・ケア）",
+        "listed": "フランクフルト証券取引所（FME）、NYSE（FMS）",
+        "profile": "独バート・ホンブルク。腎疾患の製品とサービスで世界最大手。世界3,512カ所の透析クリニックで透析治療を提供し、透析装置・ダイアライザー・薬剤を製造する。2026年からHDF対応の新型装置5008X CAREsystemを米国で展開し、FME25+の構造改革で2027年末までに12億ユーロの削減を目指す。2025年の売上高は196億2,800万ユーロ。",
+        "url": "https://www.freseniusmedicalcare.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T12:28:54.232Z"
+    },
+    {
+      "id": "abd6eb38-d453-40be-8e52-29e9f4a24a9d",
+      "created_at": "2026-11-03T12:28:54.232Z",
+      "published_date": "2026-11-03",
+      "category": "global",
+      "featured": false,
+      "title": "【オランダ】Pie Medical Imaging、冠動脈造影の画像から血流を推定する「CAAS vFFR」で治療を決める戦略が、1,053例の無作為化試験LIPSIA-STRATEGYでプレッシャーワイヤーによるFFRに非劣性。TCTで発表、JACCに掲載",
+      "source_name": "Pie Medical Imaging",
+      "source_url": "https://www.prnewswire.com/news-releases/lipsia-strategy-trial-demonstrates-non-inferiority-of-caas-vffr-guided-revascularization-against-pressure-wire-based-ffr-revascularization-302926403.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2024539/LIPSIA-STRATEGY_PR_Image.jpg?id=OA3050114&p=facebook",
+      "summary": [
+        "心血管画像解析ソフトのPie Medical Imaging（オランダ・マーストリヒト、Esaoteグループ）は11月3日、冠動脈造影の画像から血流予備量比（FFR）を推定する同社の「CAAS vFFR」で血行再建の要否を決める戦略を、プレッシャーワイヤーで直接測る従来のFFRと比べた医師主導の無作為化試験LIPSIA-STRATEGYの結果を発表した。TCT 2026のレイトブレイキング試験として発表され、JACC誌に同時掲載された。",
+        "試験はライプツィヒ大学ハートセンターのHolger Thiele教授が率い、中等度の冠動脈狭窄を持つ1,053例を、vFFRで治療方針を決める群とワイヤーのFFRで決める群に無作為に割り付けた。主要評価項目は1年の主要心血管イベント（MACE）で、vFFR群の非劣性が示され主要評価項目を達成した。同社は、ワイヤーを血管に入れない侵襲の少ない手順と、手技時間・透視時間の短縮を利点として挙げ、先行するFAST III試験の結果を補強するものだとしている。",
+        "Thiele教授は、造影画像に基づくFFRはワイヤー法より簡便で臨床成績は同等であり、中等度狭窄の新しい標準になるべきだと述べた。Pie Medical ImagingはCAASと3mensioの製品群を世界で展開し、イタリアの医用機器メーカーEsaoteグループの一員。CEOはBas Kuppens氏。"
+      ],
+      "comment": "冠動脈のどの狭窄を治療すべきかを決めるFFRは、ワイヤーを血管に通して圧を測るのが標準でした。自分が注目したのは、「造影画像の計算だけで決めても、1年の心血管イベントが同等だったところ」です。ワイヤーと薬剤が不要になれば、1件ごとの材料費と時間が減り、病院の採算は良くなる。圧センサー付きワイヤーを売ってきた機器メーカーにとっては、ソフトに置き換えられる話だと思います。",
+      "quote": {
+        "text": "Angiography-based FFR measurement is easier than wire-based FFR with similar clinical outcome. Thus, this should become the new standard for intermediate coronary artery stenoses.",
+        "source": "Holger Thiele（ライプツィヒ大学ハートセンター、LIPSIA-STRATEGY試験責任者、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/lipsia-strategy-trial-demonstrates-non-inferiority-of-caas-vffr-guided-revascularization-against-pressure-wire-based-ffr-revascularization-302926403.html"
+      },
+      "company": {
+        "name": "Pie Medical Imaging",
+        "profile": "オランダ・マーストリヒト。心血管画像の解析・定量・可視化ソフトの会社で、造影画像からFFRを推定するCAAS vFFRを含むCAAS製品群と、構造的心疾患の術前計画ソフト3mensioを世界で展開する。イタリアの医用機器メーカーEsaoteグループの一員。未上場。",
+        "url": "https://www.piemedicalimaging.com/",
+        "ceo": {
+          "name": "Bas Kuppens",
+          "bio": "CEO。経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T12:28:54.232Z"
+    },
     {
       "id": "65fd9b7e-4c59-44a2-a483-d606d6193a08",
       "created_at": "2026-11-03T02:32:00.387Z",

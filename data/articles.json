@@ -1,6 +1,154 @@
 {
-  "updated_at": "2026-11-02T13:38:16.098Z",
+  "updated_at": "2026-11-03T02:32:00.387Z",
   "articles": [
+    {
+      "id": "65fd9b7e-4c59-44a2-a483-d606d6193a08",
+      "created_at": "2026-11-03T02:32:00.387Z",
+      "published_date": "2026-11-03",
+      "category": "digital",
+      "featured": false,
+      "title": "湘南美容クリニックのSBCメディカルグループ、クリニック向けオールインワンSaaS「medicalforce」のアトミックソフトウェアと資本業務提携し、シリーズCで6億円を出資。自由診療800院超で使われる運営システムに診療記録作成支援などのAI機能を共同開発",
+      "source_name": "PR TIMES",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000400.000097803.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000003.000176667.html",
+      "image_url": "https://sbc-holdings.com/images/ogp.jpg",
+      "summary": [
+        "湘南美容クリニックなど国内外287院（2026年7月末）のクリニックに経営支援を行うSBCメディカルグループホールディングス（米カリフォルニア州アーバイン、Nasdaq: SBC）は11月2日、クリニック向けオールインワンSaaS「medicalforce」を提供するアトミックソフトウェア（東京都品川区）と10月26日付で資本業務提携契約を結び、同社のシリーズCラウンドで6億円を出資したと発表した。",
+        "medicalforceは2021年3月に提供を始め、予約・電子カルテ・会計からCRM、広告効果測定、経営分析までを一元管理するクリニック運営システム。自由診療クリニックを中心に導入は2026年9月時点で800院を超え、継続利用率は99.2%（2026年3月時点）。SBCが経営支援する「肌の青空クリニック」での導入を通じて現場を理解した開発力を評価し、両社は医師の診療記録作成支援をはじめとするAI機能を共同開発し、成果をmedicalforceとSBCの自社クリニック業務システムの双方に取り込む。",
+        "SBCは、医師とスタッフが記録や事務にかける時間を減らして患者に向き合う時間を増やし、限られた人員で1院あたりの生産性と収益性を高めるとしている。新たなクリニックブランドや新業態へのシステム展開も検討し、開院準備の短縮と早期の運営安定化でネットワーク拡大を支える。アトミックソフトウェアは2020年11月設立で、代表取締役2名がエンジニア出身。警備会社向け「警備フォース」など複数産業のバーティカルSaaSも手がける。"
+      ],
+      "comment": "湘南美容クリニックのSBCが、クリニック向けSaaSのアトミックソフトウェアに6億円を出資しました。自分が注目したのは、「自社287院で使うシステムを、外から買うのではなく出資して一緒に作る形にしたところ」です。medicalforceは自由診療の800院で使われていて、SBCの運営データでAIを磨けば、競合クリニックにも同じ製品が広がる。クリニック運営の標準ソフトを握る動きだと思います。",
+      "company": {
+        "name": "SBC Medical Group Holdings（SBCメディカルグループホールディングス）",
+        "listed": "Nasdaq（SBC）",
+        "profile": "米カリフォルニア州アーバイン。湘南美容クリニックをはじめ美容医療、皮膚科、整形外科、不妊治療、婦人科、歯科、AGA、眼科など国内外287院（2026年7月末）のクリニックに経営支援を行うMSO（医療経営支援会社）。2024年9月にNasdaqに上場、2025年6月にラッセル3000に採用。CEOは相川佳之氏。",
+        "url": "https://sbc-holdings.com/jp"
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T02:32:00.387Z"
+    },
+    {
+      "id": "870f0433-28c0-4e2c-849c-c167341be5cb",
+      "created_at": "2026-11-03T02:32:00.387Z",
+      "published_date": "2026-11-03",
+      "category": "digital",
+      "featured": false,
+      "title": "遠隔画像診断支援のViewSend ICT、医療商社のムトウと業務提携し全国展開。放射線科医のいない病院と施設基準を満たす拠点病院をつなぎ、2026年度改定の画像診断管理加算の活用と読影の生成AI・自動化を進める",
+      "source_name": "PR TIMES",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000126973.html",
+      "image_url": "https://www.viewsend-ict.co.jp/wp-content/uploads/2023/04/sn.png",
+      "summary": [
+        "遠隔画像診断支援サービスのViewSend ICT（東京都豊島区）は11月3日、医療・ウエルネス・理化学分野で全国の物流網と営業基盤を持つ医療商社のムトウと業務提携したと発表した。ムトウの全国の医療機関との取引基盤、営業力、医療機器の販売・導入支援のノウハウと、ViewSend ICTの遠隔画像診断支援システム、医療機関間の連携ネットワーク、診療報酬制度を活用した経営改善の提案力を組み合わせ、導入提案から運用支援までを連携して進める。",
+        "役割は、ムトウが全国の医療機関への情報提供と営業提案、医療機器の導入・更新時の課題把握と導入支援、地域の医療機関との継続的な関係構築を担い、ViewSend ICTが遠隔画像診断支援システムと運用体制の提供、連携医療機関の調整と診療報酬に基づく収益試算、AI化・自動化の研究開発を担う。同社のサービスは、自院で撮影したCT・MRIの画像を、施設基準を満たした拠点病院の放射線診断専門医が遠隔で読影する仕組み。",
+        "背景として、地域によって画像診断の専門医の確保が難しい一方、物価・人件費の上昇で病院経営が厳しく、画像診断の質を保ちながら医師の負担軽減と経営改善を両立する仕組みが求められているとし、2026年度診療報酬改定の画像診断管理加算の制度も踏まえて施設基準を満たす医療機関間の連携を支援する。ViewSend ICTは2010年2月設立、資本金1億3,200万円で、14年にわたり保険医療機関間の連携による遠隔画像診断支援を行ってきた。"
+      ],
+      "comment": "遠隔読影の会社が、医療商社の営業網を借りて全国に出ます。自分が注目したのは、「改定後の画像診断管理加算の制度に合わせて、放射線科医のいない病院と拠点病院をつなぐ売り方にしているところ」です。自院に専門医がいない病院は加算が取れず、連携先を探す必要が出てくる。商社にとっては、機器を売ったあとの病院に運用サービスを売る新しい商材だと思います。",
+      "company": {
+        "name": "ViewSend ICT株式会社",
+        "profile": "東京都豊島区西池袋。2010年2月設立、資本金1億3,200万円。自院で撮影したCT・MRIの画像を施設基準を満たした拠点病院の放射線診断専門医が遠隔で読影する遠隔画像診断支援サービスと、PACS（医用画像管理システム）の開発・運営を手がける。未上場。",
+        "url": "https://www.viewsend-ict.co.jp/",
+        "ceo": {
+          "name": "嗣江建栄",
+          "bio": "代表取締役。経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T02:32:00.387Z"
+    },
+    {
+      "id": "ac6bc414-4599-4635-9661-0e832358261a",
+      "created_at": "2026-11-03T02:32:00.387Z",
+      "published_date": "2026-11-03",
+      "category": "global",
+      "featured": false,
+      "title": "【シンガポール】国の精密医療プログラム第3期「SG-INSIGHT」、住民の1割にあたる約45万人の全ゲノムを解読。シーケンサーはイルミナと、ウルティマ・ゲノミクスを中心とする企業連合の2者が国際入札で選ばれる",
+      "source_name": "Illumina",
+      "source_url": "https://www.prnewswire.com/news-releases/illumina-selected-to-help-bring-precision-medicine-into-everyday-healthcare-in-singapore-302927093.html",
+      "source_url_2": "https://www.prnewswire.com/news-releases/ultima-genomics-major-sequencing-award-for-singapores-national-precision-medicine-npm-program-phase-iii-302926879.html",
+      "image_url": "https://content.prnewswire.com/images/prn_facebook_sharing_logo.jpg",
+      "summary": [
+        "イルミナ（Nasdaq: ILMN）は11月2日、シンガポールの国家精密医療（NPM）プログラム第3期のコホート研究「SG-INSIGHT」で全ゲノムシーケンスのサービス提供者に選ばれたと発表した。同研究はシンガポール住民の約1割にあたる約45万人を対象に、ゲノムと診療データをつないで予防的な医療の根拠を作ることを目指す。健康なボランティア中心だった第2期（10万人超の「PRECISE-SG100K」）から、幅広い疾患を持つ患者へ対象を移すのが特徴で、公的医療制度への遺伝学的スクリーニングの導入を支える。",
+        "イルミナは国際競争入札で選ばれ、製造・研究開発拠点と同じ敷地にあるシンガポールのゲノミクス施設で検体調製からシーケンス、解析まで行い、同国の医療サービス法（HCSA）に基づく認定を目指す。同社は2008年にシンガポールに進出し、アジア太平洋の地域本社として1,700人超を雇用している。",
+        "同日、米ウルティマ・ゲノミクス（カリフォルニア州フリーモント）も、現地の精密医療企業Lucenceが率いQIAGENが参加する企業連合の一員として、UG200シーケンサーとSolaris 2.0試薬がSG-INSIGHTに選ばれたと発表した。Lucenceが臨床プログラムの運営、QIAGENが検体調製と自動化、ウルティマがシーケンスと解析を担う。第3期はNHG Health、国立大学病院システム（NUHS）、SingHealthの3つの公的医療クラスターの患者を含み、PRECISEが全体を調整する。"
+      ],
+      "comment": "シンガポールが、国民の1割にあたる45万人の全ゲノムを読む計画です。自分が注目したのは、「健康な人の研究から、公的医療を受けている患者のデータに対象を移したところ」です。病気の人のゲノムと診療データをつなぐと、どの検査を保険で払うかを決める根拠になる。読む側はイルミナと新興のウルティマが入札で選ばれ、費用を下げる競争が始まっている。日本のゲノム医療にも参考になる進め方だと思います。",
+      "quote": {
+        "text": "By bringing genomic information closer to everyday healthcare, this programme has the potential to advance understanding of disease, generate evidence that support more informed care decisions, and ultimately move healthcare toward earlier, more precise intervention.",
+        "source": "Jacob Thaysen（イルミナCEO、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/illumina-selected-to-help-bring-precision-medicine-into-everyday-healthcare-in-singapore-302927093.html"
+      },
+      "company": {
+        "name": "Illumina（イルミナ）",
+        "listed": "Nasdaq（ILMN）",
+        "profile": "米カリフォルニア州サンディエゴ。次世代シーケンサーの最大手で、研究用・臨床用のシーケンサーと試薬、解析ソフトを提供。シンガポールに2008年進出し、アジア太平洋の地域本社と製造・研究開発拠点を置く。NPM第2期の10万ゲノム解読も担った。",
+        "url": "https://www.illumina.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T02:32:00.387Z"
+    },
+    {
+      "id": "c5a4fd3d-f6e3-4e05-98d7-b11461491b35",
+      "created_at": "2026-11-03T02:32:00.387Z",
+      "published_date": "2026-11-03",
+      "category": "global",
+      "featured": false,
+      "title": "【スウェーデン】レケンビ共同開発元のバイオアークティック、脳への薬物送達技術「BrainTransporter」をめぐるノバルティスとの提携を解消。ノバルティス側のプログラム中止が理由で、契約一時金3,000万ドル（約47億円）は全額保持し2026年に収益計上",
+      "source_name": "BioArctic",
+      "source_url": "https://www.prnewswire.com/news-releases/bioarctic-collaborator-novartis-terminates-agreement-302926980.html",
+      "image_url": "https://www.bioarctic.com/en/wp-content/uploads/sites/2/2023/02/bio-og-768x403.jpg",
+      "summary": [
+        "スウェーデンのバイオアークティック（Nasdaq Stockholm: BIOA B）は11月2日、ノバルティスから、2025年8月に結んだオプション・共同研究・ライセンス契約を解消する通知を受けたと発表した。契約は、同社の脳内送達技術「BrainTransporter」とノバルティスの未公表の抗体を組み合わせた新しい治療法を探るもので、解消はノバルティスがそのプログラムを中止すると決めたことによるもので、BrainTransporter技術とは無関係だとしている。",
+        "バイオアークティックは契約一時金3,000万ドル（約47億円）を全額保持し、解消に伴い未認識だった残りの部分を2026年の収益として計上する。BrainTransporterはトランスフェリン受容体（TfR）を使って薬を血液脳関門の内側に運ぶ技術で、抗体などの生物学的製剤や他のモダリティを脳に届ける用途に幅広く使える。同社はこの技術でこれまでに5件の提携契約を結んでいる。",
+        "同社は、エーザイと共同開発した早期アルツハイマー病治療薬レケンビ（レカネマブ）の発明元で、エーザイが世界の規制対応と販売を担う。パーキンソン病やALSに対する抗体、アルツハイマー病の追加プロジェクトも持ち、複数のプロジェクトにBrainTransporterを適用している。本件はEU市場濫用規則に基づく開示。"
+      ],
+      "comment": "エーザイのレケンビの共同開発元が持つ、脳へ薬を届ける技術の提携が1つ終わりました。自分が注目したのは、「ノバルティス側のプログラム中止が理由で、契約金3,000万ドルはそのまま手元に残るところ」です。プラットフォーム型の提携は、相手の都合で切れても金が残る契約にしておくことが肝で、同じ技術で5件の提携を持つ同社にとっては1件分の減りにとどまる。技術そのものの評価が下がった話ではないと思います。",
+      "quote": {
+        "text": "BioArctic will retain the full USD 30 million upfront payment and, as a result of the termination, will recognize the remaining unrecognized portion as revenue in 2026.",
+        "source": "BioArctic（プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/bioarctic-collaborator-novartis-terminates-agreement-302926980.html"
+      },
+      "company": {
+        "name": "BioArctic（バイオアークティック）",
+        "listed": "Nasdaq Stockholm（BIOA B）",
+        "profile": "スウェーデン・ストックホルム。神経変性疾患の進行を遅らせる治療薬を開発する研究型バイオ製薬。早期アルツハイマー病治療薬レケンビ（レカネマブ）を発明し、パートナーのエーザイが規制対応と販売を担う。脳内送達技術BrainTransporterで5件の提携を持ち、パーキンソン病・ALS向け抗体も開発する。",
+        "url": "https://www.bioarctic.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T02:32:00.387Z"
+    },
+    {
+      "id": "6140bfce-b855-4229-b02a-44d078622deb",
+      "created_at": "2026-11-03T02:32:00.387Z",
+      "published_date": "2026-11-03",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】医療向け音声AIのHippocratic AI、第6世代モデル「Polaris 6 Ultra」を値下げして提供。患者の感情を読んで話しながら次の一言を考える「ベッドサイドの直感」、薬名の聞き取り精度の改善、応答は前世代の1.3倍速",
+      "source_name": "Hippocratic AI",
+      "source_url": "https://www.prnewswire.com/news-releases/hippocratic-ai-unveils-polaris-6-ultra-the-first-healthcare-model-with-bedside-intuition-built-on-real-life-experience-with-lower-pricing-302926986.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS1828859/5825165cMAIN-Hippocratic-Logo-Full-Color-Logo.jpg?id=OA3053344&p=facebook",
+      "summary": [
+        "米Hippocratic AI（カリフォルニア州メンローパーク）は11月2日、医療向け音声AIエージェントの基盤となる大規模言語モデルの新世代「Polaris 6 Ultra」を発表した。患者の感情の状態を読み、前の文の音声を再生している間に次に何を言うかを考える「ベッドサイドの直感」を備え、応答までの時間は278ミリ秒を維持する。3億2,300万件超の患者との会話から構築したとしている。",
+        "音声は息づかいや間、テンポをモデル自身が制御し、自社開発の音声合成は評価した629の薬剤名の90%を正しく発音（主要な商用音声合成は75%）。聞き取りを担う音声LLMは、臨床医が確認した2,778件の本番通話で、薬剤名や症状の聞き間違いを100件あたり1.19件から0.20件に、数字・名前・メールアドレスの聞き間違いを0.57件から0件に減らした。主モデル（6,710億パラメータ）を30の専門監督モデルと142の監視機能で囲む構成は合計7.4兆パラメータで、速度は前世代の1.3倍。",
+        "Ultra（臨床の患者対応向け、全監督モデル）に加え、Pro、Flash、Nano（事務用途）の4段階で提供し、電子カルテ連携を広げ、新しい柔軟な価格体系で提供する。同社のエージェントは300超の臨床ユースケースで2億5,000万件超の患者との音声対話を完了し、累計4億4,400万ドルを調達。契約上、エージェントの責任を自社が負う形をとり、診断や処方は行わない。"
+      ],
+      "comment": "医療向け音声AIの会社が、第6世代のモデルを価格を下げて出しました。自分が注目したのは、「患者の声を聞き取る精度と、話す間合いを作る部分に開発を寄せているところ」です。診断も処方もしない代わりに、服薬確認や受診勧奨のような電話を人の代わりに大量にこなす。2億5,000万件の会話実績と4億4,400万ドルの調達は、この分野で先に走る会社の規模感を示していると思います。",
+      "quote": {
+        "text": "Polaris 6.0 was built from more than 323 million patient conversations, making it the only truly experienced frontier model for healthcare able to operate safely and autonomously to drive patient outcomes.",
+        "source": "Munjal Shah（Hippocratic AI 共同創業者兼CEO、プレスリリース）",
+        "url": "https://www.prnewswire.com/news-releases/hippocratic-ai-unveils-polaris-6-ultra-the-first-healthcare-model-with-bedside-intuition-built-on-real-life-experience-with-lower-pricing-302926986.html"
+      },
+      "company": {
+        "name": "Hippocratic AI",
+        "profile": "米カリフォルニア州メンローパーク。2023年設立。安全性を検証した独自の「Polaris」モデル群を基盤に、診断や処方を行わない患者向け音声AIエージェントを医療機関に提供。300超の臨床ユースケースで2億5,000万件超の患者対話を完了し、Andreessen Horowitz、General Catalyst、Kleiner Perkins、NVIDIAのNVentures、GoogleのCapitalGなどから累計4億4,400万ドルを調達。未上場。",
+        "url": "https://www.hippocraticai.com/",
+        "ceo": {
+          "name": "Munjal Shah",
+          "bio": "共同創業者兼CEO。画像認識・機械学習のLike.com（後にGoogleが買収）、高齢者のメディケア・アドバンテージ選びを支援するHealth IQを共同創業し、2023年にHippocratic AIを設立した。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-03T02:32:00.387Z"
+    },
     {
       "id": "320358d6-baff-479e-b2b3-1c48f6ef1619",
       "created_at": "2026-11-02T12:43:06.754Z",

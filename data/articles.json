@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:33:45.539Z",
+  "updated_at": "2026-11-04T04:37:23.891Z",
   "articles": [
     {
       "id": "da72a64b-1272-4742-b3a5-dcd53641a9d8",
@@ -60,7 +60,7 @@
       "created_at": "2026-11-04T02:33:45.539Z",
       "published_date": "2026-11-04",
       "category": "longevity",
-      "featured": false,
+      "featured": true,
       "title": "ソフトバンク子会社のSTATION Ai、名古屋大学とエピゲノム解析のRhelixaと東海地域のヘルスケアで連携。エピジェネティック指標と生活習慣の共同研究を、約60団体の「ヘルスケアギルド」で地域の医療機関・企業・スタートアップにつなぎ事業化を支援",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000095825.html",
@@ -447,7 +447,7 @@
       "created_at": "2026-11-02T08:41:05.239Z",
       "published_date": "2026-11-02",
       "category": "dx",
-      "featured": true,
+      "featured": false,
       "title": "オプティム、医療領域で初のM&A。医用画像共有サービス「Drs'HotLine」のMediTechを子会社化し、9月に出した病院向けAX統合パッケージ「OPTiM AI ホスピタル スイート」と販路を相互活用",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000576.000006067.html",

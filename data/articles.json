@@ -1,6 +1,191 @@
 {
-  "updated_at": "2026-11-04T08:32:41.284Z",
+  "updated_at": "2026-11-04T12:37:13.697Z",
   "articles": [
+    {
+      "id": "2a8b3862-9b8d-45a4-a15e-96cdd09e2d7c",
+      "created_at": "2026-11-04T12:37:13.697Z",
+      "published_date": "2026-11-04",
+      "category": "earnings",
+      "featured": false,
+      "title": "キッセイ薬品、2027年3月期中間決算は売上高0.7%減・営業利益16.9億円で黒字転換。タブネオスは44%減、承認取消しを見込み関連資産43億円を特別損失に計上。通期の純利益予想を100億円に下方修正、情報サービス事業は28%増",
+      "source_name": "TDnet（決算短信）",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261104563724.pdf",
+      "ir_url": "https://www.kissei.co.jp/investor/news/",
+      "image_url": "https://www.kissei.co.jp/assets/img/og.jpg",
+      "summary": [
+        "キッセイ薬品工業は11月4日、2027年3月期第2四半期（中間期、4〜9月）の連結決算を発表した。売上高は455億3百万円（前年同期比0.7%減）、営業利益は16億94百万円（前年同期は68億37百万円の営業損失）、経常利益は29億23百万円（同56億22百万円の経常損失）で黒字転換した。前年同期は技術導入に伴う研究開発費で赤字だった反動。親会社株主に帰属する中間純利益は51億91百万円（33.3%減）で、減損損失21億62百万円と棚卸資産評価損21億25百万円の計43億円をタブネオス関連資産の特別損失として計上した。",
+        "医薬品事業の売上高は374億1百万円（2.5%減）。顕微鏡的多発血管炎などの治療薬タブネオスは31億40百万円（44.0%減）に落ち込んだ。2026年5月に重篤な肝機能障害でブルーレターを発出し、厚労省からは海外第3相試験データの信頼性に関する報告命令を受領。10月21日の薬事審議会医薬品第二部会で「承認審査時の資料の信頼性に問題があり得る」「有益性がリスクを上回ると判断するのは困難」とされ、会社は製造販売承認の取消しを含む行政手続きが進むことを前提に損失を処理した。一方、過活動膀胱治療薬ベオーバ、透析そう痒症薬コルスバ、ITP治療薬タバリス、2026年3月発売の子宮筋腫治療薬イセルティは伸び、国内医薬品は328億99百万円（0.4%増）。輸出・海外ライセンス収入は27億64百万円（26.8%減）。情報サービス事業は受注増で65億17百万円（27.7%増）。",
+        "通期予想は7月の見通しから修正し、売上高890億円（前期比8.6%減、3億円増額）、営業利益25億円（5億円増額）、経常利益44億円（4億円増額）、純利益100億円（27.4%減、33億円減額）とした。タブネオスの見通しを15億円減額する一方、情報サービス事業で18億円増額。下期に投資有価証券売却益60億円を見込む。配当予想は年間170円（中間105円は創立80周年記念配当40円を含む、期末65円）で変更なし。中間期の進捗率は売上高51%、営業利益68%。研究開発では膀胱がん治療薬CG0070の国内第2相試験を9月に開始し、急性骨髄性白血病治療薬オルタシデニブを5月に承認申請した。"
+      ],
+      "comment": "営業黒字には戻りましたが、焦点はタブネオスの後始末です。自分が注目したのは、「承認取消しを含む行政手続きを前提に、在庫と長期前払費用43億円を損失処理した」ところです。導入品の信頼性問題が、創薬型企業の損益を一気に変えたと思います。",
+      "earnings": {
+        "period": "2027年3月期 第2四半期（中間期、4〜9月）",
+        "kind": "決算短信",
+        "segment": "製薬・OTC",
+        "columns": {
+          "value": "2027年3月期中間",
+          "prev": "2026年3月期中間",
+          "change": "前年同期比"
+        },
+        "rows": [
+          {
+            "label": "売上高",
+            "value": "455億3百万円",
+            "prev": "458億31百万円",
+            "change": "△0.7%"
+          },
+          {
+            "label": "営業利益",
+            "value": "16億94百万円",
+            "prev": "△68億37百万円",
+            "change": "黒字転換"
+          },
+          {
+            "label": "経常利益",
+            "value": "29億23百万円",
+            "prev": "△56億22百万円",
+            "change": "黒字転換"
+          },
+          {
+            "label": "親会社株主に帰属する中間純利益",
+            "value": "51億91百万円",
+            "prev": "77億84百万円",
+            "change": "△33.3%"
+          }
+        ],
+        "forecast": "通期予想を修正。売上高890億円（前期比8.6%減、7月見通しから3億円増額）・営業利益25億円（5億円増額）・経常利益44億円（4億円増額）・親会社株主に帰属する当期純利益100億円（27.4%減、33億円減額）。配当予想は年間170円（中間105円、期末65円）で変更なし。中間期の進捗率は売上高51%、営業利益68%。",
+        "compare_note": "日本基準（連結）。前年同期は技術導入に係る研究開発費の計上で営業損失・経常損失だった。通期予想は期初（売上高957億円・営業利益44億円）から7月31日に一度下方修正しており、今回はその7月見通しとの比較。",
+        "history": {
+          "columns": [
+            "売上高",
+            "営業利益"
+          ],
+          "rows": [
+            {
+              "period": "2024年3月期",
+              "values": [
+                "755億79百万円",
+                "40億17百万円"
+              ],
+              "bar": 75579
+            },
+            {
+              "period": "2025年3月期",
+              "values": [
+                "883億30百万円",
+                "57億73百万円"
+              ],
+              "bar": 88330
+            },
+            {
+              "period": "2026年3月期",
+              "values": [
+                "974億6百万円",
+                "△29億27百万円"
+              ],
+              "bar": 97406
+            },
+            {
+              "period": "2027年3月期",
+              "note": "会社予想",
+              "values": [
+                "890億円",
+                "25億円"
+              ],
+              "bar": 89000,
+              "forecast": true
+            }
+          ],
+          "note": "通期の実績（各期の決算短信より）。2026年3月期は情報サービス事業のGIGAスクール案件とタブネオス・ベオーバの伸長で増収だったが、技術導入に伴う研究開発費で営業損失に転落。純利益は投資有価証券売却益で137億79百万円と増益。"
+        }
+      },
+      "ir_docs": [
+        {
+          "label": "2027年3月期 第2四半期（中間期）決算補足資料",
+          "url": "https://www.release.tdnet.info/inbs/140120261104563808.pdf"
+        },
+        {
+          "label": "中間期業績予想の修正に関するお知らせ（2026年10月29日）",
+          "url": "https://www.release.tdnet.info/inbs/140120261028558594.pdf"
+        },
+        {
+          "label": "有価証券報告書（2026年3月期）",
+          "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YFN3.pdf"
+        }
+      ],
+      "company": {
+        "name": "キッセイ薬品工業",
+        "listed": "東証プライム（4547）",
+        "financials": "2026年3月期は売上高974億6百万円・営業損失29億27百万円・純利益137億79百万円。2027年3月期は売上高890億円・営業利益25億円・純利益100億円を予想。自己資本比率85.5%。",
+        "profile": "長野県松本市。泌尿器・腎・希少疾患領域の創薬研究開発型製薬企業。主力は過活動膀胱治療薬ベオーバ、透析患者のそう痒症治療薬コルスバ、ITP治療薬タバリス、自社創製の子宮筋腫治療薬イセルティ。グループで情報サービス、建設・施設メンテナンス、物品販売の事業も展開。",
+        "url": "https://www.kissei.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-04T12:37:13.697Z"
+    },
+    {
+      "id": "f43655c5-0b08-4cab-b0d3-b9992d3090e2",
+      "created_at": "2026-11-04T12:37:13.697Z",
+      "published_date": "2026-11-04",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】CVS Health、2028年前半に2社へ分割。Aetna・Caremarkなど保険・薬剤給付の「CVS Health」と約9,000店の薬局「CVS Pharmacy」に。Q3は売上高1,084億ドル（5.4%増）で通期予想を上方修正",
+      "source_name": "CVS Health（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/cvs-health-announces-intent-to-create-two-distinct-leaders-in-healthcare-302928585.html",
+      "source_url_2": "https://www.prnewswire.com/news-releases/cvs-health-corporation-reports-third-quarter-2026-results-and-raises-full-year-2026-guidance-302928358.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS434481/CVS-Health-Logo-v1.jpg?id=OA3056666&p=facebook",
+      "summary": [
+        "CVS Healthは11月4日、独立した上場企業2社への分割を発表した。保険のAetna、薬剤給付管理（PBM）のCVS Caremark、専門薬局のCVS Specialty、在宅・バリューベースケアのOak Street HealthとSignify Healthを束ねる「ヘルスケアソリューション会社」は社名をCVS Healthとして残し、現会長兼CEOのDavid Joyner氏が率いる。約9,000店の薬局、郵送薬局、MinuteClinic、技術サービスのHealth100は「CVS Pharmacy」となり、現グループ社長のPrem Shah氏がCEOに就く。",
+        "株主は両社の株式を保有し、米連邦税で非課税となる分離を予定。完了は2028年前半で、取締役会の最終承認、SECへのForm 10登録、税務上の確認などが条件。両社とも投資適格の格付けと配当維持を見込む。Joyner氏は「過去2年で経営陣を一新し、財務と事業運営を立て直した。強い立場から長期を見据えて2社に分ける」と説明した。",
+        "同日発表の2026年第3四半期（7〜9月）決算は、売上高1,083億99百万ドル（約17.1兆円、前年同期比5.4%増）、営業利益35億66百万ドル（前年同期はHealth Care Delivery事業の57億ドルののれん減損で32億7百万ドルの赤字）、調整後営業利益41億94百万ドル（21.2%増）。保険事業の利益率回復で調整後EPSは2.09ドル（前年1.60ドル）。通期予想は調整後EPSを8.20ドル以上（従来7.90〜8.10ドル）、営業キャッシュフローを155億ドル以上（従来115億ドル以上）に引き上げた。AetnaのMedicare Advantage加入者の69%以上が2027年の4つ星以上プランに属する。"
+      ],
+      "comment": "米国最大の医療グループが、保険・PBMと薬局チェーンに分かれます。自分が注目したのは、「約9,000店の薬局を切り離し、Aetna・Caremark側を本体として残す」ところです。2018年のAetna買収で描いた垂直統合の価値を、市場が認めなかったという結論だと思います。",
+      "quote": {
+        "text": "From a position of strength, and a focus on the long term, we plan to create two focused companies to improve consumer engagement, affordability, and care coordination.",
+        "source": "David Joyner, Chairman and CEO, CVS Health",
+        "url": "https://www.prnewswire.com/news-releases/cvs-health-announces-intent-to-create-two-distinct-leaders-in-healthcare-302928585.html"
+      },
+      "company": {
+        "name": "CVS Health",
+        "listed": "NYSE（CVS）",
+        "financials": "2026年第3四半期（7〜9月）は売上高1,083億99百万ドル（前年同期比5.4%増）・営業利益35億66百万ドル・純利益21億71百万ドル。2026年通期は売上高4,200億ドル以上（約66兆円）、調整後EPS 8.20ドル以上を予想。",
+        "profile": "米ロードアイランド州ウーンソケット。保険のAetna、PBMのCVS Caremark（加入者約8,700万人）、約9,000店の薬局とMinuteClinicなど1,000超のクリニック、プライマリケアのOak Street Health、在宅評価のSignify Healthを持つ米国最大級のヘルスケア企業。",
+        "url": "https://www.cvshealth.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-04T12:37:13.697Z"
+    },
+    {
+      "id": "0378c9d5-1dc6-4bda-9931-3e24b2ba53e6",
+      "created_at": "2026-11-04T12:37:13.697Z",
+      "published_date": "2026-11-04",
+      "category": "global",
+      "featured": false,
+      "title": "【ベルギー】UCB、AI蛋白質設計のCradle（オランダ）と戦略提携。ヒット創出からリード最適化・前臨床までの抗体探索にAIプラットフォームを組み込み、実験結果を学習に戻す「lab-in-the-loop」を構築",
+      "source_name": "Cradle / UCB（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration-302928789.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS1770908/Cradle-Logo.jpg?id=OA3056182&p=facebook",
+      "summary": [
+        "ベルギーの製薬大手UCBと、アムステルダム拠点のAI蛋白質設計企業Cradleは11月4日、戦略提携を発表した。UCBは選定した創薬プロジェクトで、ヒット創出からリード最適化、前臨床準備までの工程にCradleのプラットフォームを適用する。UCBが進める「デジタル抗体探索・エンジニアリング」プログラムの一環で、自社の抗体探索基盤と計算科学、疾患生物学の知見、外部パートナー網を組み合わせる。契約金額などの条件は非公表。",
+        "UCBの研究者がプログラム横断でCradleを使い、実験結果をプログラムごとのモデルに継続的にフィードバックすることで、学習が積み上がる「lab-in-the-loop」を作る。予測モデルと湿式実験の検証を組み合わせ、候補分子に求められる複数の特性を同時に最適化し、候補化合物への進展を速めることを狙う。",
+        "UCBは免疫系・中枢神経系の重症疾患に注力し、2025年の売上高は77億ユーロ（約1.4兆円）、従業員9,000人超、Euronext Brussels上場。Cradleはアムステルダムのほかチューリッヒと米国に拠点を持ち、製薬・産業バイオ・農業・消費財の80超のR&Dプログラムで使われている。IVP、Index Ventures、Kindred Capitalが出資する。"
+      ],
+      "comment": "AI創薬の提携ですが、1プロジェクト単位ではありません。自分が注目したのは、「探索パイプライン全体に1つのAI基盤を敷き、実験データを学習に戻し続ける」ところです。AI創薬は個別の受託から、製薬会社の研究インフラへ入る段階に来たと思います。",
+      "quote": {
+        "text": "AI will have its greatest impact on biologics R&D when it can be scaled beyond individual experiments or programs and become part of how scientists work across the discovery organization.",
+        "source": "Stef van Grieken, CEO and Co-Founder, Cradle",
+        "url": "https://www.prnewswire.com/news-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration-302928789.html"
+      },
+      "company": {
+        "name": "UCB",
+        "listed": "Euronext Brussels（UCB）",
+        "financials": "2025年の売上高は77億ユーロ（約1.4兆円）。",
+        "profile": "ベルギー・ブリュッセル。免疫系（乾癬、重症筋無力症など）と中枢神経系（てんかんなど）の重症疾患に注力するグローバル製薬企業。約40カ国に9,000人超の従業員。",
+        "url": "https://www.ucb.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-04T12:37:13.697Z"
+    },
     {
       "id": "5971cf46-9e73-4a40-9056-8feb084bbb37",
       "created_at": "2026-11-04T08:32:41.284Z",

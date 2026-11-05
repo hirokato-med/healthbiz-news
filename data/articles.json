@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-05T05:10:18.333Z",
+  "updated_at": "2026-11-05T05:45:55.475Z",
   "articles": [
     {
       "id": "e6c1e03b-b3d0-4174-a1f7-18e11895013f",
       "created_at": "2026-11-05T05:10:18.333Z",
       "published_date": "2026-11-05",
       "category": "service",
-      "featured": false,
+      "featured": true,
       "title": "学研HD、ファストドクターの医療機関向け「在宅医療支援事業」を譲受。夜間・休日の往診・相談で累計800超の在宅医療機関を支えてきた事業を、スタッフ・システムごと承継し医療支援事業に本格参入",
       "source_name": "学研ホールディングス",
       "source_url": "https://prtimes.jp/main/html/rd/p/000009573.000002535.html",
@@ -1659,7 +1659,7 @@
       "created_at": "2026-11-04T02:33:45.539Z",
       "published_date": "2026-11-04",
       "category": "longevity",
-      "featured": true,
+      "featured": false,
       "title": "ソフトバンク子会社のSTATION Ai、名古屋大学とエピゲノム解析のRhelixaと東海地域のヘルスケアで連携。エピジェネティック指標と生活習慣の共同研究を、約60団体の「ヘルスケアギルド」で地域の医療機関・企業・スタートアップにつなぎ事業化を支援",
       "source_name": "PR TIMES",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000095825.html",

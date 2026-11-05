@@ -4,6 +4,7 @@ import { useMemo } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { ColumnHeader } from '@/components/desktop-columns';
+import { SalonBanner } from '@/components/salon-banner';
 import { ThemedText } from '@/components/themed-text';
 import { Channels } from '@/constants/channels';
 import { Links } from '@/constants/links';
@@ -16,7 +17,7 @@ import type { Article } from '@/lib/types';
 import { uiState } from '@/lib/ui-state';
 
 /**
- * PC 向け画面の右の列。今日の注目 → 今週のまとめ → 最新の決算 → メルマガ登録 → 分野から探す。
+ * PC 向け画面の右の列。今日の注目 → 今週のまとめ → 研究会の案内 → 最新の決算 → メルマガ登録 → 分野から探す。
  * onSelectChannel があればトップのタブを切り替え、無ければ（記事ページなど）トップへ戻ってそのタブを開く。
  */
 export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: number) => void }) {
@@ -76,6 +77,8 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
           </ThemedText>
         </Pressable>
       ) : null}
+
+      <SalonBanner variant="pc" />
 
       {earnings.length ? (
         <View>

@@ -8,6 +8,7 @@ import { ColumnHeader, DesktopLead, DesktopRow, DesktopSubCard } from '@/compone
 import { DesktopSidebar } from '@/components/desktop-sidebar';
 import { FeaturedArticle } from '@/components/featured-article';
 import { SectionHeader } from '@/components/section-header';
+import { SalonBanner } from '@/components/salon-banner';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
@@ -27,6 +28,7 @@ type Row =
   | { kind: 'section'; key: string; title: string; aside?: string }
   | { kind: 'subscribe'; key: string }
   | { kind: 'subscribe-link'; key: string }
+  | { kind: 'salon'; key: string }
   | { kind: 'featured'; key: string; article: Article }
   | { kind: 'article'; key: string; article: Article };
 
@@ -119,6 +121,9 @@ export function ArticleList({
       todays.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
       if (past.length) out.push({ kind: 'section', key: 'h-past', title: 'これまでの配信' });
       past.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
+      // 研究会の案内バナーは、トップ記事の下に並ぶ記事の 3 本目のあとに 1 か所だけ（加藤さん承認済み）
+      const third = out.filter((r) => r.kind === 'article')[2];
+      if (third) out.splice(out.indexOf(third) + 1, 0, { kind: 'salon', key: 'salon-banner' });
       return out;
     }
 
@@ -182,6 +187,12 @@ export function ArticleList({
       renderItem={({ item }) => {
         if (item.kind === 'section') return <SectionHeader title={item.title} aside={item.aside} color={channel.color} />;
         if (item.kind === 'subscribe') return <SubstackSubscribe />;
+        if (item.kind === 'salon')
+          return (
+            <View style={[styles.salonRow, { borderBottomColor: theme.line }]}>
+              <SalonBanner variant="mobile" />
+            </View>
+          );
         if (item.kind === 'subscribe-link')
           return (
             <View style={[styles.subscribeRow, { borderBottomColor: theme.line }]}>
@@ -330,6 +341,7 @@ const styles = StyleSheet.create({
   centerCol: { flex: 1, borderLeftWidth: Hairline, borderRightWidth: Hairline, paddingHorizontal: Spacing.five },
   rightCol: { width: SidebarWidth, flexGrow: 0, paddingLeft: Spacing.five },
   subs: { flexDirection: 'row', gap: Spacing.four, marginTop: Spacing.five, paddingTop: Spacing.four, borderTopWidth: Hairline },
+  salonRow: { paddingVertical: Spacing.three, borderBottomWidth: Hairline },
   subscribeRow: { paddingVertical: Spacing.two, borderBottomWidth: Hairline },
   empty: {
     textAlign: 'center',

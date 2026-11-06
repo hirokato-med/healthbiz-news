@@ -1,6 +1,181 @@
 {
-  "updated_at": "2026-11-06T00:24:39.335Z",
+  "updated_at": "2026-11-06T02:28:42.187Z",
   "articles": [
+    {
+      "id": "d5870101-e859-459f-9849-d3cda3181b96",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "digital",
+      "featured": false,
+      "title": "Kids Public、町立八丈病院で看護師同席の「来所型オンライン診療」を開始。看護師が専用デバイスで所見を取り、遠隔の小児科医が診察。人員も医療上の責任も外部が担い、地元病院の負担を抑える",
+      "source_name": "Kids Public",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000351.000019477.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/19477/351/19477-351-00443d4390cddc361743a0e1f9889c9e-3900x2041.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Kids Publicは町立八丈病院（東京都八丈町）と連携し、11月6日から子ども向けの「来所型オンライン診療」を始めた。協力医療機関の看護師が病院内に同席して専用デバイスで身体所見などの医療データを取り、遠隔地の小児科医が診察する「D to P with N」型のモデル。対象は町内に住む0〜18歳で、金曜13〜16時に月2回開き、当日予約もできる。",
+        "診療は協力医療機関の医師・看護師が担い、町立八丈病院の医療者は担当しない。診断・治療方針・処方の責任はオンライン診療を行う医師と所属医療機関が負い、病院は原則として責任や賠償責任を負わない。専門職は協力医療機関が雇用・配置し、自治体の職員が立ち会う必要もない。協力医療機関が都外にあるため、町民は自己負担分をいったん払い、町に申請して払い戻しを受ける。",
+        "八丈町の小児科は町立八丈病院の常勤医1名と非常勤医がほぼ365日24時間体制で担っている。Kids Publicは2025年に東京都の支援策で同じモデルを実証し、利用者の総合満足度と継続希望はともに100%だった。同社は2015年に小児科医の橋本直也氏が設立し、オンライン医療相談を250以上の自治体に導入している。"
+      ],
+      "comment": "離島の小児医療を、オンライン診療と現地の看護師の組み合わせで支える仕組みです。自分が注目したのは、「医師・看護師の手配も医療上の責任も外部が持ち、地元の病院は場所を貸すだけ」という設計です。自治体が導入しやすい形にしたことで、へき地の小児科不足への横展開が一気に進むと思います。",
+      "company": {
+        "name": "Kids Public",
+        "profile": "東京都千代田区。2015年設立。『小児科オンライン』『産婦人科オンライン』などのオンライン医療相談を提供し、自治体への導入は250以上、累計相談件数は35万件以上。",
+        "url": "https://kids-public.co.jp/",
+        "ceo": {
+          "name": "橋本直也",
+          "bio": "小児科医。2015年にKids Publicを設立した（リリースより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
+    {
+      "id": "b60114bb-9f40-4372-bdbd-04012a6b6b50",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "service",
+      "featured": false,
+      "title": "島根県海士町・医療法人社団オレンジ・風と土と、持続可能な地域医療で包括連携協定。人口約2,200人の離島の診療所に医師を定期派遣し、研修プログラムで若手医師を呼び込む",
+      "source_name": "医療法人社団オレンジ",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000152822.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/152822/21/152822-21-5b3c032faf35910e7ad8edc9f6547053-2048x1362.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "島根県隠岐郡の海士町、医療法人社団オレンジ、海士町で企業研修を手がける風と土とは11月4日、「持続可能な地域医療体制の構築に関する包括連携協定」を結んだ。医療人材の確保が難しくなっていることへの対応で、期間は1年（合意で更新）。",
+        "連携の柱は2つ。医師確保では、医療関係者の情報交換や人材交流と、海士診療所への医師の定期的な派遣を行う。地域医療づくりでは、研修プログラムの企画・実施、風と土とが運営する「離島医療会議」や医学生との交流事業、「離島医療ネットワーク」の構築を進め、医師が地域を知りながら地域医療を学ぶ機会をつくる。",
+        "オレンジは2011年から福井・石川・長野の3県で在宅医療を起点に事業を広げ、在宅医療クリニック4つのほか、医療的ケア児の通い場、特別養護老人ホーム、カフェなどを運営する。長野県軽井沢町などとも連携し、医学生や若手医師向けの研修を企画している。海士町は人口約2,200人の離島自治体。"
+      ],
+      "comment": "離島の医師確保は、自治体が単独で探すのが普通でした。自分が注目したのは、「本土の在宅医療法人が医師を定期派遣し、研修の場として島に若手を呼び込む」ところです。医師を“雇う”のでなく“育てて通ってもらう”形が、地方の医療人材確保の現実解になると思います。",
+      "company": {
+        "name": "医療法人社団オレンジ",
+        "profile": "2011年から福井・石川・長野の3県で在宅医療クリニック4つと、医療的ケア児の通い場、特別養護老人ホーム、カフェ、保健室などを運営する医療法人。",
+        "url": "https://orangeclinic.jp/",
+        "ceo": {
+          "name": "紅谷浩之（理事長）",
+          "bio": "経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
+    {
+      "id": "f8e8bb89-0567-4bd6-b3c5-c348c64f4b33",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "service",
+      "featured": false,
+      "title": "メディフォンとフラクタルワークアウトが業務提携。健康管理システム「mediment」の健診データから課題を決め、運動プログラム「BODY PALETTE」で1年間支援し、次の健診で効果を測る",
+      "source_name": "メディフォン",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000091.000154534.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/154534/91/154534-91-8ab5af9e997ca9732fd32e743c7b0f16-1920x1280.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "医療通訳や企業の健康経営支援を手がけるメディフォンと、法人向け運動支援「BODY PALETTE」のフラクタルワークアウトが業務提携し、「健診データを活用した年間運動支援プログラム」を始めた。メディフォンのクラウド型健康管理システム「mediment」で管理・分析する健診データなどをもとに、企業ごとの重点課題と対象者を決める。",
+        "テーマは代謝改善、血圧・脂質改善、ロコモ・身体機能、コンディション・生産性の4つで、組み合わせて提供する。毎月のモニタリングと月2回のオンライン運動を基本に、必要に応じてオンサイトでの支援も行う。3カ月後に運動習慣、6カ月後に中間評価と施策の修正、12カ月後に健診結果と生産性指標を評価する。",
+        "背景として、定期健康診断の有所見率は59.4%、健康関連の総コストのうちプレゼンティーイズムが77.9%を占めるとの国の資料を挙げる。2026年4月からは高年齢労働者の労災防止対策が努力義務になり、生活習慣病に加えて身体機能の維持や転倒予防も企業に求められている。"
+      ],
+      "comment": "健康経営で多いのは、健診で課題が分かっても次の手が打てないことです。自分が注目したのは、「健診データの管理システムと運動プログラムをつなぎ、次の健診の数値で効果を確かめる」ところです。企業が健康施策に払うお金が“やった感”ではなく、結果で選ばれるようになると思います。",
+      "company": {
+        "name": "メディフォン",
+        "profile": "東京都港区。医療機関向けの遠隔医療通訳と、クラウド型健康管理システム「mediment」による企業の健康経営支援を提供する。",
+        "url": "https://mediphone.jp/",
+        "ceo": {
+          "name": "澤田真弓",
+          "bio": "経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
+    {
+      "id": "5318666a-332c-4558-a777-f45ef38e85dc",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "digital",
+      "featured": false,
+      "title": "Arteryexの医療情報アプリ「パシャっとカルテ」、マイナポータル連携で健診・薬の情報を撮影なしで取り込み可能に。受診・薬剤・健診など4種類の情報に対応",
+      "source_name": "Arteryex",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000078.000044584.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/44584/78/44584-78-4f9521a27679f70831a3377b35584bd0-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Arteryexが運営するPHRアプリ「パシャっとカルテ」が、マイナポータルとの連携機能の提供を始めた。これまでは健診結果や検査結果、薬の情報を書類の撮影でデータ化していたが、マイナポータルに登録された情報を撮影や手入力なしで取り込めるようになった。",
+        "取り込むのは「基本情報」「受診情報」「薬剤情報」「健診情報」の4種類。アプリのメニューからマイナポータルにログインして連携し、取り込んだ情報には「マイナちゃん」のマークを付けて登録方法を区別する。既に登録済みのデータと重複するものは登録せず、記録の一括削除・選択削除の機能も加えた。",
+        "連携は自動更新ではなく、新しい情報を入れたいときはその都度操作する。受診からマイナポータルへの登録まで時間がかかるため、直近の情報は取れない場合がある。同社は医療データを患者自身が管理し“資産”として使う「健康銀行」構想を掲げ、医療情報プラットフォームやシステム開発も手がける。"
+      ],
+      "comment": "民間のPHRアプリが、国のマイナポータルのデータを入口にし始めています。自分が注目したのは、「紙の撮影で集めていたデータを、マイナポータル連携で一気に埋められる」ところです。PHRの競争は“データを集める手間”から“集めたデータで何をするか”に移ると思います。",
+      "company": {
+        "name": "Arteryex",
+        "profile": "東京都千代田区。2018年2月設立。PHRアプリ「パシャっとカルテ」の開発・運営、医療情報プラットフォーム、医療分野のシステム・アプリ開発を手がける。",
+        "url": "https://arteryex.biz/",
+        "ceo": {
+          "name": "李東瀛",
+          "bio": "経歴は公開情報で確認できなかった。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
+    {
+      "id": "d1ff8a10-6dcc-48c3-b3db-f45b704fad71",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】J&J、皮下注射の「RYBREVANT FASPRO」が頭頸部がんの二次治療でFDAの迅速承認を取得。EGFRとMETを同時に狙う初の薬で、この領域で10年ぶりの前進",
+      "source_name": "Johnson & Johnson（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-us-fda-approval-of-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-as-first-and-only-dual-targeted-therapy-for-advanced-head-and-neck-cancer-302931583.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2028699/Rybrevant_Faspro_Q4W_Dosing_US_Logo.jpg?id=OA3062154&p=facebook",
+      "summary": [
+        "ジョンソン・エンド・ジョンソン（J&J）は11月5日、アミバンタマブの皮下注射製剤「RYBREVANT FASPRO」が、FDAから迅速承認を受けたと発表した。対象は、プラチナ系化学療法と抗PD-(L)1抗体の治療後に進行した、再発または転移性の頭頸部扁平上皮がんの成人。HPV関連の中咽頭扁平上皮がんは含まない。EGFRとMETを同時に狙う二重標的薬として、この領域で初めての承認。",
+        "承認は第1b/2相のOrigAMI-4試験の結果に基づく。独立中央判定で確定した奏効率は42%で、完全奏効が15%、部分奏効が28%。奏効した患者の56%は6カ月を超えて効果が続いた。2026年2月にブレークスルーセラピー、7月に優先審査の指定を受けていた。",
+        "迅速承認のため、継続には一次治療を対象に進行中の第3相OrigAMI-5試験で臨床的な有用性を確かめる必要がある。J&Jは、再発・転移性の頭頸部がんの二次治療で10年ぶりの前進で、肺がんで実績のある二重標的の効果を他のがんに広げるものだとしている。"
+      ],
+      "comment": "肺がんの薬を、皮下注射の形で頭頸部がんにも広げた承認です。自分が注目したのは、「同じ抗体を別のがんに展開し、しかも点滴でなく皮下注射で出してきた」ところです。投与時間の短い製剤への切り替えと適応拡大を同時に進めるのが、大型抗体薬の寿命を延ばす定石になっていると思います。",
+      "quote": {
+        "text": "Johnson & Johnson today announced that the U.S. Food and Drug Administration granted accelerated approval for RYBREVANT FASPRO as a single agent for the treatment of adults with recurrent or metastatic head and neck squamous cell carcinoma.",
+        "source": "Johnson & Johnson",
+        "url": "https://www.prnewswire.com/news-releases/johnson--johnson-announces-us-fda-approval-of-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-as-first-and-only-dual-targeted-therapy-for-advanced-head-and-neck-cancer-302931583.html"
+      },
+      "company": {
+        "name": "Johnson & Johnson",
+        "listed": "NYSE（JNJ）",
+        "profile": "米ニュージャージー州ニューブランズウィック。医療用医薬品（イノベーティブ・メディスン）と医療機器（メドテック）の2事業を持つ世界最大級のヘルスケア企業。",
+        "url": "https://www.jnj.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
+    {
+      "id": "9658b7ae-c7cd-4d0d-843a-2509d9cfa14f",
+      "created_at": "2026-11-06T02:28:42.187Z",
+      "published_date": "2026-11-06",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】介護付き住宅のAegis Living、米最大のシニア住宅オーナーHarrison Streetと合弁。まず3施設に出資を受け、運営はAegisが継続。買収・開発で拡大へ",
+      "source_name": "Aegis Living（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/harrison-street-and-aegis-living-announce-strategic-joint-venture-partnership-to-expand-access-to-high-quality-senior-living-communities-302931452.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2028581/Aegis-Gardens-Newcastle.jpg?id=OA3061705&p=facebook",
+      "summary": [
+        "米ワシントン州ベルビューのAegis Living（1997年創業、家族経営のアシステッドリビング・認知症ケア事業者）と、運用資産1,100億ドル超の投資会社Harrison Street Asset Managementは11月5日、介護付き住宅と認知症ケア施設に投資・開発する合弁を立ち上げると発表した。",
+        "最初に、ワシントン州ニューキャッスル、カリフォルニア州モラガ、シアトルのマディソンにあるAegisの3施設に出資する。運営はAegisが続け、ケアチームや施設長、ケアプランは変わらない。今後は追加の買収と開発で広げる。Harrison Streetの資金で、Aegisは人材や施設、長寿に関わる技術革新に多くを振り向けられるとしている。",
+        "Harrison Streetは2005年からシニア住宅に投資し、これまでに4万6,000戸に160億ドル（約2.5兆円）を投じた米国最大の民間シニア住宅オーナー。創業者兼CEOのDwayne J. Clark氏は、技術は介護者の代わりにはならないが、介護者により良い情報と時間を与えると述べた。"
+      ],
+      "comment": "介護付き住宅の事業者が、施設を不動産投資家と持ち合う形です。自分が注目したのは、「建物にはファンドのお金を入れ、運営とケアの中身は事業者が握り続ける」ところです。施設の持ち手と運営を分ける米国型の拡大方法は、日本の有料老人ホームでもさらに増えると思います。",
+      "quote": {
+        "text": "I've spent my career on one question, really: how do we help people live longer and live better? Technology is part of the answer.",
+        "source": "Dwayne J. Clark, Founder, Chairman, and CEO, Aegis Living",
+        "url": "https://www.prnewswire.com/news-releases/harrison-street-and-aegis-living-announce-strategic-joint-venture-partnership-to-expand-access-to-high-quality-senior-living-communities-302931452.html"
+      },
+      "company": {
+        "name": "Aegis Living",
+        "profile": "米ワシントン州ベルビュー。1997年創業の家族経営のアシステッドリビング・認知症ケア事業者。",
+        "url": "https://www.aegisliving.com/",
+        "ceo": {
+          "name": "Dwayne J. Clark",
+          "bio": "Aegis Livingの創業者で、会長兼CEO（リリースより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T02:28:42.187Z"
+    },
     {
       "id": "7d7987fc-e73c-4934-80ab-da8a398668a1",
       "created_at": "2026-11-06T00:24:39.335Z",

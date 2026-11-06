@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-06T10:59:50.526Z",
+  "updated_at": "2026-11-06T12:28:34.888Z",
   "articles": [
+    {
+      "id": "97c57919-8f7e-4c02-803f-e4df75e0b70f",
+      "created_at": "2026-11-06T12:28:34.888Z",
+      "published_date": "2026-11-06",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】Lilly、オンライン診療のHims & Hersと提携。肥満症薬「Zepbound」と経口薬「Foundayo」を自費価格（月149ドル〜）で、診察から処方・自宅配送までHimsのアプリ内で完結",
+      "source_name": "Eli Lilly（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/lilly-and-hims--hers-expand-access-to-fda-approved-lilly-medicines-302931979.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS270365/ELI-LILLY-AND-COMPANY-LOGO.jpg?id=OA3061937&p=facebook",
+      "summary": [
+        "イーライリリーとオンライン診療大手のHims & Hersは11月6日、リリーの肥満症治療薬「Zepbound」（チルゼパチド）と1日1回の経口薬「Foundayo」（オルフォルグリプロン）の利用を広げる契約を結んだと発表した。Hims & Hersのプラットフォーム上で医師の処方を受けた患者は、プラットフォームを離れずに、誰でも使えるリリーの自費価格で薬を受け取れる。",
+        "患者はアプリ上で診察を受け、医師が適切と判断すれば処方され、FDA承認薬が自宅に直送される。自費価格はFoundayoが月149ドル（約2.4万円）から、Zepboundが月299ドル（約4.7万円）から。Himsの減量プログラムの利用者は、24時間のケアチーム、栄養指導、定期的な診療チェック、コミュニティも使える。",
+        "Hims & Hersはこれまでリリーのチルゼパチドなどの調剤薬局による複製品（コンパウンド品）を扱ったことはなく、今後も扱わないと約束した。両社は、Himsの医師が患者ごとに適切な治療を選ぶ独立した臨床判断を守ることも約束した。リリーはGLP-1薬を含むFDA承認の肥満症治療薬が増えるなか、遠隔診療で治療を求める成人の関心が高まっているとしている。"
+      ],
+      "comment": "製薬会社が、オンライン診療のアプリを販売チャネルとして正式に使い始めました。自分が注目したのは、「診察・処方・配送をHimsのアプリで完結させ、価格はリリーの自費価格にそろえる」ところです。肥満症薬のように自費の需要が大きい薬では、薬局よりアプリが入口になると思います。",
+      "quote": {
+        "text": "At Lilly, we are always looking for new ways to help more people get the medicines they need, and that means meeting patients where they already are.",
+        "source": "Ilya Yuffa, President, Lilly USA and Global Customer Capabilities, Eli Lilly and Company",
+        "url": "https://www.prnewswire.com/news-releases/lilly-and-hims--hers-expand-access-to-fda-approved-lilly-medicines-302931979.html"
+      },
+      "company": {
+        "name": "Eli Lilly and Company",
+        "listed": "NYSE（LLY）",
+        "profile": "米インディアナ州インディアナポリス。糖尿病・肥満症のチルゼパチド（Mounjaro・Zepbound）、アルツハイマー病、免疫、がんなどの医薬品を開発・販売する製薬大手。",
+        "url": "https://www.lilly.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T12:28:34.888Z"
+    },
     {
       "id": "0786ecbc-8f51-48eb-b485-f91a915c2591",
       "created_at": "2026-11-06T08:27:24.786Z",

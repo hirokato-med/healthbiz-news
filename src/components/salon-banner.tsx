@@ -18,7 +18,7 @@ export function SalonBanner({ variant }: { variant: 'mobile' | 'pc' }) {
       style={({ pressed }) => pressed && { opacity: 0.8 }}>
       <Image
         source={variant === 'mobile' ? require('@/assets/images/salon-banner-mobile.png') : require('@/assets/images/salon-banner-pc.png')}
-        style={[styles.image, { aspectRatio: variant === 'mobile' ? 1440 / 176 : 960 / 216 }]}
+        style={[styles.image, { aspectRatio: variant === 'mobile' ? 1440 / 290 : 960 / 216 }]}
         contentFit="contain"
       />
     </Pressable>

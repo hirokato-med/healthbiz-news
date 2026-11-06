@@ -1,6 +1,208 @@
 {
-  "updated_at": "2026-11-05T07:19:55.847Z",
+  "updated_at": "2026-11-06T00:24:39.335Z",
   "articles": [
+    {
+      "id": "7d7987fc-e73c-4934-80ab-da8a398668a1",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "digital",
+      "featured": false,
+      "title": "医学書院・NTT・NTTドコモビジネス、Ubieと医療AIの共同実証をNTT東日本関東病院で開始。医学書院の著作権処理済みの医学情報を根拠に、電子カルテ端末から生成AIが出典つきで回答",
+      "source_name": "Ubie",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000231.000048083.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000071.000181531.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/48083/231/48083-231-9aa9c7e92006d3f8ecfacafcd62184b1-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "医学書院、NTT、NTTドコモビジネスは、Ubieと医療AI情報プラットフォームを使った共同実証を11月から始める。3社が2026年4月から共同開発しているプラットフォームと、Ubieの医療機関向け生成AIサービス「ユビー生成AI」を連携させ、NTT東日本関東病院の医療従事者に実際の診療業務で使ってもらう。",
+        "医療従事者が電子カルテ端末から「ユビー生成AI」に質問すると、プラットフォームが医学書院の持つ適切に著作権処理された医学・医療情報を検索拡張生成（RAG）で参照し、回答とともに根拠となる情報や出典を示す。院外のサービスに切り替えずに確認でき、ハルシネーションによる誤診リスクや患者情報の扱いへの懸念に対応する狙い。",
+        "検証項目は、医学情報の検索・確認にかかる時間の短縮、回答と根拠の有用性・信頼性、操作性、導入・運用に必要な機能と条件、制度・運用上の課題。役割は医学書院がコンテンツ、NTTドコモビジネスが基盤の構築・運用とAPI連携、Ubieが利用画面の設計。今後は他の医療機関や医療AIサービスに広げ、クラウド・閉域網・オンプレミスでの提供や、NTTの大規模言語モデル「tsuzumi」の活用も進める。"
+      ],
+      "comment": "病院の生成AIで一番の壁は「その回答は本当に正しいのか」です。自分が注目したのは、「医学書院の著作権処理済みの医学書を根拠に、出典つきで答える」ところです。医学出版社のコンテンツが、医療AIの“正解データ”として新しい収益源になっていくと思います。",
+      "company": {
+        "name": "Ubie",
+        "profile": "東京都中央区。2017年5月創業のヘルステックスタートアップ。生活者を適切な医療に案内する「ユビー」と、医療機関向けの生成AIなど業務・経営支援サービスを提供する。",
+        "url": "https://ubie.life/",
+        "ceo": {
+          "name": "阿部吉倫・久保恒太（共同代表取締役）",
+          "bio": "医師とエンジニアとして2017年5月にUbieを共同創業した（リリースより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "1378fcda-3dd8-4ea0-b67d-75ae7bbd9087",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "service",
+      "featured": false,
+      "title": "ソニー生命、ソナエル・ベネッセシニアサポートと高齢者施設紹介で業務提携。ライフプランナーが介護施設を探す顧客に紹介サービスを案内",
+      "source_name": "ソニー生命保険",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000441.000003638.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000440.000003638.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/3638/441/3638-441-5429be736615b2f1cf510bb881e01850-3900x1137.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "ソニー生命保険は10月20日から、老人ホーム紹介のソナエル、ベネッセスタイルケアグループのベネッセシニアサポートの2社と、高齢者施設紹介サービスの案内に関する業務提携を始めた。11月5日に発表した。営業社員であるライフプランナーが、高齢者施設を検討している顧客に両社の紹介サービスを案内できるようになる。",
+        "利用を希望する顧客は紹介会社に直接問い合わせ、相談員が希望や状況を聞いて提携ホームの中から施設を提案し、比較検討や見学、入居手続き、入居後の相談まで支援する。ソニー生命は特定の施設を選定・推奨せず、契約などは各事業者の責任で行う。ソナエルには顧客の個人情報を渡さず、ベネッセシニアサポートには同意なく渡さない。保険契約の条件とも関係しない。",
+        "ソナエルは2008年創業で、有料老人ホームやサービス付き高齢者向け住宅の紹介事業を展開する。ベネッセシニアサポートは2014年設立で、有料老人ホームの紹介、介護相談窓口「ベネッセの介護相談室」の運営、企業や行政向けの仕事と介護の両立支援を手がける。"
+      ],
+      "comment": "生命保険の営業担当が、介護施設探しの入口になります。自分が注目したのは、「ライフプランナーという対面の営業網を、老人ホーム紹介会社の集客チャネルに使う」ところです。保険の顧客の親世代の介護需要を、紹介会社がまとめて取りにいく形だと思います。",
+      "company": {
+        "name": "ソニー生命保険",
+        "listed": "親会社のソニーフィナンシャルグループが東証プライム（8729）に上場",
+        "profile": "東京都千代田区。1979年設立の生命保険会社。ライフプランナーと呼ぶ営業社員によるコンサルティング型の対面販売が特徴。",
+        "url": "https://www.sonylife.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "1e353e67-075a-4ce7-a42e-6a0dcb6dd9be",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "service",
+      "featured": false,
+      "title": "Kiviaq、済生会中央病院の受診患者が処方薬を配送で受け取れる「キビヤックファーマシー」を選択可能に。港・千代田・中央区は調剤後最短30分、LINEで完結",
+      "source_name": "Kiviaq",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000165674.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/165674/28/165674-28-6b59366dc504e1d5fcd4f189e39da95a-3900x2194.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "ダークストア型薬局を運営するKiviaqは、10月18日から東京都済生会中央病院（港区三田）で院外処方せんを受け取った患者が、処方薬の受け取り先として配送の「キビヤックファーマシー」を選べるようになったと発表した。処方せんをどの薬局に持ち込むかは従来どおり患者が選び、病院が特定の薬局を推奨・指定するものではない。",
+        "配送を選ぶと薬局に立ち寄らず、自宅や勤務先で薬を受け取れる。港・千代田・中央区は調剤後最短30分、品川・渋谷・新宿など8区は最短2時間、大田・世田谷など6区は当日中、それ以外は全国で翌日以降に届ける。年中無休で平日は21時まで営業し、利用や服薬の質問はLINEで完結する。",
+        "Kiviaqは2025年5月設立で、1号店は2025年10月に港区芝大門で開局した。病院を受診したあとの会計、薬局への移動、調剤待ちという工程を、患者が体調や予定に合わせて選べるようにする狙い。"
+      ],
+      "comment": "大病院の門前薬局の前に、「配送」という選択肢が加わりました。自分が注目したのは、「病院の受診動線の中で、処方せんの行き先として配送薬局を選べるようにした」ところです。都心の大病院から、門前薬局の患者の取り合いが静かに始まると思います。",
+      "company": {
+        "name": "Kiviaq",
+        "profile": "東京都港区芝大門。2025年5月設立。医薬品SCM事業と調剤薬局事業を手がけ、配送専用のダークストア型薬局「キビヤックファーマシー」を運営する。",
+        "url": "https://www.kiviaq.com/",
+        "ceo": {
+          "name": "岡田俊",
+          "bio": "米国公認会計士。KPMGロサンゼルスで監査を担当したのち、アマゾンジャパンで戦略・財務を率いてAmazon Logisticsの立ち上げと全国展開を主導。2023年11月にミナカラの代表取締役社長に就任し、薬局と医薬品ECの立て直しを経て、2025年5月にKiviaqを創業。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "f5e256d8-da9d-4069-ab58-b3511ac856bb",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "device",
+      "featured": false,
+      "title": "GEヘルスケア、ポケットエコー「Vscan」に肺エコー支援AI「Lung Guidance」を追加。ランドマーク表示で画像取得を助け、B-Lineを自動検出・スコアリング。在宅・救急での活用を狙う",
+      "source_name": "GEヘルスケア・ジャパン",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000178.000051346.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/51346/178/51346-178-8a4e27091015ae9bdfd1dc21b9757214-2266x1488.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "GEヘルスケア・ジャパンは11月5日、手のひらサイズの携帯型超音波診断装置（ポケットエコー）「Vscan」シリーズに、肺エコー支援AI機能「Lung Guidance」を追加して日本で発売した。2025年発売の「Caption AI」「Auto Bladder Volume」に続く、シリーズ3つ目のAI機能。既存の「Vscan Air」の利用者には有償アップグレードで提供する。",
+        "胸膜ライン、A-line、肋骨陰影、横隔膜などのランドマークを画面にリアルタイムで示して走査を助け、画像品質の基準を満たした画像を自動保存する。BLUEプロトコルに沿った8つの肺ゾーンの画像取得を支援し、取得画像からB-Lineを自動で検出して、本数に応じたスコアリングとレポート作成まで行う。",
+        "肺エコーは被ばくなしにベッドサイドで呼吸苦の患者の肺を評価できるが、画像の取得や評価が術者の経験に左右される。同社の利用者アンケートでは、習熟の機会が少ない医療従事者にとってハードルになっていることが示唆された。Vscanシリーズは2010年の発売以来、国内で約15,000台以上を販売している。"
+      ],
+      "comment": "ポケットエコーに、肺を診るためのAIが入りました。自分が注目したのは、「どこに当てればいいかをAIが画面で示し、B-Lineの数も自動で数える」ところです。エコーに慣れていない在宅医や救急でも使える道具になり、検査の担い手が広がると思います。",
+      "company": {
+        "name": "GEヘルスケア・ジャパン",
+        "listed": "親会社のGE HealthCareがNasdaq（GEHC）に上場",
+        "profile": "東京都日野市。1982年創設。画像診断装置、超音波診断装置、データ分析・ソフトウェア、サービスを提供し、国内に研究開発・製造・販売・サービス部門を持つ。社員数は約1,500名。",
+        "url": "https://www.gehealthcare.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "517d01fc-eaed-44e9-ab93-576eddb8c7fb",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "global",
+      "featured": false,
+      "title": "【リヒテンシュタイン】Implantica、逆流性食道炎の治療インプラント「RefluxStop」の米国初の商業手術を南カリフォルニア大学で実施。FDA承認済み、米国の患者は7,800万人",
+      "source_name": "Implantica（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/implantica-announces-successful-completion-of-first-refluxstop-procedures-in-the-us-302930416.html",
+      "image_url": "https://prtimes.jp/common/pc_v4/og.png",
+      "summary": [
+        "リヒテンシュタインのファドゥーツに本社を置くメドテック企業Implanticaは11月5日、逆流性食道炎（GERD）の治療インプラント「RefluxStop」の米国初の商業手術を、前日に南カリフォルニア大学（USC）で実施したと発表した。執刀は同大学で上部消化管・一般外科部門を率いるJohn Lipham医師。患者の経過は良好という。",
+        "RefluxStopはFDA承認とCEマークを取得済み。下部食道括約筋を締めて補強する従来の手術と違い、体本来の逆流防止の仕組みを回復させる設計で、飲み込みにくさなどの副作用が少ないことを欧州の長期データで示してきたとしている。Lipham医師は、薬で十分に効かないGERD患者の約4割や、嚥下障害のある患者の3分の1超にとって選択肢になると述べた。",
+        "発明者で創業者・CEOのPeter Forsell氏は、米国のGERD患者は7,800万人に上り、外科医の訓練を重視しながら施設ごとに段階的に導入を広げると説明した。同社はナスダック・ファースト・ノース（ストックホルム）に上場し、体内インプラントの遠隔モニタリングやワイヤレス給電の技術も開発している。"
+      ],
+      "comment": "新しい仕組みの逆流性食道炎インプラントが、米国で使われ始めました。自分が注目したのは、「全米7,800万人の市場に、外科医の訓練を軸に1施設ずつ広げる」ところです。薬で治らない患者を手術に戻せるかは、外科医の育成スピードで決まると思います。",
+      "quote": {
+        "text": "Performing the first RefluxStop procedures in the U.S. marks an important milestone for our patients and our program. The patients are doing well, and I look forward to offering this innovative treatment to many more patients.",
+        "source": "Dr. John C. Lipham, Keck School of Medicine of USC",
+        "url": "https://www.prnewswire.com/news-releases/implantica-announces-successful-completion-of-first-refluxstop-procedures-in-the-us-302930416.html"
+      },
+      "company": {
+        "name": "Implantica",
+        "listed": "Nasdaq First North Premier Growth Market（IMP A SDB）",
+        "profile": "リヒテンシュタイン・ファドゥーツ。体内に埋め込む医療機器を開発するメドテック企業。主力は逆流性食道炎治療のRefluxStopで、インプラントの遠隔モニタリング・制御とワイヤレス給電のプラットフォームも開発する。",
+        "url": "https://www.implantica.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "d0a185a1-0332-4ae1-9576-eea48735a35d",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】医薬品卸大手Cardinal Health、2027年6月期第1四半期は売上高675億ドル（5%増）・調整後営業利益17%増。ブランド薬・スペシャリティ薬が牽引し、通期の調整後EPS予想を12.80〜13.00ドルに上方修正",
+      "source_name": "Cardinal Health（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/cardinal-health-reports-first-quarter-fiscal-year-2027-results-and-raises-outlook-302930631.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS465798/Cardinal-Health-Logo-no-tagline.jpg?id=OA3056592&p=facebook",
+      "summary": [
+        "米医薬品卸大手のCardinal Healthは11月5日、2027年6月期第1四半期（7〜9月）の決算を発表した。売上高は675億ドル（約10.7兆円、前年同期比5%増）、営業利益は7億53百万ドル（13%増）、非GAAPの営業利益は10億ドル（17%増）、純利益は5億54百万ドル（23%増）。非GAAPの1株当たり利益は3.26ドル（28%増）。",
+        "主力の医薬品・スペシャリティソリューション部門は売上高626億ドル（6%増）、部門利益7億83百万ドル（17%増）で、既存顧客向けのブランド薬・スペシャリティ薬の販売と後発品プログラムが寄与した。医療用品の製造・流通部門は売上高32億ドルで横ばい、部門利益は流通と為替の影響で33百万ドル（28%減）。核医学、在宅、物流のOptiFreightを含むその他部門は売上高18億ドル（7%増）、利益1億93百万ドル（16%増）。",
+        "通期の非GAAP 1株当たり利益の予想は、従来の12.40〜12.60ドルから12.80〜13.00ドルに引き上げた。医薬品部門の利益成長率見通しも8〜11%から10〜12%に上げた。第1四半期に5億ドルの自社株買いを終えた。"
+      ],
+      "comment": "日本ではメディパルが今日、医薬品卸で3割増益を出しましたが、米国の卸も好調です。自分が注目したのは、「利益を伸ばしているのがブランド薬・スペシャリティ薬の取り扱い」というところです。日米とも、卸の稼ぎは高額な新薬の流通に寄ってきていると思います。",
+      "quote": {
+        "text": "Our results reflect a strong start to fiscal 2027 and demonstrate consistent execution against our strategic priorities. We continue to benefit from focused investments, disciplined operations and the strength of our diversified portfolio.",
+        "source": "Jason Hollar, CEO, Cardinal Health",
+        "url": "https://www.prnewswire.com/news-releases/cardinal-health-reports-first-quarter-fiscal-year-2027-results-and-raises-outlook-302930631.html"
+      },
+      "company": {
+        "name": "Cardinal Health",
+        "listed": "NYSE（CAH）",
+        "financials": "2027年6月期第1四半期は売上高675億ドル・営業利益7億53百万ドル・純利益5億54百万ドル。通期の非GAAP 1株当たり利益は12.80〜13.00ドルを予想。",
+        "profile": "米オハイオ州ダブリン。米国の3大医薬品卸の一角で、医薬品・スペシャリティ薬の流通、医療用品の製造・流通、核医学、在宅医療向け供給、物流サービスを手がける。",
+        "url": "https://www.cardinalhealth.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
+    {
+      "id": "8fa9003a-a7f2-418e-814a-f16a9f1d9ed0",
+      "created_at": "2026-11-06T00:24:39.335Z",
+      "published_date": "2026-11-05",
+      "category": "global",
+      "featured": false,
+      "title": "【オランダ】BioMarinが買収したAlesta Therapeuticsからスピンアウトしたアナハイム・バイオ、4,000万ユーロ（約74億円）のシリーズAで始動。偽痛風（CPPD）の結晶沈着そのものを狙う低分子薬を2027年に臨床へ",
+      "source_name": "Anaheim Bio（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/anaheim-bio-launches-with-40-million-series-a-financing-to-advance-ana-1-for-calcium-pyrophosphate-deposition-disease-into-the-clinic-302929917.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2027743/image347918-1.jpg?id=OA3059340&p=facebook",
+      "summary": [
+        "オランダ・ライデンの前臨床バイオ企業Anaheim Bioが11月5日、応募超過となった4,000万ユーロ（約74億円、1ユーロ≈185円）のシリーズAで事業を始めると発表した。同社は、BioMarinによる買収の直前にAlesta Therapeuticsから切り出されたプログラムで2026年に設立された。出資者はDroia Ventures、Frazier Life Sciences、RTW、Novartis Venture Fund、RV Invest、Thuja CapitalとAlestaの既存投資家がそろった。",
+        "主力のANA-1は、細胞外のピロリン酸（PPi）を下げる低分子阻害薬で、ピロリン酸カルシウム結晶沈着症（CPPD、いわゆる偽痛風）の治療をめざす。CPPDは関節やその周囲に結晶がたまる炎症性関節炎で高齢者に多く、欧米の成人の約4〜7%が罹患すると推定される。今の治療は炎症と症状を抑えるもので、結晶そのものを取り除く承認薬はない。",
+        "資金でIND申請に必要な試験を進め、2027年に第1相試験に入る。資金は2028年まで持つ見通し。CEOのIlan Ganot氏や科学責任者らはAlestaの旧経営陣で、取締役会議長はDroia VenturesのLuc Dochez氏が務める。"
+      ],
+      "comment": "製薬大手の買収の直前に、対象外の有望品を別会社として切り出したケースです。自分が注目したのは、「同じ投資家と同じチームが、すぐ次の会社に4,000万ユーロを入れた」ところです。買収で全部を売らずに残りを次の会社にする、欧州バイオの資金の回し方だと思います。",
+      "quote": {
+        "text": "ANA-1 is designed to directly address the underlying pathology of CPPD and has the potential to change treatment for the millions of people worldwide who today have no therapy that targets the crystal deposits driving the disease.",
+        "source": "Ilan Ganot, Chief Executive Officer, Anaheim Bio",
+        "url": "https://www.prnewswire.com/news-releases/anaheim-bio-launches-with-40-million-series-a-financing-to-advance-ana-1-for-calcium-pyrophosphate-deposition-disease-into-the-clinic-302929917.html"
+      },
+      "company": {
+        "name": "Anaheim Bio",
+        "profile": "オランダ・ライデン。2026年にAlesta Therapeuticsから切り出したプログラムで設立した前臨床段階のバイオ企業。偽痛風（CPPD）治療の低分子薬ANA-1を開発する。",
+        "url": "https://www.anaheimbio.com/",
+        "ceo": {
+          "name": "Ilan Ganot",
+          "bio": "Alesta Therapeuticsの旧経営陣の一人で、同社チームを率いてAnaheim Bioを立ち上げた（リリースより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-06T00:24:39.335Z"
+    },
     {
       "id": "d3701ac5-8885-4a0c-b7de-b1faa0cfb751",
       "created_at": "2026-11-05T07:19:55.847Z",

@@ -43,8 +43,11 @@ const watchNames = watch.flatMap((w) => [w.name, ...(w.alias ?? [])]).map(norm);
 const watchCodes = new Set(watch.map((w) => w.code).filter(Boolean));
 const isWatched = (company, code) => watchCodes.has(code) || watchNames.some((n) => norm(company).includes(n));
 const watchSegment = (code) => watch.find((w) => w.code === code)?.segment ?? null;
+// 配信済みかどうかは PDF の開示番号（18桁）で見る。記事のリンクは毎週 TDnet → JPX（www2.jpx.co.jp/disc）に置き換えるので、URL そのものでは比べない
+const docId = (url) => String(url ?? '').match(/(\d{18})\.pdf/)?.[1] ?? null;
 const published = new Set(
-  JSON.parse(await readFile(new URL('data/articles.json', root), 'utf8')).articles.flatMap((a) => [a.source_url, a.source_url_2].filter(Boolean)),
+  JSON.parse(await readFile(new URL('data/articles.json', root), 'utf8'))
+    .articles.flatMap((a) => [a.source_url, a.source_url_2].map(docId).filter(Boolean)),
 );
 
 const out = [];
@@ -70,7 +73,7 @@ for (let d = from; d <= to; d = addDays(d, 1)) {
       priority,
       // 同じ日に出た、同じ会社の決算説明資料・補足資料（TDnet の PDF）
       materials: day.filter((x) => x.code === item.code && x.pdf && Material.test(x.title)).map((x) => ({ title: x.title, pdf: x.pdf })),
-      published: published.has(item.pdf),
+      published: published.has(docId(item.pdf)),
     });
   }
 }

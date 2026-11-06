@@ -38,7 +38,7 @@ for (const c of hc.companies ?? []) addName(c.name, c.code);
 const wl = JSON.parse(readFileSync(new URL('./earnings-watchlist.json', import.meta.url), 'utf8'));
 for (const c of wl.companies ?? []) {
   addName(c.name, c.code);
-  for (const a of c.aliases ?? []) addName(a, c.code);
+  for (const a of [...(c.alias ?? []), ...(c.aliases ?? [])]) addName(a, c.code);
 }
 names.sort((a, b) => b[0].length - a[0].length); // 長い社名から先に当てる
 

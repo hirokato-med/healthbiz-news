@@ -15,7 +15,11 @@
    ```
 8. `node pipeline/weekly.mjs publish pipeline/weekly-draft.json` → `rm pipeline/weekly-draft.json`
 9. `git add data/weekly.json && git commit -m "今週のまとめ YYYY-MM-DD" && git push origin main`
-10. 報告: 号のタイトル、総括の全文、5本の見出しと一言コメント。
+10. **TDnet のリンクを東証（JPX）の保存先に置き換える。** TDnet（release.tdnet.info）のPDFは約1か月で消えるので、毎週ここで置き換える。
+    `node pipeline/fix-tdnet-links.mjs` → 置き換えがあれば `git add data/articles.json && git commit -m "TDnet リンクを JPX に置き換え YYYY-MM-DD" && git push origin main` → `bash scripts/update-og.sh`
+    - 「JPX未掲載」は開示から数日以内のもの。次の土曜に自動で置き換わるので、そのままでよい。
+    - 「証券コードが引けない」「TDnetもJPXも開けない」が出たら、会社のIRページにある同じ資料のURLに手で差し替える。
+11. 報告: 号のタイトル、総括の全文、5本の見出しと一言コメント、TDnet リンクの置き換え件数（置き換えた／次回へ／手で直した）。
 
 ## 守ること
 - 対象期間の記事だけ選ぶ（スクリプトが検証する）。

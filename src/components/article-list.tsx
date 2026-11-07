@@ -144,6 +144,11 @@ export function ArticleList({
     // Substack タブの先頭に購読の案内
     if (channel.id === 'substack') out.push({ kind: 'subscribe', key: 'subscribe' });
     list.forEach((a) => out.push({ kind: 'article', key: a.id, article: a }));
+    // ほかのタブでも、研究会の案内バナーを記事の 3 本目のあとに 1 か所（加藤さん指示）。保存した記事のタブには出さない
+    if (channel.id !== 'saved') {
+      const third = out.filter((r) => r.kind === 'article')[2];
+      if (third) out.splice(out.indexOf(third) + 1, 0, { kind: 'salon', key: 'salon-banner' });
+    }
     return out;
   }, [articles, channel, savedIds, loading]);
 

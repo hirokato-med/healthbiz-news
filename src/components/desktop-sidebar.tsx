@@ -51,6 +51,8 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
 
   return (
     <View style={styles.root}>
+      <SalonBanner variant="pc" />
+
       {picks.length ? (
         <View>
           <ColumnHeader title="今日の注目" />
@@ -77,8 +79,6 @@ export function DesktopSidebar({ onSelectChannel }: { onSelectChannel?: (index: 
           </ThemedText>
         </Pressable>
       ) : null}
-
-      <SalonBanner variant="pc" />
 
       {earnings.length ? (
         <View>

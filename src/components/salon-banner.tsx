@@ -7,7 +7,7 @@ import { trackClick } from '@/lib/analytics';
 
 /**
  * ヘルスケアビジネス研究会の案内バナー（研究会ページのキービジュアルと同じ水彩を細い帯に使った画像）。
- * mobile: スマホの一覧の記事と記事の間 / pc: PC 向け画面の右の列。押すと研究会のページを開く。
+ * mobile: スマホの一覧の記事と記事の間 / pc: PC 向け画面の右の列の一番上（今日の注目の上）。押すと研究会のページを開く。
  */
 export function SalonBanner({ variant }: { variant: 'mobile' | 'pc' }) {
   return (

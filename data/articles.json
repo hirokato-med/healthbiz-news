@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-11-07T00:31:20.848Z",
+  "updated_at": "2026-11-07T02:27:02.441Z",
   "articles": [
+    {
+      "id": "8e3abbdc-56c5-4672-9df4-b567de8e4f98",
+      "created_at": "2026-11-07T02:27:02.441Z",
+      "published_date": "2026-11-07",
+      "category": "global",
+      "featured": false,
+      "title": "【中国】末梢血管・脳血管カテーテルのZylox-Tonbridge、投資会社GL Capitalと組み、大動脈・構造的心疾患のLifeTech Scientificに約14.8億香港ドル（約300億円）を出資し筆頭株主に。将来の合併も視野",
+      "source_name": "Zylox-Tonbridge（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/zylox-tonbridge-and-gl-capital-announce-strategic-investment-in-lifetech-scientific-to-build-a-leading-vascular-and-structural-heart-intervention-platform-302932258.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS1859066/ZYLOX-TONBRIDGE-Logo.jpg?id=OA3063766&p=facebook",
+      "summary": [
+        "中国杭州の医療機器メーカーZylox-Tonbridge（香港上場）は11月6日、投資会社GL Capitalと共同で、同じく香港上場のLifeTech Scientificに戦略投資すると発表した。両社は共同出資会社を通じて約14億8,200万香港ドル（約300億円、1香港ドル≈20円）を投じ、LifeTechの増資後の株式の約16.7%を引き受けて筆頭株主になる。共同出資会社にはZylox-Tonbridgeが約8億8,900万香港ドルを出し、60%を持つ。",
+        "関連して、GL CapitalはZylox-Tonbridgeの新株3,980万株を1株22香港ドルで引き受け、増資後の約10.8%を持つ。価格は発表日の終値に13.5%のプレミアムを乗せた。調達資金はLifeTechへの追加投資や海外展開に充てる可能性がある。Zylox-Tonbridgeは今後LifeTech株の買い増しと、LifeTechとの合併もめざすとしている。",
+        "Zylox-Tonbridgeは末梢血管と脳血管のカテーテル治療製品を持ち、中国の3,500超の病院に販売する。LifeTechは大動脈のステントグラフトや左心耳閉鎖デバイス、先天性心疾患の閉鎖デバイスなど構造的心疾患の製品を持ち、中国で50超の医療機器登録がある。両社を合わせて、末梢血管・脳血管・大動脈・構造的心疾患の4領域をそろえた血管内治療のプラットフォームをつくる狙い。"
+      ],
+      "comment": "中国の血管内治療の中堅2社が、資本でつながりました。自分が注目したのは、「投資会社と組んで筆頭株主になり、将来は合併まで視野に入れる」という段階的な統合の進め方です。中国の医療機器は、国内の価格競争の中で規模を求める再編が進むと思います。",
+      "quote": {
+        "text": "Zylox-Tonbridge today announced a strategic investment in LifeTech Scientific, in partnership with GL Capital, marking a significant step toward building a leading integrated vascular and structural heart intervention platform in China.",
+        "source": "Zylox-Tonbridge Medical Technology",
+        "url": "https://www.prnewswire.com/news-releases/zylox-tonbridge-and-gl-capital-announce-strategic-investment-in-lifetech-scientific-to-build-a-leading-vascular-and-structural-heart-intervention-platform-302932258.html"
+      },
+      "company": {
+        "name": "Zylox-Tonbridge Medical Technology",
+        "listed": "香港証券取引所（2190）",
+        "profile": "中国浙江省杭州市。Zylox MedicalとTonbridge Medicalの2ブランドで、末梢血管と脳血管のカテーテル治療製品を開発・製造・販売する。中国の3,500超の病院に製品を供給する。"
+      },
+      "status": "published",
+      "updated_at": "2026-11-07T02:27:02.441Z"
+    },
     {
       "id": "ca03fa84-a9a6-454b-acf7-3069d3041cef",
       "created_at": "2026-11-06T12:37:44.343Z",

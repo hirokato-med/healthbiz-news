@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-07T12:25:54.496Z",
+  "updated_at": "2026-11-08T02:26:44.924Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/118vol167epicai4ai",
+      "title": "11月8日（日）vol.167：Epic、定型の再診の一部をAIエージェントに任せる構想を検討、科によっては外来の4割が軽い定期の再診、AIは病院が決めた手順に沿って動き医師が監督する",
+      "url": "https://hiroakikato.substack.com/p/118vol167epicai4ai",
+      "published_date": "2026-11-08",
+      "excerpt": "日曜日です。今日は米国の電子カルテ最大手のEpicの話です！！\n10月8日のメルマガでユタ州のAIが初回の処方を出す試験を、10月11日のメルマガで診察の前にAIが患者と話す研究を書きました。\n今日はその流れで、電子カルテの会社そのものが「診察の一部をAIに任せる」構想を話し始めました。\nそれでは、今日のニュースです！！\n◆Epic Explores Launching Clinical Agents To Handle ‘Routine Visits’（Forbes、2026年10月21日）\n　https://www.forbes.com/sites/saibala/2026/10/21/e…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!iwQd!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2df5e14b-47da-4137-a6cc-06cd50ebb53f_1280x1280.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/117vol166naturegoogleai",
       "title": "11月7日（土）vol.166：Nature、Googleが腕時計の光センサーと加速度センサーだけで高血圧を見つけるAIを検証、カフがなくても健診の血圧測定より多く見つけた",

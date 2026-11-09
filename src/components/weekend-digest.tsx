@@ -33,6 +33,20 @@ export function WeekendDigest({ state }: { state: WeekendState }) {
           {weekly.weekly?.items?.length ? `注目の${weekly.weekly.items.length}本を読む ›` : '読む ›'}
         </ThemedText>
       </Pressable>
+      {state.weekahead ? (
+        <Pressable
+          onPress={() => open(state.weekahead!, 'weekahead')}
+          style={({ pressed }) => [styles.card, styles.aheadCard, { borderColor: theme.up, opacity: pressed ? 0.7 : 1 }]}
+          accessibilityRole="button">
+          <View style={[styles.badge, { backgroundColor: theme.up }]}>
+            <ThemedText style={styles.badgeText}>来週の注目</ThemedText>
+          </View>
+          <ThemedText style={styles.aheadTitle}>{state.weekahead.title.replace(/^来週の注目｜/, '')}</ThemedText>
+          <ThemedText type="caption" style={{ color: theme.up, fontWeight: '700', marginTop: Spacing.one }}>
+            {state.weekahead.weekahead?.week ? `${state.weekahead.weekahead.week} の予定を見る ›` : '予定を見る ›'}
+          </ThemedText>
+        </Pressable>
+      ) : null}
       {picks.length ? (
         <>
           <ThemedText style={styles.picksTitle}>先週の注目</ThemedText>
@@ -60,6 +74,8 @@ const styles = StyleSheet.create({
   badgeText: { color: '#FFFFFF', fontSize: 12, lineHeight: 17, fontWeight: '800' },
   title: { fontSize: 18, lineHeight: 26, fontWeight: '800', marginTop: Spacing.two },
   note: { fontSize: 13.5, lineHeight: 22, marginTop: Spacing.one },
+  aheadCard: { marginTop: Spacing.three, borderWidth: 1.5, backgroundColor: 'transparent' },
+  aheadTitle: { fontSize: 16, lineHeight: 24, fontWeight: '800', marginTop: Spacing.two },
   picksTitle: { fontSize: 15, lineHeight: 22, fontWeight: '800', marginTop: Spacing.five, marginBottom: Spacing.one },
   pick: { flexDirection: 'row', gap: Spacing.three, paddingVertical: Spacing.two + 2, borderTopWidth: Hairline },
   rank: { fontSize: 16, lineHeight: 22, fontWeight: '800', width: 14 },

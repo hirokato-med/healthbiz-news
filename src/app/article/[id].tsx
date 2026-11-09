@@ -13,6 +13,7 @@ import { KatoAvatar } from '@/components/kato-avatar';
 import { ShareButtons } from '@/components/share-buttons';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { MonthlyEarningsDetail } from '@/components/monthly-earnings-detail';
+import { WeekAheadDetail } from '@/components/weekahead-detail';
 import { WeeklyDetail } from '@/components/weekly-detail';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
@@ -69,7 +70,7 @@ export default function ArticleScreen() {
   const related = useMemo(() => (article ? relatedArticles(article, articles) : []), [article, articles]);
   // 発信元の企業ページは、記事が2本以上あるか会社情報があるときだけリンクにする（1本だけのページに飛ばさない）
   const sourceHasPage = useMemo(() => {
-    if (!article || article.kind === 'substack' || article.kind === 'weekly' || article.kind === 'monthly') return false;
+    if (!article || article.kind === 'substack' || article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead') return false;
     const { articles: list, info } = articlesOfCompany(article.source_name, articles);
     return list.length > 1 || !!info;
   }, [article, articles]);
@@ -95,7 +96,7 @@ export default function ArticleScreen() {
 
   return (
     <ThemedView style={styles.root}>
-      {desktop ? <DesktopHeader active={article.kind === 'weekly' || article.kind === 'monthly' ? undefined : channel.id} /> : null}
+      {desktop ? <DesktopHeader active={article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead' ? undefined : channel.id} /> : null}
       {!desktop ? (
       <View style={[styles.bar, { paddingTop: insets.top + Spacing.two, borderBottomColor: theme.line }]}>
         <BarButton label="‹ 戻る" onPress={() => router.back()} color={theme.accent} />
@@ -152,6 +153,8 @@ export default function ArticleScreen() {
           style={desktop ? [styles.desktopMain, { borderLeftColor: theme.line, borderRightColor: theme.line }] : undefined}>
         {article.kind === 'weekly' ? (
           <WeeklyDetail issue={article} articles={articles} onShare={() => void share()} />
+        ) : article.kind === 'weekahead' ? (
+          <WeekAheadDetail issue={article} />
         ) : article.kind === 'monthly' ? (
           <MonthlyEarningsDetail issue={article} onShare={() => void share()} />
         ) : (

@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
-import { fetchArticles, fetchMonthly, fetchSubstack, fetchWeekly } from './articles';
+import { fetchArticles, fetchMonthly, fetchSubstack, fetchWeekAhead, fetchWeekly } from './articles';
 import type { Article } from './types';
 
 const SavedKey = 'healthbiz.saved.v1';
@@ -50,8 +50,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const reload = useCallback(async () => {
     setLoading(true);
     try {
-      const [news, substack, weekly, monthly] = await Promise.all([fetchArticles(), fetchSubstack(), fetchWeekly(), fetchMonthly()]);
-      const all = [...monthly, ...weekly, ...news, ...substack];
+      const [news, substack, weekly, monthly, weekahead] = await Promise.all([fetchArticles(), fetchSubstack(), fetchWeekly(), fetchMonthly(), fetchWeekAhead()]);
+      const all = [...weekahead, ...monthly, ...weekly, ...news, ...substack];
       setArticles(all);
       setError(null);
       AsyncStorage.setItem(ArticlesCacheKey, JSON.stringify(all)).catch(() => {});

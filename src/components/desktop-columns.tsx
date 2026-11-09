@@ -89,7 +89,7 @@ export function DesktopRow({ article, wide = false }: { article: Article; wide?:
   const router = useRouter();
   const { isRead, isSaved } = useStore();
   const channel = channelOf(article.category);
-  const digest = article.kind === 'weekly' || article.kind === 'monthly';
+  const digest = article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead';
   return (
     <Pressable
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
@@ -97,10 +97,10 @@ export function DesktopRow({ article, wide = false }: { article: Article; wide?:
       accessibilityRole="button">
       <View style={styles.rowBody}>
         <ThemedText style={[styles.label, { color: digest ? theme.accent : channel.color }]}>
-          {digest ? (article.kind === 'monthly' ? '今月の注目決算' : '今週のまとめ') : channel.name}
+          {digest ? (article.kind === 'monthly' ? '今月の注目決算' : article.kind === 'weekahead' ? '来週の注目' : '今週のまとめ') : channel.name}
         </ThemedText>
         <ThemedText style={styles.rowTitle} numberOfLines={4}>
-          {digest ? article.title.replace(/^(今週のまとめ|今月の注目決算)｜/, '') : article.title}
+          {digest ? article.title.replace(/^(今週のまとめ|今月の注目決算|来週の注目)｜/, '') : article.title}
         </ThemedText>
         {article.comment ? <Comment article={article} lines={2} small /> : null}
         <ThemedText type="caption" themeColor="textSecondary" style={styles.meta}>

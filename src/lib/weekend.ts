@@ -10,6 +10,8 @@ export type WeekendState = {
   /** 次の配信（「今日 12時」など） */
   nextSlot: string;
   weekly: Article;
+  /** 来週の注目（日曜配信）。出ていれば今週のまとめの下に出す */
+  weekahead: Article | null;
   /** 今週のまとめで選んだ記事の先頭 3 本 */
   picks: Article[];
   /** 先頭の枠の下に添える一言 */
@@ -25,6 +27,11 @@ export type WeekendState = {
 export function weekdayOf(date: string): number {
   const [y, m, d] = date.split('-').map(Number);
   return new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+}
+
+/** 2 つの日付（YYYY-MM-DD）の日数差 */
+function daysBetween(a: string, b: string): number {
+  return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 86_400_000);
 }
 
 /** 次の配信の時刻（12時・18時・22時、日本時間） */
@@ -49,6 +56,9 @@ export function weekendStateOf(articles: Article[], today: string, now = new Dat
   const afterDelivery = dow === 1 && delivered;
   const weekly = articles.filter((a) => a.kind === 'weekly').sort((a, b) => b.published_date.localeCompare(a.published_date))[0];
   if (!weekly) return null;
+  // 来週の注目は、出てから 2 日（日曜・月曜）のあいだだけ
+  const weekahead =
+    articles.filter((a) => a.kind === 'weekahead' && a.published_date <= today && daysBetween(a.published_date, today) <= 1).sort((a, b) => b.published_date.localeCompare(a.published_date))[0] ?? null;
   const byId = new Map(articles.map((a) => [a.id, a]));
   const picks = (weekly.weekly?.items ?? []).map((i) => byId.get(i.article_id)).filter((a): a is Article => !!a).slice(0, 3);
   const nextSlot = nextSlotJST(now);
@@ -56,6 +66,7 @@ export function weekendStateOf(articles: Article[], today: string, now = new Dat
     title: dow === 1 ? '月曜の朝に読む' : '週末に読む',
     nextSlot,
     weekly,
+    weekahead,
     picks,
     note: afterDelivery
       ? '先週の振り返りです。今日の配信は上と下に続きます。'

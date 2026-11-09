@@ -85,7 +85,7 @@ export function ArticleList({
 
     if (channel.id === 'today') {
       // 決算は「決算」タブで見る（決算シーズンにトップが埋まらないように）。トップに出すのは featured にしたものだけ
-      const news = articles.filter((a) => a.kind !== 'substack' && a.kind !== 'weekly' && a.kind !== 'monthly' && (a.category !== 'earnings' || a.featured));
+      const news = articles.filter((a) => a.kind !== 'substack' && !isDigest(a) && (a.category !== 'earnings' || a.featured));
       // まとめ（今週のまとめ・今月の注目決算）
       // 先頭の枠は「直近の配信日」の記事。日付が変わって当日分がまだ無い間も、前日の配信を大きく出し続ける
       const latest = news[0]?.published_date;
@@ -104,7 +104,7 @@ export function ArticleList({
       // 今週のまとめ（土曜配信）は、出てから2日間は注目記事のすぐ下に出す
       // 週末版（土日と月曜の最初の配信まで）は、今週のまとめと先週の注目を先頭に出す
       const weekend = weekendStateOf(articles, today);
-      const weeklies = articles.filter((a) => (a.kind === 'weekly' || a.kind === 'monthly') && a !== weekend?.weekly);
+      const weeklies = articles.filter((a) => (a.kind === 'weekly' || a.kind === 'monthly' || a.kind === 'weekahead') && a !== weekend?.weekly && a !== weekend?.weekahead);
       // 出てから2日間は注目記事のすぐ下に出す（今週のまとめと今月の注目決算が重なれば両方）
       const freshDigests = weeklies.filter((w) => w.published_date >= dayBefore(latest));
       // 決算は「決算」タブが主だが、決算が出た日だけ、その日の決算の先頭 2 本を注目記事のすぐ下（2・3 本目）にも出す

@@ -30,22 +30,22 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
       accessibilityLabel={`${read ? '既読。' : ''}${article.title}。${article.source_name}、${formatRelative(article.published_date)}${isSaved(article.id) ? '、保存済み' : ''}`}>
       <View style={styles.top}>
         <View style={styles.body}>
-          {article.kind === 'weekly' || article.kind === 'monthly' ? (
+          {article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead' ? (
             // まとめ記事は、見出しの上に色の帯のラベルを出してひと目で分かるように
             <View style={styles.weeklyBadgeRow}>
-              <View style={[styles.weeklyBadge, { backgroundColor: article.kind === 'monthly' ? EarningsGreen : theme.accent }]}>
+              <View style={[styles.weeklyBadge, { backgroundColor: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? theme.up : theme.accent }]}>
                 <ThemedText type="caption" style={{ color: '#FFFFFF', fontWeight: '800' }}>
-                  {article.kind === 'monthly' ? '今月の注目決算' : '今週のまとめ'}
+                  {article.kind === 'monthly' ? '今月の注目決算' : article.kind === 'weekahead' ? '来週の注目' : '今週のまとめ'}
                 </ThemedText>
               </View>
-              <ThemedText type="caption" style={{ color: article.kind === 'monthly' ? EarningsGreen : theme.accent, fontWeight: '700' }}>
-                {article.kind === 'monthly' ? article.monthly?.month : article.weekly?.range}
+              <ThemedText type="caption" style={{ color: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? theme.up : theme.accent, fontWeight: '700' }}>
+                {article.kind === 'monthly' ? article.monthly?.month : article.kind === 'weekahead' ? article.weekahead?.week : article.weekly?.range}
               </ThemedText>
             </View>
           ) : null}
           <View style={styles.headlineRow}>
             <ThemedText type="headline" numberOfLines={compact ? 2 : 3} style={styles.headline}>
-              {article.kind === 'weekly' || article.kind === 'monthly' ? article.title.replace(/^(【見本】)?(今週のまとめ|今月の注目決算)｜/, '$1') : article.title}
+              {article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead' ? article.title.replace(/^(【見本】)?(今週のまとめ|今月の注目決算|来週の注目)｜/, '$1') : article.title}
             </ThemedText>
           </View>
           <View style={styles.meta}>

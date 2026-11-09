@@ -8,6 +8,8 @@ const DefaultArticlesUrl = 'https://raw.githubusercontent.com/hirokato-med/healt
 const DefaultMonthlyUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/monthly-earnings.json';
 /** 今週のまとめ（pipeline/weekly.mjs が書く） */
 const DefaultWeeklyUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/weekly.json';
+/** 来週の注目（日曜配信。pipeline/WEEKAHEAD.md の手順で書く） */
+const DefaultWeekAheadUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/weekahead.json';
 /** Substack の投稿（pipeline/substack.mjs が書く） */
 const DefaultSubstackUrl = 'https://raw.githubusercontent.com/hirokato-med/healthbiz-news/main/data/substack.json';
 
@@ -135,9 +137,45 @@ export async function fetchMonthly(): Promise<Article[]> {
   }
 }
 
-/** まとめ記事（今週のまとめ・今月の注目決算）か */
+/** まとめ記事（今週のまとめ・今月の注目決算・来週の注目）か */
 export function isDigest(a: Article): boolean {
-  return a.kind === 'weekly' || a.kind === 'monthly';
+  return a.kind === 'weekly' || a.kind === 'monthly' || a.kind === 'weekahead';
+}
+
+type WeekAheadIssue = {
+  id: string;
+  published_date: string;
+  title: string;
+  week: string;
+  note: string;
+  sections: NonNullable<Article['weekahead']>['sections'];
+};
+
+/** 来週の注目を記事と同じ形にして返す。取れなくても配信記事の表示は止めない。 */
+export async function fetchWeekAhead(): Promise<Article[]> {
+  if (articlesUrl === 'mock') return [];
+  try {
+    const url = articlesUrl.includes('/data/articles.json') ? articlesUrl.replace('/data/articles.json', '/data/weekahead.json') : DefaultWeekAheadUrl;
+    const bust = Math.floor(Date.now() / 60_000);
+    const res = await fetch(`${url}?t=${bust}`);
+    if (!res.ok) return [];
+    const body = (await res.json()) as { issues?: WeekAheadIssue[] };
+    return (body.issues ?? []).map((w) => ({
+      id: w.id,
+      kind: 'weekahead' as const,
+      published_date: w.published_date,
+      category: 'weekly' as const,
+      title: w.title,
+      source_name: '加藤浩晃',
+      source_url: `https://hirokato-med.github.io/healthbiz-news/article/${w.id}`,
+      summary: [],
+      comment: w.note,
+      image_url: null,
+      weekahead: { week: w.week, sections: w.sections },
+    }));
+  } catch {
+    return [];
+  }
 }
 
 async function fetchFromJson(url: string): Promise<Article[]> {

@@ -67,7 +67,7 @@ export default function HomeScreen() {
     const count = latest ? news.filter((a) => a.published_date === latest).length : 0;
     // 週末版のあいだは、古い日付ではなく次の配信の時刻を出す
     const weekend = weekendStateOf(articles, today);
-    if (weekend) return { label: '次の配信', count: 1, value: weekend.nextSlot, right: '週末版' };
+    if (weekend && !weekend.afterDelivery) return { label: '次の配信', count: 1, value: weekend.nextSlot, right: '週末版' };
     return {
       label: latest === today ? '本日の配信' : '最新の配信',
       count,

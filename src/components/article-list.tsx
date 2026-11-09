@@ -115,12 +115,14 @@ export function ArticleList({
       const todays = news.filter((a) => a.published_date === latest && a !== lead && !topEarnings.includes(a));
       const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));
       const title =
-        latest === today ? '本日の配信' : weekend && [0, 6].includes(weekdayOf(latest)) ? '週末の配信' : `${formatDateLong(latest)}の配信`;
-      if (weekend) out.push({ kind: 'weekend', key: 'weekend', state: weekend });
+        latest === today ? '本日の配信' : weekend && !weekend.afterDelivery && [0, 6].includes(weekdayOf(latest)) ? '週末の配信' : `${formatDateLong(latest)}の配信`;
+      if (weekend && !weekend.afterDelivery) out.push({ kind: 'weekend', key: 'weekend', state: weekend });
       // 本数は上の帯（本日の配信 ◯本）とそろえ、同じ日に出た今週のまとめ・今月の注目決算も数える（加藤さん指示）
       const digestsToday = weeklies.filter((w) => w.published_date === latest).length;
       out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0) + digestsToday}本` });
       out.push({ kind: 'featured', key: lead.id, article: lead });
+      // 月曜の配信が出たあとは、「月曜の朝に読む」をトップ記事のすぐ下（2 つ目）に
+      if (weekend?.afterDelivery) out.push({ kind: 'weekend', key: 'weekend', state: weekend });
       // 注目記事の直下にメルマガ登録の導線（カードとは別の行にして、読み上げでも届くように）
       out.push({ kind: 'subscribe-link', key: 'subscribe-link' });
       freshDigests.forEach((w) => out.push({ kind: 'article', key: w.id, article: w }));
@@ -175,7 +177,7 @@ export function ArticleList({
       lead,
       subs,
       list,
-      leftTitle: channel.id === 'today' ? (weekendRow ? '週末の配信' : '本日のトップ') : channel.id === 'saved' ? '保存した記事' : channel.name,
+      leftTitle: channel.id === 'today' ? (weekendRow && !(weekendRow.kind === 'weekend' && weekendRow.state.afterDelivery) ? '週末の配信' : '本日のトップ') : channel.id === 'saved' ? '保存した記事' : channel.name,
       centerTitle: channel.id === 'today' ? '新着' : '記事一覧',
       aside: head?.kind === 'section' ? head.aside : undefined,
     };
@@ -243,13 +245,18 @@ export function ArticleList({
             keyExtractor={(a) => a.id}
             ListHeaderComponent={
               <View>
-                {desk.weekend ? (
+                {desk.weekend && !desk.weekend.afterDelivery ? (
                   <View style={{ marginBottom: Spacing.five }}>
                     <WeekendDigest state={desk.weekend} />
                   </View>
                 ) : null}
                 <ColumnHeader title={desk.leftTitle} aside={desk.aside} />
                 {desk.lead ? <DesktopLead article={desk.lead} horizontal /> : null}
+                {desk.weekend?.afterDelivery ? (
+                  <View style={{ marginTop: Spacing.five }}>
+                    <WeekendDigest state={desk.weekend} />
+                  </View>
+                ) : null}
                 {desk.subs.length ? (
                   <View style={[styles.subs, { borderTopColor: theme.line }]}>
                     {desk.subs.map((a) => (

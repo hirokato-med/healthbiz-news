@@ -25,6 +25,7 @@ import { trackScreen } from '@/lib/analytics';
 import { formatDateLong, formatDateShort, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 import { uiState } from '@/lib/ui-state';
+import { weekendStateOf } from '@/lib/weekend';
 
 /**
  * スマホの Web 版（ホーム画面アプリ）で、題字の上に空ける高さ。iOS 26 以降は画面の上端に薄いぼかしが残るので、
@@ -64,6 +65,9 @@ export default function HomeScreen() {
     // 並び順に頼らず、いちばん新しい配信日を取る（まとめは配列の先頭に来るが、先週の号のこともある）
     const latest = news.reduce<string | undefined>((m, a) => (!m || a.published_date > m ? a.published_date : m), undefined);
     const count = latest ? news.filter((a) => a.published_date === latest).length : 0;
+    // 週末版のあいだは、古い日付ではなく次の配信の時刻を出す
+    const weekend = weekendStateOf(articles, today);
+    if (weekend) return { label: '次の配信', count: 1, value: weekend.nextSlot, right: '週末版' };
     return {
       label: latest === today ? '本日の配信' : '最新の配信',
       count,

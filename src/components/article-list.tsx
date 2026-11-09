@@ -9,6 +9,7 @@ import { DesktopSidebar } from '@/components/desktop-sidebar';
 import { FeaturedArticle } from '@/components/featured-article';
 import { SectionHeader } from '@/components/section-header';
 import { SalonBanner } from '@/components/salon-banner';
+import { WeekendDigest } from '@/components/weekend-digest';
 import { SubscribeLink } from '@/components/subscribe-link';
 import { SubstackSubscribe } from '@/components/substack-subscribe';
 import { ThemedText } from '@/components/themed-text';
@@ -19,6 +20,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { formatDateLong, isDigest, todayJST } from '@/lib/articles';
 import { useStore } from '@/lib/store';
 import { uiState } from '@/lib/ui-state';
+import { weekdayOf, weekendStateOf, type WeekendState } from '@/lib/weekend';
 import type { Article } from '@/lib/types';
 
 /** トップで注目記事のすぐ下に出す決算記事の本数（2・3 本目） */
@@ -29,6 +31,7 @@ type Row =
   | { kind: 'subscribe'; key: string }
   | { kind: 'subscribe-link'; key: string }
   | { kind: 'salon'; key: string }
+  | { kind: 'weekend'; key: string; state: WeekendState }
   | { kind: 'featured'; key: string; article: Article }
   | { kind: 'article'; key: string; article: Article };
 
@@ -99,7 +102,9 @@ export function ArticleList({
         news.find((a) => a.featured && recent(a)) ??
         news[0];
       // 今週のまとめ（土曜配信）は、出てから2日間は注目記事のすぐ下に出す
-      const weeklies = articles.filter((a) => a.kind === 'weekly' || a.kind === 'monthly');
+      // 週末版（土日と月曜の最初の配信まで）は、今週のまとめと先週の注目を先頭に出す
+      const weekend = weekendStateOf(articles, today);
+      const weeklies = articles.filter((a) => (a.kind === 'weekly' || a.kind === 'monthly') && a !== weekend?.weekly);
       // 出てから2日間は注目記事のすぐ下に出す（今週のまとめと今月の注目決算が重なれば両方）
       const freshDigests = weeklies.filter((w) => w.published_date >= dayBefore(latest));
       // 決算は「決算」タブが主だが、決算が出た日だけ、その日の決算の先頭 2 本を注目記事のすぐ下（2・3 本目）にも出す
@@ -109,7 +114,9 @@ export function ArticleList({
         .slice(0, TopEarningsCount);
       const todays = news.filter((a) => a.published_date === latest && a !== lead && !topEarnings.includes(a));
       const past = [...news.filter((a) => a.published_date !== latest && a !== lead), ...weeklies.filter((w) => !freshDigests.includes(w))].sort((a, b) => b.published_date.localeCompare(a.published_date));
-      const title = latest === today ? '本日の配信' : `${formatDateLong(latest)}の配信`;
+      const title =
+        latest === today ? '本日の配信' : weekend && [0, 6].includes(weekdayOf(latest)) ? '週末の配信' : `${formatDateLong(latest)}の配信`;
+      if (weekend) out.push({ kind: 'weekend', key: 'weekend', state: weekend });
       // 本数は上の帯（本日の配信 ◯本）とそろえ、同じ日に出た今週のまとめ・今月の注目決算も数える（加藤さん指示）
       const digestsToday = weeklies.filter((w) => w.published_date === latest).length;
       out.push({ kind: 'section', key: 'h-today', title, aside: `${todays.length + (lead.published_date === latest ? 1 : 0) + digestsToday}本` });
@@ -162,11 +169,13 @@ export function ArticleList({
       [] as Article[];
     const list = articlesIn.filter((a) => a !== lead && !subs.includes(a));
     const head = rows.find((r) => r.kind === 'section');
+    const weekendRow = rows.find((r) => r.kind === 'weekend');
     return {
+      weekend: weekendRow?.kind === 'weekend' ? weekendRow.state : null,
       lead,
       subs,
       list,
-      leftTitle: channel.id === 'today' ? '本日のトップ' : channel.id === 'saved' ? '保存した記事' : channel.name,
+      leftTitle: channel.id === 'today' ? (weekendRow ? '週末の配信' : '本日のトップ') : channel.id === 'saved' ? '保存した記事' : channel.name,
       centerTitle: channel.id === 'today' ? '新着' : '記事一覧',
       aside: head?.kind === 'section' ? head.aside : undefined,
     };
@@ -192,6 +201,7 @@ export function ArticleList({
       renderItem={({ item }) => {
         if (item.kind === 'section') return <SectionHeader title={item.title} aside={item.aside} color={channel.color} />;
         if (item.kind === 'subscribe') return <SubstackSubscribe />;
+        if (item.kind === 'weekend') return <WeekendDigest state={item.state} />;
         if (item.kind === 'salon')
           return (
             <View style={[styles.salonRow, { borderBottomColor: theme.line }]}>
@@ -233,6 +243,11 @@ export function ArticleList({
             keyExtractor={(a) => a.id}
             ListHeaderComponent={
               <View>
+                {desk.weekend ? (
+                  <View style={{ marginBottom: Spacing.five }}>
+                    <WeekendDigest state={desk.weekend} />
+                  </View>
+                ) : null}
                 <ColumnHeader title={desk.leftTitle} aside={desk.aside} />
                 {desk.lead ? <DesktopLead article={desk.lead} horizontal /> : null}
                 {desk.subs.length ? (

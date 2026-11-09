@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-09T08:26:49.485Z",
+  "updated_at": "2026-11-09T12:29:17.667Z",
   "articles": [
+    {
+      "id": "4cb62076-3b07-4324-99e3-f09ee6cda248",
+      "created_at": "2026-11-09T12:29:17.667Z",
+      "published_date": "2026-11-09",
+      "category": "device",
+      "featured": false,
+      "title": "生体センシング機器のBio Search、脳波のリアルタイム解析AIを持つイスラエルInnerEyeを株式交換で完全子会社化へ。2028年の米NASDAQ上場をめざす",
+      "source_name": "Bio Search",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000003.000083208.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/83208/3/83208-3-52e5f27e18cd5426e58359664d2d0872-1021x256.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "脳波・心電・心拍・筋電などの生体データを使ったヘルスケアAIや医療機器の開発販売を手がけるBio Search（東京都中央区）は11月9日、イスラエルのInnerEyeの全株式を株式交換で取得し、完全子会社にする契約を結んだと発表した。取引の完了は、イスラエル側の規制当局の承認などを経て2026年12月〜2027年1月上旬の予定。",
+        "InnerEyeは2014年設立で、ベン＝グリオン大学とヘブライ大学の研究者の知見をもとにしたブレインテック企業。脳波（EEG）をリアルタイムで解析し、知覚や意思決定に関わる認知状態を識別するアルゴリズムを持ち、熟練者の暗黙知を学習して作業の自動化や支援に使う技術を製品化している。",
+        "Bio Searchは両社の脳波・生体データを統合してAIの精度を高め、医療・ヘルスケアでの認知機能の可視化・早期診断支援に加え、産業オートメーションやセキュリティなどへの応用を進める。日本とイスラエルにまたがる経営体制を整え、2028年の米NASDAQ上場をめざすとしている。"
+      ],
+      "comment": "日本の生体センシングのスタートアップが、イスラエルの脳波AI企業を株式交換で買います。自分が注目したのは、医療の認知機能評価だけでなく、熟練者の判断を学ぶ産業向けの用途まで一つの基盤で狙っているところです。脳波データの量と質が、ブレインテックの勝負どころになると思います。",
+      "company": {
+        "name": "Bio Search",
+        "profile": "2018年10月設立、東京都中央区。資本金3億5,000万円、未上場。脳波・心電・心拍・筋電などの生体センシング機器や医療機器の開発販売と、生体データの解析プラットフォームを手がける。",
+        "url": "https://biosearch.co.jp",
+        "ceo": {
+          "name": "大室貴廣",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-09T12:29:17.667Z"
+    },
+    {
+      "id": "da71c53a-918e-4fc1-9e40-22240fb118f1",
+      "created_at": "2026-11-09T12:29:17.667Z",
+      "published_date": "2026-11-09",
+      "category": "global",
+      "featured": false,
+      "title": "【フランス・中国】仏製薬Pierre Fabre、AI創薬の中国XtalPiと提携。XtalPiのAIとロボットで低分子の新薬候補をゼロから設計し、がんや希少疾患などを対象に",
+      "source_name": "Pierre Fabre（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/laboratoires-pierre-fabre-and-xtalpi-announce-an-ai-driven-collaboration-focused-on-drug-discovery-302932390.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS2029297/logo-PF-XtalPi.jpg?id=OA3063304&p=facebook",
+      "summary": [
+        "フランスの製薬会社Laboratoires Pierre Fabreと、AI創薬の中国XtalPi（香港上場）は11月9日、がん、可能性として皮膚科、希少疾患の複数の研究プログラムで、新しい臨床候補化合物の探索に協力する契約を結んだと発表した。",
+        "XtalPiはAIとロボティクスを組み合わせた基盤を使い、非公開の標的に対する新しい低分子化合物をゼロから設計して提供する。Pierre Fabreは疾患生物学、探索研究、橋渡し研究、臨床開発の知見で有望な化合物を選んで進め、その後の臨床開発と商業化を担う。これまで薬にしにくかった標的を狙う。",
+        "契約には一時金、複数のマイルストン、上市後の経済的な取り分が含まれるが、具体的な金額は公表していない。Pierre Fabreは、研究開発のデータ・AIのロードマップと創薬エンジンに欠かせない追加だとしている。"
+      ],
+      "comment": "欧州の中堅製薬が、創薬の入口を中国のAI企業に任せる提携です。自分が注目したのは、AIで設計するだけでなく、ロボットで合成・実験まで回す会社に候補化合物づくりを外注しているところです。日本の中堅製薬にとっても、探索研究を自前で持つか外に出すかの判断材料になると思います。",
+      "quote": {
+        "text": "Under the agreement, XtalPi will use its integrated AI capabilities and robotics platform to de novo design and deliver novel small molecule therapeutics against undisclosed targets.",
+        "source": "Laboratoires Pierre Fabre / XtalPi",
+        "url": "https://www.prnewswire.com/news-releases/laboratoires-pierre-fabre-and-xtalpi-announce-an-ai-driven-collaboration-focused-on-drug-discovery-302932390.html"
+      },
+      "status": "published",
+      "updated_at": "2026-11-09T12:29:17.667Z"
+    },
     {
       "id": "c11a3bf3-273c-46ec-ab57-df1fbdd3f65a",
       "created_at": "2026-11-09T08:26:49.485Z",

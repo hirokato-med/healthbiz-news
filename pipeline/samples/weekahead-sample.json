@@ -1,0 +1,71 @@
+{
+ "updated_at": "2026-11-09",
+ "issues": [
+  {
+   "id": "weekahead-2026-11-15",
+   "published_date": "2026-11-08",
+   "title": "来週の注目｜中間決算が出そろい、病院向けの展示会HOSPEXへ",
+   "week": "11/16–11/22",
+   "note": "上場ヘルスケア企業の中間決算は11月13日までにほぼ出そろい、来週の決算発表は少なめです。自分が注目しているのは、11月18日からのHOSPEX Japanです。病院や介護施設が買う設備や医療DXの製品が一度に見られる場なので、人手不足への対応がどこまで製品になっているかを確かめたいと思います。同じ週にドイツでは医療機器の見本市MEDICAも開かれます。",
+   "sections": [
+    {
+     "name": "決算発表",
+     "items": [
+      {
+       "date": "2026-11-16",
+       "label": "Hiクラテス 2026年9月期 決算",
+       "note": "歯科向け統合電子カルテの開発・販売会社",
+       "url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
+      },
+      {
+       "date": "2026-11-16",
+       "label": "FRONTEO 2027年3月期 第2四半期決算",
+       "note": "ライフサイエンスAIを事業分野の一つに持つAI企業",
+       "url": "https://www.fronteo.com/ir/calendar/"
+      },
+      {
+       "date": "2026-11-19",
+       "label": "SOMPOホールディングス 2027年3月期 第2四半期決算",
+       "note": "グループに介護事業のSOMPOケアを持つ保険グループ",
+       "url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
+      }
+     ]
+    },
+    {
+     "name": "政策・審議会",
+     "items": [
+      {
+       "date": "2026-11-16",
+       "label": "薬事審議会 血液事業部会 令和8年度第2回献血推進調査会",
+       "note": "献血の推進について審議する薬事審議会の調査会",
+       "url": "https://www.mhlw.go.jp/stf/newpage_76669.html"
+      }
+     ]
+    },
+    {
+     "name": "学会・イベント",
+     "items": [
+      {
+       "date": "2026-11-16",
+       "label": "MEDICA 2026",
+       "note": "医療機器・ヘルスITの国際見本市（11/16〜19、独デュッセルドルフ）",
+       "url": "https://www.medica-tradefair.com/"
+      },
+      {
+       "date": "2026-11-18",
+       "label": "HOSPEX Japan 2026",
+       "note": "医療・福祉施設向けの設備・機器・DXの展示会（11/18〜20、東京ビッグサイト）",
+       "url": "https://hospex.jma.or.jp/"
+      },
+      {
+       "date": "2026-11-21",
+       "label": "第36回日本医療薬学会年会",
+       "note": "11/21〜23、金沢。2040年の課題を解く医療薬学がテーマ",
+       "url": "https://www.c-linkage.co.jp/36jsphcs/outline.html"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

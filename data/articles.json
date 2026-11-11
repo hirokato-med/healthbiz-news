@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-11-11T07:16:55.974Z",
+  "updated_at": "2026-11-11T08:26:47.844Z",
   "articles": [
+    {
+      "id": "98b55a13-71f0-4cbe-b275-50daa30c5c12",
+      "created_at": "2026-11-11T08:26:47.844Z",
+      "published_date": "2026-11-11",
+      "category": "global",
+      "featured": false,
+      "title": "【中国・ドイツ】中国Abbiskoが創製し独Merck KGaAが販売する腱滑膜巨細胞腫治療薬「PIMJETMI」（pimicotinib）が米FDA承認。中国、カナダ、スイスに続く4カ国目",
+      "source_name": "Abbisko Therapeutics（PR Newswire）",
+      "source_url": "https://www.prnewswire.com/news-releases/pimjetmi-pimicotinib-developed-by-abbisko-therapeutics-and-licensed-by-merck-kgaa-darmstadt-germany-receive-us-fda-approval-for-tgct-302935851.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS1818445/LOGO-JPG-Logo.jpg?id=OA3071572&p=facebook",
+      "summary": [
+        "中国のAbbisko Therapeutics（香港上場）は11月10日、自社で創製した経口の低分子CSF-1R阻害薬「PIMJETMI」（pimicotinib）が、外科的切除で機能障害の悪化や重い合併症が生じうる症候性の腱滑膜巨細胞腫（TGCT）の成人の全身治療薬として、米FDAの承認を受けたと発表した。",
+        "承認は国際第3相試験MANEUVERなどの結果に基づく。25週時点の奏効割合は56%（プラセボ3%）で、関節の可動域、身体機能、痛みでも有意な改善を示した。2025年12月の中国、2026年6月のカナダ、10月のスイスに続く4つ目の承認となる。",
+        "世界での商業化権はドイツのMerck KGaAが持つ。Abbiskoは米国での初回販売時に追加のマイルストンを受け取り、世界の純売上高に対して2桁のロイヤルティを受け取る権利がある。"
+      ],
+      "comment": "中国のバイオ企業が自社で創った新薬が、欧州の大手製薬を通じて米国で承認されました。自分が注目したのは、中国企業が創薬と臨床開発を担い、販売を欧米の大手に任せる分業で、4カ国の承認を1年足らずで取ったところです。日本の製薬会社にとっても、中国発の新薬の導入が現実的な選択肢になっていると思います。",
+      "quote": {
+        "text": "PIMJETMI is an orally available and potent small-molecule CSF-1R inhibitor independently developed by Abbisko Therapeutics, with global commercialization rights granted to Merck KGaA, Darmstadt, Germany.",
+        "source": "Abbisko Therapeutics",
+        "url": "https://www.prnewswire.com/news-releases/pimjetmi-pimicotinib-developed-by-abbisko-therapeutics-and-licensed-by-merck-kgaa-darmstadt-germany-receive-us-fda-approval-for-tgct-302935851.html"
+      },
+      "status": "published",
+      "updated_at": "2026-11-11T08:26:47.844Z"
+    },
     {
       "id": "612460de-28da-44fc-a975-c2f7f2bb5463",
       "created_at": "2026-11-11T07:16:55.974Z",

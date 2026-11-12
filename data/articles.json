@@ -1,6 +1,143 @@
 {
-  "updated_at": "2026-11-12T01:53:59.477Z",
+  "updated_at": "2026-11-12T02:31:53.571Z",
   "articles": [
+    {
+      "id": "e47e9a48-500e-4426-a897-38afd6022db0",
+      "created_at": "2026-11-12T02:31:53.490Z",
+      "published_date": "2026-11-12",
+      "category": "dx",
+      "featured": true,
+      "title": "SOMPOホールディングスとNTT、介護分野のフィジカルAI社会実装でパートナーシップ協定。まず清掃・洗濯・配膳などの間接業務から実証・事業化を検討",
+      "source_name": "NTT",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000077.000181531.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/181531/77/181531-77-01fa86abcad4592466ba32e3f9d473de-1675x432.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "SOMPOホールディングスとNTTは2026年11月11日、介護分野でカメラ・センサー・ロボットなどを連携させる「フィジカルAI」の社会実装を進めるパートナーシップ協定を結んだ。",
+        "SOMPOは介護サービスで培った現場の運用知見を、NTTは通信ネットワーク・セキュリティや多様な機器をつなぐプラットフォームの知見を持ち寄る。",
+        "当初は身体介助ではなく清掃、洗濯、配膳・下膳、物品運搬などの間接業務を対象に、実証計画や事業化の役割分担を具体化し、他の介護事業者への展開も検討する。"
+      ],
+      "comment": "介護大手のSOMPOとNTTが、介護現場でロボットなどを動かすAIの実装に向けて手を組みました。自分が注目したのは、身体介助ではなく、清掃や洗濯、配膳といった間接業務から始めるところです。介護職が利用者に向き合う時間を増やす現実的な入り方で、他の介護事業者にも広がる形になれば、人手不足への打ち手になると思います。",
+      "company": {
+        "name": "NTT",
+        "listed": "東証プライム（9432）",
+        "profile": "NTTドコモやNTTデータなどを傘下に持つ通信大手の持株会社。協定の相手のSOMPOホールディングスは、介護事業のSOMPOケアを傘下に持つ。",
+        "url": "https://group.ntt/jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T02:31:53.490Z"
+    },
+    {
+      "id": "b1c295bf-2f11-475c-85eb-f54a37a6b562",
+      "created_at": "2026-11-12T02:31:53.490Z",
+      "published_date": "2026-11-12",
+      "category": "service",
+      "featured": false,
+      "title": "ウエルシア薬局、茨城県古河市で移動販売車「うえたん号」を始動し全国40自治体・43台に。車内モニターで薬剤師・管理栄養士にオンライン健康相談",
+      "source_name": "ウエルシア薬局",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000087636.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/87636/242/87636-242-ddc9b1374be5c97725df2915a0c03cd7-1000x750.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "ウエルシア薬局は2026年11月2日、茨城県古河市で高齢者らの買い物支援と健康増進のため、移動販売車「うえたん号」の運行を始めた。",
+        "2022年5月の静岡県島田市を皮切りに、今回で全国40自治体・43台の稼働となる。",
+        "食品・日用品に加え、事前注文で第一類を含む一般用医薬品を販売し、車載の大型モニターで店舗の薬剤師や管理栄養士とのオンライン健康相談も受けられる。"
+      ],
+      "comment": "ドラッグストアの移動販売車が、全国40自治体・43台まで広がりました。自分が注目したのは、食品や日用品を運ぶだけでなく、車内のモニターで薬剤師や管理栄養士に健康相談ができるところです。店舗に来られない高齢者に、薬局の機能を届ける地域の入り口になると思います。",
+      "company": {
+        "name": "ウエルシア薬局",
+        "listed": "東証プライム（親会社ツルハホールディングス）",
+        "financials": "親会社ツルハHDの2026年2月期は売上高1兆4,505億円・営業利益630億円。2027年2月期は売上高2兆5,550億円・営業利益994億円を予想（決算発表の報道より）。",
+        "profile": "ドラッグストア「ウエルシア」「ハックドラッグ」などを運営。2025年12月にツルハホールディングスと経営統合した。",
+        "url": "https://www.welcia-yakkyoku.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T02:31:53.490Z"
+    },
+    {
+      "id": "55a332c9-5bce-4a55-87f1-aec18355f283",
+      "created_at": "2026-11-12T02:31:53.490Z",
+      "published_date": "2026-11-12",
+      "category": "service",
+      "featured": false,
+      "title": "SBCメディカルグループ、法人向け福利厚生「SBC Wellness」を住友不動産に提供開始。従業員と家族が生殖医療・美容医療などを優待価格で利用",
+      "source_name": "SBC Medical Group Holdings（SBCメディカルグループホールディングス）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000404.000097803.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/97803/404/97803-404-a2106498104c483475560024dfe05c57-1920x964.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "SBCメディカルグループホールディングスの法人向け福利厚生プログラム「SBC Wellness」が、住友不動産に採用された。",
+        "雇用形態を問わず従業員と二親等以内の家族が、卵子凍結・不妊治療などの生殖医療、美容医療、審美歯科、AGA治療、視力矯正を優待価格で受けられる（いずれも自由診療）。",
+        "企業側の初期費用・ランニングコストはかからず、専用LINEで専任コンシェルジュが相談から予約代行まで支援する。"
+      ],
+      "comment": "美容医療大手のグループが、大手不動産会社の福利厚生に生殖医療や美容医療を入れました。自分が注目したのは、企業側の費用はゼロで、従業員が優待価格で自由診療を受ける形にしているところです。企業の健康経営を入り口に、自由診療クリニックが法人から患者を集める流れが広がると思います。",
+      "company": {
+        "name": "SBC Medical Group Holdings（SBCメディカルグループホールディングス）",
+        "listed": "Nasdaq（SBC）",
+        "profile": "米カリフォルニア州アーバイン。湘南美容クリニックをはじめ美容医療、皮膚科、整形外科、不妊治療、婦人科、歯科、AGA、眼科など国内外287院（2026年7月末）のクリニックに経営支援を行うMSO（医療経営支援会社）。2024年9月にNasdaqに上場、2025年6月にラッセル3000に採用。CEOは相川佳之氏。",
+        "url": "https://sbc-holdings.com/jp"
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T02:31:53.490Z"
+    },
+    {
+      "id": "c42b5a8d-99a1-4dd4-8f37-360cb267f3c4",
+      "created_at": "2026-11-12T02:31:53.490Z",
+      "published_date": "2026-11-12",
+      "category": "service",
+      "featured": false,
+      "title": "Craifの自宅でできるがんリスク検査「マイシグナル」、導入医療機関3,000施設・導入法人1,000社を突破。直近12カ月で600社以上が新規導入",
+      "source_name": "Craif",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000482.000041883.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/41883/482/41883-482-774fdaa2c3e0bfa8b8c8ddeb660b7135-1380x800.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Craifの尿で調べるがんリスク検査「マイシグナル」の導入医療機関が全国3,000施設、導入法人が1,000社を超えた。",
+        "医療機関では47都道府県の総合病院、健診施設、クリニックのほか、人間ドックや巡回健診、企業健診への組み込みが進んでいる。",
+        "法人向けは2023年9月の本格提供開始から、直近12カ月だけで600社以上が新規導入し、健康経営や福利厚生の施策として使われている。"
+      ],
+      "comment": "尿で調べるがんリスク検査が、医療機関3,000施設、法人1,000社まで広がりました。自分が注目したのは、法人の導入がこの1年で600社以上増え、企業健診や福利厚生の中に入り始めているところです。採血や受診の手間を嫌う働く世代に、検診の入り口を作る売り方が伸びていると思います。",
+      "company": {
+        "name": "Craif",
+        "profile": "2018年5月設立、東京都新宿区。資本金1億円、未上場。尿中マイクロRNAとAIを使ったがんの早期発見検査の研究開発と、自宅でできるがんリスク検査「マイシグナル」の提供。",
+        "url": "https://craif.com/",
+        "ceo": {
+          "name": "小野瀨隆一",
+          "bio": "早稲田大学国際教養学部卒業。三菱商事でシェールガスを日本に運ぶLNG船の事業に携わり、2018年に退職してIcaria（現Craif）を創業。2021年にForbes Asiaの「30 Under 30」に選ばれた。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T02:31:53.490Z"
+    },
+    {
+      "id": "e7cbfb5c-f972-44a4-a6ab-fbf21e584c4f",
+      "created_at": "2026-11-12T02:31:53.490Z",
+      "published_date": "2026-11-12",
+      "category": "device",
+      "featured": false,
+      "title": "順天堂大学とAMI、デジタル聴診器の心音・心電図をAIで解析する「AI聴診」で左室収縮機能障害を検出。外部6施設964人でAUC 0.904、専門医の聴診を上回る",
+      "source_name": "順天堂大学",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000924.000021495.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/21495/924/21495-924-b474f583ce713839bab9a3baff7784c6-1471x1054.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "順天堂大学循環器内科学の研究グループはAMIとの共同研究で、デジタル聴診器「Cardio-EGG」で記録した心音と心電図をAIで解析し、左室収縮機能障害を検出する手法を検証した。",
+        "2,359人のデータで学習したAIを別の6施設の964人で外部検証したところ、AUC 0.904、感度86.3%、陰性的中率98.5%で、循環器専門医の聴診判定を上回った。",
+        "心エコー検査が必要な患者を効率よく見極め、心不全の早期発見につながると期待され、論文はNEJM AI誌に2026年10月15日付で公開された。"
+      ],
+      "comment": "聴診器の音をAIで解析して、心臓の働きが落ちた人を見つける研究の結果が出ました。自分が注目したのは、学習に使っていない6施設で確かめても、循環器の専門医の聴診より正確だったところです。心エコーを受けるべき人を、診療所の聴診の段階で絞り込める道具になると思います。",
+      "company": {
+        "name": "順天堂大学",
+        "profile": "東京都文京区。1838年創設の医学塾を起源とする医療系の総合大学で、附属6病院を持つ。大学院医学研究科に2025年1月、腸内細菌療法リサーチセンター（Gut-Link Lab）を設置した。",
+        "url": "https://www.juntendo.ac.jp/",
+        "ceo": {
+          "name": "代田浩之",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T02:31:53.490Z"
+    },
     {
       "id": "052bdc63-0254-4b70-aa0d-2abf9a72de38",
       "created_at": "2026-11-11T12:26:36.290Z",
@@ -3049,7 +3186,7 @@
       "created_at": "2026-11-10T08:30:47.991Z",
       "published_date": "2026-11-10",
       "category": "service",
-      "featured": true,
+      "featured": false,
       "title": "在宅医療のTEAM BLUE、練馬区の島村記念病院と杉並区の健診クリニックを運営する医療法人社団はなぶさ会を引き継ぎ。新理事長に「おうちにかえろう。病院」院長の水野慎大氏",
       "source_name": "医療法人社団はなぶさ会",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000194351.html",

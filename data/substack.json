@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-11T12:26:36.889Z",
+  "updated_at": "2026-11-12T02:31:54.405Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1112vol171google-cloudaigemini-for",
+      "title": "11月12日（木）vol.171：Google Cloud、病院と保険会社向けのAIエージェント「Gemini for healthcare」を発表、電子カルテは読むだけで書き込まない、AnthropicやOpenAIのAIも選べる",
+      "url": "https://hiroakikato.substack.com/p/1112vol171google-cloudaigemini-for",
+      "published_date": "2026-11-12",
+      "excerpt": "木曜日です。今日はGoogleの話をしていきます！！\n11月8日のメルマガで、電子カルテ最大手のEpicが、定型の再診の一部をAIエージェントに任せる構想を書きました。\n今日はGoogleの側の動きで、11月10日にGoogle Cloudが、病院と保険会社向けのAIエージェントを発表しました！！\nそれでは、今日のニュースです！！\n◆Google Cloud Launches Gemini for Healthcare（Google Cloud、2026年11月10日）\n　https://www.googlecloudpresscorner.com/2026-11-10-Google-Clou…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!064K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcde0b21f-b7b8-4070-9fa4-56c1ac17d09f_1165x600.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1111vol170rock-healthai",
       "title": "11月11日（水）vol.170：Rock Healthレビュー、米国は薬の中間業者と保険の販売に「透明性」を求める一方で、医療AIは透明性の義務を外し、確かめる責任は買う病院へ",

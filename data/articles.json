@@ -1,6 +1,65 @@
 {
-  "updated_at": "2026-11-12T08:34:13.515Z",
+  "updated_at": "2026-11-12T12:27:21.554Z",
   "articles": [
+    {
+      "id": "3389472f-3cc0-43d6-b3c4-d76ab19b5176",
+      "created_at": "2026-11-12T12:27:21.554Z",
+      "published_date": "2026-11-12",
+      "category": "service",
+      "featured": false,
+      "title": "シダックスフードサービス、高齢者施設向けの完全調理品の給食モデル「元気ごはん with Oisix」の新規契約が10月末で前年同期比約2倍に。特養で給食の総労働時間を1日51時間から35時間に",
+      "source_name": "シダックスフードサービス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000180760.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/180760/15/180760-15-e686e52b5b6a58c48a5683dfb590cd25-2714x1515.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "オイシックス子会社のシダックスフードサービスの高齢者施設向け給食モデル「元気ごはん with Oisix」は、今年度の新規契約が10月末時点で前年同期比188%となり、過去5年の各年度の通期実績を上回った。",
+        "前夜に冷凍のまま盛り付けて翌朝スチームコンベクションオーブンで一括加熱する完全調理品で、受託先の特別養護老人ホームでは給食の総労働時間を1日51時間から35時間に、厨房の人員を9人から7人に減らした。",
+        "委託運営に加え直営施設への食材卸も強化しており、中期的に1000施設への導入をめざす。"
+      ],
+      "comment": "高齢者施設の給食を、完全調理品に切り替える動きが加速しています。自分が注目したのは、「早朝の仕込みをなくし、厨房の人員を9人から7人に減らせた」ところです。介護施設は食事の質を落とせない一方で、調理スタッフの採用が一番難しい職種の一つになっていて、給食の外部化は人手不足対策として広がると思います。",
+      "company": {
+        "name": "シダックスフードサービス",
+        "profile": "1960年5月設立、東京都品川区。資本金1億円、未上場で、オイシックスの子会社。全国の高齢者施設や病院、保育施設、社員食堂などで給食事業を展開する。",
+        "url": "https://shidax-fs.co.jp/shidax-food-service",
+        "ceo": {
+          "name": "堤祐輔",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T12:27:21.554Z"
+    },
+    {
+      "id": "8aa432f1-5c1a-4fa4-bd39-89450ce6e34d",
+      "created_at": "2026-11-12T12:27:21.554Z",
+      "published_date": "2026-11-12",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】Withingsの法人向け部門、GLP-1減量プログラム向けに部位別の体組成と今後の体重・筋肉量の予測を出す体組成計「Body Pro 3」を発表。2027年初めに企業・遠隔モニタリング事業者向けに提供",
+      "source_name": "Withings",
+      "source_url": "https://www.prnewswire.com/news-releases/withings-health-solutions-unveils-body-pro-3-bringing-dexa-level-segmental-body-composition-tracking-into-the-home-302936982.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS2032943/Withings-Health-Solutions-Body-Pro-3.jpg?id=OA3072807&p=facebook",
+      "quote": {
+        "text": "Body Pro 3 turns routine home weigh-ins into richer information, including segmental fat and muscle tracking, projections of where each member's progress is heading, and hypertension notifications (pending FDA 510(k) clearance).",
+        "source": "Withings Health Solutions（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/withings-health-solutions-unveils-body-pro-3-bringing-dexa-level-segmental-body-composition-tracking-into-the-home-302936982.html"
+      },
+      "summary": [
+        "Withings Health Solutionsは11月12日、自宅で測るたびに腕・脚・胴体ごとの脂肪と筋肉量や内臓脂肪の指標を出す通信機能付き体組成計「Body Pro 3」を発表した。DEXAとの比較で脂肪量の相関は0.99だったとしている。",
+        "数万件のGLP-1治療の経過データから、測定のたびに体重・脂肪量・筋肉量の見通しを予測し、進みが遅れると知らせる。体重データから高血圧の可能性を知らせる機能は、FDAの510(k)クリアランス待ち。",
+        "2027年初めに、企業の医療パートナー、遠隔患者モニタリング（RPM）事業者、医療機関の体重管理プログラム向けに提供する。"
+      ],
+      "comment": "体重計の会社が、GLP-1の減量治療を続けさせるための道具を法人向けに出しました。自分が注目したのは、「体重ではなく筋肉が落ちていないかと、この先の見通しをケアチームに返す」ところです。GLP-1をやめる人が1年で半数を超えるなかで、払い手の保険者やプログラム事業者が継続率にお金を出す形になっています。日本でも肥満症治療薬が広がれば、薬局や健診事業者が同じ役割を担うと思います。",
+      "company": {
+        "name": "Withings",
+        "profile": "通信機能付きの健康機器を手がけるWithingsの法人向け部門Withings Health Solutionsが、慢性疾患の予防・管理、遠隔患者モニタリング、臨床研究向けに機器とデータを医療者に提供する。",
+        "url": "https://www.withingshealthsolutions.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-12T12:27:21.554Z"
+    },
     {
       "id": "eea632d8-e8b5-4418-bb26-7746df9146e5",
       "created_at": "2026-11-12T08:34:13.515Z",

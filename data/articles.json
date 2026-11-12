@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11T12:26:36.290Z",
+  "updated_at": "2026-11-12T01:53:59.477Z",
   "articles": [
     {
       "id": "052bdc63-0254-4b70-aa0d-2abf9a72de38",
       "created_at": "2026-11-11T12:26:36.290Z",
       "published_date": "2026-11-11",
       "category": "device",
-      "featured": true,
+      "featured": false,
       "title": "H.U.グループの富士レビオ、血液でアルツハイマー病のアミロイドβ蓄積の把握を補助するpTau217検査試薬の国内製造販売承認を取得。自社の全自動測定システムで使用",
       "source_name": "H.U.グループホールディングス",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000042705.html",
@@ -3049,7 +3049,7 @@
       "created_at": "2026-11-10T08:30:47.991Z",
       "published_date": "2026-11-10",
       "category": "service",
-      "featured": false,
+      "featured": true,
       "title": "在宅医療のTEAM BLUE、練馬区の島村記念病院と杉並区の健診クリニックを運営する医療法人社団はなぶさ会を引き継ぎ。新理事長に「おうちにかえろう。病院」院長の水野慎大氏",
       "source_name": "医療法人社団はなぶさ会",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000194351.html",

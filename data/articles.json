@@ -1,6 +1,121 @@
 {
-  "updated_at": "2026-11-13T07:15:57.278Z",
+  "updated_at": "2026-11-13T08:29:24.010Z",
   "articles": [
+    {
+      "id": "5169bc03-92e9-4cec-8e86-0928343360fd",
+      "created_at": "2026-11-13T08:29:24.010Z",
+      "published_date": "2026-11-13",
+      "category": "service",
+      "featured": false,
+      "title": "エス・エム・エス、介護分野の特定技能外国人材の紹介「カイゴジョブグローバル」を開始。国内で働く外国人材の転職支援とインドネシアの教育機関からの紹介、定着支援までを一括で",
+      "source_name": "エス・エム・エス",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000488.000013298.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/13298/488/13298-488-2d021a30e7cefbf4f21c548bd4620bcc-2000x680.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "エス・エム・エスは、介護分野で特定技能の外国人材を介護事業者に紹介する「カイゴジョブグローバル」を始めた。対応エリアは1都3県から順次広げる。",
+        "日本国内の介護施設で働く外国人材の転職支援と、インドネシアの教育機関と提携した現地で日本語・介護の訓練を受けた人材の紹介を行う。",
+        "特定技能で法令上求められる住居確保や生活オリエンテーション、定期面談などの支援は、登録支援機関との提携で受け入れ事業者に代わって担う。介護の特定技能1号の在留者は2026年8月末で83,111人。"
+      ],
+      "comment": "介護の人材紹介大手が、外国人材の紹介に本格的に乗り出しました。自分が注目したのは、「海外からの紹介だけでなく、すでに日本の介護現場で働く外国人材の転職支援から始める」ところです。初めて受け入れる事業所でも採りやすく、住居や面談などの義務的な支援も肩代わりするので、紹介料に加えて定着支援まで含めた売り方になると思います。",
+      "company": {
+        "name": "エス・エム・エス",
+        "listed": "東証プライム（2175）",
+        "financials": "2026年3月期は売上高647.4億円・営業利益67.9億円・純損失143.2億円。2027年3月期は売上高718.3億円・営業利益68.0億円・純利益61.7億円を予想。",
+        "profile": "東京都港区。介護・医療従事者向けの人材紹介「カイゴジョブ」「ナース専科」などのキャリア事業と、介護・障害福祉事業者向け経営支援プラットフォーム「カイポケ」を展開。アジアで医療情報プラットフォーム事業（MIMS）を手がけてきた。",
+        "url": "https://www.bm-sms.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-13T08:29:24.010Z"
+    },
+    {
+      "id": "2c002741-4f1e-48c8-abbc-3eb027c4d971",
+      "created_at": "2026-11-13T08:29:24.010Z",
+      "published_date": "2026-11-13",
+      "category": "service",
+      "featured": false,
+      "title": "メットライフ生命、保険の付帯サービスに介護の相談に答える「介護サポートAIコンシェルジュ」を追加。ウェルネス医療情報センターと共同開発し、24時間チャットで案内",
+      "source_name": "メットライフ生命",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000688.000005541.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/5541/688/5541-688-78ee59bb610bb75bbb9874215ad21d01-2054x835.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "メットライフ生命は11月13日、商品付帯サービスとして初めてAIを使ったチャット相談「介護サポートAIコンシェルジュ」の提供を始めた。",
+        "介護保険の制度や申請方法、施設やサービスの情報、家族への介護方針の伝え方、認知症ケアなどの相談に24時間365日答え、公的機関や専門機関の情報だけを参照する。",
+        "ウェルネス医療情報センターと共同開発し、AIシステムは東京大学・松尾研発のSCIENが担当した。個別の健康相談・医療相談には答えない。"
+      ],
+      "comment": "生命保険会社が、契約者向けの介護相談をAIチャットに広げました。自分が注目したのは、「これまで電話で受けてきた介護相談を、24時間答えるAIに置き換えていく」ところです。保険金を払う前の段階で契約者との接点を持ち続ける付帯サービスの競争で、介護の相談は保険会社にとって手放せない入口になっていると思います。",
+      "company": {
+        "name": "メットライフ生命",
+        "profile": "東京都千代田区。資本金2,226億円、未上場。米MetLifeグループの生命保険会社で、商品付帯サービスや統合型ソリューション「360Future」を展開する。",
+        "url": "https://www.metlife.co.jp/",
+        "ceo": {
+          "name": "ディルク・オステイン",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-13T08:29:24.010Z"
+    },
+    {
+      "id": "408b6565-cd61-4b0d-8432-0ebd4e61b8d6",
+      "created_at": "2026-11-13T08:29:24.010Z",
+      "published_date": "2026-11-13",
+      "category": "dx",
+      "featured": false,
+      "title": "ヘルスル、LLMで病院ごとの検査・病名コードを国際標準のOMOP CDMに対応付けるデータ変換基盤で、医療データ連携分析基盤協会（FedAna）と協業",
+      "source_name": "ヘルスル",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000194281.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/194281/1/194281-1-812089409393648466916137a305d11f-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "ヘルスルは、医療データの共通規格の活用に取り組む一般社団法人 医療データ連携分析基盤協会（FedAna）と、医療データの変換・標準化で協業体制を築いた。",
+        "ヘルスルの基盤は、院内のローカルコードを国内標準コード（JLAC、YJ・HOTコード、標準病名など）や国際的な共通データモデル「OMOP CDM」に対応付ける候補と根拠をLLMが示し、医療機関や専門家が確定する。",
+        "判断が必要な項目はFedAnaが医学的に確認・助言する。変換を医療機関内で行えば、患者データを院外に出さずに進められる。FedAnaの平松達雄代表理事はOHDSI Japanの代表。"
+      ],
+      "comment": "病院ごとにばらばらな検査や病名のコードを、AIで国際標準にそろえる取り組みです。自分が注目したのは、「LLMは候補と根拠を出すだけで、確定は医療機関と専門家が行う」ところです。データ活用の一番の手間はこの対応付けで、担い手が限られていたので、電子カルテの移行や多施設研究のたびに必要になる作業として需要は大きいと思います。",
+      "company": {
+        "name": "ヘルスル",
+        "profile": "2025年1月設立、神奈川県藤沢市。資本金300万円、未上場。大規模言語モデル（LLM）を使った医療データの変換・標準化基盤を提供する。",
+        "url": "https://www.healthle.jp/",
+        "ceo": {
+          "name": "萩野颯太",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-13T08:29:24.010Z"
+    },
+    {
+      "id": "4196e054-1f67-41c4-9a91-cbdf73cd3817",
+      "created_at": "2026-11-13T08:29:24.010Z",
+      "published_date": "2026-11-13",
+      "category": "global",
+      "featured": false,
+      "title": "【イタリア】造影剤大手Bracco、Avicenna.AIと組み、頭部CTAで3mm超の脳動脈瘤を見つけ大きさの変化を追うAIソフト「UPTUNITY | Aneurysm」で米FDAの510(k)クリアランス",
+      "source_name": "Bracco",
+      "source_url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS1882873/Bracco-Logo.jpg?id=OA3076234&p=facebook",
+      "quote": {
+        "text": "UPTUNITY | Aneurysm works inside the reading environment radiologists already know and helps find the aneurysm hiding in the CT scan. The clinical decision stays where it belongs: with the radiologist.",
+        "source": "Bracco Americas, Cosimo DePinto（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html"
+      },
+      "summary": [
+        "造影剤大手のBraccoとAvicenna.AIは11月13日、頭部CT血管造影（CTA）の画像から脳動脈瘤の検出と評価を支援するAIソフト「UPTUNITY | Aneurysm」が米FDAの510(k)クリアランスを得たと発表した。",
+        "放射線科医の読影中に、3mmを超える嚢状の脳動脈瘤の疑いと位置・大きさを示し、既知の動脈瘤は過去の検査と比べて大きさの変化を測る。診断は医師が行う。",
+        "Braccoの新しい読影AIのシリーズ「UPTUNITY」の第1弾で、造影MRIの画像を強調するAI「AiMIFY」に続くデジタルヘルス製品となる。"
+      ],
+      "comment": "造影剤のメーカーが、画像を読むAIを自社の製品群に加えました。自分が注目したのは、「造影剤を売る会社が、撮った後の読影の工程にまで入ってくる」ところです。別の目的で撮ったCTで見落とされがちな小さな動脈瘤を拾い、経過観察まで追える形です。日本でも造影剤や撮影装置のメーカーが、読影AIを抱き合わせて病院に売る流れが強まると思います。",
+      "company": {
+        "name": "Bracco",
+        "profile": "1927年創業のイタリアの画像診断大手。X線・CT・MRI用の造影剤や超音波造影剤などを100か国以上で展開し、従業員は4,000人超、連結売上高は約20億ユーロ。研究開発に売上の約9%を投じる。",
+        "url": "https://www.bracco.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-13T08:29:24.010Z"
+    },
     {
       "id": "eec924f3-22f2-426a-a75c-da61d0a95d68",
       "created_at": "2026-11-13T07:15:57.278Z",

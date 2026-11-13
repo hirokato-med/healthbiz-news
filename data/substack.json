@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-12T12:27:22.592Z",
+  "updated_at": "2026-11-13T02:28:41.043Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1113vol172ouraaicounsel-health625001000600",
+      "title": "11月13日（金）vol.172：Oura、AIと医師で診療をするCounsel Healthを6億2500万ドル（約1000億円）で買収、指輪で「測る」会社が「診る」側へ、会員は600万人超",
+      "url": "https://hiroakikato.substack.com/p/1113vol172ouraaicounsel-health625001000600",
+      "published_date": "2026-11-13",
+      "excerpt": "金曜日です。今日は指輪型のウェアラブルデバイスのOuraの話をしていきます！！\n10月3日のメルマガで、Ouraが上場を延期したことを書きました。\nそのOuraが11月10日に、AIと医師で診療をする会社を買うと発表しました！！\nそれでは、今日のニュースです！！\n◆Oura Announces Agreement to Acquire Counsel Health, the AI-Native, Physician-Supervised Care Platform（Oura、2026年11月10日）\n　https://ouraring.com/blog/oura-to-acquire-coun…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!4Vei!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3dc8ceb-2572-4145-9b6a-927a3b2f98ca_768x576.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1112vol171google-cloudaigemini-for",
       "title": "11月12日（木）vol.171：Google Cloud、病院と保険会社向けのAIエージェント「Gemini for healthcare」を発表、電子カルテは読むだけで書き込まない、AnthropicやOpenAIのAIも選べる",

@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T08:29:24.010Z",
+  "updated_at": "2026-11-13T12:27:55.124Z",
   "articles": [
+    {
+      "id": "76eb52a2-fb0a-426a-bd42-a7c9e9fc8094",
+      "created_at": "2026-11-13T12:27:55.124Z",
+      "published_date": "2026-11-13",
+      "category": "dx",
+      "featured": false,
+      "title": "SBCメディカルグループ、台湾の生成AI企業NeuroBrain Dynamicsと資本業務提携。287院で来院単価・継続率を上げるレコメンドとカルテ・シフト・販促の自動化を共同開発し、日韓の優先販売権も",
+      "source_name": "SBC Medical Group Holdings（SBCメディカルグループホールディングス）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000407.000097803.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/97803/407/97803-407-a0141de0d07f88dfefc9fbefee4138c4-1377x913.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "SBCメディカルグループホールディングスは11月13日、台湾で企業向け生成AIの開発・導入支援を手がけるNeuroBrain Dynamics（NBD）と資本業務提携を結び、少数持分を出資した。出資額は公表していない。",
+        "国内外287院に、来院・施術履歴からコンシェルジュに提案を示すツールや予約システム「MySBC」のレコメンドといった「売上を伸ばすAI」と、音声認識によるカルテ下書き、シフト作成、販促画像生成などの「コストを下げるAI」を共同開発する。",
+        "日本・韓国でのNBD製品の優先販売権も得て、外部の医療機関にも提供する。2027年中頃をめどにコンシェルジュ向けツールなどから順次グループに展開する。"
+      ],
+      "comment": "美容医療大手のグループが、台湾のAI企業に出資して287院の運営をAIで標準化します。自分が注目したのは、「カルテやシフトの効率化だけでなく、来院単価と継続率を上げるレコメンドを一番に置いている」ところです。自由診療のクリニックは同じ患者に何度来てもらうかで稼ぐ事業なので、AIの使いどころが保険診療の病院とは違うと思います。",
+      "company": {
+        "name": "SBC Medical Group Holdings（SBCメディカルグループホールディングス）",
+        "listed": "Nasdaq（SBC）",
+        "profile": "米カリフォルニア州アーバイン。湘南美容クリニックをはじめ美容医療、皮膚科、整形外科、不妊治療、婦人科、歯科、AGA、眼科など国内外287院（2026年7月末）のクリニックに経営支援を行うMSO（医療経営支援会社）。2024年9月にNasdaqに上場、2025年6月にラッセル3000に採用。CEOは相川佳之氏。",
+        "url": "https://sbc-holdings.com/jp"
+      },
+      "status": "published",
+      "updated_at": "2026-11-13T12:27:55.124Z"
+    },
     {
       "id": "5169bc03-92e9-4cec-8e86-0928343360fd",
       "created_at": "2026-11-13T08:29:24.010Z",

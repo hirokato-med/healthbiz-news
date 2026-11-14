@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-13T12:31:09.851Z",
+  "updated_at": "2026-11-14T02:27:41.959Z",
   "articles": [
+    {
+      "id": "aa26e890-4634-43c3-bfb2-d3a563dc6051",
+      "created_at": "2026-11-14T02:27:41.959Z",
+      "published_date": "2026-11-14",
+      "category": "global",
+      "featured": false,
+      "title": "【米国】Dyania Health、NVIDIAと協業。数年分のカルテ全体をAIが読み、根拠つきで臨床の問いに答える「Synapsis AI」を病院の自前のGPU基盤で動かし、患者記録を院外に出さずに全患者へ",
+      "source_name": "Dyania Health",
+      "source_url": "https://www.prnewswire.com/news-releases/dyania-health-brings-clinical-reasoning-ai-inside-the-hospital-firewall-to-advance-patient-care-with-nvidia-302939231.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS2034575/Dyania-Patient-Journey.jpg?id=OA3077509&p=facebook",
+      "quote": {
+        "text": "Synapsis AI reads a patient's full medical record, across years of notes, operative reports, imaging reports and lab results, and answers clinical questions with evidence from the chart.",
+        "source": "Dyania Health（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/dyania-health-brings-clinical-reasoning-ai-inside-the-hospital-firewall-to-advance-patient-care-with-nvidia-302939231.html"
+      },
+      "summary": [
+        "米Dyania Healthは11月13日、NVIDIAとの協業を発表した。同社の「Synapsis AI」は、数年分の診療記録、手術記録、画像・検査の報告を通して読み、カルテの根拠を示しながら臨床の問いに答える。",
+        "NVIDIAのGPUとソフトウェアを使い、病院の自前の基盤で病院全体の患者を対象に動かす。推論は院内のネットワークの中で行い、患者記録を院外に移さない。",
+        "両社は米国内外の医療機関への導入、共同の事例公表、NVIDIAのヘルスケア向けソフトとの統合を進める。用途として、必要な医療を受けていない患者の発見や、レジストリ・質改善の強化を挙げる。"
+      ],
+      "comment": "カルテに埋もれた情報をAIで読み、病院全体の患者から治療が必要な人を探す取り組みです。自分が注目したのは、「クラウドに出さず、病院の中のGPUで全患者分を動かす」ところです。患者情報を外に出せないことが医療AIの最大の壁なので、日本でも院内に計算基盤を置く形が、電子カルテ大手や病院グループの選択肢になると思います。",
+      "company": {
+        "name": "Dyania Health",
+        "profile": "米ニュージャージー州ジャージーシティ。カルテ全体を読んで臨床の問いに根拠つきで答えるAI「Synapsis AI」を、医療機関の院内環境で提供する。",
+        "url": "https://www.dyaniahealth.com/",
+        "ceo": {
+          "name": "エイリニ・シュロッサー（Eirini Schlosser）",
+          "bio": "創業者兼CEO。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-14T02:27:41.959Z"
+    },
     {
       "id": "a5d3c35f-3009-44f0-8cfe-efb85cb15f98",
       "created_at": "2026-11-13T12:31:09.851Z",

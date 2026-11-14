@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-13T12:27:55.987Z",
+  "updated_at": "2026-11-14T02:27:42.576Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1114vol173pmdaaipmda",
+      "title": "11月14日（土）vol.173：PMDA、薬や医療機器の開発・申請の仕事でAIを使うときの「基本的考え方」を公表、最終的な責任は人間が担う、対象には審査をするPMDA自身も入る",
+      "url": "https://hiroakikato.substack.com/p/1114vol173pmdaaipmda",
+      "published_date": "2026-11-14",
+      "excerpt": "土曜日です。今日は日本の話で、PMDAが出したAIの文書の話をしていきます！！\n11月11日のメルマガで、米国では医療AIを確かめる責任が、国の認証からAIを買う病院の側に移ったと書きました。\n日本ではPMDAが11月2日に、薬や医療機器の会社が仕事でAIを使うときの考え方を出しています。\nそれでは、今日のニュースです！！\n◆「薬事活動におけるAI利活用に関する基本的考え方（Early Consideration）」について（PMDA、2026年11月2日）\n　https://www.pmda.go.jp/files/000283395.pdf\nPMDA（医薬品医療機器総合機構）は、薬や医療機…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!wWp7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14cf258b-3445-4792-89b7-24e6bc6c932c_844x585.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1113vol172ouraaicounsel-health625001000600",
       "title": "11月13日（金）vol.172：Oura、AIと医師で診療をするCounsel Healthを6億2500万ドル（約1000億円）で買収、指輪で「測る」会社が「診る」側へ、会員は600万人超",

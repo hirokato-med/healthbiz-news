@@ -34,6 +34,9 @@ export const SavedChannel: Channel = { id: 'saved', name: '保存済み', color:
 /** 毎週土曜の「今週のまとめ」。上部タブには出さず、トップの一覧に1本の記事として並ぶ */
 export const WeeklyChannel: Channel = { id: 'weekly', name: '今週のまとめ', color: '#1E4FD8' };
 
+/** 来週の注目（日曜配信）の色。今週のまとめの青・決算の緑・強調のオレンジと分ける */
+export const WeekAheadColor = '#0E8A8A';
+
 /** 記事に付けられるカテゴリ（特殊チャンネルを除く） */
 export type Category = Exclude<ChannelId, 'today' | 'saved'>;
 

@@ -4,7 +4,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
 import { Thumb } from '@/components/thumb';
-import { channelOf } from '@/constants/channels';
+import { channelOf, WeekAheadColor } from '@/constants/channels';
 import { Hairline, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { formatRelative } from '@/lib/articles';
@@ -33,12 +33,12 @@ export function ArticleRow({ article, compact = false }: { article: Article; com
           {article.kind === 'weekly' || article.kind === 'monthly' || article.kind === 'weekahead' ? (
             // まとめ記事は、見出しの上に色の帯のラベルを出してひと目で分かるように
             <View style={styles.weeklyBadgeRow}>
-              <View style={[styles.weeklyBadge, { backgroundColor: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? theme.up : theme.accent }]}>
+              <View style={[styles.weeklyBadge, { backgroundColor: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? WeekAheadColor : theme.accent }]}>
                 <ThemedText type="caption" style={{ color: '#FFFFFF', fontWeight: '800' }}>
                   {article.kind === 'monthly' ? '今月の注目決算' : article.kind === 'weekahead' ? '来週の注目' : '今週のまとめ'}
                 </ThemedText>
               </View>
-              <ThemedText type="caption" style={{ color: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? theme.up : theme.accent, fontWeight: '700' }}>
+              <ThemedText type="caption" style={{ color: article.kind === 'monthly' ? EarningsGreen : article.kind === 'weekahead' ? WeekAheadColor : theme.accent, fontWeight: '700' }}>
                 {article.kind === 'monthly' ? article.monthly?.month : article.kind === 'weekahead' ? article.weekahead?.week : article.weekly?.range}
               </ThemedText>
             </View>

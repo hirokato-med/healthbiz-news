@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { SectionHeader } from '@/components/section-header';
 import { ThemedText } from '@/components/themed-text';
+import { WeekAheadColor } from '@/constants/channels';
 import { Hairline, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { trackClick } from '@/lib/analytics';
@@ -36,13 +37,13 @@ export function WeekendDigest({ state }: { state: WeekendState }) {
       {state.weekahead ? (
         <Pressable
           onPress={() => open(state.weekahead!, 'weekahead')}
-          style={({ pressed }) => [styles.card, styles.aheadCard, { borderColor: theme.up, opacity: pressed ? 0.7 : 1 }]}
+          style={({ pressed }) => [styles.card, styles.aheadCard, { borderColor: WeekAheadColor, opacity: pressed ? 0.7 : 1 }]}
           accessibilityRole="button">
-          <View style={[styles.badge, { backgroundColor: theme.up }]}>
+          <View style={[styles.badge, { backgroundColor: WeekAheadColor }]}>
             <ThemedText style={styles.badgeText}>来週の注目</ThemedText>
           </View>
           <ThemedText style={styles.aheadTitle}>{state.weekahead.title.replace(/^来週の注目｜/, '')}</ThemedText>
-          <ThemedText type="caption" style={{ color: theme.up, fontWeight: '700', marginTop: Spacing.one }}>
+          <ThemedText type="caption" style={{ color: WeekAheadColor, fontWeight: '700', marginTop: Spacing.one }}>
             {state.weekahead.weekahead?.week ? `${state.weekahead.weekahead.week} の予定を見る ›` : '予定を見る ›'}
           </ThemedText>
         </Pressable>

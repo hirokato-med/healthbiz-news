@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { KatoAvatar } from '@/components/kato-avatar';
 import { ThemedText } from '@/components/themed-text';
+import { WeekAheadColor } from '@/constants/channels';
 import { Hairline, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { trackClick } from '@/lib/analytics';
@@ -26,7 +27,7 @@ export function WeekAheadDetail({ issue }: { issue: Article }) {
   return (
     <View>
       <View style={styles.eyebrowRow}>
-        <ThemedText type="eyebrow" style={{ color: theme.up }}>
+        <ThemedText type="eyebrow" style={{ color: WeekAheadColor }}>
           来週の注目
         </ThemedText>
         <ThemedText type="caption" themeColor="textSecondary">
@@ -43,7 +44,7 @@ export function WeekAheadDetail({ issue }: { issue: Article }) {
         </ThemedText>
       </View>
 
-      <View style={[styles.noteBox, { backgroundColor: theme.surface, borderLeftColor: theme.up }]}>
+      <View style={[styles.noteBox, { backgroundColor: theme.surface, borderLeftColor: WeekAheadColor }]}>
         <View style={styles.noteBy}>
           <KatoAvatar size={40} />
           <View>
@@ -62,7 +63,7 @@ export function WeekAheadDetail({ issue }: { issue: Article }) {
         sec.items.length ? (
           <View key={sec.name}>
             <View style={styles.sectionRow}>
-              <View style={[styles.sectionBar, { backgroundColor: theme.up }]} />
+              <View style={[styles.sectionBar, { backgroundColor: WeekAheadColor }]} />
               <ThemedText type="section" style={{ flex: 1 }}>
                 {sec.name}
               </ThemedText>
@@ -79,7 +80,7 @@ export function WeekAheadDetail({ issue }: { issue: Article }) {
                   onPress={() => it.url && (trackClick('weekahead_item', { issue: issue.id, label: it.label }), WebBrowser.openBrowserAsync(it.url))}
                   style={({ pressed }) => [styles.item, { borderTopColor: theme.line, opacity: pressed ? 0.6 : 1 }]}
                   accessibilityRole={it.url ? 'link' : undefined}>
-                  <ThemedText style={[styles.date, { color: theme.up }]}>{dayLabel(it.date)}</ThemedText>
+                  <ThemedText style={[styles.date, { color: WeekAheadColor }]}>{dayLabel(it.date)}</ThemedText>
                   <View style={{ flex: 1 }}>
                     <ThemedText style={styles.label}>
                       {it.label}

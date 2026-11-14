@@ -1,1 +1,126 @@
-{ "updated_at": "2026-11-09T00:00:00Z", "issues": [] }
+{
+  "updated_at": "2026-11-14T09:42:45.621Z",
+  "issues": [
+    {
+      "id": "weekahead-2026-11-15",
+      "published_date": "2026-11-15",
+      "title": "来週の注目｜介護報酬改定の議論が進み、病院向けの展示会HOSPEXへ",
+      "week": "11/16–11/22",
+      "note": "上場ヘルスケア企業の中間決算はほぼ出そろい、来週の決算発表は少なめです。自分が注目しているのは、11月16日の介護給付費分科会です。令和9年度の介護報酬改定に向けて、処遇改善と生産性向上が議題になります。同じ週の11月18日からは病院・介護施設向けの展示会HOSPEX Japanも開かれるので、生産性向上を製品の側からも見られると思います。",
+      "sections": [
+        {
+          "name": "決算発表",
+          "items": [
+            {
+              "date": "2026-11-16",
+              "label": "Hiクラテス 2026年9月期 決算",
+              "note": "歯科向け統合電子カルテの開発・販売会社",
+              "url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
+            },
+            {
+              "date": "2026-11-16",
+              "label": "FRONTEO 2027年3月期 第2四半期決算",
+              "note": "ライフサイエンスAIを事業分野の一つに持つAI企業",
+              "url": "https://www.fronteo.com/ir/calendar/"
+            },
+            {
+              "date": "2026-11-16",
+              "label": "サンウェルズ 2027年3月期 第2四半期決算",
+              "note": "パーキンソン病専門の介護福祉事業「PDハウス」を運営",
+              "url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+            },
+            {
+              "date": "2026-11-19",
+              "label": "SOMPOホールディングス 2027年3月期 第2四半期決算",
+              "note": "グループに介護事業のSOMPOケアを持つ保険グループ",
+              "url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
+            }
+          ]
+        },
+        {
+          "name": "政策・審議会",
+          "items": [
+            {
+              "date": "2026-11-16",
+              "label": "第275回 社会保障審議会 介護給付費分科会",
+              "note": "議題: 令和9年度介護報酬改定（処遇改善・生産性向上等）",
+              "url": "https://www.mhlw.go.jp/stf/newpage_77277.html"
+            },
+            {
+              "date": "2026-11-16",
+              "label": "第45回 介護給付費分科会 介護事業経営調査委員会",
+              "note": "議題: 令和8年度介護事業経営実態調査の結果など",
+              "url": "https://www.mhlw.go.jp/stf/newpage_77253.html"
+            },
+            {
+              "date": "2026-11-16",
+              "label": "薬事審議会 血液事業部会 令和8年度第2回献血推進調査会",
+              "note": "議題: 令和9年度の献血の推進に関する計画（案）など",
+              "url": "https://www.mhlw.go.jp/stf/newpage_76669.html"
+            },
+            {
+              "date": "2026-11-17",
+              "label": "第221回 社会保障審議会 医療保険部会",
+              "note": "議題: 医療保険制度改革について など",
+              "url": "https://www.mhlw.go.jp/stf/newpage_77350.html"
+            },
+            {
+              "date": "2026-11-18",
+              "label": "第122回 厚生科学審議会 再生医療等評価部会",
+              "note": "議題: 第一種再生医療等提供計画の適合性確認（非公開）",
+              "url": "https://www.mhlw.go.jp/stf/newpage_77324.html"
+            },
+            {
+              "date": "2026-11-19",
+              "label": "第79回 予防接種・ワクチン分科会 予防接種基本方針部会",
+              "note": "議題: 令和9年度からの定期接種について など",
+              "url": "https://www.mhlw.go.jp/stf/newpage_76869.html"
+            },
+            {
+              "date": "2026-11-20",
+              "label": "第37回 医療用から要指導・一般用への転用に関する評価検討会議",
+              "note": "議題: 候補成分のスイッチOTC化について",
+              "url": "https://www.mhlw.go.jp/stf/newpage_77299.html"
+            }
+          ]
+        },
+        {
+          "name": "学会・イベント",
+          "items": [
+            {
+              "date": "2026-11-16",
+              "label": "MEDICA 2026",
+              "note": "医療機器・ヘルスITの国際見本市（11/16〜19、独デュッセルドルフ）",
+              "url": "https://www.medica-tradefair.com/"
+            },
+            {
+              "date": "2026-11-18",
+              "label": "HOSPEX Japan 2026",
+              "note": "医療・福祉施設向け設備・機器・DXの展示会（11/18〜20、東京ビッグサイト）",
+              "url": "https://hospex.jma.or.jp/"
+            },
+            {
+              "date": "2026-11-19",
+              "label": "第42回日本脳神経血管内治療学会学術集会",
+              "note": "11/19〜21、東京・グランドプリンスホテル新高輪",
+              "url": "https://jsnet2026.umin.jp/outline/index.html"
+            },
+            {
+              "date": "2026-11-19",
+              "label": "第66回日本核医学会学術総会・第46回日本核医学技術学会総会学術大会",
+              "note": "11/19〜21、姫路・アクリエひめじ（合同開催）",
+              "url": "https://www.c-linkage.co.jp/jsnm-jsnmt2026/outline.php"
+            },
+            {
+              "date": "2026-11-21",
+              "label": "第36回日本医療薬学会年会",
+              "note": "11/21〜23、金沢。2040年の課題を解く医療薬学がテーマ",
+              "url": "https://www.c-linkage.co.jp/36jsphcs/outline.html"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-11-14T09:42:45.621Z"
+    }
+  ]
+}

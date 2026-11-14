@@ -2,7 +2,8 @@
 /**
  * 来週の注目（毎週日曜 7:00）を data/weekahead.json に書く。
  *
- *   node pipeline/weekahead.mjs publish pipeline/weekahead-draft.json
+ *   node pipeline/weekahead.mjs publish pipeline/weekahead-draft.json [--date YYYY-MM-DD]
+ *     --date: 配信日（既定は今日）。前日に用意して日曜の号として出すとき
  *
  * 下書きの形（pipeline/samples/weekahead-sample.json の issues[0] と同じ）:
  *   { "headline": "来週を一言で", "note": "加藤浩晃のひとこと", "sections": [{ "name": "決算発表", "items": [{ "date": "YYYY-MM-DD", "label": "…", "note": "…", "url": "公式の発表" }] }] }
@@ -10,14 +11,16 @@
  */
 import { readFile, writeFile } from 'node:fs/promises';
 
-const [cmd, file] = process.argv.slice(2);
+const [cmd, file, ...rest] = process.argv.slice(2);
+const dateArg = rest[0] === '--date' ? rest[1] : null;
 if (cmd !== 'publish' || !file) {
   console.error('usage: node pipeline/weekahead.mjs publish <draft.json>');
   process.exit(1);
 }
 
 const jst = (d) => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(d);
-const today = jst(new Date());
+const today = dateArg ?? jst(new Date());
+if (!/^\d{4}-\d{2}-\d{2}$/.test(today)) throw new Error('--date は YYYY-MM-DD');
 const addDays = (date, n) => {
   const [y, m, d] = date.split('-').map(Number);
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);

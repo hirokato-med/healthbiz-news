@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-11-15T02:26:39.289Z",
+  "updated_at": "2026-11-15T03:36:29.721Z",
   "articles": [
+    {
+      "id": "70294ea8-a8c1-459c-bfdc-58278477b8f9",
+      "created_at": "2026-11-15T03:36:29.721Z",
+      "published_date": "2026-11-15",
+      "category": "dx",
+      "featured": false,
+      "title": "順天堂大学、講義資料のPowerPointやPDFからAIがナレーション付きの説明動画を作る「Sylavids」を教職員約3,000人に導入。補講や予習・復習、学会発表、英語・中国語版の教材に",
+      "source_name": "スプライングローバル",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000104403.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/104403/12/104403-12-7e4c5dab9edd7385b280de92add92b05-2479x1125.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "スプライングローバルは、PowerPointやPDFの資料からAIがナレーション原稿を作り音声付きの説明動画にする「Sylavids」を、順天堂大学が教職員約3,000人を対象に導入したと発表した。",
+        "用途は補講、予習・復習、学会のポスター発表、学内の案内、英語版・中国語版の作成の5つで、最も多いのは補講と予習・復習の教材。全学向けの操作説明の動画は約1,500人が視聴した。",
+        "汎用の生成AIツールも比べたが、授業のPowerPointをそのまま取り込める点で選んだ。今後は動画にクイズや練習問題を組み込む教員研修（FD）を進め、2030年に向けて教育効果を評価する。"
+      ],
+      "comment": "医療系の総合大学が、講義資料をAIで説明動画にする仕組みを全教職員に入れました。自分が注目したのは、「汎用の生成AIの上位プランを全員分契約するより、目的に合ったツールを選んだ」ところです。数千人規模で使うと費用と使いやすさが効いてくるので、病院や大学のAI導入は、汎用ツールの一括契約より用途別のツールを選ぶ形が広がると思います。",
+      "company": {
+        "name": "スプライングローバル",
+        "profile": "2019年11月設立、東京都千代田区。資本金300万円、未上場。PowerPointやPDFの資料から説明動画を作るAI動画生成サービス「Sylavids」を提供する。",
+        "url": "https://www.splineglobal.com/",
+        "ceo": {
+          "name": "藤松良夫",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-15T03:36:29.721Z"
+    },
     {
       "id": "de6d77b2-40f5-4f09-90d4-92a0d877ed65",
       "created_at": "2026-11-15T02:26:39.289Z",

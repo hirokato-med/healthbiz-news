@@ -1,6 +1,90 @@
 {
-  "updated_at": "2026-11-15T03:36:29.721Z",
+  "updated_at": "2026-11-16T02:27:26.754Z",
   "articles": [
+    {
+      "id": "b1d2590e-ba6b-44fd-bc75-e0fec8d7ac58",
+      "created_at": "2026-11-16T02:27:26.667Z",
+      "published_date": "2026-11-16",
+      "category": "dx",
+      "featured": true,
+      "title": "TXP Medical、Sakigake LinkからAIネイティブ電子カルテ事業を譲り受け、200床以上の急性期を含む中〜大規模病院向けに本格参入。救急・ICUの部門システムと統合",
+      "source_name": "TXP Medical",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000193.000031630.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/31630/193/31630-193-ad3ec1257215a4223d12a4227fc6e242-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "救急・集中治療の医療データ基盤を手がけるTXP Medicalは、Sakigake LinkからAIネイティブ電子カルテ事業を譲り受け、中〜大規模病院向けの提供を本格的に始めると発表した。",
+        "急性期・療養型・回復期リハ向けの「Sakigake Prime」と精神科向けの「Sakigake Rita」を、救急・ICU・手術室向けの自社の部門システムと統合する。音声入力や生成AIによる記録・文書作成、標準化したデータ構造、病名や看護必要度などの経営支援を備える。",
+        "大学病院の救命救急センターで45%超のシェアを持つという。今年度は関東の200床規模の回復期リハ病院と120床規模の精神科病院で稼働を予定し、岡山県の180床の精神科病院で稼働中。"
+      ],
+      "comment": "救急外来のシステムで大病院に入り込んだ会社が、病院の電子カルテ本体に乗り出します。自分が注目したのは、「新興のクラウドカルテが手薄な200床以上の急性期病院を、救急・ICUの部門システムから攻める」ところです。すでに入っている部門の信頼を足がかりにできるのが強みで、大手ベンダーの更新時期に入れるかが勝負になると思います。",
+      "company": {
+        "name": "TXP Medical株式会社",
+        "profile": "東京都千代田区神田佐久間町。2017年8月設立、資本金1億円。救急・集中治療のデータ基盤「NEXT Stage」シリーズと、電子カルテ由来のリアルワールドデータの利活用サービスを提供。全国56の大学病院・地域中核病院とデータ利活用契約を結び2,600万人以上の患者データをカバー、製薬・医療機器40社超と連携。50名以上の医師を含むチームが研究設計から論文化まで支援する。未上場。",
+        "url": "https://txpmedical.jp/",
+        "ceo": {
+          "name": "園生智弘",
+          "bio": "代表取締役CEO。医師（救急科専門医）。2017年8月に「医療データで命を救う」を掲げてTXP Medicalを設立し、救急外来向けの患者情報システムNEXT Stage ERから事業を広げてきた。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-16T02:27:26.667Z"
+    },
+    {
+      "id": "fafcdb61-27bb-4734-88f6-6c5b0bd55d3f",
+      "created_at": "2026-11-16T02:27:26.667Z",
+      "published_date": "2026-11-16",
+      "category": "dx",
+      "featured": false,
+      "title": "PKSHA、介護予防の通所C型向けに、高齢者が自宅で1日5分AIと話した内容を「在宅レポート」にまとめる対話AIエンジンを開発。楓ウェルビーイングデザインの「シェルハナ」に提供",
+      "source_name": "PKSHA Technology",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000281.000022705.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/22705/281/22705-281-426da77e60063c545888e900ed3ff995-1999x1050.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "PKSHA Technologyは、介護予防向けの対話AIエンジンを開発し、全国36拠点で通所介護を展開する楓の風の創業者が設立した楓ウェルビーイングデザインに提供を始めた。同社の対話AIサービス「シェルハナ」の中核になる。",
+        "専門職が原則3カ月程度集中的に関わる短期集中予防サービス（通所C型）の事業所向けで、利用者が自宅のスマートフォンで1日5分ほどAIと話した内容を1週間分の「在宅レポート」にまとめ、職員が面談前に確認する。",
+        "2026年11月から大阪府と山口県の4事業所で先行導入し、2027年春から全国の自治体に広げる予定。通所C型は全国742市町村で実施されている。"
+      ],
+      "comment": "介護予防の面談の前に、高齢者の自宅での様子をAIが聞き取っておく仕組みです。自分が注目したのは、「週1回20分の面談では分からない宿題の実施状況を、毎日5分の会話で埋める」ところです。通所C型は市町村の事業なので、自治体が払い手になる形で、効果を示せれば介護予防の予算の中に入っていけると思います。",
+      "company": {
+        "name": "PKSHA Technology",
+        "listed": "東証プライム（3993）",
+        "profile": "東京都文京区。自然言語処理などの独自技術を使ったAIの研究開発と、企業・自治体向けのAIソフトウエアの提供。",
+        "url": "https://www.pkshatech.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-16T02:27:26.667Z"
+    },
+    {
+      "id": "5a34e2bd-a9de-4824-9fcd-24e9ec91ef7f",
+      "created_at": "2026-11-16T02:27:26.667Z",
+      "published_date": "2026-11-16",
+      "category": "dx",
+      "featured": false,
+      "title": "scovilleの介護・障がい福祉向け記録AI「noman」、全国約350の障がい者グループホームを運営するソーシャルインクルーの全事業所に導入決定。支援会議を文字起こし・要約し記録を標準化",
+      "source_name": "scoville",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000022.000049236.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/49236/22/49236-22-f8a277fd6c67dda50f2149e7322cfde7-2280x1269.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "scovilleの介護・障がい福祉向け業務効率化AI「noman」が、全国で障がい者グループホーム約350事業所を運営するソーシャルインクルーの全事業所に導入されることが決まった。",
+        "サービス担当者会議や申し送りをAIで文字起こし・要約し、全事業所の支援検討の履歴を可視化・蓄積する。音声入力や自動要約で個別支援計画書やモニタリング記録の作成負担も減らす。",
+        "nomanは音声・写真・文書から文字起こし・要約し、介護・障がい福祉・医療向けのテンプレートで法定帳票や業務記録の下書きを作る。"
+      ],
+      "comment": "障がい者グループホームの大手が、記録AIを全350事業所に入れます。自分が注目したのは、「効率化だけでなく、支援会議の経過を客観的に残すガバナンスを導入の理由に挙げている」ところです。急拡大した事業者ほど運営の透明性が問われるので、記録AIは人手不足対策と同時に、監査や行政への説明の道具として売れていくと思います。",
+      "company": {
+        "name": "株式会社scoville",
+        "profile": "2016年8月設立、東京都渋谷区恵比寿。未上場。介護・医療・福祉の現場に特化した業務効率化AIツール「noman」を開発・提供する。",
+        "url": "https://ja.scoville.jp/",
+        "ceo": {
+          "name": "出谷昌裕",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-16T02:27:26.667Z"
+    },
     {
       "id": "70294ea8-a8c1-459c-bfdc-58278477b8f9",
       "created_at": "2026-11-15T03:36:29.721Z",
@@ -64,7 +148,7 @@
       "created_at": "2026-11-14T02:27:41.959Z",
       "published_date": "2026-11-14",
       "category": "global",
-      "featured": true,
+      "featured": false,
       "title": "【米国】Dyania Health、NVIDIAと協業。数年分のカルテ全体をAIが読み、根拠つきで臨床の問いに答える「Synapsis AI」を病院の自前のGPU基盤で動かし、患者記録を院外に出さずに全患者へ",
       "source_name": "Dyania Health",
       "source_url": "https://www.prnewswire.com/news-releases/dyania-health-brings-clinical-reasoning-ai-inside-the-hospital-firewall-to-advance-patient-care-with-nvidia-302939231.html",

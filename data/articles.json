@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-11-16T08:27:47.785Z",
+  "updated_at": "2026-11-16T12:27:35.719Z",
   "articles": [
+    {
+      "id": "73ddf8da-4ec3-4e5b-8538-5a286b3b0bc6",
+      "created_at": "2026-11-16T12:27:35.719Z",
+      "published_date": "2026-11-16",
+      "category": "global",
+      "featured": false,
+      "title": "【アイルランド・米国】Medtronic、頸動脈治療機器の米Contego Medicalを3億8,000万ドルで買収へ。塞栓防止を組み込んだ経頸動脈血行再建システムを取り込み、米国の独占販売から一歩進める",
+      "source_name": "Medtronic",
+      "source_url": "https://www.prnewswire.com/news-releases/medtronic-to-acquire-contego-medical-expanding-access-to-next-generation-carotid-therapies-302939849.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS1942872/Medtronic-Logo.jpg?id=OA3079139&p=facebook",
+      "quote": {
+        "text": "The acquisition will build on the company's successful, exclusive U.S. distribution agreement with Contego, first announced in January 2025, and advances the Medtronic strategy of pursuing targeted investments that strengthen the company's core franchises.",
+        "source": "Medtronic（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/medtronic-to-acquire-contego-medical-expanding-access-to-next-generation-carotid-therapies-302939849.html"
+      },
+      "summary": [
+        "Medtronicは11月16日、頸動脈疾患と末梢血栓除去の医療機器を手がける非上場の米Contego Medicalを買収する意向を発表した。評価額は3億8,000万ドル（約590億円）で、買収後の支払いの可能性もある。",
+        "2025年1月に結んだ米国での独占販売契約を発展させたもので、FDA承認を得たばかりの、塞栓防止の仕組みを組み込んだ経頸動脈血行再建システム「Neuroguard IEP Direct System」と、末梢の血栓除去機器「Excipio」を取り込む。",
+        "多施設の前向き試験では、30日時点で脳卒中、神経学的死亡、脳神経損傷、心筋梗塞がいずれもゼロだったとしている。完了は同社の今期第3四半期の見込み。"
+      ],
+      "comment": "医療機器最大手が、独占販売していた頸動脈の治療機器メーカーを丸ごと買います。自分が注目したのは、「販売提携で手応えを確かめてから、承認直後に買収に踏み切った」ところです。大手が技術を外から取り込むときの典型的な順番で、日本の医療機器スタートアップにとっても、販売提携が出口への入口になり得ることを示していると思います。",
+      "company": {
+        "name": "Medtronic",
+        "listed": "NYSE（MDT）",
+        "profile": "アイルランド・ゴールウェイに本社を置く医療機器大手。150カ国以上で9万人超が働き、70の疾患に対する技術・治療を手がける。",
+        "url": "https://www.medtronic.com/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-16T12:27:35.719Z"
+    },
     {
       "id": "89d42243-bc7f-45f8-a6b9-bb3f32d1c61b",
       "created_at": "2026-11-16T08:27:47.785Z",

@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-18T08:28:25.038Z",
+  "updated_at": "2026-11-18T12:27:11.399Z",
   "articles": [
+    {
+      "id": "60bfcb33-3b0f-49ba-8eb2-ff75f530b08d",
+      "created_at": "2026-11-18T12:27:11.399Z",
+      "published_date": "2026-11-18",
+      "category": "global",
+      "featured": false,
+      "title": "【米国・デンマーク】医療データAIの米nference、Novo Nordiskと肥満・糖尿病・心血管疾患の研究で提携。治験データと実臨床データを組み合わせ、新しい事業の創出も検討",
+      "source_name": "nference",
+      "source_url": "https://www.prnewswire.com/news-releases/nference-and-novo-partner-to-advance-understanding-of-cardiometabolic-disease-and-healthy-ageing-302943190.html",
+      "source_url_2": null,
+      "image_url": "https://mmx.prnewswire.com/media/MS1667729/nference-Logo.jpg?id=OA3086941&p=facebook",
+      "quote": {
+        "text": "The partnership will bring together Novo's clinical trial data and nference's AI technology and federated healthcare data network to help researchers better understand disease, treatment outcomes, and patient experiences.",
+        "source": "nference（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/nference-and-novo-partner-to-advance-understanding-of-cardiometabolic-disease-and-healthy-ageing-302943190.html"
+      },
+      "summary": [
+        "米nferenceは11月18日、Novo Nordiskと、肥満・糖尿病・心血管疾患などの心血管代謝疾患の研究で戦略的に提携すると発表した。",
+        "Novoの臨床試験データと、nferenceのAI技術・連合型の医療データネットワークを組み合わせ、治療の効果や安全性、病気の進み方、長期の健康アウトカムを調べる。臨床試験、診療記録、診断データなどの実臨床データも使う。",
+        "研究に加えて、心血管代謝の健康と健康長寿の領域で、AIとデータを使った新しいヘルスケア事業を検討する枠組みも含む。"
+      ],
+      "comment": "肥満症治療薬の大手が、医療データのAI企業と組んで研究を広げます。自分が注目したのは、「自社の治験データを、病院の診療記録などの実臨床データと突き合わせる」ところです。GLP-1が広く使われるほど、治験では見えない長期の効果や安全性が問われるので、製薬会社にとって実臨床データを持つ相手との提携は欠かせなくなっていると思います。",
+      "company": {
+        "name": "nference",
+        "profile": "米マサチューセッツ州ケンブリッジ。匿名化された長期の診療情報を、研究に使えるエビデンスに変えるマルチモーダルAIと連合型の医療データネットワークを持つ。",
+        "url": "https://nference.com/",
+        "ceo": {
+          "name": "ベンキー・サウンダララジャン（Venky Soundararajan）",
+          "bio": "創業者・共同CEO。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-18T12:27:11.399Z"
+    },
     {
       "id": "36fc7fef-c6eb-4311-b6bf-eceb3a819211",
       "created_at": "2026-11-18T08:28:25.038Z",

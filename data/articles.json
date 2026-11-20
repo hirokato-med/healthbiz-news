@@ -1,6 +1,64 @@
 {
-  "updated_at": "2026-11-19T12:27:30.535Z",
+  "updated_at": "2026-11-20T02:28:21.699Z",
   "articles": [
+    {
+      "id": "7fa86dc4-ea7e-4ff1-9721-d16d67104ce3",
+      "created_at": "2026-11-20T02:28:21.699Z",
+      "published_date": "2026-11-20",
+      "category": "dx",
+      "featured": false,
+      "title": "Kentasu、東南アジアの医療機関の保険請求・回収をAIで自動化する「Kentasu RCM」でシード8,400万円を調達。ニッセイ・キャピタルと東京ウェルネスインパクトファンドが引き受け、マレーシアで本格展開",
+      "source_name": "Kentasu",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000194052.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000056.000109457.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/194052/2/194052-2-67c6eba4562c0df9d7eba1d57c0e0b52-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Kentasuは、ニッセイ・キャピタル、東京ウェルネスインパクトファンドと個人投資家を引受先とするシードラウンドで、総額8,400万円を調達した。",
+        "「Kentasu RCM」は電子カルテなどの情報をもとに、保険会社ごとに異なる請求ルールや提出方法に合わせてAIが保険請求を自動化し、請求から入金・回収管理までを一元化する。実証・導入施設では対象業務の工数を最大90%減らしたという。",
+        "資金はマレーシアでの営業体制づくりや対応保険会社の拡大に充て、2027年からマレーシアのクリニックを中心に導入を本格化する。将来は請求・入金データをもとに、医療機関向けの早期資金化などの金融サービスへ広げる。"
+      ],
+      "comment": "東南アジアの医療機関の保険請求を、AIでまとめて引き受ける日本のスタートアップが資金を集めました。自分が注目したのは、「請求の自動化で集まる入金データを、医療機関向けの早期資金化などの金融に広げる」構想まで描いているところです。保険会社ごとに請求のルールが違う東南アジアでは、その手間の大きさがそのまま事業機会になっていると思います。",
+      "company": {
+        "name": "Kentasu",
+        "profile": "2024年5月設立、東京都渋谷区。資本金5,500万円、未上場。東南アジアの医療機関向けの保険請求プラットフォーム「Kentasu RCM」を開発・提供し、マレーシアにグループ会社を持つ。",
+        "url": "https://kentasu.com/",
+        "ceo": {
+          "name": "佐藤創",
+          "bio": "10年以上にわたりアジアのヘルスケア領域に携わってきた（投資家コメントより）。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-20T02:28:21.699Z"
+    },
+    {
+      "id": "11614a79-0dc1-4c79-a231-211779a7a0e1",
+      "created_at": "2026-11-20T02:28:21.699Z",
+      "published_date": "2026-11-20",
+      "category": "service",
+      "featured": false,
+      "title": "SOMPOヘルスサポートとBoost Healthが業務提携。ストレスチェックの契約企業に、AIと専任コーチによる3カ月の伴走プログラム「BOOST」を提案",
+      "source_name": "Boost Health",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000030.000140263.html",
+      "source_url_2": null,
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/140263/30/140263-30-813ad643132a51b10a736b566ee10264-1600x900.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "SOMPOヘルスサポートとBoost Healthは業務提携し、Boost Healthの「BOOST」をSOMPOヘルスサポートがストレスチェックやメンタルヘルス対策でつながる企業に提案・販売する。プログラムの提供と運用はBoost Healthが担う。",
+        "BOOSTは認知行動療法をベースにした、専任コーチとの月次セッションとAIを使った週次のセルフセッションを3カ月続けるプログラムで、管理職の育成や中途入社者の立ち上がりを支える。",
+        "日立製作所の部門での約60人のテスト導入では10項目中8項目が改善し、エンゲージメントが9.3%向上したとしている。SOMPOヘルスサポートは約1,900人の専門職と約290の提携医療機関を持つ。"
+      ],
+      "comment": "ストレスチェックを受けた企業に、その次の打ち手を売り込む提携です。自分が注目したのは、「不調の予防で終わらせず、社員の活躍支援まで同じ販路で売る」ところです。ストレスチェックは義務で毎年行われるので、その結果をきっかけに有料のプログラムにつなげる形は、健康経営の市場で企業の予算を取りにいく現実的な入り方だと思います。",
+      "company": {
+        "name": "Boost Health",
+        "profile": "東京都中央区。AIとコーチ、認知行動科学を組み合わせた社員の活躍支援サービス「BOOST」を開発・提供する。",
+        "url": "https://boosthealth.jp",
+        "ceo": {
+          "name": "芳賀彩花",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-20T02:28:21.699Z"
+    },
     {
       "id": "3ec6257c-0ba0-475e-96e6-927e5ffa8bc8",
       "created_at": "2026-11-19T12:27:30.535Z",

@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-20T12:26:27.694Z",
+  "updated_at": "2026-11-21T02:26:30.205Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1121vol180203016",
+      "title": "11月21日（土）vol.180：財務省の審議会、社会保障負担率を「2030年代に16%台」にする目標の案を示す、同じ日の政府の会議では指標にするかで賛否",
+      "url": "https://hiroakikato.substack.com/p/1121vol180203016",
+      "published_date": "2026-11-21",
+      "excerpt": "土曜日です。今日は国の会議の話で、「社会保障負担率」の話をしていきます！！\n昨日11月20日に、財務省の財政制度等審議会が、来年度の予算についての意見書である「建議」を出しました！\nその中で、社会保障負担率を「2030年代に16%台」にするという数値目標の案が示されています。\n実は同じ日に、政府の全世代型社会保障構築会議でも社会保障負担率が議題になっていて、こちらは意見が分かれました。\nそれでは、今日のニュースです！！\n◆令和9年度予算の編成等に関する建議（財務省 財政制度等審議会、2026年11月20日）\n　https://www.mof.go.jp/about_mof/councils/f…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CuuD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18ceeace-2748-4918-9034-dd99e704b553_993x670.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1120vol179lancet-digital-health24",
       "title": "11月20日（金）vol.179：Lancet Digital Health、ウェアラブルは「24時間ずっと着ける」が前提でなくていいという論考、必要な時間は病気ごとに違う",

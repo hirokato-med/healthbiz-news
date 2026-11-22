@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-21T12:26:01.625Z",
+  "updated_at": "2026-11-22T02:26:02.216Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1122vol181nature-medicine1ai18",
+      "title": "11月22日（日）vol.181：Nature Medicine、カメラ1台で撮った「歩き方」から全身の健康状態を予測するAI、内臓脂肪から睡眠まで18の領域を調べる",
+      "url": "https://hiroakikato.substack.com/p/1122vol181nature-medicine1ai18",
+      "published_date": "2026-11-22",
+      "excerpt": "日曜日です。今日は論文の話で、「歩き方」の話をしていきます！！\n11月6日に、Nature Medicineに、歩き方から全身の健康状態を予測するAIの論文が出ました！\n体には何も着けずに、カメラ1台の前で10分ほど動いてもらうだけという内容です。\n実は11月20日のメルマガで「ウェアラブルは着け続けてもらうのが難しい」という話を書いたので、今日はこの論文を取り上げます。\nそれでは、今日のニュースです！！\n◆A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motio…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3Gvc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45ee3adf-c6ce-489f-8bd0-49d8675eb0f2_831x562.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1121vol180203016",
       "title": "11月21日（土）vol.180：財務省の審議会、社会保障負担率を「2030年代に16%台」にする目標の案を示す、同じ日の政府の会議では指標にするかで賛否",

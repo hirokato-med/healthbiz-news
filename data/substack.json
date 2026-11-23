@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-22T12:26:19.890Z",
+  "updated_at": "2026-11-23T02:26:36.695Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1123vol18211252622040",
+      "title": "11月23日（月）vol.182：今週の注目、11月25日は血糖を自分で測る検査薬を薬局で買えるようにする議論、26日は介護の「2割負担」、看護職員の2040年の需給推計も",
+      "url": "https://hiroakikato.substack.com/p/1123vol18211252622040",
+      "published_date": "2026-11-23",
+      "excerpt": "月曜日です。今日は「今週の注目」の話をしていきます！！\n自分がやっている「Healthcare Business News」では、毎週、次の週の決算、国の会議、学会やイベントをまとめた「来週の注目」を出しています。\nその中から、今週見ておきたいものを3つに絞って紹介します。\nそれでは、今日のニュースです！！\n◆来週の注目｜介護保険の給付と負担と、看護職員の需給推計を議論（Healthcare Business News、2026年11月22日）\n　https://hirokato-med.github.io/healthbiz-news/article/weekahead-2026-11-22…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!9QD5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6da3de10-bce4-4e42-b27e-6da4da30c11f_1412x666.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1122vol181nature-medicine1ai18",
       "title": "11月22日（日）vol.181：Nature Medicine、カメラ1台で撮った「歩き方」から全身の健康状態を予測するAI、内臓脂肪から睡眠まで18の領域を調べる",

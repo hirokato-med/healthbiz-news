@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-23T02:26:36.004Z",
+  "updated_at": "2026-11-23T12:26:31.512Z",
   "articles": [
+    {
+      "id": "13d22e6d-d769-48dd-bf7c-c41ede09cc46",
+      "created_at": "2026-11-23T12:26:31.512Z",
+      "published_date": "2026-11-23",
+      "category": "global",
+      "featured": false,
+      "title": "【デンマーク・米国】口腔内スキャナーの3Shape、Henry Schein Oneの歯科医院向け業務システム「Dentrix」などと連携。AIによるむし歯や歯肉退縮の検出結果を患者記録に直接戻す",
+      "source_name": "3Shape",
+      "source_url": "https://www.prnewswire.com/news-releases/3shape-and-henry-schein-one-connect-digital-workflows-with-ai-assisted-diagnostics-302948152.html",
+      "image_url": "https://media.3shape.com.imgeng.in/-/media/corporate/revamp-2026/homepage/hp_opengraph_1200x1200.jpg?sc_lang=en-us&v=96322f6e-7c3a-41e2-ba3d-33161b270acb",
+      "summary": [
+        "デンマークの3Shapeは11月23日、自社の「3Shape Unite」と、Henry Schein Oneの歯科医院向けシステム「Ascend by Dentrix」「Dentrix」「Dentally」との連携を発表した。",
+        "歯科医は患者のスキャンデータや治療データを患者記録から直接見られ、AIの診断支援ソフト「Dx Plus」の可視化結果も患者記録に戻せる。",
+        "Dx Plusは同社のスキャナー「TRIOS 6」専用で、むし歯、歯垢、歯の摩耗、歯肉退縮の検出を支援する。連携は北米、英国、オーストラリアと一部の欧州で提供を始めた。"
+      ],
+      "comment": "口腔内スキャナーの3Shapeと、歯科医院の業務システムのHenry Schein Oneがつながりました。自分が注目したのは、「スキャナーのAIが見つけたむし歯などの所見を、医院の患者記録に直接戻せる」ところです。日本の歯科医院でも、画像とカルテが別々のままではAIの結果は日々の診療で使われにくいので、機器とカルテの連携が、歯科のAIが広がる条件になると思います。",
+      "quote": {
+        "text": "The integration streamlines clinical workflows, improves access to treatment data, and brings powerful AI assistive diagnostics directly into the familiar Henry Schein One environment -advancing our shared ambition to transform how dental care is delivered.",
+        "source": "3Shape（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/3shape-and-henry-schein-one-connect-digital-workflows-with-ai-assisted-diagnostics-302948152.html"
+      },
+      "status": "published",
+      "updated_at": "2026-11-23T12:26:31.512Z"
+    },
     {
       "id": "ed738f2f-aa19-4ae2-a2d0-db60ed503a08",
       "created_at": "2026-11-23T02:26:36.004Z",

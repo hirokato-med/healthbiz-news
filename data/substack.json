@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-23T12:26:32.162Z",
+  "updated_at": "2026-11-24T02:27:01.234Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1124vol183cmsaiai",
+      "title": "11月24日（火）vol.183：米CMS、診療で使うAIを国としてどう広げるかの「ロードマップ」を公表、お金は「成果を出したAI」に払う",
+      "url": "https://hiroakikato.substack.com/p/1124vol183cmsaiai",
+      "published_date": "2026-11-24",
+      "excerpt": "火曜日です。今日は米国のCMSの話をしていきます！！\n11月13日に、米国で公的保険を運営しているCMSが「Clinical Super Intelligence Roadmap」という文書を出しました！\n診療で使うAIを、国としてどう広げていくかを書いた文書です。\n実は7月13日のメルマガで、CMSがデジタルヘルスに「成果」で支払う話を書きました。\n今回はその考え方が、診療で使うAI全体に広がっています。\nそれでは、今日のニュースです！！\n◆A Clinical Super Intelligence Roadmap: Better Answers, Faster Care, and Lowe…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!2SOR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ed617a3-9fbe-418b-b484-c7fb71b32b4b_1318x635.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1123vol18211252622040",
       "title": "11月23日（月）vol.182：今週の注目、11月25日は血糖を自分で測る検査薬を薬局で買えるようにする議論、26日は介護の「2割負担」、看護職員の2040年の需給推計も",

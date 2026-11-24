@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-23T12:26:31.512Z",
+  "updated_at": "2026-11-24T02:27:00.571Z",
   "articles": [
+    {
+      "id": "bc873667-75ba-42fc-a6b2-a95e83a94ad0",
+      "created_at": "2026-11-24T02:27:00.571Z",
+      "published_date": "2026-11-24",
+      "category": "dx",
+      "featured": false,
+      "title": "アドバンスト・メディア、医療向け音声認識「AmiVoice iNote」を更新。面談やカンファレンスの会話を最大60分記録できる「会話モード」と、スマホをマイクにして電子カルテへ直接入力するアプリを追加",
+      "source_name": "アドバンスト・メディア",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000839.000020223.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/20223/839/20223-839-34498c37c7f1b8914d65c8c5d607df82-960x647.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "アドバンスト・メディアは11月24日、医療向けAI音声認識サービス「AmiVoice iNote」の最新版2.1.0と「iNote Lite」2.0.0の提供を始めた。",
+        "iNoteは複数人の発話に適した「会話モード」を加え、患者・家族との面談やインフォームド・コンセント、院内カンファレンスを最大60分まで記録できる。",
+        "スマートフォンをマイクにして電子カルテなどのPCの入力欄へ直接音声入力する「AmiVoice iMic」を追加し、音声認識エンジンもTransformerに刷新した。"
+      ],
+      "comment": "医療向けの音声認識が、医師ひとりの口述から、面談やカンファレンスの会話の記録へ広がりました。自分が注目したのは、「専用マイクを用意せず、手元のスマートフォンから電子カルテのカーソル位置へ直接入力できる」ところです。病院での音声入力は機器を配る手間が壁になりやすく、スマホを入り口にすることで、病棟や外来での使われ方が変わると思います。",
+      "company": {
+        "name": "アドバンスト・メディア",
+        "listed": "東証グロース",
+        "profile": "東京都豊島区。音声認識技術「AmiVoice」を使った製品・サービスを医療などの分野に提供する。",
+        "url": "https://www.advanced-media.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-24T02:27:00.571Z"
+    },
+    {
+      "id": "2fbb3b33-67eb-4de3-b037-7184ca735d17",
+      "created_at": "2026-11-24T02:27:00.571Z",
+      "published_date": "2026-11-24",
+      "category": "dx",
+      "featured": false,
+      "title": "矯正歯科のBrace、ジェネシア・ベンチャーズがリードするプレシリーズAで資金調達。一般歯科医院の矯正を専門医が診断で支える「SMILE ACCESS」と矯正歯科医院向け業務管理システム「b-align」を拡大",
+      "source_name": "Brace",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000097498.html",
+      "source_url_2": "https://prtimes.jp/main/html/rd/p/000000209.000056091.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/97498/12/97498-12-1c2944d0796df9e581cf31e3b3b7ccad-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Braceは、ジェネシア・ベンチャーズをリード投資家とするプレシリーズAラウンドで資金を調達した。金額は公表していない。",
+        "一般歯科医院向けに矯正歯科医が現地とオンラインで診断・治療方針を支える「SMILE ACCESS矯正プロパートナーズ」と、矯正歯科医院向けのクラウド型業務管理システム「b-align」を展開する。",
+        "資金は営業・マーケティングと導入医院の支援体制の強化、人材採用、若手矯正歯科医の教育・キャリア支援の仕組みづくりに充てる。"
+      ],
+      "comment": "矯正歯科の専門医の目を、一般の歯科医院の治療に届ける会社が資金を集めました。自分が注目したのは、「矯正で最も大事な診断と症例ごとの判断を、矯正歯科医が代わりに担う」ところです。矯正歯科医は都市部に集まりがちなので、一般歯科を入り口にして専門医の判断だけを全国に届ける形は、地方で矯正治療を受けられる場所を増やす仕組みになると思います。",
+      "company": {
+        "name": "Brace",
+        "profile": "2021年8月設立。東京都渋谷区。未上場。一般歯科医院向けの矯正治療支援「SMILE ACCESS矯正プロパートナーズ」と、矯正歯科医院向けの業務管理システム「b-align」を提供する。",
+        "url": "https://brace-ltd.com/",
+        "ceo": {
+          "name": "吉住淳",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-24T02:27:00.571Z"
+    },
     {
       "id": "13d22e6d-d769-48dd-bf7c-c41ede09cc46",
       "created_at": "2026-11-23T12:26:31.512Z",

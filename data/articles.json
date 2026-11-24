@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-24T08:26:48.404Z",
+  "updated_at": "2026-11-24T12:27:18.672Z",
   "articles": [
+    {
+      "id": "d40adc4b-89a1-4b09-88b6-7401ef2498cf",
+      "created_at": "2026-11-24T12:27:18.672Z",
+      "published_date": "2026-11-24",
+      "category": "dx",
+      "featured": false,
+      "title": "Dr.JOYの病院向け「AI電話」、導入4病院が成果を発表。浦添総合病院は看護師の電話相談が1件10分から約5分に、水戸協同病院の健診センターは5か月で残業140時間減。採用は全国242施設に",
+      "source_name": "Dr.JOY",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000039.000118372.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/118372/39/118372-39-97f70967d1fa63d76f8d5106e2279e5e-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Dr.JOYは11月13日、病院向けAI電話のユーザー会を開き、全国53施設・99名が参加して導入4病院が成果を発表した。AI電話は2026年11月時点で242施設（導入準備中を含む）が採用している。",
+        "浦添総合病院ではAIが症状を先に聞き取り、看護師の電話相談の対応・記録時間が1件10分から約5分になり、担当看護師の配置も1名から0.5名に減った。",
+        "水戸協同病院の健康管理センターは稼働5か月で時間外労働を前年同期比140時間減らし、成田赤十字病院はAIで完了する通話が月約450件から約1,000件に増えた。"
+      ],
+      "comment": "病院の電話の一次対応をAIに任せた病院が、具体的な成果を持ち寄りました。自分が注目したのは、「緊急度の判断は看護師に残し、AIは症状の聞き取りと要約だけを担う」という分け方です。病院の電話は1日数百〜千件に及び、受けるたびに窓口や入力の手が止まるので、AIと人の分業で看護師や事務の時間を取り戻すのは、病院の人手不足対策として現実的な一歩だと思います。",
+      "company": {
+        "name": "Dr.JOY",
+        "profile": "2013年11月設立、東京都港区虎ノ門、未上場。医療分野のソフトウェア開発・運用と、医療機関への医療・医薬品情報の提供。AI電話は2026年11月時点で242施設（導入準備中を含む）が採用。",
+        "url": "https://drjoy.co.jp/",
+        "ceo": {
+          "name": "石松宏章",
+          "bio": "医師。2010年に東京医科大学を卒業し、東京女子医科大学病院で研修。2012年に沖縄の病院へ内科医として赴任した際、MRとの窓口役を任された経験から、病院と製薬企業のあいだのアナログなやりとりを変えようと2013年11月にDr.JOYを創業した。"
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-24T12:27:18.672Z"
+    },
+    {
+      "id": "53ea23cd-753b-4a5d-84d6-ddac326ee660",
+      "created_at": "2026-11-24T12:27:18.672Z",
+      "published_date": "2026-11-24",
+      "category": "global",
+      "featured": false,
+      "title": "【フィンランド・カナダ】ITサービス大手CGI、ヘルシンキ大学病院と開発した頭部CTの脳出血検出AIが欧州の医療機器規則（MDR）でクラスIIbの認証を取得。救急で見落としを防ぐ診断支援を病院へ広げる",
+      "source_name": "CGI",
+      "source_url": "https://www.prnewswire.com/news-releases/cgi-and-huss-ai-solution-certified-as-eu-mdr-medical-device-for-brain-hemorrhage-detection-302948683.html",
+      "image_url": "https://www.hus.fi/themes/custom/hus_emulsify/images/hero/HUS_hero_1.png",
+      "summary": [
+        "カナダのITサービス大手CGIは11月24日、ヘルシンキ大学病院（HUS）とPlanmecaと共同開発した「CGI AI Head Analysis」が、EUの医療機器規則（MDR）のクラスIIbの医療機器として認証を得たと発表した。",
+        "頭部CT画像から外傷によらない自然発生の頭蓋内出血を検出し、疑わしい箇所に印を付けて医師の確認を助ける。忙しい救急外来などで見落としを防ぐ用途を想定する。",
+        "認証により病院が画像診断の業務の流れに組み込んで本格的に使えるようになる。HUSの責任者は、今後も多数の画像診断アルゴリズムを短期間で作れると述べている。"
+      ],
+      "comment": "病院と組んで作った画像診断AIが、欧州で医療機器として認められました。自分が注目したのは、「AI企業ではなくITサービスの大手が、大学病院と組んで医療機器の認証まで取り切った」ところです。日本でも病院のシステムを担うIT企業は多く、病院のデータと現場の知見を持つ側が自ら医療機器AIを作る形は、日本の大学病院とITベンダーにも参考になると思います。",
+      "quote": {
+        "text": "The MDR certification is a major milestone that enables hospitals to deploy the solution at scale. The certification confirms that the solution meets strict national and EU-level standards for safety, quality, and performance.",
+        "source": "CGI（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/cgi-and-huss-ai-solution-certified-as-eu-mdr-medical-device-for-brain-hemorrhage-detection-302948683.html"
+      },
+      "status": "published",
+      "updated_at": "2026-11-24T12:27:18.672Z"
+    },
     {
       "id": "fcd79dae-b323-4b7e-a1b8-3e4faf5efeb8",
       "created_at": "2026-11-24T08:26:48.404Z",

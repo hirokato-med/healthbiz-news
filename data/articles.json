@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-11-25T02:28:25.449Z",
+  "updated_at": "2026-11-25T08:27:00.876Z",
   "articles": [
+    {
+      "id": "90dc953c-70d2-413c-bde1-b6e3fdb21780",
+      "created_at": "2026-11-25T08:27:00.876Z",
+      "published_date": "2026-11-25",
+      "category": "drug",
+      "featured": false,
+      "title": "三井不動産、厚労省の創薬クラスターキャンパス整備事業に採択。Alloy TherapeuticsとRealizeEdge Partnersと組み、柏の葉で創薬シーズの事業化を一貫支援する「Kashiwa-no-ha BioBridge」を始動、次世代CSOの育成プログラムも",
+      "source_name": "三井不動産",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000001180.000051782.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/51782/1180/51782-1180-38d4639935374fcc6481249056f7dd89-1617x481.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "三井不動産は、厚生労働省の「革新的医薬品等実用化支援基金 創薬クラスターキャンパス整備事業」に採択された。",
+        "Alloy Therapeutics、RealizeEdge Partnersと新体制「Kashiwa-no-ha BioBridge」をつくり、案件ごとに専門家チームを組んで開発戦略、臨床開発、製造、資金調達、製薬企業との連携までを支援する。",
+        "第1弾として、創薬事業化を担うCSO（最高科学責任者）を育てる9週間の実践型プログラムを2027年1月から始め、参加者の募集を始めた。"
+      ],
+      "comment": "不動産会社が、街に集めた研究機関を創薬の事業化につなぐ体制をつくりました。自分が注目したのは、「建物を貸すだけでなく、開発戦略から資金調達までを案件ごとの専門家チームで伴走し、まずCSOの人材を育てる」ところです。研究者や創薬スタートアップが事業化に必要な専門知識を単独でそろえるのは難しく、国の基金を使って人材から手当てする形が、柏の葉の集積を生かせるかを見たいと思います。",
+      "company": {
+        "name": "三井不動産",
+        "listed": "東証プライム",
+        "profile": "東京都中央区。総合不動産大手で、柏の葉スマートシティでライフサイエンス分野の研究・産業の集積を進めている。",
+        "url": "https://www.mitsuifudosan.co.jp/"
+      },
+      "status": "published",
+      "updated_at": "2026-11-25T08:27:00.876Z"
+    },
     {
       "id": "a6bdd33d-7356-40bb-8197-654db5ae8042",
       "created_at": "2026-11-25T02:28:25.449Z",

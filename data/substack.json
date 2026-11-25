@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-24T12:27:19.322Z",
+  "updated_at": "2026-11-25T02:27:37.336Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1125vol184rock-healthnoom",
+      "title": "11月25日（水）vol.184：Rock Healthレビュー、ウェアラブルの会社は診療を、診療の会社はウェアラブルを持ち始めた、Noomは腕のバンドを無料で配る",
+      "url": "https://hiroakikato.substack.com/p/1125vol184rock-healthnoom",
+      "published_date": "2026-11-25",
+      "excerpt": "水曜日です。今日はRock Healthレビューの回です！！\n今週のRock Weeklyは11月23日付で、タイトルは「Turkey, pie, and clinical AI」。\n米国は明日26日が感謝祭なので、タイトルに七面鳥とパイが入っています。\n中身は、先週のHLTHで出た発表のまとめでした。\nそれでは、今日のニュースです！！\n◆Turkey, pie, and clinical AI（Rock Weekly、2026年11月23日）\n　https://rockhealth.com/rock-weekly/turkey-pie-and-clinical-ai/\nRock Health…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!tEz_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6af7760-eada-40c2-ad17-eff7bb31c10b_829x529.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1124vol183cmsaiai",
       "title": "11月24日（火）vol.183：米CMS、診療で使うAIを国としてどう広げるかの「ロードマップ」を公表、お金は「成果を出したAI」に払う",

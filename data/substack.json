@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-26T12:26:30.860Z",
+  "updated_at": "2026-11-27T02:27:54.471Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1127vol186chatgptwebmd-igniteopenai",
+      "title": "11月27日（金）vol.186：ChatGPTに病院の広告が出始める、WebMD IgniteがOpenAIと組んで米国の病院向けのサービスを開始、広告は回答に影響させない",
+      "url": "https://hiroakikato.substack.com/p/1127vol186chatgptwebmd-igniteopenai",
+      "published_date": "2026-11-27",
+      "excerpt": "金曜日です。今日は「AIの中に出る病院の広告」の話をしていきます！！\n11月24日に、米国のWebMD Igniteという会社が、ChatGPTに病院の広告を出すサービスを始めたと発表しました！\n患者が病院を探す場所が、検索からAIとの会話に移り始めているという内容です。\n実は11月2日のメルマガで、AIが患者の代わりに医師を探して予約を取る話を書きました。\n今回は、そのAIの中に病院の広告が出るようになりました。\nそれでは、今日のニュースです！！\n◆WebMD Ignite Brings ChatGPT Advertising to Health Systems（WebMD Ignite、2…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!XTnI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f784d15-5070-4089-85a2-155877e20f9e_995x597.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1126vol185cms15",
       "title": "11月26日（木）vol.185：米CMS、機能性医学とライフスタイル医学を公的保険で試す15団体を発表、保険の対象にする前に効果と費用のデータを国が集める",

@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-11-27T12:26:49.836Z",
+  "updated_at": "2026-11-28T02:27:03.737Z",
   "posts": [
+    {
+      "id": "substack:https://hiroakikato.substack.com/p/1128vol187function-health",
+      "title": "11月28日（土）vol.187：Function Health、検査結果から「次にやること」を会員ごとに出す機能を開始、専門医の予約とサプリの提案までつなげる",
+      "url": "https://hiroakikato.substack.com/p/1128vol187function-health",
+      "published_date": "2026-11-28",
+      "excerpt": "土曜日です。今日は「検査を受けたあとに何をするか」の話をしていきます！！\n11月20日に、米国のFunction Healthが、会員向けのサービスを広げたと発表しました！\n血液検査の結果から、次に何をすればいいかを会員ごとに出すという内容です。\n実は8月8日のメルマガで、Function Healthが株を渡さずに大きな資金を調達した話を書きました。\n今回は、その会社がサービスの中身を広げています。\nそれでは、今日のニュースです！！\n◆Function adds new membership benefits with personalized Action Plans, specialis…",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!mbYP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01d469c4-9467-4870-affa-21fc978c2b62_1083x487.png"
+    },
     {
       "id": "substack:https://hiroakikato.substack.com/p/1127vol186chatgptwebmd-igniteopenai",
       "title": "11月27日（金）vol.186：ChatGPTに病院の広告が出始める、WebMD IgniteがOpenAIと組んで米国の病院向けのサービスを開始、広告は回答に影響させない",

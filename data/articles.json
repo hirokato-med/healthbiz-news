@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-27T08:27:12.992Z",
+  "updated_at": "2026-11-28T02:27:03.270Z",
   "articles": [
+    {
+      "id": "793fcf9a-f7ca-4bad-b6a1-0f87c8364a4d",
+      "created_at": "2026-11-28T02:27:03.270Z",
+      "published_date": "2026-11-28",
+      "category": "policy",
+      "featured": true,
+      "title": "令和8年度改定で新設の「急性期病院A一般入院料」は611病院、Bは303病院が届出。長野・山梨・石川など8県ではBがAを上回る。Clavisが厚生局の最新名簿を集計",
+      "source_name": "Clavis",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000195570.html",
+      "image_url": "https://prcdn.freetls.fastly.net/release_image/195570/1/195570-1-82b39ae780aec54e0494b9c362cb703a-1600x900.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "summary": [
+        "Clavisが全国の地方厚生局の2026年11月公表の届出受理医療機関名簿を集計したところ、令和8年度改定で新設の急性期病院A一般入院料は611病院、急性期病院Bは303病院が届け出ていた（北海道を除く46都府県）。",
+        "東京（A 76・B 24）、大阪（A 58・B 20）、神奈川（A 46・B 14）の順に多い一方、長野・山梨・石川・和歌山・愛媛・熊本・大分・宮崎の8県ではBがAより多かった。",
+        "前月の名簿と比べ、看護・多職種協働加算は324から348へ、包括期充実体制加算は170から183へ増えた。急性期病院A・Bは大きくは動いていない。"
+      ],
+      "comment": "診療報酬改定で新しくできた急性期の入院料を、どの病院が選んだかが数字で見えてきました。自分が注目したのは、「全国ではAがBの約2倍なのに、長野や熊本など8県ではBの方が多い」ところです。どの入院料を選ぶかは病院の収支を大きく左右するので、地方で急性期の機能をどこまで担うかの判断が、県ごとに分かれ始めていると思います。",
+      "company": {
+        "name": "Clavis",
+        "profile": "2026年8月設立。東京都港区。資本金3,000万円。未上場。病院向けの原価・収支管理サービス「CUBE」を開発・提供する。",
+        "url": "https://www.clavis-medical.jp/",
+        "ceo": {
+          "name": "草場顕",
+          "bio": ""
+        }
+      },
+      "status": "published",
+      "updated_at": "2026-11-28T02:27:03.270Z"
+    },
+    {
+      "id": "e2961945-07a7-4b8f-9256-04d389664191",
+      "created_at": "2026-11-28T02:27:03.270Z",
+      "published_date": "2026-11-28",
+      "category": "global",
+      "featured": false,
+      "title": "【韓国】網膜画像AIのMediwhale、心血管疾患の10年リスクを網膜写真から推定するソフト「Dr. Noon CVD」で米FDAの510(k)クリアランスを初取得。糖尿病の眼底検査のカメラで心血管リスクも評価",
+      "source_name": "Mediwhale",
+      "source_url": "https://www.prnewswire.com/news-releases/mediwhale-announces-first-fda-510k-clearance-for-its-retinal-ai-cardiovascular-risk-assessment-software-302951428.html",
+      "image_url": "https://mmx.prnewswire.com/media/MS2043570/20261126195337EST_image_1.jpg?id=OA3102748&p=facebook",
+      "summary": [
+        "韓国のMediwhaleは11月27日、網膜画像から心血管リスクを評価するソフト「Dr. Noon CVD」で米FDAの510(k)クリアランスを取得したと発表した。同社にとって初めてのFDAクリアランス。",
+        "網膜画像のAI解析に年齢と性別を組み合わせ、初めての動脈硬化性心血管疾患の10年リスクを推定し、3つのリスク区分に分けて医師の判断を支える。",
+        "米国のプライマリケアの診療所で糖尿病の眼底検査に使われている網膜カメラを生かし、既存のネットワークを持つパートナーと組んで米国での導入と実臨床データの蓄積を進める。"
+      ],
+      "comment": "網膜の写真から心臓や血管の病気のリスクを推定するAIが、米国で医療機器として認められました。自分が注目したのは、「糖尿病の眼底検査で毎日使っているカメラを、そのまま心血管リスクの評価にも使う」ところです。新しい機器を置かずに既存の検査の価値を増やす形なので、日本でも健診や眼科で撮っている眼底写真を、別の病気の予防に生かす議論につながると思います。",
+      "quote": {
+        "text": "Retinal cameras are already in primary care clinics across the United States, where they are used every day for diabetic eye exams. With FDA clearance, that same retinal exam can now do more: support cardiovascular risk assessment.",
+        "source": "Mediwhale（PR Newswire）",
+        "url": "https://www.prnewswire.com/news-releases/mediwhale-announces-first-fda-510k-clearance-for-its-retinal-ai-cardiovascular-risk-assessment-software-302951428.html"
+      },
+      "status": "published",
+      "updated_at": "2026-11-28T02:27:03.270Z"
+    },
     {
       "id": "07de7397-a992-4c09-b3f2-41a87bdd98b6",
       "created_at": "2026-11-27T08:27:12.992Z",
